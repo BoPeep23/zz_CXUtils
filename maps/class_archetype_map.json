@@ -1,0 +1,14 @@
+{ 
+    "barbarian": ["barbarian", "berserker"],
+    "bard": ["bard", "jester", "minstrel"],
+    "cleric": ["cleric", "priest", "acolyte", "devout"],
+    "druid": ["druid"],
+    "fighter": ["fighter", "warrior", "gish"],
+    "monk": ["monk"],
+    "paladin": ["paladin", "zealot"],
+    "ranger": ["ranger", "hunter", "sharp-eye"],
+    "rogue": ["rogue", "thief", "assassin"],
+    "sorcerer": ["sorcerer"],
+    "warlock": ["warlock", "booyahg"],
+    "wizard": ["wizard", "mage"]
+}

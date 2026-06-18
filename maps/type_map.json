@@ -1,0 +1,105 @@
+{ 
+    "aberration": [
+        "mind flayer", 
+        "phase spider"
+    ],
+    "beast": [
+        "wolf",
+        "spider",
+        "hyena",
+        "giant eagle",
+        "dinosaur",
+        "chicken"
+    ],
+    "celestial": [
+        "celestial"
+    ],
+    "construct": [
+        "steel watcher",
+        "golem"
+    ],
+    "dragon": [
+        "dragon"
+    ],
+    "elemental": [
+        "elemental",
+        "genie",
+        "mephit"
+    ],
+    "fey": [
+        "meenlock",
+        "redcap"
+    ],
+    "fiend": [
+        "cambion",
+        "devil",
+        "hellsboar",
+        "imp",
+        "merregon"
+    ],
+    "giant": [
+        "ogre"
+    ],
+    "humanoid": [
+        "elf",
+        "elvish",
+        "dwarf",
+        "dwarven",
+        "halfling",
+        "gnome",
+        "half-elf",
+        "half-orc",
+        "tiefling",
+        "dragonborn",
+        "githyanki",
+        "kuo-toa",
+        "goblin",
+        "hobgoblin",
+        "bugbear",
+        "gnoll",
+        "kobold",
+        "meazel",
+        "drider",
+        "bandit"
+    ],
+    "monstrosity": [
+        "doppelganger",
+        "ettercap",
+        "gremishka",
+        "harpy",
+        "hook horror",
+        "shadow mastiff",
+        "minotaur",
+        "mimic",
+        "worg",
+        "owlbear"
+    ],
+    "plant": [
+        "blight",
+        "myconid",
+        "shambling mound",
+        "wood woad",
+        "shadow creeper"
+    ],
+    "undead": [
+        "spectre",
+        "crawling claw",
+        "justiciar",
+        "death knight",
+        "ghoul",
+        "ghast",
+        "ghost",
+        "flameskull",
+        "mummy",
+        "shadow",
+        "skeleton",
+        "wraith",
+        "zombie"
+    ],
+    "corpse": [
+        "corpse",
+        "skeleton!",
+        "mangled",
+        "_dead"
+    ]
+}

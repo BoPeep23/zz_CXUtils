@@ -1,0 +1,1090 @@
+{
+  "Acolyte": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Adept": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Agile Guardian": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Air Elemental": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Air Myrmidon": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ancient Magma Mephit": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ancient Mud Mephit": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ancient Wraith": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Animated Armour": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Apostate Defender": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Apostate Destroyer": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Apostate Librarian": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Apostate Sentinel": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Arcane Turret": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Crab": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Bat": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Beholder": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Black Gauntlet": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Blighted Actor": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Blighted Assassin": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Blighted Barman": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Blighted Chemist": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Blighted Patron": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Blighted Troubador": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Bloated Hyena": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Blue Jay": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Boar": {
+    "oneWordMatch": true,
+    "useLongerMatches": true
+  },
+  "Booyahg": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Brawler": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Bugbear": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Bulette": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Butcher": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Cashguard Artillerist": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Cashguard Basher": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ch'r'ai": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Chemist": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Chicken": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Citizen": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Civilian": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Clerk": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Cloaker": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Spiderling": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Quasit": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Corrupted Githyanki": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Cranium Rat": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Crawling Claw": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Cultist": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Cursed Imp": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Cursed Kuo-Toa": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Cursed Kuo-Toa Chief": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Dark Breaker": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Death Shepherd": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Death's Head of Bhaal": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Deep Rothe": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Devout": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Disciple": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Displacer Beast": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Red Dragon": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Doomsept": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Drow Assassin": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Drow Hunter": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Dryad": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Duergar": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Duergar Assassin": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Earth Elemental": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Earth Myrmidon": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Echo": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Elder": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Elder Rothe": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ember Gish'ra": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Entombed Scribe": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Entombed Warrior": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Errant Soul": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Eternal Rat": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ettercap": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Bird": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Fallen Barbarian": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Fallen Champion": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Fallen Fighter": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Fallen Gur Hunter": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Fallen Ranger": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Fallen Wizard": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Feloguard": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Fire Myrmidon": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Bear": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Fist of Bane": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Flaming Fist": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Flaming Fist Archer": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Flaming Fist Guisarmier": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Flaming Fist Healer": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Flaming Fist Mercenary": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Flaming Fist Protector": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Flaming Fist Wizard": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Golem": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Fungal Zombie": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gate Master": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gauntlet": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gazer": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ghast": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ghoul": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Ghoul Medic": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Rat": {
+    "oneWordMatch": true,
+    "useLongerMatches": true
+  },
+  "Spider": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Gilded Imp": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gilded Minotaur": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Githyanki": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Githyanki Battlemage": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Githyanki Captain": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Githyanki Cleric": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Githyanki Gish": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Githyanki Hunter": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Githyanki Patrol": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Githyanki Raider": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Githyanki Trainee": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Githyanki Warrior": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gnoll": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Gnoll Fang of Yeenoghu": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gnoll Flesh Gnawer": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gnoll Hunter": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Goblin": {
+    "oneWordMatch": true,
+    "useLongerMatches": true
+  },
+  "Goblin Booyahg": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Goblin Boss": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Goblin Brawler": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Goblin Chemist": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Goblin Devout": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Goblin Sharp-Eye": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Goblin Tracker": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Goblin Warlock": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Goblin Warrior": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gondian": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gravedigger": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Grease Elemental": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Grease Mephit": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Greaseball": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Greater Shadow": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Greater Wraith": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Greater Zombie": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Gremishka": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Harper": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Harpy": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Hell Sphere": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Hellfire Watcher": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Hellrider Cleric": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Hellrider Paladin": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Hellsboar": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "High Gish'ra": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Hill Giant": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Hobgoblin": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Hook Horror": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Spore Servant": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Hyena": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Illithid Arcanist": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Imp": {
+    "oneWordMatch": true,
+    "useLongerMatches": true
+  },
+  "Inquisitor of the Absolute": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Intellect Devourer": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Intellect Glutton": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Invoker of Bhaal": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Iron Consul": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ironshield": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Justiciar Avenger": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Justiciar Crusader": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Justiciar Nightweaver": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Justiciar Soulhunter": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Kobold": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Kobold Looter": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Kobold Minion": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Kobold Scout": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Kobold Thief": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Kuo-Toa": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Kuo-Toa Hunter": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Kuo-Toa Skirmisher": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Kuo-Toa Priest": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Giant Spider": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Lava Elemental": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Magma Mephit": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Manifestation of Tyranny": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Manip": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sheep": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Meazel": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Merregon": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Mikey 'Wiggles' Pridgen": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Mimic": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Mind Flayer": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Mind Master": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Minotaur": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Mistress of Souls": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Mummy": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Crow": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Myconid": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Necromite": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Newborn Gnoll": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Night Blade": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Novice": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Noxious Myconid": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ochre Jelly": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ogre": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Owlbear": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Ox": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Phase Spider": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Philomeen": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Pig": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Pigeon": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Pilgrim": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Poltergeist": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Werewolf": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Questioner": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Rabbit": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Raider": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Raven": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Reaper of Bhaal": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Reconstituted Arcanist": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Reconstituted Duellist": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Reconstituted Marksman": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Refugee": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Restless Myconid": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Revenant": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Robust Guardian": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sabre-Toothed Tiger": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sahuagin": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Sahuagin Champion": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sahuagin Hunter": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sapper": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sarth": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Scrying Eye": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Servant of Lolth": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Servitor": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Shadar-Kai": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Shade": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Shadow": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Shadow Creeper": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Shadow Mastiff": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Shadow-Cursed": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Shadow-Cursed Needle Blight": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Shadow-Cursed Raven": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Shadow-Cursed Shambling Mound": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Shadow-Cursed Squirrel": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Shadow-Cursed Vine Blight": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Shadow-Cursed Zealot": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sharp-Eye": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sharran Fidelian": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sharran Novice": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sharran Sentry": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Sister": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Skeleton": {
+    "oneWordMatch": false,
+    "useLongerMatches": true
+  },
+  "Sovereign": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Spectator": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Squirrel": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Steel Watcher": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Stone Guard": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Tentacle": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Tormented Soul": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Tracker": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Unholy Assassin": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Vargouille": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Vengeful Boar": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Vengeful Cambion": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Vengeful Imp": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Vengeful Merregon": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Vengeful Soul": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Veteran Gish": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Visage": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Eternal Debtor": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Warlock Bolt": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Water Elemental": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Water Myrmidon": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Will-o'-Wisp": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Winged Horror": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Wolf": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Wood Woad": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Worg": {
+    "oneWordMatch": true,
+    "useLongerMatches": false
+  },
+  "Wraith": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  },
+  "Zealot": {
+    "oneWordMatch": false,
+    "useLongerMatches": false
+  }
+}

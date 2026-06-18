@@ -1,0 +1,280 @@
+{
+    "DarkCleric": {
+        "Spells": {
+            "0": [
+                "Target_TollTheDead",
+                "Target_BurstingSinew"
+            ],
+            "1": [
+                "Target_InflictWounds"
+            ],
+            "2": [
+                "Target_WitherAndBloom",
+                "Target_Darkness"
+            ],
+            "3": [
+                "Shout_SpiritShroud"
+            ],
+            "4": [
+                "Target_Blight",
+                "Shout_ShadowOfMoil"
+            ]
+        },
+        "Passives": {
+            "Tier1": [
+
+            ],
+            "Tier2": [
+                "DevilsSight"
+            ],
+            "Tier3": [
+                "Reaper"
+            ],
+            "Tier4": [
+
+            ]
+        }
+    },
+    "LightCleric": {
+        "Spells": {
+            "0": [
+                "Target_SacredFlame"
+            ],
+            "1": [
+                "Projectile_GuidingBolt"
+            ],
+            "2": [
+                "Target_LesserRestoration"
+            ],
+            "3": [
+                "Shout_SpiritGuardians"
+            ],
+            "4": [
+                "Shout_AuraOfLife"
+            ]
+        },
+        "Passives": {
+            "Tier1": [
+                ""
+            ],
+            "Tier2": [
+                ""
+            ],
+            "Tier3": [
+                ""
+            ],
+            "Tier4": [
+
+            ]
+        }
+    },
+    "ColdMage": {
+        "Spells": {
+            "0": [
+                "Target_Frostbite",
+                "Target_RayOfFrost"
+            ],
+            "1": [
+                "Projectile_IceKnife"
+            ],
+            "2": [
+                "Zone_RimesBindingIce"
+            ],
+            "3": [
+                "Target_HungerOfHadar"
+            ],
+            "4": [
+                "Target_IceStorm"
+            ]
+        },
+        "Passives": {
+            "Tier1": [
+                ""
+            ],
+            "Tier2": [
+                "NaturalExplorer_WastelandWander_Cold"
+            ],
+            "Tier3": [
+                "ArmorOfAgathys_4"
+            ],
+            "Tier4": [
+                "ElementalAdept_Cold"
+            ]
+        }
+    },
+    "FireMage": {
+        "Spells": {
+            "0": [
+                "Target_FireBolt"
+            ],
+            "1": [
+                "Zone_BurningHands"
+            ],
+            "2": [
+                "Zone_AganazzarsScorcher",
+                "Projectile_ScorchingRay"
+            ],
+            "3": [
+                "Projectile_Fireball"
+            ],
+            "4": [
+                "Zone_WallOfFire"
+            ]
+        },
+        "Passives": {
+            "Tier1": [
+                ""
+            ],
+            "Tier2": [
+                "NaturalExplorer_WastelandWander_Fire"
+            ],
+            "Tier3": [
+                ""
+            ],
+            "Tier4": [
+                "ElementalAdept_Fire"
+            ]
+        }
+    },
+    "StormMage": {
+        "Spells": {
+            "0": [
+                "Target_ShockingGrasp",
+                "Shout_Thunderclap",
+                "Target_BoomingBlade"
+            ],
+            "1": [
+                "Zone_Thunderwave",
+                "Projectile_WitchBolt"
+            ],
+            "2": [
+                "Target_Shatter"
+            ],
+            "3": [
+                "Zone_LightningBolt",
+                "Teleportation_ThunderStep"
+            ],
+            "4": [
+                "Target_StormSphere"
+            ]
+        },
+        "Passives": {
+            "Tier1": [
+                ""
+            ],
+            "Tier2": [
+                ""
+            ],
+            "Tier3": [
+                ""
+            ],
+            "Tier4": [
+                "ElementalAdept_Thunder",
+                "ElementalAdept_Lightning"
+            ]
+        }
+    },
+    "Necromancer": {
+        "Spells": {
+            "0": [
+                "Target_ChillTouch",
+                "Target_BurstingSinew"
+            ],
+            "1": [
+                "Target_InflictWounds"
+            ],
+            "2": [
+                "Target_Darkness",
+                "Target_WitherAndBloom"
+            ],
+            "3": [
+                "Target_SummonShadowspawn"
+            ],
+            "4": [
+                "Target_Blight"
+            ]
+        },
+        "Passives": {
+            "Tier1": [
+                ""
+            ],
+            "Tier2": [
+                ""
+            ],
+            "Tier3": [
+                ""
+            ],
+            "Tier4": [
+                ""
+            ]
+        }
+    },
+    "Healer": {
+        "Spells": {
+            "0": [],
+            "1": [
+                "Target_HealingWord",
+                "Target_CureWounds"
+            ],
+            "2": [
+                "Target_LesserRestoration"
+            ],
+            "3": [
+                "Target_HealingWord_Mass",
+                "Shout_AuraOfVitality"
+            ],
+            "4": [
+                "Shout_AuraOfLife"
+            ]
+        },
+        "Passives": {
+            "Tier1": [
+                ""
+            ],
+            "Tier2": [
+                ""
+            ],
+            "Tier3": [
+                ""
+            ],
+            "Tier4": [
+                ""
+            ]
+        }
+    },
+    "Psionic": {
+        "Spells": {
+            "0": [
+                "Target_ViciousMockery",
+                "Target_MindSliver"
+            ],
+            "1": [
+                "Target_DissonantWhispers"
+            ],
+            "2": [
+                "Target_TashasMindWhip",
+                "Target_MindSpike"
+            ],
+            "3": [
+                "Target_IntellectFortress"
+            ],
+            "4": [
+                "Projectile_RaulothimsPsychicLance"
+            ]
+        },
+        "Passives": {
+            "Tier1": [
+                ""
+            ],
+            "Tier2": [
+                ""
+            ],
+            "Tier3": [
+                ""
+            ],
+            "Tier4": [
+                ""
+            ]
+        }
+    }
+} 

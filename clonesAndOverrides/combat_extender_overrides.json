@@ -1,0 +1,114 @@
+{
+    "Overrides": {
+        "S_WYR_GurCamp_GurLeader_5e52cf9c-b673-45b7-888c-2c105eb4d890": {
+            "Passives": [
+                "ARP_SuperiorityDie_2",
+                "DualWielder_BonusAC",
+                "DualWielder_PassiveBonuses",
+                "Goon_AttackRoll_2",
+                "Goon_Summon_Potion_Healing_Greater_x1",
+                "GreatWeaponMaster_BonusAttack",
+                "GreatWeaponMaster_BonusDamage",
+                "Goon_Increased_Movement_2"
+            ],
+            "Spells": [
+                "Target_MenacingAttack",
+                "Target_Riposte"
+            ],
+            "HealthOverride": 140
+        },
+        "S_WYR_GurCamp_Hunter_002_630d63de-ae45-4649-8cbd-563b6d3055ae": {
+            "Passives": [
+                "ARP_SuperiorityDie_2",
+                "DualWielder_BonusAC",
+                "DualWielder_PassiveBonuses",
+                "Goon_AttackRoll_2",
+                "Goon_Summon_Potion_Healing_Greater_x1",
+                "GreatWeaponMaster_BonusAttack",
+                "GreatWeaponMaster_BonusDamage",
+                "Goon_Increased_Movement_2"
+            ],
+            "Spells": [
+                "Target_MenacingAttack",
+                "Target_Riposte"
+            ],
+            "HealthOverride": 110
+        },
+        "S_WYR_GurCamp_Hunter_005_afbb70d4-5cc4-444f-90b6-0d243b6418c3": {
+            "Passives": [
+                "FightingStyle_Archery",
+                "Goon_AC_Buff_1",
+                "Goon_Target_Longstrider_Passive",
+                "Sharpshooter_AllIn",
+                "Sharpshooter_Bonuses"
+            ],
+            "Spells": [
+                "Target_PlantGrowth",
+                "Zone_ConjureBarrage_Ranged"
+            ],
+            "HealthOverride": 90
+        },
+        "S_WYR_GurCamp_Hunter_001_a4ef7429-bca0-4e2f-9aab-a4eff9ac95e9": {
+            "Passives": [
+                "ARP_SuperiorityDie_2",
+                "DualWielder_BonusAC",
+                "DualWielder_PassiveBonuses",
+                "Goon_AttackRoll_2",
+                "Goon_Summon_Potion_Healing_Greater_x1",
+                "GreatWeaponMaster_BonusAttack",
+                "GreatWeaponMaster_BonusDamage"
+            ],
+            "Spells": [
+                "Target_MenacingAttack",
+                "Target_Riposte"
+            ],
+            "HealthOverride": 120
+        },
+        "S_WYR_GurCamp_Hunter_003_8948bd61-52a0-41a0-99b8-bb6d4c301255": {
+            "Passives": [
+                "Goon_AC_Buff_5",
+                "Goon_Damage_Radiant_d8_SpellAttacks",
+                "Goon_Damage_Radiant_d4_Spells",
+                "DEN_HellridersPride_Passive"
+            ],
+            "Spells": [
+                "Target_GuardianOfFaith",
+                "Target_CureWounds_Mass",
+                "Target_BestowCurse",
+                "Shout_RadianceOfTheDawn",
+                "Target_Fireball"
+            ],
+            "HealthOverride": 110
+        },
+        "S_WYR_GurCamp_Hunter_004_eb08e3f6-9059-498a-8125-1d9af24ee67f": {
+            "Passives": [
+                "ARP_SuperiorityDie_2",
+                "DualWielder_BonusAC",
+                "DualWielder_PassiveBonuses",
+                "Goon_AttackRoll_2",
+                "Goon_Summon_Potion_Healing_Greater_x1",
+                "GreatWeaponMaster_BonusAttack",
+                "GreatWeaponMaster_BonusDamage"
+            ],
+            "Spells": [
+                "Target_MenacingAttack",
+                "Target_Riposte"
+            ],
+            "HealthOverride": 95
+        },
+        "S_WYR_GurCamp_Hunter_006_4c42f14a-c99a-4ba0-891c-136bf7ed38bb": {
+            "Passives": [
+                "FightingStyle_Archery",
+                "Goon_AC_Buff_1",
+                "Goon_Target_Longstrider_Passive",
+                "Sharpshooter_AllIn",
+                "Sharpshooter_Bonuses"
+            ],
+            "Spells": [
+                "Target_PlantGrowth",
+                "Zone_ConjureBarrage_Ranged"
+            ],
+            "HealthOverride": 85
+        }
+    }
+}

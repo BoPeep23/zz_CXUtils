@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../../OneDrive/Desktop/BG3 Modding"
+		}
+	],
+	"settings": {
+		"bg3ModHelper.rootModPath": "c:\\Users\\Tyler\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Script Extender",
+		"bg3ModHelper.packingPriority": 0
+	}
+}

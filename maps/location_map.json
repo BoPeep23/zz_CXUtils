@@ -1,0 +1,713 @@
+{
+    "PROLOGUE_NAUTILOID_IMPS": [
+        "FirstFight"
+    ],
+    "PROLOGUE_NAUTILOID_THRALLS": [
+        "FirstFight"
+    ],
+    "GOBLIN_TEMPLE_SHARRANS": [
+        "AE_DefiledTemple_",
+        "AE_Justiciar_DefiledTemple"
+    ],
+    "END_BRAIN_FINAL": [
+        "END_BackupDaisy"
+    ],
+    "UNDERDARK_WIZARD_ENTRANCE": [
+        "EO_AnimatedArmor"
+    ],
+    "UNDERDARK_SUSSUR_BULETTES": [
+        "EO_Bulette",
+        "MMM_BULETTEBABY",
+        "S_UND_Bulette"
+    ],
+    "UNDERCITY_RUINS_MUMMIES": [
+        "EO_CrawlingClaw",
+        "S_LOW_AncientLair"
+    ],
+    "FOREST_BRIDGE_MINOTAUR": [
+        "EO_Minotaur"
+    ],
+    "CRASH_LAEZEL_CAGE": [
+        "S_CHA_CagerLaezel"
+    ],
+    "CHAPEL_EXTERIOR_BANDITS": [
+        "S_CHA_Exterior_Bandit"
+    ],
+    "CHAPEL_INTERIOR_BANDITS": [
+        "S_CHA_FL1"
+    ],
+    "CHAPEL_CRYPT_SKELETONS": [
+        "S_CHA_FL0"
+    ],
+    "CHAPEL_CRYPT_GHOUL": [
+        "EO_GhoulRuins",
+        "S_CHA_OutpostSpider"
+    ],
+    "CHAPEL_CRYPT_KOBOLDS": [
+        "EO_Kobold"
+    ],
+    "CRASH_EXTERIOR_GOBLINS": [
+        "MMM_GOBCRASHAMBUSH"
+    ],
+    "CRASH_INTERIOR_DEVOURERS": [
+        "S_CRA_Escape_IntDevourer"
+    ],
+    "CRASH_INTERIOR_CORPSES": [
+        "S_CRA_DeadPrisoner",
+        "S_CRA_DeadIntellectDevourer",
+        "S_CRA_DeadMindflayer"
+    ],
+    "CRASH_INTERIOR_FLAYERS": [
+        "EO_Mindflayer",
+        "S_CRA_Escape_Mindflayer",
+        "MMM_FLAYERAMBUSH"
+    ],
+    "CRASH_DOCKS_KUOTOA": [
+        "MMM_KUOTOADOCK"
+    ],
+    "CRASH_COVE_KUOTOA": [
+        "EO_Kuotoa"
+    ],
+    "CRASH_EXTERIOR_WOLVES": [
+        "MMM_CRASHWOLF"
+    ],
+    "RISEN_WAUKEEN_CORPSES": [
+        "EO_Waukeen"
+    ],
+    "GROVE_RITUAL_DRUIDS": [
+        "S_DEN_RitualDruid",
+        "S_DEN_DruidGuard"
+    ],
+    "GROVE_RITUAL_SQUIRRELS": [
+        "S_DEN_BardSquirrel"
+    ],
+    "GROVE_EXTERIOR_BUGBEAR": [
+        "S_DEN_BugbearNinja"
+    ],
+    "GROVE_BEACH_HARPIES": [
+        "S_DEN_Harpy",
+        "MMM_HARPYMATRIARCH",
+        "MMM_HARPYKUOTOA"
+    ],
+    "GROVE_EXTERIOR_RAID": [
+        "S_DEN_Raider",
+        "S_DEN_GoblinRaider"
+    ],
+    "GROVE_CAVE_GOBLINS": [
+        ""
+    ],
+    "GROVE_RITUAL_POOLS": [
+        "S_DEN_DruidLeader",
+        "S_DEN_DruidOpposed",
+        "S_DEN_ShadowDruid"
+    ],
+    "GROVE_BACKDOOR_BUGBEAR": [
+        "MMM_BACKDOOR"
+    ],
+    "FOREST_HARPERS_KOBOLDS": [
+        "EO_Kobold_"
+    ],
+    "FOREST_HARPERS_BUGBEAR": [
+        "MMM_HARPERCLIFF",
+        "MMM_HARPERNEST"
+    ],
+    "FOREST_BRIDGE_BUGBEAR": [
+        "MMM_BUGBEARMURDER"
+    ],
+    "FOREST_CAVE_OWLBEARS": [
+        "EO_Owlbear",
+        "Owlbear_Dad",
+        "S_FOR_OwlBear"
+    ],
+    "FOREST_WALL_WOADS": [
+        "EO_WoodWoad"
+    ],
+    "BLIGHTED_PATROL_GOBLINS": [
+        "S_FOR_ApothecaryGoblin",
+        "S_FOR_Ambush"
+    ],
+    "BLIGHTED_SCHOOL_OGRES": [
+        "S_FOR_SchoolOgre"
+    ],
+    "BLIGHTED_WINDMILL_GOBLINS": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "AE_SANCTUM_SHAR": [
+        "AE_SANCTUM_SHAR_1"
+    ],
+    "BALDURSMOUTH_BASEMENT": [
+        "BALDURSMOUTH_BASEMENT_1"
+    ],
+    "BALDURSMOUTH_UPSTAIRS": [
+        "BALDURSMOUTH_UPSTAIRS_1"
+    ],
+    "BASILISK_PRISON": [
+        "BASILISK_PRISON_1"
+    ],
+    "BEACH_ASTARION": [
+        "BEACH_ASTARION_1"
+    ],
+    "BLIGHTED_NECROMANCER": [
+        "BLIGHTED_NECROMANCER_1"
+    ],
+    "BLIGHTED_OGRES": [
+        "BLIGHTED_OGRES_1"
+    ],
+    "BLIGHTED_RISENPATH": [
+        "BLIGHTED_RISENPATH_1"
+    ],
+    "BLIGHTED_WINDMILL": [
+        "BLIGHTED_WINDMILL_1"
+    ],
+    "BLOOMRIDGE_ASSASSINS": [
+        "BLOOMRIDGE_ASSASSINS_1"
+    ],
+    "BLUSHING_BOSS": [
+        "BLUSHING_BOSS_1"
+    ],
+    "BLUSHING_DOWNSTAIRS": [
+        "BLUSHING_DOWNSTAIRS_1"
+    ],
+    "BLUSHING_UPSTAIRS": [
+        "BLUSHING_UPSTAIRS_1"
+    ],
+    "BRAIN_ALLIES": [
+        "BRAIN_ALLIES_1"
+    ],
+    "BRAIN_APPROACH": [
+        "BRAIN_APPROACH_1",
+        "BRAIN_APPROACH_2"
+    ],
+    "BRAIN_ASCENT": [
+        "BRAIN_ASCENT_1",
+        "BRAIN_ASCENT_2"
+    ],
+    "BRAIN_BATTLE": [
+        "BRAIN_BATTLE_1"
+    ],
+    "BRAIN_COURTYARD": [
+        "BRAIN_COURTYARD_1",
+        "BRAIN_COURTYARD_2",
+        "BRAIN_COURTYARD_3",
+        "BRAIN_COURTYARD_4"
+    ],
+    "BRAIN_SEWERS": [
+        "BRAIN_SEWERS_1",
+        "BRAIN_SEWERS_2"
+    ],
+    "CAZADOR_BALLROOM": [
+        "CAZADOR_BALLROOM_1"
+    ],
+    "CAZADOR_DUNGEON": [
+        "CAZADOR_DUNGEON_1"
+    ],
+    "CAZADOR_GUARDS": [
+        "CAZADOR_GUARDS_1"
+    ],
+    "CAZADOR_INTERIOR": [
+        "CAZADOR_INTERIOR_1",
+        "CAZADOR_INTERIOR_2"
+    ],
+    "CLOISTER_VICONIA": [
+        "CLOISTER_VICONIA_1"
+    ],
+    "COLONY_BARRACKS": [
+        "COLONY_BARRACKS_1"
+    ],
+    "COLONY_BUTCHER": [
+        "COLONY_BUTCHER_1"
+    ],
+    "COLONY_LAB": [
+        "COLONY_LAB_1"
+    ],
+    "COLONY_TADPOLE": [
+        "COLONY_TADPOLE_1"
+    ],
+    "COUNTING_VAULT": [
+        "COUNTING_VAULT_1"
+    ],
+    "CRYPT_BANDITS": [
+        "CRYPT_BANDITS_1",
+        "CRYPT_BANDITS_2"
+    ],
+    "CRYPT_ENTRANCE": [
+        "CRYPT_ENTRANCE_1"
+    ],
+    "CRYPT_UNDEAD": [
+        "CRYPT_UNDEAD_1"
+    ],
+    "Corpse": [
+        "Corpse"
+    ],
+    "DEVILSFEE_HELSIK": [
+        "DEVILSFEE_HELSIK_1"
+    ],
+    "DOCKS_CURSED": [
+        "DOCKS_CURSED_1"
+    ],
+    "DOCKS_SMUGGLERS": [
+        "DOCKS_SMUGGLERS_1"
+    ],
+    "DOCKS_WAREHOUSE": [
+        "DOCKS_WAREHOUSE_1"
+    ],
+    "DRAUGHTS_BASEMENT": [
+        "DRAUGHTS_BASEMENT_1"
+    ],
+    "ELFSONG_BASEMENT": [
+        "ELFSONG_BASEMENT_1"
+    ],
+    "ELFSONG_GITHYANKI": [
+        "ELFSONG_GITHYANKI_1"
+    ],
+    "EO_BEACH_KUOTOA": [
+        "EO_BEACH_KUOTOA_1"
+    ],
+    "EO_CRYPT_CENTER": [
+        "EO_CRYPT_CENTER_1"
+    ],
+    "EO_REITHWIN_MORGUE": [
+        "EO_REITHWIN_MORGUE_1"
+    ],
+    "EO_REITHWIN_SHADE": [
+        "EO_REITHWIN_SHADE_1"
+    ],
+    "EO_REITHWIN_ZACHARIEL": [
+        "EO_REITHWIN_ZACHARIEL_1"
+    ],
+    "EO_SHADOW_SKULLLORD": [
+        "EO_SHADOW_SKULLLORD_1"
+    ],
+    "EO_SHADOW_WISP": [
+        "EO_SHADOW_WISP_1"
+    ],
+    "EO_SHAR_DOOMSEPT": [
+        "EO_SHAR_DOOMSEPT_1"
+    ],
+    "EO_SHAR_MAUSOLEUM": [
+        "EO_SHAR_MAUSOLEUM_1"
+    ],
+    "EO_WILDERNESS_BRIDGE": [
+        "EO_WILDERNESS_BRIDGE_1"
+    ],
+    "EO_WILDERNESS_OWLBEAR": [
+        "EO_WILDERNESS_OWLBEAR_1"
+    ],
+    "FIGARO_SERIAL": [
+        "FIGARO_SERIAL_1"
+    ],
+    "FIREWORKS_HOUSE": [
+        "FIREWORKS_HOUSE_1"
+    ],
+    "FOREST_HARPER": [
+        "FOREST_HARPER_1",
+        "FOREST_HARPER_2"
+    ],
+    "FOREST_PATH": [
+        "FOREST_PATH_1",
+        "FOREST_PATH_2"
+    ],
+    "FOREST_RIVERSIDE": [
+        "FOREST_RIVERSIDE_1"
+    ],
+    "FOREST_WOADS": [
+        "FOREST_WOADS_1"
+    ],
+    "FOUNDRY_AFTERMATH": [
+        "FOUNDRY_AFTERMATH_1"
+    ],
+    "FOUNDRY_BASEMENT": [
+        "FOUNDRY_BASEMENT_1",
+        "FOUNDRY_BASEMENT_2"
+    ],
+    "FOUNDRY_OUTSIDE": [
+        "FOUNDRY_OUTSIDE_1"
+    ],
+    "FOUNDRY_UPSTAIRS": [
+        "FOUNDRY_UPSTAIRS_1"
+    ],
+    "GARLOWS_REDCAP": [
+        "GARLOWS_REDCAP_1"
+    ],
+    "GOBLIN_CAMP": [
+        "GOBLIN_CAMP_1",
+        "GOBLIN_CAMP_2"
+    ],
+    "GRAVEYARD_FRIENDLY": [
+        "GRAVEYARD_FRIENDLY_1"
+    ],
+    "GRAVEYARD_RISEN": [
+        "GRAVEYARD_RISEN_1"
+    ],
+    "GROVE_ASSASSIN": [
+        "GROVE_ASSASSIN_1"
+    ],
+    "GROVE_BACK": [
+        "GROVE_BACK_1"
+    ],
+    "GROVE_BEACH": [
+        "GROVE_BEACH_1"
+    ],
+    "GROVE_CHAMBER": [
+        "GROVE_CHAMBER_1"
+    ],
+    "GROVE_DEFENSE": [
+        "GROVE_DEFENSE_1"
+    ],
+    "GROVE_ENTRANCE": [
+        "GROVE_ENTRANCE_1"
+    ],
+    "GROVE_IDOL": [
+        "GROVE_IDOL_1"
+    ],
+    "GROVE_PASSAGE": [
+        "GROVE_PASSAGE_1"
+    ],
+    "GRYMFORGE_DRUEGAR": [
+        "GRYMFORGE_DRUEGAR_1"
+    ],
+    "GRYMFORGE_JELLIES": [
+        "GRYMFORGE_JELLIES_1"
+    ],
+    "GRYMFORGE_MEPHITS": [
+        "GRYMFORGE_MEPHITS_1"
+    ],
+    "GUILDHALL_CHAMBER": [
+        "GUILDHALL_CHAMBER_1"
+    ],
+    "HAG_MASKS": [
+        "HAG_MASKS_1"
+    ],
+    "HIGHBERRY_SERIAL": [
+        "HIGHBERRY_SERIAL_1"
+    ],
+    "HOPE_BOUDOIR": [
+        "HOPE_BOUDOIR_1"
+    ],
+    "HOPE_DININGROOM": [
+        "HOPE_DININGROOM_1"
+    ],
+    "HOPE_HALLWAYS": [
+        "HOPE_HALLWAYS_1",
+        "HOPE_HALLWAYS_2",
+        "HOPE_HALLWAYS_3"
+    ],
+    "HOPE_PRISON": [
+        "HOPE_PRISON_1"
+    ],
+    "HOPE_RAPHAEL": [
+        "HOPE_RAPHAEL_1"
+    ],
+    "IRONTHRONE_BACK": [
+        "IRONTHRONE_BACK_1"
+    ],
+    "IRONTHRONE_CENTER": [
+        "IRONTHRONE_CENTER_1"
+    ],
+    "IRONTHRONE_FRONT": [
+        "IRONTHRONE_FRONT_1"
+    ],
+    "IRONTHRONE_LEFT": [
+        "IRONTHRONE_LEFT_1"
+    ],
+    "IRONTHRONE_RIGHT": [
+        "IRONTHRONE_RIGHT_1"
+    ],
+    "JAHEIRA_DOWNSTAIRS": [
+        "JAHEIRA_DOWNSTAIRS_1"
+    ],
+    "JANNATH_POLTERGEISTS": [
+        "JANNATH_POLTERGEISTS_1"
+    ],
+    "JANNATH_SERVANTS": [
+        "JANNATH_SERVANTS_1"
+    ],
+    "MMM_BEACH_KUOTOA": [
+        "MMM_BEACH_KUOTOA_1"
+    ],
+    "MMM_CRYPT_CENTER": [
+        "MMM_CRYPT_CENTER_1"
+    ],
+    "MMM_CRYPT_KOBOLDS": [
+        "MMM_CRYPT_KOBOLDS_1"
+    ],
+    "MMM_GROVE_BACK": [
+        "MMM_GROVE_BACK_1"
+    ],
+    "MMM_SWAMP_KUOTOA": [
+        "MMM_SWAMP_KUOTOA_1"
+    ],
+    "MMM_WILDERNESS_BRIDGE": [
+        "MMM_WILDERNESS_BRIDGE_1"
+    ],
+    "MOONRISE_ASSAULT": [
+        "MOONRISE_ASSAULT_1"
+    ],
+    "MOONRISE_MAINFLOOR": [
+        "MOONRISE_MAINFLOOR_1"
+    ],
+    "MOONRISE_OUBILETTE": [
+        "MOONRISE_OUBILETTE_1"
+    ],
+    "MOONRISE_PRISON": [
+        "MOONRISE_PRISON_1",
+        "MOONRISE_PRISON_2"
+    ],
+    "MOONRISE_WAREHOUSE": [
+        "MOONRISE_WAREHOUSE_1"
+    ],
+    "MORPHIC_POOL": [
+        "MORPHIC_POOL_1"
+    ],
+    "MURDERS_FAKESENDAI": [
+        "MURDERS_FAKESENDAI_2",
+        "MURDERS_FAKESENDAI_3"
+    ],
+    "MURDERS_HOUSE": [
+        "MURDERS_HOUSE_1"
+    ],
+    "MURDERS_RITUAL": [
+        "MURDERS_RITUAL_1",
+        "MURDERS_RITUAL_2"
+    ],
+    "NAUTILOID_CRASHED": [
+        "NAUTILOID_CRASHED_3"
+    ],
+    "NAUTILOID_IMPS": [
+        "NAUTILOID_IMPS_1"
+    ],
+    "PHILGRAVES_CARRION": [
+        "PHILGRAVES_CARRION_1"
+    ],
+    "PHILGRAVES_SAHUAGIN": [
+        "PHILGRAVES_SAHUAGIN_1"
+    ],
+    "PRISM_ORPHEUS": [
+        "PRISM_ORPHEUS_1"
+    ],
+    "RAMAZITH_LORROAKAN": [
+        "RAMAZITH_LORROAKAN_1",
+        "RAMAZITH_LORROAKAN_2"
+    ],
+    "REITHWIN_GITHYANKI": [
+        "REITHWIN_GITHYANKI_1"
+    ],
+    "REITHWIN_HEALING": [
+        "REITHWIN_HEALING_1"
+    ],
+    "REITHWIN_KUOTOA": [
+        "REITHWIN_KUOTOA_1"
+    ],
+    "REITHWIN_MASON": [
+        "REITHWIN_MASON_1"
+    ],
+    "REITHWIN_MORGUE": [
+        "REITHWIN_MORGUE_1"
+    ],
+    "RISEN_FLIND": [
+        "RISEN_FLIND_1"
+    ],
+    "RISEN_HYENAS": [
+        "RISEN_HYENAS_1"
+    ],
+    "RISEN_TYR": [
+        "RISEN_TYR_1"
+    ],
+    "RISEN_WAYPOINT": [
+        "RISEN_WAYPOINT_1"
+    ],
+    "RISEN_ZHENT": [
+        "RISEN_ZHENT_1"
+    ],
+    "RISEN_ZHENTARIM": [
+        "RISEN_ZHENTARIM_1",
+        "RISEN_ZHENTARIM_2"
+    ],
+    "RIVINGTON_ARFUR": [
+        "RIVINGTON_ARFUR_1"
+    ],
+    "RIVINGTON_CIRCUS": [
+        "RIVINGTON_CIRCUS_1",
+        "RIVINGTON_CIRCUS_2"
+    ],
+    "RIVINGTON_SMUGGLER": [
+        "RIVINGTON_SMUGGLER_1"
+    ],
+    "RIVINGTON_TEMPLE": [
+        "RIVINGTON_TEMPLE_1",
+        "RIVINGTON_TEMPLE_2",
+        "RIVINGTON_TEMPLE_3"
+    ],
+    "RIVINGTON_WELL": [
+        "RIVINGTON_WELL_1"
+    ],
+    "SANCTUM_DROR": [
+        "SANCTUM_DROR_1"
+    ],
+    "SHADOWFELL_BALTHAZAR": [
+        "SHADOWFELL_BALTHAZAR_1"
+    ],
+    "SHADOW_BLIGHTS": [
+        "SHADOW_BLIGHTS_1"
+    ],
+    "SHADOW_KARNISS": [
+        "SHADOW_KARNISS_1"
+    ],
+    "SHADOW_OLIVER": [
+        "SHADOW_OLIVER_1"
+    ],
+    "SHAR_BALTHAZAR": [
+        "SHAR_BALTHAZAR_1"
+    ],
+    "SHAR_CLOAKER": [
+        "SHAR_CLOAKER_1"
+    ],
+    "SHAR_LIBRARY": [
+        "SHAR_LIBRARY_1"
+    ],
+    "SHAR_MAINHALL": [
+        "SHAR_MAINHALL_1"
+    ],
+    "SHAR_YURGIR": [
+        "SHAR_YURGIR_1"
+    ],
+    "SPIDER_CAVES": [
+        "SPIDER_CAVES_1",
+        "SPIDER_CAVES_2"
+    ],
+    "SUNDRIES_ATRIUM": [
+        "SUNDRIES_ATRIUM_1"
+    ],
+    "SUNDRIES_VAULT": [
+        "SUNDRIES_VAULT_1"
+    ],
+    "SWAMP_ETHEL": [
+        "SWAMP_ETHEL_1"
+    ],
+    "SWAMP_KUOTOA": [
+        "SWAMP_KUOTOA_1"
+    ],
+    "SWAMP_LOG": [
+        "SWAMP_LOG_1"
+    ],
+    "SWAMP_MEPHITS": [
+        "SWAMP_MEPHITS_1"
+    ],
+    "SWAMP_WISPS": [
+        "SWAMP_WISPS_1"
+    ],
+    "TEMPLE_OUTSIDE": [
+        "TEMPLE_OUTSIDE_1"
+    ],
+    "TRIBUNAL_KNIGHTS": [
+        "TRIBUNAL_KNIGHTS_1"
+    ],
+    "TRIBUNAL_SAREVOK": [
+        "TRIBUNAL_SAREVOK_1"
+    ],
+    "UMBERLEE_UPSTAIRS": [
+        "UMBERLEE_UPSTAIRS_1"
+    ],
+    "UMBERLEE_VAULT": [
+        "UMBERLEE_VAULT_1"
+    ],
+    "UNDERCITY_ARABELLA": [
+        "UNDERCITY_ARABELLA_1"
+    ],
+    "UNDERCITY_BHAALISTS": [
+        "UNDERCITY_BHAALISTS_1",
+        "UNDERCITY_BHAALISTS_2",
+        "UNDERCITY_BHAALISTS_3"
+    ],
+    "UNDERCITY_CARRION": [
+        "UNDERCITY_CARRION_1"
+    ],
+    "UNDERCITY_GREASE": [
+        "UNDERCITY_GREASE_1"
+    ],
+    "UNDERCITY_MINSC": [
+        "UNDERCITY_MINSC_1"
+    ],
+    "UNDERCITY_RUINS": [
+        "UNDERCITY_RUINS_1"
+    ],
+    "UNDERCITY_TEMPLE": [
+        "UNDERCITY_TEMPLE_1"
+    ],
+    "UNDERDARK_KUOTOA": [
+        "UNDERDARK_KUOTOA_1"
+    ],
+    "UNDERDARK_MINOTAURS": [
+        "UNDERDARK_MINOTAURS_1"
+    ],
+    "UNDERDARK_SPECTATOR": [
+        "UNDERDARK_SPECTATOR_1"
+    ],
+    "UNDERDARK_SUSSUR": [
+        "UNDERDARK_SUSSUR_1",
+        "UNDERDARK_SUSSUR_2"
+    ],
+    "UNDERDARK_TOWER": [
+        "UNDERDARK_TOWER_1"
+    ],
+    "UNDERDARK_VILLAGE": [
+        "UNDERDARK_VILLAGE_1"
+    ],
+    "VOLOSFATE_THUGS": [
+        "VOLOSFATE_THUGS_1"
+    ],
+    "WAUKEEN_ENTRANCE": [
+        "WAUKEEN_ENTRANCE_1",
+        "WAUKEEN_ENTRANCE_2"
+    ],
+    "WILDERNESS_OWLBEAR": [
+        "WILDERNESS_OWLBEAR_1"
+    ],
+    "WYRMS_ARMOURY": [
+        "WYRMS_ARMOURY_1"
+    ],
+    "WYRMS_FIRSTFLOOR": [
+        "WYRMS_FIRSTFLOOR_1"
+    ],
+    "WYRMS_GORTASH": [
+        "WYRMS_GORTASH_1"
+    ],
+    "WYRMS_HALL": [
+        "WYRMS_HALL_1"
+    ],
+    "WYRMS_HARPERS": [
+        "WYRMS_HARPERS_1"
+    ],
+    "WYRMS_MESS": [
+        "WYRMS_MESS_1"
+    ],
+    "WYRMS_PRISON": [
+        "WYRMS_PRISON_1"
+    ],
+    "WYRMS_ROOF": [
+        "WYRMS_ROOF_1"
+    ],
+    "WYRMS_SHARESS": [
+        "WYRMS_SHARESS_1"
+    ],
+    "WYRMWAY_COURAGE": [
+        "WYRMWAY_COURAGE_1"
+    ],
+    "WYRMWAY_FAILURE": [
+        "WYRMWAY_FAILURE_1",
+        "WYRMWAY_FAILURE_2",
+        "WYRMWAY_FAILURE_3",
+        "WYRMWAY_FAILURE_4",
+        "WYRMWAY_FAILURE_5",
+        "WYRMWAY_FAILURE_6"
+    ],
+    "WYRMWAY_INSIGHT": [
+        "WYRMWAY_INSIGHT_1"
+    ],
+    "WYRMWAY_JUSTICE": [
+        "WYRMWAY_JUSTICE_1"
+    ]
+}

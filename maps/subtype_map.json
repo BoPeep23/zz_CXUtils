@@ -1,0 +1,269 @@
+{
+    "human": [
+        "human"
+    ],
+    "elf": [
+        "elf",
+        "elvish",
+        "elven"
+    ],
+    "dwarf": [
+        "dwarf",
+        "dwarven"
+    ],
+    "duergar": [
+        "duergar"
+    ],
+    "halfling": [
+        "halfling"
+    ],
+    "gnome": [
+        "gnome"
+    ],
+    "half-elf": [
+        "half-elf",
+        "half-elven"
+    ],
+    "half-orc": [
+        "half-orc"
+    ],
+    "tiefling": [
+        "tiefling"
+    ],
+    "dragonborn": [
+        "dragonborn"
+    ],
+    "githyanki": [
+        "gith!",
+        "githyanki",
+        "vlaakith"
+    ],
+    "kuo-toa": [
+        "kuo-toa"
+    ],
+    "goblin": [
+        "goblin!"
+    ],
+    "hobgoblin": [
+        "hobgoblin"
+    ],
+    "bugbear": [
+        "bugbear"
+    ],
+    "mind flayer": [
+        "mind flayer",
+        "illithid",
+        "mindflayer"
+    ],
+    "intellect devourer": [
+        "intellect devourer",
+        "intellectdevourer"
+    ],
+    "giant eagle": [
+        "giant eagle",
+        "gianteagle"
+    ],
+    "hyena": [
+        "hyena"
+    ],
+    "spider": [
+        "giant spider",
+        "phase spider",
+        "giantspider",
+        "phasespider",
+        "tiny spider",
+        "tinyspider"
+    ],
+    "wolf": [
+        "wolf"
+    ],
+    "dinosaur": [
+        "saurus",
+        "ailoramus"
+    ],
+    "golem": [
+        "golem"
+    ],
+    "elemental": [
+        "elemental"
+    ],
+    "genie": [
+        "djinni",
+        "efreeti"
+    ],
+    "steel watcher": [
+        "steel watcher",
+        "steelwatcher"
+    ],
+    "sahuagin": [
+        "sahuagin"
+    ],
+    "mephit": [
+        "mephit"
+    ],
+    "meenlock": [
+        "meenlock"
+    ],
+    "redcap": [
+        "redcap"
+    ],
+    "cambion": [
+        "cambion"
+    ],
+    "devil": [
+        "devil"
+    ],
+    "hellsboar": [
+        "hellsboar"
+    ],
+    "imp": [
+        "imp"
+    ],
+    "merregon": [
+        "merregon"
+    ],
+    "ogre": [
+        "ogre"
+    ],
+    "gnoll": [
+        "gnoll"
+    ],
+    "kobold": [
+        "kobold"
+    ],
+    "meazel": [
+        "meazel"
+    ],
+    "bulette": [
+        "bulette"
+    ],
+    "doppelganger": [
+        "doppelganger"
+    ],
+    "drider": [
+        "drider"
+    ],
+    "ettercap": [
+        "ettercap"
+    ],
+    "gremishka": [
+        "gremishka"
+    ],
+    "harpy": [
+        "harpy"
+    ],
+    "hook horror": [
+        "hook horror",
+        "hookhorror"
+    ],
+    "shadow mastiff": [
+        "shadow mastiff",
+        "shadowmastiff"
+    ],
+    "minotaur": [
+        "minotaur"
+    ],
+    "mimic": [
+        "mimic"
+    ],
+    "worg": [
+        "worg"
+    ],
+    "blight": [
+        "blight"
+    ],
+    "myconid": [
+        "myconid"
+    ],
+    "shambling mound": [
+        "shambling mound",
+        "shamblingmound"
+    ],
+    "wood woad": [
+        "wood woad",
+        "woodwoad"
+    ],
+    "shadow creeper": [
+        "shadow creeper",
+        "grasping vine",
+        "shadowcreeper",
+        "graspingvine"
+    ],
+    "spectre": [
+        "spectre"
+    ],
+    "crawling claw": [
+        "crawling claw",
+        "crawlingclaw"
+    ],
+    "justiciar": [
+        "justiciar"
+    ],
+    "death knight": [
+        "death knight",
+        "deathknight"
+    ],
+    "ghoul": [
+        "ghoul"
+    ],
+    "ghast": [
+        "ghast"
+    ],
+    "ghost": [
+        "ghost"
+    ],
+    "flameskull": [
+        "visage of",
+        "skull of",
+        "visageof",
+        "skullof"
+    ],
+    "mummy": [
+        "mummy",
+        "ancient servant",
+        "mystic carrion",
+        "ancientservant",
+        "mysticcarrion"
+    ],
+    "shadow": [
+        "shadow!"
+    ],
+    "skeleton": [
+        "skeleton",
+        "apostate",
+        "agile guardian",
+        "robust guardian",
+        "fallen fighter",
+        "fallen champion",
+        "entombed warrior",
+        "reconstituted",
+        "necromite",
+        "fallen ranger",
+        "fallen wizard",
+        "agileguardian",
+        "robustguardian",
+        "fallenfighter",
+        "fallenchampion",
+        "entombedwarrior",
+        "fallenranger",
+        "fallenwizard"
+    ],
+    "wraith": [
+        "wraith"
+    ],
+    "zombie": [
+        "zombie",
+        "blighted actor",
+        "blighted barman",
+        "blighted patron",
+        "blighted troubador",
+        "reanimated corpse",
+        "zealous assistant",
+        "blightedactor",
+        "blightedbarman",
+        "blightedpatron",
+        "blightedtroubador",
+        "reanimatedcorpse",
+        "zealousassistant"
+    ]
+}
