@@ -77,9 +77,21 @@ class generateDictionaries:
     
     @staticmethod
     def generate_sorted_guid_list(blocks):
-        guid_list = [block.full_guid for block in blocks if block.full_guid]
+        guid_list = []
+        for block in blocks:
+            if block.full_guid and block.full_guid not in guid_list:
+                guid_list.append(block.full_guid)
         guid_list.sort()
         return guid_list
+
+    @staticmethod
+    def generate_monster_type_lists(blocks, act):
+        archetype_list = []
+        for block in blocks:
+            if block.monsterArchetype and block.monsterArchetype not in archetype_list and block.act and block.act == act:
+                archetype_list.append(block.monsterArchetype)
+        archetype_list.sort()
+        return archetype_list
 
     @staticmethod
     def generate_metadata_dicts():
@@ -117,6 +129,10 @@ class generateDictionaries:
         sorted_guid_list = generateDictionaries.generate_sorted_guid_list(deduped_blocks)
         sorted_guid_path = os.path.join(metadata_dir, 'metadata_sorted_guids.json')
 
+        # Generate sorted list of all monster archetypes
+        sorted_archetype_list = generateDictionaries.generate_monster_type_lists(deduped_blocks, "3")
+        sorted_archetype_path = os.path.join(metadata_dir, 'metadata_sorted_monster_archetypes')
+
         with open(clones_path, 'w') as f:
             json.dump(clones_dict, f, indent=4)
         print(f"Clones dict saved to {clones_path}")
@@ -144,6 +160,10 @@ class generateDictionaries:
         with open(sorted_guid_path, 'w') as f:
             json.dump(sorted_guid_list, f, indent=4)
         print(f"Sorted GUIDs dict saved to {sorted_guid_path}")
+
+        with open(sorted_archetype_path, 'w') as f:
+            json.dump(sorted_archetype_list, f, indent=4)
+        print(f"Sorted monsterArchetype list saved to {sorted_archetype_path}")
 
 
 if __name__ == "__main__":

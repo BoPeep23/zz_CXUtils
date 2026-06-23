@@ -146,7 +146,6 @@ class discoverFields:
                         block.monsterArchetype = matched_archetypes[0]
 
             of.close()
-
         
     @staticmethod
     def update_subtype_based_on_notes(blocks):
@@ -199,7 +198,6 @@ class discoverFields:
                 else:
                     print(f"Multiple subtype matches found for {block.full_guid}: {matched_subtypes}. Setting subtype to 'Multiple'.")
                     block.subtype = f"Multiple: {', '.join(matched_subtypes)}"
-
 
     @staticmethod
     def update_type_based_on_notes(blocks):
@@ -256,6 +254,25 @@ class discoverFields:
                 print(f"Multiple type matches found for {block.full_guid}: {matched_types}. Setting type to 'Multiple'.")
                 block.type = f"Multiple: {', '.join(matched_types)}"
 
+    @staticmethod
+    def extract_armor_class_from_notes(blocks):
+        # Matches: XX AC, AC XX, Armor Class XX, XX Armor Class (no comma in phrase)
+        patterns = [
+            r'\b(\d+)\s+AC\b',
+            r'\bAC\s+(\d+)\b',
+            r'\bArmor\s+Class\s+(\d+)\b',
+            r'\b(\d+)\s+Armor\s+Class\b',
+        ]
+
+        for block in blocks:
+            if not block.notes:
+                continue
+            for pattern in patterns:
+                match = re.search(pattern, block.notes, re.IGNORECASE)
+                if match:
+                    block.armor_class = int(match.group(1))
+                    break
+
 if __name__ == "__main__":
     base_dir = os.path.dirname(__file__)
     blocks = MonsterStatBlock.load_from_json_file(os.path.join(base_dir, 'guid_mapper_master.json'))
@@ -265,6 +282,7 @@ if __name__ == "__main__":
     # discoverFields.update_subtype_based_on_notes(blocks)    
     # discoverFields.update_type_based_on_notes(blocks)
     # discoverFields.update_class_archetype_based_on_notes(blocks)
-    discoverFields.update_monster_archetype_based_on_handle(blocks)
+    # discoverFields.update_monster_archetype_based_on_handle(blocks)
+    # discoverFields.extract_armor_class_from_notes(blocks)
 
     MonsterStatBlock.save_to_json_file(blocks, os.path.join(os.path.dirname(__file__), 'guid_mapper_master_discoveredFields.json'))

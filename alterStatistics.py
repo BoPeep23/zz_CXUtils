@@ -14,6 +14,7 @@ class alterStatistics:
         spells_per_block,
         spells_to_add,
         health_override=0,
+        ac_boost=0,
     ):
         if passives_to_add and passives_per_block == 0:
             for passive in passives_to_add:
@@ -62,6 +63,23 @@ class alterStatistics:
             else:
                 # Already has a value: nudge by 10% of the new input.
                 block.health_override += round(health_override * 0.10)
+        if 1 <= ac_boost <= 5:
+            passive_name = f"Goon_AC_Buff_{ac_boost}"
+            if not any("Goon_AC_Buff_" in p for p in block.passives_to_add):
+                block.passives_to_add.append(passive_name)
+                block.passives_to_add.sort()
+
+    @staticmethod
+    def apply_ac_boost(blocks, ac_boost):
+        if ac_boost == 0 or ac_boost >= 6:
+            return blocks
+        passive_name = f"Goon_AC_Buff_{ac_boost}"
+        for block in blocks:
+            already_has = any("Goon_AC_Buff_" in p for p in block.passives_to_add)
+            if not already_has:
+                block.passives_to_add.append(passive_name)
+                block.passives_to_add.sort()
+        return blocks
 
     @staticmethod
     def add_location_by_guid(blocks, guid_match_phrase, location):
@@ -101,6 +119,7 @@ class alterStatistics:
         spells_per_block=0,
         spells_to_add=[],
         health_override=0,
+        ac_boost=0,
     ):
         for block in blocks:
             if alterStatistics.passes_match_phrases(
@@ -122,6 +141,7 @@ class alterStatistics:
                     spells_per_block,
                     spells_to_add,
                     health_override,
+                    ac_boost,
                 )
         return blocks
 

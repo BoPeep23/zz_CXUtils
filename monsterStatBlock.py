@@ -3,7 +3,7 @@ import os
 
 class MonsterStatBlock:
     def __init__(self, handle=None, full_guid=None, act=None, location=None, type_=None, sub_type=None,
-                 classArchetype=None, monsterArchetype=None, profiles=None, health_override=0,
+                 classArchetype=None, monsterArchetype=None, profiles=None, armor_class=0, health_override=0,
                  original_health_override=0, passives_to_add=None, spells_to_add=None,
                  clone_template_guid=None, clone_display_name=None, corpse=None, notes=None):
         self._handle = handle
@@ -15,6 +15,7 @@ class MonsterStatBlock:
         self._classArchetype = classArchetype
         self._monsterArchetype = monsterArchetype
         self._profiles = profiles or []
+        self._armor_class = armor_class
         self._health_override = health_override
         self._original_health_override = original_health_override
         self._passives_to_add = passives_to_add or []
@@ -99,6 +100,14 @@ class MonsterStatBlock:
         self._profiles = value
 
     @property
+    def armor_class(self):
+        return self._armor_class
+
+    @armor_class.setter
+    def armor_class(self, value):
+        self._armor_class = value
+
+    @property
     def health_override(self):
         return self._health_override
 
@@ -175,6 +184,7 @@ class MonsterStatBlock:
             'ClassArchetype': self._classArchetype,
             'MonsterArchetype': self._monsterArchetype,
             'Profiles': self._profiles,
+            'ArmorClass': self._armor_class,
             'HealthOverride': self._health_override,
             'OriginalHealthOverride': self._original_health_override,
             'PassivesToAdd': self._passives_to_add,
@@ -205,6 +215,7 @@ class MonsterStatBlock:
             classArchetype=_or_default('ClassArchetype', ""),
             monsterArchetype=_or_default('MonsterArchetype', ""),
             profiles=_or_default('Profiles', []),
+            armor_class=_or_default('ArmorClass', 0),
             health_override=_or_default('HealthOverride', 0),
             original_health_override=_or_default('OriginalHealthOverride', 0),
             passives_to_add=_or_default('PassivesToAdd', []),
@@ -217,7 +228,7 @@ class MonsterStatBlock:
         known_fields = {
             'Handle', 'FullGuid', 'Act', 'Location', 'Type', 'SubType',
             'ClassArchetype', 'MonsterArchetype', 'Profiles',
-            'HealthOverride', 'OriginalHealthOverride',
+            'ArmorClass', 'HealthOverride', 'OriginalHealthOverride',
             'CloneTemplateGuid', 'CloneDisplayName',
             'SpellsToAdd', 'PassivesToAdd', 'Notes', 'Corpse',
         }
