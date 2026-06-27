@@ -99,10 +99,10 @@ if __name__ == "__main__":
     deduped_blocks = MonsterStatBlock.deduplicate(clean_blocks)
 
     clones = CombatExtenderBlockGenerator.generate_clones_by_location(
-        deduped_blocks, "RIVINGTON_FIELDS_GUR"
+        deduped_blocks, ""
     )
     overrides = CombatExtenderBlockGenerator.generate_overrides_by_location(
-        deduped_blocks, "RIVINGTON_FIELDS_GUR"
+        deduped_blocks, ""
     )
 
     clones_payload = {"Clones": clones}

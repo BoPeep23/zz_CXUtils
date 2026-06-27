@@ -1,0 +1,56 @@
+{
+    "DeathKnight": {
+        "Spells": [
+            "Target_Smite_Thunderous",
+            "Target_HoldPerson",
+            "Target_SpiritualWeapon",
+            "Target_IntellectFortress",
+            "Target_Banishment",
+            "Shout_DestructiveWave"
+        ],
+        "Passives": [
+            "ARP_SpellSlot_5_1",
+            "MenacingAttack",
+            "MAG_Paladin_SmiteSpellsSupport_Helmet_Passive",
+            "MAG_Psychic_MentalFatigue_Cape_Passive",
+            "MAG_Illithid_Regen_Circlet_Passive"
+        ]
+    },
+    "Healer_Novice": {
+        "Spells": [
+            "Target_HealingWord"
+        ],
+        "Passives": [
+            "UNI_MassHealRing_Passive",
+            "BlessedHealer"
+        ]
+    },
+    "Healer_Intermediate": {
+        "Spells": [
+            "Shout_HealingWord_Mass",
+            "Target_LesserRestoration",
+            "Target_HealingWord"
+        ],
+        "Passives": [
+            "UNI_MassHealRing_Passive",
+            "BlessedHealer",
+            "MAG_Healer_DisengageOnHeal_Passive"
+        ]        
+    },
+    "Healer_Adept": {
+        "Spells": [
+            "Target_Heal",
+            "Target_CureWounds_Mass",
+            "Shout_HealingWord_Mass",
+            "Target_LesserRestoration",
+            "Target_HealingWord"
+        ],
+        "Passives": [
+            "UNI_MassHealRing_Passive",
+            "BlessedHealer",
+            "DEN_HellridersPride_Passive",
+            "DiscipleOfLife",
+            "MAG_Healer_DisengageOnHeal_Passive"
+        ]        
+    }
+} 

@@ -1,7 +1,47 @@
+import json
 import os
 import random
+import re
 
 from monsterStatBlock import MonsterStatBlock
+
+_RANGE_RE = re.compile(r"^(\d+)-(\d+)$")
+
+_PROFILES_PATH = os.path.join(os.path.dirname(__file__), "maps", "profile_map.json")
+
+
+def _load_profiles():
+    try:
+        with open(_PROFILES_PATH, "r") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+_PROFILES = _load_profiles()
+
+
+def _collect_from_profile(profile_data):
+    """Return (passives, spells) from a flat profile dict."""
+    passives = [p for p in profile_data.get("Passives", []) if p]
+    spells = [s for s in profile_data.get("Spells", []) if s]
+    return passives, spells
+
+
+def _resolve_health(value):
+    """Return an int from value, randomizing if value is a 'N-M' range string."""
+    if not value:
+        return 0
+    if isinstance(value, int):
+        return value
+    m = _RANGE_RE.match(str(value).strip())
+    if m:
+        lo, hi = int(m.group(1)), int(m.group(2))
+        return random.randint(min(lo, hi), max(lo, hi))
+    try:
+        return int(value)
+    except (ValueError, TypeError):
+        return 0
 
 
 class alterStatistics:
@@ -15,6 +55,8 @@ class alterStatistics:
         spells_to_add,
         health_override=0,
         ac_boost=0,
+        apply_base_armor_class=0,
+        profiles_to_add=None,
     ):
         if passives_to_add and passives_per_block == 0:
             for passive in passives_to_add:
@@ -55,19 +97,67 @@ class alterStatistics:
                         block.spells_to_add.append(s)
             block.spells_to_add.sort()
         if health_override:
+            resolved = _resolve_health(health_override)
             if not block.health_override:
                 # First assignment: set directly and record as original.
-                block.health_override = health_override
+                block.health_override = resolved
                 if not block.original_health_override:
-                    block.original_health_override = health_override
+                    block.original_health_override = resolved
             else:
                 # Already has a value: nudge by 10% of the new input.
-                block.health_override += round(health_override * 0.10)
+                block.health_override += round(resolved * 0.10)
         if 1 <= ac_boost <= 5:
             passive_name = f"Goon_AC_Buff_{ac_boost}"
             if not any("Goon_AC_Buff_" in p for p in block.passives_to_add):
                 block.passives_to_add.append(passive_name)
                 block.passives_to_add.sort()
+        if apply_base_armor_class > 0:
+            block.armor_class = apply_base_armor_class
+        if profiles_to_add:
+            for profile_name in profiles_to_add:
+                if profile_name not in block.profiles:
+                    block.profiles.append(profile_name)
+                profile_data = _PROFILES.get(profile_name)
+                if not profile_data:
+                    continue
+                p_passives, p_spells = _collect_from_profile(profile_data)
+                for passive in p_passives:
+                    if passive not in block.passives_to_add:
+                        block.passives_to_add.append(passive)
+                for spell in p_spells:
+                    if spell not in block.spells_to_add:
+                        block.spells_to_add.append(spell)
+            block.passives_to_add.sort()
+            block.spells_to_add.sort()
+
+    @staticmethod
+    def reconcile_profiles(blocks):
+        """Ensure every block with profiles listed has all current profile content applied.
+
+        Runs without tier/level filtering so the full current profile is always canonical.
+        Only touches blocks that already have entries in block.profiles.
+        """
+        for block in blocks:
+            if not block.profiles:
+                continue
+            changed = False
+            for profile_name in block.profiles:
+                profile_data = _PROFILES.get(profile_name)
+                if not profile_data:
+                    continue
+                p_passives, p_spells = _collect_from_profile(profile_data)
+                for passive in p_passives:
+                    if passive not in block.passives_to_add:
+                        block.passives_to_add.append(passive)
+                        changed = True
+                for spell in p_spells:
+                    if spell not in block.spells_to_add:
+                        block.spells_to_add.append(spell)
+                        changed = True
+            if changed:
+                block.passives_to_add.sort()
+                block.spells_to_add.sort()
+        return blocks
 
     @staticmethod
     def apply_ac_boost(blocks, ac_boost):
@@ -120,6 +210,8 @@ class alterStatistics:
         spells_to_add=[],
         health_override=0,
         ac_boost=0,
+        apply_base_armor_class=0,
+        profiles_to_add=None,
     ):
         for block in blocks:
             if alterStatistics.passes_match_phrases(
@@ -142,6 +234,8 @@ class alterStatistics:
                     spells_to_add,
                     health_override,
                     ac_boost,
+                    apply_base_armor_class,
+                    profiles_to_add,
                 )
         return blocks
 
