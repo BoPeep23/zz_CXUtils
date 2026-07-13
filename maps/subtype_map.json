@@ -96,7 +96,9 @@
         "steelwatcher"
     ],
     "sahuagin": [
-        "sahuagin"
+        "sahuagin",
+        "sahuagin hunter",
+        "sahuagin champion"
     ],
     "mephit": [
         "mephit"
@@ -129,7 +131,9 @@
         "gnoll"
     ],
     "kobold": [
-        "kobold"
+        "kobold",
+        "kobold inventor",
+        "kobold scout"
     ],
     "meazel": [
         "meazel"

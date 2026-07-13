@@ -5,7 +5,6 @@
             "Target_HoldPerson",
             "Target_SpiritualWeapon",
             "Target_IntellectFortress",
-            "Target_Banishment",
             "Shout_DestructiveWave"
         ],
         "Passives": [
@@ -52,5 +51,42 @@
             "DiscipleOfLife",
             "MAG_Healer_DisengageOnHeal_Passive"
         ]        
+    },
+    "BaseBattleMasterFighter": {
+        "Spells": [
+            "Shout_ActionSurge",
+            "Shout_SecondWind"
+        ],
+        "Passives": [
+            "ARP_SuperiorityDie_5",
+            "Riposte"
+        ]
+    },
+    "SteelWatcher_L2": {
+        "Spells": [],
+        "Passives": [
+            "Goon_AC_Buff_2",
+            "Goon_Thunder_Resistant",
+            "Goon_Increased_Movement_2"
+        ]
+    },
+    "SteelWatcher_L3": {
+        "Spells": [],
+        "Passives": [
+            "Goon_AC_Buff_3",
+            "Goon_Thunder_Resistant",
+            "Goon_Radiant_Resistant",
+            "Goon_Increased_Movement_4"
+        ]
+    },
+    "SteelWatcher_L4": {
+        "Spells": [],
+        "Passives": [
+            "Goon_AC_Buff_5",
+            "Goon_Thunder_Resistant",
+            "Goon_Radiant_Resistant",
+            "Goon_Force_Resistant",
+            "Goon_Increased_Movement_5"
+        ]
     }
 } 

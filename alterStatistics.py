@@ -425,5 +425,5 @@ if __name__ == "__main__":
     # alterStatistics.set_health_override_by_handle(blocks, "", 0)
 
     MonsterStatBlock.save_to_json_file(
-        blocks, os.path.join(base_dir, "guid_mapper_master_alteredStats.json")
+        blocks, os.path.join(base_dir, "guid_mapper_master.json")
     )

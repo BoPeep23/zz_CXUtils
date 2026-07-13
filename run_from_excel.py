@@ -9,7 +9,7 @@ _RANGE_RE = re.compile(r"^\d+-\d+$")
 BASE_DIR = os.path.dirname(__file__)
 EXCEL_PATH = os.path.join(BASE_DIR, "alter_statistics_inputs.xlsx")
 INPUT_JSON = os.path.join(BASE_DIR, "guid_mapper_master.json")
-OUTPUT_JSON = os.path.join(BASE_DIR, "guid_mapper_master_alteredStats.json")
+OUTPUT_JSON = os.path.join(BASE_DIR, "guid_mapper_master.json")
 
 ALTER_SHEET = "alter_stats"
 CLEAR_SHEET = "clear_stats"

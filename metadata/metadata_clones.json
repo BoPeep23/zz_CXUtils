@@ -370,9 +370,6 @@
         "DisplayName": "Summoned Water Myrmidon",
         "Template": "S_WYR_CourageTest_Myrmidon3_8a6b3d1d-49da-431b-90e7-a87e7bdb8394"
     },
-    "S_WYR_WyrmRock_AudienceHallGuard_001_d3dea7b0-3c9d-431b-9671-e6a00b726a9c": {
-        "DisplayName": "Fist Garvez"
-    },
     "S_WYR_KillDirectorGortash_AudienceHallBanite_005_9a735337-002d-4abd-9416-d620c70058ac": {
         "DisplayName": "Summoned Elemental",
         "Template": "S_WYR_CourageTest_Myrmidon5_b403ca05-2642-40f8-ab4f-7fb2efa7f7fc"
@@ -408,9 +405,6 @@
     "S_WYR_KillDirectorGortash_AudienceHallBanite_006_fea7408c-01ad-4395-8b21-0f19d71c4b83": {
         "DisplayName": "Black Gauntlet Cloudhallow"
     },
-    "S_WYR_WyrmRock_MessHallGuard_001_bca3d3e3-3ddc-4ba2-8ad5-58afec936933": {
-        "DisplayName": "Fist Despy"
-    },
     "S_WYR_SmugglersCave_Guild_Ranger_01_71d62377-4944-4ef9-b492-5cd95251ba6f": {
         "DisplayName": "Undercover Banite",
         "Template": "S_WYR_KillDirectorGortash_GortashsBodyguard_002_56627fa7-4dd5-4651-8de7-7419e74a314b"
@@ -428,9 +422,6 @@
     },
     "S_WYR_KillDirectorGortash_GortashsBodyguard_001_8b142ad1-8ca5-487c-9ecd-93fb4172ea25": {
         "DisplayName": "Black Gauntlet Cadaver"
-    },
-    "S_WYR_WyrmRock_BarracksGuard_002_b0c71c56-815d-4b9a-a4be-a112af11bd4b": {
-        "DisplayName": "Fist Gripp"
     },
     "S_WYR_WyrmRock_BarracksGuard_004_c6c74e70-690f-4ff7-a661-7cb47e470b6c": {
         "DisplayName": "Manip Gatsby"
@@ -486,6 +477,63 @@
         "DisplayName": "Flail Snail",
         "Template": "S_LOW_HagSurvivors_Crab_02_6509cc72-4648-44ec-a0c2-598a2b85b3e0"
     },
+    "S_LOW_KurwinCoffin_W1_RisenSkeleton_001_7dd25316-fcd2-4be0-9e95-4329c3c63e15": {
+        "DisplayName": "Animated Death Knight",
+        "Template": "S_LOW_MurderTribunal_DeathKnight_c16a1ebd-4390-4309-b5d5-30df6e1333f6"
+    },
+    "S_LOW_KurwinCoffin_W1_RisenZombie_002_0d85e2c0-8bdd-4054-863e-9ae48d26d3e0": {
+        "DisplayName": "Animated Mummy",
+        "Template": "S_LOW_FatherCarrion_CoffinMummy_004_ca673f78-bf5a-4170-9a3d-86956fd7320b"
+    },
+    "S_LOW_KurwinCoffin_W1_RisenSkeleton_000_adafe912-0ea8-4672-831f-89379f7dbbb3": {
+        "DisplayName": "Animated Skeleton"
+    },
+    "S_LOW_KurwinCoffin_W1_RisenZombie_000_ef33221b-8784-4ef5-8254-f5509bebf280": {
+        "DisplayName": "Animated Zombie"
+    },
+    "S_LOW_KurwinCoffin_W1_RisenGreaterZombie_000_a249e576-9590-44bb-8861-727878ff6378": {
+        "DisplayName": "Animated Mummy",
+        "Template": "S_LOW_FatherCarrion_CoffinMummy_000_d03067ac-43a7-435b-be97-558065b1f7d1"
+    },
+    "S_LOW_KurwinCoffin_W1_RisenZombie_001_33f12cb2-a215-4477-9b63-e808943e5622": {
+        "DisplayName": "Animated Zombie"
+    },
+    "S_LOW_KurwinCoffin_W3_RisenSkeleton_001_9f84f821-a388-451d-87e4-3cce8312a40a": {
+        "DisplayName": "Animated Skeleton"
+    },
+    "S_LOW_KurwinCoffin_W3_RisenZombie_001_975a3277-5fc6-4bfc-9d4f-929ca55ac55b": {
+        "DisplayName": "Animated Mummy",
+        "Template": "S_LOW_FatherCarrion_CoffinMummy_004_ca673f78-bf5a-4170-9a3d-86956fd7320b"
+    },
+    "S_LOW_KurwinCoffin_W2_RisenSkeleton_001_ebeac71b-70c2-4967-8db4-6479cf95d156": {
+        "DisplayName": "Animated Skeleton"
+    },
+    "S_LOW_KurwinCoffin_W2_RisenGreaterZombie_000_f34c2984-6a8d-4be2-9194-41b58fd76b78": {
+        "DisplayName": "Animated Ghoul",
+        "Template": "S_LOW_FatherCarrion_Ghoul_004_bbc46971-3203-44b2-8582-b8822b1d5d70"
+    },
+    "S_LOW_KurwinCoffin_W2_RisenSkeleton_000_cddec41d-e04d-4f92-831c-5b69f9ca3935": {
+        "DisplayName": "Animated Skeleton"
+    },
+    "S_LOW_KurwinCoffin_W2_RisenZombie_000_32184af9-a79c-4441-8984-f88222c6beee": {
+        "DisplayName": "Lorroakan's Simulacrum",
+        "Template": "S_LOW_Lorroakan_a9d4b71d-b0ef-429e-8210-6dc8be986ee9"
+    },
+    "S_LOW_KurwinCoffin_W2_RisenZombie_002_b3d5ce26-a490-44cb-8d3b-c608dc970290": {
+        "DisplayName": "Animated Mummy",
+        "Template": "S_LOW_FatherCarrion_CoffinMummy_005_9ede4829-ec97-40b6-ac1c-ef14b9c6d14a"
+    },
+    "S_LOW_KurwinCoffin_W2_RisenZombie_001_4f7f5f28-0a47-41a1-b296-0b10de15f9ab": {
+        "DisplayName": "Animated Mummy",
+        "Template": "S_LOW_FatherCarrion_CoffinMummy_002_2bb0196b-9bd6-4eb3-989f-29d14a8cd2d8"
+    },
+    "S_LOW_KurwinCoffin_W2_RisenSkeleton_002_81fe4430-ff34-4d74-993a-f96596b57f15": {
+        "DisplayName": "Animated Ghast",
+        "Template": "S_LOW_FatherCarrion_Ghast_Lower_d8141d00-5f80-4245-9a48-fe3651be6954"
+    },
+    "S_LOW_KurwinCoffin_W3_RisenSkeleton_002_8fa9a234-af17-45ec-a886-ee5b9801cb30": {
+        "DisplayName": "Animated Skeleton"
+    },
     "S_LOW_MurderTribunal_DeathKnight_c16a1ebd-4390-4309-b5d5-30df6e1333f6": {
         "DisplayName": "That Which Serves"
     },
@@ -496,14 +544,11 @@
     "S_LOW_FatherCarrion_Ghast_Lower_d8141d00-5f80-4245-9a48-fe3651be6954": {
         "DisplayName": "Bolvar"
     },
-    "S_LOW_FatherCarrion_Ghoul_003_08bfd546-b2c2-461d-83e5-fc86160b3bfc": {
-        "DisplayName": "Magus"
-    },
     "S_LOW_FatherCarrion_CoffinMummy_000_d03067ac-43a7-435b-be97-558065b1f7d1": {
         "DisplayName": "Ancient Servant"
     },
     "S_LOW_FatherCarrion_Ghoul_001_ea1e4956-140f-4dda-a0eb-211744ec3fd0": {
-        "DisplayName": "Davante"
+        "DisplayName": "Harambe"
     },
     "S_LOW_FatherCarrion_CoffinMummy_004_ca673f78-bf5a-4170-9a3d-86956fd7320b": {
         "DisplayName": "Ancient Servant"
@@ -539,10 +584,16 @@
         "Template": "S_LOW_UndercityPatrol1_Cultist_Strangler_29ba6894-5a2b-4f81-b756-c5ebdafbbb74"
     },
     "S_LOW_GuildSmugglers_Smuggler_9f79f33b-fccf-44d5-a68b-7cd4f01b1b4e": {
-        "DisplayName": "Little Huido"
+        "DisplayName": "Little Guido"
     },
     "S_LOW_GuildSmugglers_Guard_002_8be5ed10-a4e2-41e9-839f-cdaa6c4d340c": {
         "DisplayName": "Hi Full"
+    },
+    "S_LOW_GuildSmugglers_Guard_003_a7b70658-5f85-43db-b978-5076b1a56de1": {
+        "DisplayName": "Haxxy Botomms"
+    },
+    "S_LOW_GuildSmugglers_Guard_001_b86be437-01de-4eb0-be7a-dd2894878ec9": {
+        "DisplayName": "Melag Vegetables"
     },
     "S_LOW_DockWorg2_dc09e270-40e4-4f37-855e-ffe51b91b8f1": {
         "DisplayName": "Werewolf",
@@ -638,72 +689,6 @@
     "S_LOW_DevilsFee_Imp_Ranged_001_51df7e50-4cc1-4dc2-bf1d-31868845b92f": {
         "DisplayName": "Gilded Imp"
     },
-    "S_LOW_KurwinCoffin_KelemvorPriestess_74f08242-30d7-4ad5-a0d7-36aa75b213cc": {
-        "DisplayName": "Mortarch Stacie Gryrer"
-    },
-    "S_LOW_KurwinCoffin_W1_RisenZombie_000_ef33221b-8784-4ef5-8254-f5509bebf280": {
-        "DisplayName": "Animated Zombie"
-    },
-    "S_LOW_KurwinCoffin_W1_RisenZombie_001_33f12cb2-a215-4477-9b63-e808943e5622": {
-        "DisplayName": "Animated Zombie"
-    },
-    "S_LOW_KurwinCoffin_W2_RisenSkeleton_001_ebeac71b-70c2-4967-8db4-6479cf95d156": {
-        "DisplayName": "Animated Skeleton"
-    },
-    "S_LOW_KurwinCoffin_W1_RisenZombie_002_0d85e2c0-8bdd-4054-863e-9ae48d26d3e0": {
-        "DisplayName": "Animated Mummy",
-        "Template": "S_LOW_FatherCarrion_CoffinMummy_004_ca673f78-bf5a-4170-9a3d-86956fd7320b"
-    },
-    "S_LOW_KurwinCoffin_W1_RisenGreaterZombie_000_a249e576-9590-44bb-8861-727878ff6378": {
-        "DisplayName": "Animated Mummy",
-        "Template": "S_LOW_FatherCarrion_CoffinMummy_000_d03067ac-43a7-435b-be97-558065b1f7d1"
-    },
-    "S_LOW_KurwinCoffin_W3_RisenSkeleton_Giant_49cc5f9e-72e3-440f-be8b-2c4ecf5964b5": {
-        "DisplayName": "Animated Revenant"
-    },
-    "S_LOW_KurwinCoffin_W2_RisenSkeleton_000_cddec41d-e04d-4f92-831c-5b69f9ca3935": {
-        "DisplayName": "Animated Skeleton"
-    },
-    "S_LOW_KurwinCoffin_W2_RisenZombie_000_32184af9-a79c-4441-8984-f88222c6beee": {
-        "DisplayName": "Lorroakan's Simulacrum",
-        "Template": "S_LOW_Lorroakan_a9d4b71d-b0ef-429e-8210-6dc8be986ee9"
-    },
-    "S_LOW_KurwinCoffin_W2_RisenZombie_002_b3d5ce26-a490-44cb-8d3b-c608dc970290": {
-        "DisplayName": "Animated Mummy",
-        "Template": "S_LOW_FatherCarrion_CoffinMummy_005_9ede4829-ec97-40b6-ac1c-ef14b9c6d14a"
-    },
-    "S_LOW_KurwinCoffin_W1_RisenGreaterZombie_001_12ff4a57-71d3-4728-b82e-79881aeb2422": {
-        "DisplayName": "Greater Zombie"
-    },
-    "S_LOW_KurwinCoffin_W2_RisenSkeleton_002_81fe4430-ff34-4d74-993a-f96596b57f15": {
-        "DisplayName": "Animated Ghast",
-        "Template": "S_LOW_FatherCarrion_Ghast_Lower_d8141d00-5f80-4245-9a48-fe3651be6954"
-    },
-    "S_LOW_KurwinCoffin_W1_RisenSkeleton_001_7dd25316-fcd2-4be0-9e95-4329c3c63e15": {
-        "DisplayName": "Animated Death Knight",
-        "Template": "S_LOW_MurderTribunal_DeathKnight_c16a1ebd-4390-4309-b5d5-30df6e1333f6"
-    },
-    "S_LOW_KurwinCoffin_W2_RisenGreaterZombie_000_f34c2984-6a8d-4be2-9194-41b58fd76b78": {
-        "DisplayName": "Animated Ghoul",
-        "Template": "S_LOW_FatherCarrion_Ghoul_004_bbc46971-3203-44b2-8582-b8822b1d5d70"
-    },
-    "S_LOW_KurwinCoffin_W3_RisenSkeleton_002_8fa9a234-af17-45ec-a886-ee5b9801cb30": {
-        "DisplayName": "Animated Skeleton"
-    },
-    "S_LOW_KurwinCoffin_W3_RisenZombie_001_975a3277-5fc6-4bfc-9d4f-929ca55ac55b": {
-        "DisplayName": "Animated Mummy",
-        "Template": "S_LOW_FatherCarrion_CoffinMummy_004_ca673f78-bf5a-4170-9a3d-86956fd7320b"
-    },
-    "S_LOW_KurwinCoffin_W2_RisenZombie_001_4f7f5f28-0a47-41a1-b296-0b10de15f9ab": {
-        "DisplayName": "Animated Mummy",
-        "Template": "S_LOW_FatherCarrion_CoffinMummy_002_2bb0196b-9bd6-4eb3-989f-29d14a8cd2d8"
-    },
-    "S_LOW_KurwinCoffin_W1_RisenSkeleton_000_adafe912-0ea8-4672-831f-89379f7dbbb3": {
-        "DisplayName": "Animated Skeleton"
-    },
-    "S_LOW_KurwinCoffin_W3_RisenSkeleton_001_9f84f821-a388-451d-87e4-3cce8312a40a": {
-        "DisplayName": "Animated Skeleton"
-    },
     "S_LOW_BlushingMermaid_MaskedVictim_02_518fab8f-2d1d-46c8-9a45-9045156d0053": {
         "DisplayName": "Ancient Grease Mephit",
         "Template": "S_LOW_GreaseMephit_008_1c4c8e46-9bce-4876-8b21-1ad6c96e0025"
@@ -772,9 +757,6 @@
         "DisplayName": "Night Blade Cairo",
         "Template": "S_LOW_UndercityPatrol1_Cultist_002_507919b5-2090-4a13-bcca-56e5a5f1c64b"
     },
-    "S_LOW_Poltergeist_Cellar_000_0a24f2b9-fd4c-458f-a5e7-5bf2231aed0d": {
-        "DisplayName": "Poltergeist"
-    },
     "S_LOW_Poltergeist_Kitchen_001_9b4d7812-dd50-4b55-9f5f-837e5aa0ddb5": {
         "DisplayName": "Poltergeist"
     },
@@ -783,12 +765,6 @@
     },
     "S_LOW_Poltergeist_Dining_001_6c1d9263-bc76-4331-822f-1878e8e886c8": {
         "DisplayName": "Poltergeist"
-    },
-    "S_LOW_KerriGhostMummy_01_e0d5067c-5cf9-42c7-92c5-acec03e6e61a": {
-        "DisplayName": "Vengeful Soul"
-    },
-    "S_LOW_KerriGhostNurse_01_b8588238-d973-4363-9c78-bbb02729aa90": {
-        "DisplayName": "Tormented Soul"
     },
     "S_LOW_CazadorsPalace_GuardTower_Guard_002_a97a18f4-3dd9-4af9-84df-028ca82e41c5": {
         "DisplayName": "Mergul",
