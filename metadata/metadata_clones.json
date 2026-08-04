@@ -534,6 +534,9 @@
     "S_LOW_KurwinCoffin_W3_RisenSkeleton_002_8fa9a234-af17-45ec-a886-ee5b9801cb30": {
         "DisplayName": "Animated Skeleton"
     },
+    "S_LOW_DevilsFee_Imp_Ranged_001_51df7e50-4cc1-4dc2-bf1d-31868845b92f": {
+        "DisplayName": "Gilded Imp"
+    },
     "S_LOW_MurderTribunal_DeathKnight_c16a1ebd-4390-4309-b5d5-30df6e1333f6": {
         "DisplayName": "That Which Serves"
     },
@@ -599,17 +602,13 @@
         "DisplayName": "Werewolf",
         "Template": "S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a"
     },
-    "S_LOW_DockWorg3_755385cb-bee4-4991-bfb5-a03959c99d1f": {
-        "DisplayName": "Giant Rat",
-        "Template": "S_LOW_CazadorsPalace_Ballroom_Rat_004_55d3d35f-4e0b-4dfe-af6e-ff2fc133d9a4"
-    },
     "S_LOW_DockWorg5_9f613f8d-8ed7-4042-adcc-e93932c5f24f": {
-        "DisplayName": "Giant Rat",
-        "Template": "S_LOW_CazadorsPalace_Ballroom_Rat_004_55d3d35f-4e0b-4dfe-af6e-ff2fc133d9a4"
+        "DisplayName": "Black Gauntlet Varg",
+        "Template": "S_LOW_BaneiteOfficer02_de084b09-99c6-426e-9159-f692d180d418"
     },
     "S_LOW_DockWorg4_2f885f58-85af-42db-ad4d-62a46d68f6af": {
-        "DisplayName": "Werewolf",
-        "Template": "S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a"
+        "DisplayName": "Grease Elemental",
+        "Template": "S_LOW_GreaseElemental_002_db2e11c6-0562-4f49-abaf-96283819ba68"
     },
     "S_LOW_Waveservant05_3995ac03-7410-468a-8b04-37d03409259d": {
         "DisplayName": "Water Myrmidon",
@@ -685,9 +684,6 @@
     },
     "S_LOW_SteelWatcher023_a0594019-b0ed-46f8-a813-8be9379f0e8e": {
         "DisplayName": "Hellfire Watcher"
-    },
-    "S_LOW_DevilsFee_Imp_Ranged_001_51df7e50-4cc1-4dc2-bf1d-31868845b92f": {
-        "DisplayName": "Gilded Imp"
     },
     "S_LOW_BlushingMermaid_MaskedVictim_02_518fab8f-2d1d-46c8-9a45-9045156d0053": {
         "DisplayName": "Ancient Grease Mephit",
@@ -832,7 +828,7 @@
         "DisplayName": "Ghengis Dome"
     },
     "S_LOW_CazadorsPalace_Ballroom_Bat_003_5ff8e5a9-ae15-4858-927d-7ef6d623cada": {
-        "DisplayName": "Gilded Minotaur",
+        "DisplayName": "Party Minotaur",
         "Template": "S_LOW_DevilsFee_Minotaur_001_600b2316-722c-4316-b19e-0dbf77b8651a"
     },
     "S_LOW_CazadorsPalace_Ballroom_Rat_001_12cfe1fe-7140-4bd4-8aa0-06feb78f8980": {
@@ -855,9 +851,6 @@
     "S_LOW_CazadorsPalace_RitualRoom_Ritualist_01_e98c8ed5-1d3e-4b92-a05a-3b90107905c3": {
         "DisplayName": "Living Fireball",
         "Template": "S_LOW_HouseOfHope_FlamingSphere03_17d05a29-c4fe-4260-bf28-7d8f53cc0e0c"
-    },
-    "S_LOW_CazadorsPalace_RitualRoom_Ghast_02_24880c17-853e-4d0d-9243-1da4d1f32cb9": {
-        "DisplayName": "Fallen Gur Hunter"
     },
     "S_LOW_CazadorsPalace_RitualRoom_Werewolf_02_79138f67-ed4a-4d3a-8fb7-1e4c4d6c8620": {
         "DisplayName": "Predator Werewolf"
@@ -882,15 +875,16 @@
         "DisplayName": "Infernal Merregon",
         "Template": "S_LOW_HouseOfHope_Merregon01_ba11228c-c75e-4df9-bd55-8091e1d48d36"
     },
-    "S_LOW_Bhaalist04_42bbff34-15a2-4802-a6de-262ef040aa9f": {
-        "DisplayName": "Night Blade Jamiz"
+    "S_LOW_Bhaalist01_336fe388-afbe-4b9b-a86e-aec927658019": {
+        "DisplayName": "Reaper of Bhaal Kandor",
+        "Template": "S_LOW_UndercityChasmEntrance_Cultist_002_b1426ca0-e120-4e26-a0d6-d03625e4b5c8"
     },
     "S_LOW_Bhaalist02_a8f0d3b8-2b55-4f1e-acf7-ef2767544d8a": {
         "DisplayName": "Night Fist Graziano",
         "Template": "S_LOW_Park_BhaalAssassin03_f28f8cd6-dc57-434e-a3ac-ed13cd9ed952"
     },
     "S_LOW_Bhaalist03_abce7142-0fad-4801-8d34-4bfeffec23da": {
-        "DisplayName": "Night Blade Hamstein"
+        "DisplayName": "Night Blade Hammerstein"
     },
     "S_LOW_GreaseElemental_002_db2e11c6-0562-4f49-abaf-96283819ba68": {
         "DisplayName": "Grease Elemental"
@@ -931,6 +925,9 @@
     "S_LOW_AncientLairMummy_004_d526d72a-599c-464e-b7fe-84128d496b3c": {
         "DisplayName": "Ancient Servant"
     },
+    "S_LOW_AncientLair_CrawlingClaw_007_fdc82f15-f593-4f03-a9da-26505e66e8e1": {
+        "DisplayName": "Crawling Claw"
+    },
     "S_LOW_AncientLairMummy_003_6d04276b-aefd-43a2-a2f0-eb586bcfc881": {
         "DisplayName": "Ancient Servant"
     },
@@ -941,7 +938,8 @@
         "DisplayName": "Devastator Tali"
     },
     "S_LOW_UndercityPatrol2_Cultist_002_0e27e169-ee1e-4e56-93ba-3b86feafd252": {
-        "DisplayName": "Devastator Jenkin"
+        "DisplayName": "Summoned Spectator",
+        "Template": "S_LOW_HouseOfHope_PrisonSpectator02_9089024f-e275-43a9-adec-f0923fab2f0c"
     },
     "S_LOW_GroundCultistAmbusher002_369cfca3-d282-4e73-ba40-670fb62f5fc5": {
         "DisplayName": "LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a",
@@ -972,8 +970,10 @@
         "Template": "LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a"
     },
     "S_LOW_UndercityPatrol1_Cultist_000_0d291d3e-bf25-49ab-a15e-ed7a8b115a13": {
-        "DisplayName": "Summoned Spectator",
-        "Template": "S_LOW_HouseOfHope_PrisonSpectator01_d92a207c-874a-4409-9cad-4abcec33efa1"
+        "DisplayName": "Invoker of Bhaal Topaz"
+    },
+    "S_LOW_BhaalTemple_Cultist_03_09b965d0-49f7-4b00-a8ab-20f19e4a563b": {
+        "DisplayName": "Invoker of Bhaal Glon"
     },
     "S_LOW_HouseOfHope_BoudoirImp03_4adcf56c-e1cc-4441-8e3f-0761172407d4": {
         "DisplayName": "Guardian Merregon",

@@ -6,13 +6,20 @@ from typing import List
 def gather_unique_field_values(file_path: str, field_name: str) -> List[str]:
     """Return a sorted list of unique, non-empty string values for `field_name` from the JSON file.
 
-    The JSON file is expected to contain a top-level object with a "Guids" list of entries (dicts).
-    Field name matching is case-insensitive; the first matching key per entry is used.
+    The JSON file is expected to contain a top-level object whose values are lists of entries
+    (dicts) — either the legacy single "Guids" list, or the newer per-Act lists (e.g. "Act1",
+    "Act2", "Global", "Unknown"). Field name matching is case-insensitive; the first matching key
+    per entry is used.
     """
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    entries = data.get('Guids', []) if isinstance(data, dict) else []
+    if not isinstance(data, dict):
+        entries = []
+    elif 'Guids' in data:
+        entries = data.get('Guids', [])
+    else:
+        entries = [entry for group in data.values() for entry in group]
     key_lower = field_name.lower()
     values = set()
 

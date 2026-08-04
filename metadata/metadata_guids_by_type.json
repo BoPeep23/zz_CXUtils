@@ -51,6 +51,11 @@
             "Guid": "S_GLO_Wyll_Cambion_491a7686-3081-405b-983c-289ec8781e0a"
         },
         {
+            "Handle": "Cruor",
+            "Location": "UNDERCITY_TEMPLE_BACK",
+            "Guid": "S_LOW_BhaalTemple_ButlerOrin_c4197c67-9fbf-4ac3-8a24-7902ea573c68"
+        },
+        {
             "Handle": "Helsik",
             "Location": "CENTRALWALL_DEVILSFEE_HELSIK",
             "Guid": "S_LOW_DevilsFee_Helsik_299a1c00-ff53-415e-ad8e-9bcbbae55597"
@@ -62,8 +67,23 @@
         },
         {
             "Handle": "Gilded Imp",
+            "Location": "",
+            "Guid": "S_LOW_DevilsFee_Imp_Melee_003_c38d8bc5-52d7-43bb-a62d-7794bb5464df"
+        },
+        {
+            "Handle": "Gilded Imp",
+            "Location": "",
+            "Guid": "S_LOW_DevilsFee_Imp_Melee_004_bdae2b84-933c-4d6d-a9e3-c8b1324840ea"
+        },
+        {
+            "Handle": "Gilded Imp",
             "Location": "CENTRALWALL_DEVILSFEE_HELSIK",
             "Guid": "S_LOW_DevilsFee_Imp_Ranged_001_51df7e50-4cc1-4dc2-bf1d-31868845b92f"
+        },
+        {
+            "Handle": "Gilded Imp",
+            "Location": "",
+            "Guid": "S_LOW_DevilsFee_Imp_Ranged_002_c3891d62-0562-4439-87e4-6942028d3e31"
         },
         {
             "Handle": "Vengeful Imp",
@@ -651,6 +671,56 @@
             "Handle": "Flaming Fist Archer",
             "Location": "",
             "Guid": "Humans_Male_FlamingFist_Ranger_B_d60088eb-42e2-17dc-bef4-ad06a740f8ac"
+        },
+        {
+            "Handle": "Kobold Inventor",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_07cb4ed8-5f6f-e360-3d27-d29a23d1f188"
+        },
+        {
+            "Handle": "Kobold Inventor",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_8ec2a490-8a80-428d-f617-344e8812843d"
+        },
+        {
+            "Handle": "Kobold Inventor",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_99154ef5-4036-19df-18fd-e6153163cb7e"
+        },
+        {
+            "Handle": "Kobold Inventor",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_b0be43f4-e189-54b9-3816-e274e015dae6"
+        },
+        {
+            "Handle": "Kobold Inventor",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_c35489ad-8630-83e4-ada3-c735b3cb246a"
+        },
+        {
+            "Handle": "Kobold",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Melee_45a8633d-56c8-8a78-48c9-a6c45a93b842"
+        },
+        {
+            "Handle": "Kobold Scout",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Ranger_88b74f59-a145-4d0a-d91f-f00083469628"
+        },
+        {
+            "Handle": "Kobold Scout",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Ranger_a2980a64-2f04-a2b5-0096-de229df3264a"
+        },
+        {
+            "Handle": "Kobold Scout",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Ranger_e61fc347-2751-7a14-c1ce-0aa1d2cc39d1"
+        },
+        {
+            "Handle": "Kobold Scout",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLD",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Ranger_f63eff9f-ba39-388e-638b-b3e6a4ab7f31"
         },
         {
             "Handle": "Goblin Brawler",
@@ -2545,6 +2615,11 @@
         {
             "Handle": "Sahuagin Hunter",
             "Location": "HEAPSIDE_DOCKS_SAHUAGIN",
+            "Guid": "S_LOW_BeachSahuagin_Sahuagin_Ranger_01_515d1e3e-e961-4d4b-883e-4f34a2eb23c7"
+        },
+        {
+            "Handle": "Sahuagin Hunter",
+            "Location": "HEAPSIDE_DOCKS_SAHUAGIN",
             "Guid": "S_LOW_BeachSahuagin_Sahuagin_Ranger_02_a6a894e4-f042-43a2-9111-0421e2a43740"
         },
         {
@@ -2556,6 +2631,121 @@
             "Handle": "Anita Fischer",
             "Location": "ELFSONG_GRAVEYARD_KURWIN",
             "Guid": "S_LOW_BereavedMother_f83df228-b03f-465d-aae5-c40007249f19"
+        },
+        {
+            "Handle": "Night Blade Elda",
+            "Location": "UNDERCITY_TEMPLE_FRONT",
+            "Guid": "S_LOW_BhaalTemple_Cultist_01_9f7607e0-abae-4722-921a-e18ee01b8984"
+        },
+        {
+            "Handle": "Reaper of Bhaal Velki",
+            "Location": "UNDERCITY_TEMPLE_RIGHT",
+            "Guid": "S_LOW_BhaalTemple_Cultist_02_b69fe2eb-20ec-4d32-a146-ade9dc4df5eb"
+        },
+        {
+            "Handle": "Invoker of Bhaal Horriss",
+            "Location": "UNDERCITY_TEMPLE_RIGHT",
+            "Guid": "S_LOW_BhaalTemple_Cultist_03_09b965d0-49f7-4b00-a8ab-20f19e4a563b"
+        },
+        {
+            "Handle": "Bhaal Cultist Bloodmopper",
+            "Location": "UNDERCITY_TEMPLE_RIGHT",
+            "Guid": "S_LOW_BhaalTemple_Cultist_04_92e27323-35e8-41ce-9644-76d668295c10"
+        },
+        {
+            "Handle": "Death's Head of Bhaal Glyria",
+            "Location": "UNDERCITY_TEMPLE_FRONT",
+            "Guid": "S_LOW_BhaalTemple_Cultist_05_e20ee46e-ea8e-4781-95fd-5f1f72211703"
+        },
+        {
+            "Handle": "Death's Head of Bhaal Eni",
+            "Location": "UNDERCITY_TEMPLE_LEFT",
+            "Guid": "S_LOW_BhaalTemple_Cultist_06_692c037a-b660-4461-abb5-7599b1d12702"
+        },
+        {
+            "Handle": "Fallen Bhaalspawn",
+            "Location": "UNDERCITY_TEMPLE_BACK",
+            "Guid": "S_LOW_BhaalTemple_DarkUrgeClone_5a96d12a-f7b4-4628-8257-8a463b49852c"
+        },
+        {
+            "Handle": "Invoker of Bhaal Grimlark",
+            "Location": "UNDERCITY_TEMPLE_BACK",
+            "Guid": "S_LOW_BhaalTemple_DeathsHead_01_dc5d659c-8703-4e41-bf3e-0eeae60d919b"
+        },
+        {
+            "Handle": "Invoker of Bhaal Hivune",
+            "Location": "UNDERCITY_TEMPLE_CENTER",
+            "Guid": "S_LOW_BhaalTemple_DeathsHead_02_adf3d591-4442-4543-86fd-9ca5b1cb73d2"
+        },
+        {
+            "Handle": "Reaper of Bhaal Zerillis",
+            "Location": "UNDERCITY_TEMPLE_BACK",
+            "Guid": "S_LOW_BhaalTemple_DeathsHead_03_1f0a7364-4893-4066-b188-907a51a75bd8"
+        },
+        {
+            "Handle": "Death's Head of Bhaal Derysia",
+            "Location": "UNDERCITY_TEMPLE_BACK",
+            "Guid": "S_LOW_BhaalTemple_DeathsHead_04_db8e11fc-5f93-4dae-9abb-a8223317fa29"
+        },
+        {
+            "Handle": "Death's Head of Bhaal Fustian",
+            "Location": "UNDERCITY_TEMPLE_CENTER",
+            "Guid": "S_LOW_BhaalTemple_NightBlade_01_7a82cf11-57a2-4796-8b3a-d3409c0cbe9e"
+        },
+        {
+            "Handle": "Orin's Mother Helena",
+            "Location": "UNDERCITY_TEMPLE_BACK",
+            "Guid": "S_LOW_BhaalTemple_OrinsMother_178bc423-a543-4cf9-99cb-ef4e93a1056e"
+        },
+        {
+            "Handle": "Clerk Fellya",
+            "Location": "UNDERCITY_TEMPLE_LEFT",
+            "Guid": "S_LOW_BhaalTemple_OrinsVictim_01_736ffcb2-31b2-4c2b-9187-15296583e461"
+        },
+        {
+            "Handle": "Saer Dorghan",
+            "Location": "UNDERCITY_TEMPLE_RIGHT",
+            "Guid": "S_LOW_BhaalTemple_OrinsVictim_02_c5c49334-6c87-4ed7-acce-b77935cca031"
+        },
+        {
+            "Handle": "Reaper of Bhaal Liya",
+            "Location": "UNDERCITY_TEMPLE_CENTER",
+            "Guid": "S_LOW_BhaalTemple_Reaper_01_72d472ba-5e32-4922-ab0b-b5a554c6dcab"
+        },
+        {
+            "Handle": "Reaper of Bhaal Snirr",
+            "Location": "UNDERCITY_TEMPLE_CENTER",
+            "Guid": "S_LOW_BhaalTemple_Reaper_02_ef16770b-0590-457f-8475-712f2c491be2"
+        },
+        {
+            "Handle": "Reaper of Bhaal Ogga",
+            "Location": "UNDERCITY_TEMPLE_LEFT",
+            "Guid": "S_LOW_BhaalTemple_Reaper_03_97c90688-1181-4893-a497-141e816a4c4a"
+        },
+        {
+            "Handle": "Reaper of Bhaal Hiila",
+            "Location": "UNDERCITY_TEMPLE_CENTER",
+            "Guid": "S_LOW_BhaalTemple_Reaper_04_c01e3dc3-4323-4a50-a378-ae6c0b8a062a"
+        },
+        {
+            "Handle": "Reaper of Bhaal Eglantine",
+            "Location": "UNDERCITY_TEMPLE_CENTER",
+            "Guid": "S_LOW_BhaalTemple_Reaper_05_a2bcb302-7a7b-4206-ac93-54b755bcb4d8"
+        },
+        {
+            "Handle": "Reaper of Bhaal Dhoria",
+            "Location": "UNDERCITY_TEMPLE_CENTER",
+            "Guid": "S_LOW_BhaalTemple_Reaper_06_646eaea2-2329-4d75-acc7-feddad951066"
+        },
+        {
+            "Handle": "Unholy Assassin Rycke",
+            "Location": "UNDERCITY_TEMPLE_RIGHT",
+            "Guid": "S_LOW_BhaalTemple_UnholyAssassin_01_d00763c7-cac6-47b8-86be-a13ddd346861"
+        },
+        {
+            "Handle": "Unholy Assassin Mitchia",
+            "Location": "UNDERCITY_TEMPLE_RIGHT",
+            "Guid": "S_LOW_BhaalTemple_UnholyAssassin_02_cec194b2-0e8d-4d38-a136-0e9b1c38c684"
         },
         {
             "Handle": "Death's Head of Bhaal Blythe",
@@ -2598,24 +2788,69 @@
             "Guid": "S_LOW_BlushingMermaid_QuenoraGrizly_9d475536-34f0-4a6f-9191-3a635b81a232"
         },
         {
+            "Handle": "Duver Rillyn",
+            "Location": "CAZADOR_UPPER_BALLROOM",
+            "Guid": "S_LOW_CazadorsPalace_Ballroom_Werewolf_001_59ee488e-b73a-4501-8a2d-4cb2a079e4d6"
+        },
+        {
+            "Handle": "Blaise Hhune",
+            "Location": "CAZADOR_UPPER_BALLROOM",
+            "Guid": "S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a"
+        },
+        {
+            "Handle": "Gheris Hhune",
+            "Location": "CAZADOR_UPPER_BALLROOM",
+            "Guid": "S_LOW_CazadorsPalace_Ballroom_Werewolf_003_f21aa31f-4b01-405d-a54e-4fa1ca0b64ab"
+        },
+        {
+            "Handle": "Bloodfang",
+            "Location": "CAZADOR_UPPER_BALLROOM",
+            "Guid": "S_LOW_CazadorsPalace_Ballroom_Wolf_001_faa297b1-c4c4-40fc-978a-420656b78771"
+        },
+        {
+            "Handle": "Whitemist",
+            "Location": "CAZADOR_UPPER_BALLROOM",
+            "Guid": "S_LOW_CazadorsPalace_Ballroom_Wolf_002_92a49cfd-1ddf-485d-b885-44d2c611258a"
+        },
+        {
             "Handle": "Merony",
-            "Location": "CAZADOR_GUARDS",
+            "Location": "CAZADOR_EXTERIOR_WALL",
             "Guid": "S_LOW_CazadorsPalace_GuardTower_Guard_001_e0f6ebdc-e19a-4ae4-a487-f192b9edcfac"
         },
         {
             "Handle": "Reklan",
-            "Location": "CAZADOR_GUARDS",
+            "Location": "CAZADOR_EXTERIOR_WALL",
             "Guid": "S_LOW_CazadorsPalace_GuardTower_Guard_003_d7c92c82-e297-41ce-bc08-ca36217d850e"
         },
         {
             "Handle": "Yousen",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Spawn_003_52ede1c9-6caf-4f7a-8d97-984c0e90e9cf"
         },
         {
             "Handle": "Violet",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Spawn_004_a4dc8e21-833c-4469-a72b-1969c688b8a4"
+        },
+        {
+            "Handle": "Predator Werewolf",
+            "Location": "CAZADOR_LOWER_RITUAL",
+            "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_01_20ff3b11-d07a-4ecc-ae23-41fc09966ba5"
+        },
+        {
+            "Handle": "Predator Werewolf",
+            "Location": "CAZADOR_LOWER_RITUAL",
+            "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_02_79138f67-ed4a-4d3a-8fb7-1e4c4d6c8620"
+        },
+        {
+            "Handle": "Predator Werewolf",
+            "Location": "CAZADOR_LOWER_RITUAL",
+            "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_03_471eff9e-66df-468c-919a-d7160f02e46e"
+        },
+        {
+            "Handle": "Predator Werewolf",
+            "Location": "CAZADOR_LOWER_RITUAL",
+            "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_04_f8eb826d-9071-4fc4-aeee-9383fab42bac"
         },
         {
             "Handle": "Vilhelm",
@@ -2629,7 +2864,7 @@
         },
         {
             "Handle": "Greenfern",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Servant_004_2776a0f5-def2-4714-a830-6561cc96eb53"
         },
         {
@@ -2729,13 +2964,18 @@
         },
         {
             "Handle": "Dead Half-Elf",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_DeadAdventurer_001_98f5af07-74fb-49ae-be05-3834e0a23464"
         },
         {
             "Handle": "Dead Halfling",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_DeadAdventurer_002_91949015-b599-4e1b-9ef1-844d4d969753"
+        },
+        {
+            "Handle": "Dead Human",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
+            "Guid": "S_LOW_DeadAdventurer_003_dee183c3-d0f0-4264-b11e-f1c74e8c2503"
         },
         {
             "Handle": "Gondian Lanpos Biggs",
@@ -2968,8 +3208,13 @@
             "Guid": "S_LOW_GrottoSentry_90c54fce-9a57-4ff5-9d36-0363ef90c5f1"
         },
         {
+            "Handle": "Night Blade Comina",
+            "Location": "UNDERCITY_BHAAL_CHASM",
+            "Guid": "S_LOW_GroundCultistAmbusher002_369cfca3-d282-4e73-ba40-670fb62f5fc5"
+        },
+        {
             "Handle": "Manglin' Abby",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_GroundCultistAmbusher004_b6fcf8fd-fd3f-4cb5-a25e-d520762c56fc"
         },
         {
@@ -3068,8 +3313,38 @@
             "Guid": "S_LOW_KurwinCoffin_KidNecromancer_2be44da8-cada-4e84-a788-fc9813fa651e"
         },
         {
-            "Handle": "Bugthimble",
+            "Handle": "Kobold Hole",
+            "Location": "ELFSONG_GRAVEYARD_KURWIN",
+            "Guid": "S_LOW_KurwinCoffin_KoboldHole001_9b09f43e-46d7-4a10-8351-0c3b70ca8686"
+        },
+        {
+            "Handle": "Kobold Hole",
             "Location": "ELFSONG_GRAVEYARD_CENTER",
+            "Guid": "S_LOW_KurwinCoffin_KoboldHole002_8f12bdc1-fa74-4e66-a0b3-6d2f77376b92"
+        },
+        {
+            "Handle": "Kobold Hole",
+            "Location": "ELFSONG_GRAVEYARD_CENTER",
+            "Guid": "S_LOW_KurwinCoffin_KoboldHole003_f1b59184-15ad-479d-af65-3cd463c65149"
+        },
+        {
+            "Handle": "Kobold Hole",
+            "Location": "ELFSONG_GRAVEYARD_CENTER",
+            "Guid": "S_LOW_KurwinCoffin_KoboldHole004_e838a453-1cf0-47e9-aae2-d2b40a4ac9ac"
+        },
+        {
+            "Handle": "Kobold Hole",
+            "Location": "ELFSONG_GRAVEYARD_CENTER",
+            "Guid": "S_LOW_KurwinCoffin_KoboldHole005_d9d107ac-aed5-449b-ae9c-93f282ada235"
+        },
+        {
+            "Handle": "Kobold Hole",
+            "Location": "ELFSONG_GRAVEYARD_CENTER",
+            "Guid": "S_LOW_KurwinCoffin_KoboldHole006_04e52cb8-9ec2-47dd-bcb1-50f9ea2bc4f4"
+        },
+        {
+            "Handle": "Bugthimble",
+            "Location": "ELFSONG_GRAVEYARD_KOBOLDS",
             "Guid": "S_LOW_KurwinCoffin_KoboldLooter_7f85b5a5-6912-4776-abd0-5282bc8fef15"
         },
         {
@@ -3303,6 +3578,11 @@
             "Guid": "S_LOW_PrisonGuard03_aebea090-1245-4d27-a105-46e37c5852b0"
         },
         {
+            "Handle": "Night Blade Majjo",
+            "Location": "UNDERCITY_BHAAL_CHASM",
+            "Guid": "S_LOW_RangedCultistAmbusher003_8d058eb7-2b2c-4504-9656-ec014b7b9872"
+        },
+        {
             "Handle": "Alexander Rainforest",
             "Location": "CITY_SERIAL_RAINFORESTHOME",
             "Guid": "S_LOW_SerialKiller_AlexanderRainforest_18fe60a8-7235-4450-ac5b-fcbf15bdae88"
@@ -3428,14 +3708,24 @@
             "Guid": "S_LOW_TarhunMnemonis_2d1b98a0-01a9-4c21-8bc2-9738c47f6966"
         },
         {
+            "Handle": "Night Blade Corniche",
+            "Location": "UNDERCITY_BHAAL_CHASM",
+            "Guid": "S_LOW_UndercityPatrol1_Cultist_003_da80e468-cadb-49da-934c-903ba912b7cf"
+        },
+        {
             "Handle": "Strangler Luke",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_UndercityPatrol1_Cultist_Strangler_29ba6894-5a2b-4f81-b756-c5ebdafbbb74"
         },
         {
             "Handle": "Devastator Lizabett",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_UndercityPatrol2_Cultist_001_ff5760cf-edab-482a-91bc-73e4e811eb57"
+        },
+        {
+            "Handle": "Devastator Stropes",
+            "Location": "UNDERCITY_BHAAL_CHASM",
+            "Guid": "S_LOW_UndercityPatrol2_Cultist_002_0e27e169-ee1e-4e56-93ba-3b86feafd252"
         },
         {
             "Handle": "Dark Breaker Elonia",
@@ -6488,7 +6778,7 @@
         },
         {
             "Handle": "Cazador Szarr",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_GLO_Cazador_2f1880e6-1297-4ca3-a79c-9fabc7f179d3"
         },
         {
@@ -6858,87 +7148,87 @@
         },
         {
             "Handle": "Ancient Servant",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLairMummy_001_65b33bdc-3126-4962-a712-4175007d9e54"
         },
         {
             "Handle": "Ancient Servant",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLairMummy_002_6f71be30-7cab-43a7-999d-12b9adde5a0e"
         },
         {
             "Handle": "Ancient Servant",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLairMummy_003_6d04276b-aefd-43a2-a2f0-eb586bcfc881"
         },
         {
             "Handle": "Ancient Servant",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLairMummy_004_d526d72a-599c-464e-b7fe-84128d496b3c"
         },
         {
             "Handle": "Ancient Servant",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLairMummy_005_331ffe6e-00c9-4f79-94d4-c6d65b4a9093"
         },
         {
             "Handle": "Crawling Claw",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_CrawlingClaw_000_7f5d8047-66dd-4cec-a992-98d7fe7d9263"
         },
         {
             "Handle": "Crawling Claw",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_CrawlingClaw_001_b174f4f8-7a3e-49d9-90c4-a254bbee9c41"
         },
         {
             "Handle": "Crawling Claw",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_CrawlingClaw_002_8aa6c119-d8f2-4c47-877b-425645df061c"
         },
         {
             "Handle": "Crawling Claw",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_CrawlingClaw_003_dfb5ea37-aebf-45c5-a658-d69534414132"
         },
         {
             "Handle": "Crawling Claw",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_CrawlingClaw_004_461234ed-2457-417b-b850-7dffb9d57498"
         },
         {
             "Handle": "Crawling Claw",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_CrawlingClaw_005_387ea8f7-eed3-46b0-81bc-a2ecc280550c"
         },
         {
             "Handle": "Crawling Claw",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_CrawlingClaw_006_2928d81e-4ceb-466f-95a4-a774b35a4c83"
         },
         {
             "Handle": "Crawling Claw",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_CrawlingClaw_007_fdc82f15-f593-4f03-a9da-26505e66e8e1"
         },
         {
             "Handle": "Crawling Claw",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_CrawlingClaw_008_bfaacde1-8b90-4846-b474-5d8f8f81c4f6"
         },
         {
             "Handle": "Greater Zombie",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_GreaterZombie_000_bd8ab705-e59e-44b1-89fa-df0dc41cd563"
         },
         {
             "Handle": "Greater Zombie",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_GreaterZombie_001_64b89b9c-657a-40d3-8232-3931e6c72aaf"
         },
         {
             "Handle": "Greater Zombie",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_AncientLair_GreaterZombie_002_ba701b3d-20ec-4225-8a69-3a8be31b4c4f"
         },
         {
@@ -6952,33 +7242,38 @@
             "Guid": "S_LOW_AngryNoble_002_24376c44-ee3e-4131-86b1-25b738aee446"
         },
         {
+            "Handle": "Godey",
+            "Location": "CAZADOR_UPPER_KENNEL",
+            "Guid": "S_LOW_CazadorsPalace_Kennel_Skeleton_f2a457d8-f2e5-430b-9a53-85746171482f"
+        },
+        {
             "Handle": "Fallen Gur Hunter",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Ghast_01_0692451b-3093-4cf8-9370-55783a45d3d1"
         },
         {
             "Handle": "Fallen Gur Hunter",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Ghast_02_24880c17-853e-4d0d-9243-1da4d1f32cb9"
         },
         {
             "Handle": "Fallen Gur Hunter",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Ghast_04_978c53cd-db10-4eb0-81c3-7afac4344f39"
         },
         {
             "Handle": "Chatterteeth",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Ritualist_01_e98c8ed5-1d3e-4b92-a05a-3b90107905c3"
         },
         {
             "Handle": "Leon",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Spawn_001_062ff971-d709-4f54-bb03-51c02844eacb"
         },
         {
             "Handle": "Aurelia",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Spawn_002_a612de01-a750-491a-bacd-e09a67fc0de3"
         },
         {
@@ -7335,6 +7630,11 @@
             "Handle": "Poltergeist",
             "Location": "JANNATH_HAUNTED_KITCHEN",
             "Guid": "S_LOW_Poltergeist_Kitchen_002_dc4c9b21-21f3-4c8f-9c9c-295ab1778d8e"
+        },
+        {
+            "Handle": "Farslayer of Bhaal Ghislev",
+            "Location": "UNDERCITY_BHAAL_CHASM",
+            "Guid": "S_LOW_UndercityRuins_Cultist_Sniper_876c18d6-fcf3-4934-abc1-c0939872c093"
         },
         {
             "Handle": "Strange Beggar Morbus",
@@ -8003,12 +8303,12 @@
         },
         {
             "Handle": "Dalyria",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_WYR_VampireSpawns_Dalyria_204a74d2-e6ad-4e9b-a275-f03cb5f3d975"
         },
         {
             "Handle": "Pale Petras",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_WYR_VampireSpawns_Petra_6fb6e85e-ccd0-42ef-a37d-1e256a433f3b"
         },
         {
@@ -8484,6 +8784,11 @@
             "Guid": "S_LOW_CountingHouse_Mimic_8db79e35-7dca-46e4-9602-d17938237dec"
         },
         {
+            "Handle": "Gilded Minotaur",
+            "Location": "",
+            "Guid": "S_LOW_DevilsFee_Minotaur_002_be15933c-0123-4892-9160-ac2cefb5f9d9"
+        },
+        {
             "Handle": "Gristle",
             "Location": "SHORE_DOCKS_WAREHOUSE",
             "Guid": "S_LOW_DockWorg2_dc09e270-40e4-4f37-855e-ffe51b91b8f1"
@@ -8629,6 +8934,11 @@
             "Handle": "Blue Jay",
             "Location": "",
             "Guid": "BIRD_BlueJay_001_ce119f75-ca7a-48bf-b449-b0b68b0f820b"
+        },
+        {
+            "Handle": "Flaming Fist Archer",
+            "Location": "",
+            "Guid": "Dwarves_Female_Hill_FlamingFist_Ranger_B_1aa29469-9f2b-ca3d-c2ca-38cf25f1716d"
         },
         {
             "Handle": "Murdered Refugee",
@@ -8866,6 +9176,16 @@
             "Guid": "EO_UND_Hunter_Ranger_d5225a25-e015-460c-9a33-1fd6c9b458a1"
         },
         {
+            "Handle": "Quinn",
+            "Location": "",
+            "Guid": "Elves_Female_Drow_Lolth_Player_c488acf9-1c67-5ec9-c673-d37220401b3a"
+        },
+        {
+            "Handle": "Roach",
+            "Location": "",
+            "Guid": "HalfElves_Male_Drow_Player_6f67d1a3-dc38-a17f-a2d1-a13e47ba978e"
+        },
+        {
             "Handle": "Murdered Refugee",
             "Location": "RIVINGTON_WELL",
             "Guid": "HalfOrcs_Female_Civilian_Vignette_000_bd0bce66-ce0f-4a66-bf5a-f928a97a9140"
@@ -8886,6 +9206,11 @@
             "Guid": "Humans_Female_Cultist_Bhaal_DeathsHead_920647a1-844c-d260-d7e6-f2a4e7dc737d"
         },
         {
+            "Handle": "Flaming Fist Healer",
+            "Location": "",
+            "Guid": "Humans_Female_FlamingFist_Cleric_b848c36f-54e1-fbb3-70dc-3c818777be15"
+        },
+        {
             "Handle": "Flaming Fist Guisarmier",
             "Location": "",
             "Guid": "Humans_Female_FlamingFist_Melee_Attacker_aaa33e95-62af-cbfa-d0b2-3b2768f2f01f"
@@ -8903,7 +9228,17 @@
         {
             "Handle": "Flaming Fist Protector",
             "Location": "",
+            "Guid": "Humans_Male_FlamingFist_Melee_Defender_05cc90fb-57c7-87ad-b0ad-19361a601baf"
+        },
+        {
+            "Handle": "Flaming Fist Protector",
+            "Location": "",
             "Guid": "Humans_Male_FlamingFist_Melee_Defender_dade4cb3-0a2b-c951-cb07-542f4cd46e6f"
+        },
+        {
+            "Handle": "Flaming Fist Archer",
+            "Location": "",
+            "Guid": "Humans_Male_FlamingFist_Ranger_B_393cd5b4-bf78-577b-5eff-7b0c6fa871a7"
         },
         {
             "Handle": "Flaming Fist Archer",
@@ -10146,7 +10481,7 @@
             "Guid": "S_GLO_Desire_8b9fa503-7205-4ddd-bdfa-bfaa781d9ea9"
         },
         {
-            "Handle": "Weary Traveller",
+            "Handle": "Elminster Aumar",
             "Location": "",
             "Guid": "S_GLO_Elminster_75bb6396-1132-4064-bafe-205a3f156b9b"
         },
@@ -10411,6 +10746,16 @@
             "Guid": "S_GLO_VoiceOfAbsoluteHelper_696b6670-c31c-4cfe-a1dd-fa80c3b59dad"
         },
         {
+            "Handle": "Yenna",
+            "Location": "",
+            "Guid": "S_GLO_Yenna_d496d903-d3d6-4314-a324-18542de77b0f"
+        },
+        {
+            "Handle": "Grub",
+            "Location": "",
+            "Guid": "S_GLO_YennasCat_6583b752-ac47-4ae9-ab9d-d75cebaf9b71"
+        },
+        {
             "Handle": "Danis",
             "Location": "",
             "Guid": "S_GLO_YoungLover_01_dd9178e7-1e3f-43bc-8a38-666dfcac7d0c"
@@ -10476,7 +10821,7 @@
             "Guid": "S_GOB_Checkpoint_Backup_003_436c4c80-76fe-4396-831d-0d279b394810"
         },
         {
-            "Handle": "Nightwarden Minthara",
+            "Handle": "Minthara",
             "Location": "MOONRISE_PRISON",
             "Guid": "S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b"
         },
@@ -10931,6 +11276,11 @@
             "Guid": "S_LOW_ArabellaTableu_Brigand_4_15013227-fbcd-4b9b-8624-bfea022e21b9"
         },
         {
+            "Handle": "'Bigmouth' Thimsen",
+            "Location": "",
+            "Guid": "S_LOW_BaldursMouth_StreetGossiper_000_bfbf3129-2634-4304-bddd-07115f910c04"
+        },
+        {
             "Handle": "Vince Torell",
             "Location": "",
             "Guid": "S_LOW_BasiliskGate_FlorricksCoHangman_01_bb541277-bc52-4d5f-95f3-e7f5e62eeeeb"
@@ -10942,32 +11292,22 @@
         },
         {
             "Handle": "Justen",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_BhaalApproach_DeadCultist_87cca21b-5983-49f3-acf2-d749f71c7269"
         },
         {
-            "Handle": "Unholy Assassin Rycke",
-            "Location": "",
-            "Guid": "S_LOW_BhaalTemple_UnholyAssassin_01_d00763c7-cac6-47b8-86be-a13ddd346861"
-        },
-        {
-            "Handle": "Unholy Assassin Mitchia",
-            "Location": "",
-            "Guid": "S_LOW_BhaalTemple_UnholyAssassin_02_cec194b2-0e8d-4d38-a136-0e9b1c38c684"
-        },
-        {
             "Handle": "Party Guest",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_DeadGuest_001_ec3f0cbe-94fc-43dd-87b3-dc175209c3e0"
         },
         {
             "Handle": "Party Guest",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_DeadGuest_002_4a870fc7-2e02-42f7-99b1-dac86c65157a"
         },
         {
             "Handle": "Sanseverina",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_DeadGuest_004_106d0938-7418-437f-947d-973dde6868d7"
         },
         {
@@ -10988,6 +11328,11 @@
         {
             "Handle": "Absolute Cultist",
             "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_DeadAbsolutist_001_a761efbb-5989-4b02-9d60-16f2239eb007"
+        },
+        {
+            "Handle": "Absolute Cultist",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
             "Guid": "S_LOW_DeadAbsolutist_002_fe889667-e91e-4911-af17-acce24608939"
         },
         {
@@ -11002,12 +11347,7 @@
         },
         {
             "Handle": "Dead Human",
-            "Location": "UNDERCITY_CARRION",
-            "Guid": "S_LOW_DeadAdventurer_003_dee183c3-d0f0-4264-b11e-f1c74e8c2503"
-        },
-        {
-            "Handle": "Dead Human",
-            "Location": "UNDERCITY_CARRION",
+            "Location": "UNDERCITY_RUINS_MUMMIES",
             "Guid": "S_LOW_DeadAdventurer_004_b8e28cab-2064-427c-bf7f-7e956e15c93c"
         },
         {
@@ -11197,17 +11537,12 @@
         },
         {
             "Handle": "Night Blade Flange",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_GroundCultistAmbusher001_d81275b5-bff3-4799-8118-e7aa5df575b1"
         },
         {
-            "Handle": "Night Blade Comina",
-            "Location": "UNDERCITY_BHAALISTS",
-            "Guid": "S_LOW_GroundCultistAmbusher002_369cfca3-d282-4e73-ba40-670fb62f5fc5"
-        },
-        {
             "Handle": "Night Blade Maireadh",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_GroundCultistAmbusher003_7446d348-4741-42b4-a43b-1cbbfacacb6e"
         },
         {
@@ -11582,23 +11917,33 @@
         },
         {
             "Handle": "Night Blade Abraxa",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_RangedCultistAmbusher001_94ad0109-2c78-43f8-b7dd-0d056b742a23"
         },
         {
             "Handle": "Night Blade Garithon",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_RangedCultistAmbusher002_61d478ae-72e6-44de-8bb1-0272c83fb85e"
-        },
-        {
-            "Handle": "Night Blade Majjo",
-            "Location": "UNDERCITY_BHAALISTS",
-            "Guid": "S_LOW_RangedCultistAmbusher003_8d058eb7-2b2c-4504-9656-ec014b7b9872"
         },
         {
             "Handle": "Hope",
             "Location": "HOPE_PRISON",
             "Guid": "S_LOW_RealHope_1947e869-a95d-43c6-81f7-b4c4f90d95ce"
+        },
+        {
+            "Handle": "Fist Hextra",
+            "Location": "",
+            "Guid": "S_LOW_SWS_Patrols_000_FF_000_979be68f-f08f-48e0-b299-11284b1e8eeb"
+        },
+        {
+            "Handle": "Fist Malayah",
+            "Location": "",
+            "Guid": "S_LOW_SWS_Patrols_000_FF_001_01de1cf6-a905-4b96-a605-a912ee4c0cb5"
+        },
+        {
+            "Handle": "Fist Healer Madstene",
+            "Location": "",
+            "Guid": "S_LOW_SWS_Patrols_000_FF_002_ac0a9a7c-4a93-4093-80cf-3d1594f9fa48"
         },
         {
             "Handle": "Phlanders Hort",
@@ -11611,49 +11956,44 @@
             "Guid": "S_LOW_SerialKiller_Figaro_Assistant_001_d8dc6cf0-2063-49e8-831e-64d998d77061"
         },
         {
+            "Handle": "Fast Neddio",
+            "Location": "",
+            "Guid": "S_LOW_SwooningFists_Citizen_01_7da6d386-2adc-4d61-a715-e8d899615744"
+        },
+        {
+            "Handle": "Theda Grosz",
+            "Location": "",
+            "Guid": "S_LOW_SwooningFists_Citizen_02_6dc386d0-d539-4bf0-9dbd-c09bfa279fcb"
+        },
+        {
             "Handle": "Reaper of Bhaal Flo-Flo",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_UndercityChasmEntrance_Cultist_000_295deabe-d83c-4b5b-8ea2-016fa719b547"
         },
         {
             "Handle": "Reaper of Bhaal Gruntman",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_UndercityChasmEntrance_Cultist_001_4a7e35c3-27b3-4b58-9ef4-6330b907c2a1"
         },
         {
             "Handle": "Reaper of Bhaal Varneela",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_UndercityChasmEntrance_Cultist_002_b1426ca0-e120-4e26-a0d6-d03625e4b5c8"
         },
         {
             "Handle": "Invoker of Bhaal Ellice",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_UndercityPatrol1_Cultist_000_0d291d3e-bf25-49ab-a15e-ed7a8b115a13"
         },
         {
             "Handle": "Night Blade Hervyl",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_UndercityPatrol1_Cultist_001_470999a2-58be-49cd-a50e-415b6e5a15fb"
         },
         {
             "Handle": "Night Blade Zeironymous",
-            "Location": "UNDERCITY_BHAALISTS",
+            "Location": "UNDERCITY_BHAAL_CHASM",
             "Guid": "S_LOW_UndercityPatrol1_Cultist_002_507919b5-2090-4a13-bcca-56e5a5f1c64b"
-        },
-        {
-            "Handle": "Night Blade Corniche",
-            "Location": "UNDERCITY_BHAALISTS",
-            "Guid": "S_LOW_UndercityPatrol1_Cultist_003_da80e468-cadb-49da-934c-903ba912b7cf"
-        },
-        {
-            "Handle": "Devastator Stropes",
-            "Location": "UNDERCITY_BHAALISTS",
-            "Guid": "S_LOW_UndercityPatrol2_Cultist_002_0e27e169-ee1e-4e56-93ba-3b86feafd252"
-        },
-        {
-            "Handle": "Farslayer of Bhaal Ghislev",
-            "Location": "UNDERCITY_BHAALISTS",
-            "Guid": "S_LOW_UndercityRuins_Cultist_Sniper_876c18d6-fcf3-4934-abc1-c0939872c093"
         },
         {
             "Handle": "Ironshield Brounce",
@@ -12029,6 +12369,11 @@
             "Handle": "Spectator",
             "Location": "",
             "Guid": "S_PLA_ZhentShipment_Spectator_2c214b80-1d72-431d-bc0b-1997a646c99b"
+        },
+        {
+            "Handle": "Astarion",
+            "Location": "",
+            "Guid": "S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255"
         },
         {
             "Handle": "Gale",
@@ -12601,6 +12946,11 @@
             "Guid": "S_WYR_Circus_ScaredChild_79a1cc38-1a2d-46b7-8eef-96b16325c9a7"
         },
         {
+            "Handle": "True Hero of Baldur's Gate",
+            "Location": "",
+            "Guid": "S_WYR_Circus_StatueDummy_c2ef6bde-3dbe-4ff5-99ca-8120445a8309"
+        },
+        {
             "Handle": "Patriar",
             "Location": "",
             "Guid": "S_WYR_CoronationHallWitness_01_b3048943-8bf0-4819-b13a-90a9aa9d44eb"
@@ -12734,16 +13084,6 @@
             "Handle": "Dead Adventurer",
             "Location": "",
             "Guid": "S_WYR_Jungle_CircusPatron_02_1510f787-443b-4e7f-97cf-4781e2613c4e"
-        },
-        {
-            "Handle": "Skeleton",
-            "Location": "",
-            "Guid": "S_WYR_Jungle_TreasureSkeleton_01_aaab1b99-99aa-8a01-42e8-c055f0397258"
-        },
-        {
-            "Handle": "Skeleton",
-            "Location": "",
-            "Guid": "S_WYR_Jungle_TreasureSkeleton_02_3de732a4-5f98-8a54-3ffe-0cc17480576d"
         },
         {
             "Handle": "Iron Consul Nuff",
@@ -13124,11 +13464,6 @@
             "Handle": "Waiter Jaymes",
             "Location": "",
             "Guid": "S_WYR_WyrmRock_MessHallWaiter_aa01fd84-b94f-43be-8fd8-c4346ea1e7da"
-        },
-        {
-            "Handle": "Fallen Champion",
-            "Location": "WYRM_TRIALS_STRATEGY",
-            "Guid": "S_WYR_Wyrmsway_FailSkeleton_028_6f0b51e5-0d95-417f-bfe2-3cdd46c65e4d"
         },
         {
             "Handle": "Civilian",
@@ -14000,73 +14335,48 @@
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Bat_001_978c17c1-af29-4d7c-b37b-513e3dd11d95"
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Bat_002_0779b83e-4dc8-48d2-a91c-240247da6975"
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Bat_003_5ff8e5a9-ae15-4858-927d-7ef6d623cada"
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Bat_004_4d19da60-7bd5-40cf-81d7-2b88049ff46e"
         },
         {
             "Handle": "Giant Rat",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Rat_001_12cfe1fe-7140-4bd4-8aa0-06feb78f8980"
         },
         {
             "Handle": "Giant Rat",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Rat_002_82b3703b-7069-41ea-9310-e33addb19bc8"
         },
         {
             "Handle": "Giant Rat",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Rat_003_c3fdee4f-3692-437a-997e-c31580affad8"
         },
         {
             "Handle": "Giant Rat",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Rat_004_55d3d35f-4e0b-4dfe-af6e-ff2fc133d9a4"
         },
         {
             "Handle": "Giant Rat",
-            "Location": "CAZADOR_BALLROOM",
+            "Location": "CAZADOR_UPPER_BALLROOM",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Rat_005_222691ba-d70c-45de-8906-a8eb1ba0f6e9"
-        },
-        {
-            "Handle": "Duver Rillyn",
-            "Location": "CAZADOR_BALLROOM",
-            "Guid": "S_LOW_CazadorsPalace_Ballroom_Werewolf_001_59ee488e-b73a-4501-8a2d-4cb2a079e4d6"
-        },
-        {
-            "Handle": "Blaise Hhune",
-            "Location": "CAZADOR_BALLROOM",
-            "Guid": "S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a"
-        },
-        {
-            "Handle": "Gheris Hhune",
-            "Location": "CAZADOR_BALLROOM",
-            "Guid": "S_LOW_CazadorsPalace_Ballroom_Werewolf_003_f21aa31f-4b01-405d-a54e-4fa1ca0b64ab"
-        },
-        {
-            "Handle": "Bloodfang",
-            "Location": "CAZADOR_BALLROOM",
-            "Guid": "S_LOW_CazadorsPalace_Ballroom_Wolf_001_faa297b1-c4c4-40fc-978a-420656b78771"
-        },
-        {
-            "Handle": "Whitemist",
-            "Location": "CAZADOR_BALLROOM",
-            "Guid": "S_LOW_CazadorsPalace_Ballroom_Wolf_002_92a49cfd-1ddf-485d-b885-44d2c611258a"
         },
         {
             "Handle": "Lurianna Sauvage",
@@ -14075,78 +14385,58 @@
         },
         {
             "Handle": "Jaryd",
-            "Location": "CAZADOR_GUARDS",
+            "Location": "CAZADOR_EXTERIOR_WALL",
             "Guid": "S_LOW_CazadorsPalace_GuardTower_Guard_002_a97a18f4-3dd9-4af9-84df-028ca82e41c5"
         },
         {
             "Handle": "Giant Rat",
-            "Location": "CAZADOR_GUARDS",
+            "Location": "CAZADOR_EXTERIOR_WALL",
             "Guid": "S_LOW_CazadorsPalace_GuardTower_Rat_001_ba3e956a-fe8c-424d-b491-7fc557729d6a"
         },
         {
             "Handle": "Giant Rat",
-            "Location": "CAZADOR_GUARDS",
+            "Location": "CAZADOR_EXTERIOR_WALL",
             "Guid": "S_LOW_CazadorsPalace_GuardTower_Rat_002_3dba64f8-5bb7-48eb-a88c-24643926bb5f"
         },
         {
             "Handle": "Giant Rat",
-            "Location": "CAZADOR_GUARDS",
+            "Location": "CAZADOR_EXTERIOR_WALL",
             "Guid": "S_LOW_CazadorsPalace_GuardTower_Rat_003_c2d24548-56d4-45e7-a1ac-4928941b7642"
         },
         {
             "Handle": "Giant Rat",
-            "Location": "CAZADOR_GUARDS",
+            "Location": "CAZADOR_EXTERIOR_WALL",
             "Guid": "S_LOW_CazadorsPalace_GuardTower_Rat_004_49b253e0-cbf2-48b7-b70f-87b186325cb5"
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Bat_01_02bbc7ca-66c8-4a8f-b518-c599506442e5"
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Bat_02_6cc1a7ea-611c-40d7-b4b5-f1a2c9819644"
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Bat_03_a8290645-9301-4ec0-b481-a7c49844a2aa"
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Bat_04_d4f70089-3956-4ed5-8aa1-c231b9bb23ab"
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Bat_05_ea827be9-8e09-4331-9abe-d08d4c690f45"
         },
         {
             "Handle": "Bat",
-            "Location": "CAZADOR_DUNGEON",
+            "Location": "CAZADOR_LOWER_RITUAL",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Bat_06_341fc0da-f6c4-4540-aeed-5b2cae43e5f4"
-        },
-        {
-            "Handle": "Predator Werewolf",
-            "Location": "CAZADOR_DUNGEON",
-            "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_01_20ff3b11-d07a-4ecc-ae23-41fc09966ba5"
-        },
-        {
-            "Handle": "Predator Werewolf",
-            "Location": "CAZADOR_DUNGEON",
-            "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_02_79138f67-ed4a-4d3a-8fb7-1e4c4d6c8620"
-        },
-        {
-            "Handle": "Predator Werewolf",
-            "Location": "CAZADOR_DUNGEON",
-            "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_03_471eff9e-66df-468c-919a-d7160f02e46e"
-        },
-        {
-            "Handle": "Predator Werewolf",
-            "Location": "CAZADOR_DUNGEON",
-            "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_04_f8eb826d-9071-4fc4-aeee-9383fab42bac"
         },
         {
             "Handle": "Zambomba",
@@ -14427,6 +14717,11 @@
             "Handle": "Ratin Sesescor",
             "Location": "CITY_SERIAL_RAINFORESTHOME",
             "Guid": "S_LOW_SerialKiller_Rat_Witness_28eabcbd-8297-4959-b6ca-a99cec39ed51"
+        },
+        {
+            "Handle": "Cranium Rat",
+            "Location": "UNDERCITY_MAINSEWER_RATS",
+            "Guid": "S_LOW_Sewers_CraniumRat_000_1b1f1fff-c60d-4318-b757-5946b51800b1"
         },
         {
             "Handle": "Werewolf",
@@ -14988,6 +15283,21 @@
             "Guid": "S_LOW_HouseOfHope_PrisonSpectator01_d92a207c-874a-4409-9cad-4abcec33efa1"
         },
         {
+            "Handle": "Ayo Armbrust",
+            "Location": "",
+            "Guid": "S_LOW_WindmillMindflayerFollowup_Child_36c1ce47-4d87-4520-9094-e4dc8008cffd"
+        },
+        {
+            "Handle": "Tym Armbrust",
+            "Location": "",
+            "Guid": "S_LOW_WindmillMindflayerFollowup_Father_9eb473a4-6fd9-4cc2-87df-537c434ee32e"
+        },
+        {
+            "Handle": "Talli Armbrust",
+            "Location": "",
+            "Guid": "S_LOW_WindmillMindflayerFollowup_Mother_323eb737-2422-4026-b403-785473c738ee"
+        },
+        {
             "Handle": "Dead Mind Flayer Tadpole",
             "Location": "",
             "Guid": "S_MOO_DeadDockTadpole_001_cc837d6c-88ab-4511-94ed-ab7f2f5bb778"
@@ -15121,6 +15431,11 @@
         },
         {
             "Handle": "Grease Mephit",
+            "Location": "",
+            "Guid": "S_LOW_GreaseMephit_001_5c67fffb-3f0b-44c2-960e-9df6640c9407"
+        },
+        {
+            "Handle": "Grease Mephit",
             "Location": "UNDERCITY_MAINSEWER_GREASE",
             "Guid": "S_LOW_GreaseMephit_002_5dbf7fec-24aa-47de-b5fe-a00231d6f5a2"
         },
@@ -15133,6 +15448,11 @@
             "Handle": "Grease Mephit",
             "Location": "UNDERCITY_MAINSEWER_GREASE",
             "Guid": "S_LOW_GreaseMephit_004_917cd8d0-03ca-4104-b9e2-fd22432607bd"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "",
+            "Guid": "S_LOW_GreaseMephit_005_e5b3b325-b891-41d0-9742-74ef4b8dec80"
         },
         {
             "Handle": "Grease Mephit",
@@ -15373,6 +15693,16 @@
         {
             "Handle": "Greaseball",
             "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseOoze_002_e103cb95-d0c4-40e6-b037-1a3552c7343e"
+        },
+        {
+            "Handle": "Greaseball",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseOoze_003_07a919bb-c1a7-4414-8e16-2e0c9f0c75e4"
+        },
+        {
+            "Handle": "Greaseball",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
             "Guid": "S_LOW_GreaseOoze_005_28d1e35c-7b91-4f09-82e8-55efc5eb1569"
         },
         {
@@ -15496,6 +15826,11 @@
             "Handle": "Steel Watcher",
             "Location": "BASILISK_GATE_PRISON",
             "Guid": "S_LOW_Prison_SteelWatcherGuard_01_29470d0e-0574-40fe-86a1-2bc82cd07008"
+        },
+        {
+            "Handle": "Steel Watcher",
+            "Location": "",
+            "Guid": "S_LOW_SWS_Patrols_000_SW_844aef4d-f488-41ae-8416-3d3ff4b8b42e"
         },
         {
             "Handle": "Hellfire Watcher",
@@ -15970,11 +16305,6 @@
             "Guid": "S_FOR_ThayG_Skeleton_008_532d1b22-b493-4282-b366-a55dbd6cf8a4"
         },
         {
-            "Handle": "Godey",
-            "Location": "CAZADOR_INTERIOR",
-            "Guid": "S_LOW_CazadorsPalace_Kennel_Skeleton_f2a457d8-f2e5-430b-9a53-85746171482f"
-        },
-        {
             "Handle": "Necromite",
             "Location": "MOONRISE_PRISON",
             "Guid": "S_MOO_Assault_PrisonNecromite_000_e6f9b96e-9579-4a5c-9790-defb0384be3f"
@@ -16220,6 +16550,16 @@
             "Guid": "S_SHA_TadpoledSkeletons_Skelly_002_7ae4bbc1-64de-4a8e-94aa-e2b4d1603685"
         },
         {
+            "Handle": "Skeleton",
+            "Location": "",
+            "Guid": "S_WYR_Jungle_TreasureSkeleton_01_aaab1b99-99aa-8a01-42e8-c055f0397258"
+        },
+        {
+            "Handle": "Skeleton",
+            "Location": "",
+            "Guid": "S_WYR_Jungle_TreasureSkeleton_02_3de732a4-5f98-8a54-3ffe-0cc17480576d"
+        },
+        {
             "Handle": "Corpse",
             "Location": "RIVINGTON_TEMPLE",
             "Guid": "S_WYR_SentientAmulet_Zombie_001_d985482f-3f1a-4fea-ba83-58fe5862841a"
@@ -16238,9 +16578,14 @@
             "Handle": "Corpse",
             "Location": "RIVINGTON_TEMPLE",
             "Guid": "S_WYR_SentientAmulet_Zombie_Shirra_cc15a9d4-b600-4e82-b981-3a0038a62c6c"
+        },
+        {
+            "Handle": "Fallen Champion",
+            "Location": "WYRM_TRIALS_STRATEGY",
+            "Guid": "S_WYR_Wyrmsway_FailSkeleton_028_6f0b51e5-0d95-417f-bfe2-3cdd46c65e4d"
         }
     ],
-    "Multiple: Beast, Aberration": [
+    "Multiple: Aberration, Beast": [
         {
             "Handle": "Phase Spiderling",
             "Location": "",
@@ -16366,7 +16711,7 @@
             "Guid": "S_TWN_MorgueEntrance_ShadowCursed_03_33ed97d1-0461-421c-affc-26d2ab7a10bd"
         }
     ],
-    "Multiple: Dragon, Humanoid": [
+    "Multiple: Humanoid, Dragon": [
         {
             "Handle": "Kobold Dragon Mage",
             "Location": "",
@@ -16610,7 +16955,7 @@
             "Guid": "S_TWN_Distillery_Brewer_Zombie_04_d00c35ae-1e20-4006-b667-5fb4f8c8728d"
         }
     ],
-    "Multiple: Monstrosity, Undead": [
+    "Multiple: Undead, Monstrosity": [
         {
             "Handle": "Shadow Mastiff",
             "Location": "",
@@ -16667,38 +17012,6 @@
             "Guid": "S_TWN_MorgueEntrance_ShadowMastiff_02_53689982-f182-44bb-ac37-d421779c4c30"
         }
     ],
-    "Object": [
-        {
-            "Handle": "Kobold Hole",
-            "Location": "ELFSONG_GRAVEYARD_KURWIN",
-            "Guid": "S_LOW_KurwinCoffin_KoboldHole001_9b09f43e-46d7-4a10-8351-0c3b70ca8686"
-        },
-        {
-            "Handle": "Kobold Hole",
-            "Location": "ELFSONG_GRAVEYARD_CENTER",
-            "Guid": "S_LOW_KurwinCoffin_KoboldHole002_8f12bdc1-fa74-4e66-a0b3-6d2f77376b92"
-        },
-        {
-            "Handle": "Kobold Hole",
-            "Location": "ELFSONG_GRAVEYARD_CENTER",
-            "Guid": "S_LOW_KurwinCoffin_KoboldHole003_f1b59184-15ad-479d-af65-3cd463c65149"
-        },
-        {
-            "Handle": "Kobold Hole",
-            "Location": "ELFSONG_GRAVEYARD_CENTER",
-            "Guid": "S_LOW_KurwinCoffin_KoboldHole004_e838a453-1cf0-47e9-aae2-d2b40a4ac9ac"
-        },
-        {
-            "Handle": "Kobold Hole",
-            "Location": "ELFSONG_GRAVEYARD_CENTER",
-            "Guid": "S_LOW_KurwinCoffin_KoboldHole005_d9d107ac-aed5-449b-ae9c-93f282ada235"
-        },
-        {
-            "Handle": "Kobold Hole",
-            "Location": "ELFSONG_GRAVEYARD_CENTER",
-            "Guid": "S_LOW_KurwinCoffin_KoboldHole006_04e52cb8-9ec2-47dd-bcb1-50f9ea2bc4f4"
-        }
-    ],
     "Celestial": [
         {
             "Handle": "Moonlight Sliver",
@@ -16716,6 +17029,13 @@
             "Handle": "Gilded Minotaur",
             "Location": "CENTRALWALL_DEVILSFEE_HELSIK",
             "Guid": "S_LOW_DevilsFee_Minotaur_001_600b2316-722c-4316-b19e-0dbf77b8651a"
+        }
+    ],
+    "Object": [
+        {
+            "Handle": "Boon of Bhaal",
+            "Location": "UNDERCITY_TEMPLE_CENTER",
+            "Guid": "S_LOW_BhaalTemple_RitualHelper_d3fed835-7758-48a8-9641-af8eae197203"
         }
     ]
 }

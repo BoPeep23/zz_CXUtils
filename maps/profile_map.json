@@ -66,6 +66,7 @@
         "Spells": [],
         "Passives": [
             "Goon_AC_Buff_2",
+            "Goon_AttackRoll_2",
             "Goon_Thunder_Resistant",
             "Goon_Increased_Movement_2"
         ]
@@ -74,6 +75,7 @@
         "Spells": [],
         "Passives": [
             "Goon_AC_Buff_3",
+            "Goon_AttackRoll_3",
             "Goon_Thunder_Resistant",
             "Goon_Radiant_Resistant",
             "Goon_Increased_Movement_4"
@@ -83,6 +85,7 @@
         "Spells": [],
         "Passives": [
             "Goon_AC_Buff_5",
+            "Goon_AttackRoll_4",
             "Goon_Thunder_Resistant",
             "Goon_Radiant_Resistant",
             "Goon_Force_Resistant",

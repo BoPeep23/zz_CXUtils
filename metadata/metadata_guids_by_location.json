@@ -118,6 +118,11 @@
             "Guid": "Bugbears_Male_c26bf9b9-9b47-3fdc-5779-c74d771c4f23"
         },
         {
+            "Handle": "Flaming Fist Archer",
+            "Type": "",
+            "Guid": "Dwarves_Female_Hill_FlamingFist_Ranger_B_1aa29469-9f2b-ca3d-c2ca-38cf25f1716d"
+        },
+        {
             "Handle": "Animated Armour",
             "Type": "",
             "Guid": "EO_AnimatedArmor_1_48390d2b-5267-45fb-a49f-2b52ca352d84"
@@ -538,34 +543,44 @@
             "Guid": "EO_WoodWoad_3_0a79f8e6-475e-42c6-8069-349d2b4b195a"
         },
         {
+            "Handle": "Quinn",
+            "Type": "",
+            "Guid": "Elves_Female_Drow_Lolth_Player_c488acf9-1c67-5ec9-c673-d37220401b3a"
+        },
+        {
             "Handle": "Phase Spiderling",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "FOR_PhaseSpider_Spawn_0df8c942-2548-b79e-528c-25d3fd681a62"
         },
         {
             "Handle": "Phase Spiderling",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "FOR_PhaseSpider_Spawn_554df1f9-73c1-b1b8-0b7e-bc5fd216de87"
         },
         {
             "Handle": "Phase Spiderling",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "FOR_PhaseSpider_Spawn_673d2bfa-8f17-08e9-079b-bb9ded304eca"
         },
         {
             "Handle": "Phase Spiderling",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "FOR_PhaseSpider_Spawn_8b48b8bd-820c-ce2a-99aa-3a0d69717d9b"
         },
         {
             "Handle": "Phase Spiderling",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "FOR_PhaseSpider_Spawn_8d4dc237-a01e-0997-cdb8-a1c5349e35c2"
         },
         {
             "Handle": "Phase Spiderling",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "FOR_PhaseSpider_Spawn_acb79486-34d9-b8b3-6a81-6aa2047e1e4b"
+        },
+        {
+            "Handle": "Roach",
+            "Type": "",
+            "Guid": "HalfElves_Male_Drow_Player_6f67d1a3-dc38-a17f-a2d1-a13e47ba978e"
         },
         {
             "Handle": "Civilian",
@@ -581,6 +596,11 @@
             "Handle": "Flaming Fist Healer",
             "Type": "Humanoid",
             "Guid": "Humans_Female_FlamingFist_Cleric_3060a554-ac2f-f9e9-ebd7-a7fde5b11fd0"
+        },
+        {
+            "Handle": "Flaming Fist Healer",
+            "Type": "",
+            "Guid": "Humans_Female_FlamingFist_Cleric_b848c36f-54e1-fbb3-70dc-3c818777be15"
         },
         {
             "Handle": "Flaming Fist Guisarmier",
@@ -600,7 +620,17 @@
         {
             "Handle": "Flaming Fist Protector",
             "Type": "",
+            "Guid": "Humans_Male_FlamingFist_Melee_Defender_05cc90fb-57c7-87ad-b0ad-19361a601baf"
+        },
+        {
+            "Handle": "Flaming Fist Protector",
+            "Type": "",
             "Guid": "Humans_Male_FlamingFist_Melee_Defender_dade4cb3-0a2b-c951-cb07-542f4cd46e6f"
+        },
+        {
+            "Handle": "Flaming Fist Archer",
+            "Type": "",
+            "Guid": "Humans_Male_FlamingFist_Ranger_B_393cd5b4-bf78-577b-5eff-7b0c6fa871a7"
         },
         {
             "Handle": "Flaming Fist Archer",
@@ -2089,7 +2119,7 @@
         },
         {
             "Handle": "Kobold Dragon Mage",
-            "Type": "Multiple: Dragon, Humanoid",
+            "Type": "Multiple: Humanoid, Dragon",
             "Guid": "S_CRE_Brewery_Kobold_New_DragonMage_001_88ceb91a-bdf1-444e-8a9d-0ac774c2110d"
         },
         {
@@ -2743,7 +2773,7 @@
             "Guid": "S_GLO_DevilishOx_49eb5b4b-c6ed-4d37-8f68-97b1128b7d56"
         },
         {
-            "Handle": "Weary Traveller",
+            "Handle": "Elminster Aumar",
             "Type": "",
             "Guid": "S_GLO_Elminster_75bb6396-1132-4064-bafe-205a3f156b9b"
         },
@@ -3011,6 +3041,16 @@
             "Handle": "Mizora",
             "Type": "Fiend",
             "Guid": "S_GLO_Wyll_Cambion_491a7686-3081-405b-983c-289ec8781e0a"
+        },
+        {
+            "Handle": "Yenna",
+            "Type": "",
+            "Guid": "S_GLO_Yenna_d496d903-d3d6-4314-a324-18542de77b0f"
+        },
+        {
+            "Handle": "Grub",
+            "Type": "",
+            "Guid": "S_GLO_YennasCat_6583b752-ac47-4ae9-ab9d-d75cebaf9b71"
         },
         {
             "Handle": "Danis",
@@ -3989,12 +4029,12 @@
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_HAV_Wave0_ShadowMastiff_New_001_a0255189-fb11-47c1-a1f8-07fd1941e2c6"
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_HAV_Wave0_ShadowMastiff_New_002_ef280585-c10f-4f6e-8fd1-2ca288dba621"
         },
         {
@@ -4084,12 +4124,12 @@
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_HAV_Wave2_ShadowMastiff_New_003_62449e2d-7bce-4268-b6d4-fdb40c576337"
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_HAV_Wave2_ShadowMastiff_New_004_bc42a3e1-96ca-4150-a10a-d9dc7d30b4c7"
         },
         {
@@ -4194,13 +4234,18 @@
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_HAV_Wave4_ShadowMastiff_003_06c47934-bc30-48f0-b297-4f99272d1241"
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_HAV_Wave4_ShadowMastiff_004_06451f28-98fa-4ab9-9b6b-92edb5ceb9af"
+        },
+        {
+            "Handle": "'Bigmouth' Thimsen",
+            "Type": "",
+            "Guid": "S_LOW_BaldursMouth_StreetGossiper_000_bfbf3129-2634-4304-bddd-07115f910c04"
         },
         {
             "Handle": "Vince Torell",
@@ -4213,19 +4258,84 @@
             "Guid": "S_LOW_BasiliskGate_FlorricksCoHangman_02_35aca423-db49-4308-acf3-e16c831d565c"
         },
         {
-            "Handle": "Unholy Assassin Rycke",
-            "Type": "",
-            "Guid": "S_LOW_BhaalTemple_UnholyAssassin_01_d00763c7-cac6-47b8-86be-a13ddd346861"
+            "Handle": "Gilded Imp",
+            "Type": "Fiend",
+            "Guid": "S_LOW_DevilsFee_Imp_Melee_003_c38d8bc5-52d7-43bb-a62d-7794bb5464df"
         },
         {
-            "Handle": "Unholy Assassin Mitchia",
-            "Type": "",
-            "Guid": "S_LOW_BhaalTemple_UnholyAssassin_02_cec194b2-0e8d-4d38-a136-0e9b1c38c684"
+            "Handle": "Gilded Imp",
+            "Type": "Fiend",
+            "Guid": "S_LOW_DevilsFee_Imp_Melee_004_bdae2b84-933c-4d6d-a9e3-c8b1324840ea"
+        },
+        {
+            "Handle": "Gilded Imp",
+            "Type": "Fiend",
+            "Guid": "S_LOW_DevilsFee_Imp_Ranged_002_c3891d62-0562-4439-87e4-6942028d3e31"
+        },
+        {
+            "Handle": "Gilded Minotaur",
+            "Type": "Monstrosity",
+            "Guid": "S_LOW_DevilsFee_Minotaur_002_be15933c-0123-4892-9160-ac2cefb5f9d9"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Type": "Elemental",
+            "Guid": "S_LOW_GreaseMephit_001_5c67fffb-3f0b-44c2-960e-9df6640c9407"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Type": "Elemental",
+            "Guid": "S_LOW_GreaseMephit_005_e5b3b325-b891-41d0-9742-74ef4b8dec80"
         },
         {
             "Handle": "Skeleton",
             "Type": "Undead",
             "Guid": "S_LOW_KurwinCoffin_W3_RisenSkeleton_002_8fa9a234-af17-45ec-a886-ee5b9801cb30"
+        },
+        {
+            "Handle": "Fist Hextra",
+            "Type": "",
+            "Guid": "S_LOW_SWS_Patrols_000_FF_000_979be68f-f08f-48e0-b299-11284b1e8eeb"
+        },
+        {
+            "Handle": "Fist Malayah",
+            "Type": "",
+            "Guid": "S_LOW_SWS_Patrols_000_FF_001_01de1cf6-a905-4b96-a605-a912ee4c0cb5"
+        },
+        {
+            "Handle": "Fist Healer Madstene",
+            "Type": "",
+            "Guid": "S_LOW_SWS_Patrols_000_FF_002_ac0a9a7c-4a93-4093-80cf-3d1594f9fa48"
+        },
+        {
+            "Handle": "Steel Watcher",
+            "Type": "Construct",
+            "Guid": "S_LOW_SWS_Patrols_000_SW_844aef4d-f488-41ae-8416-3d3ff4b8b42e"
+        },
+        {
+            "Handle": "Fast Neddio",
+            "Type": "",
+            "Guid": "S_LOW_SwooningFists_Citizen_01_7da6d386-2adc-4d61-a715-e8d899615744"
+        },
+        {
+            "Handle": "Theda Grosz",
+            "Type": "",
+            "Guid": "S_LOW_SwooningFists_Citizen_02_6dc386d0-d539-4bf0-9dbd-c09bfa279fcb"
+        },
+        {
+            "Handle": "Ayo Armbrust",
+            "Type": "Aberration",
+            "Guid": "S_LOW_WindmillMindflayerFollowup_Child_36c1ce47-4d87-4520-9094-e4dc8008cffd"
+        },
+        {
+            "Handle": "Tym Armbrust",
+            "Type": "Aberration",
+            "Guid": "S_LOW_WindmillMindflayerFollowup_Father_9eb473a4-6fd9-4cc2-87df-537c434ee32e"
+        },
+        {
+            "Handle": "Talli Armbrust",
+            "Type": "Aberration",
+            "Guid": "S_LOW_WindmillMindflayerFollowup_Mother_323eb737-2422-4026-b403-785473c738ee"
         },
         {
             "Handle": "Radija",
@@ -4778,6 +4888,11 @@
             "Guid": "S_PLA_ZhentShipment_Spectator_2c214b80-1d72-431d-bc0b-1997a646c99b"
         },
         {
+            "Handle": "Astarion",
+            "Type": "",
+            "Guid": "S_Player_Astarion_c7c13742-bacd-460a-8f65-f864fe41f255"
+        },
+        {
             "Handle": "Gale",
             "Type": "",
             "Guid": "S_Player_Gale_ad9af97d-75da-406a-ae13-7071c563f604"
@@ -5079,17 +5194,17 @@
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_SCL_PoachersMastiff02_e0550627-094e-4673-8433-437690bbc7c3"
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_SCL_PoachersMastiff03_cafa77e6-500f-4a80-86e5-b1558e5c7fa5"
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_SCL_PoachersMastiff04_fe90348e-7b9c-481e-a9ca-ca3d84fb74c8"
         },
         {
@@ -5359,12 +5474,12 @@
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_TWN_MorgueEntrance_ShadowMastiff_01_c473b3bc-7e6c-432d-93d5-7faed4457bf4"
         },
         {
             "Handle": "Shadow Mastiff",
-            "Type": "Multiple: Monstrosity, Undead",
+            "Type": "Multiple: Undead, Monstrosity",
             "Guid": "S_TWN_MorgueEntrance_ShadowMastiff_02_53689982-f182-44bb-ac37-d421779c4c30"
         },
         {
@@ -6178,6 +6293,11 @@
             "Guid": "S_WYR_Circus_ScaredChild_79a1cc38-1a2d-46b7-8eef-96b16325c9a7"
         },
         {
+            "Handle": "True Hero of Baldur's Gate",
+            "Type": "",
+            "Guid": "S_WYR_Circus_StatueDummy_c2ef6bde-3dbe-4ff5-99ca-8120445a8309"
+        },
+        {
             "Handle": "Patriar",
             "Type": "",
             "Guid": "S_WYR_CoronationHallWitness_01_b3048943-8bf0-4819-b13a-90a9aa9d44eb"
@@ -6319,12 +6439,12 @@
         },
         {
             "Handle": "Skeleton",
-            "Type": "",
+            "Type": "Multiple: Undead, Corpse",
             "Guid": "S_WYR_Jungle_TreasureSkeleton_01_aaab1b99-99aa-8a01-42e8-c055f0397258"
         },
         {
             "Handle": "Skeleton",
-            "Type": "",
+            "Type": "Multiple: Undead, Corpse",
             "Guid": "S_WYR_Jungle_TreasureSkeleton_02_3de732a4-5f98-8a54-3ffe-0cc17480576d"
         },
         {
@@ -8350,7 +8470,159 @@
             "Guid": "S_LOW_DeadAbsolutist_004_85516e07-f05f-4b9e-9f4b-3bfc032de0c7"
         }
     ],
-    "CAZADOR_DUNGEON": [
+    "MOONRISE_PRISON": [
+        {
+            "Handle": "Minthara",
+            "Type": "",
+            "Guid": "S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b"
+        },
+        {
+            "Handle": "Harper Terradissia",
+            "Type": "",
+            "Guid": "S_HAV_HavenOutcasts_RoofWatcher_Caster_d44b6aee-7737-4961-bb2b-e7920b003107"
+        },
+        {
+            "Handle": "Fist Nipawa",
+            "Type": "",
+            "Guid": "S_MOO_AssaultFlamingFist_001_623d562f-937c-4863-97df-d836f6bf2c6a"
+        },
+        {
+            "Handle": "Fist Helena",
+            "Type": "",
+            "Guid": "S_MOO_AssaultFlamingFist_002_a442887f-71ed-415e-92b2-58ffa6e029a5"
+        },
+        {
+            "Handle": "Fist Rhed",
+            "Type": "",
+            "Guid": "S_MOO_AssaultFlamingFist_003_68bd5a16-ca4b-4108-9ba5-9d16bda5f108"
+        },
+        {
+            "Handle": "Death Shepherd",
+            "Type": "",
+            "Guid": "S_MOO_Assault_PrisonDeathShepard_01_8f1f3be9-d6be-4348-be20-6c291213af78"
+        },
+        {
+            "Handle": "Sarabayle",
+            "Type": "",
+            "Guid": "S_MOO_Assault_PrisonMasterOfSouls_01_344388be-2ae5-4296-93f9-0c8f3451f436"
+        },
+        {
+            "Handle": "Willinx Jindlebee",
+            "Type": "",
+            "Guid": "S_MOO_Assault_PrisonMasterOfSouls_02_11570320-e45b-480c-a92a-4734f560edcf"
+        },
+        {
+            "Handle": "Duckie Verish",
+            "Type": "",
+            "Guid": "S_MOO_Assault_PrisonMasterOfSouls_03_67e8eb20-2428-4c24-bdbd-bb19b962182a"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_000_e6f9b96e-9579-4a5c-9790-defb0384be3f"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_002_1774a111-d852-4193-8311-562615602a22"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_003_b3b54ec6-3e86-4978-ba8f-0d8e911d1b01"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_005_99485b87-b9d1-43b5-aebe-e3a727b706a9"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_006_9d3ab8f5-b4db-441e-849b-61ef1d64ea68"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_007_7cd5ac9e-5511-4f9e-ac66-b63a77d344cf"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_008_f87f296d-2c04-4527-8531-f87fc5bd7336"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_009_63db7ebc-a3cd-40e8-83cf-e45d9cdd74fa"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_010_917e92cd-0ccc-4c87-b76e-df2896ae74d7"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_011_de92d007-5efa-4de5-9a8c-1025fb94a6da"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_013_c6300094-1768-463b-b73b-e2e4715f8418"
+        },
+        {
+            "Handle": "Necromite",
+            "Type": "Multiple: Undead, Corpse",
+            "Guid": "S_MOO_Assault_PrisonNecromite_015_1be1a7cb-1d5b-41eb-a6c7-b17c7c3ba54f"
+        },
+        {
+            "Handle": "Questioner Sumera",
+            "Type": "",
+            "Guid": "S_MOO_MindTorturer_001_480b89b1-ae6c-46e7-ad79-1b3babe3655e"
+        },
+        {
+            "Handle": "Questioner Jasin",
+            "Type": "",
+            "Guid": "S_MOO_MindTorturer_002_5c744998-b3cb-4edb-8a32-4df06593e849"
+        },
+        {
+            "Handle": "Scrying Eye",
+            "Type": "",
+            "Guid": "S_MOO_PrisonEye_A_fe9333ab-2bbe-4624-978e-56ca9b4c58da"
+        },
+        {
+            "Handle": "Scrying Eye",
+            "Type": "",
+            "Guid": "S_MOO_PrisonEye_B_9bea6db5-8e9a-4277-9813-823b45248022"
+        },
+        {
+            "Handle": "Adept Keris",
+            "Type": "",
+            "Guid": "S_MOO_PrisonGuard_002_0cf357ec-268c-4779-92ad-8d6c7de437d1"
+        },
+        {
+            "Handle": "Zealot Nadi",
+            "Type": "",
+            "Guid": "S_MOO_PrisonGuard_004_107c72ca-2a4f-477d-a315-deeea3eea49e"
+        },
+        {
+            "Handle": "The Warden",
+            "Type": "",
+            "Guid": "S_MOO_PrisonWarden_66b3e4c0-2f82-4c0a-9333-73a5194f88c7"
+        },
+        {
+            "Handle": "Acolyte Daine",
+            "Type": "",
+            "Guid": "S_MOO_UpperGuard_000_556cec90-5ea1-4054-9874-abd8ee042703"
+        },
+        {
+            "Handle": "Zealot Bennel",
+            "Type": "",
+            "Guid": "S_MOO_UpperGuard_001_3b5ad058-c872-4b1c-933b-2d8767b28aed"
+        }
+    ],
+    "CAZADOR_LOWER_RITUAL": [
         {
             "Handle": "Cazador Szarr",
             "Type": "Undead",
@@ -8428,22 +8700,22 @@
         },
         {
             "Handle": "Predator Werewolf",
-            "Type": "Beast",
+            "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_01_20ff3b11-d07a-4ecc-ae23-41fc09966ba5"
         },
         {
             "Handle": "Predator Werewolf",
-            "Type": "Beast",
+            "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_02_79138f67-ed4a-4d3a-8fb7-1e4c4d6c8620"
         },
         {
             "Handle": "Predator Werewolf",
-            "Type": "Beast",
+            "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_03_471eff9e-66df-468c-919a-d7160f02e46e"
         },
         {
             "Handle": "Predator Werewolf",
-            "Type": "Beast",
+            "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_RitualRoom_Werewolf_04_f8eb826d-9071-4fc4-aeee-9383fab42bac"
         },
         {
@@ -9099,158 +9371,6 @@
             "Handle": "Kuo-Toa Skirmisher",
             "Type": "Humanoid",
             "Guid": "S_UND_Kuotoa_Sacrifice_f52a2d24-e75e-44e3-8209-268c66dad728"
-        }
-    ],
-    "MOONRISE_PRISON": [
-        {
-            "Handle": "Nightwarden Minthara",
-            "Type": "",
-            "Guid": "S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b"
-        },
-        {
-            "Handle": "Harper Terradissia",
-            "Type": "",
-            "Guid": "S_HAV_HavenOutcasts_RoofWatcher_Caster_d44b6aee-7737-4961-bb2b-e7920b003107"
-        },
-        {
-            "Handle": "Fist Nipawa",
-            "Type": "",
-            "Guid": "S_MOO_AssaultFlamingFist_001_623d562f-937c-4863-97df-d836f6bf2c6a"
-        },
-        {
-            "Handle": "Fist Helena",
-            "Type": "",
-            "Guid": "S_MOO_AssaultFlamingFist_002_a442887f-71ed-415e-92b2-58ffa6e029a5"
-        },
-        {
-            "Handle": "Fist Rhed",
-            "Type": "",
-            "Guid": "S_MOO_AssaultFlamingFist_003_68bd5a16-ca4b-4108-9ba5-9d16bda5f108"
-        },
-        {
-            "Handle": "Death Shepherd",
-            "Type": "",
-            "Guid": "S_MOO_Assault_PrisonDeathShepard_01_8f1f3be9-d6be-4348-be20-6c291213af78"
-        },
-        {
-            "Handle": "Sarabayle",
-            "Type": "",
-            "Guid": "S_MOO_Assault_PrisonMasterOfSouls_01_344388be-2ae5-4296-93f9-0c8f3451f436"
-        },
-        {
-            "Handle": "Willinx Jindlebee",
-            "Type": "",
-            "Guid": "S_MOO_Assault_PrisonMasterOfSouls_02_11570320-e45b-480c-a92a-4734f560edcf"
-        },
-        {
-            "Handle": "Duckie Verish",
-            "Type": "",
-            "Guid": "S_MOO_Assault_PrisonMasterOfSouls_03_67e8eb20-2428-4c24-bdbd-bb19b962182a"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_000_e6f9b96e-9579-4a5c-9790-defb0384be3f"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_002_1774a111-d852-4193-8311-562615602a22"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_003_b3b54ec6-3e86-4978-ba8f-0d8e911d1b01"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_005_99485b87-b9d1-43b5-aebe-e3a727b706a9"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_006_9d3ab8f5-b4db-441e-849b-61ef1d64ea68"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_007_7cd5ac9e-5511-4f9e-ac66-b63a77d344cf"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_008_f87f296d-2c04-4527-8531-f87fc5bd7336"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_009_63db7ebc-a3cd-40e8-83cf-e45d9cdd74fa"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_010_917e92cd-0ccc-4c87-b76e-df2896ae74d7"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_011_de92d007-5efa-4de5-9a8c-1025fb94a6da"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_013_c6300094-1768-463b-b73b-e2e4715f8418"
-        },
-        {
-            "Handle": "Necromite",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_MOO_Assault_PrisonNecromite_015_1be1a7cb-1d5b-41eb-a6c7-b17c7c3ba54f"
-        },
-        {
-            "Handle": "Questioner Sumera",
-            "Type": "",
-            "Guid": "S_MOO_MindTorturer_001_480b89b1-ae6c-46e7-ad79-1b3babe3655e"
-        },
-        {
-            "Handle": "Questioner Jasin",
-            "Type": "",
-            "Guid": "S_MOO_MindTorturer_002_5c744998-b3cb-4edb-8a32-4df06593e849"
-        },
-        {
-            "Handle": "Scrying Eye",
-            "Type": "",
-            "Guid": "S_MOO_PrisonEye_A_fe9333ab-2bbe-4624-978e-56ca9b4c58da"
-        },
-        {
-            "Handle": "Scrying Eye",
-            "Type": "",
-            "Guid": "S_MOO_PrisonEye_B_9bea6db5-8e9a-4277-9813-823b45248022"
-        },
-        {
-            "Handle": "Adept Keris",
-            "Type": "",
-            "Guid": "S_MOO_PrisonGuard_002_0cf357ec-268c-4779-92ad-8d6c7de437d1"
-        },
-        {
-            "Handle": "Zealot Nadi",
-            "Type": "",
-            "Guid": "S_MOO_PrisonGuard_004_107c72ca-2a4f-477d-a315-deeea3eea49e"
-        },
-        {
-            "Handle": "The Warden",
-            "Type": "",
-            "Guid": "S_MOO_PrisonWarden_66b3e4c0-2f82-4c0a-9333-73a5194f88c7"
-        },
-        {
-            "Handle": "Acolyte Daine",
-            "Type": "",
-            "Guid": "S_MOO_UpperGuard_000_556cec90-5ea1-4054-9874-abd8ee042703"
-        },
-        {
-            "Handle": "Zealot Bennel",
-            "Type": "",
-            "Guid": "S_MOO_UpperGuard_001_3b5ad058-c872-4b1c-933b-2d8767b28aed"
         }
     ],
     "MOONRISE_MAINFLOOR": [
@@ -10071,37 +10191,37 @@
         },
         {
             "Handle": "Phase Spider Matriarch",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "S_FOR_Bottomless_SpiderQueen_e6b2f3ba-2d02-4507-8680-6047322e1a4b"
         },
         {
             "Handle": "Phase Spider",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "S_FOR_Bottomless_Spider_01_306390e8-5a0a-47ca-b33c-1c4c92032bd2"
         },
         {
             "Handle": "Phase Spider",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "S_FOR_Bottomless_Spider_02_f52f8a06-5c9b-415d-b477-4f349414d91b"
         },
         {
             "Handle": "Phase Spider",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "S_FOR_Bottomless_Spider_03_7f502e83-49bb-4287-9acd-6822e6742214"
         },
         {
             "Handle": "Phase Spider",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "S_FOR_Bottomless_Spider_04_22be8c46-f900-466d-adfe-d5f172dad45d"
         },
         {
             "Handle": "Phase Spider",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "S_FOR_Bottomless_Spider_New_01_6aced2fa-041f-4612-909d-4a401e2f1983"
         },
         {
             "Handle": "Phase Spider",
-            "Type": "Multiple: Beast, Aberration",
+            "Type": "Multiple: Aberration, Beast",
             "Guid": "S_FOR_Bottomless_Spider_New_02_4c54a913-2470-40d3-a010-c433078a9794"
         },
         {
@@ -13155,7 +13275,7 @@
         },
         {
             "Handle": "Fallen Champion",
-            "Type": "",
+            "Type": "Multiple: Undead, Corpse",
             "Guid": "S_WYR_Wyrmsway_FailSkeleton_028_6f0b51e5-0d95-417f-bfe2-3cdd46c65e4d"
         },
         {
@@ -13834,33 +13954,28 @@
         },
         {
             "Handle": "Kobold Hole",
-            "Type": "Object",
+            "Type": "Humanoid",
             "Guid": "S_LOW_KurwinCoffin_KoboldHole002_8f12bdc1-fa74-4e66-a0b3-6d2f77376b92"
         },
         {
             "Handle": "Kobold Hole",
-            "Type": "Object",
+            "Type": "Humanoid",
             "Guid": "S_LOW_KurwinCoffin_KoboldHole003_f1b59184-15ad-479d-af65-3cd463c65149"
         },
         {
             "Handle": "Kobold Hole",
-            "Type": "Object",
+            "Type": "Humanoid",
             "Guid": "S_LOW_KurwinCoffin_KoboldHole004_e838a453-1cf0-47e9-aae2-d2b40a4ac9ac"
         },
         {
             "Handle": "Kobold Hole",
-            "Type": "Object",
+            "Type": "Humanoid",
             "Guid": "S_LOW_KurwinCoffin_KoboldHole005_d9d107ac-aed5-449b-ae9c-93f282ada235"
         },
         {
             "Handle": "Kobold Hole",
-            "Type": "Object",
-            "Guid": "S_LOW_KurwinCoffin_KoboldHole006_04e52cb8-9ec2-47dd-bcb1-50f9ea2bc4f4"
-        },
-        {
-            "Handle": "Bugthimble",
             "Type": "Humanoid",
-            "Guid": "S_LOW_KurwinCoffin_KoboldLooter_7f85b5a5-6912-4776-abd0-5282bc8fef15"
+            "Guid": "S_LOW_KurwinCoffin_KoboldHole006_04e52cb8-9ec2-47dd-bcb1-50f9ea2bc4f4"
         },
         {
             "Handle": "Janina",
@@ -13923,6 +14038,13 @@
             "Guid": "S_LOW_ZombieBeggar_001_3bca7480-e42d-4c3f-aa12-2b03a03064aa"
         }
     ],
+    "ELFSONG_GRAVEYARD_KOBOLDS": [
+        {
+            "Handle": "Bugthimble",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_KurwinCoffin_KoboldLooter_7f85b5a5-6912-4776-abd0-5282bc8fef15"
+        }
+    ],
     "ELFSONG_GRAVEYARD_KURWIN": [
         {
             "Handle": "Elias Fischer",
@@ -13956,8 +14078,60 @@
         },
         {
             "Handle": "Kobold Hole",
-            "Type": "Object",
+            "Type": "Humanoid",
             "Guid": "S_LOW_KurwinCoffin_KoboldHole001_9b09f43e-46d7-4a10-8351-0c3b70ca8686"
+        }
+    ],
+    "ELFSONG_GRAVEYARD_KOBOLD": [
+        {
+            "Handle": "Kobold Inventor",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_07cb4ed8-5f6f-e360-3d27-d29a23d1f188"
+        },
+        {
+            "Handle": "Kobold Inventor",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_8ec2a490-8a80-428d-f617-344e8812843d"
+        },
+        {
+            "Handle": "Kobold Inventor",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_99154ef5-4036-19df-18fd-e6153163cb7e"
+        },
+        {
+            "Handle": "Kobold Inventor",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_b0be43f4-e189-54b9-3816-e274e015dae6"
+        },
+        {
+            "Handle": "Kobold Inventor",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Inventor_c35489ad-8630-83e4-ada3-c735b3cb246a"
+        },
+        {
+            "Handle": "Kobold",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Melee_45a8633d-56c8-8a78-48c9-a6c45a93b842"
+        },
+        {
+            "Handle": "Kobold Scout",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Ranger_88b74f59-a145-4d0a-d91f-f00083469628"
+        },
+        {
+            "Handle": "Kobold Scout",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Ranger_a2980a64-2f04-a2b5-0096-de229df3264a"
+        },
+        {
+            "Handle": "Kobold Scout",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Ranger_e61fc347-2751-7a14-c1ce-0aa1d2cc39d1"
+        },
+        {
+            "Handle": "Kobold Scout",
+            "Type": "Humanoid",
+            "Guid": "LOW_KurwinCoffin_Kobolds_Ranger_f63eff9f-ba39-388e-638b-b3e6a4ab7f31"
         }
     ],
     "ELFSONG_OUTSIDE_STREETS": [
@@ -14000,6 +14174,28 @@
             "Handle": "Hilario Varota",
             "Type": "Humanoid",
             "Guid": "S_LOW_StelmanesDeath_Citizen_02_78dbf885-7452-452a-a541-85c823b742f8"
+        }
+    ],
+    "CENTRALWALL_DEVILSFEE_HELSIK": [
+        {
+            "Handle": "Helsik",
+            "Type": "Fiend",
+            "Guid": "S_LOW_DevilsFee_Helsik_299a1c00-ff53-415e-ad8e-9bcbbae55597"
+        },
+        {
+            "Handle": "Gilded Imp",
+            "Type": "Fiend",
+            "Guid": "S_LOW_DevilsFee_Imp_Melee_001_e59fb674-067f-4960-b6fd-91ee47532856"
+        },
+        {
+            "Handle": "Gilded Imp",
+            "Type": "Fiend",
+            "Guid": "S_LOW_DevilsFee_Imp_Ranged_001_51df7e50-4cc1-4dc2-bf1d-31868845b92f"
+        },
+        {
+            "Handle": "Gilded Minotaur",
+            "Type": "Multiple: Monstrosity, Fiend",
+            "Guid": "S_LOW_DevilsFee_Minotaur_001_600b2316-722c-4316-b19e-0dbf77b8651a"
         }
     ],
     "ELFSONG_TAVERN_BAR": [
@@ -14210,6 +14406,11 @@
             "Handle": "Sahuagin",
             "Type": "Humanoid",
             "Guid": "S_LOW_BeachSahuagin_Sahuagin_Melee_04_88d10dd5-b429-460f-945e-d5c797b8b1c7"
+        },
+        {
+            "Handle": "Sahuagin Hunter",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BeachSahuagin_Sahuagin_Ranger_01_515d1e3e-e961-4d4b-883e-4f34a2eb23c7"
         },
         {
             "Handle": "Sahuagin Hunter",
@@ -14715,28 +14916,6 @@
             "Handle": "Ironshield Fulguro",
             "Type": "",
             "Guid": "S_LOW_WulbrensGuard02_fac964a4-f709-47a9-8a6e-7407a375316c"
-        }
-    ],
-    "CENTRALWALL_DEVILSFEE_HELSIK": [
-        {
-            "Handle": "Helsik",
-            "Type": "Fiend",
-            "Guid": "S_LOW_DevilsFee_Helsik_299a1c00-ff53-415e-ad8e-9bcbbae55597"
-        },
-        {
-            "Handle": "Gilded Imp",
-            "Type": "Fiend",
-            "Guid": "S_LOW_DevilsFee_Imp_Melee_001_e59fb674-067f-4960-b6fd-91ee47532856"
-        },
-        {
-            "Handle": "Gilded Imp",
-            "Type": "Fiend",
-            "Guid": "S_LOW_DevilsFee_Imp_Ranged_001_51df7e50-4cc1-4dc2-bf1d-31868845b92f"
-        },
-        {
-            "Handle": "Gilded Minotaur",
-            "Type": "Multiple: Monstrosity, Fiend",
-            "Guid": "S_LOW_DevilsFee_Minotaur_001_600b2316-722c-4316-b19e-0dbf77b8651a"
         }
     ],
     "COAST_GARLOWS_INTERIOR": [
@@ -15564,7 +15743,7 @@
             "Guid": "S_LOW_JaheirasHouse_HelperThunderOrb_ecd5b425-2d8b-4175-959e-5047a6b107d7"
         }
     ],
-    "CAZADOR_GUARDS": [
+    "CAZADOR_EXTERIOR_WALL": [
         {
             "Handle": "Merony",
             "Type": "Humanoid",
@@ -15618,11 +15797,6 @@
             "Guid": "S_LOW_CazadorsPalace_DeadWerewolf_5d1dd933-3180-47d6-99e9-ded336ebf08e"
         },
         {
-            "Handle": "Godey",
-            "Type": "Multiple: Undead, Corpse",
-            "Guid": "S_LOW_CazadorsPalace_Kennel_Skeleton_f2a457d8-f2e5-430b-9a53-85746171482f"
-        },
-        {
             "Handle": "Vilhelm",
             "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_Servant_001_61564290-a0f8-457e-aba1-3697ad9ea0d4"
@@ -15638,7 +15812,7 @@
             "Guid": "S_LOW_CazadorsPalace_Servant_003_b8109954-bc78-4fbd-ac69-ba22cf4775fa"
         }
     ],
-    "CAZADOR_BALLROOM": [
+    "CAZADOR_UPPER_BALLROOM": [
         {
             "Handle": "Bat",
             "Type": "Beast",
@@ -15701,33 +15875,40 @@
         },
         {
             "Handle": "Duver Rillyn",
-            "Type": "Beast",
+            "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Werewolf_001_59ee488e-b73a-4501-8a2d-4cb2a079e4d6"
         },
         {
             "Handle": "Blaise Hhune",
-            "Type": "Beast",
+            "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a"
         },
         {
             "Handle": "Gheris Hhune",
-            "Type": "Beast",
+            "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Werewolf_003_f21aa31f-4b01-405d-a54e-4fa1ca0b64ab"
         },
         {
             "Handle": "Bloodfang",
-            "Type": "Beast",
+            "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Wolf_001_faa297b1-c4c4-40fc-978a-420656b78771"
         },
         {
             "Handle": "Whitemist",
-            "Type": "Beast",
+            "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_Ballroom_Wolf_002_92a49cfd-1ddf-485d-b885-44d2c611258a"
         },
         {
             "Handle": "Greenfern",
             "Type": "Humanoid",
             "Guid": "S_LOW_CazadorsPalace_Servant_004_2776a0f5-def2-4714-a830-6561cc96eb53"
+        }
+    ],
+    "CAZADOR_UPPER_KENNEL": [
+        {
+            "Handle": "Godey",
+            "Type": "Undead",
+            "Guid": "S_LOW_CazadorsPalace_Kennel_Skeleton_f2a457d8-f2e5-430b-9a53-85746171482f"
         }
     ],
     "UNDERCITY_MAINSEWER_BHAALISTS": [
@@ -15757,6 +15938,11 @@
             "Handle": "Absolute Cultist",
             "Type": "",
             "Guid": "S_LOW_DeadAbsolutist_000_3a59df3f-55b0-4b6b-b2b6-20c861eb0391"
+        },
+        {
+            "Handle": "Absolute Cultist",
+            "Type": "",
+            "Guid": "S_LOW_DeadAbsolutist_001_a761efbb-5989-4b02-9d60-16f2239eb007"
         },
         {
             "Handle": "Absolute Cultist",
@@ -15831,6 +16017,16 @@
         {
             "Handle": "Greaseball",
             "Type": "Ooze",
+            "Guid": "S_LOW_GreaseOoze_002_e103cb95-d0c4-40e6-b037-1a3552c7343e"
+        },
+        {
+            "Handle": "Greaseball",
+            "Type": "Ooze",
+            "Guid": "S_LOW_GreaseOoze_003_07a919bb-c1a7-4414-8e16-2e0c9f0c75e4"
+        },
+        {
+            "Handle": "Greaseball",
+            "Type": "Ooze",
             "Guid": "S_LOW_GreaseOoze_005_28d1e35c-7b91-4f09-82e8-55efc5eb1569"
         },
         {
@@ -15847,6 +16043,13 @@
             "Handle": "Greaseball",
             "Type": "Ooze",
             "Guid": "S_LOW_GreaseOoze_008_7d6862ba-85b5-4333-ae7b-1f9190734e9d"
+        }
+    ],
+    "UNDERCITY_MAINSEWER_RATS": [
+        {
+            "Handle": "Cranium Rat",
+            "Type": "Beast",
+            "Guid": "S_LOW_Sewers_CraniumRat_000_1b1f1fff-c60d-4318-b757-5946b51800b1"
         }
     ],
     "UNDERCITY_HIDEOUT_CISTERN": [
@@ -15952,7 +16155,7 @@
             "Guid": "S_LOW_HeadlessGhost_e9af0a05-9a9b-43aa-a2bd-d5f58d84de9c"
         }
     ],
-    "UNDERCITY_CARRION": [
+    "UNDERCITY_RUINS_MUMMIES": [
         {
             "Handle": "Ancient Servant",
             "Type": "Undead",
@@ -16050,7 +16253,7 @@
         },
         {
             "Handle": "Dead Human",
-            "Type": "",
+            "Type": "Humanoid",
             "Guid": "S_LOW_DeadAdventurer_003_dee183c3-d0f0-4264-b11e-f1c74e8c2503"
         },
         {
@@ -16059,7 +16262,7 @@
             "Guid": "S_LOW_DeadAdventurer_004_b8e28cab-2064-427c-bf7f-7e956e15c93c"
         }
     ],
-    "UNDERCITY_BHAALISTS": [
+    "UNDERCITY_BHAAL_CHASM": [
         {
             "Handle": "Justen",
             "Type": "",
@@ -16072,7 +16275,7 @@
         },
         {
             "Handle": "Night Blade Comina",
-            "Type": "",
+            "Type": "Humanoid",
             "Guid": "S_LOW_GroundCultistAmbusher002_369cfca3-d282-4e73-ba40-670fb62f5fc5"
         },
         {
@@ -16097,7 +16300,7 @@
         },
         {
             "Handle": "Night Blade Majjo",
-            "Type": "",
+            "Type": "Humanoid",
             "Guid": "S_LOW_RangedCultistAmbusher003_8d058eb7-2b2c-4504-9656-ec014b7b9872"
         },
         {
@@ -16132,7 +16335,7 @@
         },
         {
             "Handle": "Night Blade Corniche",
-            "Type": "",
+            "Type": "Humanoid",
             "Guid": "S_LOW_UndercityPatrol1_Cultist_003_da80e468-cadb-49da-934c-903ba912b7cf"
         },
         {
@@ -16147,13 +16350,148 @@
         },
         {
             "Handle": "Devastator Stropes",
-            "Type": "",
+            "Type": "Humanoid",
             "Guid": "S_LOW_UndercityPatrol2_Cultist_002_0e27e169-ee1e-4e56-93ba-3b86feafd252"
         },
         {
             "Handle": "Farslayer of Bhaal Ghislev",
-            "Type": "",
+            "Type": "Undead",
             "Guid": "S_LOW_UndercityRuins_Cultist_Sniper_876c18d6-fcf3-4934-abc1-c0939872c093"
+        }
+    ],
+    "UNDERCITY_TEMPLE_RIGHT": [
+        {
+            "Handle": "Reaper of Bhaal Velki",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Cultist_02_b69fe2eb-20ec-4d32-a146-ade9dc4df5eb"
+        },
+        {
+            "Handle": "Invoker of Bhaal Horriss",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Cultist_03_09b965d0-49f7-4b00-a8ab-20f19e4a563b"
+        },
+        {
+            "Handle": "Bhaal Cultist Bloodmopper",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Cultist_04_92e27323-35e8-41ce-9644-76d668295c10"
+        },
+        {
+            "Handle": "Saer Dorghan",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_OrinsVictim_02_c5c49334-6c87-4ed7-acce-b77935cca031"
+        },
+        {
+            "Handle": "Unholy Assassin Rycke",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_UnholyAssassin_01_d00763c7-cac6-47b8-86be-a13ddd346861"
+        },
+        {
+            "Handle": "Unholy Assassin Mitchia",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_UnholyAssassin_02_cec194b2-0e8d-4d38-a136-0e9b1c38c684"
+        }
+    ],
+    "UNDERCITY_TEMPLE_FRONT": [
+        {
+            "Handle": "Night Blade Elda",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Cultist_01_9f7607e0-abae-4722-921a-e18ee01b8984"
+        },
+        {
+            "Handle": "Death's Head of Bhaal Glyria",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Cultist_05_e20ee46e-ea8e-4781-95fd-5f1f72211703"
+        }
+    ],
+    "UNDERCITY_TEMPLE_LEFT": [
+        {
+            "Handle": "Death's Head of Bhaal Eni",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Cultist_06_692c037a-b660-4461-abb5-7599b1d12702"
+        },
+        {
+            "Handle": "Clerk Fellya",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_OrinsVictim_01_736ffcb2-31b2-4c2b-9187-15296583e461"
+        },
+        {
+            "Handle": "Reaper of Bhaal Ogga",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Reaper_03_97c90688-1181-4893-a497-141e816a4c4a"
+        }
+    ],
+    "UNDERCITY_TEMPLE_BACK": [
+        {
+            "Handle": "Cruor",
+            "Type": "Fiend",
+            "Guid": "S_LOW_BhaalTemple_ButlerOrin_c4197c67-9fbf-4ac3-8a24-7902ea573c68"
+        },
+        {
+            "Handle": "Fallen Bhaalspawn",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_DarkUrgeClone_5a96d12a-f7b4-4628-8257-8a463b49852c"
+        },
+        {
+            "Handle": "Invoker of Bhaal Grimlark",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_DeathsHead_01_dc5d659c-8703-4e41-bf3e-0eeae60d919b"
+        },
+        {
+            "Handle": "Reaper of Bhaal Zerillis",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_DeathsHead_03_1f0a7364-4893-4066-b188-907a51a75bd8"
+        },
+        {
+            "Handle": "Death's Head of Bhaal Derysia",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_DeathsHead_04_db8e11fc-5f93-4dae-9abb-a8223317fa29"
+        },
+        {
+            "Handle": "Orin's Mother Helena",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_OrinsMother_178bc423-a543-4cf9-99cb-ef4e93a1056e"
+        }
+    ],
+    "UNDERCITY_TEMPLE_CENTER": [
+        {
+            "Handle": "Invoker of Bhaal Hivune",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_DeathsHead_02_adf3d591-4442-4543-86fd-9ca5b1cb73d2"
+        },
+        {
+            "Handle": "Death's Head of Bhaal Fustian",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_NightBlade_01_7a82cf11-57a2-4796-8b3a-d3409c0cbe9e"
+        },
+        {
+            "Handle": "Reaper of Bhaal Liya",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Reaper_01_72d472ba-5e32-4922-ab0b-b5a554c6dcab"
+        },
+        {
+            "Handle": "Reaper of Bhaal Snirr",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Reaper_02_ef16770b-0590-457f-8475-712f2c491be2"
+        },
+        {
+            "Handle": "Reaper of Bhaal Hiila",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Reaper_04_c01e3dc3-4323-4a50-a378-ae6c0b8a062a"
+        },
+        {
+            "Handle": "Reaper of Bhaal Eglantine",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Reaper_05_a2bcb302-7a7b-4206-ac93-54b755bcb4d8"
+        },
+        {
+            "Handle": "Reaper of Bhaal Dhoria",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_BhaalTemple_Reaper_06_646eaea2-2329-4d75-acc7-feddad951066"
+        },
+        {
+            "Handle": "Boon of Bhaal",
+            "Type": "Object",
+            "Guid": "S_LOW_BhaalTemple_RitualHelper_d3fed835-7758-48a8-9641-af8eae197203"
         }
     ],
     "HOPE_BOUDOIR": [

@@ -71208,6 +71208,28 @@
             "Notes": ""
         },
         {
+            "Handle": "Dark Breaker Vilmina",
+            "FullGuid": "S_LOW_GuardWaveservant01_da84f4e2-8b4f-478e-b101-fa2865f6aa53",
+            "Act": "3",
+            "Location": "SHORE_UMBERLEE_UPSTAIRS",
+            "Type": "Humanoid",
+            "SubType": "",
+            "ClassArchetype": "",
+            "MonsterArchetype": "",
+            "Profiles": [],
+            "ArmorClass": 0,
+            "HealthOverride": 0,
+            "OriginalHealthOverride": 0,
+            "PassivesToAdd": [
+                "CX_Cleric_Boost"
+            ],
+            "SpellsToAdd": [],
+            "CloneTemplateGuid": "",
+            "CloneDisplayName": "",
+            "Corpse": false,
+            "Notes": ""
+        },
+        {
             "Handle": "Seawind Star Stolitti",
             "FullGuid": "S_LOW_GuardWaveservant03_cd6cb468-b077-48d0-a7e1-1e3758466d5f",
             "Act": "",
@@ -71390,26 +71412,6 @@
         {
             "Handle": "Untaken Fitzy Relma",
             "FullGuid": "S_LOW_VaultWaveservant_f9ee4d8f-0c1a-4b49-8859-7e3fab474c91",
-            "Act": "",
-            "Location": "",
-            "Type": "",
-            "SubType": "",
-            "ClassArchetype": "",
-            "MonsterArchetype": "",
-            "Profiles": [],
-            "ArmorClass": 0,
-            "HealthOverride": 0,
-            "OriginalHealthOverride": 0,
-            "PassivesToAdd": [],
-            "SpellsToAdd": [],
-            "CloneTemplateGuid": "",
-            "CloneDisplayName": "",
-            "Corpse": false,
-            "Notes": ""
-        },
-        {
-            "Handle": "Dark Breaker Vilmina",
-            "FullGuid": "S_LOW_GuardWaveservant01_da84f4e2-8b4f-478e-b101-fa2865f6aa53",
             "Act": "",
             "Location": "",
             "Type": "",

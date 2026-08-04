@@ -1,189 +1,135 @@
 {
     "Overrides": {
-        "S_LOW_UndercityChasmEntrance_Cultist_002_b1426ca0-e120-4e26-a0d6-d03625e4b5c8": {
+        "S_HAG_Hag_c457d064-83fb-4ec6-b74d-1f30dfafd12d": {
             "Passives": [
-                "Goon_AC_Buff_5",
-                "Goon_AttackRoll_3"
-            ],
-            "HealthOverride": 60
-        },
-        "S_LOW_UndercityChasmEntrance_Cultist_000_295deabe-d83c-4b5b-8ea2-016fa719b547": {
-            "Passives": [
-                "Goon_AC_Buff_5",
-                "Goon_AttackRoll_3"
-            ],
-            "HealthOverride": 60
-        },
-        "S_LOW_UndercityChasmEntrance_Cultist_001_4a7e35c3-27b3-4b58-9ef4-6330b907c2a1": {
-            "Passives": [
-                "Goon_AC_Buff_5",
-                "Goon_AttackRoll_3"
-            ],
-            "HealthOverride": 60
-        },
-        "S_LOW_UndercityRuins_Cultist_Sniper_876c18d6-fcf3-4934-abc1-c0939872c093": {
-            "HealthOverride": 200
-        },
-        "S_LOW_UndercityPatrol2_Cultist_001_ff5760cf-edab-482a-91bc-73e4e811eb57": {
-            "Passives": [
-                "FireShield_Warm",
+                "ElementalAdept_Acid",
+                "ARP_SpellSlot_6_2",
+                "ARP_SpellSlot_7_1",
                 "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "Goon_Target_MageArmor_Passive"
+                "Goon_AttackRoll_3",
+                "Goon_Increased_Movement_3"
             ],
             "Spells": [
-                "Projectile_Fireball",
-                "Zone_WallOfFire",
-                "Projectile_ScorchingRay",
-                "Zone_AganazzarsScorcher",
-                "Zone_BurningHands",
-                "Target_FlamingSphere"
+                "Target_InsectPlague",
+                "Wall_WallOfThorns",
+                "Target_PhantasmalKiller",
+                "Target_Cloudkill",
+                "Projectile_VitriolicSphere",
+                "Target_EruptingEarth",
+                "Target_FreezingSphere"
             ],
-            "HealthOverride": 90
+            "HealthOverride": 450
         },
-        "S_LOW_UndercityPatrol2_Cultist_002_0e27e169-ee1e-4e56-93ba-3b86feafd252": {
+        "S_LOW_BlushingMermaid_DisguisedRedcap_05_357299a8-b8c2-4b99-92f8-761fd697c435": {
             "Passives": [
                 "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "Goon_Target_MageArmor_Passive",
-                "ElementalAdept_Fire",
-                "MAG_Fire_BonusActionOnFireSpell_Passive"
+                "Goon_AttackRoll_4",
+                "Goon_Increased_Movement_2"
             ],
-            "Spells": [
-                "Projectile_Fireball",
-                "Zone_WallOfFire",
-                "Projectile_ScorchingRay",
-                "Zone_AganazzarsScorcher",
-                "Zone_BurningHands",
-                "Target_FlamingSphere"
+            "HealthOverride": 105
+        },
+        "S_LOW_BlushingMermaid_DisguisedRedcap_02_ba363354-3341-41e9-ae92-c3fe8a07a9ea": {
+            "Passives": [
+                "Goon_AC_Buff_4",
+                "Goon_AttackRoll_4",
+                "Goon_Increased_Movement_2"
             ],
             "HealthOverride": 100
         },
-        "S_LOW_RangedCultistAmbusher003_8d058eb7-2b2c-4504-9656-ec014b7b9872": {
+        "S_LOW_BlushingMermaid_DisguisedRedcap_06_8a9a0273-3a3b-47ee-b362-5b83903458fb": {
             "Passives": [
-                "CX_Rogue_Boost",
                 "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "MAG_TheHunters_Dagger_Passive",
-                "MAG_Victory_Longbow_Passive"
-            ],
-            "HealthOverride": 78
-        },
-        "S_LOW_UndercityPatrol1_Cultist_003_da80e468-cadb-49da-934c-903ba912b7cf": {
-            "Passives": [
-                "CX_Rogue_Boost",
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "MAG_Lesser_Infernal_Metal_Gloves_FireDamage_Passive",
-                "ALCH_Oil_RemoveResistanceFire_Passive",
-                "ElementalAdept_Fire"
-            ],
-            "HealthOverride": 80
-        },
-        "S_LOW_GroundCultistAmbusher004_b6fcf8fd-fd3f-4cb5-a25e-d520762c56fc": {
-            "Passives": [
-                "CX_Barbarian_Boost"
+                "Goon_AttackRoll_4",
+                "Goon_Increased_Movement_2"
             ],
             "HealthOverride": 120
         },
-        "S_LOW_UndercityPatrol1_Cultist_Strangler_29ba6894-5a2b-4f81-b756-c5ebdafbbb74": {
+        "S_LOW_BlushingMermaid_DisguisedRedcap_03_76784911-9f0d-48f6-8e0d-b609345b2be2": {
+            "Passives": [
+                "Goon_AC_Buff_4",
+                "Goon_AttackRoll_4",
+                "Goon_Increased_Movement_2"
+            ],
+            "HealthOverride": 110
+        },
+        "S_LOW_BlushingMermaid_DisguisedRedcap_01_efa9ccb1-4ba2-4467-82ef-b8ed63b867a4": {
+            "Passives": [
+                "Goon_AC_Buff_4",
+                "Goon_AttackRoll_4",
+                "Goon_Increased_Movement_2"
+            ],
+            "HealthOverride": 95
+        },
+        "S_LOW_BlushingMermaid_DisguisedRedcap_04_9f218fa2-418d-46ee-b38d-1708f25314ec": {
+            "Passives": [
+                "Goon_AC_Buff_4",
+                "Goon_AttackRoll_4",
+                "Goon_Increased_Movement_2"
+            ],
+            "HealthOverride": 90
+        },
+        "S_LOW_BlushingMermaid_MaskedVictim_02_518fab8f-2d1d-46c8-9a45-9045156d0053": {
             "Passives": [
                 "CX_Monk_Boost",
-                "ARP_KiPoint_3",
-                "FlurryOfBlowsUnlock"
+                "HAG_Hair_DEX_Passive",
+                "HAG_Hair_WIS_Passive",
+                "HAG_Hair_STR_Passive",
+                "Manifestation_of_Soul",
+                "Thought_Shield_Psychic_Reflection",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive",
+                "Ki",
+                "ARP_KiPoint_8",
+                "Goon_AttackRoll_5",
+                "Goon_AC_Buff_4",
+                "Goon_Increased_Movement_5"
             ],
             "Spells": [
+                "Target_INT_StunningStrike_Unarmed_OncePerTurn",
                 "Target_OpenHandTechnique_Push",
-                "Target_OpenHandTechnique_Knock",
-                "Target_OpenHandTechnique_NoReactions"
-            ]
-        },
-        "S_LOW_GroundCultistAmbusher002_369cfca3-d282-4e73-ba40-670fb62f5fc5": {
-            "Passives": [
-                "CX_Rogue_Boost",
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "LOW_Guildhall_ExtraAttack_DaggerSpecialist",
-                "MAG_TheHunters_Dagger_Passive"
-            ],
-            "HealthOverride": 71
-        },
-        "S_LOW_RangedCultistAmbusher002_61d478ae-72e6-44de-8bb1-0272c83fb85e": {
-            "Passives": [
-                "CX_Rogue_Boost",
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "LOW_Guildhall_ExtraAttack_DaggerSpecialist",
-                "ExtraAttack",
-                "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
-                "Goon_Damage_Cold_d4_Attacks"
-            ],
-            "HealthOverride": 85
-        },
-        "S_LOW_UndercityPatrol1_Cultist_001_470999a2-58be-49cd-a50e-415b6e5a15fb": {
-            "Passives": [
-                "CX_Rogue_Boost",
-                "GOB_PainPriest_Dagger_Passive",
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "LOW_Guildhall_ExtraAttack_DaggerSpecialist"
-            ],
-            "HealthOverride": 86
-        },
-        "S_LOW_RangedCultistAmbusher001_94ad0109-2c78-43f8-b7dd-0d056b742a23": {
-            "Passives": [
-                "CX_Rogue_Boost",
-                "GOB_PainPriest_Dagger_Passive",
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "LOW_Guildhall_ExtraAttack_DaggerSpecialist"
-            ],
-            "HealthOverride": 79
-        },
-        "S_LOW_UndercityPatrol1_Cultist_002_507919b5-2090-4a13-bcca-56e5a5f1c64b": {
-            "Passives": [
-                "CX_Rogue_Boost",
-                "GOB_PainPriest_Dagger_Passive",
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "LOW_Guildhall_ExtraAttack_DaggerSpecialist"
-            ],
-            "HealthOverride": 81
-        },
-        "S_LOW_GroundCultistAmbusher003_7446d348-4741-42b4-a43b-1cbbfacacb6e": {
-            "Passives": [
-                "CX_Rogue_Boost",
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "LOW_Guildhall_ExtraAttack_DaggerSpecialist",
-                "Poison_Drow_Passive"
-            ],
-            "HealthOverride": 66
-        },
-        "S_LOW_GroundCultistAmbusher001_d81275b5-bff3-4799-8118-e7aa5df575b1": {
-            "Passives": [
-                "CX_Rogue_Boost",
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_2",
-                "LOW_Guildhall_ExtraAttack_DaggerSpecialist",
-                "Poison_Drow_Passive"
-            ],
-            "HealthOverride": 66
-        },
-        "S_LOW_UndercityPatrol1_Cultist_000_0d291d3e-bf25-49ab-a15e-ed7a8b115a13": {
-            "Passives": [
-                "Goon_Target_MageArmor_Passive",
-                "Goon_AC_Buff_4",
-                "ARP_SpellSlot_5_2",
-                "ARP_SpellSlot_4_3",
-                "ARP_SpellSlot_3_3"
-            ],
-            "Spells": [
-                "Target_Counterspell",
-                "Zone_RimesBindingIce",
-                "Target_IceStorm"
+                "Target_OpenHandTechnique_Knock"
             ],
             "HealthOverride": 150
+        },
+        "S_LOW_BlushingMermaid_QuenoraGrizly_9d475536-34f0-4a6f-9191-3a635b81a232": {
+            "Passives": [
+                "PactOfTheBlade",
+                "Mobile_PassiveBonuses",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_CounterAttackOfOpportunity",
+                "CX_Rogue_Boost",
+                "HAG_Hair_CHA_Passive",
+                "Goon_AttackRoll_5",
+                "Goon_AC_Buff_4",
+                "Goon_Increased_Movement_5"
+            ],
+            "Spells": [
+                "Projectile_EldritchBlast",
+                "Target_LOW_GreaseWizard_ConvertCorpse",
+                "Shout_LOW_GreaseWizard_RaiseFire"
+            ],
+            "HealthOverride": 180
+        },
+        "S_LOW_BlushingMermaid_MaskedVictim_01_453e3292-b7ff-4a13-873a-82da3bfc2511": {
+            "Passives": [
+                "DiscipleOfLife",
+                "BardicInspiration_d8",
+                "Dwarf_DwarvenResilience",
+                "BardSpellcasting",
+                "MAG_BardicInspiration_Heal_Hat_Passive",
+                "HAG_Hair_CHA_Passive",
+                "Goon_AttackRoll_5",
+                "Goon_AC_Buff_4",
+                "Goon_Increased_Movement_5"
+            ],
+            "HealthOverride": 100
+        },
+        "S_LOW_BlushingMermaid_MaskedVictim_03_0406349d-d0fc-4bf5-8d18-5b8b8c9e6456": {
+            "Passives": [
+                "Goon_AttackRoll_5",
+                "Goon_AC_Buff_4",
+                "Goon_Increased_Movement_5"
+            ],
+            "HealthOverride": 200
         }
     }
 }

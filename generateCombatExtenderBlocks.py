@@ -99,10 +99,10 @@ if __name__ == "__main__":
     deduped_blocks = MonsterStatBlock.deduplicate(clean_blocks)
 
     clones = CombatExtenderBlockGenerator.generate_clones_by_location(
-        deduped_blocks, "UNDERCITY_BHAAL_CHASM"
+        deduped_blocks, "NORTHGATE_BLUSHING_"
     )
     overrides = CombatExtenderBlockGenerator.generate_overrides_by_location(
-        deduped_blocks, "UNDERCITY_BHAAL_CHASM"
+        deduped_blocks, "NORTHGATE_BLUSHING_"
     )
 
     clones_payload = {"Clones": clones}

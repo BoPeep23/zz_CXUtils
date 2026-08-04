@@ -237,15 +237,44 @@ class MonsterStatBlock:
                 setattr(instance, key, value)
         return instance
 
+    @staticmethod
+    def act_key(act):
+        """Map an Act value to its top-level JSON key: numeric Acts become
+        'Act1'/'Act2'/etc., blank Acts fold into 'Unknown', and any other
+        string (e.g. 'Global', 'Camp') is used as-is."""
+        a = (act or "").strip()
+        if not a:
+            return "Unknown"
+        if a.isdigit():
+            return f"Act{a}"
+        return a
+
     @classmethod
     def load_from_json_file(cls, file_path):
         with open(file_path, 'r') as f:
             data = json.load(f)
-        return [cls.from_dict(entry) for entry in data.get('Guids', [])]
+        if 'Guids' in data:
+            # Legacy single-list format.
+            entries = data.get('Guids', [])
+        else:
+            entries = [entry for group in data.values() for entry in group]
+        return [cls.from_dict(entry) for entry in entries]
 
     @classmethod
     def save_to_json_file(cls, blocks, file_path):
-        data = {'Guids': [block.to_dict() for block in blocks]}
+        grouped = {}
+        for block in blocks:
+            grouped.setdefault(cls.act_key(block.act), []).append(block)
+
+        def _sort_key(key):
+            if key.startswith('Act') and key[3:].isdigit():
+                return (0, int(key[3:]), key)
+            return (1, 0, key)
+
+        data = {
+            key: [block.to_dict() for block in grouped[key]]
+            for key in sorted(grouped, key=_sort_key)
+        }
         with open(file_path, 'w') as f:
             json.dump(data, f, indent=4)
 

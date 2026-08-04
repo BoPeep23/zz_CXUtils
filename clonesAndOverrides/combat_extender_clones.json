@@ -16,9 +16,6 @@
         "S_PLA_DyingHyena_GnollPack_C_Fang_01_00fc2e9b-f93c-422d-8a17-7cdaa292f29c": {
             "DisplayName": "Gnoll Fang of Yeenoghu"
         },
-        "MMM_DENEAGLE_604d28b4-5f0b-4c18-87e7-5905d160d3de": {
-            "DisplayName": "Giant Eagle"
-        },
         "S_DEN_GoblinRaider_Melee_01_6a03d0ff-a930-4347-bba2-9f3fd6bc317a": {
             "DisplayName": "Goblin Booyahg"
         },
@@ -40,10 +37,6 @@
         "S_HAG_Hag_c457d064-83fb-4ec6-b74d-1f30dfafd12d": {
             "DisplayName": "Grease Guardian",
             "Template": "S_LOW_GreaseElemental_001_f4e06895-6aa1-4fb0-9118-097e3e250cb2"
-        },
-        "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea": {
-            "DisplayName": "Zealot Varsh",
-            "Template": "S_UND_GrymforgeExcavation_DrowAdept_001_8304b71a-0da8-40c3-b385-91e35e15903e"
         },
         "S_DEN_BugbearNinja_4cb29070-a33c-4253-9f57-18d1c9a88523": {
             "DisplayName": "Hellish Servant",
@@ -88,13 +81,6 @@
             "DisplayName": "Wood Woad",
             "Template": "S_HAG_WoodWoad_001_9bfff102-7858-47ad-a54d-ad7abae921f1"
         },
-        "S_WYR_GurCamp_Hunter_006_4c42f14a-c99a-4ba0-891c-136bf7ed38bb": {
-            "DisplayName": "Revilo Quarlic"
-        },
-        "S_LOW_FatherCarrion_b003409c-364f-4065-94bf-7436001d890e": {
-            "DisplayName": "Death Shepherd",
-            "Template": "S_LOW_KurwinCoffin_W3_RisenSkeleton_Giant_49cc5f9e-72e3-440f-be8b-2c4ecf5964b5"
-        },
         "S_DEN_ShadowDruid_003_53b08334-9f79-4bb5-b580-2662355d54ad": {
             "DisplayName": "Dorrina"
         },
@@ -122,12 +108,37 @@
             "DisplayName": "Scribe Guardian",
             "Template": "S_CHA_FL0_DeadSkeleton_Caster_04_cb4c2c8f-b6db-4c53-b7e3-395aef311a39"
         },
-        "EO_SabreTooth1_14a87b00-1b2a-4dfa-9062-8df3016fc7f7": {
-            "DisplayName": "Sabre-Toothed Tiger"
+        "EO_Gazer_2_d77389c8-f7b5-460e-8e14-54f709eb5e25": {
+            "DisplayName": "Gazer"
         },
-        "EO_SabreTooth2_3129e3bd-0ef3-4ea7-9bb6-577cf78fcde8": {
-            "DisplayName": "Large Gremishka",
-            "Template": "S_CRE_Gremishka_Large_004_49a1a8bc-9578-4ab0-b9bf-9d2870e090f2"
+        "EO_Gazer_1_fe62fd3c-c451-439b-b1e4-8da59a0bc0ab": {
+            "DisplayName": "Gazer"
+        },
+        "S_MOO_OublietteHookHorror_001_8a086aaf-a785-4f09-8e24-125206d060f1": {
+            "DisplayName": "Cloaker",
+            "Template": "S_SHA_Cloaker_c8119fa9-0b73-421d-a5fc-b163e399a185"
+        },
+        "S_MOO_OublietteHookHorror_000_eda129f0-b54b-4b05-95a3-ba626e4b765a": {
+            "DisplayName": "Hook Horror"
+        },
+        "S_COL_TadpolingCentre_Mindflayer_004_5f7a197f-2d85-4fa0-a5a0-8b72138cf3b9": {
+            "DisplayName": "Mind Flayer",
+            "Template": "S_COL_TadpolingCentre_Mindflayer_004_5f7a197f-2d85-4fa0-a5a0-8b72138cf3b9"
+        },
+        "S_COL_TadpolingCentre_Mindflayer_005_6686b60f-2614-4eef-ad04-7e3faa4efacd": {
+            "DisplayName": "Mind Flayer",
+            "Template": "S_COL_TadpolingCentre_Mindflayer_005_6686b60f-2614-4eef-ad04-7e3faa4efacd"
+        },
+        "S_COL_TadpolingCentre_Mindflayer_001_08d7a7f5-4d33-4000-b2f7-7c0cf6053a89": {
+            "DisplayName": "Mind Flayer",
+            "Template": "S_COL_TadpolingCentre_Mindflayer_001_08d7a7f5-4d33-4000-b2f7-7c0cf6053a89"
+        },
+        "S_WYR_GurCamp_Hunter_006_4c42f14a-c99a-4ba0-891c-136bf7ed38bb": {
+            "DisplayName": "Revilo Quarlic"
+        },
+        "S_LOW_FatherCarrion_b003409c-364f-4065-94bf-7436001d890e": {
+            "DisplayName": "Death Shepherd",
+            "Template": "S_LOW_KurwinCoffin_W3_RisenSkeleton_Giant_49cc5f9e-72e3-440f-be8b-2c4ecf5964b5"
         },
         "S_TWN_MorgueZombie_05_57136905-ef79-4a05-a1bb-e26d221ffa2e": {
             "DisplayName": "Greater Zombie"
@@ -135,14 +146,6 @@
         "S_TWN_MorgueZombie_02_88dafec7-53e1-421c-865c-f4ef51f54fd2": {
             "DisplayName": "Flesh Golem",
             "Template": "S_SHA_Necromancer_FleshGolem_5d25116f-4e25-4f9f-bb7a-1d1fdfa8fd4f"
-        },
-        "EO_Shade_Leader_7022a5b3-dbe0-4fe5-aa02-366d493856cd": {
-            "DisplayName": "Possessed Mason",
-            "Template": "S_TWN_Basement_PossessedMason_51166135-c47d-4eb2-955f-d2da96fa70a0"
-        },
-        "EO_Shade_1_94dc6eae-7b11-4c03-b96c-fe6e623995b8": {
-            "DisplayName": "Corrupted Deva",
-            "Template": "EO_SCL_WingedCommander_Trickery_Cleric_4376b2ee-e1f4-4e2f-b494-916d7b23d302"
         },
         "S_SCL_FishermansHut_CursedKuoToa_Champion_Hardcore_d3079efa-0477-4459-906d-48a7dbeefc2f": {
             "DisplayName": "Cursed Kuo-Toa Chief"
@@ -215,10 +218,6 @@
             "DisplayName": "Justiciar Darkwind",
             "Template": "S_TWN_BasementWraith_001_238d6737-efc6-4ba9-9022-8d4b26828fc7"
         },
-        "EO_Doomsept_1_fba0c22e-320f-4e51-891b-4e578127c5e4": {
-            "DisplayName": "Justiciar Nightwind",
-            "Template": "S_TWN_BasementWraith_001_238d6737-efc6-4ba9-9022-8d4b26828fc7"
-        },
         "S_SHA_SilentLibrary_Justiciar_Caster_01_79c0ecfe-930b-4d1e-9b50-9e8836c91c12": {
             "DisplayName": "Justiciar Darkwind",
             "Template": "S_TWN_BasementWraith_001_238d6737-efc6-4ba9-9022-8d4b26828fc7"
@@ -240,31 +239,6 @@
         },
         "S_MOO_BazEntranceGuard_002_1a7719bc-9f42-4405-a07d-5d54af11ef0b": {
             "DisplayName": "Zealot Nadine"
-        },
-        "EO_Gazer_2_d77389c8-f7b5-460e-8e14-54f709eb5e25": {
-            "DisplayName": "Gazer"
-        },
-        "EO_Gazer_1_fe62fd3c-c451-439b-b1e4-8da59a0bc0ab": {
-            "DisplayName": "Gazer"
-        },
-        "S_MOO_OublietteHookHorror_001_8a086aaf-a785-4f09-8e24-125206d060f1": {
-            "DisplayName": "Cloaker",
-            "Template": "S_SHA_Cloaker_c8119fa9-0b73-421d-a5fc-b163e399a185"
-        },
-        "S_MOO_OublietteHookHorror_000_eda129f0-b54b-4b05-95a3-ba626e4b765a": {
-            "DisplayName": "Hook Horror"
-        },
-        "S_COL_TadpolingCentre_Mindflayer_004_5f7a197f-2d85-4fa0-a5a0-8b72138cf3b9": {
-            "DisplayName": "Mind Flayer",
-            "Template": "S_COL_TadpolingCentre_Mindflayer_004_5f7a197f-2d85-4fa0-a5a0-8b72138cf3b9"
-        },
-        "S_COL_TadpolingCentre_Mindflayer_005_6686b60f-2614-4eef-ad04-7e3faa4efacd": {
-            "DisplayName": "Mind Flayer",
-            "Template": "S_COL_TadpolingCentre_Mindflayer_005_6686b60f-2614-4eef-ad04-7e3faa4efacd"
-        },
-        "S_COL_TadpolingCentre_Mindflayer_001_08d7a7f5-4d33-4000-b2f7-7c0cf6053a89": {
-            "DisplayName": "Mind Flayer",
-            "Template": "S_COL_TadpolingCentre_Mindflayer_001_08d7a7f5-4d33-4000-b2f7-7c0cf6053a89"
         },
         "S_COL_Barracks_SkullLasher_002_bc8d35c0-d782-4c8e-9e20-baf87f814a31": {
             "DisplayName": "Jillinx Windlebee",
@@ -318,10 +292,6 @@
         "S_COL_NecromancerRoom_TadpoledSkeleton_Caster_001_eedd14fd-3cd9-4adc-b31d-a4932c56e601": {
             "DisplayName": "Reconstituted Arcanist",
             "Template": "S_COL_NecromancerRoom_TadpoledSkeleton_Caster_001_eedd14fd-3cd9-4adc-b31d-a4932c56e601"
-        },
-        "S_INT_GithRoyalGuard02_fd75dc6e-6a8d-4d9d-8cfc-ca4ff5da53d7": {
-            "DisplayName": "Ari'sh",
-            "Template": "S_INT_Githyanki_FirstContact_004_189d5ced-1aad-4a59-b587-c598bf87daf1"
         },
         "S_WYR_MerchantsHouse_Thug_001_2c1b28c2-279f-4a85-951b-96d4d5256634": {
             "DisplayName": "Thorple",
@@ -599,13 +569,17 @@
         "S_LOW_GuildSmugglers_Guard_001_b86be437-01de-4eb0-be7a-dd2894878ec9": {
             "DisplayName": "Melag Vegetables"
         },
-        "S_LOW_DockWorg2_dc09e270-40e4-4f37-855e-ffe51b91b8f1": {
-            "DisplayName": "Werewolf",
-            "Template": "S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a"
+        "S_LOW_DockWorg3_755385cb-bee4-4991-bfb5-a03959c99d1f": {
+            "DisplayName": "Sahuagin",
+            "Template": "S_LOW_BeachSahuagin_Sahuagin_Champion_01_36902e83-9823-418a-8481-8835e95d481c"
+        },
+        "S_LOW_DockWorg5_9f613f8d-8ed7-4042-adcc-e93932c5f24f": {
+            "DisplayName": "Hellfire Watcher",
+            "Template": "S_LOW_SteelWatcherRanged_1c01c751-7ede-403e-a510-98cccc524e79"
         },
         "S_LOW_DockWorg4_2f885f58-85af-42db-ad4d-62a46d68f6af": {
-            "DisplayName": "Werewolf",
-            "Template": "S_LOW_CazadorsPalace_Ballroom_Werewolf_002_278ba30a-5902-4802-a569-89da39d3ab3a"
+            "DisplayName": "Grease Elemental",
+            "Template": "S_LOW_GreaseElemental_002_db2e11c6-0562-4f49-abaf-96283819ba68"
         },
         "S_LOW_Waveservant05_3995ac03-7410-468a-8b04-37d03409259d": {
             "DisplayName": "Water Myrmidon",
@@ -730,10 +704,6 @@
             "DisplayName": "Echo of Sendai",
             "Template": "S_LOW_MurderTribunal_Sendai_565accd2-0fdc-423e-ad68-752988a509b4"
         },
-        "Humans_Female_Cultist_Bhaal_DeathsHead_920647a1-844c-d260-d7e6-f2a4e7dc737d": {
-            "DisplayName": "Reaper of Bhaal Lasira",
-            "Template": "S_LOW_UndercityChasmEntrance_Cultist_002_b1426ca0-e120-4e26-a0d6-d03625e4b5c8"
-        },
         "S_LOW_FakeSendai_Corpse_005_ba69d500-d9ce-4996-864b-34794e6a0663": {
             "DisplayName": "Devastator Kanozet",
             "Template": "S_LOW_UndercityPatrol2_Cultist_001_ff5760cf-edab-482a-91bc-73e4e811eb57"
@@ -825,7 +795,7 @@
             "DisplayName": "Ghengis Dome"
         },
         "S_LOW_CazadorsPalace_Ballroom_Bat_003_5ff8e5a9-ae15-4858-927d-7ef6d623cada": {
-            "DisplayName": "Gilded Minotaur",
+            "DisplayName": "Party Minotaur",
             "Template": "S_LOW_DevilsFee_Minotaur_001_600b2316-722c-4316-b19e-0dbf77b8651a"
         },
         "S_LOW_CazadorsPalace_Ballroom_Rat_001_12cfe1fe-7140-4bd4-8aa0-06feb78f8980": {
@@ -848,9 +818,6 @@
         "S_LOW_CazadorsPalace_RitualRoom_Ritualist_01_e98c8ed5-1d3e-4b92-a05a-3b90107905c3": {
             "DisplayName": "Living Fireball",
             "Template": "S_LOW_HouseOfHope_FlamingSphere03_17d05a29-c4fe-4260-bf28-7d8f53cc0e0c"
-        },
-        "S_LOW_CazadorsPalace_RitualRoom_Ghast_02_24880c17-853e-4d0d-9243-1da4d1f32cb9": {
-            "DisplayName": "Fallen Gur Hunter"
         },
         "S_LOW_CazadorsPalace_RitualRoom_Werewolf_02_79138f67-ed4a-4d3a-8fb7-1e4c4d6c8620": {
             "DisplayName": "Predator Werewolf"
@@ -972,6 +939,9 @@
         "S_LOW_UndercityPatrol1_Cultist_000_0d291d3e-bf25-49ab-a15e-ed7a8b115a13": {
             "DisplayName": "Invoker of Bhaal Topaz"
         },
+        "S_LOW_BhaalTemple_Cultist_03_09b965d0-49f7-4b00-a8ab-20f19e4a563b": {
+            "DisplayName": "Invoker of Bhaal Glon"
+        },
         "S_LOW_HouseOfHope_BoudoirImp03_4adcf56c-e1cc-4441-8e3f-0761172407d4": {
             "DisplayName": "Guardian Merregon",
             "Template": "S_LOW_HouseOfHope_Merregon01_ba11228c-c75e-4df9-bd55-8091e1d48d36"
@@ -983,9 +953,6 @@
         "S_LOW_HouseOfHope_BoudoirImp06_3a9e98f5-fe4c-46b2-a129-1e67fe92512b": {
             "DisplayName": "Hell Sphere",
             "Template": "S_LOW_HouseOfHope_FlamingSphere01_4cc8ad72-d4f4-434b-8474-b22256c6949e"
-        },
-        "S_LOW_HouseOfHope_FireDebtor01_f790dbe7-021c-4eb1-a7e9-ba172f8eaca9": {
-            "DisplayName": "Smouldering Eternal Debtor"
         },
         "S_LOW_HouseOfHope_MerregonDebtor04_37191419-9d40-495a-b480-a4971a5f7129": {
             "DisplayName": "Immortal Eternal Debtor"
@@ -1207,6 +1174,54 @@
             "DisplayName": "Intellect Glutton",
             "Template": "S_END_IntDetonatorAmbusher_002_7dc37f86-6fcc-4f6c-9c4c-ad15e95ab774"
         },
+        "S_END_BrainBattle_MindFlayer_003_3868c215-f34f-4dfb-9c8a-1b06f2d5644d": {
+            "DisplayName": "Illithid Arcanist"
+        },
+        "S_END_BrainBattle_MindFlayer_004_c42ee756-319a-4ebd-b547-dceda6ef606d": {
+            "DisplayName": "Spectator",
+            "Template": "S_END_HighHall_Spectator_01_9966c0db-819a-4873-bcd6-34595713d265"
+        },
+        "S_END_BrainBattle_MindFlayer_001_70ef4f3f-c8bf-4b07-b473-8043699a6d5c": {
+            "DisplayName": "Spectator",
+            "Template": "S_END_HighHall_Spectator_01_9966c0db-819a-4873-bcd6-34595713d265"
+        },
+        "S_END_BrainBattle_MindFlayer_002_e5f0fcdf-8a9e-426a-96db-254f94898172": {
+            "DisplayName": "Illithid Arcanist"
+        },
+        "MMM_DENEAGLE_604d28b4-5f0b-4c18-87e7-5905d160d3de": {
+            "DisplayName": "Giant Eagle"
+        },
+        "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea": {
+            "DisplayName": "Zealot Varsh",
+            "Template": "S_UND_GrymforgeExcavation_DrowAdept_001_8304b71a-0da8-40c3-b385-91e35e15903e"
+        },
+        "EO_SabreTooth1_14a87b00-1b2a-4dfa-9062-8df3016fc7f7": {
+            "DisplayName": "Sabre-Toothed Tiger"
+        },
+        "EO_SabreTooth2_3129e3bd-0ef3-4ea7-9bb6-577cf78fcde8": {
+            "DisplayName": "Large Gremishka",
+            "Template": "S_CRE_Gremishka_Large_004_49a1a8bc-9578-4ab0-b9bf-9d2870e090f2"
+        },
+        "EO_Shade_Leader_7022a5b3-dbe0-4fe5-aa02-366d493856cd": {
+            "DisplayName": "Possessed Mason",
+            "Template": "S_TWN_Basement_PossessedMason_51166135-c47d-4eb2-955f-d2da96fa70a0"
+        },
+        "EO_Shade_1_94dc6eae-7b11-4c03-b96c-fe6e623995b8": {
+            "DisplayName": "Corrupted Deva",
+            "Template": "EO_SCL_WingedCommander_Trickery_Cleric_4376b2ee-e1f4-4e2f-b494-916d7b23d302"
+        },
+        "EO_Doomsept_1_fba0c22e-320f-4e51-891b-4e578127c5e4": {
+            "DisplayName": "Justiciar Nightwind",
+            "Template": "S_TWN_BasementWraith_001_238d6737-efc6-4ba9-9022-8d4b26828fc7"
+        },
+        "S_INT_GithRoyalGuard02_fd75dc6e-6a8d-4d9d-8cfc-ca4ff5da53d7": {
+            "DisplayName": "Ari'sh",
+            "Template": "S_INT_Githyanki_FirstContact_004_189d5ced-1aad-4a59-b587-c598bf87daf1"
+        },
+        "Humans_Female_Cultist_Bhaal_DeathsHead_920647a1-844c-d260-d7e6-f2a4e7dc737d": {
+            "DisplayName": "Reaper of Bhaal Lasira",
+            "Template": "S_LOW_UndercityChasmEntrance_Cultist_002_b1426ca0-e120-4e26-a0d6-d03625e4b5c8"
+        },
         "END_BackupDaisy_001_d8e8b72e-4b21-4442-8e34-0ecab3f499ae": {
             "DisplayName": "Inquisitor of the Absolute",
             "Template": "S_END_StandingGuard_007_043e161c-a1d9-4736-a787-3a7ce51e6179"
@@ -1222,20 +1237,6 @@
         "END_BackupDaisy_003_41900801-ad80-4e79-881a-b0f58f14aff4": {
             "DisplayName": "Zealot of the Absolute",
             "Template": "S_END_StandingGuard_005_dfb87024-ac7e-4cd7-a006-da866b30055d"
-        },
-        "S_END_BrainBattle_MindFlayer_003_3868c215-f34f-4dfb-9c8a-1b06f2d5644d": {
-            "DisplayName": "Illithid Arcanist"
-        },
-        "S_END_BrainBattle_MindFlayer_004_c42ee756-319a-4ebd-b547-dceda6ef606d": {
-            "DisplayName": "Spectator",
-            "Template": "S_END_HighHall_Spectator_01_9966c0db-819a-4873-bcd6-34595713d265"
-        },
-        "S_END_BrainBattle_MindFlayer_001_70ef4f3f-c8bf-4b07-b473-8043699a6d5c": {
-            "DisplayName": "Spectator",
-            "Template": "S_END_HighHall_Spectator_01_9966c0db-819a-4873-bcd6-34595713d265"
-        },
-        "S_END_BrainBattle_MindFlayer_002_e5f0fcdf-8a9e-426a-96db-254f94898172": {
-            "DisplayName": "Illithid Arcanist"
         }
     }
 }
