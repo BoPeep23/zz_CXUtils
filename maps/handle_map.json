@@ -1,0 +1,824 @@
+{
+    "Martial Imp (Prologue)": {
+        "SetApplied": true,
+        "ApplyStats": {
+            "Type": "Fiend",
+            "SubType": "Imp",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Martial Imp",
+            "OriginalHealth": 14,
+            "ArmorClass": 7,
+            "PassivesToAdd": [
+                "MAG_Fire_ApplyBurningOnFireDamage_Passive",
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Imp",
+                "FullGuid": "Melee",
+                "Act": "Prologue"
+            },
+            {
+                "MonsterArchetype": "Martial Imp",
+                "Act": "Prologue"
+            }
+        ]
+    }, 
+    "Ranged Imp (Prologue)": {
+        "SetApplied": true,
+        "ApplyStats": {
+            "Type": "Fiend",
+            "SubType": "Imp",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Ranged Imp",
+            "OriginalHealth": 14,
+            "ArmorClass": 7,
+            "PassivesToAdd": [
+                "MAG_Fire_ApplyBurningOnFireDamage_Passive",
+                "Goon_AC_Buff_1",
+                "Goon_AttackRoll_1"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Imp",
+                "FullGuid": "Ranged",
+                "Act": "Prologue"
+            },
+            {
+                "MonsterArchetype": "Ranged Imp",
+                "Act": "Prologue"
+            }
+        ],
+        "RandomPassives": [
+            "CrossbowExpert_Wounding",
+            "Goon_Target_Longstrider_Passive"
+        ],
+        "RandomPassiveCount": 1,
+        "RandomSpells": [],
+        "RandomSpellCount": 0
+    },
+    "Goblin Brawler": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Goblin",
+            "ClassArchetype": "Fighter",
+            "MonsterArchetype": "Goblin Brawler",
+            "OriginalHealth": 14,
+            "ArmorClass": 13
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Brawler",
+                "FullGuid": "Raider"
+            },
+            {
+                "Handle": "Brawler",
+                "FullGuid": "Goblin"
+            },
+            {
+                "Handle": "Goblin Brawler"
+            },
+            {
+                "MonsterArchetype": "Goblin Brawler"
+            }
+        ]
+    },
+    "Goblin Warrior": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Goblin",
+            "ClassArchetype": "Fighter",
+            "MonsterArchetype": "Goblin Warrior",
+            "OriginalHealth": 23,
+            "ArmorClass": 13
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Warrior",
+                "FullGuid": "Raider"
+            },
+            {
+                "Handle": "Warrior",
+                "FullGuid": "Goblin"
+            },
+            {
+                "Handle": "Goblin Warrior"
+            },
+            {
+                "MonsterArchetype": "Goblin Warrior"
+            }
+        ]
+    },
+    "Goblin Booyahg": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Goblin",
+            "ClassArchetype": "Warlock",
+            "MonsterArchetype": "Goblin Booyahg",
+            "OriginalHealth": 20,
+            "ArmorClass": 11,
+            "PassivesToAdd": [
+                "MAG_Acid_NoxiousFumes_Gloves_Passive",
+                "ARP_SpellSlot_2_2"
+            ],
+            "SpellsToAdd": [
+                "Zone_CausticBrew",
+                "Projectile_AcidArrow"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Booyahg",
+                "FullGuid": "Booyahg"
+            },
+            {
+                "Handle": "Booyahg",
+                "FullGuid": "Goblin"
+            },
+            {
+                "Handle": "Goblin Booyahg"
+            },
+            {
+                "MonsterArchetype": "Goblin Booyahg"
+            }
+        ]
+    },
+    "Goblin Sharp-Eye": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Goblin",
+            "ClassArchetype": "Warlock",
+            "MonsterArchetype": "Goblin Sharp-Eye",
+            "OriginalHealth": 19,
+            "ArmorClass": 13,
+            "PassivesToAdd": [
+                "UNI_Bow_SpellslotRecharge_Passive"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Sharp-Eye",
+                "FullGuid": "Raider"
+            },
+            {
+                "Handle": "Sharp-Eye",
+                "FullGuid": "Goblin"
+            },
+            {
+                "Handle": "Goblin Sharp-Eye"
+            },
+            {
+                "MonsterArchetype": "Goblin Sharp-Eye"
+            }
+        ]
+    },
+    "Goblin Chemist": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Goblin",
+            "ClassArchetype": "Artificer",
+            "MonsterArchetype": "Goblin Chemist"
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Chemist",
+                "FullGuid": "Chemist"
+            },
+            {
+                "Handle": "Chemist",
+                "FullGuid": "Goblin"
+            },
+            {
+                "Handle": "Goblin Chemist"
+            },
+            {
+                "MonsterArchetype": "Goblin Chemist"
+            }
+        ]
+    },
+    "Vengeful Cambion": {
+        "ApplyStats": {
+            "Type": "Fiend",
+            "SubType": "Cambion",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Cambion",
+            "OriginalHealth": 124,
+            "HealthOverride": 200,
+            "ArmorClass": 18,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_3"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Vengeful Cambion"
+            }
+        ]
+    },
+    "Vengeful Imp": {
+        "ApplyStats": {
+            "Type": "Fiend",
+            "SubType": "Imp",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Vengeful Imp",
+            "OriginalHealth": 33,
+            "HealthOverride": 100,
+            "ArmorClass": 13,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_4",
+                "FiendishBlessing",
+                "Goon_Damage_Fire_d12_Attacks",
+                "Goon_Damage_Fire_d12_SpellAttacks",
+                "Goon_Target_Longstrider_Passive",
+                "Resilient_Dexterity"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Vengeful Imp"
+            },
+            {
+                "MonsterArchetype": "Vengeful Imp"
+            }
+        ]        
+    },
+    "Vengeful Boar": {
+        "ApplyStats": {
+            "Type": "Fiend",
+            "SubType": "Boar",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Vengeful Boar",
+            "OriginalHealth": 44,
+            "ArmorClass": 12,
+            "PassivesToAdd": [
+                "FiendishBlessing",
+                "Goon_Damage_Fire_d10_Attacks",
+                "MAG_Fire_IncreasePiercingDamageToBurning_Passive",
+                "MAG_Fire_BurningOnDamaged_Cloak_Passive",
+                "MAG_Fire_ApplyBurningOnFireDamage_Passive"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Vengeful Boar"
+            },
+            {
+                "MonsterArchetype": "Vengeful Boar"
+            }
+        ]  
+    },
+    "Murderous Crow": {
+        "ApplyStats": {
+            "Type": "Beast",
+            "SubType": "Crow",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Murderous Crow",
+            "OriginalHealth": 24,
+            "ArmorClass": 18
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Murderous Crow"
+            }
+        ]
+    },
+    "Kobold Inventor": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Kobold",
+            "ClassArchetype": "Artificer",
+            "MonsterArchetype": "Kobold Inventor",
+            "OriginalHealth": 24,
+            "ArmorClass": 18
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Kobold Inventor"
+            },
+            {
+                "MonsterArchetype": "Kobold Inventor"
+            },
+            {
+                "FullGuid": "Kobolds_Inventor"
+            }
+        ]
+    },
+    "Kobold Scout": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Kobold",
+            "ClassArchetype": "Ranger",
+            "MonsterArchetype": "Kobold Scout",
+            "OriginalHealth": 16,
+            "ArmorClass": 13,
+            "Level": 5
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Kobold Scout"
+            },
+            {
+                "MonsterArchetype": "Kobold Scout"
+            },
+            {
+                "FullGuid": "Kobolds_Ranger"
+            }
+        ]
+    },
+    "Kobold Looter": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Kobold",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Kobold Looter",
+            "OriginalHealth": 20,
+            "ArmorClass": 13,
+            "Level": 5
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Kobold Looter"
+            },
+            {
+                "MonsterArchetype": "Kobold Looter"
+            }
+        ]
+    },
+    "Ghast": {
+        "ApplyStats": {
+            "Type": "Undead",
+            "SubType": "Ghast",
+            "ClassArchetype": "",
+            "MonsterArchetype": "",
+            "OriginalHealth": 68,
+            "ArmorClass": 13,
+            "Level": 5
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Ghast"
+            },
+            {
+                "FullGuid": "_Ghast_"
+            },
+            {
+                "MonsterArchetype": "Ghast"
+            }
+        ]
+    },
+    "Illithid Arcanist": {
+        "ApplyStats": {
+            "Type": "Aberration",
+            "SubType": "Mind Flayer",
+            "ClassArchetype": "Wizard",
+            "MonsterArchetype": "Illithid Arcanist",
+            "OriginalHealth": 71,
+            "HealtOverride": 150,
+            "ArmorClass": 15,
+            "Level": 8,
+            "SpellsToAdd": [
+                "Target_RaulothimsPsychicLance",
+                "Target_SynapticStatic",
+                "Target_MindWhip",
+                "Target_MindSpike"
+            ],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_4",
+                "Goon_AttackRoll_3",
+                "Goon_Increased_Movement_3"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Illithid Arcanist"
+            }
+        ]
+    },
+    "Iron Consul of Bane": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "",
+            "ClassArchetype": "Fighter",
+            "MonsterArchetype": "Iron Consul of Bane",
+            "OriginalHealth": 93,
+            "ArmorClass": 18,
+            "Level": 11,
+            "PassivesToAdd": [
+                "CX_Fighter_Boost",
+                "WarCaster_Bonuses",
+                "Goon_Summon_Potion_Healing_Supreme_x1",
+                "Goon_AC_Buff_4",
+                "Goon_AttackRoll_4",
+                "Goon_Damage_Necrotic_d10_Attacks"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Feloguard"
+            },
+            {
+                "Handle": "Iron Consul"
+            },
+            {
+                "MonsterArchetype": "Iron Consul of Bane"
+            }
+        ]
+    },
+    "Intellect Devourer": {
+        "ApplyStats": {
+            "Type": "Aberration",
+            "SubType": "Intellect Devourer",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Intellect Devourer",
+            "OriginalHealth": 27,
+            "ArmorClass": 12,
+            "Level": 1,
+            "PassivesToAdd": [
+                "MAG_Psychic_MentalFatigue_Ring_Passive",
+                "Goon_AC_Buff_1"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Intellect Devourer"
+            },
+            {
+                "MonsterArchetype": "Intellect Devourer"
+            }
+        ],
+        "HealthOverrideRange": [35, 40]
+    },
+    "Mind Flayer (Prologue)": {
+        "ApplyStats": {
+            "Type": "Aberration",
+            "SubType": "Mind Flayer",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Mind Flayer",
+            "OriginalHealth": 110,
+            "HealthOverride": 150,
+            "ArmorClass": 15,
+            "Level": 1,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Mind Flayer",
+                "Act": "Prologue"
+            },
+            {
+                "MonsterArchetype": "Mind Flayer",
+                "Act": "Prologue"
+            }
+        ]
+    },
+    "Inquisitor of the Absolute": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "",
+            "ClassArchetype": "Ranger",
+            "MonsterArchetype": "Inquisitor of the Absolute",
+            "OriginalHealth": 123,
+            "HealthOverride": 200,
+            "ArmorClass": 17,
+            "Level": 9,
+            "PassivesToAdd": [
+                "CX_Ranger_Boost",
+                "Goon_AttackRoll_3",
+                "Goon_AC_Buff_5",
+                "ARP_SpellSlot_5_1"
+            ],
+            "SpellsToAdd": [
+                "Target_HolyWeapon",
+                "Target_HypnoticPattern",
+                "Shout_Shield_Wizard",
+                "Shout_AbsorbElements"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Black Gauntlet of Bane": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "",
+            "ClassArchetype": "Cleric",
+            "MonsterArchetype": "Black Gauntlet of Bane",
+            "OriginalHealth": 106,
+            "HealthOverride": 200,
+            "ArmorClass": 18,
+            "Level": 12,
+            "SpellsToAdd": [
+                "Projectile_NegativeEnergyFlood",
+                "Shout_CircleOfPower",
+                "Target_FingerOfDeath",
+                "Target_CircleOfDeath"
+            ],
+            "PassivesToAdd": [
+                "ARP_SpellSlot_7_1"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Invoker of Bhaal": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Human",
+            "ClassArchetype": "Wizard (Conjuration)",
+            "MonsterArchetype": "Invoker of Bhaal",
+            "OriginalHealth": 72,
+            "ArmorClass": 15,
+            "Level": 9,
+            "PassivesToAdd": [
+                "CX_Magic_Boost",
+                "Goon_AC_Buff_3",
+                "ARP_SpellSlot_1_1",
+                "ARP_SpellSlot_2_1",
+                "ARP_SpellSlot_3_1",
+                "ARP_SpellSlot_4_2",
+                "ARP_SpellSlot_5_1",
+                "Goon_Cold_Resistant",
+                "ALCH_Elixir_Bloodlust_Passive",
+                "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
+                "Goon_Damage_Cold_d8_SpellAttacks",
+                "Goon_Damage_Cold_d4_Spells"
+            ],
+            "SpellsToAdd": [
+                "Target_IceStorm",
+                "Target_HungerOfHadar",
+                "Target_ConjureElemental_Elemental_Water"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Manifestation of Tyranny": {
+        "ApplyStats": {
+            "Type": "Construct",
+            "SubType": "Manifestation of Tyranny",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Manifestation of Tyranny",
+            "OriginalHealth": 10,
+            "HealthOverride": 40,
+            "ArmorClass": 11,
+            "Level": 9,
+            "PassivesToAdd": [
+                "Goon_Radiant_Immune",
+                "Goon_Necrotic_Immune"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Mistress of Souls": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Human",
+            "ClassArchetype": "Wizard",
+            "MonsterArchetype": "Mistress of Souls",
+            "OriginalHealth": 84,
+            "ArmorClass": 15,
+            "Level": 8,
+            "PassivesToAdd": [
+                "CX_Magic_Boost"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Mistress of Souls"
+            },
+            {
+                "MonsterArchetype": "Mistress of Souls"
+            }
+        ]
+    },
+    "Poltergeist": {
+        "ApplyStats": {
+            "Type": "Undead",
+            "SubType": "Ghost",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Poltergeist",
+            "OriginalHealth": 52,
+            "HealthOverride": 150,
+            "ArmorClass": 14,
+            "Level": 2,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_5",
+                "FiendishBlessing",
+                "Goon_AttackRoll_5",
+                "Goon_Increased_Movement_6",
+                "MAG_BansheeBless_Passive",
+                "ARP_ActionPoint",
+                "Goon_Immunity_Prone",
+                "Goon_Immunity_Restrained",
+                "Goon_Immunity_Paralyzed",
+                "Goon_Immunity_Stunned",
+                "Goon_Slashing_Resistant",
+                "Goon_Piercing_Resistant",
+                "Goon_Bludgeoning_Resistant",
+                "FiendishBlessing",
+                "Alert",
+                "MAG_Monk_Magic_Gloves_Passive",
+                "TavernBrawler_Bonuses",
+                "Ethereal"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Vengeful Soul": {
+        "ApplyStats": {
+            "Type": "Undead",
+            "SubType": "Ghost",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Vengeful Soul",
+            "OriginalHealth": 76,
+            "HealthOverride": 250,
+            "ArmorClass": 14,
+            "Level": 8,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_5",
+                "FiendishBlessing",
+                "Goon_AttackRoll_4",
+                "Goon_Increased_Movement_3",
+                "ARP_ActionPoint",
+                "MAG_FrightenedDisadvantage_Passive",
+                "MAG_SpellSaveDC_Enchantment_Passive"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Tormented Soul": {
+        "ApplyStats": {
+            "Type": "Undead",
+            "SubType": "Ghost",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Tormented Soul",
+            "OriginalHealth": 62,
+            "HealthOverride": 200,
+            "ArmorClass": 14,
+            "Level": 8,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_5",
+                "Goon_AttackRoll_4",
+                "FiendishBlessing",
+                "Goon_Increased_Movement_3",
+                "ARP_ActionPoint",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive",
+                "MAG_SpellSaveDC_Enchantment_Passive"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Cursed Skull": {
+        "ApplyStats": {
+            "Type": "Undead",
+            "SubType": "Skull",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Cursed Skull",
+            "OriginalHealth": 36,
+            "HealthOverride": 70,
+            "ArmorClass": 0,
+            "Level": 8,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_5",
+                "Goon_Increased_Movement_6",
+                "ARP_SpellSlot_3_1",
+                "ARP_SpellSlot_2_2",
+                "ARP_SpellSlot_1_3"
+            ],
+            "SpellsToAdd": [
+                "Projectile_Fireball",
+                "Projectile_MagicMissile",
+                "Shout_Blur",
+                "Target_FlamingSphere",
+                "Shout_Shield_Wizard"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Cursed Skull"
+            },
+            {
+                "MonsterArchetype": "Cursed Skull"
+            }
+        ]
+    },
+    "Night Blade": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "",
+            "ClassArchetype": "Rogue",
+            "MonsterArchetype": "Night Blade",
+            "HealthOverride": 90,
+            "OriginalHealth": 36,
+            "ArmorClass": 12,
+            "Level": 3,
+            "PassivesToAdd": [
+                "CX_Rogue_Boost",
+                "Goon_AttackRoll_5",
+                "Goon_AC_Buff_4"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Reaper of Bhaal": {
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Human",
+            "ClassArchetype": "Rogue",
+            "MonsterArchetype": "Reaper of Bhaal",
+            "OriginalHealth": 58,
+            "ArmorClass": 15,
+            "Level": 5,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_4",
+                "Goon_AttackRoll_4",
+                "CX_Rogue_Boost",
+                "ALCH_Elixir_Bloodlust_Passive"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Spectator": {
+        "ApplyStats": {
+            "Type": "Aberration",
+            "SubType": "Beholderkin",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Spectator",
+            "OriginalHealth": 153,
+            "HealthOverride": 200,
+            "ArmorClass": 14,
+            "Level": 5,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_4",
+                "Goon_AttackRoll_4",
+                "Goon_Immunity_Blinded"
+            ]
+        },
+        "MatchCombos": []
+    },
+    "Winged Horror": {
+        "SetApplied": false,
+        "ApplyStats": {
+            "Type": "Undead",
+            "SubType": "Ghoul",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Winged Horror",
+            "OriginalHealth": 41,
+            "HealthOverride": 70,
+            "ArmorClass": 13,
+            "Level": 3,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_3"
+            ],
+            "SpellsToAdd": [
+                "Target_RiseUndead_DeathShepherd_Hardcore"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Winged Horror",
+                "Act": "2"
+            },
+            {
+                "MonsterArchetype": "Winged Horror",
+                "Act": "2"
+            }
+        ]
+    },
+    "Githyanki Youth": {
+        "SetApplied": true,
+        "ApplyStats": {
+            "Type": "Humanoid",
+            "SubType": "Githyanki",
+            "ClassArchetype": "",
+            "MonsterArchetype": "Githyanki Youth",
+            "OriginalHealth": 28,
+            "HealthOverride": 65,
+            "ArmorClass": 13,
+            "Level": 3,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_3",
+                "Goon_AttackRoll_3",
+                "Goon_Increased_Movement_3",
+                "DualWielder_BonusAC",
+                "DualWielder_PassiveBonuses",
+                "LOW_HoH_Hope_DeathWard",
+                "ARP_SpellSlot_2_1"
+            ],
+            "SpellsToAdd": [
+                "Target_MistyStep"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Youth",
+                "FullGuid": "S_CRE"
+            },
+            {
+                "MonsterArchetype": "Githyanki Youth"
+            }
+        ]
+    }
+}

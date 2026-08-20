@@ -20,13 +20,36 @@ class sanitizeFields:
                     delattr(block, field)
 
     @staticmethod
-    def populate_original_health_override(blocks):
-        """Migration helper: copies HealthOverride → OriginalHealthOverride for all blocks.
-        Only writes to blocks where OriginalHealthOverride is currently 0.
+    def rename_field(blocks, old_field, new_field):
+        """Migration helper: copies a legacy field's value (kept as a raw attribute
+        once it drops out of the schema) into its renamed replacement, then removes
+        the legacy field. Only overwrites the new field when it's still blank/zero.
+        Safe to re-run; a no-op once the legacy field is gone."""
+        for block in blocks:
+            if not hasattr(block, old_field):
+                continue
+            legacy_value = getattr(block, old_field)
+            if legacy_value and not getattr(block, new_field, None):
+                setattr(block, new_field, legacy_value)
+            delattr(block, old_field)
+
+    @staticmethod
+    def populate_original_health(blocks):
+        """Migration helper: copies HealthOverride → OriginalHealth for all blocks.
+        Only writes to blocks where OriginalHealth is currently 0.
         Run once on existing data; safe to re-run (never overwrites a set value)."""
         for block in blocks:
-            if not block.original_health_override and block.health_override:
-                block.original_health_override = block.health_override
+            if not block.original_health and block.health_override:
+                block.original_health = block.health_override
+
+    @staticmethod
+    def clamp_level_field(blocks, max_level=30):
+        """Keeps Level within its valid 0-30 range (0 = unknown level).
+        Blocks missing a Level already default to 0 via MonsterStatBlock.from_dict;
+        this only clamps values that exceed max_level. Safe to re-run."""
+        for block in blocks:
+            if block.level and block.level > max_level:
+                block.level = max_level
 
     @staticmethod
     def populate_act_field(blocks):
@@ -102,19 +125,29 @@ if __name__ == "__main__":
     # Use when onboarding new fields to the schema.
     # sanitizeFields.add_new_field(clean_blocks, 'FieldName', default_value="")
 
-    # ── populate_original_health_override ──────────────────────────────────
-    # ONE-TIME MIGRATION: copies HealthOverride → OriginalHealthOverride for all blocks.
+    # ── rename_field ────────────────────────────────────────────────────────
+    # ONE-TIME MIGRATION: carries the old 'OriginalHealthOverride' JSON key's value
+    # into the renamed OriginalHealth field. Safe to re-run; a no-op once migrated.
+    sanitizeFields.rename_field(clean_blocks, "OriginalHealthOverride", "original_health")
+
+    # ── populate_original_health ─────────────────────────────────────────────
+    # ONE-TIME MIGRATION: copies HealthOverride → OriginalHealth for all blocks.
     # Safe to re-run; never overwrites a value already set above 0.
-    sanitizeFields.populate_original_health_override(clean_blocks)
+    sanitizeFields.populate_original_health(clean_blocks)
 
     # ── populate_act_field ──────────────────────────────────────────────────
     # Derives Act (1/2/3/Global/Camp/Unknown) from FullGuid scene prefixes.
     # Safe to re-run; only fills blank/stale Act values.
     sanitizeFields.populate_act_field(clean_blocks)
 
+    # ── clamp_level_field ─────────────────────────────────────────────────
+    # Level is 0-30 (0 = unknown); blocks without one already default to 0
+    # on load. This clamps any value above 30 down to 30. Safe to re-run.
+    sanitizeFields.clamp_level_field(clean_blocks)
+
     # ── remove_fields ───────────────────────────────────────────────────────
     # Removes obsolete fields that no longer belong in the schema.
-    sanitizeFields.remove_fields(clean_blocks, ["Class", "Distance", "Entity", "Guid"])
+    sanitizeFields.remove_fields(clean_blocks, ["Class", "Distance", "Entity", "Guid", "Profiles"])
 
     MonsterStatBlock.save_to_json_file(
         clean_blocks, os.path.join(base_dir, "guid_mapper_master.json")

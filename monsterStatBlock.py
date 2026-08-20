@@ -1,11 +1,14 @@
 import json
 import os
+import shutil
+from datetime import datetime
 
 class MonsterStatBlock:
     def __init__(self, handle=None, full_guid=None, act=None, location=None, type_=None, sub_type=None,
-                 classArchetype=None, monsterArchetype=None, profiles=None, armor_class=0, health_override=0,
-                 original_health_override=0, passives_to_add=None, spells_to_add=None,
-                 clone_template_guid=None, clone_display_name=None, corpse=None, notes=None):
+                 classArchetype=None, monsterArchetype=None, armor_class=0, health_override=0,
+                 original_health=0, level=0, passives_to_add=None, spells_to_add=None,
+                 clone_template_guid=None, clone_display_name=None, corpse=None, notes=None,
+                 map_applied=None, lock_block=None, randomization_applied=None):
         self._handle = handle
         self._full_guid = full_guid
         self._act = act
@@ -14,16 +17,19 @@ class MonsterStatBlock:
         self._sub_type = sub_type
         self._classArchetype = classArchetype
         self._monsterArchetype = monsterArchetype
-        self._profiles = profiles or []
         self._armor_class = armor_class
         self._health_override = health_override
-        self._original_health_override = original_health_override
+        self._original_health = original_health
+        self._level = level
         self._passives_to_add = passives_to_add or []
         self._spells_to_add = spells_to_add or []
         self._clone_template_guid = clone_template_guid
         self._clone_display_name = clone_display_name
         self._corpse = corpse
         self._notes = notes
+        self._map_applied = map_applied
+        self._lock_block = lock_block
+        self._randomization_applied = randomization_applied
 
     # ── Properties ──────────────────────────────────────────────────────────
 
@@ -92,14 +98,6 @@ class MonsterStatBlock:
         self._monsterArchetype = value
 
     @property
-    def profiles(self):
-        return self._profiles
-
-    @profiles.setter
-    def profiles(self, value):
-        self._profiles = value
-
-    @property
     def armor_class(self):
         return self._armor_class
 
@@ -116,12 +114,20 @@ class MonsterStatBlock:
         self._health_override = value
 
     @property
-    def original_health_override(self):
-        return self._original_health_override
+    def original_health(self):
+        return self._original_health
 
-    @original_health_override.setter
-    def original_health_override(self, value):
-        self._original_health_override = value
+    @original_health.setter
+    def original_health(self, value):
+        self._original_health = value
+
+    @property
+    def level(self):
+        return self._level
+
+    @level.setter
+    def level(self, value):
+        self._level = value
 
     @property
     def passives_to_add(self):
@@ -171,6 +177,30 @@ class MonsterStatBlock:
     def notes(self, value):
         self._notes = value
 
+    @property
+    def map_applied(self):
+        return self._map_applied
+
+    @map_applied.setter
+    def map_applied(self, value):
+        self._map_applied = value
+
+    @property
+    def lock_block(self):
+        return self._lock_block
+
+    @lock_block.setter
+    def lock_block(self, value):
+        self._lock_block = value
+
+    @property
+    def randomization_applied(self):
+        return self._randomization_applied
+
+    @randomization_applied.setter
+    def randomization_applied(self, value):
+        self._randomization_applied = value
+
     # ── Serialization ────────────────────────────────────────────────────────
 
     def to_dict(self):
@@ -183,16 +213,19 @@ class MonsterStatBlock:
             'SubType': self._sub_type,
             'ClassArchetype': self._classArchetype,
             'MonsterArchetype': self._monsterArchetype,
-            'Profiles': self._profiles,
             'ArmorClass': self._armor_class,
             'HealthOverride': self._health_override,
-            'OriginalHealthOverride': self._original_health_override,
+            'OriginalHealth': self._original_health,
+            'Level': self._level,
             'PassivesToAdd': self._passives_to_add,
             'SpellsToAdd': self._spells_to_add,
             'CloneTemplateGuid': self._clone_template_guid,
             'CloneDisplayName': self._clone_display_name,
             'Corpse': self._corpse,
             'Notes': self._notes,
+            'MapApplied': self._map_applied,
+            'LockBlock': self._lock_block,
+            'RandomizationApplied': self._randomization_applied,
         }
 
     @classmethod
@@ -214,23 +247,27 @@ class MonsterStatBlock:
             sub_type=_or_default('SubType', ""),
             classArchetype=_or_default('ClassArchetype', ""),
             monsterArchetype=_or_default('MonsterArchetype', ""),
-            profiles=_or_default('Profiles', []),
             armor_class=_or_default('ArmorClass', 0),
             health_override=_or_default('HealthOverride', 0),
-            original_health_override=_or_default('OriginalHealthOverride', 0),
+            original_health=_or_default('OriginalHealth', 0),
+            level=_or_default('Level', 0),
             passives_to_add=_or_default('PassivesToAdd', []),
             spells_to_add=_or_default('SpellsToAdd', []),
             clone_template_guid=_or_default('CloneTemplateGuid', ""),
             clone_display_name=_or_default('CloneDisplayName', ""),
             corpse=_or_default('Corpse', False),
-            notes=_or_default('Notes', "")
+            notes=_or_default('Notes', ""),
+            map_applied=_or_default('MapApplied', False),
+            lock_block=_or_default('LockBlock', False),
+            randomization_applied=_or_default('RandomizationApplied', False),
         )
         known_fields = {
             'Handle', 'FullGuid', 'Act', 'Location', 'Type', 'SubType',
-            'ClassArchetype', 'MonsterArchetype', 'Profiles',
-            'ArmorClass', 'HealthOverride', 'OriginalHealthOverride',
+            'ClassArchetype', 'MonsterArchetype',
+            'ArmorClass', 'HealthOverride', 'OriginalHealth', 'Level',
             'CloneTemplateGuid', 'CloneDisplayName',
             'SpellsToAdd', 'PassivesToAdd', 'Notes', 'Corpse',
+            'MapApplied', 'LockBlock', 'RandomizationApplied',
         }
         for key, value in data.items():
             if key not in known_fields:
@@ -261,7 +298,17 @@ class MonsterStatBlock:
         return [cls.from_dict(entry) for entry in entries]
 
     @classmethod
-    def save_to_json_file(cls, blocks, file_path):
+    def save_to_json_file(cls, blocks, file_path, archive=True):
+        """Writes blocks to file_path. When archive=True (default) and file_path
+        already exists, the pre-overwrite contents are copied into an archive/
+        folder alongside file_path first, timestamped, as a rollback point."""
+        if archive and os.path.exists(file_path):
+            archive_dir = os.path.join(os.path.dirname(file_path), "archive")
+            os.makedirs(archive_dir, exist_ok=True)
+            stem, ext = os.path.splitext(os.path.basename(file_path))
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            shutil.copy2(file_path, os.path.join(archive_dir, f"{stem}_{timestamp}{ext}"))
+
         grouped = {}
         for block in blocks:
             grouped.setdefault(cls.act_key(block.act), []).append(block)
@@ -315,9 +362,9 @@ class MonsterStatBlock:
                     existing.type = block.type
                 if _should_replace(existing.health_override, block.health_override):
                     existing.health_override = block.health_override
-                # OriginalHealthOverride: keep whichever is non-zero (immutable once set).
-                if (not existing.original_health_override) and block.original_health_override:
-                    existing.original_health_override = block.original_health_override
+                # OriginalHealth: keep whichever is non-zero (immutable once set).
+                if (not existing.original_health) and block.original_health:
+                    existing.original_health = block.original_health
                 if _should_replace(existing.clone_template_guid, block.clone_template_guid):
                     existing.clone_template_guid = block.clone_template_guid
                 if _should_replace(existing.clone_display_name, block.clone_display_name):
@@ -330,10 +377,49 @@ class MonsterStatBlock:
                     existing.monsterArchetype = block.monsterArchetype
                 if _should_replace(existing.subtype, block.subtype):
                     existing.subtype = block.subtype
-                if (existing.profiles is None or len(existing.profiles) == 0) and block.profiles:
-                    existing.profiles = block.profiles
                 if existing.notes and block.notes:
                     existing.notes += "; " + block.notes
                 elif _should_replace(existing.notes, block.notes):
                     existing.notes = block.notes
+                existing.map_applied = existing.map_applied or block.map_applied
+                existing.lock_block = existing.lock_block or block.lock_block
+                existing.randomization_applied = existing.randomization_applied or block.randomization_applied
         return list(deduped.values())
+
+    @staticmethod
+    def snapshot(blocks):
+        """Captures each block's current field values, keyed by FullGuid, for
+        later comparison via diff_from_snapshot() once the blocks have been
+        mutated in place."""
+        return {block.full_guid: block.to_dict() for block in blocks}
+
+    @staticmethod
+    def diff_from_snapshot(before_snapshot, blocks):
+        """Compares each block's current field values against a prior
+        snapshot(). Returns {FullGuid: {field: (old_value, new_value)}},
+        including only blocks/fields that actually changed."""
+        diffs = {}
+        for block in blocks:
+            old = before_snapshot.get(block.full_guid, {})
+            new = block.to_dict()
+            changed = {k: (old.get(k), v) for k, v in new.items() if old.get(k) != v}
+            if changed:
+                diffs[block.full_guid] = changed
+        return diffs
+
+    @staticmethod
+    def confirm_large_change(diffs, blocks, threshold=0.25, target_description="guid_mapper_master.json"):
+        """If diffs touch more than `threshold` fraction of blocks, prompts the
+        user to confirm before proceeding. Returns True if it's OK to proceed
+        (either the change is under threshold, or the user confirmed it)."""
+        if not blocks:
+            return True
+        changed_fraction = len(diffs) / len(blocks)
+        if changed_fraction <= threshold:
+            return True
+        pct = changed_fraction * 100
+        answer = input(
+            f"This run would change {len(diffs)} of {len(blocks)} blocks "
+            f"({pct:.1f}%) in {target_description}. Continue? [y/N]: "
+        )
+        return answer.strip().lower() in ("y", "yes")

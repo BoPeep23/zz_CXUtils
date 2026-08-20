@@ -1,22 +1,26 @@
 { 
     "aberration": [
         "mind flayer", 
-        "phase spider"
+        "phase spider",
+        "intellect devourer"
     ],
     "beast": [
-        "wolf",
-        "spider",
+        "wolf!",
         "hyena",
         "giant eagle",
         "dinosaur",
-        "chicken"
+        "chicken",
+        "rat!",
+        "squirrel"
     ],
     "celestial": [
-        "celestial"
+        "celestial",
+        "deva!"
     ],
     "construct": [
         "steel watcher",
-        "golem"
+        "golem",
+        "scrying eye"
     ],
     "dragon": [
         "dragon"
@@ -60,7 +64,10 @@
         "kobold",
         "meazel",
         "drider",
-        "bandit"
+        "bandit",
+        "commoner",
+        "drow assassin",
+        "S_GOB_PrisonGuard_"
     ],
     "monstrosity": [
         "doppelganger",
@@ -72,7 +79,8 @@
         "minotaur",
         "mimic",
         "worg",
-        "owlbear"
+        "owlbear",
+        "ox!"
     ],
     "plant": [
         "blight",

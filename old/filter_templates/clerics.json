@@ -1,0 +1,162 @@
+{
+    "Filters": {
+        "Type": {
+            "Include": [
+                "Humanoid"
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "SubType": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "ClassArchetype": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "MonsterArchetype": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "FullGuid": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": false
+        },
+        "Act": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "Location": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": false
+        }
+    },
+    "Apply": {
+        "Clusters": [
+            {
+                "ClusterId": "Default",
+                "Passives": {
+                    "FullPassiveList": [
+                        ""
+                    ],
+                    "RandomPassiveList": [
+                        ""
+                    ],
+                    "RandomPassiveSelect": 0
+                },
+                "Spells": {
+                    "FullSpellList": [
+                        ""
+                    ],
+                    "RandomSpellList": [
+                        ""
+                    ],
+                    "RandomSpellSelect": 0
+                },
+                "HealthOverride": {
+                    "HealthOverrideMin": 0,
+                    "HealthOverrideMax": 0,
+                    "OverrideExisting": false
+                },
+                "AC": {
+                    "ACBonus": 0,
+                    "AddToExisting": true,
+                    "OverrideExisting": false
+                },
+                "AttackRolls": {
+                    "AttackBonus": 0,
+                    "AddToExisting": true,
+                    "OverrideExisting": false
+                },
+                "Movement": {
+                    "MovementBonus": 0,
+                    "AddToExisting": false,
+                    "OverrideExisting": false
+                },
+                "Scale": {
+                    "ScaleBonus": 0,
+                    "AddToExisting": false,
+                    "OverrideExisting": false
+                },
+                "Damage": {
+                    "Attacks": {
+                        "DamageTypes": [
+                            ""
+                        ],
+                        "ApplyOneRandomDamageTypeFromList": true,
+                        "OverrideExistingAttackPassive": true,
+                        "die": "d4"
+                    },
+                    "SpellAttacks": {
+                        "DamageTypes": [
+                            ""
+                        ],
+                        "ApplyOneRandomDamageTypeFromList": true,
+                        "OverrideExistingSpellAttackPassive": true,
+                        "die": "d4"
+                    },
+                    "Spells": {
+                        "DamageTypes": [
+                            ""
+                        ],
+                        "ApplyOneRandomDamageTypeFromList": true,
+                        "OverrideExistingSpellPassive": true,
+                        "die": "d4"
+                    }
+                },
+                "Resistance": {
+                    "Resistances": [
+                        ""
+                    ],
+                    "ApplyOneRandomResFromList": true
+                },
+                "Immunity": {
+                    "Immunities": [
+                        ""
+                    ],
+                    "ApplyOneRandomImmFromList": true
+                },
+                "Vulnerability": {
+                    "Vulnerabilities": [
+                        ""
+                    ],
+                    "ApplyOneRandomVulFromList": true
+                }
+            }
+        ],
+        "RandomClusterSelect": 0
+    }
+}

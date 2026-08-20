@@ -1,0 +1,150 @@
+{
+    "Filters": {
+        "Type": {
+            "Include": [
+                "Humanoid"
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "SubType": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "ClassArchetype": {
+            "Include": [
+                "Cleric"
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "MonsterArchetype": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "FullGuid": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": false
+        },
+        "Act": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": true
+        },
+        "Location": {
+            "Include": [
+                ""
+            ],
+            "Exclude": [
+                ""
+            ],
+            "ExactMatch": false
+        }
+    },
+    "Apply": {
+        "Clusters": [
+            {
+                "ClusterId": "Base Cleric",
+                "Passives": {
+                    "FullPassiveList": [
+                        "CX_Cleric_Boost"
+                    ],
+                    "RandomPassiveList": [
+                        ""
+                    ],
+                    "RandomPassiveSelect": 0
+                },
+                "Spells": {
+                    "FullSpellList": [
+                        ""
+                    ],
+                    "RandomSpellList": [
+                        ""
+                    ],
+                    "RandomSpellSelect": 0
+                },
+                "HealthOverride": {
+                    "HealthOverrideMin": 0,
+                    "HealthOverrideMax": 0,
+                    "OverrideExisting": false
+                },
+                "AC": {
+                    "ACBonus": 0,
+                    "AddToExisting": true,
+                    "OverrideExisting": false
+                },
+                "AttackRolls": {
+                    "AttackBonus": 0,
+                    "AddToExisting": true,
+                    "OverrideExisting": false
+                },
+                "Movement": {
+                    "MovementBonus": 0,
+                    "AddToExisting": false,
+                    "OverrideExisting": false
+                },
+                "Scale": {
+                    "ScaleBonus": 0,
+                    "AddToExisting": false,
+                    "OverrideExisting": false
+                },
+                "Damage": {
+                    "Attacks": {
+                        "DamageTypes": [
+                            "Radiant"
+                        ],
+                        "OverrideExistingDamage": true,
+                        "die": "d4"
+                    },
+                    "SpellAttacks": {
+                        "DamageTypes": [
+                            "Radiant"
+                        ],
+                        "OverrideExistingDamage": true,
+                        "die": "d4"
+                    },
+                    "Spells": {
+                        "DamageTypes": [
+                            ""
+                        ],
+                        "OverrideExistingDamage": true,
+                        "die": "d4"
+                    }
+                },
+                "Resistance": [
+                    "Radiant"
+                ],
+                "Immunity": [
+                    ""
+                ],
+                "Vulnerability": [
+                    ""
+                ]
+            }
+        ],
+        "RandomClusterSelect": 0
+    }
+}
