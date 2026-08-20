@@ -505,7 +505,16 @@ class discoverFields:
             as done - a match still applies normally, but MapApplied/
             RandomizationApplied are left exactly as they were, so later
             entries in this same run (and this same entry, on future runs)
-            are still free to match and apply to that block."""
+            are still free to match and apply to that block.
+
+        Corpse=True blocks are static scenery: any field in
+        MonsterStatBlock.CORPSE_EXCLUDED_FIELDS (ClassArchetype, ArmorClass,
+        HealthOverride, OriginalHealth, Level, PassivesToAdd, SpellsToAdd,
+        MapApplied, RandomizationApplied) is skipped even if a matched
+        entry's ApplyStats includes it, and randomization never applies to
+        them at all. Type/SubType/MonsterArchetype/Location/Notes/etc. still
+        apply normally - and since MapApplied never commits for a corpse
+        block, it stays open to hard-stat matching on every run."""
         override_maps = override_maps or []
         base_dir = os.path.dirname(__file__)
         map_dir = os.path.join(base_dir, "maps")
@@ -542,8 +551,16 @@ class discoverFields:
             for block in blocks:
                 if block.lock_block:
                     continue
-                apply_hard_stats = entry_overridden or not block.map_applied
-                apply_randomization = entry_overridden or not block.randomization_applied
+                if block.corpse:
+                    # Corpse blocks are static scenery: they're always open to
+                    # (non-excluded) hard-stat matching - MapApplied must never
+                    # commit for them - and never receive randomization at all,
+                    # since every randomization output field is corpse-excluded.
+                    apply_hard_stats = True
+                    apply_randomization = False
+                else:
+                    apply_hard_stats = entry_overridden or not block.map_applied
+                    apply_randomization = entry_overridden or not block.randomization_applied
                 if not apply_hard_stats and not apply_randomization:
                     continue
 
@@ -551,6 +568,8 @@ class discoverFields:
                     if discoverFields._combo_matches_block(combo, block):
                         if apply_hard_stats and apply_stats:
                             for field, value in apply_stats.items():
+                                if block.corpse and field in MonsterStatBlock.CORPSE_EXCLUDED_FIELDS:
+                                    continue
                                 if field == "HealthOverride" and health_override_range is not None:
                                     continue
                                 attr = discoverFields.FIELD_ATTR_MAP.get(field, field)
@@ -562,7 +581,7 @@ class discoverFields:
                                     )
                                 else:
                                     setattr(block, attr, value)
-                            if set_applied:
+                            if set_applied and not block.corpse:
                                 matched_hard_stats_guids.add(block.full_guid)
 
                         if apply_randomization and has_randomization:

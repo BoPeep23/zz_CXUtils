@@ -52,6 +52,26 @@ class sanitizeFields:
                 block.level = max_level
 
     @staticmethod
+    def strip_corpse_only_fields(blocks):
+        """Corpse=True blocks are static scenery, not fighters - ClassArchetype,
+        ArmorClass, HealthOverride, OriginalHealth, Level, PassivesToAdd,
+        SpellsToAdd, MapApplied, and RandomizationApplied (see
+        MonsterStatBlock.CORPSE_EXCLUDED_FIELDS) are never relevant for them.
+        Resets each to its blank/zero default. Safe to re-run."""
+        for block in blocks:
+            if not block.corpse:
+                continue
+            block.classArchetype = ""
+            block.armor_class = 0
+            block.health_override = 0
+            block.original_health = 0
+            block.level = 0
+            block.passives_to_add = []
+            block.spells_to_add = []
+            block.map_applied = False
+            block.randomization_applied = False
+
+    @staticmethod
     def populate_act_field(blocks):
         act_markers = {
             "1": [
@@ -144,6 +164,10 @@ if __name__ == "__main__":
     # Level is 0-30 (0 = unknown); blocks without one already default to 0
     # on load. This clamps any value above 30 down to 30. Safe to re-run.
     sanitizeFields.clamp_level_field(clean_blocks)
+
+    # ── strip_corpse_only_fields ─────────────────────────────────────────────
+    # Corpse=True blocks never carry combat-relevant fields. Safe to re-run.
+    sanitizeFields.strip_corpse_only_fields(clean_blocks)
 
     # ── remove_fields ───────────────────────────────────────────────────────
     # Removes obsolete fields that no longer belong in the schema.

@@ -4,11 +4,20 @@ import shutil
 from datetime import datetime
 
 class MonsterStatBlock:
+    # Fields that are never relevant for a Corpse=True block (static scenery,
+    # not a fighter). sanitizeFields strips these to blank/zero on every run;
+    # discoverFields.apply_handle_map never writes them onto a corpse block,
+    # even if a matched entry's ApplyStats/randomization includes them.
+    CORPSE_EXCLUDED_FIELDS = {
+        'ClassArchetype', 'ArmorClass', 'HealthOverride', 'OriginalHealth',
+        'Level', 'PassivesToAdd', 'SpellsToAdd', 'MapApplied', 'RandomizationApplied',
+    }
+
     def __init__(self, handle=None, full_guid=None, act=None, location=None, type_=None, sub_type=None,
                  classArchetype=None, monsterArchetype=None, armor_class=0, health_override=0,
                  original_health=0, level=0, passives_to_add=None, spells_to_add=None,
-                 clone_template_guid=None, clone_display_name=None, corpse=None, notes=None,
-                 map_applied=None, lock_block=None, randomization_applied=None):
+                 clone_template_guid=None, clone_display_name=None, notes=None, corpse=None,
+                 map_applied=None, randomization_applied=None, lock_block=None):
         self._handle = handle
         self._full_guid = full_guid
         self._act = act
@@ -25,11 +34,11 @@ class MonsterStatBlock:
         self._spells_to_add = spells_to_add or []
         self._clone_template_guid = clone_template_guid
         self._clone_display_name = clone_display_name
-        self._corpse = corpse
         self._notes = notes
+        self._corpse = corpse
         self._map_applied = map_applied
-        self._lock_block = lock_block
         self._randomization_applied = randomization_applied
+        self._lock_block = lock_block
 
     # ── Properties ──────────────────────────────────────────────────────────
 
@@ -162,20 +171,20 @@ class MonsterStatBlock:
         self._clone_display_name = value
 
     @property
-    def corpse(self):
-        return self._corpse
-
-    @corpse.setter
-    def corpse(self, value):
-        self._corpse = value
-
-    @property
     def notes(self):
         return self._notes
 
     @notes.setter
     def notes(self, value):
         self._notes = value
+
+    @property
+    def corpse(self):
+        return self._corpse
+
+    @corpse.setter
+    def corpse(self, value):
+        self._corpse = value
 
     @property
     def map_applied(self):
@@ -186,14 +195,6 @@ class MonsterStatBlock:
         self._map_applied = value
 
     @property
-    def lock_block(self):
-        return self._lock_block
-
-    @lock_block.setter
-    def lock_block(self, value):
-        self._lock_block = value
-
-    @property
     def randomization_applied(self):
         return self._randomization_applied
 
@@ -201,10 +202,24 @@ class MonsterStatBlock:
     def randomization_applied(self, value):
         self._randomization_applied = value
 
+    @property
+    def lock_block(self):
+        return self._lock_block
+
+    @lock_block.setter
+    def lock_block(self, value):
+        self._lock_block = value
+
     # ── Serialization ────────────────────────────────────────────────────────
 
-    def to_dict(self):
-        return {
+    def to_dict(self, for_json=False):
+        """for_json=False (default) always includes every field - used for
+        snapshot()/diff_from_snapshot() so diffs can still detect a field
+        changing even when the block is/becomes a corpse. for_json=True is
+        for actual file output: on a Corpse=True block it omits
+        CORPSE_EXCLUDED_FIELDS entirely instead of writing them as blank/zero,
+        since those fields are never meaningful for static scenery."""
+        d = {
             'Handle': self._handle,
             'FullGuid': self._full_guid,
             'Act': self._act,
@@ -221,12 +236,16 @@ class MonsterStatBlock:
             'SpellsToAdd': self._spells_to_add,
             'CloneTemplateGuid': self._clone_template_guid,
             'CloneDisplayName': self._clone_display_name,
-            'Corpse': self._corpse,
             'Notes': self._notes,
+            'Corpse': self._corpse,
             'MapApplied': self._map_applied,
-            'LockBlock': self._lock_block,
             'RandomizationApplied': self._randomization_applied,
+            'LockBlock': self._lock_block,
         }
+        if for_json and self._corpse:
+            for field in self.CORPSE_EXCLUDED_FIELDS:
+                d.pop(field, None)
+        return d
 
     @classmethod
     def from_dict(cls, data):
@@ -255,11 +274,11 @@ class MonsterStatBlock:
             spells_to_add=_or_default('SpellsToAdd', []),
             clone_template_guid=_or_default('CloneTemplateGuid', ""),
             clone_display_name=_or_default('CloneDisplayName', ""),
-            corpse=_or_default('Corpse', False),
             notes=_or_default('Notes', ""),
+            corpse=_or_default('Corpse', False),
             map_applied=_or_default('MapApplied', False),
-            lock_block=_or_default('LockBlock', False),
             randomization_applied=_or_default('RandomizationApplied', False),
+            lock_block=_or_default('LockBlock', False),
         )
         known_fields = {
             'Handle', 'FullGuid', 'Act', 'Location', 'Type', 'SubType',
@@ -319,7 +338,7 @@ class MonsterStatBlock:
             return (1, 0, key)
 
         data = {
-            key: [block.to_dict() for block in grouped[key]]
+            key: [block.to_dict(for_json=True) for block in grouped[key]]
             for key in sorted(grouped, key=_sort_key)
         }
         with open(file_path, 'w') as f:

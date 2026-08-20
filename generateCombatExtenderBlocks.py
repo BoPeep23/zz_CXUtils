@@ -51,6 +51,7 @@ class CombatExtenderBlockGenerator:
         class_archetype_match_phrase,
         monster_archetype_match_phrase,
         handle_match_phrase,
+        full_guid_match_phrase="",
     ):
         """A filter is skipped when its phrase is empty; a block must satisfy
         every non-empty filter via case-insensitive substring containment
@@ -67,6 +68,9 @@ class CombatExtenderBlockGenerator:
         if handle_match_phrase:
             if not block.handle or handle_match_phrase.lower() not in block.handle.lower():
                 return False
+        if full_guid_match_phrase:
+            if not block.full_guid or full_guid_match_phrase.lower() not in block.full_guid.lower():
+                return False
         return True
 
     @staticmethod
@@ -76,6 +80,7 @@ class CombatExtenderBlockGenerator:
         class_archetype_match_phrase="",
         monster_archetype_match_phrase="",
         handle_match_phrase="",
+        full_guid_match_phrase="",
     ):
         clones = {}
         for block in blocks:
@@ -85,6 +90,7 @@ class CombatExtenderBlockGenerator:
                 class_archetype_match_phrase,
                 monster_archetype_match_phrase,
                 handle_match_phrase,
+                full_guid_match_phrase,
             ):
                 continue
             if block.clone_display_name and block.clone_display_name != "":
@@ -101,6 +107,7 @@ class CombatExtenderBlockGenerator:
         class_archetype_match_phrase="",
         monster_archetype_match_phrase="",
         handle_match_phrase="",
+        full_guid_match_phrase="",
     ):
         overrides = {}
         for block in blocks:
@@ -110,6 +117,7 @@ class CombatExtenderBlockGenerator:
                 class_archetype_match_phrase,
                 monster_archetype_match_phrase,
                 handle_match_phrase,
+                full_guid_match_phrase,
             ):
                 continue
             override_definition = {}
@@ -178,10 +186,31 @@ def parse_args():
         default=COMBAT_EXTENDER_PATH,
         help="Path to the live CombatExtender.json to merge Clones/Overrides into.",
     )
+    parser.add_argument(
+        "--location",
+        default="",
+        help="Only include blocks whose Location contains this phrase (case-insensitive). Combine with other filters; a block must match all of them.",
+    )
+    parser.add_argument(
+        "--monster-archetype",
+        default="",
+        help="Only include blocks whose MonsterArchetype contains this phrase (case-insensitive).",
+    )
+    parser.add_argument(
+        "--handle",
+        default="",
+        help="Only include blocks whose Handle contains this phrase (case-insensitive).",
+    )
+    parser.add_argument(
+        "--full-guid",
+        default="",
+        help="Only include blocks whose FullGuid contains this phrase (case-insensitive).",
+    )
     return parser.parse_args()
 
 
 if __name__ == "__main__":
+    args = parse_args()
     base_dir = os.path.dirname(__file__)
     metadata_dir = os.path.join(base_dir, "metadata")
     clean_blocks = MonsterStatBlock.load_from_json_file(
@@ -189,8 +218,20 @@ if __name__ == "__main__":
     )
     deduped_blocks = MonsterStatBlock.deduplicate(clean_blocks)
 
-    clones = CombatExtenderBlockGenerator.generate_clones(deduped_blocks)
-    overrides = CombatExtenderBlockGenerator.generate_overrides(deduped_blocks)
+    clones = CombatExtenderBlockGenerator.generate_clones_by_field_combo(
+        deduped_blocks,
+        location_match_phrase=args.location,
+        monster_archetype_match_phrase=args.monster_archetype,
+        handle_match_phrase=args.handle,
+        full_guid_match_phrase=args.full_guid,
+    )
+    overrides = CombatExtenderBlockGenerator.generate_overrides_by_field_combo(
+        deduped_blocks,
+        location_match_phrase=args.location,
+        monster_archetype_match_phrase=args.monster_archetype,
+        handle_match_phrase=args.handle,
+        full_guid_match_phrase=args.full_guid,
+    )
 
     clones_payload = {"Clones": clones}
     overrides_payload = {"Overrides": overrides}
