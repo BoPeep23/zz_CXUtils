@@ -3,6 +3,7 @@ import os
 import shutil
 from datetime import datetime
 
+
 class MonsterStatBlock:
     # Fields that are never relevant for a Corpse=True block (static scenery,
     # not a fighter): the Information/Modification fields that only make
@@ -12,16 +13,40 @@ class MonsterStatBlock:
     # fields (LockStaticModifications, LockRandomModifications, LockInformation,
     # LockBlock) are NOT excluded - corpse blocks keep and report all four.
     CORPSE_EXCLUDED_FIELDS = {
-        'ClassArchetype', 'ArmorClass', 'HealthOverride', 'OriginalHealth',
-        'Level', 'PassivesToAdd', 'SpellsToAdd',
+        "ClassArchetype",
+        "ArmorClass",
+        "HealthOverride",
+        "OriginalHealth",
+        "Level",
+        "PassivesToAdd",
+        "SpellsToAdd",
     }
 
-    def __init__(self, handle=None, full_guid=None, act=None, location=None, type_=None, sub_type=None,
-                 classArchetype=None, monsterArchetype=None, corpse=None, armor_class=0,
-                 level=0, notes=None, original_health=0, health_override=0, passives_to_add=None,
-                 spells_to_add=None, clone_template_guid=None, clone_display_name=None,
-                 lock_static_modifications=None, lock_random_modifications=None,
-                 lock_information=None, lock_block=None):
+    def __init__(
+        self,
+        handle=None,
+        full_guid=None,
+        act=None,
+        location=None,
+        type_=None,
+        sub_type=None,
+        classArchetype=None,
+        monsterArchetype=None,
+        corpse=None,
+        notes=None,
+        level=0,
+        armor_class=0,
+        original_health=0,
+        health_override=0,
+        passives_to_add=None,
+        spells_to_add=None,
+        clone_display_name=None,
+        clone_template_guid=None,
+        lock_static_modifications=None,
+        lock_random_modifications=None,
+        lock_information=None,
+        lock_block=None,
+    ):
         # ── Identifiers ──────────────────────────────────────────────────
         self._handle = handle
         self._full_guid = full_guid
@@ -33,15 +58,16 @@ class MonsterStatBlock:
         self._monsterArchetype = monsterArchetype
         self._corpse = corpse
         # ── Information ──────────────────────────────────────────────────
-        self._armor_class = armor_class
-        self._level = level
         self._notes = notes
+        self._level = level
+        self._armor_class = armor_class
+        self._original_health = original_health
         # ── Modifications ────────────────────────────────────────────────
         self._health_override = health_override
         self._passives_to_add = passives_to_add or []
         self._spells_to_add = spells_to_add or []
-        self._clone_template_guid = clone_template_guid
         self._clone_display_name = clone_display_name
+        self._clone_template_guid = clone_template_guid
         # ── Block Controls ───────────────────────────────────────────────
         self._lock_static_modifications = lock_static_modifications
         self._lock_random_modifications = lock_random_modifications
@@ -250,31 +276,31 @@ class MonsterStatBlock:
         Information, then Modifications, then Block Controls."""
         d = {
             # Identifiers
-            'Handle': self._handle,
-            'FullGuid': self._full_guid,
-            'Act': self._act,
-            'Location': self._location,
-            'Type': self._type,
-            'SubType': self._sub_type,
-            'ClassArchetype': self._classArchetype,
-            'MonsterArchetype': self._monsterArchetype,
-            'Corpse': self._corpse,
+            "Handle": self._handle,
+            "FullGuid": self._full_guid,
+            "Act": self._act,
+            "Location": self._location,
+            "Type": self._type,
+            "SubType": self._sub_type,
+            "ClassArchetype": self._classArchetype,
+            "MonsterArchetype": self._monsterArchetype,
+            "Corpse": self._corpse,
             # Information
-            'ArmorClass': self._armor_class,
-            'OriginalHealth': self._original_health,
-            'Level': self._level,
-            'Notes': self._notes,
+            "Notes": self._notes,
+            "Level": self._level,
+            "ArmorClass": self._armor_class,
+            "OriginalHealth": self._original_health,
             # Modifications
-            'HealthOverride': self._health_override,
-            'PassivesToAdd': self._passives_to_add,
-            'SpellsToAdd': self._spells_to_add,
-            'CloneTemplateGuid': self._clone_template_guid,
-            'CloneDisplayName': self._clone_display_name,
+            "HealthOverride": self._health_override,
+            "PassivesToAdd": self._passives_to_add,
+            "SpellsToAdd": self._spells_to_add,
+            "CloneTemplateGuid": self._clone_template_guid,
+            "CloneDisplayName": self._clone_display_name,
             # Block Controls
-            'LockStaticModifications': self._lock_static_modifications,
-            'LockRandomModifications': self._lock_random_modifications,
-            'LockInformation': self._lock_information,
-            'LockBlock': self._lock_block,
+            "LockStaticModifications": self._lock_static_modifications,
+            "LockRandomModifications": self._lock_random_modifications,
+            "LockInformation": self._lock_information,
+            "LockBlock": self._lock_block,
         }
         if for_json and self._corpse:
             for field in self.CORPSE_EXCLUDED_FIELDS:
@@ -283,8 +309,8 @@ class MonsterStatBlock:
 
     @classmethod
     def from_dict(cls, data):
-        full_guid = data.get('FullGuid')
-        if not full_guid and 'Name' in data and 'Guid' in data:
+        full_guid = data.get("FullGuid")
+        if not full_guid and "Name" in data and "Guid" in data:
             full_guid = f"{data['Name']}_{data['Guid']}"
 
         def _or_default(key, default):
@@ -292,37 +318,52 @@ class MonsterStatBlock:
             return default if value is None else value
 
         instance = cls(
-            handle=_or_default('Handle', ""),
+            handle=_or_default("Handle", ""),
             full_guid=full_guid,
-            act=_or_default('Act', ""),
-            location=_or_default('Location', ""),
-            type_=_or_default('Type', ""),
-            sub_type=_or_default('SubType', ""),
-            classArchetype=_or_default('ClassArchetype', ""),
-            monsterArchetype=_or_default('MonsterArchetype', ""),
-            corpse=_or_default('Corpse', False),
-            armor_class=_or_default('ArmorClass', 0),
-            original_health=_or_default('OriginalHealth', 0),
-            level=_or_default('Level', 0),
-            notes=_or_default('Notes', ""),
-            health_override=_or_default('HealthOverride', 0),
-            passives_to_add=_or_default('PassivesToAdd', []),
-            spells_to_add=_or_default('SpellsToAdd', []),
-            clone_template_guid=_or_default('CloneTemplateGuid', ""),
-            clone_display_name=_or_default('CloneDisplayName', ""),
-            lock_static_modifications=_or_default('LockStaticModifications', False),
-            lock_random_modifications=_or_default('LockRandomModifications', False),
-            lock_information=_or_default('LockInformation', False),
-            lock_block=_or_default('LockBlock', False),
+            act=_or_default("Act", ""),
+            location=_or_default("Location", ""),
+            type_=_or_default("Type", ""),
+            sub_type=_or_default("SubType", ""),
+            classArchetype=_or_default("ClassArchetype", ""),
+            monsterArchetype=_or_default("MonsterArchetype", ""),
+            corpse=_or_default("Corpse", False),
+            notes=_or_default("Notes", ""),
+            level=_or_default("Level", 0),
+            armor_class=_or_default("ArmorClass", 0),
+            original_health=_or_default("OriginalHealth", 0),
+            health_override=_or_default("HealthOverride", 0),
+            passives_to_add=_or_default("PassivesToAdd", []),
+            spells_to_add=_or_default("SpellsToAdd", []),
+            clone_display_name=_or_default("CloneDisplayName", ""),
+            clone_template_guid=_or_default("CloneTemplateGuid", ""),
+            lock_static_modifications=_or_default("LockStaticModifications", False),
+            lock_random_modifications=_or_default("LockRandomModifications", False),
+            lock_information=_or_default("LockInformation", False),
+            lock_block=_or_default("LockBlock", False),
         )
         known_fields = {
-            'Handle', 'FullGuid', 'Act', 'Location', 'Type', 'SubType',
-            'ClassArchetype', 'MonsterArchetype', 'Corpse',
-            'ArmorClass', 'OriginalHealth', 'Level', 'Notes',
-            'HealthOverride', 'PassivesToAdd', 'SpellsToAdd',
-            'CloneTemplateGuid', 'CloneDisplayName',
-            'LockStaticModifications', 'LockRandomModifications',
-            'LockInformation', 'LockBlock',
+            "Handle",
+            "FullGuid",
+            "Act",
+            "Location",
+            "Type",
+            "SubType",
+            "ClassArchetype",
+            "MonsterArchetype",
+            "Corpse",
+            "Notes",
+            "Level",
+            "ArmorClass",
+            "OriginalHealth",
+            "HealthOverride",
+            "PassivesToAdd",
+            "SpellsToAdd",
+            "CloneTemplateGuid",
+            "CloneDisplayName",
+            "LockStaticModifications",
+            "LockRandomModifications",
+            "LockInformation",
+            "LockBlock",
         }
         # NOTE: legacy JSON keys 'MapApplied'/'RandomizationApplied' are not in
         # known_fields, so they fall through to raw attributes here and are
@@ -366,11 +407,11 @@ class MonsterStatBlock:
 
     @classmethod
     def load_from_json_file(cls, file_path):
-        with open(file_path, 'r') as f:
+        with open(file_path, "r") as f:
             data = json.load(f)
-        if 'Guids' in data:
+        if "Guids" in data:
             # Legacy single-list format.
-            entries = data.get('Guids', [])
+            entries = data.get("Guids", [])
         else:
             entries = [entry for group in data.values() for entry in group]
         return [cls.from_dict(entry) for entry in entries]
@@ -385,7 +426,9 @@ class MonsterStatBlock:
             os.makedirs(archive_dir, exist_ok=True)
             stem, ext = os.path.splitext(os.path.basename(file_path))
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            shutil.copy2(file_path, os.path.join(archive_dir, f"{stem}_{timestamp}{ext}"))
+            shutil.copy2(
+                file_path, os.path.join(archive_dir, f"{stem}_{timestamp}{ext}")
+            )
 
         grouped = {}
         for block in blocks:
@@ -403,13 +446,17 @@ class MonsterStatBlock:
             key: [block.to_dict(for_json=True) for block in grouped[key]]
             for key in sorted(grouped, key=_sort_key)
         }
-        with open(file_path, 'w') as f:
+        with open(file_path, "w") as f:
             json.dump(data, f, indent=4)
 
     @classmethod
     def populate_full_guid(blocks):
         for block in blocks:
-            if not block.full_guid and hasattr(block, 'Name') and hasattr(block, 'Guid'):
+            if (
+                not block.full_guid
+                and hasattr(block, "Name")
+                and hasattr(block, "Guid")
+            ):
                 block.full_guid = f"{getattr(block, 'Name')}_{getattr(block, 'Guid')}"
 
     @staticmethod
@@ -421,7 +468,9 @@ class MonsterStatBlock:
             if incoming_value is None:
                 return False
             if isinstance(incoming_value, str):
-                return (existing_value is None or _is_blank_string(existing_value)) and not _is_blank_string(incoming_value)
+                return (
+                    existing_value is None or _is_blank_string(existing_value)
+                ) and not _is_blank_string(incoming_value)
             return existing_value is None
 
         deduped = {}
@@ -431,8 +480,12 @@ class MonsterStatBlock:
                 deduped[key] = block
             else:
                 existing = deduped[key]
-                existing.spells_to_add = sorted(set(existing.spells_to_add + block.spells_to_add))
-                existing.passives_to_add = sorted(set(existing.passives_to_add + block.passives_to_add))
+                existing.spells_to_add = sorted(
+                    set(existing.spells_to_add + block.spells_to_add)
+                )
+                existing.passives_to_add = sorted(
+                    set(existing.passives_to_add + block.passives_to_add)
+                )
                 if _should_replace(existing.handle, block.handle):
                     existing.handle = block.handle
                 if _should_replace(existing.act, block.act):
@@ -446,10 +499,14 @@ class MonsterStatBlock:
                 # OriginalHealth: keep whichever is non-zero (immutable once set).
                 if (not existing.original_health) and block.original_health:
                     existing.original_health = block.original_health
-                if _should_replace(existing.clone_template_guid, block.clone_template_guid):
-                    existing.clone_template_guid = block.clone_template_guid
-                if _should_replace(existing.clone_display_name, block.clone_display_name):
+                if _should_replace(
+                    existing.clone_display_name, block.clone_display_name
+                ):
                     existing.clone_display_name = block.clone_display_name
+                if _should_replace(
+                    existing.clone_template_guid, block.clone_template_guid
+                ):
+                    existing.clone_template_guid = block.clone_template_guid
                 if _should_replace(existing.corpse, block.corpse):
                     existing.corpse = block.corpse
                 if _should_replace(existing.classArchetype, block.classArchetype):
@@ -462,9 +519,15 @@ class MonsterStatBlock:
                     existing.notes += "; " + block.notes
                 elif _should_replace(existing.notes, block.notes):
                     existing.notes = block.notes
-                existing.lock_static_modifications = existing.lock_static_modifications or block.lock_static_modifications
+                existing.lock_static_modifications = (
+                    existing.lock_static_modifications
+                    or block.lock_static_modifications
+                )
                 existing.lock_block = existing.lock_block or block.lock_block
-                existing.lock_random_modifications = existing.lock_random_modifications or block.lock_random_modifications
+                existing.lock_random_modifications = (
+                    existing.lock_random_modifications
+                    or block.lock_random_modifications
+                )
         return list(deduped.values())
 
     @staticmethod
@@ -489,7 +552,9 @@ class MonsterStatBlock:
         return diffs
 
     @staticmethod
-    def confirm_large_change(diffs, blocks, threshold=0.25, target_description="guid_mapper_master.json"):
+    def confirm_large_change(
+        diffs, blocks, threshold=0.25, target_description="guid_mapper_master.json"
+    ):
         """If diffs touch more than `threshold` fraction of blocks, prompts the
         user to confirm before proceeding. Returns True if it's OK to proceed
         (either the change is under threshold, or the user confirmed it)."""
