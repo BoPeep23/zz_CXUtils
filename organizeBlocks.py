@@ -2,10 +2,13 @@
 organizeBlocks.py
 
 Utilities for ordering block output without changing block field values.
-Blocks are sorted alphabetically by FullGuid by default, which naturally
-groups them by scene prefix (S_GLO_, S_CRA_, S_GOB_, S_TWN_, etc.).
+Blocks are sorted by default according to the key order of
+maps/location_to_act_map.json, which groups them by scene prefix
+(S_GLO_, S_CRA_, S_GOB_, S_TWN_, etc.) in that map's order. FullGuids whose
+prefix isn't in the map (Unknown) sort last.
 """
 
+import json
 import os
 
 from monsterStatBlock import MonsterStatBlock
@@ -38,6 +41,40 @@ class organizeBlocks:
         return sorted(blocks, key=lambda b: organizeBlocks._get_block_field(b, "FullGuid").lower())
 
     @staticmethod
+    def _load_location_order():
+        base_dir = os.path.dirname(__file__)
+        map_path = os.path.join(base_dir, "maps", "location_to_act_map.json")
+        with open(map_path, "r") as f:
+            return list(json.load(f).keys())
+
+    @staticmethod
+    def _location_rank(full_guid, location_order):
+        """Index of the first location_to_act_map.json prefix that full_guid
+        starts with. Unmatched FullGuids rank past every known prefix, so they
+        sort last."""
+        for i, prefix in enumerate(location_order):
+            if full_guid.startswith(prefix):
+                return i
+        return len(location_order)
+
+    @staticmethod
+    def sort_blocks_by_location_order(blocks):
+        """Sort blocks by the order their FullGuid's scene prefix appears as a
+        key in maps/location_to_act_map.json, then alphabetically by FullGuid
+        within the same prefix. FullGuids that don't match any prefix
+        (Unknown) sort last."""
+        location_order = organizeBlocks._load_location_order()
+
+        def block_key(block):
+            full_guid = organizeBlocks._get_block_field(block, "FullGuid")
+            return (
+                organizeBlocks._location_rank(full_guid, location_order),
+                full_guid.lower(),
+            )
+
+        return sorted(blocks, key=block_key)
+
+    @staticmethod
     def sort_blocks_by_fields(blocks, field_order=None):
         """Sort blocks by a progressive list of fields. Default: Act then FullGuid."""
         if field_order is None:
@@ -53,8 +90,9 @@ class organizeBlocks:
 
     @staticmethod
     def reorder_blocks(blocks):
-        """Sort blocks by the default field order (Act, FullGuid)."""
-        return organizeBlocks.sort_blocks_by_fields(blocks)
+        """Sort blocks by scene order, per maps/location_to_act_map.json's key
+        order (Unknown/unmapped FullGuids sort last)."""
+        return organizeBlocks.sort_blocks_by_location_order(blocks)
 
     @staticmethod
     def get_field_order():
@@ -67,8 +105,8 @@ if __name__ == "__main__":
     clean_blocks = MonsterStatBlock.deduplicate(clean_blocks)
 
     # ── reorder_blocks ──────────────────────────────────────────────────────
-    # Sorts by Act then FullGuid. FullGuid prefixes naturally group entries by
-    # scene (S_GLO_ → S_CRA_ → S_GOB_ → ... → S_TWN_ → S_END_).
+    # Sorts by scene, per maps/location_to_act_map.json's key order
+    # (S_FirstFight_ → S_TUT_ → S_CAMP_ → S_GLO_ → ... → S_END_); Unknown last.
     clean_blocks = organizeBlocks.reorder_blocks(clean_blocks)
 
     # ── sort_blocks_by_full_guid ────────────────────────────────────────────

@@ -1,0 +1,12 @@
+{
+    "Paladin": {
+        "ApplyStats": {
+            "PassivesToAdd": [
+                "Resilient_Strength"
+            ],
+            "SpellsToAdd": [
+                "Target_HolyWeapon"
+            ]
+        }
+    }
+}

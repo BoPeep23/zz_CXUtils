@@ -5,19 +5,24 @@ from datetime import datetime
 
 class MonsterStatBlock:
     # Fields that are never relevant for a Corpse=True block (static scenery,
-    # not a fighter). sanitizeFields strips these to blank/zero on every run;
-    # discoverFields.apply_handle_map never writes them onto a corpse block,
-    # even if a matched entry's ApplyStats/randomization includes them.
+    # not a fighter): the Information/Modification fields that only make
+    # sense for a combatant. sanitizeFields strips these to blank/zero on
+    # every run; discoverFields never writes them onto a corpse block, even
+    # if a matched entry's ApplyStats/randomization includes them. The lock
+    # fields (LockStaticModifications, LockRandomModifications, LockInformation,
+    # LockBlock) are NOT excluded - corpse blocks keep and report all four.
     CORPSE_EXCLUDED_FIELDS = {
         'ClassArchetype', 'ArmorClass', 'HealthOverride', 'OriginalHealth',
-        'Level', 'PassivesToAdd', 'SpellsToAdd', 'MapApplied', 'RandomizationApplied',
+        'Level', 'PassivesToAdd', 'SpellsToAdd',
     }
 
     def __init__(self, handle=None, full_guid=None, act=None, location=None, type_=None, sub_type=None,
-                 classArchetype=None, monsterArchetype=None, armor_class=0, health_override=0,
-                 original_health=0, level=0, passives_to_add=None, spells_to_add=None,
-                 clone_template_guid=None, clone_display_name=None, notes=None, corpse=None,
-                 map_applied=None, randomization_applied=None, lock_block=None):
+                 classArchetype=None, monsterArchetype=None, corpse=None, armor_class=0,
+                 level=0, notes=None, original_health=0, health_override=0, passives_to_add=None,
+                 spells_to_add=None, clone_template_guid=None, clone_display_name=None,
+                 lock_static_modifications=None, lock_random_modifications=None,
+                 lock_information=None, lock_block=None):
+        # ── Identifiers ──────────────────────────────────────────────────
         self._handle = handle
         self._full_guid = full_guid
         self._act = act
@@ -26,21 +31,25 @@ class MonsterStatBlock:
         self._sub_type = sub_type
         self._classArchetype = classArchetype
         self._monsterArchetype = monsterArchetype
+        self._corpse = corpse
+        # ── Information ──────────────────────────────────────────────────
         self._armor_class = armor_class
-        self._health_override = health_override
-        self._original_health = original_health
         self._level = level
+        self._notes = notes
+        # ── Modifications ────────────────────────────────────────────────
+        self._health_override = health_override
         self._passives_to_add = passives_to_add or []
         self._spells_to_add = spells_to_add or []
         self._clone_template_guid = clone_template_guid
         self._clone_display_name = clone_display_name
-        self._notes = notes
-        self._corpse = corpse
-        self._map_applied = map_applied
-        self._randomization_applied = randomization_applied
+        # ── Block Controls ───────────────────────────────────────────────
+        self._lock_static_modifications = lock_static_modifications
+        self._lock_random_modifications = lock_random_modifications
+        self._lock_information = lock_information
         self._lock_block = lock_block
 
-    # ── Properties ──────────────────────────────────────────────────────────
+    # ── Properties: Identifiers ────────────────────────────────────────────
+    # Governed by sanitizeFields.py. Never touched by discoverFields.py.
 
     @property
     def handle(self):
@@ -107,20 +116,24 @@ class MonsterStatBlock:
         self._monsterArchetype = value
 
     @property
+    def corpse(self):
+        return self._corpse
+
+    @corpse.setter
+    def corpse(self, value):
+        self._corpse = value
+
+    # ── Properties: Information ────────────────────────────────────────────
+    # Current/planned info about the creature. Never updated by sanitizeFields
+    # or by Combat Extender itself; gated by LockInformation for discoverFields.
+
+    @property
     def armor_class(self):
         return self._armor_class
 
     @armor_class.setter
     def armor_class(self, value):
         self._armor_class = value
-
-    @property
-    def health_override(self):
-        return self._health_override
-
-    @health_override.setter
-    def health_override(self, value):
-        self._health_override = value
 
     @property
     def original_health(self):
@@ -137,6 +150,26 @@ class MonsterStatBlock:
     @level.setter
     def level(self, value):
         self._level = value
+
+    @property
+    def notes(self):
+        return self._notes
+
+    @notes.setter
+    def notes(self, value):
+        self._notes = value
+
+    # ── Properties: Modifications ───────────────────────────────────────────
+    # Always dynamic - gathered and transformed by generateCombatExtenderBlocks.py.
+    # Gated by LockStaticModifications/LockRandomModifications for discoverFields.
+
+    @property
+    def health_override(self):
+        return self._health_override
+
+    @health_override.setter
+    def health_override(self, value):
+        self._health_override = value
 
     @property
     def passives_to_add(self):
@@ -170,37 +203,31 @@ class MonsterStatBlock:
     def clone_display_name(self, value):
         self._clone_display_name = value
 
-    @property
-    def notes(self):
-        return self._notes
-
-    @notes.setter
-    def notes(self, value):
-        self._notes = value
+    # ── Properties: Block Controls ──────────────────────────────────────────
 
     @property
-    def corpse(self):
-        return self._corpse
+    def lock_static_modifications(self):
+        return self._lock_static_modifications
 
-    @corpse.setter
-    def corpse(self, value):
-        self._corpse = value
-
-    @property
-    def map_applied(self):
-        return self._map_applied
-
-    @map_applied.setter
-    def map_applied(self, value):
-        self._map_applied = value
+    @lock_static_modifications.setter
+    def lock_static_modifications(self, value):
+        self._lock_static_modifications = value
 
     @property
-    def randomization_applied(self):
-        return self._randomization_applied
+    def lock_random_modifications(self):
+        return self._lock_random_modifications
 
-    @randomization_applied.setter
-    def randomization_applied(self, value):
-        self._randomization_applied = value
+    @lock_random_modifications.setter
+    def lock_random_modifications(self, value):
+        self._lock_random_modifications = value
+
+    @property
+    def lock_information(self):
+        return self._lock_information
+
+    @lock_information.setter
+    def lock_information(self, value):
+        self._lock_information = value
 
     @property
     def lock_block(self):
@@ -218,8 +245,11 @@ class MonsterStatBlock:
         changing even when the block is/becomes a corpse. for_json=True is
         for actual file output: on a Corpse=True block it omits
         CORPSE_EXCLUDED_FIELDS entirely instead of writing them as blank/zero,
-        since those fields are never meaningful for static scenery."""
+        since those fields are never meaningful for static scenery. Field
+        order here is the canonical output order: Identifiers, then
+        Information, then Modifications, then Block Controls."""
         d = {
+            # Identifiers
             'Handle': self._handle,
             'FullGuid': self._full_guid,
             'Act': self._act,
@@ -228,18 +258,22 @@ class MonsterStatBlock:
             'SubType': self._sub_type,
             'ClassArchetype': self._classArchetype,
             'MonsterArchetype': self._monsterArchetype,
+            'Corpse': self._corpse,
+            # Information
             'ArmorClass': self._armor_class,
-            'HealthOverride': self._health_override,
             'OriginalHealth': self._original_health,
             'Level': self._level,
+            'Notes': self._notes,
+            # Modifications
+            'HealthOverride': self._health_override,
             'PassivesToAdd': self._passives_to_add,
             'SpellsToAdd': self._spells_to_add,
             'CloneTemplateGuid': self._clone_template_guid,
             'CloneDisplayName': self._clone_display_name,
-            'Notes': self._notes,
-            'Corpse': self._corpse,
-            'MapApplied': self._map_applied,
-            'RandomizationApplied': self._randomization_applied,
+            # Block Controls
+            'LockStaticModifications': self._lock_static_modifications,
+            'LockRandomModifications': self._lock_random_modifications,
+            'LockInformation': self._lock_information,
             'LockBlock': self._lock_block,
         }
         if for_json and self._corpse:
@@ -266,28 +300,34 @@ class MonsterStatBlock:
             sub_type=_or_default('SubType', ""),
             classArchetype=_or_default('ClassArchetype', ""),
             monsterArchetype=_or_default('MonsterArchetype', ""),
+            corpse=_or_default('Corpse', False),
             armor_class=_or_default('ArmorClass', 0),
-            health_override=_or_default('HealthOverride', 0),
             original_health=_or_default('OriginalHealth', 0),
             level=_or_default('Level', 0),
+            notes=_or_default('Notes', ""),
+            health_override=_or_default('HealthOverride', 0),
             passives_to_add=_or_default('PassivesToAdd', []),
             spells_to_add=_or_default('SpellsToAdd', []),
             clone_template_guid=_or_default('CloneTemplateGuid', ""),
             clone_display_name=_or_default('CloneDisplayName', ""),
-            notes=_or_default('Notes', ""),
-            corpse=_or_default('Corpse', False),
-            map_applied=_or_default('MapApplied', False),
-            randomization_applied=_or_default('RandomizationApplied', False),
+            lock_static_modifications=_or_default('LockStaticModifications', False),
+            lock_random_modifications=_or_default('LockRandomModifications', False),
+            lock_information=_or_default('LockInformation', False),
             lock_block=_or_default('LockBlock', False),
         )
         known_fields = {
             'Handle', 'FullGuid', 'Act', 'Location', 'Type', 'SubType',
-            'ClassArchetype', 'MonsterArchetype',
-            'ArmorClass', 'HealthOverride', 'OriginalHealth', 'Level',
+            'ClassArchetype', 'MonsterArchetype', 'Corpse',
+            'ArmorClass', 'OriginalHealth', 'Level', 'Notes',
+            'HealthOverride', 'PassivesToAdd', 'SpellsToAdd',
             'CloneTemplateGuid', 'CloneDisplayName',
-            'SpellsToAdd', 'PassivesToAdd', 'Notes', 'Corpse',
-            'MapApplied', 'LockBlock', 'RandomizationApplied',
+            'LockStaticModifications', 'LockRandomModifications',
+            'LockInformation', 'LockBlock',
         }
+        # NOTE: legacy JSON keys 'MapApplied'/'RandomizationApplied' are not in
+        # known_fields, so they fall through to raw attributes here and are
+        # migrated onto lock_static_modifications/lock_random_modifications by
+        # sanitizeFields.rename_field() - see sanitizeFields.py's __main__.
         for key, value in data.items():
             if key not in known_fields:
                 setattr(instance, key, value)
@@ -304,6 +344,25 @@ class MonsterStatBlock:
         if a.isdigit():
             return f"Act{a}"
         return a
+
+    @classmethod
+    def act_bucket_order(cls):
+        """Canonical order for the top-level Act buckets in the saved JSON,
+        derived from the unique Act values in maps/location_to_act_map.json
+        (first-seen order, each converted via act_key so it matches the
+        grouped bucket keys). 'Unknown' always sorts last."""
+        base_dir = os.path.dirname(__file__)
+        map_path = os.path.join(base_dir, "maps", "location_to_act_map.json")
+        with open(map_path, "r") as f:
+            location_to_act_map = json.load(f)
+
+        order = []
+        for act in location_to_act_map.values():
+            key = cls.act_key(act)
+            if key not in order:
+                order.append(key)
+        order.append("Unknown")
+        return order
 
     @classmethod
     def load_from_json_file(cls, file_path):
@@ -332,10 +391,13 @@ class MonsterStatBlock:
         for block in blocks:
             grouped.setdefault(cls.act_key(block.act), []).append(block)
 
+        act_order = cls.act_bucket_order()
+
         def _sort_key(key):
-            if key.startswith('Act') and key[3:].isdigit():
-                return (0, int(key[3:]), key)
-            return (1, 0, key)
+            try:
+                return (0, act_order.index(key))
+            except ValueError:
+                return (1, key)
 
         data = {
             key: [block.to_dict(for_json=True) for block in grouped[key]]
@@ -400,9 +462,9 @@ class MonsterStatBlock:
                     existing.notes += "; " + block.notes
                 elif _should_replace(existing.notes, block.notes):
                     existing.notes = block.notes
-                existing.map_applied = existing.map_applied or block.map_applied
+                existing.lock_static_modifications = existing.lock_static_modifications or block.lock_static_modifications
                 existing.lock_block = existing.lock_block or block.lock_block
-                existing.randomization_applied = existing.randomization_applied or block.randomization_applied
+                existing.lock_random_modifications = existing.lock_random_modifications or block.lock_random_modifications
         return list(deduped.values())
 
     @staticmethod

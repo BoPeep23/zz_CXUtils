@@ -1,0 +1,12 @@
+{
+    "Skeleton": {
+        "RandomPassives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ],
+        "RandomPassiveCount": 1,
+        "RandomSpells": [],
+        "RandomSpellCount": 0,
+        "HealthOverrideRange": [20, 28]
+    }
+}

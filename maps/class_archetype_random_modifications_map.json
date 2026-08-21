@@ -1,0 +1,16 @@
+{
+    "Paladin": {
+        "RandomPassives": [
+            "Goon_AC_Buff_1",
+            "Goon_AttackRoll_1",
+            "CrossbowExpert_Wounding"
+        ],
+        "RandomPassiveCount": 1,
+        "RandomSpells": [
+            "Target_HolyWeapon",
+            "Shout_Shield_Wizard"
+        ],
+        "RandomSpellCount": 1,
+        "HealthOverrideRange": [35, 40]
+    }
+}

@@ -70,9 +70,6 @@
     "S_DEN_ShadowDruid_003_53b08334-9f79-4bb5-b580-2662355d54ad": {
         "DisplayName": "Dorrina"
     },
-    "S_FirstFight_Imp_Melee_01_07f1512b-efe9-4eb8-8ade-783435e9d7c9": {
-        "DisplayName": "Imp"
-    },
     "S_FOR_GnomeGoblin1_b2c582af-bc69-48b3-a004-648562dab404": {
         "DisplayName": "Shadow Druid Envoy",
         "Template": "S_DEN_ShadowDruid_001_0cb92c37-fb4d-4547-8702-1fb1dd52d0b6"
@@ -819,15 +816,6 @@
         "DisplayName": "Fire Myrmidon",
         "Template": "S_LOW_LorroakanFireMyrmidon_4f9f5fc9-45a7-412d-b388-f8e31a2d1c6b"
     },
-    "S_LOW_Poltergeist_Dining_001_6c1d9263-bc76-4331-822f-1878e8e886c8": {
-        "DisplayName": "Poltergeist"
-    },
-    "S_LOW_Poltergeist_Bedroom_002_7372513a-a82e-4ac8-9754-a19231c72934": {
-        "DisplayName": "Poltergeist"
-    },
-    "S_LOW_Poltergeist_Kitchen_001_9b4d7812-dd50-4b55-9f5f-837e5aa0ddb5": {
-        "DisplayName": "Poltergeist"
-    },
     "S_LOW_KurwinCoffin_W1_RisenGreaterZombie_000_a249e576-9590-44bb-8861-727878ff6378": {
         "DisplayName": "Animated Mummy",
         "Template": "S_LOW_FatherCarrion_CoffinMummy_000_d03067ac-43a7-435b-be97-558065b1f7d1"
@@ -892,18 +880,74 @@
         "DisplayName": "Lava Guardian",
         "Template": "S_LOW_LavaElemental_1dea794e-2657-4c54-916b-edc639c4ff8c"
     },
+    "S_LOW_MinscHideout_Cultist_002_dea45c58-9690-4d8b-9918-7a2e6f7fdb6d": {
+        "DisplayName": "Invoker of Bhaal Raton Cajose"
+    },
     "S_LOW_MinscHideout_Doppelganger_01_1b82c291-6ce2-48c9-8b83-f07418f73939": {
         "DisplayName": "Night Blade Domir"
     },
     "S_LOW_MinscHideout_Hyena_f4c687d7-a16f-418c-922d-af37d36373f5": {
         "DisplayName": "Twix"
     },
+    "S_LOW_MinscHideout_SluiceGuard_000_344ca9a0-d7ac-4a22-b859-6e99b6c45a18": {
+        "DisplayName": "Evil Twin of Nine-Fingers",
+        "Template": "S_LOW_Guildhall_NineFingers_ef1b7a12-6439-470a-885c-fa47851728cd"
+    },
     "S_LOW_MurderTribunal_DeathKnight_c16a1ebd-4390-4309-b5d5-30df6e1333f6": {
         "DisplayName": "That Which Serves"
+    },
+    "S_LOW_OskarsBeloved_Thunderwave_001_Caster_83f6f5fb-8382-4348-bcae-4d3c543bac9e": {
+        "DisplayName": "Ancient Servant",
+        "Template": "S_LOW_AncientLairMummy_003_6d04276b-aefd-43a2-a2f0-eb586bcfc881"
+    },
+    "S_LOW_OskarsBeloved_Thunderwave_002_Caster_dee914e1-3452-450d-91f7-ed3429cf494f": {
+        "DisplayName": "Ancient Servant",
+        "Template": "S_LOW_AncientLairMummy_002_6f71be30-7cab-43a7-999d-12b9adde5a0e"
+    },
+    "S_LOW_OskarsBeloved_Thunderwave_003_Caster_1da5019d-31b7-4562-b3e1-e826ceceb140": {
+        "DisplayName": "Random Spectator",
+        "Template": "S_LOW_HouseOfHope_PrisonSpectator01_d92a207c-874a-4409-9cad-4abcec33efa1"
+    },
+    "S_LOW_OskarsBeloved_Thunderwave_004_Caster_b07d0d52-a819-41a1-8ecd-9322c1c2b2d6": {
+        "DisplayName": "Random Ghast",
+        "Template": "S_LOW_FatherCarrion_Ghast_Lower_d8141d00-5f80-4245-9a48-fe3651be6954"
+    },
+    "S_LOW_OskarsBeloved_Thunderwave_005_Caster_11c871b7-59bf-4ae7-aa17-4b7a2ad20102": {
+        "DisplayName": "Ancient Servant",
+        "Template": "S_LOW_AncientLairMummy_002_6f71be30-7cab-43a7-999d-12b9adde5a0e"
+    },
+    "S_LOW_OskarsBeloved_Thunderwave_006_Caster_81a61e17-c4be-4fa3-8765-02852dc5fb58": {
+        "DisplayName": "Ancient Servant",
+        "Template": "S_LOW_AncientLairMummy_001_65b33bdc-3126-4962-a712-4175007d9e54"
     },
     "S_LOW_Park_BhaalAssassin01_500d7c8c-60a6-40c6-86b0-82db100b530e": {
         "DisplayName": "Revenant of Bhaal",
         "Template": "S_LOW_MurderTribunal_DeathKnight_Weak001_55c50d4f-91f2-41ed-912f-82f6db2610b8"
+    },
+    "S_LOW_Poltergeist_Armoury_001_d95161fd-5632-440d-9ead-c4c4783ee0ee": {
+        "DisplayName": "Ancient Servant",
+        "Template": "S_LOW_AncientLairMummy_004_d526d72a-599c-464e-b7fe-84128d496b3c"
+    },
+    "S_LOW_Poltergeist_Bedroom_000_3f37f17d-d273-4cbc-85ea-e803587366f6": {
+        "DisplayName": "Pluto",
+        "Template": "S_LOW_KurwinCoffin_DogGhost_01_05fcc85e-ff22-4ba3-9fcf-71e08f50eb69"
+    },
+    "S_LOW_Poltergeist_Bedroom_002_7372513a-a82e-4ac8-9754-a19231c72934": {
+        "DisplayName": "Poltergeist"
+    },
+    "S_LOW_Poltergeist_Cellar_001_4dc01c2c-48fd-4a88-93b6-e1445c1e1326": {
+        "DisplayName": "Ancient Servant",
+        "Template": "S_LOW_AncientLairMummy_003_6d04276b-aefd-43a2-a2f0-eb586bcfc881"
+    },
+    "S_LOW_Poltergeist_Corridor_000_7e4cc727-c952-4e74-b504-5b0c1fd1ee6a": {
+        "DisplayName": "Sadie",
+        "Template": "S_LOW_KurwinCoffin_DogGhost_02_fd402b3e-4e95-4366-8e46-9b8e6f0b85b0"
+    },
+    "S_LOW_Poltergeist_Dining_001_6c1d9263-bc76-4331-822f-1878e8e886c8": {
+        "DisplayName": "Poltergeist"
+    },
+    "S_LOW_Poltergeist_Kitchen_001_9b4d7812-dd50-4b55-9f5f-837e5aa0ddb5": {
+        "DisplayName": "Poltergeist"
     },
     "S_LOW_RangedCultistAmbusher001_94ad0109-2c78-43f8-b7dd-0d056b742a23": {
         "DisplayName": "Murderous Crow",
@@ -1187,16 +1231,24 @@
     "S_WYR_WyrmRockPrison_Guard_002_3a853d86-2086-4923-b09d-3192244effe6": {
         "DisplayName": "Fist Rivermounter"
     },
-    "S_CRE_SecurityOfficer02_475367c4-aace-4884-af66-16097e2d2119": {
-        "DisplayName": "Ka'darsh Dethk",
-        "Template": "S_CRE_Teacher_60933e69-c642-46e0-92ee-0e4353fc2adf"
+    "EO_Lathanders_Image_e84d8eb3-89ab-4b65-b6e1-05b04afc2d1c": {
+        "DisplayName": "Lathander's Paladin"
     },
     "S_CRE_IntelligenceOfficer03_266e49a3-83f8-40aa-baff-5ffe2a1a35db": {
         "DisplayName": "Gur'muth",
         "Template": "S_CRE_CaptainsBeast01_82736dcd-8648-4795-a296-21aa1bcaf096"
     },
-    "EO_Lathanders_Image_e84d8eb3-89ab-4b65-b6e1-05b04afc2d1c": {
-        "DisplayName": "Lathander's Paladin"
+    "S_CRE_SecurityOfficer02_475367c4-aace-4884-af66-16097e2d2119": {
+        "DisplayName": "Ka'darsh Dethk",
+        "Template": "S_CRE_Teacher_60933e69-c642-46e0-92ee-0e4353fc2adf"
+    },
+    "S_FirstFight_Imp_Ranged_01_38d1ce2f-4f19-4266-971d-61f08bc1a895": {
+        "DisplayName": "Lesser Hellsboar",
+        "Template": "S_TUT_Helm_Devil_000_1650c758-c9c2-d487-387d-22a269fd7918"
+    },
+    "S_TUT_TransformChamber_DrainVictim_000_5bc43df4-6274-4b73-baed-c7f5268b2fc7": {
+        "DisplayName": "Intellect Devourer",
+        "Template": "S_TUT_Lab_IntellectDevourer_40bd6b82-2728-410a-bb8a-a805f98556a1"
     },
     "END_BackupDaisy_001_d8e8b72e-4b21-4442-8e34-0ecab3f499ae": {
         "DisplayName": "Inquisitor of the Absolute",

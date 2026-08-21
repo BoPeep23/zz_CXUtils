@@ -1,0 +1,9 @@
+{
+    "Undead": {
+        "ApplyStats": {
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ]
+        }
+    }
+}

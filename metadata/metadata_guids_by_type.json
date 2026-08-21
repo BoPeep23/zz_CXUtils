@@ -1061,6 +1061,26 @@
             "Guid": "Halflings_Female_Civilian_000_da051db0-475b-4ccf-a6de-3540b38443ac"
         },
         {
+            "Handle": "Dead Thrall",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Dead_Thrall_01_50eaf702-4a99-44d3-91df-69bb0e74ee17"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Imp_Dead_01_2a6c8e02-f886-46bf-ab79-cf69f523abb0"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Imp_Dead_03_21c044a2-e506-45fa-a34f-8ffbe7bfddac"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Imp_Dead_04_c4eed3f6-e494-4d72-938b-dd1bb425e00a"
+        },
+        {
             "Handle": "Civilian",
             "Location": "BRAIN_SEWERS",
             "Guid": "Humans_Female_Civilian_000_f7c6409b-9349-4a79-bf3b-bf9761d77299"
@@ -2711,6 +2731,21 @@
             "Guid": "S_CAMP_TieflingBackup_012_3230e60f-b9b7-4778-bb47-db8238bb8cd3"
         },
         {
+            "Handle": "Kivak",
+            "Location": "",
+            "Guid": "S_CAMP_TieflingBackup_013_8f64df21-b666-41a1-ad25-a7426f8f66e7"
+        },
+        {
+            "Handle": "Vatas",
+            "Location": "",
+            "Guid": "S_CAMP_TieflingBackup_015_023e84c0-c97c-422e-b9e4-cbe15daf55ca"
+        },
+        {
+            "Handle": "Bivuak",
+            "Location": "",
+            "Guid": "S_CAMP_TieflingBackup_016_1c7feae4-cc4c-4723-a7f6-9bb3f5b92e3c"
+        },
+        {
             "Handle": "Nymessa",
             "Location": "",
             "Guid": "S_CHA_CagerLaezel1_2c8537fb-bf73-43a2-a8ff-48e41453adea"
@@ -3004,6 +3039,16 @@
             "Handle": "Abducted Nobleman",
             "Location": "",
             "Guid": "S_CRA_DeadPrisoner_EncounterLoot_f35c29c6-d643-8423-1c50-577ac06ee5de"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Location": "",
+            "Guid": "S_CRA_Int_001_cb82f6b0-edc0-4720-a551-83802e2d3fc9"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Location": "",
+            "Guid": "S_CRA_Int_002_1d9ff85b-b5e4-41ed-a9ec-77ca88bf71c0"
         },
         {
             "Handle": "Scared Boar",
@@ -4524,21 +4569,6 @@
             "Handle": "Barcus Wroot",
             "Location": "FOREST_BLIGHTED_WINDMILL",
             "Guid": "S_FOR_UnfortunateGnome_6e45a00b-bad2-40bb-9403-147b9e92d976"
-        },
-        {
-            "Handle": "Imp",
-            "Location": "NAUTILOID_IMPS",
-            "Guid": "S_FirstFight_Imp_Melee_01_07f1512b-efe9-4eb8-8ade-783435e9d7c9"
-        },
-        {
-            "Handle": "Imp",
-            "Location": "NAUTILOID_IMPS",
-            "Guid": "S_FirstFight_Imp_Melee_02_5c5bd50b-147e-42e5-93cb-59a754df91ec"
-        },
-        {
-            "Handle": "Imp",
-            "Location": "NAUTILOID_IMPS",
-            "Guid": "S_FirstFight_Imp_Ranged_01_38d1ce2f-4f19-4266-971d-61f08bc1a895"
         },
         {
             "Handle": "Baelen Bonecloak",
@@ -8511,36 +8541,6 @@
             "Guid": "S_LOW_HopeSpirit06_e126d40a-2e86-4736-90b9-aa290f47a4ed"
         },
         {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp01_4a793e6c-572c-4541-a10e-ce75b1e62255"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp02_5849cd14-4f4a-4742-bb0c-056c3ef7f90e"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp03_4adcf56c-e1cc-4441-8e3f-0761172407d4"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp04_55c88dba-6d2d-4082-b5dc-be1590c0e326"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp05_5ceed225-db6e-4652-bd4b-88c250550193"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp06_3a9e98f5-fe4c-46b2-a129-1e67fe92512b"
-        },
-        {
             "Handle": "Infernal Mason",
             "Location": "HOPE_DININGROOM",
             "Guid": "S_LOW_HouseOfHope_Debtor_Mason_7fa2834b-e31e-476a-bb3f-83b935b898e1"
@@ -8561,21 +8561,6 @@
             "Guid": "S_LOW_HouseOfHope_FireDebtor03_bbd649db-111b-4f20-87d0-917827c15252"
         },
         {
-            "Handle": "Vengeful Boar",
-            "Location": "HOPE_HALLWAYS",
-            "Guid": "S_LOW_HouseOfHope_FlamingBoar01_0d1cf2a6-0b56-4c14-83d1-7587e9c8c63c"
-        },
-        {
-            "Handle": "Vengeful Boar",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_FlamingBoar02_82efa3b1-ed21-4569-ac26-65b8a42dde9b"
-        },
-        {
-            "Handle": "Vengeful Boar",
-            "Location": "HOPE_HALLWAYS",
-            "Guid": "S_LOW_HouseOfHope_FlamingBoar03_a618f956-d2e8-4108-b5e9-7729286c3993"
-        },
-        {
             "Handle": "Hell Sphere",
             "Location": "HOPE_HALLWAYS",
             "Guid": "S_LOW_HouseOfHope_FlamingSphere01_4cc8ad72-d4f4-434b-8474-b22256c6949e"
@@ -8584,26 +8569,6 @@
             "Handle": "Hell Sphere",
             "Location": "HOPE_HALLWAYS",
             "Guid": "S_LOW_HouseOfHope_FlamingSphere03_17d05a29-c4fe-4260-bf28-7d8f53cc0e0c"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_Imp01_ad2d83ec-102b-4f92-b98a-5ca981a23421"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_Imp02_d41533a3-b1d9-4cd3-b495-5732c989bd25"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_HALLWAYS",
-            "Guid": "S_LOW_HouseOfHope_Imp03_502cb8ab-7c8d-4465-b0cb-abab76da524a"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_HALLWAYS",
-            "Guid": "S_LOW_HouseOfHope_Imp04_0e3d4128-0bd4-4c05-a6a3-3d654b75043b"
         },
         {
             "Handle": "Waltzing Eternal Debtor",
@@ -8661,16 +8626,6 @@
             "Guid": "S_LOW_HouseOfHope_MerregonDebtor04_37191419-9d40-495a-b480-a4971a5f7129"
         },
         {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_NotMerregon02_b8c31050-f17e-46a8-bae6-ac98481e3d5a"
-        },
-        {
-            "Handle": "Vengeful Boar",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_NotMerregon03_8d08bf81-ae38-4493-8208-a9827fda6a36"
-        },
-        {
             "Handle": "Petrified Debtor",
             "Location": "HOPE_PRISON",
             "Guid": "S_LOW_HouseOfHope_PetrifiedDebtor1_60e5372b-e0af-4c4e-a8af-c97d99574bca"
@@ -8684,31 +8639,6 @@
             "Handle": "Petrified Debtor",
             "Location": "HOPE_PRISON",
             "Guid": "S_LOW_HouseOfHope_PetrifiedDebtor3_579aa7d5-6220-4616-acfd-ee79a955b5fc"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_000_7f9717a3-16c6-4323-9976-a31d27e36495"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_001_74282535-2053-4a8d-98ff-6413ea2136dd"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_002_095fbaa2-51c3-47fe-8626-22f28f1bece8"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_003_b5d6b288-45d1-497b-8339-cead5e16133d"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_004_401761d3-a021-4a8a-968f-85c7e7e8675c"
         },
         {
             "Handle": "Eternal Rat",
@@ -9199,16 +9129,6 @@
             "Handle": "Death's Head of Bhaal Nov Shmoz",
             "Location": "UNDERCITY_HIDEOUT_MINSC",
             "Guid": "S_LOW_MinscHideout_Cultist_001_e4850669-6ea6-4a69-ad4e-150ee2dcc3b3"
-        },
-        {
-            "Handle": "Snicker",
-            "Location": "UNDERCITY_HIDEOUT_MINSC",
-            "Guid": "S_LOW_MinscHideout_Hyena_f4c687d7-a16f-418c-922d-af37d36373f5"
-        },
-        {
-            "Handle": "Barnz",
-            "Location": "UNDERCITY_HIDEOUT_CISTERN",
-            "Guid": "S_LOW_MinscHideout_SluiceGuard_000_344ca9a0-d7ac-4a22-b859-6e99b6c45a18"
         },
         {
             "Handle": "Cilarea",
@@ -10209,11 +10129,6 @@
             "Handle": "Disciple Z'rell",
             "Location": "",
             "Guid": "S_MOO_Executioner_8e75eb3b-7551-485e-8f98-2bf2e51d3e84"
-        },
-        {
-            "Handle": "Winged Horror",
-            "Location": "",
-            "Guid": "S_MOO_FlyingGhoul_002_90b8c61f-c7e8-445c-a1b1-9d9874457529"
         },
         {
             "Handle": "Scrying Eye",
@@ -11876,19 +11791,39 @@
             "Guid": "S_Skeleton_OwlbearReward_7b6ce714-5b70-4773-bba9-d9041076014a"
         },
         {
+            "Handle": "Dead Thrall",
+            "Location": "",
+            "Guid": "S_TUT_DeadTrall_000_44779e34-e013-4b03-b452-8c1cd9e3a658"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Location": "",
+            "Guid": "S_TUT_DeadTrall_001_9cbdd9c3-6282-49e0-8cff-a61d0df6ae67"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Location": "",
+            "Guid": "S_TUT_DeadTrall_002_1b804a0e-1914-4905-b624-4553525510a8"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Location": "",
+            "Guid": "S_TUT_DeadTrall_004_542fcc67-3f17-43bf-b637-d9893be10677"
+        },
+        {
             "Handle": "Losiir",
             "Location": "",
             "Guid": "S_TUT_GithGuide_201a0ee6-6411-4564-aaea-1ca057bfea04"
         },
         {
             "Handle": "Imp",
-            "Location": "NAUTILOID_IMPS",
-            "Guid": "S_TUT_ImpCorpse_001_249cc14e-c0d3-4139-abc0-a5b22d567131"
+            "Location": "PROLOGUE_NAUTILOID_US",
+            "Guid": "S_TUT_ImpCorpse_000_d66ae305-e613-4a03-82eb-365d2240dd2a"
         },
         {
-            "Handle": "Us",
-            "Location": "",
-            "Guid": "S_TUT_Lab_TrappedDevourer_6ca92237-eb1e-4ed8-a1ee-18b3bef21558"
+            "Handle": "Imp",
+            "Location": "NAUTILOID_IMPS",
+            "Guid": "S_TUT_ImpCorpse_001_249cc14e-c0d3-4139-abc0-a5b22d567131"
         },
         {
             "Handle": "Shadow",
@@ -15713,6 +15648,41 @@
             "Guid": "EO_UND_Mindflayer_f6c245d5-fe57-4b82-b587-3338728e3b30"
         },
         {
+            "Handle": "Intellect Devourer",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Dead_Intellect_Devourer_01_a3f9c8e3-d9ce-47b0-bc16-d28f70f57f0b"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Dead_Intellect_Devourer_02_e64fbb96-81b1-49ab-8364-42b6486607c1"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Dead_Intellect_Devourer_03_4b8e0dc2-bd97-4f80-8aee-8b5ffb15ac75"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Dead_Intellect_Devourer_04_47131a3d-fcf0-4cea-86c2-d894a7bdb069"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Dead_Intellect_Devourer_05_f7ff624a-6363-4791-9659-bf8cc7418904"
+        },
+        {
+            "Handle": "Mind Flayer",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_MindFlayer_Dead_01_d516de66-e974-4855-a85d-80b91391f0f3"
+        },
+        {
+            "Handle": "Mind Flayer",
+            "Location": "",
+            "Guid": "Helm_MindFlayer_Dead_02_8e467fbc-c0a4-4d82-a952-646e15d57028"
+        },
+        {
             "Handle": "Dead Intellect Devourer",
             "Location": "BRAIN_APPROACH",
             "Guid": "Intellect_Devourer_000_cd78a2f7-c61a-4597-bb9e-80fcf0770dc2"
@@ -16238,6 +16208,26 @@
             "Guid": "S_PLA_ZhentShipment_Spectator_2c214b80-1d72-431d-bc0b-1997a646c99b"
         },
         {
+            "Handle": "Mind Flayer",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_MindFlayer_001_2e51d3cc-8102-4bb9-9272-d9846f2810af"
+        },
+        {
+            "Handle": "Mind Flayer",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_MindFlayer_22a400ec-5f01-4659-82e1-aed0b203c846"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Location": "PROLOGUE_NAUTILOID_PODROOM",
+            "Guid": "S_TUT_Lab_IntellectDevourer_40bd6b82-2728-410a-bb8a-a805f98556a1"
+        },
+        {
+            "Handle": "Us",
+            "Location": "PROLOGUE_NAUTILOID_US",
+            "Guid": "S_TUT_Lab_TrappedDevourer_6ca92237-eb1e-4ed8-a1ee-18b3bef21558"
+        },
+        {
             "Handle": "Incinerated Mind Flayer",
             "Location": "NAUTILOID_IMPS",
             "Guid": "S_TUT_LowerDeck_MindflayerDead_001_16bebcc5-41d7-4fea-9e34-6f042fbc5ca2"
@@ -16283,6 +16273,16 @@
             "Handle": "Sharp-Eye Crub",
             "Location": "WAUKEEN_ENTRANCE",
             "Guid": "EO_Waukeen_GoblinRanged_1_3ccbf4a2-027d-407f-8313-14fc0edbecd9"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Dead_Thrall_02_41017b52-e7e9-4215-bff3-191e5b2d124d"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Dead_Thrall_03_aa98efa1-bd02-4e31-bc60-5354627cd29b"
         },
         {
             "Handle": "Kobold Scout",
@@ -17000,6 +17000,11 @@
             "Guid": "S_LOW_CountingHouse_Cultist_08_1011469c-7cf8-4aa2-9b1e-86f68ee9bdba"
         },
         {
+            "Handle": "Dead Thrall",
+            "Location": "PROLOGUE_NAUTILOID_PODROOM",
+            "Guid": "S_LOW_DeadTrall_003_4827c8bd-c911-440d-bb94-42d94df44e17"
+        },
+        {
             "Handle": "Feloguard Sigurd",
             "Location": "HEAPSIDE_FIREWORKS_LOWER",
             "Guid": "S_LOW_FireworksHouse_BaniteGuard01_cb956cc3-0e77-4a2b-8500-7a37486348b4"
@@ -17048,6 +17053,11 @@
             "Handle": "Night Blade Aicir Tapol",
             "Location": "UNDERCITY_HIDEOUT_MINSC",
             "Guid": "S_LOW_MinscHideout_Doppelganger_02_33cbe340-14fc-4dec-9b14-e84b8a1413e0"
+        },
+        {
+            "Handle": "Barnz",
+            "Location": "UNDERCITY_HIDEOUT_CISTERN",
+            "Guid": "S_LOW_MinscHideout_SluiceGuard_000_344ca9a0-d7ac-4a22-b859-6e99b6c45a18"
         },
         {
             "Handle": "Night Blade Vinnia",
@@ -17133,6 +17143,21 @@
             "Handle": "Goblin Brawler",
             "Location": "",
             "Guid": "S_SCL_EntryPointGoblin_0e978645-03c3-4fa7-aea4-3b3b04676bfb"
+        },
+        {
+            "Handle": "Ceremorph",
+            "Location": "PROLOGUE_NAUTILOID_PODROOM",
+            "Guid": "S_TUT_Misc_PodHuman_92b60869-b880-4f29-8cd3-bb2a8c771af1"
+        },
+        {
+            "Handle": "Sacrificed Cultist",
+            "Location": "PROLOGUE_NAUTILOID_CULTISTS",
+            "Guid": "S_TUT_TransformChamber_DrainVictim_000_5bc43df4-6274-4b73-baed-c7f5268b2fc7"
+        },
+        {
+            "Handle": "Sacrificed Cultist",
+            "Location": "PROLOGUE_NAUTILOID_CULTISTS",
+            "Guid": "S_TUT_TransformChamber_DrainVictim_001_dd1d4bcf-da0e-441a-b700-7273bad6579e"
         },
         {
             "Handle": "Goblin Sharp-Eye",
@@ -17445,6 +17470,11 @@
             "Handle": "Winged Horror",
             "Location": "",
             "Guid": "S_MOO_FlyingGhoul_001_ac6133f2-98fd-465b-9b12-e5bf72b4c3c9"
+        },
+        {
+            "Handle": "Winged Horror",
+            "Location": "",
+            "Guid": "S_MOO_FlyingGhoul_002_90b8c61f-c7e8-445c-a1b1-9d9874457529"
         }
     ],
     "Beast": [
@@ -17482,9 +17512,139 @@
             "Handle": "Murderous Crow",
             "Location": "UNDERCITY_HIDEOUT_CISTERN",
             "Guid": "LOW_BhaalCultist_Crow_006_6d176306-05e6-4bad-bcf4-a00c0b7ff015"
+        },
+        {
+            "Handle": "Snicker",
+            "Location": "UNDERCITY_HIDEOUT_MINSC",
+            "Guid": "S_LOW_MinscHideout_Hyena_f4c687d7-a16f-418c-922d-af37d36373f5"
         }
     ],
     "Fiend": [
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Imp_Dead_02_5063e607-a739-43bd-8270-52f0bc81238a"
+        },
+        {
+            "Handle": "Imp",
+            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
+            "Guid": "S_FirstFight_Imp_Melee_01_07f1512b-efe9-4eb8-8ade-783435e9d7c9"
+        },
+        {
+            "Handle": "Imp",
+            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
+            "Guid": "S_FirstFight_Imp_Melee_02_5c5bd50b-147e-42e5-93cb-59a754df91ec"
+        },
+        {
+            "Handle": "Imp",
+            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
+            "Guid": "S_FirstFight_Imp_Ranged_01_38d1ce2f-4f19-4266-971d-61f08bc1a895"
+        },
+        {
+            "Handle": "Imp",
+            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
+            "Guid": "S_FirstFight_Imp_Ranged_02_df44fa65-5399-47d6-b5bb-70e4b8e63314"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp01_4a793e6c-572c-4541-a10e-ce75b1e62255"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp02_5849cd14-4f4a-4742-bb0c-056c3ef7f90e"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp03_4adcf56c-e1cc-4441-8e3f-0761172407d4"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp04_55c88dba-6d2d-4082-b5dc-be1590c0e326"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp05_5ceed225-db6e-4652-bd4b-88c250550193"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp06_3a9e98f5-fe4c-46b2-a129-1e67fe92512b"
+        },
+        {
+            "Handle": "Vengeful Boar",
+            "Location": "HOPE_HALLWAYS",
+            "Guid": "S_LOW_HouseOfHope_FlamingBoar01_0d1cf2a6-0b56-4c14-83d1-7587e9c8c63c"
+        },
+        {
+            "Handle": "Vengeful Boar",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_FlamingBoar02_82efa3b1-ed21-4569-ac26-65b8a42dde9b"
+        },
+        {
+            "Handle": "Vengeful Boar",
+            "Location": "HOPE_HALLWAYS",
+            "Guid": "S_LOW_HouseOfHope_FlamingBoar03_a618f956-d2e8-4108-b5e9-7729286c3993"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_Imp01_ad2d83ec-102b-4f92-b98a-5ca981a23421"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_Imp02_d41533a3-b1d9-4cd3-b495-5732c989bd25"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_HALLWAYS",
+            "Guid": "S_LOW_HouseOfHope_Imp03_502cb8ab-7c8d-4465-b0cb-abab76da524a"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_HALLWAYS",
+            "Guid": "S_LOW_HouseOfHope_Imp04_0e3d4128-0bd4-4c05-a6a3-3d654b75043b"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_NotMerregon02_b8c31050-f17e-46a8-bae6-ac98481e3d5a"
+        },
+        {
+            "Handle": "Vengeful Boar",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_NotMerregon03_8d08bf81-ae38-4493-8208-a9827fda6a36"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_000_7f9717a3-16c6-4323-9976-a31d27e36495"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_001_74282535-2053-4a8d-98ff-6413ea2136dd"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_002_095fbaa2-51c3-47fe-8626-22f28f1bece8"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_003_b5d6b288-45d1-497b-8339-cead5e16133d"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_004_401761d3-a021-4a8a-968f-85c7e7e8675c"
+        },
         {
             "Handle": "Vengeful Cambion",
             "Location": "HOPE_RAPHAEL",
@@ -17514,6 +17674,56 @@
             "Handle": "Vengeful Cambion",
             "Location": "HOPE_RAPHAEL",
             "Guid": "S_LOW_HouseOfHope_RaphaelCambion06_c9c4475f-a2e7-43d6-8df9-de081fef3f89"
+        },
+        {
+            "Handle": "Cambion",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_BackUpCambion_001_dfd44248-1212-4eb9-a6b4-8d7335ad57f7"
+        },
+        {
+            "Handle": "Lesser Hellsboar",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_DevilBackUp_001_c6b3a323-d7cf-4b02-8a21-fefeaf3e7a0a"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_DevilBackUp_002_4afad8cc-436e-4d16-8b33-7e59a470d4a8"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_DevilBackUp_003_a73bd45a-99b6-4486-a280-846ddd586b78"
+        },
+        {
+            "Handle": "Lesser Hellsboar",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_000_1650c758-c9c2-d487-387d-22a269fd7918"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_001_8262153a-b469-d119-2041-8316e0648ae0"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_003_139971a8-86c5-4ee9-b201-18da4a2cb0ed"
+        },
+        {
+            "Handle": "Cambion",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_004_307d7d95-96f3-40db-9c2b-65ed63aa5c1d"
+        },
+        {
+            "Handle": "Commander Zhalk",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_005_ed103005-fd71-457d-ae6c-39654bbd8f2e"
+        },
+        {
+            "Handle": "Cambion Lieutenant",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_006_06b30605-e1da-47a0-85da-370541af4976"
         }
     ],
     "Construct": [

@@ -1,0 +1,9 @@
+{
+    "Skeleton": {
+        "ApplyStats": {
+            "PassivesToAdd": [
+                "Resilient_Strength"
+            ]
+        }
+    }
+}

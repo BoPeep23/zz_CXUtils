@@ -596,6 +596,11 @@
             "Guid": "Halflings_Female_Civilian_000_da051db0-475b-4ccf-a6de-3540b38443ac"
         },
         {
+            "Handle": "Mind Flayer",
+            "Type": "Aberration",
+            "Guid": "Helm_MindFlayer_Dead_02_8e467fbc-c0a4-4d82-a952-646e15d57028"
+        },
+        {
             "Handle": "Flaming Fist Healer",
             "Type": "",
             "Guid": "Humans_Female_FlamingFist_Cleric_1817f317-e5f6-d475-9b07-5b4e87feeac6"
@@ -1916,6 +1921,21 @@
             "Guid": "S_CAMP_TieflingBackup_012_3230e60f-b9b7-4778-bb47-db8238bb8cd3"
         },
         {
+            "Handle": "Kivak",
+            "Type": "",
+            "Guid": "S_CAMP_TieflingBackup_013_8f64df21-b666-41a1-ad25-a7426f8f66e7"
+        },
+        {
+            "Handle": "Vatas",
+            "Type": "",
+            "Guid": "S_CAMP_TieflingBackup_015_023e84c0-c97c-422e-b9e4-cbe15daf55ca"
+        },
+        {
+            "Handle": "Bivuak",
+            "Type": "",
+            "Guid": "S_CAMP_TieflingBackup_016_1c7feae4-cc4c-4723-a7f6-9bb3f5b92e3c"
+        },
+        {
             "Handle": "Nymessa",
             "Type": "",
             "Guid": "S_CHA_CagerLaezel1_2c8537fb-bf73-43a2-a8ff-48e41453adea"
@@ -2069,6 +2089,16 @@
             "Handle": "Dead Mind Flayer",
             "Type": "Aberration",
             "Guid": "S_CRA_Escape_Mindflayer_d5385cd0-f371-43dc-a0a2-50381fc50ea4"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Type": "",
+            "Guid": "S_CRA_Int_001_cb82f6b0-edc0-4720-a551-83802e2d3fc9"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Type": "",
+            "Guid": "S_CRA_Int_002_1d9ff85b-b5e4-41ed-a9ec-77ca88bf71c0"
         },
         {
             "Handle": "Kobold Looter",
@@ -4607,7 +4637,7 @@
         },
         {
             "Handle": "Winged Horror",
-            "Type": "",
+            "Type": "Undead",
             "Guid": "S_MOO_FlyingGhoul_002_90b8c61f-c7e8-445c-a1b1-9d9874457529"
         },
         {
@@ -5461,14 +5491,29 @@
             "Guid": "S_SHA_Necromancer_a7a2cdb7-fc6b-4bb5-b4d8-feff84e466d3"
         },
         {
+            "Handle": "Dead Thrall",
+            "Type": "",
+            "Guid": "S_TUT_DeadTrall_000_44779e34-e013-4b03-b452-8c1cd9e3a658"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Type": "",
+            "Guid": "S_TUT_DeadTrall_001_9cbdd9c3-6282-49e0-8cff-a61d0df6ae67"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Type": "",
+            "Guid": "S_TUT_DeadTrall_002_1b804a0e-1914-4905-b624-4553525510a8"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Type": "",
+            "Guid": "S_TUT_DeadTrall_004_542fcc67-3f17-43bf-b637-d9893be10677"
+        },
+        {
             "Handle": "Losiir",
             "Type": "",
             "Guid": "S_TUT_GithGuide_201a0ee6-6411-4564-aaea-1ca057bfea04"
-        },
-        {
-            "Handle": "Us",
-            "Type": "",
-            "Guid": "S_TUT_Lab_TrappedDevourer_6ca92237-eb1e-4ed8-a1ee-18b3bef21558"
         },
         {
             "Handle": "Shadow",
@@ -7111,6 +7156,33 @@
             "Guid": "Wisp_DeadWillOWisp_710cfc52-0d3c-6af2-7b47-4c6651640b7a"
         }
     ],
+    "GOBLINS_TEMPLE_PRISON": [
+        {
+            "Handle": "Sharp-Eye Neem",
+            "Type": "",
+            "Guid": "AE_DefiledTemple_Gloomstalker_Ranger_6ebc6b87-eaeb-4d3b-afac-ddff545d3019"
+        },
+        {
+            "Handle": "Warrior Plig",
+            "Type": "",
+            "Guid": "S_GOB_PrisonGuard_000_96f411f3-5849-4608-b6fa-b7fb6ffaa7d6"
+        },
+        {
+            "Handle": "Warrior Nuk",
+            "Type": "",
+            "Guid": "S_GOB_PrisonGuard_New_001_4975911d-c33c-4f3e-9744-f52c1a9170d1"
+        },
+        {
+            "Handle": "Warrior Mirg",
+            "Type": "",
+            "Guid": "S_GOB_PrisonGuard_New_002_8791212f-b81f-4b47-be0a-73053d9348eb"
+        },
+        {
+            "Handle": "Sharp-Eye Nass",
+            "Type": "Humanoid",
+            "Guid": "S_GOB_RaiderCunning_abdd3748-0834-46f3-8214-18dd4dca9d40"
+        }
+    ],
     "EO_WILDERNESS_BRIDGE": [
         {
             "Handle": "Bridge Patroller",
@@ -7436,6 +7508,13 @@
             "Handle": "Scared Boar",
             "Type": "",
             "Guid": "S_CRA_ScaredBoar_e352fae8-f49a-4f1d-b131-ea10af7591c9"
+        }
+    ],
+    "MOUNTAIN_ROSYMORN_TRAIL": [
+        {
+            "Handle": "Blue Jay",
+            "Type": "",
+            "Guid": "S_CRE_MonasteryApproach_Bird_c85a9bab-49d6-476b-a07b-15e920c3cc24"
         }
     ],
     "FOREST_GROVE_CHAMBER": [
@@ -7880,33 +7959,6 @@
             "Handle": "Dammon",
             "Type": "",
             "Guid": "S_DEN_Weaponsmith_e2ad06ec-8034-479a-9f69-b86faea6dc79"
-        }
-    ],
-    "NAUTILOID_IMPS": [
-        {
-            "Handle": "Imp",
-            "Type": "",
-            "Guid": "S_FirstFight_Imp_Melee_01_07f1512b-efe9-4eb8-8ade-783435e9d7c9"
-        },
-        {
-            "Handle": "Imp",
-            "Type": "",
-            "Guid": "S_FirstFight_Imp_Melee_02_5c5bd50b-147e-42e5-93cb-59a754df91ec"
-        },
-        {
-            "Handle": "Imp",
-            "Type": "",
-            "Guid": "S_FirstFight_Imp_Ranged_01_38d1ce2f-4f19-4266-971d-61f08bc1a895"
-        },
-        {
-            "Handle": "Imp",
-            "Type": "",
-            "Guid": "S_TUT_ImpCorpse_001_249cc14e-c0d3-4139-abc0-a5b22d567131"
-        },
-        {
-            "Handle": "Incinerated Mind Flayer",
-            "Type": "Aberration",
-            "Guid": "S_TUT_LowerDeck_MindflayerDead_001_16bebcc5-41d7-4fea-9e34-6f042fbc5ca2"
         }
     ],
     "SPIDER_CAVES": [
@@ -8481,33 +8533,6 @@
             "Handle": "Sharp-Eye Nozk",
             "Type": "",
             "Guid": "S_GOB_InnerCheckpoint_Backup_04_acf83de4-e91e-4d60-b959-17123886feba"
-        }
-    ],
-    "GOBLINS_TEMPLE_PRISON": [
-        {
-            "Handle": "Sharp-Eye Neem",
-            "Type": "",
-            "Guid": "AE_DefiledTemple_Gloomstalker_Ranger_6ebc6b87-eaeb-4d3b-afac-ddff545d3019"
-        },
-        {
-            "Handle": "Warrior Plig",
-            "Type": "",
-            "Guid": "S_GOB_PrisonGuard_000_96f411f3-5849-4608-b6fa-b7fb6ffaa7d6"
-        },
-        {
-            "Handle": "Warrior Nuk",
-            "Type": "",
-            "Guid": "S_GOB_PrisonGuard_New_001_4975911d-c33c-4f3e-9744-f52c1a9170d1"
-        },
-        {
-            "Handle": "Warrior Mirg",
-            "Type": "",
-            "Guid": "S_GOB_PrisonGuard_New_002_8791212f-b81f-4b47-be0a-73053d9348eb"
-        },
-        {
-            "Handle": "Sharp-Eye Nass",
-            "Type": "Humanoid",
-            "Guid": "S_GOB_RaiderCunning_abdd3748-0834-46f3-8214-18dd4dca9d40"
         }
     ],
     "GLOBAL_MERCHANT_ROAH": [
@@ -9717,13 +9742,6 @@
             "Guid": "S_UND_SharFort_Bait_001_b4a42845-33fa-4773-aa79-7148a464f3e1"
         }
     ],
-    "MOUNTAIN_ROSYMORN_TRAIL": [
-        {
-            "Handle": "Blue Jay",
-            "Type": "",
-            "Guid": "S_CRE_MonasteryApproach_Bird_c85a9bab-49d6-476b-a07b-15e920c3cc24"
-        }
-    ],
     "MOONRISE_OUBILETTE": [
         {
             "Handle": "Gazer",
@@ -10061,7 +10079,7 @@
         },
         {
             "Handle": "Barnz",
-            "Type": "",
+            "Type": "Humanoid",
             "Guid": "S_LOW_MinscHideout_SluiceGuard_000_344ca9a0-d7ac-4a22-b859-6e99b6c45a18"
         },
         {
@@ -12764,7 +12782,7 @@
         },
         {
             "Handle": "Snicker",
-            "Type": "",
+            "Type": "Beast",
             "Guid": "S_LOW_MinscHideout_Hyena_f4c687d7-a16f-418c-922d-af37d36373f5"
         },
         {
@@ -14135,27 +14153,27 @@
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_Prison_Imp_000_7f9717a3-16c6-4323-9976-a31d27e36495"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_Prison_Imp_001_74282535-2053-4a8d-98ff-6413ea2136dd"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_Prison_Imp_002_095fbaa2-51c3-47fe-8626-22f28f1bece8"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_Prison_Imp_003_b5d6b288-45d1-497b-8339-cead5e16133d"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_Prison_Imp_004_401761d3-a021-4a8a-968f-85c7e7e8675c"
         },
         {
@@ -14167,32 +14185,32 @@
     "HOPE_BOUDOIR": [
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_BoudoirImp01_4a793e6c-572c-4541-a10e-ce75b1e62255"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_BoudoirImp02_5849cd14-4f4a-4742-bb0c-056c3ef7f90e"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_BoudoirImp03_4adcf56c-e1cc-4441-8e3f-0761172407d4"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_BoudoirImp04_55c88dba-6d2d-4082-b5dc-be1590c0e326"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_BoudoirImp05_5ceed225-db6e-4652-bd4b-88c250550193"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_BoudoirImp06_3a9e98f5-fe4c-46b2-a129-1e67fe92512b"
         },
         {
@@ -14214,17 +14232,17 @@
         },
         {
             "Handle": "Vengeful Boar",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_FlamingBoar02_82efa3b1-ed21-4569-ac26-65b8a42dde9b"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_Imp01_ad2d83ec-102b-4f92-b98a-5ca981a23421"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_Imp02_d41533a3-b1d9-4cd3-b495-5732c989bd25"
         },
         {
@@ -14259,12 +14277,12 @@
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_NotMerregon02_b8c31050-f17e-46a8-bae6-ac98481e3d5a"
         },
         {
             "Handle": "Vengeful Boar",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_NotMerregon03_8d08bf81-ae38-4493-8208-a9827fda6a36"
         },
         {
@@ -14291,12 +14309,12 @@
         },
         {
             "Handle": "Vengeful Boar",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_FlamingBoar01_0d1cf2a6-0b56-4c14-83d1-7587e9c8c63c"
         },
         {
             "Handle": "Vengeful Boar",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_FlamingBoar03_a618f956-d2e8-4108-b5e9-7729286c3993"
         },
         {
@@ -14311,12 +14329,12 @@
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_Imp03_502cb8ab-7c8d-4465-b0cb-abab76da524a"
         },
         {
             "Handle": "Vengeful Imp",
-            "Type": "",
+            "Type": "Fiend",
             "Guid": "S_LOW_HouseOfHope_Imp04_0e3d4128-0bd4-4c05-a6a3-3d654b75043b"
         },
         {
@@ -14495,146 +14513,6 @@
             "Handle": "Poltergeist",
             "Type": "Undead",
             "Guid": "S_LOW_Poltergeist_Corridor_002_fda18475-150d-40e7-a425-6514a36d0875"
-        }
-    ],
-    "JANNATH_POLTERGEISTS": [
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Bedroom_000_3f37f17d-d273-4cbc-85ea-e803587366f6"
-        },
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Bedroom_001_a25a404c-de80-4927-9c73-2d18a46a46ae"
-        }
-    ],
-    "JANNATH_HAUNTED_DINING": [
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Dining_000_163f6f62-ec48-42e5-886b-0c9c1038170b"
-        },
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Dining_001_6c1d9263-bc76-4331-822f-1878e8e886c8"
-        }
-    ],
-    "JANNATH_HAUNTED_BEDROOM": [
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Bedroom_002_7372513a-a82e-4ac8-9754-a19231c72934"
-        }
-    ],
-    "JANNATH_HAUNTED_KITCHEN": [
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Kitchen_000_2e93b2a0-e5c5-4593-b2ef-f832b80267c1"
-        },
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Kitchen_001_9b4d7812-dd50-4b55-9f5f-837e5aa0ddb5"
-        },
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Kitchen_002_dc4c9b21-21f3-4c8f-9c9c-295ab1778d8e"
-        }
-    ],
-    "JANNATH_REGULAR_MIDDLE": [
-        {
-            "Handle": "Chamberlain Mercer",
-            "Type": "",
-            "Guid": "S_LOW_YellingHighServant_ae833e8a-5787-4bd3-950d-b44fbf47df41"
-        }
-    ],
-    "REITHWIN_GITHYANKI": [
-        {
-            "Handle": "Supreme Arcanist R'a'adith",
-            "Type": "",
-            "Guid": "S_TWN_VlaakithAttack_Arcanist_001_4416dea6-db24-427e-9b6c-1bc296436d3a"
-        },
-        {
-            "Handle": "Ch'r'ai Tska'an",
-            "Type": "",
-            "Guid": "S_TWN_VlaakithAttack_Caster_000_e4141a02-f5e7-4a0c-a7af-d3dda6610c1b"
-        },
-        {
-            "Handle": "Supreme Magus Vemrul",
-            "Type": "",
-            "Guid": "S_TWN_VlaakithAttack_Magus_001_8a8585c2-4e18-4e1d-a2b6-a4bbd692da78"
-        },
-        {
-            "Handle": "Supreme Knight Bradi'ith",
-            "Type": "",
-            "Guid": "S_TWN_VlaakithAttack_Melee_000_d29ba948-3631-4779-bd7a-400dcd7a51a3"
-        },
-        {
-            "Handle": "Supreme Sarth Ma'athal",
-            "Type": "",
-            "Guid": "S_TWN_VlaakithAttack_Melee_001_9aae708f-6fd1-453f-b5a6-959814f0672f"
-        },
-        {
-            "Handle": "Supreme Gish Nimba'as",
-            "Type": "",
-            "Guid": "S_TWN_VlaakithAttack_Ranger_000_b7e639ba-9e1d-42cd-8305-e8c02f00f1a1"
-        },
-        {
-            "Handle": "Supreme Raider Zunii",
-            "Type": "",
-            "Guid": "S_TWN_VlaakithAttack_Ranger_001_dabc5b38-7606-48cb-99ef-e7edcc49e1a9"
-        }
-    ],
-    "JANNATH_HAUNTED_ARMORY": [
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Armoury_001_d95161fd-5632-440d-9ead-c4c4783ee0ee"
-        },
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Armoury_002_9a0a22f8-9c2b-4b48-9456-548424a35652"
-        }
-    ],
-    "JANNATH_HAUNTED_ART": [
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Art_000_3c8fe34a-03e8-43c8-80a3-41730483c366"
-        },
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Art_001_e1395413-c8e5-450b-9a7f-54d457111eda"
-        }
-    ],
-    "JANNATH_HAUNTED_CELLAR": [
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Cellar_000_0a24f2b9-fd4c-458f-a5e7-5bf2231aed0d"
-        },
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Cellar_001_4dc01c2c-48fd-4a88-93b6-e1445c1e1326"
-        },
-        {
-            "Handle": "Poltergeist",
-            "Type": "Undead",
-            "Guid": "S_LOW_Poltergeist_Cellar_002_0466d1f7-a4eb-4da0-87a0-26a3f87d798c"
-        }
-    ],
-    "JANNATH_REGULAR_OUTSIDE": [
-        {
-            "Handle": "Tarhun Mnemonis",
-            "Type": "",
-            "Guid": "S_LOW_TarhunMnemonis_2d1b98a0-01a9-4c21-8bc2-9738c47f6966"
         }
     ],
     "CENTRALWALL_SUNDRIES_RAMAZITH": [
@@ -14912,6 +14790,95 @@
             "Guid": "S_LOW_PlagueShip_CursedImp_008b019e-5e7d-456a-8697-656f8ca8f241"
         }
     ],
+    "JANNATH_HAUNTED_ARMORY": [
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Armoury_001_d95161fd-5632-440d-9ead-c4c4783ee0ee"
+        },
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Armoury_002_9a0a22f8-9c2b-4b48-9456-548424a35652"
+        }
+    ],
+    "JANNATH_HAUNTED_ART": [
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Art_000_3c8fe34a-03e8-43c8-80a3-41730483c366"
+        },
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Art_001_e1395413-c8e5-450b-9a7f-54d457111eda"
+        }
+    ],
+    "JANNATH_POLTERGEISTS": [
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Bedroom_000_3f37f17d-d273-4cbc-85ea-e803587366f6"
+        },
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Bedroom_001_a25a404c-de80-4927-9c73-2d18a46a46ae"
+        }
+    ],
+    "JANNATH_HAUNTED_BEDROOM": [
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Bedroom_002_7372513a-a82e-4ac8-9754-a19231c72934"
+        }
+    ],
+    "JANNATH_HAUNTED_CELLAR": [
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Cellar_000_0a24f2b9-fd4c-458f-a5e7-5bf2231aed0d"
+        },
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Cellar_001_4dc01c2c-48fd-4a88-93b6-e1445c1e1326"
+        },
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Cellar_002_0466d1f7-a4eb-4da0-87a0-26a3f87d798c"
+        }
+    ],
+    "JANNATH_HAUNTED_DINING": [
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Dining_000_163f6f62-ec48-42e5-886b-0c9c1038170b"
+        },
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Dining_001_6c1d9263-bc76-4331-822f-1878e8e886c8"
+        }
+    ],
+    "JANNATH_HAUNTED_KITCHEN": [
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Kitchen_000_2e93b2a0-e5c5-4593-b2ef-f832b80267c1"
+        },
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Kitchen_001_9b4d7812-dd50-4b55-9f5f-837e5aa0ddb5"
+        },
+        {
+            "Handle": "Poltergeist",
+            "Type": "Undead",
+            "Guid": "S_LOW_Poltergeist_Kitchen_002_dc4c9b21-21f3-4c8f-9c9c-295ab1778d8e"
+        }
+    ],
     "BASILISK_GATE_PRISON": [
         {
             "Handle": "Fist Smithwynn",
@@ -14994,6 +14961,13 @@
             "Guid": "S_LOW_SteelWatcher025_2c6cb9af-4d56-49c5-8324-17529bbfed6c"
         }
     ],
+    "JANNATH_REGULAR_OUTSIDE": [
+        {
+            "Handle": "Tarhun Mnemonis",
+            "Type": "",
+            "Guid": "S_LOW_TarhunMnemonis_2d1b98a0-01a9-4c21-8bc2-9738c47f6966"
+        }
+    ],
     "UNDERCITY_RUINS_BHAALGATE": [
         {
             "Handle": "Voiceless Penitent Bareki",
@@ -15036,6 +15010,13 @@
             "Handle": "Dart Dirtwood",
             "Type": "",
             "Guid": "S_LOW_VoloFate_Thug_Ranged_03_3180fd1c-ff33-4ffb-b889-20ea51ac1fdb"
+        }
+    ],
+    "JANNATH_REGULAR_MIDDLE": [
+        {
+            "Handle": "Chamberlain Mercer",
+            "Type": "",
+            "Guid": "S_LOW_YellingHighServant_ae833e8a-5787-4bd3-950d-b44fbf47df41"
         }
     ],
     "MOONRISE_ASSAULT": [
@@ -15877,6 +15858,43 @@
             "Handle": "Greater Zombie",
             "Type": "",
             "Guid": "S_TWN_MorgueZombie_05_57136905-ef79-4a05-a1bb-e26d221ffa2e"
+        }
+    ],
+    "REITHWIN_GITHYANKI": [
+        {
+            "Handle": "Supreme Arcanist R'a'adith",
+            "Type": "",
+            "Guid": "S_TWN_VlaakithAttack_Arcanist_001_4416dea6-db24-427e-9b6c-1bc296436d3a"
+        },
+        {
+            "Handle": "Ch'r'ai Tska'an",
+            "Type": "",
+            "Guid": "S_TWN_VlaakithAttack_Caster_000_e4141a02-f5e7-4a0c-a7af-d3dda6610c1b"
+        },
+        {
+            "Handle": "Supreme Magus Vemrul",
+            "Type": "",
+            "Guid": "S_TWN_VlaakithAttack_Magus_001_8a8585c2-4e18-4e1d-a2b6-a4bbd692da78"
+        },
+        {
+            "Handle": "Supreme Knight Bradi'ith",
+            "Type": "",
+            "Guid": "S_TWN_VlaakithAttack_Melee_000_d29ba948-3631-4779-bd7a-400dcd7a51a3"
+        },
+        {
+            "Handle": "Supreme Sarth Ma'athal",
+            "Type": "",
+            "Guid": "S_TWN_VlaakithAttack_Melee_001_9aae708f-6fd1-453f-b5a6-959814f0672f"
+        },
+        {
+            "Handle": "Supreme Gish Nimba'as",
+            "Type": "",
+            "Guid": "S_TWN_VlaakithAttack_Ranger_000_b7e639ba-9e1d-42cd-8305-e8c02f00f1a1"
+        },
+        {
+            "Handle": "Supreme Raider Zunii",
+            "Type": "",
+            "Guid": "S_TWN_VlaakithAttack_Ranger_001_dabc5b38-7606-48cb-99ef-e7edcc49e1a9"
         }
     ],
     "WYRMS_HALL": [
@@ -17633,6 +17651,40 @@
             "Guid": "WYR_SharessCaress_FakeCrowds_HumanMale002_c88fbe83-be3d-4ca1-b0fb-c22a12ba401a"
         }
     ],
+    "CRECHE_BACK_LATHANDER": [
+        {
+            "Handle": "Lathander's Honor Guard",
+            "Type": "",
+            "Guid": "EO_Lathander_Guard_1_403f0c08-1fe7-4c1f-8f38-892792e74933"
+        },
+        {
+            "Handle": "Lathander's Honor Guard",
+            "Type": "",
+            "Guid": "EO_Lathander_Guard_2_55b24425-ab1c-40a1-9791-9c25b0883935"
+        },
+        {
+            "Handle": "Lathander's Paladin",
+            "Type": "",
+            "Guid": "EO_Lathanders_Image_e84d8eb3-89ab-4b65-b6e1-05b04afc2d1c"
+        },
+        {
+            "Handle": "Spirit of Dawnmaster Vaseid",
+            "Type": "",
+            "Guid": "MMM_DAWNMASTER_e4c919df-5e52-4a68-ab65-4d550debfcdb"
+        }
+    ],
+    "CRECHE_MAIN_HATCHERY": [
+        {
+            "Handle": "Kobold Scout",
+            "Type": "Humanoid",
+            "Guid": "Kobolds_Ranger_000_dcf5d303-b721-4533-8035-5c326bf9e0cd"
+        },
+        {
+            "Handle": "Varsh Ko'kuu",
+            "Type": "",
+            "Guid": "S_CRE_Caretaker_c61ac08e-addf-4f0e-8a0a-2fc026ec0224"
+        }
+    ],
     "CRECHE_MAIN_STUDENTS": [
         {
             "Handle": "Kyr'das",
@@ -17710,40 +17762,6 @@
             "Handle": "Ch'r'ai W'wargaz",
             "Type": "",
             "Guid": "S_CRE_Templar_378ac93e-03a0-40b4-904c-f37989ac7a8c"
-        }
-    ],
-    "CRECHE_MAIN_HATCHERY": [
-        {
-            "Handle": "Kobold Scout",
-            "Type": "Humanoid",
-            "Guid": "Kobolds_Ranger_000_dcf5d303-b721-4533-8035-5c326bf9e0cd"
-        },
-        {
-            "Handle": "Varsh Ko'kuu",
-            "Type": "",
-            "Guid": "S_CRE_Caretaker_c61ac08e-addf-4f0e-8a0a-2fc026ec0224"
-        }
-    ],
-    "CRECHE_BACK_LATHANDER": [
-        {
-            "Handle": "Lathander's Honor Guard",
-            "Type": "",
-            "Guid": "EO_Lathander_Guard_1_403f0c08-1fe7-4c1f-8f38-892792e74933"
-        },
-        {
-            "Handle": "Lathander's Honor Guard",
-            "Type": "",
-            "Guid": "EO_Lathander_Guard_2_55b24425-ab1c-40a1-9791-9c25b0883935"
-        },
-        {
-            "Handle": "Lathander's Paladin",
-            "Type": "",
-            "Guid": "EO_Lathanders_Image_e84d8eb3-89ab-4b65-b6e1-05b04afc2d1c"
-        },
-        {
-            "Handle": "Spirit of Dawnmaster Vaseid",
-            "Type": "",
-            "Guid": "MMM_DAWNMASTER_e4c919df-5e52-4a68-ab65-4d550debfcdb"
         }
     ],
     "UMBERLEE_UPSTAIRS": [
@@ -17842,6 +17860,208 @@
             "Handle": "Zephyr Gish'ra Verik",
             "Type": "",
             "Guid": "S_INT_GithRoyalGuard04_3cce9a81-6755-44ce-a391-77fe4ffb68e2"
+        }
+    ],
+    "PROLOGUE_NAUTILOID_HELM": [
+        {
+            "Handle": "Intellect Devourer",
+            "Type": "Aberration",
+            "Guid": "Helm_Dead_Intellect_Devourer_01_a3f9c8e3-d9ce-47b0-bc16-d28f70f57f0b"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Type": "Aberration",
+            "Guid": "Helm_Dead_Intellect_Devourer_02_e64fbb96-81b1-49ab-8364-42b6486607c1"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Type": "Aberration",
+            "Guid": "Helm_Dead_Intellect_Devourer_03_4b8e0dc2-bd97-4f80-8aee-8b5ffb15ac75"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Type": "Aberration",
+            "Guid": "Helm_Dead_Intellect_Devourer_04_47131a3d-fcf0-4cea-86c2-d894a7bdb069"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Type": "Aberration",
+            "Guid": "Helm_Dead_Intellect_Devourer_05_f7ff624a-6363-4791-9659-bf8cc7418904"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Type": "",
+            "Guid": "Helm_Dead_Thrall_01_50eaf702-4a99-44d3-91df-69bb0e74ee17"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Type": "Humanoid",
+            "Guid": "Helm_Dead_Thrall_02_41017b52-e7e9-4215-bff3-191e5b2d124d"
+        },
+        {
+            "Handle": "Dead Thrall",
+            "Type": "Humanoid",
+            "Guid": "Helm_Dead_Thrall_03_aa98efa1-bd02-4e31-bc60-5354627cd29b"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Type": "",
+            "Guid": "Helm_Imp_Dead_01_2a6c8e02-f886-46bf-ab79-cf69f523abb0"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Type": "Fiend",
+            "Guid": "Helm_Imp_Dead_02_5063e607-a739-43bd-8270-52f0bc81238a"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Type": "",
+            "Guid": "Helm_Imp_Dead_03_21c044a2-e506-45fa-a34f-8ffbe7bfddac"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Type": "",
+            "Guid": "Helm_Imp_Dead_04_c4eed3f6-e494-4d72-938b-dd1bb425e00a"
+        },
+        {
+            "Handle": "Mind Flayer",
+            "Type": "Aberration",
+            "Guid": "Helm_MindFlayer_Dead_01_d516de66-e974-4855-a85d-80b91391f0f3"
+        },
+        {
+            "Handle": "Cambion",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_BackUpCambion_001_dfd44248-1212-4eb9-a6b4-8d7335ad57f7"
+        },
+        {
+            "Handle": "Lesser Hellsboar",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_DevilBackUp_001_c6b3a323-d7cf-4b02-8a21-fefeaf3e7a0a"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_DevilBackUp_002_4afad8cc-436e-4d16-8b33-7e59a470d4a8"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_DevilBackUp_003_a73bd45a-99b6-4486-a280-846ddd586b78"
+        },
+        {
+            "Handle": "Lesser Hellsboar",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_Devil_000_1650c758-c9c2-d487-387d-22a269fd7918"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_Devil_001_8262153a-b469-d119-2041-8316e0648ae0"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_Devil_003_139971a8-86c5-4ee9-b201-18da4a2cb0ed"
+        },
+        {
+            "Handle": "Cambion",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_Devil_004_307d7d95-96f3-40db-9c2b-65ed63aa5c1d"
+        },
+        {
+            "Handle": "Commander Zhalk",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_Devil_005_ed103005-fd71-457d-ae6c-39654bbd8f2e"
+        },
+        {
+            "Handle": "Cambion Lieutenant",
+            "Type": "Fiend",
+            "Guid": "S_TUT_Helm_Devil_006_06b30605-e1da-47a0-85da-370541af4976"
+        },
+        {
+            "Handle": "Mind Flayer",
+            "Type": "Aberration",
+            "Guid": "S_TUT_Helm_MindFlayer_001_2e51d3cc-8102-4bb9-9272-d9846f2810af"
+        },
+        {
+            "Handle": "Mind Flayer",
+            "Type": "Aberration",
+            "Guid": "S_TUT_Helm_MindFlayer_22a400ec-5f01-4659-82e1-aed0b203c846"
+        }
+    ],
+    "PROLOGUE_NAUTILOID_FIRSTFIGHT": [
+        {
+            "Handle": "Imp",
+            "Type": "Fiend",
+            "Guid": "S_FirstFight_Imp_Melee_01_07f1512b-efe9-4eb8-8ade-783435e9d7c9"
+        },
+        {
+            "Handle": "Imp",
+            "Type": "Fiend",
+            "Guid": "S_FirstFight_Imp_Melee_02_5c5bd50b-147e-42e5-93cb-59a754df91ec"
+        },
+        {
+            "Handle": "Imp",
+            "Type": "Fiend",
+            "Guid": "S_FirstFight_Imp_Ranged_01_38d1ce2f-4f19-4266-971d-61f08bc1a895"
+        },
+        {
+            "Handle": "Imp",
+            "Type": "Fiend",
+            "Guid": "S_FirstFight_Imp_Ranged_02_df44fa65-5399-47d6-b5bb-70e4b8e63314"
+        }
+    ],
+    "PROLOGUE_NAUTILOID_PODROOM": [
+        {
+            "Handle": "Dead Thrall",
+            "Type": "Humanoid",
+            "Guid": "S_LOW_DeadTrall_003_4827c8bd-c911-440d-bb94-42d94df44e17"
+        },
+        {
+            "Handle": "Intellect Devourer",
+            "Type": "Aberration",
+            "Guid": "S_TUT_Lab_IntellectDevourer_40bd6b82-2728-410a-bb8a-a805f98556a1"
+        },
+        {
+            "Handle": "Ceremorph",
+            "Type": "Humanoid",
+            "Guid": "S_TUT_Misc_PodHuman_92b60869-b880-4f29-8cd3-bb2a8c771af1"
+        }
+    ],
+    "PROLOGUE_NAUTILOID_US": [
+        {
+            "Handle": "Imp",
+            "Type": "",
+            "Guid": "S_TUT_ImpCorpse_000_d66ae305-e613-4a03-82eb-365d2240dd2a"
+        },
+        {
+            "Handle": "Us",
+            "Type": "Aberration",
+            "Guid": "S_TUT_Lab_TrappedDevourer_6ca92237-eb1e-4ed8-a1ee-18b3bef21558"
+        }
+    ],
+    "NAUTILOID_IMPS": [
+        {
+            "Handle": "Imp",
+            "Type": "",
+            "Guid": "S_TUT_ImpCorpse_001_249cc14e-c0d3-4139-abc0-a5b22d567131"
+        },
+        {
+            "Handle": "Incinerated Mind Flayer",
+            "Type": "Aberration",
+            "Guid": "S_TUT_LowerDeck_MindflayerDead_001_16bebcc5-41d7-4fea-9e34-6f042fbc5ca2"
+        }
+    ],
+    "PROLOGUE_NAUTILOID_CULTISTS": [
+        {
+            "Handle": "Sacrificed Cultist",
+            "Type": "Humanoid",
+            "Guid": "S_TUT_TransformChamber_DrainVictim_000_5bc43df4-6274-4b73-baed-c7f5268b2fc7"
+        },
+        {
+            "Handle": "Sacrificed Cultist",
+            "Type": "Humanoid",
+            "Guid": "S_TUT_TransformChamber_DrainVictim_001_dd1d4bcf-da0e-441a-b700-7273bad6579e"
         }
     ],
     "AE_SANCTUM_SHAR": [
