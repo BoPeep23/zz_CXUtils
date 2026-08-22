@@ -71,7 +71,7 @@ Every GUID entry is represented as a `MonsterStatBlock` object. The JSON schema 
 | `Notes`             | `notes`               | Freeform | Human-readable notes; used by discoverFields for inference |
 | `MapApplied`        | `map_applied`         | Boolean | True once `discoverFields.apply_handle_map` has applied an entry's fixed `ApplyStats` to this block; prevents future runs from overwriting them |
 | `RandomizationApplied` | `randomization_applied` | Boolean | True once `apply_handle_map` has applied an entry's `RandomPassives`/`RandomSpells`/`HealthOverrideRange` to this block. Independent of `MapApplied` — an entry with only randomization (no `ApplyStats`) sets this without setting `MapApplied` |
-| `LockBlock`         | `lock_block`          | Boolean | True freezes the block from ALL further mutation by `apply_handle_map` — both hard stats and randomization, unconditionally, even if the entry is named in `override_maps` |
+| `LockBlock`         | `lock_block`          | Boolean | True freezes the block from ALL further mutation by `apply_handle_map` — both hard stats and randomization, unconditionally, even if the matching entry sets `overrideStaticLock`/`overrideRandomLock` |
 
 The master JSON file wraps all entries under a top-level `"Guids"` list:
 ```json
@@ -92,20 +92,34 @@ These scripts read from `guid_mapper_master.json` and write a modified output fi
 
 - **`discoverFields.py`** — Two kinds of logic:
   - Categorical auto-population (`update_class_archetype_based_on_notes`, `update_monster_archetype_based_on_handle`, `update_subtype_based_on_notes`, `update_type_based_on_notes`, `extract_armor_class_from_notes`) — fills blank `ClassArchetype`/`MonsterArchetype`/`SubType`/`Type`/`ArmorClass` by matching handle/notes/FullGuid against lookup maps in `maps/`. Uses `!`-suffix for whole-word match and `useLongerMatches`/`oneWordMatch` flags in `monster_archetype_map.json`. Writes debug output to `output.txt`.
-  - **`apply_handle_map`** — **the sole path for applying stats to blocks.** Reads `maps/profile_to_modifications_improvements_map.json`; for each entry, matches blocks via `MatchCombos` (see below) and applies `ApplyStats` (fixed fields, gated/tracked by `MapApplied`) and/or randomization (`RandomPassives`+`RandomPassiveCount`, `RandomSpells`+`RandomSpellCount`, `HealthOverrideRange`; gated/tracked independently by `RandomizationApplied`). `LockBlock` always skips a block entirely, for both parts, regardless of `override_maps`. `alterStatistics.py` and `filter_blocks_and_apply.py` (the old direct-editing/filter-cluster systems) are archived to `old/` — defunct, no longer wired to anything.
+  - **`apply_handle_map`** — **the sole path for applying stats to blocks.** Reads `maps/profile_to_modifications_improvements_map.json`; for each entry, matches blocks via `MatchCombos` (see below) and applies `ApplyStaticStats` (fixed fields, gated/tracked by `LockStaticModifications`) and/or `ApplyRandomStats` (`RandomPassives`+`RandomPassiveCount`, `RandomSpells`+`RandomSpellCount`, `HealthOverrideRange`; gated/tracked independently by `LockRandomModifications`). `LockBlock` always skips a block entirely, for both parts, regardless of any entry's `overrideStaticLock`/`overrideRandomLock`. `alterStatistics.py` and `filter_blocks_and_apply.py` (the old direct-editing/filter-cluster systems) are archived to `old/` — defunct, no longer wired to anything.
 
   `profile_to_modifications_improvements_map.json` entry shape:
   ```json
   {
     "Entry Name": {
-      "ApplyStats": { "Type": "...", "ArmorClass": 15, "PassivesToAdd": ["..."], "...": "..." },
+      "stopUpdates": false,
+      "ApplyStaticStats": {
+        "stopUpdates": false, "overrideStaticLock": false, "setStaticLock": true,
+        "Type": "...", "ArmorClass": 15, "PassivesToAdd": ["..."], "...": "..."
+      },
       "MatchCombos": [ { "Handle": "...", "MonsterArchetype": "..." } ],
-      "RandomPassives": ["P1", "P2", "P3"], "RandomPassiveCount": 2,
-      "RandomSpells": ["S1", "S2"], "RandomSpellCount": 1,
-      "HealthOverrideRange": [10, 20]
+      "ApplyRandomStats": {
+        "stopUpdates": false, "overrideRandomLock": false, "setRandomLock": true,
+        "RandomPassives": ["P1", "P2", "P3"], "RandomPassiveCount": 2,
+        "RandomSpells": ["S1", "S2"], "RandomSpellCount": 1,
+        "HealthOverrideRange": [10, 20]
+      }
     }
   }
   ```
+  Top-level `stopUpdates` skips the entry entirely (both tiers). Each of
+  `ApplyStaticStats`/`ApplyRandomStats` has its own `stopUpdates` (skip just
+  that tier for this entry), `overrideStaticLock`/`overrideRandomLock`
+  (default `false`; ignore the block's existing lock for this entry, forcing
+  re-application), and `setStaticLock`/`setRandomLock` (default `true`;
+  set `false` to apply without locking the block for that tier).
+  `ApplyRandomStats` is only present on entries that use randomization.
   A `MatchCombo` is satisfied when every valid field/value pair substring-matches (case-insensitive) the same field on the block; a combo needs at least one valid pair after filtering blanks or it matches nothing (never everything). Valid combo values: non-blank string, bool, int, or float — list-valued fields (`PassivesToAdd`/`SpellsToAdd`) and `HealthOverride` are never valid combo fields. `HealthOverrideRange`, when it resolves to a usable range (not blank, no zero, high ≥ low), takes priority over `ApplyStats.HealthOverride` entirely for that entry.
 
   **Packaging (randomization only):** any entry in `RandomPassives`/`RandomSpells` (in any random-modifications map, not just this one) can bundle multiple passives/spells into one roll by joining them with `;` (e.g. `"PackA;PackB"`). The pool entry is still picked/counted as a single roll against `RandomPassiveCount`/`RandomSpellCount`, but each `;`-separated piece is added individually to `PassivesToAdd`/`SpellsToAdd`. A packaged entry is treated as already-rolled (and excluded from future re-picks) only once every one of its pieces is already present on the block.

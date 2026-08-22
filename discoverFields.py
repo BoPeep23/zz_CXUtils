@@ -26,15 +26,15 @@ class discoverFields:
         "ClassArchetype": "classArchetype",
         "MonsterArchetype": "monsterArchetype",
         "Corpse": "corpse",
+        "Notes": "notes",
+        "Level": "level",
         "ArmorClass": "armor_class",
         "OriginalHealth": "original_health",
-        "Level": "level",
-        "Notes": "notes",
         "HealthOverride": "health_override",
         "PassivesToAdd": "passives_to_add",
         "SpellsToAdd": "spells_to_add",
-        "CloneTemplateGuid": "clone_template_guid",
         "CloneDisplayName": "clone_display_name",
+        "CloneTemplateGuid": "clone_template_guid",
         "LockStaticModifications": "lock_static_modifications",
         "LockRandomModifications": "lock_random_modifications",
         "LockInformation": "lock_information",
@@ -195,9 +195,7 @@ class discoverFields:
         existing = getattr(block, attr)
         chosen = discoverFields._pick_new_random_values(pool, count, existing)
         expanded = [
-            piece
-            for value in chosen
-            for piece in discoverFields._split_package(value)
+            piece for value in chosen for piece in discoverFields._split_package(value)
         ]
         setattr(block, attr, sorted(set(existing) | set(expanded)))
 
@@ -411,34 +409,38 @@ class discoverFields:
     # ── Tier 6-7: MonsterArchetype ───────────────────────────────────────────
 
     @staticmethod
-    def monster_archetype_to_static_modifications_and_info(blocks, override_maps=None):
-        """Tier 6: applies profile_to_modifications_improvements_map.json's ApplyStats to blocks matching a
-        MatchCombos entry. The only tier allowed to write Information fields
-        (ArmorClass/OriginalHealth/Level/Notes) alongside Modification fields
-        - Information sub-fields are additionally gated per-field by
+    def monster_archetype_to_static_modifications_and_info(blocks):
+        """Tier 6: applies profile_to_modifications_improvements_map.json's ApplyStaticStats to blocks
+        matching a MatchCombos entry. The only tier allowed to write Information
+        fields (ArmorClass/OriginalHealth/Level/Notes) alongside Modification
+        fields - Information sub-fields are additionally gated per-field by
         LockInformation, independent of the block-level LockStaticModifications
         gate. LockBlock is always respected. LockStaticModifications gates
         whether a block is even attempted (corpse blocks are always attempted,
         since their excluded fields are filtered out per-field anyway, but
-        never get the lock set). Sets LockStaticModifications on a match
-        unless the entry's SetApplied is False. Listing an entry's key in
-        override_maps ignores LockStaticModifications for that entry, forcing
-        a full re-application."""
-        override_maps = override_maps or []
+        never get the lock set). An entry is skipped entirely if its top-level
+        stopUpdates or its ApplyStaticStats.stopUpdates is True. Sets
+        LockStaticModifications on a match unless ApplyStaticStats.setStaticLock
+        is False. ApplyStaticStats.overrideStaticLock ignores
+        LockStaticModifications for that entry, forcing a full re-application."""
         handle_map = discoverFields._load_map(
             "profile_to_modifications_improvements_map.json"
         )
         matched_guids = set()
 
-        for entry_key, entry in handle_map.items():
+        for entry in handle_map.values():
+            if entry.get("stopUpdates", False):
+                continue
             match_combos = entry.get("MatchCombos", [])
             if not match_combos:
                 continue
-            apply_stats = entry.get("ApplyStats", {})
-            if not apply_stats:
+            static_stats = entry.get("ApplyStaticStats") or {}
+            if not static_stats:
                 continue
-            entry_overridden = entry_key in override_maps
-            set_applied = entry.get("SetApplied", True)
+            if static_stats.get("stopUpdates", False):
+                continue
+            override_static_lock = static_stats.get("overrideStaticLock", False)
+            set_static_lock = static_stats.get("setStaticLock", True)
 
             for block in blocks:
                 if block.lock_block:
@@ -446,7 +448,7 @@ class discoverFields:
                 if (
                     not block.corpse
                     and block.lock_static_modifications
-                    and not entry_overridden
+                    and not override_static_lock
                 ):
                     continue
                 if not any(
@@ -456,7 +458,7 @@ class discoverFields:
                     continue
 
                 applied_anything = False
-                for field, value in apply_stats.items():
+                for field, value in static_stats.items():
                     is_modification = field in discoverFields.MODIFICATION_FIELDS
                     is_information = field in discoverFields.INFORMATION_FIELDS
                     if not is_modification and not is_information:
@@ -471,7 +473,7 @@ class discoverFields:
                     discoverFields._set_field(block, field, value)
                     applied_anything = True
 
-                if applied_anything and set_applied and not block.corpse:
+                if applied_anything and set_static_lock and not block.corpse:
                     matched_guids.add(block.full_guid)
 
         for block in blocks:
@@ -481,29 +483,37 @@ class discoverFields:
         return blocks
 
     @staticmethod
-    def monster_archetype_to_random_modifications(blocks, override_maps=None):
-        """Tier 7: applies profile_to_modifications_improvements_map.json's RandomPassives/RandomSpells/
-        HealthOverrideRange to blocks matching a MatchCombos entry. Same data
-        as tier 6, but a separate pass gated by LockRandomModifications, and
-        never touches corpse blocks (every randomization output field is
-        corpse-excluded). Sets LockRandomModifications on a match unless the
-        entry's SetApplied is False. override_maps behaves as in tier 6."""
-        override_maps = override_maps or []
+    def monster_archetype_to_random_modifications(blocks):
+        """Tier 7: applies profile_to_modifications_improvements_map.json's ApplyRandomStats
+        (RandomPassives/RandomSpells/HealthOverrideRange) to blocks matching a
+        MatchCombos entry. Same data as tier 6, but a separate pass gated by
+        LockRandomModifications, and never touches corpse blocks (every
+        randomization output field is corpse-excluded). An entry is skipped
+        entirely if its top-level stopUpdates or its ApplyRandomStats.stopUpdates
+        is True. Sets LockRandomModifications on a match unless
+        ApplyRandomStats.setRandomLock is False.
+        ApplyRandomStats.overrideRandomLock ignores LockRandomModifications for
+        that entry, forcing a full re-application."""
         handle_map = discoverFields._load_map(
             "profile_to_modifications_improvements_map.json"
         )
         matched_guids = set()
 
-        for entry_key, entry in handle_map.items():
+        for entry in handle_map.values():
+            if entry.get("stopUpdates", False):
+                continue
             match_combos = entry.get("MatchCombos", [])
             if not match_combos:
                 continue
-            random_passives = entry.get("RandomPassives") or []
-            random_passive_count = entry.get("RandomPassiveCount", 0) or 0
-            random_spells = entry.get("RandomSpells") or []
-            random_spell_count = entry.get("RandomSpellCount", 0) or 0
+            random_stats = entry.get("ApplyRandomStats") or {}
+            if random_stats.get("stopUpdates", False):
+                continue
+            random_passives = random_stats.get("RandomPassives") or []
+            random_passive_count = random_stats.get("RandomPassiveCount", 0) or 0
+            random_spells = random_stats.get("RandomSpells") or []
+            random_spell_count = random_stats.get("RandomSpellCount", 0) or 0
             health_override_range = discoverFields._resolve_health_override_range(
-                entry.get("HealthOverrideRange")
+                random_stats.get("HealthOverrideRange")
             )
             has_randomization = bool(
                 (random_passives and random_passive_count > 0)
@@ -512,13 +522,13 @@ class discoverFields:
             )
             if not has_randomization:
                 continue
-            entry_overridden = entry_key in override_maps
-            set_applied = entry.get("SetApplied", True)
+            override_random_lock = random_stats.get("overrideRandomLock", False)
+            set_random_lock = random_stats.get("setRandomLock", True)
 
             for block in blocks:
                 if block.lock_block or block.corpse:
                     continue
-                if block.lock_random_modifications and not entry_overridden:
+                if block.lock_random_modifications and not override_random_lock:
                     continue
                 if not any(
                     discoverFields._combo_matches_block(combo, block)
@@ -540,7 +550,7 @@ class discoverFields:
                     block, "spells_to_add", random_spells, random_spell_count
                 )
 
-                if set_applied:
+                if set_random_lock:
                     matched_guids.add(block.full_guid)
 
         for block in blocks:
@@ -552,26 +562,24 @@ class discoverFields:
     # ── Orchestrator ─────────────────────────────────────────────────────────
 
     @staticmethod
-    def update_modifications_and_information(blocks, override_maps=None):
+    def update_modifications_and_information(blocks):
         """The single entry point: runs all seven Modification/Information
         tiers against `blocks`, most specific to least specific (ClassArchetype
         -> SubType -> Type -> MonsterArchetype). Each tier only touches blocks
         still unlocked for that tier's update type (LockBlock always wins);
         the MonsterArchetype tiers (6-7) additionally set their own lock on a
-        match, so later runs skip a block they've already updated.
-        override_maps only applies to the MonsterArchetype tiers - see
+        match, so later runs skip a block they've already updated. Per-entry
+        overrides for tiers 6-7 (stopUpdates/overrideStaticLock/
+        overrideRandomLock/etc.) live directly in
+        profile_to_modifications_improvements_map.json - see
         monster_archetype_to_static_modifications_and_info."""
         discoverFields.class_archetype_to_static_modifications(blocks)
         discoverFields.class_archetype_to_random_modifications(blocks)
         discoverFields.subtype_to_static_modifications(blocks)
         discoverFields.subtype_to_random_modifications(blocks)
         discoverFields.type_to_static_modifications(blocks)
-        discoverFields.monster_archetype_to_static_modifications_and_info(
-            blocks, override_maps=override_maps
-        )
-        discoverFields.monster_archetype_to_random_modifications(
-            blocks, override_maps=override_maps
-        )
+        discoverFields.monster_archetype_to_static_modifications_and_info(blocks)
+        discoverFields.monster_archetype_to_random_modifications(blocks)
         return blocks
 
     # ── Standalone utility (not part of the tier cascade) ───────────────────
@@ -659,14 +667,11 @@ if __name__ == "__main__":
     blocks = MonsterStatBlock.deduplicate(blocks)
     before_snapshot = MonsterStatBlock.snapshot(blocks)
 
-    # List profile_to_modifications_improvements_map.json entry keys here (e.g. ["Mind Flayer"]) to force the
-    # MonsterArchetype tiers to re-apply to blocks already locked for that
-    # tier. Leave blank for the normal, safe behavior of skipping
-    # already-updated blocks.
-    override_maps = ["Humanoids"]
-    discoverFields.update_modifications_and_information(
-        blocks, override_maps=override_maps
-    )
+    # To force a MonsterArchetype-tier entry in
+    # profile_to_modifications_improvements_map.json to re-apply to blocks
+    # already locked for that tier, set its ApplyStaticStats.overrideStaticLock
+    # / ApplyRandomStats.overrideRandomLock to true in the map itself.
+    discoverFields.update_modifications_and_information(blocks)
 
     diffs = MonsterStatBlock.diff_from_snapshot(before_snapshot, blocks)
 
