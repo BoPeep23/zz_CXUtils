@@ -14,7 +14,7 @@ Script Extender/
     ├── guid_mapper_master.json          ← Master GUID registry (primary working file)
     ├── monsterStatBlock.py              ← Core data model (MonsterStatBlock class)
     ├── sanitizeFields.py                ← Field normalization / schema enforcement
-    ├── discoverFields.py                ← Auto-populate fields from maps + notes; sole path for applying stats (via handle_map.json)
+    ├── discoverFields.py                ← Auto-populate fields from maps + notes; sole path for applying stats (via profile_to_modifications_improvements_map.json)
     ├── organizeBlocks.py                ← Sort/order blocks without changing values
     ├── generateCombatExtenderBlocks.py  ← Final output: Clones + Overrides JSON
     ├── generateDictionaries.py          ← Metadata generation (indexes, summaries)
@@ -22,7 +22,7 @@ Script Extender/
     ├── convertHandlesToMaps.py          ← Convert handle .txt lists → monster_archetype_map.json
     ├── convertMapListToDict.py          ← Convert list-form map JSON → dict form
     ├── maps/                            ← Lookup maps used by discoverFields.py
-    │   ├── handle_map.json              ← THE stat-application map: ApplyStats/MatchCombos + randomization per entry
+    │   ├── profile_to_modifications_improvements_map.json ← THE stat-application map: ApplyStats/MatchCombos + randomization per entry
     │   ├── class_archetype_map.json
     │   ├── monster_archetype_map.json
     │   ├── type_map.json
@@ -43,7 +43,7 @@ Script Extender/
     ├── dryrun/                          ← Always-present preview folder for --dry-run output (gitignored contents)
     ├── archive/                         ← Auto-generated timestamped backups on every save (gitignored)
     └── old/                             ← Archived/defunct prior versions, incl. alterStatistics.py and
-                                            filter_blocks_and_apply.py (superseded by handle_map.json) — ignore unless rolling back
+                                            filter_blocks_and_apply.py (superseded by profile_to_modifications_improvements_map.json) — ignore unless rolling back
 ```
 
 ---
@@ -92,9 +92,9 @@ These scripts read from `guid_mapper_master.json` and write a modified output fi
 
 - **`discoverFields.py`** — Two kinds of logic:
   - Categorical auto-population (`update_class_archetype_based_on_notes`, `update_monster_archetype_based_on_handle`, `update_subtype_based_on_notes`, `update_type_based_on_notes`, `extract_armor_class_from_notes`) — fills blank `ClassArchetype`/`MonsterArchetype`/`SubType`/`Type`/`ArmorClass` by matching handle/notes/FullGuid against lookup maps in `maps/`. Uses `!`-suffix for whole-word match and `useLongerMatches`/`oneWordMatch` flags in `monster_archetype_map.json`. Writes debug output to `output.txt`.
-  - **`apply_handle_map`** — **the sole path for applying stats to blocks.** Reads `maps/handle_map.json`; for each entry, matches blocks via `MatchCombos` (see below) and applies `ApplyStats` (fixed fields, gated/tracked by `MapApplied`) and/or randomization (`RandomPassives`+`RandomPassiveCount`, `RandomSpells`+`RandomSpellCount`, `HealthOverrideRange`; gated/tracked independently by `RandomizationApplied`). `LockBlock` always skips a block entirely, for both parts, regardless of `override_maps`. `alterStatistics.py` and `filter_blocks_and_apply.py` (the old direct-editing/filter-cluster systems) are archived to `old/` — defunct, no longer wired to anything.
+  - **`apply_handle_map`** — **the sole path for applying stats to blocks.** Reads `maps/profile_to_modifications_improvements_map.json`; for each entry, matches blocks via `MatchCombos` (see below) and applies `ApplyStats` (fixed fields, gated/tracked by `MapApplied`) and/or randomization (`RandomPassives`+`RandomPassiveCount`, `RandomSpells`+`RandomSpellCount`, `HealthOverrideRange`; gated/tracked independently by `RandomizationApplied`). `LockBlock` always skips a block entirely, for both parts, regardless of `override_maps`. `alterStatistics.py` and `filter_blocks_and_apply.py` (the old direct-editing/filter-cluster systems) are archived to `old/` — defunct, no longer wired to anything.
 
-  `handle_map.json` entry shape:
+  `profile_to_modifications_improvements_map.json` entry shape:
   ```json
   {
     "Entry Name": {
@@ -107,6 +107,8 @@ These scripts read from `guid_mapper_master.json` and write a modified output fi
   }
   ```
   A `MatchCombo` is satisfied when every valid field/value pair substring-matches (case-insensitive) the same field on the block; a combo needs at least one valid pair after filtering blanks or it matches nothing (never everything). Valid combo values: non-blank string, bool, int, or float — list-valued fields (`PassivesToAdd`/`SpellsToAdd`) and `HealthOverride` are never valid combo fields. `HealthOverrideRange`, when it resolves to a usable range (not blank, no zero, high ≥ low), takes priority over `ApplyStats.HealthOverride` entirely for that entry.
+
+  **Packaging (randomization only):** any entry in `RandomPassives`/`RandomSpells` (in any random-modifications map, not just this one) can bundle multiple passives/spells into one roll by joining them with `;` (e.g. `"PackA;PackB"`). The pool entry is still picked/counted as a single roll against `RandomPassiveCount`/`RandomSpellCount`, but each `;`-separated piece is added individually to `PassivesToAdd`/`SpellsToAdd`. A packaged entry is treated as already-rolled (and excluded from future re-picks) only once every one of its pieces is already present on the block.
 
 - **`organizeBlocks.py`** — Sorts blocks by `[Act, Location, Type, ClassArchetype, Handle]` without changing any field values. Location ordering follows a hardcoded `LOCATION_ORDER` prefix list (S_GLO_, S_CAMP_, ... S_END_).
 
@@ -135,7 +137,7 @@ These scripts read from `guid_mapper_master.json` and write a modified output fi
 
 1. **Populate new GUIDs** — Add raw entries (Handle + FullGuid minimum) to `guid_mapper_master.json`.
 2. **Sanitize** — Run `sanitizeFields.py` to normalize fields and add missing defaults.
-3. **Discover + Apply** — Edit `maps/handle_map.json` (ApplyStats/MatchCombos/randomization), then run `python discoverFields.py --dry-run` to preview (writes `dryrun/guid_mapper_master_dryrun.json` and a change summary, touches nothing real), then rerun without `--dry-run` to commit — this both auto-populates Type/SubType/ClassArchetype/MonsterArchetype from maps and applies `handle_map.json`. Changes touching more than 25% of blocks prompt for confirmation before saving.
+3. **Discover + Apply** — Edit `maps/profile_to_modifications_improvements_map.json` (ApplyStats/MatchCombos/randomization), then run `python discoverFields.py --dry-run` to preview (writes `dryrun/guid_mapper_master_dryrun.json` and a change summary, touches nothing real), then rerun without `--dry-run` to commit — this both auto-populates Type/SubType/ClassArchetype/MonsterArchetype from maps and applies `profile_to_modifications_improvements_map.json`. Changes touching more than 25% of blocks prompt for confirmation before saving.
 4. **Organize** — Run `organizeBlocks.py` to sort the master file.
 5. **Generate output** — Run `generateCombatExtenderBlocks.py` to produce the final Clone/Override blocks.
 6. **Metadata** — Run `generateDictionaries.py` anytime to refresh the `metadata/` reference files.
@@ -146,7 +148,7 @@ These scripts read from `guid_mapper_master.json` and write a modified output fi
 
 - `guid_mapper_master.json` is the single source of truth. All scripts read from it; outputs go to separate files.
 - `FullGuid` format: `<SceneName>_<CreatureName>_<UUID>`. The scene prefix determines Act via `sanitizeFields.populate_act_field`.
-- **`handle_map.json` (via `discoverFields.apply_handle_map`) is the only sanctioned way to apply stats to blocks.** `alterStatistics.py` and `filter_blocks_and_apply.py` are archived/defunct.
+- **`profile_to_modifications_improvements_map.json` (via `discoverFields.apply_handle_map`) is the only sanctioned way to apply stats to blocks.** `alterStatistics.py` and `filter_blocks_and_apply.py` are archived/defunct.
 - `maps/*.json` files are the only lookup tables. They are hand-curated; do not auto-overwrite without review.
 - `metadata/` and `clonesAndOverrides/` are fully generated — safe to regenerate at any time.
 - `archive/` (auto-generated, gitignored) holds a timestamped pre-overwrite snapshot from every `MonsterStatBlock.save_to_json_file` call — a rollback point. `dryrun/` holds the always-present `--dry-run` preview output (gitignored contents).

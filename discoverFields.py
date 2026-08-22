@@ -14,7 +14,7 @@ class discoverFields:
     is even eligible for a given kind of update. Never touches Identifiers -
     that's sanitizeFields.py's job."""
 
-    # Maps guid_mapper_master.json / handle_map.json field names to the
+    # Maps guid_mapper_master.json / profile_to_modifications_improvements_map.json field names to the
     # corresponding MonsterStatBlock attribute names.
     FIELD_ATTR_MAP = {
         "Handle": "handle",
@@ -44,8 +44,11 @@ class discoverFields:
     # Modification fields (see MonsterStatBlock's field categories): always
     # dynamic, gathered/transformed by generateCombatExtenderBlocks.py.
     MODIFICATION_FIELDS = {
-        "HealthOverride", "PassivesToAdd", "SpellsToAdd",
-        "CloneTemplateGuid", "CloneDisplayName",
+        "HealthOverride",
+        "PassivesToAdd",
+        "SpellsToAdd",
+        "CloneTemplateGuid",
+        "CloneDisplayName",
     }
 
     # Information fields: current/planned info about the creature. Only
@@ -126,13 +129,18 @@ class discoverFields:
 
     @staticmethod
     def update_by_class_archetype(block, class_archetype_phrase):
-        return discoverFields._matches_phrase(block.classArchetype, class_archetype_phrase)
+        return discoverFields._matches_phrase(
+            block.classArchetype, class_archetype_phrase
+        )
 
     @staticmethod
     def update_by_monster_archetype(block, monster_archetype):
         if not block.monsterArchetype or not monster_archetype:
             return False
-        return block.monsterArchetype.strip().lower() == str(monster_archetype).strip().lower()
+        return (
+            block.monsterArchetype.strip().lower()
+            == str(monster_archetype).strip().lower()
+        )
 
     # ── Shared engine ────────────────────────────────────────────────────────
 
@@ -154,14 +162,44 @@ class discoverFields:
             setattr(block, attr, value)
 
     @staticmethod
+    def _split_package(value):
+        """Splits a RandomPassives/RandomSpells pool entry on ';' into its
+        individual pieces, letting one pool entry "package" multiple
+        passives/spells together so a single roll adds all of them. Blank
+        pieces are dropped; non-string values pass through unchanged."""
+        if not isinstance(value, str):
+            return [value]
+        return [piece.strip() for piece in value.split(";") if piece.strip()]
+
+    @staticmethod
     def _pick_new_random_values(pool, count, already_present):
-        """Randomly selects up to `count` values from pool that the block
-        doesn't already have, without repeats - equivalent to re-rolling a
-        duplicate pick until a new one turns up or the pool of unused options
-        runs out."""
+        """Randomly selects up to `count` values from pool whose package (see
+        _split_package) isn't already fully present, without repeats -
+        equivalent to re-rolling a duplicate pick until a new one turns up or
+        the pool of unused options runs out. Returns the raw (unsplit) pool
+        entries - callers that add the result to a block must expand each via
+        _split_package first."""
         already = set(already_present or [])
-        candidates = [v for v in pool if v not in already]
+        candidates = [
+            v for v in pool if not set(discoverFields._split_package(v)) <= already
+        ]
         return random.sample(candidates, min(count, len(candidates)))
+
+    @staticmethod
+    def _apply_random_list_field(block, attr, pool, count):
+        """Picks up to `count` new entries from pool and merges their
+        expanded pieces into block.<attr> (passives_to_add/spells_to_add),
+        deduplicated against what's already there."""
+        if not pool or count <= 0:
+            return
+        existing = getattr(block, attr)
+        chosen = discoverFields._pick_new_random_values(pool, count, existing)
+        expanded = [
+            piece
+            for value in chosen
+            for piece in discoverFields._split_package(value)
+        ]
+        setattr(block, attr, sorted(set(existing) | set(expanded)))
 
     @staticmethod
     def _resolve_health_override_range(range_value):
@@ -195,7 +233,9 @@ class discoverFields:
         - only monster_archetype_to_static_modifications_and_info does -
         so a block can pick up a Class-, SubType-, and Type-level match all
         in the same run; they only respect a lock already set elsewhere."""
-        predicate = getattr(discoverFields, discoverFields._FILTER_METHOD_NAMES[filter_field])
+        predicate = getattr(
+            discoverFields, discoverFields._FILTER_METHOD_NAMES[filter_field]
+        )
 
         for entry_key, entry in map_data.items():
             apply_stats = entry.get("ApplyStats") or {}
@@ -213,7 +253,10 @@ class discoverFields:
                 for field, value in apply_stats.items():
                     if field not in discoverFields.MODIFICATION_FIELDS:
                         continue
-                    if block.corpse and field in MonsterStatBlock.CORPSE_EXCLUDED_FIELDS:
+                    if (
+                        block.corpse
+                        and field in MonsterStatBlock.CORPSE_EXCLUDED_FIELDS
+                    ):
                         continue
                     discoverFields._set_field(block, field, value)
 
@@ -228,7 +271,9 @@ class discoverFields:
         randomization output field is corpse-excluded. Like the static tiers,
         these never set LockRandomModifications themselves - only
         monster_archetype_to_random_modifications does."""
-        predicate = getattr(discoverFields, discoverFields._FILTER_METHOD_NAMES[filter_field])
+        predicate = getattr(
+            discoverFields, discoverFields._FILTER_METHOD_NAMES[filter_field]
+        )
 
         for entry_key, entry in map_data.items():
             random_passives = entry.get("RandomPassives") or []
@@ -261,17 +306,12 @@ class discoverFields:
                     if not block.original_health:
                         block.original_health = resolved
 
-                if random_passives and random_passive_count > 0:
-                    chosen = discoverFields._pick_new_random_values(
-                        random_passives, random_passive_count, block.passives_to_add
-                    )
-                    block.passives_to_add = sorted(set(block.passives_to_add) | set(chosen))
-
-                if random_spells and random_spell_count > 0:
-                    chosen = discoverFields._pick_new_random_values(
-                        random_spells, random_spell_count, block.spells_to_add
-                    )
-                    block.spells_to_add = sorted(set(block.spells_to_add) | set(chosen))
+                discoverFields._apply_random_list_field(
+                    block, "passives_to_add", random_passives, random_passive_count
+                )
+                discoverFields._apply_random_list_field(
+                    block, "spells_to_add", random_spells, random_spell_count
+                )
 
         return blocks
 
@@ -283,16 +323,24 @@ class discoverFields:
         keyed by ClassArchetype phrase -> ApplyStats. Does not set
         LockStaticModifications - a block can still pick up SubType/Type
         matches later in the same run."""
-        map_data = discoverFields._load_map("class_archetype_static_modifications_map.json")
-        return discoverFields._run_static_modification_tier(blocks, map_data, "ClassArchetype")
+        map_data = discoverFields._load_map(
+            "class_archetype_static_modifications_map.json"
+        )
+        return discoverFields._run_static_modification_tier(
+            blocks, map_data, "ClassArchetype"
+        )
 
     @staticmethod
     def class_archetype_to_random_modifications(blocks):
         """Tier 2: maps/class_archetype_random_modifications_map.json, keyed by
         ClassArchetype phrase -> RandomPassives/RandomSpells/HealthOverrideRange.
         Does not set LockRandomModifications."""
-        map_data = discoverFields._load_map("class_archetype_random_modifications_map.json")
-        return discoverFields._run_random_modification_tier(blocks, map_data, "ClassArchetype")
+        map_data = discoverFields._load_map(
+            "class_archetype_random_modifications_map.json"
+        )
+        return discoverFields._run_random_modification_tier(
+            blocks, map_data, "ClassArchetype"
+        )
 
     # ── Tier 3-4: SubType ────────────────────────────────────────────────────
 
@@ -322,7 +370,7 @@ class discoverFields:
         map_data = discoverFields._load_map("type_static_modifications_map.json")
         return discoverFields._run_static_modification_tier(blocks, map_data, "Type")
 
-    # ── MatchCombo helpers (Tier 6-7, handle_map.json) ──────────────────────
+    # ── MatchCombo helpers (Tier 6-7, profile_to_modifications_improvements_map.json) ──────────────────────
 
     @staticmethod
     def _is_valid_combo_value(value):
@@ -364,7 +412,7 @@ class discoverFields:
 
     @staticmethod
     def monster_archetype_to_static_modifications_and_info(blocks, override_maps=None):
-        """Tier 6: applies handle_map.json's ApplyStats to blocks matching a
+        """Tier 6: applies profile_to_modifications_improvements_map.json's ApplyStats to blocks matching a
         MatchCombos entry. The only tier allowed to write Information fields
         (ArmorClass/OriginalHealth/Level/Notes) alongside Modification fields
         - Information sub-fields are additionally gated per-field by
@@ -377,7 +425,9 @@ class discoverFields:
         override_maps ignores LockStaticModifications for that entry, forcing
         a full re-application."""
         override_maps = override_maps or []
-        handle_map = discoverFields._load_map("handle_map.json")
+        handle_map = discoverFields._load_map(
+            "profile_to_modifications_improvements_map.json"
+        )
         matched_guids = set()
 
         for entry_key, entry in handle_map.items():
@@ -393,9 +443,16 @@ class discoverFields:
             for block in blocks:
                 if block.lock_block:
                     continue
-                if not block.corpse and block.lock_static_modifications and not entry_overridden:
+                if (
+                    not block.corpse
+                    and block.lock_static_modifications
+                    and not entry_overridden
+                ):
                     continue
-                if not any(discoverFields._combo_matches_block(combo, block) for combo in match_combos):
+                if not any(
+                    discoverFields._combo_matches_block(combo, block)
+                    for combo in match_combos
+                ):
                     continue
 
                 applied_anything = False
@@ -404,7 +461,10 @@ class discoverFields:
                     is_information = field in discoverFields.INFORMATION_FIELDS
                     if not is_modification and not is_information:
                         continue
-                    if block.corpse and field in MonsterStatBlock.CORPSE_EXCLUDED_FIELDS:
+                    if (
+                        block.corpse
+                        and field in MonsterStatBlock.CORPSE_EXCLUDED_FIELDS
+                    ):
                         continue
                     if is_information and block.lock_information:
                         continue
@@ -422,14 +482,16 @@ class discoverFields:
 
     @staticmethod
     def monster_archetype_to_random_modifications(blocks, override_maps=None):
-        """Tier 7: applies handle_map.json's RandomPassives/RandomSpells/
+        """Tier 7: applies profile_to_modifications_improvements_map.json's RandomPassives/RandomSpells/
         HealthOverrideRange to blocks matching a MatchCombos entry. Same data
         as tier 6, but a separate pass gated by LockRandomModifications, and
         never touches corpse blocks (every randomization output field is
         corpse-excluded). Sets LockRandomModifications on a match unless the
         entry's SetApplied is False. override_maps behaves as in tier 6."""
         override_maps = override_maps or []
-        handle_map = discoverFields._load_map("handle_map.json")
+        handle_map = discoverFields._load_map(
+            "profile_to_modifications_improvements_map.json"
+        )
         matched_guids = set()
 
         for entry_key, entry in handle_map.items():
@@ -458,7 +520,10 @@ class discoverFields:
                     continue
                 if block.lock_random_modifications and not entry_overridden:
                     continue
-                if not any(discoverFields._combo_matches_block(combo, block) for combo in match_combos):
+                if not any(
+                    discoverFields._combo_matches_block(combo, block)
+                    for combo in match_combos
+                ):
                     continue
 
                 if health_override_range is not None:
@@ -468,17 +533,12 @@ class discoverFields:
                     if not block.original_health:
                         block.original_health = resolved
 
-                if random_passives and random_passive_count > 0:
-                    chosen = discoverFields._pick_new_random_values(
-                        random_passives, random_passive_count, block.passives_to_add
-                    )
-                    block.passives_to_add = sorted(set(block.passives_to_add) | set(chosen))
-
-                if random_spells and random_spell_count > 0:
-                    chosen = discoverFields._pick_new_random_values(
-                        random_spells, random_spell_count, block.spells_to_add
-                    )
-                    block.spells_to_add = sorted(set(block.spells_to_add) | set(chosen))
+                discoverFields._apply_random_list_field(
+                    block, "passives_to_add", random_passives, random_passive_count
+                )
+                discoverFields._apply_random_list_field(
+                    block, "spells_to_add", random_spells, random_spell_count
+                )
 
                 if set_applied:
                     matched_guids.add(block.full_guid)
@@ -506,8 +566,12 @@ class discoverFields:
         discoverFields.subtype_to_static_modifications(blocks)
         discoverFields.subtype_to_random_modifications(blocks)
         discoverFields.type_to_static_modifications(blocks)
-        discoverFields.monster_archetype_to_static_modifications_and_info(blocks, override_maps=override_maps)
-        discoverFields.monster_archetype_to_random_modifications(blocks, override_maps=override_maps)
+        discoverFields.monster_archetype_to_static_modifications_and_info(
+            blocks, override_maps=override_maps
+        )
+        discoverFields.monster_archetype_to_random_modifications(
+            blocks, override_maps=override_maps
+        )
         return blocks
 
     # ── Standalone utility (not part of the tier cascade) ───────────────────
@@ -595,12 +659,14 @@ if __name__ == "__main__":
     blocks = MonsterStatBlock.deduplicate(blocks)
     before_snapshot = MonsterStatBlock.snapshot(blocks)
 
-    # List handle_map.json entry keys here (e.g. ["Mind Flayer"]) to force the
+    # List profile_to_modifications_improvements_map.json entry keys here (e.g. ["Mind Flayer"]) to force the
     # MonsterArchetype tiers to re-apply to blocks already locked for that
     # tier. Leave blank for the normal, safe behavior of skipping
     # already-updated blocks.
-    override_maps = []
-    discoverFields.update_modifications_and_information(blocks, override_maps=override_maps)
+    override_maps = ["Humanoids"]
+    discoverFields.update_modifications_and_information(
+        blocks, override_maps=override_maps
+    )
 
     diffs = MonsterStatBlock.diff_from_snapshot(before_snapshot, blocks)
 

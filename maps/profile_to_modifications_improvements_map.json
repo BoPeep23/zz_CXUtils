@@ -1,4 +1,19 @@
 {
+    "Humanoids": {
+        "SetApplied": false,
+        "ApplyStats": {
+            "SpellsToAdd": [
+                "Projectile_Jump",
+                "Target_Shove",
+                "Shout_Dash_CunningAction"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Type": "Humanoid"
+            }
+        ]
+    },
     "Martial Imp (Prologue)": {
         "SetApplied": true,
         "ApplyStats": {

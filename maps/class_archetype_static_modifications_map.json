@@ -2,10 +2,7 @@
     "Paladin": {
         "ApplyStats": {
             "PassivesToAdd": [
-                "Resilient_Strength"
-            ],
-            "SpellsToAdd": [
-                "Target_HolyWeapon"
+                "CX_Paladin_Boost"
             ]
         }
     }

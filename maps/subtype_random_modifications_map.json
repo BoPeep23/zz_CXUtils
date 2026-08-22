@@ -1,12 +1,13 @@
 {
-    "Skeleton": {
+    "Human": {
         "RandomPassives": [
-            "Goon_AC_Buff_1",
-            "Resilient_Strength"
+            "Alert",
+            "DevilsSight",
+            "MageSlayer_Advantage;MageSlayer_BreakConcentration;MageSlayer_AttackCaster",
+            "Mobile_PassiveBonuses;Mobile_DashAcrossDifficultTerrain;Mobile_CounterAttackOfOpportunity",
+            "SavageAttacker;MAG_OfSharpCaster_Hat_Passive",
+            "FeyTouched_Wisdom;ShadowTouched_Intelligence"
         ],
-        "RandomPassiveCount": 1,
-        "RandomSpells": [],
-        "RandomSpellCount": 0,
-        "HealthOverrideRange": [20, 28]
+        "RandomPassiveCount": 1
     }
 }
