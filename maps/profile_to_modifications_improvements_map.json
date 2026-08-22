@@ -1,10 +1,10 @@
 {
     "Humanoids": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": true,
-            "setStaticLock": false,
+            "StopUpdates": false,
+            "OverrideStaticLock": true,
+            "SetStaticLock": false,
             "SpellsToAdd": [
                 "Projectile_Jump",
                 "Target_Shove",
@@ -18,11 +18,11 @@
         ]
     },
     "Martial Imp (Prologue)": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Fiend",
             "SubType": "Imp",
             "ClassArchetype": "",
@@ -48,11 +48,11 @@
         ]
     },
     "Ranged Imp (Prologue)": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Fiend",
             "SubType": "Imp",
             "ClassArchetype": "",
@@ -77,9 +77,9 @@
             }
         ],
         "ApplyRandomStats": {
-            "stopUpdates": false,
-            "overrideRandomLock": false,
-            "setRandomLock": true,
+            "StopUpdates": false,
+            "OverrideRandomLock": false,
+            "SetRandomLock": true,
             "RandomPassives": [
                 "CrossbowExpert_Wounding",
                 "Goon_Target_Longstrider_Passive"
@@ -90,11 +90,11 @@
         }
     },
     "Goblin Brawler": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Goblin",
             "ClassArchetype": "Fighter",
@@ -120,11 +120,11 @@
         ]
     },
     "Goblin Warrior": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Goblin",
             "ClassArchetype": "Fighter",
@@ -150,11 +150,11 @@
         ]
     },
     "Goblin Booyahg": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Goblin",
             "ClassArchetype": "Warlock",
@@ -188,11 +188,11 @@
         ]
     },
     "Goblin Sharp-Eye": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Goblin",
             "ClassArchetype": "Warlock",
@@ -221,11 +221,11 @@
         ]
     },
     "Goblin Chemist": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Goblin",
             "ClassArchetype": "Artificer",
@@ -249,11 +249,11 @@
         ]
     },
     "Vengeful Cambion": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Fiend",
             "SubType": "Cambion",
             "ClassArchetype": "",
@@ -272,11 +272,11 @@
         ]
     },
     "Vengeful Imp": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Fiend",
             "SubType": "Imp",
             "ClassArchetype": "",
@@ -303,11 +303,11 @@
         ]
     },
     "Vengeful Boar": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Fiend",
             "SubType": "Boar",
             "ClassArchetype": "",
@@ -332,11 +332,11 @@
         ]
     },
     "Murderous Crow": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Beast",
             "SubType": "Crow",
             "ClassArchetype": "",
@@ -351,11 +351,11 @@
         ]
     },
     "Kobold Inventor": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Kobold",
             "ClassArchetype": "Artificer",
@@ -376,11 +376,11 @@
         ]
     },
     "Kobold Scout": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Kobold",
             "ClassArchetype": "Ranger",
@@ -402,11 +402,11 @@
         ]
     },
     "Kobold Looter": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Kobold",
             "ClassArchetype": "",
@@ -425,11 +425,11 @@
         ]
     },
     "Ghast": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Undead",
             "SubType": "Ghast",
             "ClassArchetype": "",
@@ -451,11 +451,11 @@
         ]
     },
     "Illithid Arcanist": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Aberration",
             "SubType": "Mind Flayer",
             "ClassArchetype": "Wizard",
@@ -483,11 +483,11 @@
         ]
     },
     "Iron Consul of Bane": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "",
             "ClassArchetype": "Fighter",
@@ -517,11 +517,11 @@
         ]
     },
     "Intellect Devourer": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Aberration",
             "SubType": "Intellect Devourer",
             "ClassArchetype": "",
@@ -543,9 +543,9 @@
             }
         ],
         "ApplyRandomStats": {
-            "stopUpdates": false,
-            "overrideRandomLock": false,
-            "setRandomLock": true,
+            "StopUpdates": false,
+            "OverrideRandomLock": false,
+            "SetRandomLock": true,
             "HealthOverrideRange": [
                 35,
                 40
@@ -553,11 +553,11 @@
         }
     },
     "Mind Flayer (Prologue)": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Aberration",
             "SubType": "Mind Flayer",
             "ClassArchetype": "",
@@ -582,11 +582,11 @@
         ]
     },
     "Inquisitor of the Absolute": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "",
             "ClassArchetype": "Ranger",
@@ -611,11 +611,11 @@
         "MatchCombos": []
     },
     "Black Gauntlet of Bane": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "",
             "ClassArchetype": "Cleric",
@@ -637,11 +637,11 @@
         "MatchCombos": []
     },
     "Invoker of Bhaal": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Human",
             "ClassArchetype": "Wizard (Conjuration)",
@@ -672,11 +672,11 @@
         "MatchCombos": []
     },
     "Manifestation of Tyranny": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Construct",
             "SubType": "Manifestation of Tyranny",
             "ClassArchetype": "",
@@ -693,11 +693,11 @@
         "MatchCombos": []
     },
     "Mistress of Souls": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Human",
             "ClassArchetype": "Wizard",
@@ -719,11 +719,11 @@
         ]
     },
     "Poltergeist": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Undead",
             "SubType": "Ghost",
             "ClassArchetype": "",
@@ -756,11 +756,11 @@
         "MatchCombos": []
     },
     "Vengeful Soul": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Undead",
             "SubType": "Ghost",
             "ClassArchetype": "",
@@ -782,11 +782,11 @@
         "MatchCombos": []
     },
     "Tormented Soul": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Undead",
             "SubType": "Ghost",
             "ClassArchetype": "",
@@ -808,11 +808,11 @@
         "MatchCombos": []
     },
     "Cursed Skull": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Undead",
             "SubType": "Skull",
             "ClassArchetype": "",
@@ -846,11 +846,11 @@
         ]
     },
     "Night Blade": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "",
             "ClassArchetype": "Rogue",
@@ -868,11 +868,11 @@
         "MatchCombos": []
     },
     "Reaper of Bhaal": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Human",
             "ClassArchetype": "Rogue",
@@ -890,11 +890,11 @@
         "MatchCombos": []
     },
     "Spectator": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Aberration",
             "SubType": "Beholderkin",
             "ClassArchetype": "",
@@ -912,11 +912,11 @@
         "MatchCombos": []
     },
     "Winged Horror": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": false,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": false,
             "Type": "Undead",
             "SubType": "Ghoul",
             "ClassArchetype": "",
@@ -944,11 +944,11 @@
         ]
     },
     "Githyanki Youth": {
-        "stopUpdates": false,
+        "StopUpdates": false,
         "ApplyStaticStats": {
-            "stopUpdates": false,
-            "overrideStaticLock": false,
-            "setStaticLock": true,
+            "StopUpdates": false,
+            "OverrideStaticLock": false,
+            "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Githyanki",
             "ClassArchetype": "",

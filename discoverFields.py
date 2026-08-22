@@ -419,9 +419,9 @@ class discoverFields:
         whether a block is even attempted (corpse blocks are always attempted,
         since their excluded fields are filtered out per-field anyway, but
         never get the lock set). An entry is skipped entirely if its top-level
-        stopUpdates or its ApplyStaticStats.stopUpdates is True. Sets
-        LockStaticModifications on a match unless ApplyStaticStats.setStaticLock
-        is False. ApplyStaticStats.overrideStaticLock ignores
+        StopUpdates or its ApplyStaticStats.StopUpdates is True. Sets
+        LockStaticModifications on a match unless ApplyStaticStats.SetStaticLock
+        is False. ApplyStaticStats.OverrideStaticLock ignores
         LockStaticModifications for that entry, forcing a full re-application."""
         handle_map = discoverFields._load_map(
             "profile_to_modifications_improvements_map.json"
@@ -429,7 +429,7 @@ class discoverFields:
         matched_guids = set()
 
         for entry in handle_map.values():
-            if entry.get("stopUpdates", False):
+            if entry.get("StopUpdates", False):
                 continue
             match_combos = entry.get("MatchCombos", [])
             if not match_combos:
@@ -437,10 +437,10 @@ class discoverFields:
             static_stats = entry.get("ApplyStaticStats") or {}
             if not static_stats:
                 continue
-            if static_stats.get("stopUpdates", False):
+            if static_stats.get("StopUpdates", False):
                 continue
-            override_static_lock = static_stats.get("overrideStaticLock", False)
-            set_static_lock = static_stats.get("setStaticLock", True)
+            override_static_lock = static_stats.get("OverrideStaticLock", False)
+            set_static_lock = static_stats.get("SetStaticLock", True)
 
             for block in blocks:
                 if block.lock_block:
@@ -489,10 +489,10 @@ class discoverFields:
         MatchCombos entry. Same data as tier 6, but a separate pass gated by
         LockRandomModifications, and never touches corpse blocks (every
         randomization output field is corpse-excluded). An entry is skipped
-        entirely if its top-level stopUpdates or its ApplyRandomStats.stopUpdates
+        entirely if its top-level StopUpdates or its ApplyRandomStats.StopUpdates
         is True. Sets LockRandomModifications on a match unless
-        ApplyRandomStats.setRandomLock is False.
-        ApplyRandomStats.overrideRandomLock ignores LockRandomModifications for
+        ApplyRandomStats.SetRandomLock is False.
+        ApplyRandomStats.OverrideRandomLock ignores LockRandomModifications for
         that entry, forcing a full re-application."""
         handle_map = discoverFields._load_map(
             "profile_to_modifications_improvements_map.json"
@@ -500,13 +500,13 @@ class discoverFields:
         matched_guids = set()
 
         for entry in handle_map.values():
-            if entry.get("stopUpdates", False):
+            if entry.get("StopUpdates", False):
                 continue
             match_combos = entry.get("MatchCombos", [])
             if not match_combos:
                 continue
             random_stats = entry.get("ApplyRandomStats") or {}
-            if random_stats.get("stopUpdates", False):
+            if random_stats.get("StopUpdates", False):
                 continue
             random_passives = random_stats.get("RandomPassives") or []
             random_passive_count = random_stats.get("RandomPassiveCount", 0) or 0
@@ -522,8 +522,8 @@ class discoverFields:
             )
             if not has_randomization:
                 continue
-            override_random_lock = random_stats.get("overrideRandomLock", False)
-            set_random_lock = random_stats.get("setRandomLock", True)
+            override_random_lock = random_stats.get("OverrideRandomLock", False)
+            set_random_lock = random_stats.get("SetRandomLock", True)
 
             for block in blocks:
                 if block.lock_block or block.corpse:
@@ -569,8 +569,8 @@ class discoverFields:
         still unlocked for that tier's update type (LockBlock always wins);
         the MonsterArchetype tiers (6-7) additionally set their own lock on a
         match, so later runs skip a block they've already updated. Per-entry
-        overrides for tiers 6-7 (stopUpdates/overrideStaticLock/
-        overrideRandomLock/etc.) live directly in
+        overrides for tiers 6-7 (StopUpdates/OverrideStaticLock/
+        OverrideRandomLock/etc.) live directly in
         profile_to_modifications_improvements_map.json - see
         monster_archetype_to_static_modifications_and_info."""
         discoverFields.class_archetype_to_static_modifications(blocks)
@@ -669,8 +669,8 @@ if __name__ == "__main__":
 
     # To force a MonsterArchetype-tier entry in
     # profile_to_modifications_improvements_map.json to re-apply to blocks
-    # already locked for that tier, set its ApplyStaticStats.overrideStaticLock
-    # / ApplyRandomStats.overrideRandomLock to true in the map itself.
+    # already locked for that tier, set its ApplyStaticStats.OverrideStaticLock
+    # / ApplyRandomStats.OverrideRandomLock to true in the map itself.
     discoverFields.update_modifications_and_information(blocks)
 
     diffs = MonsterStatBlock.diff_from_snapshot(before_snapshot, blocks)
