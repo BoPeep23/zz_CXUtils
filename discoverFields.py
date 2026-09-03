@@ -3,6 +3,8 @@ import json
 import os
 import random
 import re
+import shutil
+from datetime import datetime
 
 from monsterStatBlock import MonsterStatBlock
 
@@ -24,6 +26,7 @@ class discoverFields:
         "Type": "type",
         "SubType": "subtype",
         "ClassArchetype": "classArchetype",
+        "SubclassArchetype": "subclassArchetype",
         "MonsterArchetype": "monsterArchetype",
         "Corpse": "corpse",
         "Notes": "notes",
@@ -74,6 +77,7 @@ class discoverFields:
         "Type": "update_by_type",
         "SubType": "update_by_sub_type",
         "ClassArchetype": "update_by_class_archetype",
+        "SubclassArchetype": "update_by_subclass_archetype",
         "MonsterArchetype": "update_by_monster_archetype",
     }
 
@@ -131,6 +135,12 @@ class discoverFields:
     def update_by_class_archetype(block, class_archetype_phrase):
         return discoverFields._matches_phrase(
             block.classArchetype, class_archetype_phrase
+        )
+
+    @staticmethod
+    def update_by_subclass_archetype(block, subclass_archetype_phrase):
+        return discoverFields._matches_phrase(
+            block.subclassArchetype, subclass_archetype_phrase
         )
 
     @staticmethod
@@ -368,7 +378,7 @@ class discoverFields:
         map_data = discoverFields._load_map("type_static_modifications_map.json")
         return discoverFields._run_static_modification_tier(blocks, map_data, "Type")
 
-    # ── MatchCombo helpers (Tier 6-7, profile_to_modifications_improvements_map.json) ──────────────────────
+    # ── MatchCombo helpers (Tier 6-7, discovery maps) ───────────────────────
 
     @staticmethod
     def _is_valid_combo_value(value):
@@ -389,9 +399,15 @@ class discoverFields:
         HealthOverride are never valid and are skipped outright. A combo left
         with zero valid pairs after filtering (e.g. an empty dict, or one made
         up entirely of blanks) never matches anything - it would otherwise
-        match every block."""
+        match every block.
+
+        A field name prefixed with '!' (e.g. "!Act": "1") negates the check:
+        the combo requires that field NOT contain the given value. A block
+        with no value at all for a negated field trivially satisfies it."""
         valid_pairs = 0
-        for field, expected_value in combo.items():
+        for raw_field, expected_value in combo.items():
+            negate = raw_field.startswith("!")
+            field = raw_field[1:] if negate else raw_field
             if not field or field in discoverFields.INVALID_COMBO_FIELDS:
                 continue
             if not discoverFields._is_valid_combo_value(expected_value):
@@ -400,44 +416,47 @@ class discoverFields:
 
             attr = discoverFields.FIELD_ATTR_MAP.get(field, field)
             actual_value = getattr(block, attr, None)
-            if actual_value is None:
-                return False
-            if str(expected_value).lower() not in str(actual_value).lower():
-                return False
+            if negate:
+                if actual_value is not None and str(expected_value).lower() in str(
+                    actual_value
+                ).lower():
+                    return False
+            else:
+                if actual_value is None:
+                    return False
+                if str(expected_value).lower() not in str(actual_value).lower():
+                    return False
         return valid_pairs > 0
 
-    # ── Tier 6-7: MonsterArchetype ───────────────────────────────────────────
+    # ── Tier 6-7: MonsterArchetype (discovery maps) ──────────────────────────
 
     @staticmethod
-    def monster_archetype_to_static_modifications_and_info(blocks):
-        """Tier 6: applies profile_to_modifications_improvements_map.json's ApplyStaticStats to blocks
-        matching a MatchCombos entry. The only tier allowed to write Information
-        fields (ArmorClass/OriginalHealth/Level/Notes) alongside Modification
-        fields - Information sub-fields are additionally gated per-field by
-        LockInformation, independent of the block-level LockStaticModifications
-        gate. LockBlock is always respected. LockStaticModifications gates
-        whether a block is even attempted (corpse blocks are always attempted,
-        since their excluded fields are filtered out per-field anyway, but
-        never get the lock set). An entry is skipped entirely if its top-level
-        StopUpdates or its ApplyStaticStats.StopUpdates is True. Sets
-        LockStaticModifications on a match unless ApplyStaticStats.SetStaticLock
-        is False. ApplyStaticStats.OverrideStaticLock ignores
-        LockStaticModifications for that entry, forcing a full re-application."""
-        handle_map = discoverFields._load_map(
-            "profile_to_modifications_improvements_map.json"
-        )
+    def monster_archetype_to_static_modifications_and_info(blocks, map_data):
+        """Tier 6: applies a discovery map's ApplyStaticStats to blocks
+        matching a MatchCombos entry. `map_data` is a discovery map already
+        loaded from maps/discovery_maps/ (see apply_discovery_map) - this
+        method itself never touches the filesystem. The only tier allowed to
+        write Information fields (ArmorClass/OriginalHealth/Level/Notes)
+        alongside Modification fields - Information sub-fields are
+        additionally gated per-field by LockInformation, independent of the
+        block-level LockStaticModifications gate. LockBlock is always
+        respected. LockStaticModifications gates whether a block is even
+        attempted (corpse blocks are always attempted, since their excluded
+        fields are filtered out per-field anyway, but never get the lock
+        set). Sets LockStaticModifications on a match unless
+        ApplyStaticStats.SetStaticLock is False. ApplyStaticStats.OverrideStaticLock
+        ignores LockStaticModifications for that entry, forcing a full
+        re-application."""
         matched_guids = set()
 
-        for entry in handle_map.values():
-            if entry.get("StopUpdates", False):
+        for entry_key, entry in map_data.items():
+            if entry_key == "dateApplied":
                 continue
             match_combos = entry.get("MatchCombos", [])
             if not match_combos:
                 continue
             static_stats = entry.get("ApplyStaticStats") or {}
             if not static_stats:
-                continue
-            if static_stats.get("StopUpdates", False):
                 continue
             override_static_lock = static_stats.get("OverrideStaticLock", False)
             set_static_lock = static_stats.get("SetStaticLock", True)
@@ -483,31 +502,24 @@ class discoverFields:
         return blocks
 
     @staticmethod
-    def monster_archetype_to_random_modifications(blocks):
-        """Tier 7: applies profile_to_modifications_improvements_map.json's ApplyRandomStats
+    def monster_archetype_to_random_modifications(blocks, map_data):
+        """Tier 7: applies a discovery map's ApplyRandomStats
         (RandomPassives/RandomSpells/HealthOverrideRange) to blocks matching a
-        MatchCombos entry. Same data as tier 6, but a separate pass gated by
-        LockRandomModifications, and never touches corpse blocks (every
-        randomization output field is corpse-excluded). An entry is skipped
-        entirely if its top-level StopUpdates or its ApplyRandomStats.StopUpdates
-        is True. Sets LockRandomModifications on a match unless
-        ApplyRandomStats.SetRandomLock is False.
-        ApplyRandomStats.OverrideRandomLock ignores LockRandomModifications for
-        that entry, forcing a full re-application."""
-        handle_map = discoverFields._load_map(
-            "profile_to_modifications_improvements_map.json"
-        )
+        MatchCombos entry. Same data/`map_data` as tier 6, but a separate pass
+        gated by LockRandomModifications, and never touches corpse blocks
+        (every randomization output field is corpse-excluded). Sets
+        LockRandomModifications on a match unless ApplyRandomStats.SetRandomLock
+        is False. ApplyRandomStats.OverrideRandomLock ignores
+        LockRandomModifications for that entry, forcing a full re-application."""
         matched_guids = set()
 
-        for entry in handle_map.values():
-            if entry.get("StopUpdates", False):
+        for entry_key, entry in map_data.items():
+            if entry_key == "dateApplied":
                 continue
             match_combos = entry.get("MatchCombos", [])
             if not match_combos:
                 continue
             random_stats = entry.get("ApplyRandomStats") or {}
-            if random_stats.get("StopUpdates", False):
-                continue
             random_passives = random_stats.get("RandomPassives") or []
             random_passive_count = random_stats.get("RandomPassiveCount", 0) or 0
             random_spells = random_stats.get("RandomSpells") or []
@@ -559,27 +571,95 @@ class discoverFields:
 
         return blocks
 
+    # ── Discovery maps (Tier 6-7 driver) ─────────────────────────────────────
+
+    DISCOVERY_MAPS_DIR = "discovery_maps"
+    ARCHIVE_DISCOVERY_MAPS_DIR = "archive_discovery_maps"
+
+    @staticmethod
+    def _stamp_date_applied(map_data):
+        """Returns a copy of map_data with a 'dateApplied' key inserted first
+        (dict insertion order = JSON key order, so it lands at the top of the
+        written file), formatted as 'Weekday MM/DD/YY HH:MM'."""
+        now = datetime.now()
+        stamp = now.strftime("%a %m/%d/%y %H:%M")
+        return {"dateApplied": stamp, **map_data}
+
+    @staticmethod
+    def apply_discovery_map(blocks, filename, dry_run=False):
+        """Loads a MatchCombos map (any .json file shaped like the old
+        profile_to_modifications_improvements_map.json) and runs it through
+        tiers 6-7 against `blocks` - the same engine that used to be
+        hardcoded to always read that one file. A bare filename (no path
+        separators) resolves against maps/discovery_maps/; anything else
+        (relative or absolute) is used as given, so this works on any .json
+        map regardless of where it lives - it doesn't have to already be in
+        discovery_maps/. This is meant for one-off application: once run,
+        the map is stamped with a top-level dateApplied (Weekday MM/DD/YY
+        HH:MM), written back to its original location, then moved into
+        maps/archive_discovery_maps/ under its own filename, so a glance at
+        that folder shows what's already been applied and when. In
+        --dry-run mode the map's effects still apply to `blocks` in memory
+        (so the diff/summary reflects them), but the source file is left
+        untouched - nothing is stamped, moved, or archived."""
+        if not filename.lower().endswith(".json"):
+            raise ValueError(
+                f"apply_discovery_map only accepts .json files, got: {filename}"
+            )
+
+        base_dir = os.path.dirname(__file__)
+        if os.path.basename(filename) == filename:
+            map_path = os.path.join(
+                base_dir, "maps", discoverFields.DISCOVERY_MAPS_DIR, filename
+            )
+        else:
+            map_path = filename
+
+        with open(map_path, "r") as f:
+            map_data = json.load(f)
+
+        discoverFields.monster_archetype_to_static_modifications_and_info(
+            blocks, map_data
+        )
+        discoverFields.monster_archetype_to_random_modifications(blocks, map_data)
+
+        if dry_run:
+            return blocks
+
+        stamped = discoverFields._stamp_date_applied(map_data)
+        with open(map_path, "w") as f:
+            json.dump(stamped, f, indent=4)
+
+        archive_dir = os.path.join(
+            base_dir, "maps", discoverFields.ARCHIVE_DISCOVERY_MAPS_DIR
+        )
+        os.makedirs(archive_dir, exist_ok=True)
+        stem, ext = os.path.splitext(os.path.basename(map_path))
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        shutil.move(
+            map_path, os.path.join(archive_dir, f"{stem}_{timestamp}{ext}")
+        )
+
+        return blocks
+
     # ── Orchestrator ─────────────────────────────────────────────────────────
 
     @staticmethod
     def update_modifications_and_information(blocks):
-        """The single entry point: runs all seven Modification/Information
-        tiers against `blocks`, most specific to least specific (ClassArchetype
-        -> SubType -> Type -> MonsterArchetype). Each tier only touches blocks
-        still unlocked for that tier's update type (LockBlock always wins);
-        the MonsterArchetype tiers (6-7) additionally set their own lock on a
-        match, so later runs skip a block they've already updated. Per-entry
-        overrides for tiers 6-7 (StopUpdates/OverrideStaticLock/
-        OverrideRandomLock/etc.) live directly in
-        profile_to_modifications_improvements_map.json - see
-        monster_archetype_to_static_modifications_and_info."""
+        """Runs the five permanent, automatic Modification/Information tiers
+        against `blocks`, most specific to least specific (ClassArchetype ->
+        SubType -> Type). Each tier only touches blocks still unlocked for
+        that tier's update type (LockBlock always wins). These tiers are
+        driven by the maps/ folder's static identifier maps, which are always
+        in effect. One-off MonsterArchetype/MatchCombo updates - including
+        race traits (maps/discovery_maps/races.json) - are no longer part of
+        this automatic pass; see apply_discovery_map for applying
+        maps/discovery_maps/ entries explicitly."""
         discoverFields.class_archetype_to_static_modifications(blocks)
         discoverFields.class_archetype_to_random_modifications(blocks)
         discoverFields.subtype_to_static_modifications(blocks)
         discoverFields.subtype_to_random_modifications(blocks)
         discoverFields.type_to_static_modifications(blocks)
-        discoverFields.monster_archetype_to_static_modifications_and_info(blocks)
-        discoverFields.monster_archetype_to_random_modifications(blocks)
         return blocks
 
     # ── Standalone utility (not part of the tier cascade) ───────────────────
@@ -656,7 +736,18 @@ if __name__ == "__main__":
         "--dry-run",
         action="store_true",
         help="Preview changes without writing to guid_mapper_master.json. Writes "
-        "dryrun/guid_mapper_master_dryrun.json instead and prints a summary.",
+        "dryrun/guid_mapper_master_dryrun.json instead and prints a summary. Any "
+        "--discover map is also left untouched in maps/discovery_maps/ (not "
+        "stamped or archived).",
+    )
+    parser.add_argument(
+        "--discover",
+        nargs="*",
+        default=[],
+        metavar="FILENAME",
+        help="One or more MatchCombos map filenames in maps/discovery_maps/ to "
+        "apply after the automatic tiers. Each is stamped with dateApplied and "
+        "moved to maps/archive_discovery_maps/ once applied (skipped in --dry-run).",
     )
     args = parser.parse_args()
 
@@ -667,11 +758,10 @@ if __name__ == "__main__":
     blocks = MonsterStatBlock.deduplicate(blocks)
     before_snapshot = MonsterStatBlock.snapshot(blocks)
 
-    # To force a MonsterArchetype-tier entry in
-    # profile_to_modifications_improvements_map.json to re-apply to blocks
-    # already locked for that tier, set its ApplyStaticStats.OverrideStaticLock
-    # / ApplyRandomStats.OverrideRandomLock to true in the map itself.
     discoverFields.update_modifications_and_information(blocks)
+
+    for filename in args.discover:
+        discoverFields.apply_discovery_map(blocks, filename, dry_run=args.dry_run)
 
     diffs = MonsterStatBlock.diff_from_snapshot(before_snapshot, blocks)
 

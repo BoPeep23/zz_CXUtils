@@ -1,4 +1,211 @@
 {
+    "Fiend": [
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "Helm_Imp_Dead_02_5063e607-a739-43bd-8270-52f0bc81238a"
+        },
+        {
+            "Handle": "Imp",
+            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
+            "Guid": "S_FirstFight_Imp_Melee_01_07f1512b-efe9-4eb8-8ade-783435e9d7c9"
+        },
+        {
+            "Handle": "Imp",
+            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
+            "Guid": "S_FirstFight_Imp_Melee_02_5c5bd50b-147e-42e5-93cb-59a754df91ec"
+        },
+        {
+            "Handle": "Imp",
+            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
+            "Guid": "S_FirstFight_Imp_Ranged_01_38d1ce2f-4f19-4266-971d-61f08bc1a895"
+        },
+        {
+            "Handle": "Imp",
+            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
+            "Guid": "S_FirstFight_Imp_Ranged_02_df44fa65-5399-47d6-b5bb-70e4b8e63314"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp01_4a793e6c-572c-4541-a10e-ce75b1e62255"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp02_5849cd14-4f4a-4742-bb0c-056c3ef7f90e"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp03_4adcf56c-e1cc-4441-8e3f-0761172407d4"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp04_55c88dba-6d2d-4082-b5dc-be1590c0e326"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp05_5ceed225-db6e-4652-bd4b-88c250550193"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_BOUDOIR",
+            "Guid": "S_LOW_HouseOfHope_BoudoirImp06_3a9e98f5-fe4c-46b2-a129-1e67fe92512b"
+        },
+        {
+            "Handle": "Vengeful Boar",
+            "Location": "HOPE_HALLWAYS",
+            "Guid": "S_LOW_HouseOfHope_FlamingBoar01_0d1cf2a6-0b56-4c14-83d1-7587e9c8c63c"
+        },
+        {
+            "Handle": "Vengeful Boar",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_FlamingBoar02_82efa3b1-ed21-4569-ac26-65b8a42dde9b"
+        },
+        {
+            "Handle": "Vengeful Boar",
+            "Location": "HOPE_HALLWAYS",
+            "Guid": "S_LOW_HouseOfHope_FlamingBoar03_a618f956-d2e8-4108-b5e9-7729286c3993"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_Imp01_ad2d83ec-102b-4f92-b98a-5ca981a23421"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_Imp02_d41533a3-b1d9-4cd3-b495-5732c989bd25"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_HALLWAYS",
+            "Guid": "S_LOW_HouseOfHope_Imp03_502cb8ab-7c8d-4465-b0cb-abab76da524a"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_HALLWAYS",
+            "Guid": "S_LOW_HouseOfHope_Imp04_0e3d4128-0bd4-4c05-a6a3-3d654b75043b"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_NotMerregon02_b8c31050-f17e-46a8-bae6-ac98481e3d5a"
+        },
+        {
+            "Handle": "Vengeful Boar",
+            "Location": "HOPE_DININGROOM",
+            "Guid": "S_LOW_HouseOfHope_NotMerregon03_8d08bf81-ae38-4493-8208-a9827fda6a36"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_000_7f9717a3-16c6-4323-9976-a31d27e36495"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_001_74282535-2053-4a8d-98ff-6413ea2136dd"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_002_095fbaa2-51c3-47fe-8626-22f28f1bece8"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_003_b5d6b288-45d1-497b-8339-cead5e16133d"
+        },
+        {
+            "Handle": "Vengeful Imp",
+            "Location": "HOPE_PRISON",
+            "Guid": "S_LOW_HouseOfHope_Prison_Imp_004_401761d3-a021-4a8a-968f-85c7e7e8675c"
+        },
+        {
+            "Handle": "Vengeful Cambion",
+            "Location": "HOPE_RAPHAEL",
+            "Guid": "S_LOW_HouseOfHope_RaphaelCambion01_4535facb-487c-4ab8-82e2-0f28558a7d16"
+        },
+        {
+            "Handle": "Vengeful Cambion",
+            "Location": "HOPE_RAPHAEL",
+            "Guid": "S_LOW_HouseOfHope_RaphaelCambion02_3164499e-24cd-4417-baca-5f057b4d9518"
+        },
+        {
+            "Handle": "Vengeful Cambion",
+            "Location": "HOPE_RAPHAEL",
+            "Guid": "S_LOW_HouseOfHope_RaphaelCambion03_abc96d0e-846e-4986-ae72-39befabb128b"
+        },
+        {
+            "Handle": "Vengeful Cambion",
+            "Location": "HOPE_RAPHAEL",
+            "Guid": "S_LOW_HouseOfHope_RaphaelCambion04_25c6573c-acb8-437f-9fcf-81a80c56f540"
+        },
+        {
+            "Handle": "Vengeful Cambion",
+            "Location": "HOPE_RAPHAEL",
+            "Guid": "S_LOW_HouseOfHope_RaphaelCambion05_f7b77fc8-d732-4cf7-a541-34d16ad01dc6"
+        },
+        {
+            "Handle": "Vengeful Cambion",
+            "Location": "HOPE_RAPHAEL",
+            "Guid": "S_LOW_HouseOfHope_RaphaelCambion06_c9c4475f-a2e7-43d6-8df9-de081fef3f89"
+        },
+        {
+            "Handle": "Cambion",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_BackUpCambion_001_dfd44248-1212-4eb9-a6b4-8d7335ad57f7"
+        },
+        {
+            "Handle": "Lesser Hellsboar",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_DevilBackUp_001_c6b3a323-d7cf-4b02-8a21-fefeaf3e7a0a"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_DevilBackUp_002_4afad8cc-436e-4d16-8b33-7e59a470d4a8"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_DevilBackUp_003_a73bd45a-99b6-4486-a280-846ddd586b78"
+        },
+        {
+            "Handle": "Lesser Hellsboar",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_000_1650c758-c9c2-d487-387d-22a269fd7918"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_001_8262153a-b469-d119-2041-8316e0648ae0"
+        },
+        {
+            "Handle": "Lesser Imp",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_003_139971a8-86c5-4ee9-b201-18da4a2cb0ed"
+        },
+        {
+            "Handle": "Cambion",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_004_307d7d95-96f3-40db-9c2b-65ed63aa5c1d"
+        },
+        {
+            "Handle": "Commander Zhalk",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_005_ed103005-fd71-457d-ae6c-39654bbd8f2e"
+        },
+        {
+            "Handle": "Cambion Lieutenant",
+            "Location": "PROLOGUE_NAUTILOID_HELM",
+            "Guid": "S_TUT_Helm_Devil_006_06b30605-e1da-47a0-85da-370541af4976"
+        }
+    ],
     "Unknown": [
         {
             "Handle": "Sharp-Eye Neem",
@@ -172,38 +379,23 @@
         },
         {
             "Handle": "Animated Armour",
-            "Location": "",
+            "Location": "08_UNDERDARK_WIZARD_ENTRANCE",
             "Guid": "EO_AnimatedArmor_1_48390d2b-5267-45fb-a49f-2b52ca352d84"
         },
         {
             "Handle": "Animated Armour",
-            "Location": "",
+            "Location": "08_UNDERDARK_WIZARD_ENTRANCE",
             "Guid": "EO_AnimatedArmor_2_28afab9b-599d-49ee-b698-6f16f6e30a0f"
         },
         {
             "Handle": "Animated Armour",
-            "Location": "",
+            "Location": "08_UNDERDARK_WIZARD_ENTRANCE",
             "Guid": "EO_AnimatedArmor_3_66cefdec-83f1-4937-b45f-d93c7383c547"
         },
         {
-            "Handle": "Blighted Assassin",
-            "Location": "",
-            "Guid": "EO_BlightedAssassin_cfe53b47-7f03-4462-9814-ed47692040d8"
-        },
-        {
             "Handle": "Nigrok",
-            "Location": "",
+            "Location": "04_FOREST_PATH_HARPERS",
             "Guid": "EO_Bugbear_Ranger_196e46b5-d9fc-4ac4-bfe8-842a66fbb42e"
-        },
-        {
-            "Handle": "Lesser Bulette",
-            "Location": "",
-            "Guid": "EO_Bulette_1_b6e47ca8-6b21-4141-8fda-2238d419760d"
-        },
-        {
-            "Handle": "Lesser Bulette",
-            "Location": "",
-            "Guid": "EO_Bulette_2_30dc8437-bd22-4302-8d28-b2c6c0a07ff4"
         },
         {
             "Handle": "Gethra",
@@ -342,17 +534,17 @@
         },
         {
             "Handle": "Sharran Sentry Rycroft",
-            "Location": "",
+            "Location": "06_TEMPLE_HIDDEN_SHAR",
             "Guid": "EO_DefiledTemple_Gloomstalker_Ranger_6ebc6b87-eaeb-4d3b-afac-ddff545d3019"
         },
         {
             "Handle": "Griefguard Theresia",
-            "Location": "",
+            "Location": "06_TEMPLE_HIDDEN_SHAR",
             "Guid": "EO_DefiledTemple_Trickery_Cleric_fc83ce47-3ce0-4be5-b1bc-83501cb10251"
         },
         {
             "Handle": "Alan",
-            "Location": "",
+            "Location": "10_MOUNTAIN_TRAIL_SHRINE",
             "Guid": "EO_Dino_0caf83fa-0cbd-4f43-880e-898c5f47ec4c"
         },
         {
@@ -372,17 +564,17 @@
         },
         {
             "Handle": "Igni",
-            "Location": "",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
             "Guid": "EO_FireDjinni_a0698031-7ede-4d76-b8d4-83d5985ad1dc"
         },
         {
             "Handle": "Lava Elemental",
-            "Location": "",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
             "Guid": "EO_ForgeLavaELemental_1_e536320d-5246-4175-90f8-abd6ce3a60c9"
         },
         {
             "Handle": "Lava Elemental",
-            "Location": "",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
             "Guid": "EO_ForgeLavaELemental_2_770cc178-fb9e-49e9-b6e0-2881a79421f5"
         },
         {
@@ -402,7 +594,7 @@
         },
         {
             "Handle": "Ghoul",
-            "Location": "EO_CRYPT_CENTER",
+            "Location": "02_CHAPEL_INTERIOR_HIDDEN",
             "Guid": "EO_GhoulRuins_584ffd8c-c3cd-43ea-86aa-a384bb1f43cb"
         },
         {
@@ -457,27 +649,27 @@
         },
         {
             "Handle": "Gnoll Flesh Gnawer",
-            "Location": "RISEN_WAYPOINT",
+            "Location": "07_RISEN_GNOLLS_WAYPOINT",
             "Guid": "EO_GnollMelee_1_3a373420-dda8-40df-b867-de6f970011d4"
         },
         {
             "Handle": "Gnoll Flesh Gnawer",
-            "Location": "RISEN_WAYPOINT",
+            "Location": "07_RISEN_GNOLLS_WAYPOINT",
             "Guid": "EO_GnollMelee_2_2725b80f-9cba-4b51-af19-4d8306a99be5"
         },
         {
             "Handle": "Gnoll Hunter",
-            "Location": "RISEN_WAYPOINT",
+            "Location": "07_RISEN_GNOLLS_WAYPOINT",
             "Guid": "EO_GnollRanged_1_d434124e-8ce0-487e-90a0-bea32486e322"
         },
         {
             "Handle": "Gnoll Hunter",
-            "Location": "RISEN_WAYPOINT",
+            "Location": "07_RISEN_GNOLLS_WAYPOINT",
             "Guid": "EO_GnollRanged_2_40b7a766-8e3e-440e-b808-3cfc2dcbba82"
         },
         {
             "Handle": "Gnoll Hunter",
-            "Location": "RISEN_WAYPOINT",
+            "Location": "07_RISEN_GNOLLS_WAYPOINT",
             "Guid": "EO_GnollRanged_3_d5099c55-e6f6-44a8-85c5-5a57bddaeb16"
         },
         {
@@ -512,17 +704,17 @@
         },
         {
             "Handle": "Harpy",
-            "Location": "",
+            "Location": "10_MOUNTAIN_LATHANDER_EAGLES",
             "Guid": "EO_Harpy_1_14355f11-2a3d-4b78-acaf-5e4d354af57e"
         },
         {
             "Handle": "Harpy",
-            "Location": "",
+            "Location": "10_MOUNTAIN_LATHANDER_EAGLES",
             "Guid": "EO_Harpy_2_a63b057d-ea8b-4284-ab69-70f7aebd88bc"
         },
         {
             "Handle": "Harpy",
-            "Location": "",
+            "Location": "10_MOUNTAIN_LATHANDER_EAGLES",
             "Guid": "EO_Harpy_3_a17d8b9e-87d1-4918-a652-300f7f933256"
         },
         {
@@ -547,12 +739,12 @@
         },
         {
             "Handle": "Justiciar Crusader Mihra",
-            "Location": "",
+            "Location": "06_TEMPLE_HIDDEN_SHAR",
             "Guid": "EO_Justiciar_DefiledTemple_1_8c816816-0be7-42b1-a0ff-1960b0172658"
         },
         {
             "Handle": "Justiciar Crusader Pue",
-            "Location": "",
+            "Location": "06_TEMPLE_HIDDEN_SHAR",
             "Guid": "EO_Justiciar_DefiledTemple_2_0e473c58-f86f-4952-a8c8-73e8ffb348c6"
         },
         {
@@ -567,43 +759,38 @@
         },
         {
             "Handle": "Orzuk Kraag",
-            "Location": "FOREST_PATH",
+            "Location": "04_FOREST_PATH_KOBOLDS",
             "Guid": "EO_Kobold_Leader_328b6afc-85d8-490d-bc43-dc58daf3039e"
         },
         {
             "Handle": "Kobold Minion",
-            "Location": "FOREST_PATH",
+            "Location": "04_FOREST_PATH_KOBOLDS",
             "Guid": "EO_Kobold_Melee_1_e6c348f1-2a7f-4984-a7a4-f0f9576094d8"
         },
         {
             "Handle": "Kobold Minion",
-            "Location": "FOREST_PATH",
+            "Location": "04_FOREST_PATH_KOBOLDS",
             "Guid": "EO_Kobold_Melee_2_0fc90706-4e35-47f4-940b-b325cb575110"
         },
         {
             "Handle": "Kobold Minion",
-            "Location": "FOREST_PATH",
+            "Location": "04_FOREST_PATH_KOBOLDS",
             "Guid": "EO_Kobold_Melee_3_00351206-3cc6-46f7-b79b-159e9e140235"
         },
         {
             "Handle": "Kobold Minion",
-            "Location": "FOREST_PATH",
+            "Location": "04_FOREST_PATH_KOBOLDS",
             "Guid": "EO_Kobold_Melee_4_0a799084-4823-4350-8ca3-29fd6d8d56a1"
         },
         {
             "Handle": "Kobold Minion",
-            "Location": "FOREST_PATH",
+            "Location": "04_FOREST_PATH_KOBOLDS",
             "Guid": "EO_Kobold_Ranger_1_48c19af9-7132-4361-af2d-828fb3b8cde7"
         },
         {
             "Handle": "Kobold Minion",
-            "Location": "FOREST_PATH",
+            "Location": "04_FOREST_PATH_KOBOLDS",
             "Guid": "EO_Kobold_Ranger_2_c28b2646-0564-456e-8b7e-6664dc73a0f9"
-        },
-        {
-            "Handle": "Kuo-Toa",
-            "Location": "EO_BEACH_KUOTOA",
-            "Guid": "EO_KuoToa_HighPriest_1_a6b1515b-1f3d-487b-a649-b00223a09b7b"
         },
         {
             "Handle": "Kuo-Toa",
@@ -614,16 +801,6 @@
             "Handle": "Kuo-Toa",
             "Location": "SWAMP_KUOTOA",
             "Guid": "EO_KuoToa_Ranger_1_7c93e8ef-358b-4196-9672-8e1174658c2f"
-        },
-        {
-            "Handle": "Kuo-Toa",
-            "Location": "EO_BEACH_KUOTOA",
-            "Guid": "EO_Kuotoa_1_2fe368c9-b693-4503-a8ed-39cba90f3635"
-        },
-        {
-            "Handle": "Kuo-Toa",
-            "Location": "EO_BEACH_KUOTOA",
-            "Guid": "EO_Kuotoa_2_d7deae1e-95d1-4576-a42d-9f83c83283a1"
         },
         {
             "Handle": "Kuo-Toa",
@@ -642,27 +819,27 @@
         },
         {
             "Handle": "Lathander's Honor Guard",
-            "Location": "CRECHE_BACK_LATHANDER",
+            "Location": "10_CRECHE_SECRET_LATHANDER",
             "Guid": "EO_Lathander_Guard_1_403f0c08-1fe7-4c1f-8f38-892792e74933"
         },
         {
             "Handle": "Lathander's Honor Guard",
-            "Location": "CRECHE_BACK_LATHANDER",
+            "Location": "10_CRECHE_SECRET_LATHANDER",
             "Guid": "EO_Lathander_Guard_2_55b24425-ab1c-40a1-9791-9c25b0883935"
         },
         {
             "Handle": "Lathander's Paladin",
-            "Location": "CRECHE_BACK_LATHANDER",
+            "Location": "10_CRECHE_SECRET_LATHANDER",
             "Guid": "EO_Lathanders_Image_e84d8eb3-89ab-4b65-b6e1-05b04afc2d1c"
         },
         {
             "Handle": "Young Red Dragon",
-            "Location": "",
+            "Location": "07_RISEN_BRIDGE_GITH",
             "Guid": "EO_LesserDrakeRed_f3f0ad95-bc16-495e-b087-e678d514bdb5"
         },
         {
             "Handle": "Bridge Patroller",
-            "Location": "EO_WILDERNESS_BRIDGE",
+            "Location": "04_FOREST_PATH_BRIDGE",
             "Guid": "EO_Minotaur_526e3d7f-cc97-46bb-a81a-4cbec355a519"
         },
         {
@@ -717,7 +894,7 @@
         },
         {
             "Handle": "Moozag",
-            "Location": "RISEN_WAYPOINT",
+            "Location": "07_RISEN_GNOLLS_WAYPOINT",
             "Guid": "EO_Ogre_1_c7b7b805-08a7-4f86-980d-121fa00d1dac"
         },
         {
@@ -732,7 +909,7 @@
         },
         {
             "Handle": "Owlbear",
-            "Location": "EO_WILDERNESS_OWLBEAR",
+            "Location": "04_FOREST_CAVES_OWLBEARS",
             "Guid": "EO_Owlbear_3cfcf07f-fdf2-4203-9c8e-fc8fe47b5eb5"
         },
         {
@@ -857,12 +1034,12 @@
         },
         {
             "Handle": "Sabre-Toothed Tiger",
-            "Location": "",
+            "Location": "10_MOUNTAIN_TRAIL_GOBLINS",
             "Guid": "EO_SabreTooth1_14a87b00-1b2a-4dfa-9062-8df3016fc7f7"
         },
         {
             "Handle": "Sabre-Toothed Tiger",
-            "Location": "",
+            "Location": "10_MOUNTAIN_TRAIL_GOBLINS",
             "Guid": "EO_SabreTooth2_3129e3bd-0ef3-4ea7-9bb6-577cf78fcde8"
         },
         {
@@ -897,77 +1074,77 @@
         },
         {
             "Handle": "Underground Giant Spider",
-            "Location": "",
+            "Location": "08_UNDERDARK_SELUNE_",
             "Guid": "EO_Spider_Giant_1_5abdd6c2-4997-4106-b01f-b11a82bfede5"
         },
         {
             "Handle": "Underground Giant Spider",
-            "Location": "",
+            "Location": "08_UNDERDARK_SELUNE_",
             "Guid": "EO_Spider_Giant_2_d5b54862-0c98-4c72-97dc-1d673144f3b9"
         },
         {
             "Handle": "Cutlist Nsiria",
-            "Location": "",
+            "Location": "08_UNDERDARK_MYCONIDS_OUTSIDE",
             "Guid": "EO_UND_Beastmaster_Ranger_7861f2e9-624d-4284-91ab-d468dfd21fed"
         },
         {
             "Handle": "Duergar Assassin",
-            "Location": "",
+            "Location": "08_UNDERDARK_MYCONIDS_OUTSIDE",
             "Guid": "EO_UND_Duergar_Assassin_Rogue_1_9663069c-c92c-44e5-99fb-57580ec70c08"
         },
         {
             "Handle": "Duergar Assassin",
-            "Location": "",
+            "Location": "08_UNDERDARK_MYCONIDS_OUTSIDE",
             "Guid": "EO_UND_Duergar_Assassin_Rogue_2_f3905e1b-3bae-42b1-8936-2c76622b4106"
         },
         {
             "Handle": "Duergar Assassin",
-            "Location": "",
+            "Location": "08_UNDERDARK_MYCONIDS_OUTSIDE",
             "Guid": "EO_UND_Duergar_Assassin_Rogue_3_2a5114de-d206-423a-b747-2f3169696422"
         },
         {
             "Handle": "General Elrsaehilde",
-            "Location": "UNDERDARK_VILLAGE",
+            "Location": "08_UNDERDARK_MYCONIDS_OUTSIDE",
             "Guid": "EO_UND_Duergar_Champion_Fighter_a16d9fef-0faf-4dbd-8f00-3a4a896166ab"
         },
         {
             "Handle": "Admiral Vammeatalyn",
-            "Location": "UNDERDARK_VILLAGE",
+            "Location": "08_UNDERDARK_MYCONIDS_OUTSIDE",
             "Guid": "EO_UND_Duergar_Draconic_Sorcerer_420d2e20-1706-4a25-b919-77679ec99cc4"
         },
         {
             "Handle": "Cutlist Celelaeth",
-            "Location": "",
+            "Location": "08_UNDERDARK_MYCONIDS_OUTSIDE",
             "Guid": "EO_UND_Evocation_Wizard_f5498583-cda7-41a0-beed-510bce52a498"
         },
         {
             "Handle": "Drow Hunter",
-            "Location": "",
+            "Location": "08_UNDERDARK_MYCONIDS_OUTSIDE",
             "Guid": "EO_UND_Hunter_Ranger_d5225a25-e015-460c-9a33-1fd6c9b458a1"
         },
         {
             "Handle": "Cultist Astryn",
-            "Location": "RISEN_WAYPOINT",
+            "Location": "07_RISEN_GNOLLS_WAYPOINT",
             "Guid": "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea"
         },
         {
             "Handle": "Bugbear",
-            "Location": "WAUKEEN_ENTRANCE",
+            "Location": "07_RISEN_WAUKEEN_BUGBEARS",
             "Guid": "EO_Waukeen_Bugbear_1_53cedc0f-cefa-4ef2-9bca-4dbcae936677"
         },
         {
             "Handle": "Bugbear",
-            "Location": "WAUKEEN_ENTRANCE",
+            "Location": "07_RISEN_WAUKEEN_BUGBEARS",
             "Guid": "EO_Waukeen_Bugbear_2_adf97bc9-6acb-4cd6-bf70-5d2047237be6"
         },
         {
             "Handle": "Worg",
-            "Location": "WAUKEEN_ENTRANCE",
+            "Location": "07_RISEN_WAUKEEN_BUGBEARS",
             "Guid": "EO_Waukeen_Worg_1_a053d2a4-42b7-4bf5-9f7d-e9779b464563"
         },
         {
             "Handle": "Worg",
-            "Location": "WAUKEEN_ENTRANCE",
+            "Location": "07_RISEN_WAUKEEN_BUGBEARS",
             "Guid": "EO_Waukeen_Worg_2_73101b69-f926-4c53-8419-524cdb22637d"
         },
         {
@@ -977,27 +1154,27 @@
         },
         {
             "Handle": "Tamed Wolf",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_WOLVES",
             "Guid": "EO_Wolf_1_c3921e19-5364-42fc-91ac-ecc244b56d77"
         },
         {
             "Handle": "Tamed Wolf",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_WOLVES",
             "Guid": "EO_Wolf_2_87a84a7d-3a4f-4847-92b9-17a4ce118c9f"
         },
         {
             "Handle": "Wood Woad",
-            "Location": "FOREST_WOADS",
+            "Location": "04_FOREST_PATH_WOODWOADS",
             "Guid": "EO_WoodWoad_1_ed8f3191-c68b-448c-aa8c-2480e2a83d69"
         },
         {
             "Handle": "Wood Woad",
-            "Location": "FOREST_WOADS",
+            "Location": "04_FOREST_PATH_WOODWOADS",
             "Guid": "EO_WoodWoad_2_024d4dae-26c7-476a-8ca8-b83343ef2602"
         },
         {
             "Handle": "Wood Woad",
-            "Location": "",
+            "Location": "04_FOREST_PATH_WOODWOADS",
             "Guid": "EO_WoodWoad_3_0a79f8e6-475e-42c6-8069-349d2b4b195a"
         },
         {
@@ -1276,11 +1453,6 @@
             "Guid": "MMM_AMINOTAUR_3cefad8c-5cad-4821-a7c7-77ec2201db48"
         },
         {
-            "Handle": "Hobgoblin",
-            "Location": "",
-            "Guid": "MMM_BACKDOOR_f1418953-49ef-494d-9dc6-9448d752fc04"
-        },
-        {
             "Handle": "Necrofex",
             "Location": "",
             "Guid": "MMM_BALTHAZARSKELETON_45437558-8c7b-45b3-8a4f-4201643ebe9a"
@@ -1309,21 +1481,6 @@
             "Handle": "Damon Eyesz",
             "Location": "",
             "Guid": "MMM_BALTHAZARZOMBIE_df0c3aa8-1d07-49f8-b035-d04d0f5684d1"
-        },
-        {
-            "Handle": "Bridge Troll",
-            "Location": "MMM_WILDERNESS_BRIDGE",
-            "Guid": "MMM_BRIDGETROLL_711e0cb6-6d7d-4233-9157-2a218f5f348d"
-        },
-        {
-            "Handle": "Bonesnappah",
-            "Location": "",
-            "Guid": "MMM_BUGBEARCHALLENGER_46545754-5089-4e85-b34d-81395e5ebb44"
-        },
-        {
-            "Handle": "Murderous Bugbear",
-            "Location": "FOREST_BLIGHTED_RISENPATH",
-            "Guid": "MMM_BUGBEARMURDER_1d905255-1735-4afe-988d-5cfee3f85643"
         },
         {
             "Handle": "Baby Bulette",
@@ -1856,49 +2013,9 @@
             "Guid": "MMM_INCUBUS_310b8d54-4647-20dd-ff56-0d98bbd16678"
         },
         {
-            "Handle": "Slegbezzle",
-            "Location": "FOREST_BLIGHTED_RISENPATH",
-            "Guid": "MMM_ITSCOMPLICATED_4295596a-1cae-45ff-a481-e29ca6d616ec"
-        },
-        {
-            "Handle": "Bogsnap",
-            "Location": "FOREST_GROVE_ENTRANCE",
-            "Guid": "MMM_ITSCOMPLICATED_fee2b522-e440-4fae-9b9a-a597cf03c434"
-        },
-        {
             "Handle": "Juvenile Red Dragon",
             "Location": "",
             "Guid": "MMM_JUVENILERED_c0ce95ee-8112-4977-a2bf-97f53d051cf7"
-        },
-        {
-            "Handle": "Kuo-toa",
-            "Location": "MMM_BEACH_KUOTOA",
-            "Guid": "MMM_KUOTOADOCK_484f7b3a-db90-4857-8c6f-f4014f555088"
-        },
-        {
-            "Handle": "Kuo-toa",
-            "Location": "MMM_BEACH_KUOTOA",
-            "Guid": "MMM_KUOTOADOCK_5a818130-eccf-4648-bdcf-24219d57e7ee"
-        },
-        {
-            "Handle": "Kuo-toa Priest",
-            "Location": "MMM_BEACH_KUOTOA",
-            "Guid": "MMM_KUOTOADOCK_6f043e7e-8491-4525-82c2-b7b5ad5c4535"
-        },
-        {
-            "Handle": "Lava Elemental",
-            "Location": "",
-            "Guid": "MMM_LAVAELEMENTAL_bc37c6a1-ed92-4f31-92a4-7ce718ffc5b6"
-        },
-        {
-            "Handle": "Baby Bear",
-            "Location": "SWAMP_LOG",
-            "Guid": "MMM_LOGBEAR_48277221-bd08-42f4-a3af-09415731ee58"
-        },
-        {
-            "Handle": "Mama Bear",
-            "Location": "SWAMP_LOG",
-            "Guid": "MMM_LOGBEAR_5daaafd1-d23c-41bf-b915-ae129e6c4cf9"
         },
         {
             "Handle": "Servant of Lolth",
@@ -2211,18 +2328,13 @@
             "Guid": "MMM_THIEFTRIO1B_f7b34dfd-62e2-488e-bd9b-e04ac9b4b4f9"
         },
         {
-            "Handle": "Adam 'Buggy' Wright",
-            "Location": "GLOBAL_MMM_THIEFTRIO",
-            "Guid": "MMM_THIEFTRIO3_70a7129a-f413-4d07-b297-4cf540d0c6cc"
-        },
-        {
             "Handle": "Mikey 'Wiggles' Pridgen",
-            "Location": "GLOBAL_MMM_THIEFTRIO",
+            "Location": "",
             "Guid": "MMM_THIEFTRIO3_872af681-9bd6-464e-91f6-29992903f3ab"
         },
         {
             "Handle": "Lyin' Liam Layton",
-            "Location": "GLOBAL_MMM_THIEFTRIO",
+            "Location": "",
             "Guid": "MMM_THIEFTRIO3_db593fe5-9fb7-48a6-b5f9-d7a6becc7865"
         },
         {
@@ -2746,131 +2858,6 @@
             "Guid": "S_CAMP_TieflingBackup_016_1c7feae4-cc4c-4723-a7f6-9bb3f5b92e3c"
         },
         {
-            "Handle": "Nymessa",
-            "Location": "",
-            "Guid": "S_CHA_CagerLaezel1_2c8537fb-bf73-43a2-a8ff-48e41453adea"
-        },
-        {
-            "Handle": "Damays",
-            "Location": "",
-            "Guid": "S_CHA_CagerLaezel2_863d6788-5887-45c8-bafa-87128631904e"
-        },
-        {
-            "Handle": "Dead Goblin",
-            "Location": "",
-            "Guid": "S_CHA_DeadGoblin_001_8c289941-8261-43cd-857a-cbab5943978b"
-        },
-        {
-            "Handle": "Dead Goblin",
-            "Location": "",
-            "Guid": "S_CHA_DeadGoblin_002_a3d3846a-713a-4ef7-9120-a13862ddd063"
-        },
-        {
-            "Handle": "Dead Goblin",
-            "Location": "",
-            "Guid": "S_CHA_DeadGoblin_003_27934f30-fdfe-4b01-aa46-1a708e76741d"
-        },
-        {
-            "Handle": "Quelenna",
-            "Location": "CRYPT_ENTRANCE",
-            "Guid": "S_CHA_Exterior_Bandit_Caster_01_0f4300f6-0e1e-4d6c-a582-5da588d64ea7"
-        },
-        {
-            "Handle": "Gimblebock",
-            "Location": "CRYPT_ENTRANCE",
-            "Guid": "S_CHA_Exterior_Bandit_Melee_01_538e38b9-e3a4-452a-8369-60eb1fe8c40d"
-        },
-        {
-            "Handle": "Taman",
-            "Location": "CRYPT_ENTRANCE",
-            "Guid": "S_CHA_Exterior_Bandit_Melee_02_b5c913f9-f081-45bd-8e95-e34d0735b645"
-        },
-        {
-            "Handle": "Warryn",
-            "Location": "CRYPT_ENTRANCE",
-            "Guid": "S_CHA_Exterior_Bandit_Ranger_01_fa1a1fbd-2152-40e4-b53d-29e95d54279e"
-        },
-        {
-            "Handle": "Entombed Scribe",
-            "Location": "CRYPT_UNDEAD",
-            "Guid": "S_CHA_FL0_DeadSkeleton_Caster_01_7af3fa6c-7f7a-4920-acaf-f091e7c62373"
-        },
-        {
-            "Handle": "Entombed Scribe",
-            "Location": "CRYPT_UNDEAD",
-            "Guid": "S_CHA_FL0_DeadSkeleton_Caster_02_1535feb9-7ff9-4132-be09-191ba3f8c2e1"
-        },
-        {
-            "Handle": "Entombed Scribe",
-            "Location": "CRYPT_UNDEAD",
-            "Guid": "S_CHA_FL0_DeadSkeleton_Caster_03_462f0982-35c4-4a34-a3bf-399f37e686ee"
-        },
-        {
-            "Handle": "Entombed Scribe",
-            "Location": "CRYPT_UNDEAD",
-            "Guid": "S_CHA_FL0_DeadSkeleton_Caster_04_cb4c2c8f-b6db-4c53-b7e3-395aef311a39"
-        },
-        {
-            "Handle": "Entombed Warrior",
-            "Location": "CRYPT_UNDEAD",
-            "Guid": "S_CHA_FL0_DeadSkeleton_Melee_01_ebf854f1-7971-4f81-a2b7-e4b79b550b85"
-        },
-        {
-            "Handle": "Entombed Warrior",
-            "Location": "",
-            "Guid": "S_CHA_FL0_DeadSkeleton_Melee_03_ece224d0-ba7f-48e0-93ed-33b9410786cd"
-        },
-        {
-            "Handle": "Andorn",
-            "Location": "CRYPT_BANDITS",
-            "Guid": "S_CHA_FL1_BanditGuard_4000f859-71fe-49ef-8400-da44b6fef92a"
-        },
-        {
-            "Handle": "Mari",
-            "Location": "CRYPT_BANDITS",
-            "Guid": "S_CHA_FL1_BanditLockpick_8409e274-4a4a-4de6-b34c-e701847ed86e"
-        },
-        {
-            "Handle": "Haseid",
-            "Location": "CRYPT_BANDITS",
-            "Guid": "S_CHA_FL1_BanditSanctum_01_fd5f646a-d5f6-4f19-904f-61dfc7e14d7e"
-        },
-        {
-            "Handle": "Torgga",
-            "Location": "CRYPT_BANDITS",
-            "Guid": "S_CHA_FL1_BanditSanctum_02_5d2f2ff7-d1c0-4f95-b12a-b17b60182cfc"
-        },
-        {
-            "Handle": "Cefrey",
-            "Location": "CRYPT_BANDITS",
-            "Guid": "S_CHA_FL1_BanditSanctum_03_81e99fb9-2a52-4a26-910d-a637c379f15b"
-        },
-        {
-            "Handle": "Barton",
-            "Location": "CRYPT_BANDITS",
-            "Guid": "S_CHA_FL1_BanditSanctum_f0945b85-3cfe-4312-b49a-3741b1f0bfc7"
-        },
-        {
-            "Handle": "Aggressive Crag Spider",
-            "Location": "FOREST_HARPER",
-            "Guid": "S_CHA_OutpostSpider_001_9323734f-c6c2-451d-9e74-4ba92db7977b"
-        },
-        {
-            "Handle": "Aggressive Crag Spider",
-            "Location": "FOREST_HARPER",
-            "Guid": "S_CHA_OutpostSpider_002_825b77f9-e540-4764-b612-4c6ef25c5c9f"
-        },
-        {
-            "Handle": "Aggressive Crag Spider",
-            "Location": "FOREST_HARPER",
-            "Guid": "S_CHA_OutpostSpider_003_93d169ee-3273-43c4-9861-597fbb968b3a"
-        },
-        {
-            "Handle": "Aggressive Crag Spider",
-            "Location": "FOREST_HARPER",
-            "Guid": "S_CHA_OutpostSpider_004_26ef4a71-8bfd-45e8-9169-51b85b95fcbe"
-        },
-        {
             "Handle": "Kressa Bonedaughter",
             "Location": "COLONY_BARRACKS",
             "Guid": "S_COL_Barracks_MistressOfSouls_6068a46e-bbe4-4fc6-b955-cd8886fa5542"
@@ -2992,52 +2979,52 @@
         },
         {
             "Handle": "Mangled Fisher",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadFisherman1_f511d70c-cfab-8672-1d4f-5304b3d73dfa"
         },
         {
             "Handle": "Dead Fisher",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadFisherman2_abe4e897-f8d0-8ad9-22d2-1fd83f99091c"
         },
         {
             "Handle": "Mangled Fisher",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadFisherman3_0b7bd9d6-1521-840d-35bc-b88d77b64195"
         },
         {
             "Handle": "Mangled Fisher",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadFisherman4_45ce79e2-7b25-8259-4d4f-74c2570fbc65"
         },
         {
             "Handle": "Dead Fisher",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadFisherman5_a54e7520-3ec1-835e-2bc0-ec97289e3e73"
         },
         {
             "Handle": "Mangled Fisher",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadFisherman6_1d63fb51-7ec7-87be-458e-4cb1049a4408"
         },
         {
             "Handle": "Abducted Commoner",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadPrisoner10_5ba4768a-4aa6-885a-4d91-d1ebd5575c67"
         },
         {
             "Handle": "Abducted Commoner",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadPrisoner5_6fec0fac-6b4b-8581-4d41-f8fa3af32e9b"
         },
         {
             "Handle": "Abducted Commoner",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadPrisoner9_67757711-8525-8fa0-1bf7-63f1a66be8b3"
         },
         {
             "Handle": "Abducted Nobleman",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadPrisoner_EncounterLoot_f35c29c6-d643-8423-1c50-577ac06ee5de"
         },
         {
@@ -3049,11 +3036,6 @@
             "Handle": "Intellect Devourer",
             "Location": "",
             "Guid": "S_CRA_Int_002_1d9ff85b-b5e4-41ed-a9ec-77ca88bf71c0"
-        },
-        {
-            "Handle": "Scared Boar",
-            "Location": "BEACH_ASTARION",
-            "Guid": "S_CRA_ScaredBoar_e352fae8-f49a-4f1d-b131-ea10af7591c9"
         },
         {
             "Handle": "Kobold Dragon Mage",
@@ -3426,88 +3408,43 @@
             "Guid": "S_CRE_Templar_378ac93e-03a0-40b4-904c-f37989ac7a8c"
         },
         {
-            "Handle": "Aradin",
-            "Location": "FOREST_GROVE_ENTRANCE",
-            "Guid": "S_DEN_AdventurerLeader_82d1b843-9e8c-48a5-9d87-caddea5c193c"
-        },
-        {
-            "Handle": "Nettie",
-            "Location": "FOREST_GROVE_CHAMBER",
-            "Guid": "S_DEN_Apprentice_7cabf226-e34b-4556-8903-a45d0fe26caf"
-        },
-        {
-            "Handle": "Cerys",
-            "Location": "",
-            "Guid": "S_DEN_BackupLeader_b304e07d-019c-4ec6-b5ea-c4ccb29ed892"
-        },
-        {
-            "Handle": "Corinna",
-            "Location": "",
-            "Guid": "S_DEN_BardSquirrel2_73f18550-4755-4e3c-9326-c328d34478af"
-        },
-        {
-            "Handle": "Spar",
-            "Location": "",
-            "Guid": "S_DEN_BardSquirrel_efc0ba71-b3fa-4bb5-8a38-10bd0dd8b923"
-        },
-        {
             "Handle": "Quil Grootslang",
-            "Location": "",
+            "Location": "Humanoid",
             "Guid": "S_DEN_Bard_Backup_8ef4c8ea-317d-4539-aa5b-c5e899cf0f31"
         },
         {
-            "Handle": "Apikusis",
-            "Location": "FOREST_GROVE_IDOL",
-            "Guid": "S_DEN_BirdSender_30ee2bc0-0e69-4999-8d1c-8335c439cecf"
-        },
-        {
-            "Handle": "Bugbear Assassin",
-            "Location": "FOREST_GROVE_ASSASSIN",
-            "Guid": "S_DEN_BugbearNinja_4cb29070-a33c-4253-9f57-18d1c9a88523"
-        },
-        {
-            "Handle": "Sazza",
-            "Location": "FOREST_GROVE_PASSAGE",
-            "Guid": "S_DEN_CapturedGoblin_783d7572-a846-455f-b686-247a95263ebb"
-        },
-        {
-            "Handle": "Mirkon",
-            "Location": "",
-            "Guid": "S_DEN_CharmedKid_3b92c689-6024-4446-a6c9-584e9e8d77ca"
-        },
-        {
             "Handle": "Dead Adventurer",
-            "Location": "",
+            "Location": "03_GROVE_INTERIOR_DEADBODIES",
             "Guid": "S_DEN_DeadAdventurer_004_482f39d8-b77e-443b-ab56-0e53b518c133"
         },
         {
             "Handle": "Dead Adventurer",
-            "Location": "",
+            "Location": "03_GROVE_INTERIOR_DEADBODIES",
             "Guid": "S_DEN_DeadAdventurer_005_031970f5-60d6-44fe-aa68-4cf6406a377d"
         },
         {
             "Handle": "Dead Adventurer",
-            "Location": "",
+            "Location": "03_GROVE_INTERIOR_DEADBODIES",
             "Guid": "S_DEN_DeadAdventurer_006_de3e1f50-ff58-4475-ab41-84995bc39a96"
         },
         {
             "Handle": "Dead Goblin",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_INTERIOR_DEADBODIES",
             "Guid": "S_DEN_DeadGoblinRaider_001_1f2818a7-ead4-4a9a-bc56-3e635d567324"
         },
         {
             "Handle": "Dead Goblin",
-            "Location": "",
+            "Location": "03_GROVE_INTERIOR_DEADBODIES",
             "Guid": "S_DEN_DeadGoblinRaider_002_f23fc89a-e17a-4815-910c-91d39f68b6ab"
         },
         {
             "Handle": "Kanon",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_INTERIOR_DEADBODIES",
             "Guid": "S_DEN_DeadLover_0126a6b5-3452-47db-a3e5-525b7deca82f"
         },
         {
             "Handle": "Dissected Drow",
-            "Location": "FOREST_GROVE_CHAMBER",
+            "Location": "03_GROVE_INTERIOR_DEADBODIES",
             "Guid": "S_DEN_DissectedDrow_0cb0cdde-16f8-440d-b73a-ceb385183ea9"
         },
         {
@@ -3526,36 +3463,6 @@
             "Guid": "S_DEN_DruidAttackVoice2_7348d6f0-b16a-4a37-b785-9bedf5b3639c"
         },
         {
-            "Handle": "Jeorna",
-            "Location": "FOREST_GROVE_IDOL",
-            "Guid": "S_DEN_DruidGuard_001_d1de6b4d-02d1-47f9-8e9e-55a593e3dc71"
-        },
-        {
-            "Handle": "Maggran",
-            "Location": "FOREST_GROVE_IDOL",
-            "Guid": "S_DEN_DruidGuard_002_8e2433db-55e9-4d03-a8fc-f8d02711907c"
-        },
-        {
-            "Handle": "Mino",
-            "Location": "FOREST_GROVE_IDOL",
-            "Guid": "S_DEN_DruidGuard_003_b888b138-951a-4092-b356-333b4b65123d"
-        },
-        {
-            "Handle": "Kagha",
-            "Location": "FOREST_GROVE_CHAMBER",
-            "Guid": "S_DEN_DruidLeader_95eb2b0b-a522-4ea5-8167-c5f4d1418156"
-        },
-        {
-            "Handle": "Rath",
-            "Location": "FOREST_GROVE_CHAMBER",
-            "Guid": "S_DEN_DruidOpposed_322cf8d2-32ee-453f-987e-f12b32652b5d"
-        },
-        {
-            "Handle": "Tuffet",
-            "Location": "FOREST_GROVE_IDOL",
-            "Guid": "S_DEN_ElevatorBear_04b7ef23-1002-4682-b962-33a2328bcd5c"
-        },
-        {
             "Handle": "Tusk",
             "Location": "FOREST_GROVE_IDOL",
             "Guid": "S_DEN_ExcitedBoar_5e856a8e-957a-49b1-8ec7-f430984e08ca"
@@ -3567,52 +3474,52 @@
         },
         {
             "Handle": "Bugbear",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Bugbear_01_cde6e700-9c2a-4dec-9081-689881198639"
         },
         {
             "Handle": "Za'krug",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Captain_22d80f21-7f31-4240-b981-9137d53ad77d"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Ranger_004_dfcc8342-4357-4b3f-9fb4-0d3eb2542830"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Ranger_01_7fbfb1b0-184b-4889-935b-f916a7ad1177"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Ranger_02_c3fb3a30-a1a7-4d8a-8b3c-b101657a0a3d"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Ranger_03_442fddf8-875a-4099-8725-12042f9e3ebd"
         },
         {
             "Handle": "Worg",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Worg_01_51e9e140-04c2-4598-83c0-787dac74ce61"
         },
         {
             "Handle": "Tracker Torrack",
-            "Location": "FOREST_GROVE_PASSAGE",
+            "Location": "03_GROVE_BACK_PASSAGE",
             "Guid": "S_DEN_GoblinScout_002_48c2871e-19e4-41da-8846-cc785fef64d3"
         },
         {
             "Handle": "Tracker Worm",
-            "Location": "FOREST_GROVE_PASSAGE",
+            "Location": "03_GROVE_BACK_PASSAGE",
             "Guid": "S_DEN_GoblinScout_003_1dfab0db-e7b5-48b8-9034-59628ddefa76"
         },
         {
             "Handle": "Warlock Megrol",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_BACK_PASSAGE",
             "Guid": "S_DEN_GoblinScout_Warlock_New_001_ba25fa6d-5a0c-4e2d-8594-124224682581"
         },
         {
@@ -3627,27 +3534,27 @@
         },
         {
             "Handle": "Harpy",
-            "Location": "FOREST_GROVE_BEACH",
+            "Location": "03_GROVE_BEACH_HARPIES",
             "Guid": "S_DEN_Harpy_000_e5f24d94-a1a9-40e0-b3ee-fe0480c408d3"
         },
         {
             "Handle": "Harpy",
-            "Location": "FOREST_GROVE_BEACH",
+            "Location": "03_GROVE_BEACH_HARPIES",
             "Guid": "S_DEN_Harpy_001_9ef79b8f-b516-4a4b-8f57-e93e2a17e6f7"
         },
         {
             "Handle": "Harpy",
-            "Location": "FOREST_GROVE_BEACH",
+            "Location": "03_GROVE_BEACH_HARPIES",
             "Guid": "S_DEN_Harpy_002_12a20a1e-c588-401c-930e-e755cebf2ff5"
         },
         {
             "Handle": "Harpy",
-            "Location": "FOREST_GROVE_BEACH",
+            "Location": "03_GROVE_BEACH_HARPIES",
             "Guid": "S_DEN_Harpy_003_8ea6f80a-65e6-44b0-a8ff-9ab5ddd4d8f3"
         },
         {
             "Handle": "Harpy",
-            "Location": "",
+            "Location": "03_GROVE_BEACH_HARPIES",
             "Guid": "S_DEN_Harpy_004_dbd067d0-9745-471d-91d8-9efaba80d0bd"
         },
         {
@@ -3662,32 +3569,32 @@
         },
         {
             "Handle": "Locke",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_ParentA_d6d88c8b-6ba7-4350-b3b3-d60565a44e90"
         },
         {
             "Handle": "Komira",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_ParentB_397467d4-1631-447b-a505-d44275dca78e"
         },
         {
             "Handle": "Topaz",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_INTERIOR_ANIMALS",
             "Guid": "S_DEN_PetBird_72bd7f25-0644-4323-a428-85ba5630e6ea"
         },
         {
             "Handle": "Silver",
-            "Location": "FOREST_GROVE_CHAMBER",
+            "Location": "03_GROVE_INTERIOR_ANIMALS",
             "Guid": "S_DEN_PetWolf_63471e30-7413-4496-97de-0bdf67c2f753"
         },
         {
             "Handle": "Mattis",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_PickpocketTrader_e1fda08b-45d4-41db-84b5-20e9931ba5af"
         },
         {
             "Handle": "Silfy",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Pickpocket_540ddc1f-42c6-4347-ba03-b3cf3d3942ab"
         },
         {
@@ -3717,42 +3624,42 @@
         },
         {
             "Handle": "Goblin Devout",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_Raider_Cleric_01_722fdb25-a124-4504-9edf-e1b790841c95"
         },
         {
             "Handle": "Goblin Warlock",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_Raider_Warlock_01_bb9415e8-667b-401f-aa12-7f2f2c388952"
         },
         {
             "Handle": "Rat",
-            "Location": "",
+            "Location": "03_GROVE_INTERIOR_ANIMALS",
             "Guid": "S_DEN_Rat_b61c2b37-da0d-47ad-ba9f-a4f8230f3b53"
         },
         {
             "Handle": "Aelar",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_RITUAL_DRUIDS",
             "Guid": "S_DEN_RitualDruid_001_9c5c4c89-890b-4e72-8698-53d36e6b4271"
         },
         {
             "Handle": "Karrik",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_RITUAL_DRUIDS",
             "Guid": "S_DEN_RitualDruid_002_96e41e71-9239-498b-9cb8-8b14fd48acd0"
         },
         {
             "Handle": "Inwe",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_RITUAL_DRUIDS",
             "Guid": "S_DEN_RitualDruid_003_7cae8e24-d610-4229-859d-7b2da7c5d162"
         },
         {
             "Handle": "Elwyn",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_RITUAL_DRUIDS",
             "Guid": "S_DEN_RitualDruid_004_32bef45a-47ca-4c3a-b907-13a857b316fd"
         },
         {
             "Handle": "Tahan",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_RITUAL_DRUIDS",
             "Guid": "S_DEN_RitualDruid_005_641fc4b5-3c42-4c4d-a759-541ad437f9df"
         },
         {
@@ -3777,37 +3684,37 @@
         },
         {
             "Handle": "Loic",
-            "Location": "FOREST_GROVE_CHAMBER",
+            "Location": "03_GROVE_SANCTUM_KAGHA",
             "Guid": "S_DEN_ServantGnome_003_0d971a2f-5fd7-4358-8966-147ed8b106dd"
         },
         {
             "Handle": "Marcoryl",
-            "Location": "FOREST_GROVE_CHAMBER",
+            "Location": "03_GROVE_SANCTUM_KAGHA",
             "Guid": "S_DEN_ServantIntolerant_002_6f36c7a1-edfd-4e99-bd90-6d874f68c9b8"
         },
         {
             "Handle": "Arron",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_SANCTUM_KAGHA",
             "Guid": "S_DEN_ServantPlight_005_13db744d-8a48-4131-8801-fd5fc289fdf6"
         },
         {
             "Handle": "Olodan",
-            "Location": "FOREST_GROVE_CHAMBER",
+            "Location": "03_GROVE_SANCTUM_KAGHA",
             "Guid": "S_DEN_ShadowDruid_001_0cb92c37-fb4d-4547-8702-1fb1dd52d0b6"
         },
         {
             "Handle": "Wren",
-            "Location": "FOREST_GROVE_CHAMBER",
+            "Location": "03_GROVE_SANCTUM_KAGHA",
             "Guid": "S_DEN_ShadowDruid_002_0820c093-f400-4efc-95b9-a6d08a58cac9"
         },
         {
             "Handle": "Pinta",
-            "Location": "FOREST_GROVE_CHAMBER",
+            "Location": "03_GROVE_SANCTUM_KAGHA",
             "Guid": "S_DEN_ShadowDruid_003_53b08334-9f79-4bb5-b580-2662355d54ad"
         },
         {
             "Handle": "Arabella",
-            "Location": "GLOBAL_TIEFLINGS_ARABELLA",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_SnakeKid_02257c1c-bbec-4ae3-9bcb-31c75a0a982f"
         },
         {
@@ -3817,82 +3724,82 @@
         },
         {
             "Handle": "Timber",
-            "Location": "FOREST_GROVE_ASSASSIN",
+            "Location": "03_GROVE_INTERIOR_ANIMALS",
             "Guid": "S_DEN_Squirrel_35ed8eab-1e0b-4ec8-92f2-1b8510cb3ad8"
         },
         {
             "Handle": "Mol",
-            "Location": "GLOBAL_TIEFLINGS_MOL",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_ThiefHideoutLeader_c8ab1ca6-96bb-467e-91c9-af87bc4d3925"
         },
         {
             "Handle": "Zaki",
-            "Location": "",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_TieflingKid_004_6644185d-385e-4dfc-973c-bb854cbfd540"
         },
         {
             "Handle": "Zevlor",
-            "Location": "COLONY_TADPOLE",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_TieflingLeader_475200ee-cc3c-4dbe-84b1-1820c02ea26a"
         },
         {
             "Handle": "Toron",
-            "Location": "SHORE_IRONTHRONE_CENTER",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_TieflingRefugee_004_bc4c4282-86b0-4330-9df8-246ed0a704a2"
         },
         {
             "Handle": "Eramas",
-            "Location": "",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_TieflingRefugee_RangerTrader_001_637d8d68-2a04-409e-a77d-cf31ac9478ee"
         },
         {
             "Handle": "Rikka",
-            "Location": "",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Tiefling_001_82f8662d-76da-4352-b37e-01ba433b5d43"
         },
         {
             "Handle": "Kaldani",
-            "Location": "SHORE_IRONTHRONE_CENTER",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Tiefling_004_c9562174-44af-4ffa-9e5e-da58538f23d8"
         },
         {
             "Handle": "Pandirna",
-            "Location": "",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Tiefling_005_e5319db6-ea86-43cc-9fd0-5ec1e0eab492"
         },
         {
             "Handle": "Ikaron",
-            "Location": "SHORE_IRONTHRONE_FRONT",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Tiefling_008_03b6fae4-d250-4ce9-9a01-19cb427deb17"
         },
         {
             "Handle": "Lakrissa",
-            "Location": "FOREST_GROVE_BACK",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Tiefling_010_23129d6c-8d39-4a4c-a4f6-cfc6637b597c"
         },
         {
             "Handle": "Zorru",
-            "Location": "",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Tiefling_011_77439e86-3f60-4456-bd55-931e2f45654f"
         },
         {
             "Handle": "Okta",
-            "Location": "",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Tiefling_FoodTrader_001_1b35671b-e5d7-4943-bbd0-4c816b69b7cb"
         },
         {
             "Handle": "Umi",
-            "Location": "GLOBAL_TIEFLINGS_UMI",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Trainee_001_1f839ad2-2bcb-47d2-8de9-db7a1fb5d67f"
         },
         {
             "Handle": "Ide",
-            "Location": "GLOBAL_TIEFLINGS_IDE",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Trainee_002_bd7f31a6-98e8-46cd-97be-4347fa45d387"
         },
         {
             "Handle": "Gan",
-            "Location": "GLOBAL_TIEFLINGS_GAN",
+            "Location": "03_GROVE_NPCS_TIEFLINGS",
             "Guid": "S_DEN_Trainee_003_71bdc11d-b488-427d-8453-632e91178c7e"
         },
         {
@@ -3902,12 +3809,12 @@
         },
         {
             "Handle": "Dead Human",
-            "Location": "FOREST_GROVE_PASSAGE",
+            "Location": "03_GROVE_BACK_PASSAGE",
             "Guid": "S_DEN_TunnelCorpse_4ca99c0d-f580-4705-8517-8f8f9b6cde56"
         },
         {
             "Handle": "Gerson the Bent",
-            "Location": "",
+            "Location": "03_GROVE_INTERIOR_VICTORY",
             "Guid": "S_DEN_VictoryTiefling_4b11cdb4-a375-4b2b-9004-5f3de57da40f"
         },
         {
@@ -3922,12 +3829,12 @@
         },
         {
             "Handle": "Exhausted Bird",
-            "Location": "FOREST_GROVE_CHAMBER",
+            "Location": "03_GROVE_INTERIOR_ANIMALS",
             "Guid": "S_DEN_WoundedBird_200bc56e-f3e1-445b-8b75-a5ddb541e123"
         },
         {
             "Handle": "Ormn",
-            "Location": "FOREST_GROVE_IDOL",
+            "Location": "03_GROVE_INTERIOR_ANIMALS",
             "Guid": "S_DEN_ZenBear_d4d4bfd2-9639-45bc-a256-2f079e53db29"
         },
         {
@@ -4292,42 +4199,42 @@
         },
         {
             "Handle": "Goblin Devout",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_Cleric_01_76714d57-9ece-49a3-a787-3a1a0a1819f9"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_Goblins_Ranger_01_8e553c24-5100-4939-9041-4dec8499d553"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_Goblins_Ranger_02_70a50383-e377-45c0-a793-b44d36d2df55"
         },
         {
             "Handle": "Tracker Slice",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_PATROL",
             "Guid": "S_FOR_ApothecaryGoblin_001_da57be42-f01a-459d-96b0-93cea8a95489"
         },
         {
             "Handle": "Dead Goblin Child",
-            "Location": "SPIDER_CAVES",
+            "Location": "04_BLIGHTED_CAVES_ETTERCAPS",
             "Guid": "S_FOR_Bottomless_EttercapPrey01_bcdd092c-4185-41c9-8f85-6669a0cd9681"
         },
         {
             "Handle": "Dead Goblin",
-            "Location": "SPIDER_CAVES",
+            "Location": "04_BLIGHTED_CAVES_ETTERCAPS",
             "Guid": "S_FOR_Bottomless_EttercapPrey_02_70a96a65-6975-40b2-b464-ff2cb2c781f9"
         },
         {
             "Handle": "Ettercap",
-            "Location": "SPIDER_CAVES",
+            "Location": "04_BLIGHTED_CAVES_ETTERCAPS",
             "Guid": "S_FOR_Bottomless_Ettercap_01_1c167d87-048b-40ac-9117-c87d5a2471fd"
         },
         {
             "Handle": "Ettercap",
-            "Location": "SPIDER_CAVES",
+            "Location": "04_BLIGHTED_CAVES_ETTERCAPS",
             "Guid": "S_FOR_Bottomless_Ettercap_02_5c57bfc0-cd82-4b9f-9b70-b5475fb121db"
         },
         {
@@ -4367,127 +4274,127 @@
         },
         {
             "Handle": "Grukkoh",
-            "Location": "FOREST_BLIGHTED_RISENPATH",
+            "Location": "04_BLIGHTED_RISEN_BARN",
             "Guid": "S_FOR_BugBearMate_b6c6764f-ba9d-4109-8b4e-c0d1da72be7d"
         },
         {
             "Handle": "Scratch",
-            "Location": "GLOBAL_CAMP_SCRATCH",
+            "Location": "04_FOREST_PATH_COURIER",
             "Guid": "S_FOR_Courier_Dog_3059f69c-068d-4e28-8491-55953c027901"
         },
         {
             "Handle": "Gomwick",
-            "Location": "FOREST_BLIGHTED_EXTERIOR_RIVER",
+            "Location": "04_FOREST_PATH_COURIER",
             "Guid": "S_FOR_Courier_bf842d88-0c39-48b8-b4a1-f9ab140ee6ca"
         },
         {
             "Handle": "Dead Tiefling",
-            "Location": "",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_DeadTiefling_2fb4f2a1-8bba-4697-96b3-368efe0f3552"
         },
         {
             "Handle": "Fezzerk",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeGoblin1_b2c582af-bc69-48b3-a004-648562dab404"
         },
         {
             "Handle": "Goblin Devout",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeGoblin2_51300d83-e9f1-4f01-a27e-27c73f9e6318"
         },
         {
             "Handle": "Goblin Devout",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeGoblin3_bff8ab5f-739d-422a-9ad3-92f4b897f1bc"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeGoblin4_20eba5fb-3e93-4887-9700-d7fd7f2c418f"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeGoblin6_f0f4d3e2-8081-489a-b4ee-aee7b1ecee12"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeGoblin7_4b2be2ad-f9e3-4aa0-9a0a-aae7f7813fd3"
         },
         {
             "Handle": "Mauled Sheep",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeSheep_cb6095ed-2795-4ffc-b89b-d1c1b13dcdbf"
         },
         {
             "Handle": "Worg",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeWorg1_e595394b-fbc9-438a-be7a-5b6fb5c3261d"
         },
         {
             "Handle": "Worg",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeWorg2_a5b311ad-5c73-4e88-9f77-106e8350f1d0"
         },
         {
             "Handle": "Skeleton",
-            "Location": "",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_JusticiarSkeleton_000_a906f266-56db-475e-b810-cc6eeb851c01"
         },
         {
             "Handle": "Skeleton",
-            "Location": "",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_JusticiarSkeleton_001_47d5eaa1-7c60-4dd4-a6d6-4ce567583ada"
         },
         {
             "Handle": "Skeleton",
-            "Location": "SPIDER_CAVES",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_JusticiarSkeleton_006_d9504cbc-0d49-4a47-b7b3-ce185f0981cd"
         },
         {
             "Handle": "Skeleton",
-            "Location": "SPIDER_CAVES",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_JusticiarSkeleton_007_249866db-c3e0-40fb-8cf7-ea46a56fdf48"
         },
         {
             "Handle": "Skeleton",
-            "Location": "SPIDER_CAVES",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_JusticiarSkeleton_008_b46f0307-a84b-4484-986f-03fe933a6933"
         },
         {
             "Handle": "Skeleton",
-            "Location": "SPIDER_CAVES",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_JusticiarSkeleton_009_43670d05-39b7-4831-96ce-a625e64fb137"
         },
         {
             "Handle": "Mangled Corpse",
-            "Location": "",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_MangledCorpse_39347c20-ce2f-444e-ac39-7fd71f957f34"
         },
         {
             "Handle": "Buthir",
-            "Location": "FOREST_BLIGHTED_RISENPATH",
+            "Location": "04_BLIGHTED_RISEN_BARN",
             "Guid": "S_FOR_OgreMate_489c7f56-b461-41a6-b519-7ef5f1a1bbdc"
         },
         {
             "Handle": "Owlbear Cub",
-            "Location": "WILDERNESS_OWLBEAR",
+            "Location": "04_FOREST_CAVES_OWLBEARS",
             "Guid": "S_FOR_OwlBear_Cub_001_c66b2865-6613-4372-b97a-e330c1d75d09"
         },
         {
             "Handle": "Eviscerated Goblin",
-            "Location": "",
+            "Location": "04_FOREST_CAVES_OWLBEARS",
             "Guid": "S_FOR_OwlBear_DeadGoblin_480abd75-0662-4e7a-8d7b-76d509820c42"
         },
         {
             "Handle": "Owlbear",
-            "Location": "WILDERNESS_OWLBEAR",
+            "Location": "04_FOREST_CAVES_OWLBEARS",
             "Guid": "S_FOR_OwlBear_e903a41f-8ef7-46dc-a847-7d0ec2804d08"
         },
         {
             "Handle": "Goblin Tracker",
-            "Location": "WILDERNESS_OWLBEAR",
+            "Location": "04_FOREST_CAVES_OWLBEARS",
             "Guid": "S_FOR_Owlbear_Cubnapper_01_Dead_7bfcdc8d-4916-4e8c-8683-a2462950231f"
         },
         {
@@ -4507,67 +4414,52 @@
         },
         {
             "Handle": "Lump the Enlightened",
-            "Location": "FOREST_BLIGHTED_OGRES",
+            "Location": "04_BLIGHTED_MAIN_SCHOOL",
             "Guid": "S_FOR_SchoolOgre1_848b6f10-3ae5-41f6-b1a1-98c34a19ba3f"
         },
         {
             "Handle": "Fank",
-            "Location": "FOREST_BLIGHTED_OGRES",
+            "Location": "04_BLIGHTED_MAIN_SCHOOL",
             "Guid": "S_FOR_SchoolOgre2_b847c9ba-1b52-4afa-be10-accd07134245"
         },
         {
             "Handle": "Chock",
-            "Location": "FOREST_BLIGHTED_OGRES",
+            "Location": "04_BLIGHTED_MAIN_SCHOOL",
             "Guid": "S_FOR_SchoolOgre3_62c5741f-061b-4dbc-afe6-5fd2368485ce"
         },
         {
             "Handle": "Dead Tiefling",
-            "Location": "FOREST_BLIGHTED_OGRES",
+            "Location": "04_BLIGHTED_MAIN_SCHOOL",
             "Guid": "S_FOR_SchoolOgre_Corpse_ef9ff510-c334-45d4-bade-a3a0f4c6e63b"
         },
         {
             "Handle": "Scrawny Bugbear",
-            "Location": "FOREST_BLIGHTED_RISENPATH",
+            "Location": "04_BLIGHTED_RISEN_SLEEPING",
             "Guid": "S_FOR_SleepingBugbear_473994b1-617b-4cdb-b087-b8429de8df32"
         },
         {
-            "Handle": "Robust Guardian",
-            "Location": "FOREST_BLIGHTED_NECROMANCER",
-            "Guid": "S_FOR_ThayG_Skeleton_002_171eb53b-f6a4-465a-9bb1-585a74a0efcc"
-        },
-        {
-            "Handle": "Robust Guardian",
-            "Location": "FOREST_BLIGHTED_NECROMANCER",
-            "Guid": "S_FOR_ThayG_Skeleton_003_7be92b31-6fcd-4fef-8708-9bb927f89fd5"
-        },
-        {
             "Handle": "Agile Guardian",
-            "Location": "FOREST_BLIGHTED_NECROMANCER",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_ThayG_Skeleton_004_d1f7d900-0e2d-4706-a141-20a026c003ed"
         },
         {
             "Handle": "Agile Guardian",
-            "Location": "FOREST_BLIGHTED_NECROMANCER",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_ThayG_Skeleton_005_43a9bace-50c0-4313-bc3b-824adecf0aad"
         },
         {
-            "Handle": "Robust Guardian",
-            "Location": "FOREST_BLIGHTED_NECROMANCER",
-            "Guid": "S_FOR_ThayG_Skeleton_006_fe72d606-8d37-4dfc-bbe2-2afda9e91c88"
-        },
-        {
             "Handle": "Agile Guardian",
-            "Location": "FOREST_BLIGHTED_NECROMANCER",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_ThayG_Skeleton_007_595edf1e-af70-4dec-a1a6-735f4966c42f"
         },
         {
             "Handle": "Agile Guardian",
-            "Location": "FOREST_BLIGHTED_NECROMANCER",
+            "Location": "04_FOREST_GENERAL_DEADBODIES",
             "Guid": "S_FOR_ThayG_Skeleton_008_532d1b22-b493-4282-b366-a55dbd6cf8a4"
         },
         {
             "Handle": "Barcus Wroot",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_UnfortunateGnome_6e45a00b-bad2-40bb-9403-147b9e92d976"
         },
         {
@@ -15644,7 +15536,7 @@
         },
         {
             "Handle": "Mind Flayer",
-            "Location": "",
+            "Location": "08_UNDERDARK_BIBBERBANG_FLAYER",
             "Guid": "EO_UND_Mindflayer_f6c245d5-fe57-4b82-b587-3338728e3b30"
         },
         {
@@ -15769,22 +15661,22 @@
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CHAPEL_EXTERIOR_DEAD",
             "Guid": "S_CHA_DeadIntellectDev_001_495014fe-a600-437c-9b18-735e82c49b4d"
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CHAPEL_EXTERIOR_DEAD",
             "Guid": "S_CHA_DeadIntellectDev_002_df428bb0-9854-4f33-8c82-7b287cce4115"
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CHAPEL_EXTERIOR_DEAD",
             "Guid": "S_CHA_DeadIntellectDev_003_146166f2-83c2-4795-80cd-3e87f452b44e"
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CHAPEL_EXTERIOR_DEAD",
             "Guid": "S_CHA_DeadIntellectDev_004_c619fd7e-804a-49fc-9f41-a084d4398d64"
         },
         {
@@ -15864,57 +15756,57 @@
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadIntellectDevourer_001_95c18bac-a030-4377-b827-ef8beeaf066f"
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadIntellectDevourer_004_443c5517-894f-4f39-9c3a-3c0485a7299d"
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadIntellectDevourer_004_cbf5fca9-0fa8-4040-b3af-92d77305203c"
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadIntellectDevourer_00_ab537441-af16-4b39-96d4-ace4fba280d4"
         },
         {
             "Handle": "Dead Mind Flayer",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadMindflayer_000_91fea478-3bb3-4c73-92ce-7f2ca1acad95"
         },
         {
             "Handle": "Dead Mind Flayer",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadMindflayer_001_369ab256-ae65-4bd8-b449-53ea48e0284c"
         },
         {
             "Handle": "Dead Mind Flayer",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_DeadMindflayer_002_a7a962bd-408d-4d76-8d8b-9820aa0fb360"
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CRASH_NAUTILOID_BRAINS",
             "Guid": "S_CRA_Escape_IntDevourer1_edd4c1c0-422f-82de-1b22-4a3d734da5c8"
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CRASH_NAUTILOID_BRAINS",
             "Guid": "S_CRA_Escape_IntDevourer2_a2838af7-698b-8761-2004-d118d80cf848"
         },
         {
             "Handle": "Intellect Devourer",
-            "Location": "",
+            "Location": "02_CRASH_NAUTILOID_BRAINS",
             "Guid": "S_CRA_Escape_IntDevourer3_c158fa86-3ecf-4d1b-a502-34618f77e3a9"
         },
         {
             "Handle": "Dead Mind Flayer",
-            "Location": "",
+            "Location": "02_CRASH_BEACH_DEAD",
             "Guid": "S_CRA_Escape_Mindflayer_d5385cd0-f371-43dc-a0a2-50381fc50ea4"
         },
         {
@@ -16235,14 +16127,19 @@
     ],
     "Humanoid": [
         {
-            "Handle": "Blighted Chemist",
-            "Location": "",
-            "Guid": "EO_BlightedChemist_1_9a0e02ec-dc0e-40a2-93f6-8de4ff18f8b2"
+            "Handle": "Kuo-Toa",
+            "Location": "02_CRASH_NAUTILOID_KUOTOA",
+            "Guid": "EO_KuoToa_HighPriest_1_a6b1515b-1f3d-487b-a649-b00223a09b7b"
         },
         {
-            "Handle": "Blighted Chemist",
-            "Location": "",
-            "Guid": "EO_BlightedChemist_2_fe135c8e-d6d4-4765-b6ff-9be4c4387a5b"
+            "Handle": "Kuo-Toa",
+            "Location": "02_CRASH_NAUTILOID_KUOTOA",
+            "Guid": "EO_Kuotoa_1_2fe368c9-b693-4503-a8ed-39cba90f3635"
+        },
+        {
+            "Handle": "Kuo-Toa",
+            "Location": "02_CRASH_NAUTILOID_KUOTOA",
+            "Guid": "EO_Kuotoa_2_d7deae1e-95d1-4576-a42d-9f83c83283a1"
         },
         {
             "Handle": "Goblin Warrior",
@@ -16261,17 +16158,17 @@
         },
         {
             "Handle": "Warrior Puce",
-            "Location": "WAUKEEN_ENTRANCE",
+            "Location": "07_RISEN_WAUKEEN_BUGBEARS",
             "Guid": "EO_Waukeen_GoblinMelee_1_749fed61-07d4-4593-90d3-958ff910e84f"
         },
         {
             "Handle": "Warrior Puce",
-            "Location": "WAUKEEN_ENTRANCE",
+            "Location": "07_RISEN_WAUKEEN_BUGBEARS",
             "Guid": "EO_Waukeen_GoblinMelee_2_4bdb8b46-c82c-41e5-811a-c0058713c57f"
         },
         {
             "Handle": "Sharp-Eye Crub",
-            "Location": "WAUKEEN_ENTRANCE",
+            "Location": "07_RISEN_WAUKEEN_BUGBEARS",
             "Guid": "EO_Waukeen_GoblinRanged_1_3ccbf4a2-027d-407f-8313-14fc0edbecd9"
         },
         {
@@ -16336,8 +16233,23 @@
         },
         {
             "Handle": "Goblin Brawler",
-            "Location": "",
+            "Location": "FOREST_GROVE_OUTERDOOR",
             "Guid": "MMM_BACKDOOR_943e9a7e-86d3-47ec-8f5f-bdfbfa240ec4"
+        },
+        {
+            "Handle": "Hobgoblin",
+            "Location": "FOREST_GROVE_OUTERDOOR",
+            "Guid": "MMM_BACKDOOR_f1418953-49ef-494d-9dc6-9448d752fc04"
+        },
+        {
+            "Handle": "Bonesnappah",
+            "Location": "04_FOREST_PATH_BRIDGE",
+            "Guid": "MMM_BUGBEARCHALLENGER_46545754-5089-4e85-b34d-81395e5ebb44"
+        },
+        {
+            "Handle": "Murderous Bugbear",
+            "Location": "04_FOREST_PATH_GOBLINCAMP",
+            "Guid": "MMM_BUGBEARMURDER_1d905255-1735-4afe-988d-5cfee3f85643"
         },
         {
             "Handle": "Goblin Brawler",
@@ -16353,6 +16265,26 @@
             "Handle": "Goblin Brawler",
             "Location": "FOREST_PATH",
             "Guid": "MMM_HARPERNEST_e863de05-2740-4d8b-a7b8-4c873d4df9f5"
+        },
+        {
+            "Handle": "Slegbezzle",
+            "Location": "04_BLIGHTED_RISEN_BARN",
+            "Guid": "MMM_ITSCOMPLICATED_4295596a-1cae-45ff-a481-e29ca6d616ec"
+        },
+        {
+            "Handle": "Kuo-toa",
+            "Location": "02_CRASH_BEACH_KUOTOA",
+            "Guid": "MMM_KUOTOADOCK_484f7b3a-db90-4857-8c6f-f4014f555088"
+        },
+        {
+            "Handle": "Kuo-toa",
+            "Location": "02_CRASH_BEACH_KUOTOA",
+            "Guid": "MMM_KUOTOADOCK_5a818130-eccf-4648-bdcf-24219d57e7ee"
+        },
+        {
+            "Handle": "Kuo-toa Priest",
+            "Location": "02_CRASH_BEACH_KUOTOA",
+            "Guid": "MMM_KUOTOADOCK_6f043e7e-8491-4525-82c2-b7b5ad5c4535"
         },
         {
             "Handle": "Goblin Brawler",
@@ -16375,6 +16307,11 @@
             "Guid": "MMM_OVERLOG_8ab4d871-bc1c-4045-93d2-91234ff163d8"
         },
         {
+            "Handle": "Adam 'Buggy' Wright",
+            "Location": "",
+            "Guid": "MMM_THIEFTRIO3_70a7129a-f413-4d07-b297-4cf540d0c6cc"
+        },
+        {
             "Handle": "Goblin Brawler",
             "Location": "",
             "Guid": "S_CAMP_PartyGoblin_001_2476e584-4b62-4a9f-b1f5-f3cca562b180"
@@ -16388,6 +16325,81 @@
             "Handle": "Goblin Booyahg",
             "Location": "",
             "Guid": "S_CAMP_PartyGoblin_009_c6908842-5e46-4a14-973a-84c55a59f1e4"
+        },
+        {
+            "Handle": "Nymessa",
+            "Location": "02_CHAPEL_EXTERIOR_LAEZEL",
+            "Guid": "S_CHA_CagerLaezel1_2c8537fb-bf73-43a2-a8ff-48e41453adea"
+        },
+        {
+            "Handle": "Damays",
+            "Location": "02_CHAPEL_EXTERIOR_LAEZEL",
+            "Guid": "S_CHA_CagerLaezel2_863d6788-5887-45c8-bafa-87128631904e"
+        },
+        {
+            "Handle": "Dead Goblin",
+            "Location": "02_CHAPEL_EXTERIOR_DEAD",
+            "Guid": "S_CHA_DeadGoblin_001_8c289941-8261-43cd-857a-cbab5943978b"
+        },
+        {
+            "Handle": "Dead Goblin",
+            "Location": "02_CHAPEL_EXTERIOR_DEAD",
+            "Guid": "S_CHA_DeadGoblin_002_a3d3846a-713a-4ef7-9120-a13862ddd063"
+        },
+        {
+            "Handle": "Dead Goblin",
+            "Location": "02_CHAPEL_EXTERIOR_DEAD",
+            "Guid": "S_CHA_DeadGoblin_003_27934f30-fdfe-4b01-aa46-1a708e76741d"
+        },
+        {
+            "Handle": "Quelenna",
+            "Location": "02_CHAPEL_EXTERIOR_BANDITS",
+            "Guid": "S_CHA_Exterior_Bandit_Caster_01_0f4300f6-0e1e-4d6c-a582-5da588d64ea7"
+        },
+        {
+            "Handle": "Gimblebock",
+            "Location": "02_CHAPEL_EXTERIOR_BANDITS",
+            "Guid": "S_CHA_Exterior_Bandit_Melee_01_538e38b9-e3a4-452a-8369-60eb1fe8c40d"
+        },
+        {
+            "Handle": "Taman",
+            "Location": "02_CHAPEL_EXTERIOR_BANDITS",
+            "Guid": "S_CHA_Exterior_Bandit_Melee_02_b5c913f9-f081-45bd-8e95-e34d0735b645"
+        },
+        {
+            "Handle": "Warryn",
+            "Location": "02_CHAPEL_EXTERIOR_BANDITS",
+            "Guid": "S_CHA_Exterior_Bandit_Ranger_01_fa1a1fbd-2152-40e4-b53d-29e95d54279e"
+        },
+        {
+            "Handle": "Andorn",
+            "Location": "02_CHAPEL_INTERIOR_FRONT",
+            "Guid": "S_CHA_FL1_BanditGuard_4000f859-71fe-49ef-8400-da44b6fef92a"
+        },
+        {
+            "Handle": "Mari",
+            "Location": "02_CHAPEL_INTERIOR_FRONT",
+            "Guid": "S_CHA_FL1_BanditLockpick_8409e274-4a4a-4de6-b34c-e701847ed86e"
+        },
+        {
+            "Handle": "Haseid",
+            "Location": "02_CHAPEL_INTERIOR_SANCTUM",
+            "Guid": "S_CHA_FL1_BanditSanctum_01_fd5f646a-d5f6-4f19-904f-61dfc7e14d7e"
+        },
+        {
+            "Handle": "Torgga",
+            "Location": "02_CHAPEL_INTERIOR_SANCTUM",
+            "Guid": "S_CHA_FL1_BanditSanctum_02_5d2f2ff7-d1c0-4f95-b12a-b17b60182cfc"
+        },
+        {
+            "Handle": "Cefrey",
+            "Location": "02_CHAPEL_INTERIOR_SANCTUM",
+            "Guid": "S_CHA_FL1_BanditSanctum_03_81e99fb9-2a52-4a26-910d-a637c379f15b"
+        },
+        {
+            "Handle": "Barton",
+            "Location": "02_CHAPEL_INTERIOR_SANCTUM",
+            "Guid": "S_CHA_FL1_BanditSanctum_f0945b85-3cfe-4312-b49a-3741b1f0bfc7"
         },
         {
             "Handle": "Kobold Looter",
@@ -16535,43 +16547,113 @@
             "Guid": "S_CRE_Student04_d3eb2b9a-ac8e-40dc-8596-70b05d08496b"
         },
         {
+            "Handle": "Aradin",
+            "Location": "03_GROVE_NPCS_ADVENTURERS",
+            "Guid": "S_DEN_AdventurerLeader_82d1b843-9e8c-48a5-9d87-caddea5c193c"
+        },
+        {
+            "Handle": "Nettie",
+            "Location": "03_GROVE_SANCTUM_NETTIE",
+            "Guid": "S_DEN_Apprentice_7cabf226-e34b-4556-8903-a45d0fe26caf"
+        },
+        {
+            "Handle": "Cerys",
+            "Location": "GROVE_NPCS_TIEFLINGS",
+            "Guid": "S_DEN_BackupLeader_b304e07d-019c-4ec6-b5ea-c4ccb29ed892"
+        },
+        {
+            "Handle": "Apikusis",
+            "Location": "FOREST_GROVE_IDOL",
+            "Guid": "S_DEN_BirdSender_30ee2bc0-0e69-4999-8d1c-8335c439cecf"
+        },
+        {
+            "Handle": "Bugbear Assassin",
+            "Location": "03_GROVE_FRONT_ASSASSIN",
+            "Guid": "S_DEN_BugbearNinja_000_f52aa282-f8cf-4970-9cf8-9c1cd08b0c87"
+        },
+        {
+            "Handle": "Bugbear Assassin",
+            "Location": "03_GROVE_FRONT_ASSASSIN",
+            "Guid": "S_DEN_BugbearNinja_001_9cba4b3d-7010-4d86-ae4b-b2c3c9799e03"
+        },
+        {
+            "Handle": "Bugbear Assassin",
+            "Location": "03_GROVE_FRONT_ASSASSIN",
+            "Guid": "S_DEN_BugbearNinja_4cb29070-a33c-4253-9f57-18d1c9a88523"
+        },
+        {
+            "Handle": "Sazza",
+            "Location": "03_GROVE_BACK_PRISON",
+            "Guid": "S_DEN_CapturedGoblin_783d7572-a846-455f-b686-247a95263ebb"
+        },
+        {
+            "Handle": "Mirkon",
+            "Location": "03_GROVE_BEACH_HARPIES",
+            "Guid": "S_DEN_CharmedKid_3b92c689-6024-4446-a6c9-584e9e8d77ca"
+        },
+        {
+            "Handle": "Jeorna",
+            "Location": "03_GROVE_RITUAL_GUARDS",
+            "Guid": "S_DEN_DruidGuard_001_d1de6b4d-02d1-47f9-8e9e-55a593e3dc71"
+        },
+        {
+            "Handle": "Maggran",
+            "Location": "03_GROVE_RITUAL_GUARDS",
+            "Guid": "S_DEN_DruidGuard_002_8e2433db-55e9-4d03-a8fc-f8d02711907c"
+        },
+        {
+            "Handle": "Mino",
+            "Location": "03_GROVE_RITUAL_GUARDS",
+            "Guid": "S_DEN_DruidGuard_003_b888b138-951a-4092-b356-333b4b65123d"
+        },
+        {
+            "Handle": "Kagha",
+            "Location": "03_GROVE_SANCTUM_KAGHA",
+            "Guid": "S_DEN_DruidLeader_95eb2b0b-a522-4ea5-8167-c5f4d1418156"
+        },
+        {
+            "Handle": "Rath",
+            "Location": "03_GROVE_SANCTUM_KAGHA",
+            "Guid": "S_DEN_DruidOpposed_322cf8d2-32ee-453f-987e-f12b32652b5d"
+        },
+        {
             "Handle": "Goblin Brawler",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Melee_003_0d9a9811-27b3-48ae-84a6-8a85c65a092e"
         },
         {
             "Handle": "Goblin Booyahg",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Melee_01_6a03d0ff-a930-4347-bba2-9f3fd6bc317a"
         },
         {
             "Handle": "Goblin Brawler",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_GoblinRaider_Melee_02_f1a7c5a6-27e7-4164-a31d-d18b4064df85"
         },
         {
             "Handle": "Warrior Gresh",
-            "Location": "FOREST_GROVE_PASSAGE",
+            "Location": "03_GROVE_BACK_PASSAGE",
             "Guid": "S_DEN_GoblinScout_001_3c9e5843-32a6-49e7-91c2-1f8e6ae2833f"
         },
         {
             "Handle": "Sharp-Eye Gurza",
-            "Location": "FOREST_GROVE_PASSAGE",
+            "Location": "03_GROVE_BACK_PASSAGE",
             "Guid": "S_DEN_GoblinScout_004_06a54b04-c141-4929-b21c-5f28737d88f7"
         },
         {
             "Handle": "Goblin Chemist",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_Raider_Chemist_01_681bdcc6-0a0c-4fb8-af9b-eb1346480521"
         },
         {
             "Handle": "Goblin Sharp-Eye",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_Raider_SharpEye_01_6aec4799-3be2-46b7-896e-0075d2304d3d"
         },
         {
             "Handle": "Goblin Warrior",
-            "Location": "FOREST_GROVE_ENTRANCE",
+            "Location": "03_GROVE_GATE_GOBLINATTACK",
             "Guid": "S_DEN_Raider_Warrior_01_93c2775a-bc9d-456b-9dd6-65191bb7ac9e"
         },
         {
@@ -16641,72 +16723,72 @@
         },
         {
             "Handle": "Goblin Warrior",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_CheckpointGuard_000_36d897c8-bd94-4a3d-97fd-5f48fb45f952"
         },
         {
             "Handle": "Goblin Sharp-Eye",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_CheckpointGuard_001_ebbed723-7ed1-40e0-979a-289918a25c68"
         },
         {
             "Handle": "Goblin Chemist",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_Chemist_01_82604e9c-905f-44b0-80f1-2a2cc5b1f6bd"
         },
         {
             "Handle": "Goblin Booyahg",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_Goblins_Caster_01_826000b8-c6cd-4018-af55-31ee7e6a4668"
         },
         {
             "Handle": "Goblin Booyahg",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_Goblins_Caster_02_1f3d846e-f26c-49d4-b917-d9f43fd137b4"
         },
         {
             "Handle": "Goblin Sharp-Eye",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_Goblins_Ranger_03_e3d96e92-39fa-4ec1-9503-bd00f40285aa"
         },
         {
             "Handle": "Goblin Brawler",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_AMBUSH",
             "Guid": "S_FOR_Ambush_PatrollingGoblin_6db1f304-683a-4409-ab7a-b22f64f2c2e3"
         },
         {
             "Handle": "Goblin Warrior",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_PATROL",
             "Guid": "S_FOR_ApothecaryGoblin_000_a8c54070-5b72-4911-afd9-28be53296fd7"
         },
         {
             "Handle": "Brawler Brek",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_PATROL",
             "Guid": "S_FOR_ApothecaryGoblin_002_301accc9-d618-43ba-819a-834216a12e4e"
         },
         {
             "Handle": "Goblin Sharp-Eye",
-            "Location": "FOREST_BLIGHTED_WINDMILL",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeGoblin5_0e54fa5d-e2dd-4e15-acbb-82a4e0c63012"
         },
         {
             "Handle": "Goblin Chemist",
-            "Location": "",
+            "Location": "04_BLIGHTED_MAIN_WINDMILL",
             "Guid": "S_FOR_GnomeGoblin_Chemist_01_3ece261b-92c2-474f-a9e8-6bda01783339"
         },
         {
             "Handle": "Goblin Brawler",
-            "Location": "WILDERNESS_OWLBEAR",
+            "Location": "04_FOREST_CAVES_OWLBEARS",
             "Guid": "S_FOR_Owlbear_Cubnapper_02_Dead_3dff646d-4631-49da-b799-35f2572a5c7f"
         },
         {
             "Handle": "Goblin Brawler",
-            "Location": "WILDERNESS_OWLBEAR",
+            "Location": "04_FOREST_CAVES_OWLBEARS",
             "Guid": "S_FOR_Owlbear_Cubnapper_03_Dead_43172e6e-ad91-41ea-bf3b-332f269af436"
         },
         {
             "Handle": "Goblin Brawler",
-            "Location": "WILDERNESS_OWLBEAR",
+            "Location": "04_FOREST_CAVES_OWLBEARS",
             "Guid": "S_FOR_Owlbear_Cubnapper_04_Dead_e66c151c-3d1c-42d5-b816-1b9700eb7a21"
         },
         {
@@ -17210,7 +17292,149 @@
             "Guid": "S_WYR_WyrmRock_Bhaalist_003_ec3733e7-5a97-4f6d-8c00-b8cf6beb1670"
         }
     ],
+    "Beast": [
+        {
+            "Handle": "Murderous Crow",
+            "Location": "UNDERCITY_HIDEOUT_CISTERN",
+            "Guid": "LOW_BhaalCultist_Crow_000_c39c5c99-6fba-488f-996b-8205ff436fdc"
+        },
+        {
+            "Handle": "Murderous Crow",
+            "Location": "UNDERCITY_HIDEOUT_CISTERN",
+            "Guid": "LOW_BhaalCultist_Crow_001_533d3286-9870-4073-93d3-bfc1b9fa36ac"
+        },
+        {
+            "Handle": "Murderous Crow",
+            "Location": "UNDERCITY_HIDEOUT_CISTERN",
+            "Guid": "LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a"
+        },
+        {
+            "Handle": "Murderous Crow",
+            "Location": "UNDERCITY_HIDEOUT_CISTERN",
+            "Guid": "LOW_BhaalCultist_Crow_003_5ffe3104-542e-4cb3-92d7-457cb4f1cca1"
+        },
+        {
+            "Handle": "Murderous Crow",
+            "Location": "UNDERCITY_HIDEOUT_CISTERN",
+            "Guid": "LOW_BhaalCultist_Crow_004_165bd441-1663-4f16-82a0-c3f3aab1dc35"
+        },
+        {
+            "Handle": "Murderous Crow",
+            "Location": "UNDERCITY_HIDEOUT_CISTERN",
+            "Guid": "LOW_BhaalCultist_Crow_005_4deeeb08-3fa4-4466-b920-22b83770fb0d"
+        },
+        {
+            "Handle": "Murderous Crow",
+            "Location": "UNDERCITY_HIDEOUT_CISTERN",
+            "Guid": "LOW_BhaalCultist_Crow_006_6d176306-05e6-4bad-bcf4-a00c0b7ff015"
+        },
+        {
+            "Handle": "Baby Bear",
+            "Location": "06_GOBLINS_OUTSIDE_BEARLOG",
+            "Guid": "MMM_LOGBEAR_48277221-bd08-42f4-a3af-09415731ee58"
+        },
+        {
+            "Handle": "Mama Bear",
+            "Location": "06_GOBLINS_OUTSIDE_BEARLOG",
+            "Guid": "MMM_LOGBEAR_5daaafd1-d23c-41bf-b915-ae129e6c4cf9"
+        },
+        {
+            "Handle": "Aggressive Crag Spider",
+            "Location": "02_CHAPEL_INTERIOR_HIDDEN",
+            "Guid": "S_CHA_OutpostSpider_001_9323734f-c6c2-451d-9e74-4ba92db7977b"
+        },
+        {
+            "Handle": "Aggressive Crag Spider",
+            "Location": "02_CHAPEL_INTERIOR_HIDDEN",
+            "Guid": "S_CHA_OutpostSpider_002_825b77f9-e540-4764-b612-4c6ef25c5c9f"
+        },
+        {
+            "Handle": "Aggressive Crag Spider",
+            "Location": "02_CHAPEL_INTERIOR_HIDDEN",
+            "Guid": "S_CHA_OutpostSpider_003_93d169ee-3273-43c4-9861-597fbb968b3a"
+        },
+        {
+            "Handle": "Aggressive Crag Spider",
+            "Location": "02_CHAPEL_INTERIOR_HIDDEN",
+            "Guid": "S_CHA_OutpostSpider_004_26ef4a71-8bfd-45e8-9169-51b85b95fcbe"
+        },
+        {
+            "Handle": "Scared Boar",
+            "Location": "02_CRASH_BEACH_ASTARION",
+            "Guid": "S_CRA_ScaredBoar_e352fae8-f49a-4f1d-b131-ea10af7591c9"
+        },
+        {
+            "Handle": "Corinna",
+            "Location": "03_GROVE_BEACH_ALFIRA",
+            "Guid": "S_DEN_BardSquirrel2_73f18550-4755-4e3c-9326-c328d34478af"
+        },
+        {
+            "Handle": "Spar",
+            "Location": "03_GROVE_BEACH_ALFIRA",
+            "Guid": "S_DEN_BardSquirrel_efc0ba71-b3fa-4bb5-8a38-10bd0dd8b923"
+        },
+        {
+            "Handle": "Tuffet",
+            "Location": "FOREST_GROVE_IDOL",
+            "Guid": "S_DEN_ElevatorBear_04b7ef23-1002-4682-b962-33a2328bcd5c"
+        },
+        {
+            "Handle": "Feral Bear",
+            "Location": "03_GROVE_INTERIOR_ANIMALS",
+            "Guid": "S_DEN_ZenBear_000_d83791d2-f181-476c-b200-8466b58a9c74"
+        },
+        {
+            "Handle": "Snicker",
+            "Location": "UNDERCITY_HIDEOUT_MINSC",
+            "Guid": "S_LOW_MinscHideout_Hyena_f4c687d7-a16f-418c-922d-af37d36373f5"
+        }
+    ],
     "Undead": [
+        {
+            "Handle": "Blighted Assassin",
+            "Location": "12_REITHWIN_WANING_BACKROOM",
+            "Guid": "EO_BlightedAssassin_cfe53b47-7f03-4462-9814-ed47692040d8"
+        },
+        {
+            "Handle": "Blighted Chemist",
+            "Location": "12_REITHWIN_WANING_BACKROOM",
+            "Guid": "EO_BlightedChemist_1_9a0e02ec-dc0e-40a2-93f6-8de4ff18f8b2"
+        },
+        {
+            "Handle": "Blighted Chemist",
+            "Location": "12_REITHWIN_WANING_BACKROOM",
+            "Guid": "EO_BlightedChemist_2_fe135c8e-d6d4-4765-b6ff-9be4c4387a5b"
+        },
+        {
+            "Handle": "Entombed Scribe",
+            "Location": "02_CHAPEL_INTERIOR_TOMB",
+            "Guid": "S_CHA_FL0_DeadSkeleton_Caster_01_7af3fa6c-7f7a-4920-acaf-f091e7c62373"
+        },
+        {
+            "Handle": "Entombed Scribe",
+            "Location": "02_CHAPEL_INTERIOR_TOMB",
+            "Guid": "S_CHA_FL0_DeadSkeleton_Caster_02_1535feb9-7ff9-4132-be09-191ba3f8c2e1"
+        },
+        {
+            "Handle": "Entombed Scribe",
+            "Location": "02_CHAPEL_INTERIOR_TOMB",
+            "Guid": "S_CHA_FL0_DeadSkeleton_Caster_03_462f0982-35c4-4a34-a3bf-399f37e686ee"
+        },
+        {
+            "Handle": "Entombed Scribe",
+            "Location": "02_CHAPEL_INTERIOR_TOMB",
+            "Guid": "S_CHA_FL0_DeadSkeleton_Caster_04_cb4c2c8f-b6db-4c53-b7e3-395aef311a39"
+        },
+        {
+            "Handle": "Entombed Warrior",
+            "Location": "02_CHAPEL_INTERIOR_TOMB",
+            "Guid": "S_CHA_FL0_DeadSkeleton_Melee_01_ebf854f1-7971-4f81-a2b7-e4b79b550b85"
+        },
+        {
+            "Handle": "Entombed Warrior",
+            "Location": "02_CHAPEL_INTERIOR_TOMB",
+            "Guid": "S_CHA_FL0_DeadSkeleton_Melee_03_ece224d0-ba7f-48e0-93ed-33b9410786cd"
+        },
         {
             "Handle": "Winged Horror",
             "Location": "COLONY_LAB",
@@ -17300,6 +17524,21 @@
             "Handle": "Winged Horror",
             "Location": "BRAIN_APPROACH",
             "Guid": "S_END_PatrolGhoul_2_b719228a-6a3d-443b-ba59-3130819397f3"
+        },
+        {
+            "Handle": "Robust Guardian",
+            "Location": "04_BLIGHTED_APOTHECARY_CAVE",
+            "Guid": "S_FOR_ThayG_Skeleton_002_171eb53b-f6a4-465a-9bb1-585a74a0efcc"
+        },
+        {
+            "Handle": "Robust Guardian",
+            "Location": "04_BLIGHTED_APOTHECARY_CAVE",
+            "Guid": "S_FOR_ThayG_Skeleton_003_7be92b31-6fcd-4fef-8708-9bb927f89fd5"
+        },
+        {
+            "Handle": "Robust Guardian",
+            "Location": "04_BLIGHTED_APOTHECARY_CAVE",
+            "Guid": "S_FOR_ThayG_Skeleton_006_fe72d606-8d37-4dfc-bbe2-2afda9e91c88"
         },
         {
             "Handle": "Fallen Gur Hunter",
@@ -17477,253 +17716,35 @@
             "Guid": "S_MOO_FlyingGhoul_002_90b8c61f-c7e8-445c-a1b1-9d9874457529"
         }
     ],
-    "Beast": [
+    "Monstrosity": [
         {
-            "Handle": "Murderous Crow",
-            "Location": "UNDERCITY_HIDEOUT_CISTERN",
-            "Guid": "LOW_BhaalCultist_Crow_000_c39c5c99-6fba-488f-996b-8205ff436fdc"
+            "Handle": "Lesser Bulette",
+            "Location": "08_UNDERDARK_SUSSUR_BULETTE",
+            "Guid": "EO_Bulette_1_b6e47ca8-6b21-4141-8fda-2238d419760d"
         },
         {
-            "Handle": "Murderous Crow",
-            "Location": "UNDERCITY_HIDEOUT_CISTERN",
-            "Guid": "LOW_BhaalCultist_Crow_001_533d3286-9870-4073-93d3-bfc1b9fa36ac"
-        },
-        {
-            "Handle": "Murderous Crow",
-            "Location": "UNDERCITY_HIDEOUT_CISTERN",
-            "Guid": "LOW_BhaalCultist_Crow_002_66f1fee5-0a9e-4d98-b29c-19caa6680b3a"
-        },
-        {
-            "Handle": "Murderous Crow",
-            "Location": "UNDERCITY_HIDEOUT_CISTERN",
-            "Guid": "LOW_BhaalCultist_Crow_003_5ffe3104-542e-4cb3-92d7-457cb4f1cca1"
-        },
-        {
-            "Handle": "Murderous Crow",
-            "Location": "UNDERCITY_HIDEOUT_CISTERN",
-            "Guid": "LOW_BhaalCultist_Crow_004_165bd441-1663-4f16-82a0-c3f3aab1dc35"
-        },
-        {
-            "Handle": "Murderous Crow",
-            "Location": "UNDERCITY_HIDEOUT_CISTERN",
-            "Guid": "LOW_BhaalCultist_Crow_005_4deeeb08-3fa4-4466-b920-22b83770fb0d"
-        },
-        {
-            "Handle": "Murderous Crow",
-            "Location": "UNDERCITY_HIDEOUT_CISTERN",
-            "Guid": "LOW_BhaalCultist_Crow_006_6d176306-05e6-4bad-bcf4-a00c0b7ff015"
-        },
-        {
-            "Handle": "Snicker",
-            "Location": "UNDERCITY_HIDEOUT_MINSC",
-            "Guid": "S_LOW_MinscHideout_Hyena_f4c687d7-a16f-418c-922d-af37d36373f5"
+            "Handle": "Lesser Bulette",
+            "Location": "08_UNDERDARK_SUSSUR_BULETTE",
+            "Guid": "EO_Bulette_2_30dc8437-bd22-4302-8d28-b2c6c0a07ff4"
         }
     ],
-    "Fiend": [
+    "Giant": [
         {
-            "Handle": "Lesser Imp",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "Helm_Imp_Dead_02_5063e607-a739-43bd-8270-52f0bc81238a"
+            "Handle": "Bridge Troll",
+            "Location": "04_FOREST_PATH_BRIDGE",
+            "Guid": "MMM_BRIDGETROLL_711e0cb6-6d7d-4233-9157-2a218f5f348d"
         },
         {
-            "Handle": "Imp",
-            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
-            "Guid": "S_FirstFight_Imp_Melee_01_07f1512b-efe9-4eb8-8ade-783435e9d7c9"
-        },
+            "Handle": "Bogsnap",
+            "Location": "04_BLIGHTED_RISEN_BARN",
+            "Guid": "MMM_ITSCOMPLICATED_fee2b522-e440-4fae-9b9a-a597cf03c434"
+        }
+    ],
+    "Elemental": [
         {
-            "Handle": "Imp",
-            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
-            "Guid": "S_FirstFight_Imp_Melee_02_5c5bd50b-147e-42e5-93cb-59a754df91ec"
-        },
-        {
-            "Handle": "Imp",
-            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
-            "Guid": "S_FirstFight_Imp_Ranged_01_38d1ce2f-4f19-4266-971d-61f08bc1a895"
-        },
-        {
-            "Handle": "Imp",
-            "Location": "PROLOGUE_NAUTILOID_FIRSTFIGHT",
-            "Guid": "S_FirstFight_Imp_Ranged_02_df44fa65-5399-47d6-b5bb-70e4b8e63314"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp01_4a793e6c-572c-4541-a10e-ce75b1e62255"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp02_5849cd14-4f4a-4742-bb0c-056c3ef7f90e"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp03_4adcf56c-e1cc-4441-8e3f-0761172407d4"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp04_55c88dba-6d2d-4082-b5dc-be1590c0e326"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp05_5ceed225-db6e-4652-bd4b-88c250550193"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_BOUDOIR",
-            "Guid": "S_LOW_HouseOfHope_BoudoirImp06_3a9e98f5-fe4c-46b2-a129-1e67fe92512b"
-        },
-        {
-            "Handle": "Vengeful Boar",
-            "Location": "HOPE_HALLWAYS",
-            "Guid": "S_LOW_HouseOfHope_FlamingBoar01_0d1cf2a6-0b56-4c14-83d1-7587e9c8c63c"
-        },
-        {
-            "Handle": "Vengeful Boar",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_FlamingBoar02_82efa3b1-ed21-4569-ac26-65b8a42dde9b"
-        },
-        {
-            "Handle": "Vengeful Boar",
-            "Location": "HOPE_HALLWAYS",
-            "Guid": "S_LOW_HouseOfHope_FlamingBoar03_a618f956-d2e8-4108-b5e9-7729286c3993"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_Imp01_ad2d83ec-102b-4f92-b98a-5ca981a23421"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_Imp02_d41533a3-b1d9-4cd3-b495-5732c989bd25"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_HALLWAYS",
-            "Guid": "S_LOW_HouseOfHope_Imp03_502cb8ab-7c8d-4465-b0cb-abab76da524a"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_HALLWAYS",
-            "Guid": "S_LOW_HouseOfHope_Imp04_0e3d4128-0bd4-4c05-a6a3-3d654b75043b"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_NotMerregon02_b8c31050-f17e-46a8-bae6-ac98481e3d5a"
-        },
-        {
-            "Handle": "Vengeful Boar",
-            "Location": "HOPE_DININGROOM",
-            "Guid": "S_LOW_HouseOfHope_NotMerregon03_8d08bf81-ae38-4493-8208-a9827fda6a36"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_000_7f9717a3-16c6-4323-9976-a31d27e36495"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_001_74282535-2053-4a8d-98ff-6413ea2136dd"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_002_095fbaa2-51c3-47fe-8626-22f28f1bece8"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_003_b5d6b288-45d1-497b-8339-cead5e16133d"
-        },
-        {
-            "Handle": "Vengeful Imp",
-            "Location": "HOPE_PRISON",
-            "Guid": "S_LOW_HouseOfHope_Prison_Imp_004_401761d3-a021-4a8a-968f-85c7e7e8675c"
-        },
-        {
-            "Handle": "Vengeful Cambion",
-            "Location": "HOPE_RAPHAEL",
-            "Guid": "S_LOW_HouseOfHope_RaphaelCambion01_4535facb-487c-4ab8-82e2-0f28558a7d16"
-        },
-        {
-            "Handle": "Vengeful Cambion",
-            "Location": "HOPE_RAPHAEL",
-            "Guid": "S_LOW_HouseOfHope_RaphaelCambion02_3164499e-24cd-4417-baca-5f057b4d9518"
-        },
-        {
-            "Handle": "Vengeful Cambion",
-            "Location": "HOPE_RAPHAEL",
-            "Guid": "S_LOW_HouseOfHope_RaphaelCambion03_abc96d0e-846e-4986-ae72-39befabb128b"
-        },
-        {
-            "Handle": "Vengeful Cambion",
-            "Location": "HOPE_RAPHAEL",
-            "Guid": "S_LOW_HouseOfHope_RaphaelCambion04_25c6573c-acb8-437f-9fcf-81a80c56f540"
-        },
-        {
-            "Handle": "Vengeful Cambion",
-            "Location": "HOPE_RAPHAEL",
-            "Guid": "S_LOW_HouseOfHope_RaphaelCambion05_f7b77fc8-d732-4cf7-a541-34d16ad01dc6"
-        },
-        {
-            "Handle": "Vengeful Cambion",
-            "Location": "HOPE_RAPHAEL",
-            "Guid": "S_LOW_HouseOfHope_RaphaelCambion06_c9c4475f-a2e7-43d6-8df9-de081fef3f89"
-        },
-        {
-            "Handle": "Cambion",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_BackUpCambion_001_dfd44248-1212-4eb9-a6b4-8d7335ad57f7"
-        },
-        {
-            "Handle": "Lesser Hellsboar",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_DevilBackUp_001_c6b3a323-d7cf-4b02-8a21-fefeaf3e7a0a"
-        },
-        {
-            "Handle": "Lesser Imp",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_DevilBackUp_002_4afad8cc-436e-4d16-8b33-7e59a470d4a8"
-        },
-        {
-            "Handle": "Lesser Imp",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_DevilBackUp_003_a73bd45a-99b6-4486-a280-846ddd586b78"
-        },
-        {
-            "Handle": "Lesser Hellsboar",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_Devil_000_1650c758-c9c2-d487-387d-22a269fd7918"
-        },
-        {
-            "Handle": "Lesser Imp",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_Devil_001_8262153a-b469-d119-2041-8316e0648ae0"
-        },
-        {
-            "Handle": "Lesser Imp",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_Devil_003_139971a8-86c5-4ee9-b201-18da4a2cb0ed"
-        },
-        {
-            "Handle": "Cambion",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_Devil_004_307d7d95-96f3-40db-9c2b-65ed63aa5c1d"
-        },
-        {
-            "Handle": "Commander Zhalk",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_Devil_005_ed103005-fd71-457d-ae6c-39654bbd8f2e"
-        },
-        {
-            "Handle": "Cambion Lieutenant",
-            "Location": "PROLOGUE_NAUTILOID_HELM",
-            "Guid": "S_TUT_Helm_Devil_006_06b30605-e1da-47a0-85da-370541af4976"
+            "Handle": "Lava Elemental",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
+            "Guid": "MMM_LAVAELEMENTAL_bc37c6a1-ed92-4f31-92a4-7ce718ffc5b6"
         }
     ],
     "Construct": [

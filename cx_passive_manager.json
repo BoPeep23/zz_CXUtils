@@ -1,0 +1,2008 @@
+[
+    {
+        "PassiveName": "CX_Boss_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    "AJ_Shout_ActionSurge_Emergency"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_MiniBoss_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Magic_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    "Projectile_Jump"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Martial_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "WeaponMaster"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Barbarian_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "RageUnlock"
+                ],
+                "Spells": [
+                    "Projectile_Jump",
+                    "Target_Shove",
+                    "Target_RecklessAttack"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Barbarian_Berserker_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "RageFrenzyUnlock"
+                ],
+                "Spells": [
+                    "Shout_Rage_Frenzy"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "MindlessRage"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Barbarian_WildMagic_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "WildMagic",
+                    "WildMagicRage",
+                    "RageGiantUnlock"
+                ],
+                "Spells": [
+                    "Shout_Rage_WildMagic"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Barbarian_Wildheart_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "MAG_ChargingTiger_RestoreMovement_Passive",
+                    "TotemSpirit_Bear"
+                ],
+                "Spells": [
+                    "Shout_Rage_Totem_Bear"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Bard_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_BardicInspiration_3",
+                    "Goon_Summon_Potion_Healing_x1",
+                    "BardicInspiration",
+                    "BardSpellcasting"
+                ],
+                "Spells": [
+                    "Target_HealingWord",
+                    "Goon_Target_Longstrider_Passive",
+                    "Target_Shatter",
+                    "Projectile_Jump",
+                    "Shout_HealingWord_Mass",
+                    "Target_ViciousMockery"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Bard_Lore_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "CuttingWords",
+                    "Background_Entertainer"
+                ],
+                "Spells": [
+                    "Target_MindSliver",
+                    "Target_DissonantWhispers",
+                    "Target_MindWhip"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Bard_Swords_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "MAG_ArcaneTrickster_Ring_Passive",
+                    "FightingStyle_TwoWeaponFighting",
+                    "FightingStyle_Dueling"
+                ],
+                "Spells": [
+                    "Projectile_BladeFlourish_Slashing",
+                    "Zone_BladeFlourish_Slashing",
+                    "Target_BladeFlourish_Defensive",
+                    "Target_ViciousMockery",
+                    "Shout_MirrorImage"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Bard_Valor_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "DualWielder_BonusAC",
+                    "FightingStyle_Dueling",
+                    "FightingStyle_TwoWeaponFighting",
+                    "ModeratelyArmored"
+                ],
+                "Spells": [
+                    "Shout_MirrorImage",
+                    "Shout_BladeWard",
+                    "Target_FaerieFire",
+                    "Shout_HealingWord_Mass"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Cleric_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    "Projectile_Jump",
+                    "Target_SacredFlame",
+                    "Projectile_GuidingBolt",
+                    "Target_InflictWounds",
+                    "Target_HealingWord",
+                    "Shout_HealingWord_Mass",
+                    "Projectile_Moonflare"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Cleric_Knowledge_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_ChannelDivinity_1",
+                    "MAG_SpellSaveDC_Enchantment_Passive"
+                ],
+                "Spells": [
+                    "Target_Sleep",
+                    "Target_CalmEmotions",
+                    "Target_HypnoticPattern"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Cleric_Life_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_ChannelDivinity_1",
+                    "BlessedHealer",
+                    "DiscipleOfLife"
+                ],
+                "Spells": [
+                    "Shout_BladeWard",
+                    "Target_Sanctuary",
+                    "Target_CureWounds",
+                    "Target_LesserRestoration",
+                    "Shout_HealingWord_Mass",
+                    "Shout_PreserveLife"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Cleric_Light_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_ChannelDivinity_1",
+                    "WardingFlare"
+                ],
+                "Spells": [
+                    "Shout_RadianceOfTheDawn",
+                    "Projectile_FireBolt",
+                    "Projectile_ChromaticOrb_Fire",
+                    "Target_FlamingSphere",
+                    "Projectile_Fireball",
+                    "Projectile_Moonflare"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "WardingFlare_Improved"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Cleric_Nature_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_ChannelDivinity_1",
+                    "DampenElements"
+                ],
+                "Spells": [
+                    "Target_DampenElements_Interrupt",
+                    "Target_SpikeGrowth",
+                    "Target_Entangle",
+                    "Target_ThornWhip",
+                    "Target_PlantGrowth"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Cleric_Trickery_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_ChannelDivinity_1",
+                    "Goon_Target_ShieldOfFaith_Passive"
+                ],
+                "Spells": [
+                    "Target_InvokeDuplicity",
+                    "Shout_CloakOfShadows",
+                    "Target_PoisonSpray",
+                    "Shout_MirrorImage",
+                    "Target_HoldPerson"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Cleric_Tempest_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "WrathOfTheStorm_Thunder_NPC",
+                    "ARP_ChannelDivinity_1",
+                    "WarCaster_OpportunitySpell",
+                    "ElementalAdept_Lightning"
+                ],
+                "Spells": [
+                    "DestructiveWrath",
+                    "Zone_Thunderwave",
+                    "Zone_RimesBindingIce",
+                    "Target_CallLightning"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Cleric_War_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ExtraAttack",
+                    "ARP_ChannelDivinity_1",
+                    "WarGodsBlessing"
+                ],
+                "Spells": [
+                    "Shout_GuidedStrike",
+                    "Target_GreenFlameBlade",
+                    "Target_Smite_Searing",
+                    "Target_SpiritualWeapon"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Druid_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "Goon_Shout_Shillelagh_Passive",
+                    "MAG_Druid_Nature_Regeneration_Passive",
+                    "DEN_FaithwardenStaff_Passive"
+                ],
+                "Spells": [
+                    "Target_HealingWord",
+                    "Projectile_Jump"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Druid_Land_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_SpellSlot_2_1"
+                ],
+                "Spells": [
+                    "Projectile_ProduceFlame",
+                    "Target_Frostbite",
+                    "Target_Entangle",
+                    "Zone_Thunderwave",
+                    "Projectile_AcidArrow",
+                    "Target_MistyStep",
+                    "Target_CallLightning",
+                    "Target_ThornWhip"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Druid_Moon_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "CombatWildShape"
+                ],
+                "Spells": [
+                    "Target_Moonbeam",
+                    "Shout_WildShape_Bear_Polar_NPC",
+                    "Target_ConjureAnimals_Container",
+                    "Projectile_Moonflare"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "WildStrike"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    "WildStrike_2",
+                    "MAG_Druid_Wildshape_SpellResistance_Passive"
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Druid_Spores_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "MAG_Druid_Spore_ExtraSpores_Passive",
+                    "MAG_Druid_Spore_NecroticSpellcasting_Passive"
+                ],
+                "Spells": [
+                    "Target_ChillTouch",
+                    "Target_InflictWounds",
+                    "Target_WitherAndBloom",
+                    "Projectile_RayOfSickness",
+                    "Shout_SymbioticEntity",
+                    "Target_VampiricTouch"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "ShadowDruid_PoisonClaws"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Fighter_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "FightingStyle_GreatWeaponFighting",
+                    "FightingStyle_TwoWeaponFighting",
+                    "FightingStyle_Dueling",
+                    "FightingStyle_Protection"
+                ],
+                "Spells": [
+                    "Projectile_Jump",
+                    "Shout_ActionSurge",
+                    "Target_Shove_Trip",
+                    "Shout_SecondWind"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "Indomitable_NPC"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Fighter_BattleMaster_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "Riposte",
+                    "SweepingAttack",
+                    "MenacingAttack"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    "ImprovedCombatSuperiority"
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Fighter_Champion_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "MAG_Fighter_ActionSurge_AttackBonus_Gloves_Passive",
+                    "Goon_Impeded_Movement_2"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Fighter_EldritchKnight_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "Mod_UNI_Bow_SpellslotRecharge_Passive",
+                    "FinishingStrike"
+                ],
+                "Spells": [
+                    "Target_BoomingBlade",
+                    "Shout_Shield_Wizard",
+                    "Target_HideousLaughter"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Monk_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "Mobile_DashAcrossDifficultTerrain",
+                    "Goon_Increased_Movement_2",
+                    "SecondStoryWork_Jumping"
+                ],
+                "Spells": [
+                    "Projectile_Jump",
+                    "Target_Shove_Trip",
+                    "Target_UnarmedStrike_Monk"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Monk_FourElements_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Monk_OpenHand_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Monk_Shadow_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Paladin_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "FightingStyle_GreatWeaponFighting",
+                    "FightingStyle_Dueling",
+                    "Sentinel_OpportunityAdvantage",
+                    "Goon_Summon_Potion_Healing_x1"
+                ],
+                "Spells": [
+                    "Projectile_Jump",
+                    "Shout_DivineFavor"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Paladin_Ancients_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_ChannelOath_1",
+                    "DivineHealth"
+                ],
+                "Spells": [
+                    "Shout_HealingRadiance"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Paladin_Devotion_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_ChannelOath_1",
+                    "DarkDevotion"
+                ],
+                "Spells": [
+                    "Target_Smite_Divine",
+                    "Target_Bless",
+                    "Target_HolyRebuke",
+                    "Shout_SacredWeapon"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "Goon_Aura_of_Devotion_Passive"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Paladin_Vengeance_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_ChannelOath_1",
+                    "Sentinel_Attack"
+                ],
+                "Spells": [
+                    "Target_Smite_Wrathful",
+                    "Target_HuntersMark",
+                    "Target_HoldPerson",
+                    "Target_VowOfEnmity"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "Goon_Aura_of_Protection_Passive"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Paladin_Oathbreaker_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ARP_ChannelOath_1",
+                    "TouchOfDeath",
+                    "Mod_MAG_Sarevok_OfChaos_Greatsword_Leeching_Passive"
+                ],
+                "Spells": [
+                    "Target_ControlUndead",
+                    "Shout_Dreadful_Aspect",
+                    "Shout_HellishRebuke",
+                    "Shout_SpiritShroud",
+                    "Target_SummonShadowspawn"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "Goon_Aura_of_Hate_Passive"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Ranger_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "FightingStyle_Archery",
+                    "CrossbowExpert_Wounding"
+                ],
+                "Spells": [
+                    "Projectile_Jump"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Ranger_BeastMaster_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "CompanionsBond",
+                    "NaturalExplorer_BeastTamer"
+                ],
+                "Spells": [
+                    "Shout_BladeWard",
+                    "Target_SummonBeast",
+                    "Target_HealingWord",
+                    "Target_RangersCompanion",
+                    "Shout_ZephyrStrike"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Ranger_GloomStalker_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "MAG_Shadow_Blinding_Bow_Passive",
+                    "DevilsSight"
+                ],
+                "Spells": [
+                    "Shout_AbsorbElements",
+                    "Target_Darkness",
+                    "Target_MistyStep"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Ranger_Hunter_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "MAG_BonusAttack_AgainstMarked_Passive",
+                    "HordeBreaker"
+                ],
+                "Spells": [
+                    "Target_HuntersMark",
+                    "Target_Web",
+                    "Projectile_HailOfThorns"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Rogue_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "SneakAttack_Unlock",
+                    "Assassinate_Initiative"
+                ],
+                "Spells": [
+                    "Projectile_Jump",
+                    "Shout_Disengage_CunningAction",
+                    "Projectile_SneakAttack",
+                    "Target_SneakAttack"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Rogue_ArcaneTrickster_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "Goon_Target_Longstrider_Passive",
+                    "MageHandLegerdemain"
+                ],
+                "Spells": [
+                    "Shout_Shield_Wizard",
+                    "Target_BoomingBlade",
+                    "Target_HideousLaughter",
+                    "Target_CloudOfDaggers",
+                    "Target_MageHand"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Rogue_Assassin_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "Assassinate_Ambush",
+                    "Assassinate_Resource"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Rogue_Thief_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "MAG_BarbMonk_Dexterity_Passive",
+                    "GOB_PainPriest_Dagger_Passive",
+                    "FastHands"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Sorcerer_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "Goon_Target_MageArmor_Passive"
+                ],
+                "Spells": [
+                    "Projectile_Jump"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Sorcerer_DraconicBloodline_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "DraconicResilience"
+                ],
+                "Spells": [
+                    "Projectile_IceKnife",
+                    "Projectile_WitchBolt",
+                    "Zone_BurningHands",
+                    "Zone_CausticBrew",
+                    "Projectile_RayOfSickness"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Sorcerer_WildMagic_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "WildMagic",
+                    "TidesOfChaos"
+                ],
+                "Spells": [
+                    "Target_ChaosBolt"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Sorcerer_StormSorcery_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Warlock_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "AgonizingBlast",
+                    "MAG_Zhentarim_Demonspirit_Gloves_Passive"
+                ],
+                "Spells": [
+                    "Projectile_EldritchBlast",
+                    "Target_Hex",
+                    "Projectile_Jump",
+                    "Target_SummonShadowspawn"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Warlock_Archfey_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "FeyAncestry",
+                    "PactOfTheChain",
+                    "FeyTouched_Charisma",
+                    "MaddeningHex",
+                    "EldritchSpear"
+                ],
+                "Spells": [
+                    "Target_Sleep",
+                    "Target_CalmEmotions"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "BeguilingDefenses",
+                    "MistyEscape"
+                ],
+                "Spells": [
+                    "Shout_Blink",
+                    "Goon_Target_Invisibility_Greater_Resource_1"
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Warlock_Fiend_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "DarkOnesBlessing",
+                    "DevilsSight",
+                    "GraspOfHadar"
+                ],
+                "Spells": [
+                    "Zone_BurningHands",
+                    "Projectile_ScorchingRay",
+                    "Projectile_Fireball"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "NPC_SummonGildedHellsboar"
+                ],
+                "Spells": [
+                    "Target_Confusion"
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    "Target_ORI_Wyll_SummonCambion"
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Warlock_GreatOldOne_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ClarifiedMortality",
+                    "LanceOfLethargy",
+                    "BookOfAncientSecrets"
+                ],
+                "Spells": [
+                    "Target_HideousLaughter",
+                    "Target_DissonantWhispers"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "EntropicWard"
+                ],
+                "Spells": [
+                    "Target_BestowCurse",
+                    "Target_BlackTentacles"
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    "Thought_Shield_Psychic_Resistance",
+                    "Thought_Shield_Psychic_Reflection"
+                ],
+                "Spells": [
+                    "Target_DominatePerson"
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Wizard_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "Goon_Target_MageArmor_Passive"
+                ],
+                "Spells": [
+                    "Projectile_Jump",
+                    "Projectile_ChromaticOrb"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    "MagicResistance"
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Wizard_Abjuration_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "ArcaneWard",
+                    "ArcaneWard_Damage",
+                    "ArcaneWard_Cast",
+                    "Divination_School_Abjuration"
+                ],
+                "Spells": [
+                    "Shout_BladeWard",
+                    "Shout_AbsorbElements",
+                    "Shout_Shield_Wizard",
+                    "Target_IntellectFortress"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Wizard_Conjuration_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "WarCaster_Bonuses"
+                ],
+                "Spells": [
+                    "Projectile_AcidSplash",
+                    "Shout_SwordBurst",
+                    "Projectile_IceKnife",
+                    "Target_MistyStep",
+                    "Target_SpiritualWeapon",
+                    "Target_Web",
+                    "Target_SummonShadowspawn",
+                    "Target_Summon_MudMephit"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    "FocusedConjuration"
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Wizard_Divination_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "CAMP_Volo_ErsatzEye",
+                    "DevilsSight"
+                ],
+                "Spells": [
+                    "Shout_SeeInvisibility",
+                    "Target_ShockingGrasp",
+                    "Target_TollTheDead",
+                    "Target_FaerieFire",
+                    "Target_Darkness"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Wizard_Enchantment_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "MAG_Psychic_MentalFatigue_Gloves_Passive",
+                    "Divination_School_Enchantment"
+                ],
+                "Spells": [
+                    "Target_MindSliver",
+                    "Target_ViciousMockery",
+                    "Target_MindWhip",
+                    "Target_HoldPerson"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Wizard_Evocation_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "WarCaster_OpportunitySpell",
+                    "PotentCantrip"
+                ],
+                "Spells": [
+                    "Shout_AbsorbElements",
+                    "Target_DragonsBreath",
+                    "Projectile_FireBolt",
+                    "Zone_BurningHands",
+                    "Zone_RimesBindingIce"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Wizard_Illusion_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    "Target_ImprovedMinorIllusion",
+                    "Shout_MirrorImage",
+                    "Shout_Blur",
+                    "Target_Silence",
+                    "Shout_ShadowBlade"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Wizard_Necromancy_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "GrimHarvest"
+                ],
+                "Spells": [
+                    "Target_TollTheDead",
+                    "Target_ChillTouch",
+                    "Target_SappingSting"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    "MAG_Necromancy_Evasion"
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "PassiveName": "CX_Wizard_Transmutation_Boost",
+        "Act": {
+            "1": {
+                "ExtraPassives": [
+                    "Goon_Target_Longstrider_Passive"
+                ],
+                "Spells": [
+                    "Target_Haste",
+                    "Target_Slow"
+                ]
+            },
+            "2": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            },
+            "3": {
+                "ExtraPassives": [
+                    ""
+                ],
+                "Spells": [
+                    ""
+                ]
+            }
+        }
+    }
+]

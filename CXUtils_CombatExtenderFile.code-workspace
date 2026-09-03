@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../../source/repos/bg3-mod-extraction-utils"
+		},
+		{
+			"path": "../../Downloads/ExportTool-v1.20.4"
 		}
 	],
 	"settings": {

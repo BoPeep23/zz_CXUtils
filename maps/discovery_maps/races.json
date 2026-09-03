@@ -1,0 +1,60 @@
+{
+    "Elves": {
+        "ApplyStaticStats": {
+            "OverrideStaticLock": true,
+            "SetStaticLock": false,
+            "PassivesToAdd": [
+                "Elven_Accuracy_Dexterity"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "SubType": "Elf"
+            }
+        ]
+    },
+    "Tieflings": {
+        "ApplyStaticStats": {
+            "OverrideStaticLock": true,
+            "SetStaticLock": false,
+            "PassivesToAdd": [
+                "MAG_Fire_BonusActionOnFireSpell_Passive",
+                "MAG_Fire_IncreasedDamage_Passive"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "SubType": "Tiefling"
+            }
+        ]
+    },
+    "Gnomes": {
+        "ApplyStaticStats": {
+            "OverrideStaticLock": true,
+            "SetStaticLock": false,
+            "PassivesToAdd": [
+                "Squat_Nimbleness_Acrobatics"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "SubType": "Gnome"
+            }
+        ]
+    },
+    "Halfling": {
+        "ApplyStaticStats": {
+            "OverrideStaticLock": true,
+            "SetStaticLock": false,
+            "PassivesToAdd": [
+                "BountifulLuck_featsextra",
+                "Halfling_Brave"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "SubType": "Halfling"
+            }
+        ]
+    }
+}

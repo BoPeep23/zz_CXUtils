@@ -52,6 +52,7 @@ class CombatExtenderBlockGenerator:
         monster_archetype_match_phrase,
         handle_match_phrase,
         full_guid_match_phrase="",
+        subclass_archetype_match_phrase="",
     ):
         """A filter is skipped when its phrase is empty; a block must satisfy
         every non-empty filter via case-insensitive substring containment
@@ -61,6 +62,9 @@ class CombatExtenderBlockGenerator:
                 return False
         if class_archetype_match_phrase:
             if not block.classArchetype or class_archetype_match_phrase.lower() not in block.classArchetype.lower():
+                return False
+        if subclass_archetype_match_phrase:
+            if not block.subclassArchetype or subclass_archetype_match_phrase.lower() not in block.subclassArchetype.lower():
                 return False
         if monster_archetype_match_phrase:
             if not block.monsterArchetype or monster_archetype_match_phrase.lower() not in block.monsterArchetype.lower():
@@ -81,6 +85,7 @@ class CombatExtenderBlockGenerator:
         monster_archetype_match_phrase="",
         handle_match_phrase="",
         full_guid_match_phrase="",
+        subclass_archetype_match_phrase="",
     ):
         clones = {}
         for block in blocks:
@@ -91,6 +96,7 @@ class CombatExtenderBlockGenerator:
                 monster_archetype_match_phrase,
                 handle_match_phrase,
                 full_guid_match_phrase,
+                subclass_archetype_match_phrase,
             ):
                 continue
             if block.clone_display_name and block.clone_display_name != "":
@@ -108,6 +114,7 @@ class CombatExtenderBlockGenerator:
         monster_archetype_match_phrase="",
         handle_match_phrase="",
         full_guid_match_phrase="",
+        subclass_archetype_match_phrase="",
     ):
         overrides = {}
         for block in blocks:
@@ -118,6 +125,7 @@ class CombatExtenderBlockGenerator:
                 monster_archetype_match_phrase,
                 handle_match_phrase,
                 full_guid_match_phrase,
+                subclass_archetype_match_phrase,
             ):
                 continue
             override_definition = {}

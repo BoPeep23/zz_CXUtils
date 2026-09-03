@@ -17,6 +17,7 @@ from monsterStatBlock import MonsterStatBlock
 _FIELD_ATTR_MAP = {
     "fullguid":          "full_guid",
     "classarchetype":    "classArchetype",
+    "subclassarchetype": "subclassArchetype",
     "monsterarchetype":  "monsterArchetype",
     "healthoverride":    "health_override",
     "passivestoadd":     "passives_to_add",

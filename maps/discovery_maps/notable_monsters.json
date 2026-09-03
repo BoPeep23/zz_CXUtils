@@ -1,8 +1,6 @@
 {
-    "Humanoids": {
-        "StopUpdates": false,
+    "2-Legged Basics": {
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": true,
             "SetStaticLock": false,
             "SpellsToAdd": [
@@ -14,13 +12,35 @@
         "MatchCombos": [
             {
                 "Type": "Humanoid"
+            },
+            {
+                "SubType": "Skeleton",
+                "Corpse": false
+            }
+        ]
+    },
+    "Random Grove Spells": {
+        "ApplyRandomStats": {
+            "OverrideRandomLock": true,
+            "SetRandomLock": false,
+            "RandomSpells": [
+                "Target_ControlFlames;Shout_ProduceFlame;Zone_BurningHands;Target_FlamingSphere",
+                "Target_Gust;Shout_Thunderclap;Shout_Thunderwave;Shout_WardingWind",
+                "Target_ShapeWater;Target_Frostbite;Target_CreateWater;Projectile_ChromaticOrb_Cold",
+                "Target_MoldEarth;Target_ThornWhip;Target_Entangle;Target_MaximiliansEarthenGrasp"
+            ],
+            "RandomSpellCount": 1
+        },
+        "MatchCombos": [
+            {
+                "ClassArchetype": "Druid",
+                "Act": "1",
+                "Location": "GROVE_"
             }
         ]
     },
     "Martial Imp (Prologue)": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Fiend",
@@ -48,9 +68,7 @@
         ]
     },
     "Ranged Imp (Prologue)": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Fiend",
@@ -77,7 +95,6 @@
             }
         ],
         "ApplyRandomStats": {
-            "StopUpdates": false,
             "OverrideRandomLock": false,
             "SetRandomLock": true,
             "RandomPassives": [
@@ -90,9 +107,7 @@
         }
     },
     "Goblin Brawler": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
@@ -120,9 +135,7 @@
         ]
     },
     "Goblin Warrior": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
@@ -150,9 +163,7 @@
         ]
     },
     "Goblin Booyahg": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
@@ -188,14 +199,12 @@
         ]
     },
     "Goblin Sharp-Eye": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
             "SubType": "Goblin",
-            "ClassArchetype": "Warlock",
+            "ClassArchetype": "Ranger",
             "MonsterArchetype": "Goblin Sharp-Eye",
             "OriginalHealth": 19,
             "ArmorClass": 13,
@@ -221,9 +230,7 @@
         ]
     },
     "Goblin Chemist": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
@@ -249,9 +256,7 @@
         ]
     },
     "Vengeful Cambion": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Fiend",
@@ -272,9 +277,7 @@
         ]
     },
     "Vengeful Imp": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Fiend",
@@ -303,9 +306,7 @@
         ]
     },
     "Vengeful Boar": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Fiend",
@@ -332,9 +333,7 @@
         ]
     },
     "Murderous Crow": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Beast",
@@ -351,9 +350,7 @@
         ]
     },
     "Kobold Inventor": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
@@ -376,9 +373,7 @@
         ]
     },
     "Kobold Scout": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
@@ -402,9 +397,7 @@
         ]
     },
     "Kobold Looter": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
@@ -425,9 +418,7 @@
         ]
     },
     "Ghast": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Undead",
@@ -451,9 +442,7 @@
         ]
     },
     "Illithid Arcanist": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Aberration",
@@ -483,9 +472,7 @@
         ]
     },
     "Iron Consul of Bane": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
@@ -517,9 +504,7 @@
         ]
     },
     "Intellect Devourer": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Aberration",
@@ -543,7 +528,6 @@
             }
         ],
         "ApplyRandomStats": {
-            "StopUpdates": false,
             "OverrideRandomLock": false,
             "SetRandomLock": true,
             "HealthOverrideRange": [
@@ -553,9 +537,7 @@
         }
     },
     "Mind Flayer (Prologue)": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Aberration",
@@ -581,121 +563,8 @@
             }
         ]
     },
-    "Inquisitor of the Absolute": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Humanoid",
-            "SubType": "",
-            "ClassArchetype": "Ranger",
-            "MonsterArchetype": "Inquisitor of the Absolute",
-            "OriginalHealth": 123,
-            "HealthOverride": 200,
-            "ArmorClass": 17,
-            "Level": 9,
-            "PassivesToAdd": [
-                "CX_Ranger_Boost",
-                "Goon_AttackRoll_3",
-                "Goon_AC_Buff_5",
-                "ARP_SpellSlot_5_1"
-            ],
-            "SpellsToAdd": [
-                "Target_HolyWeapon",
-                "Target_HypnoticPattern",
-                "Shout_Shield_Wizard",
-                "Shout_AbsorbElements"
-            ]
-        },
-        "MatchCombos": []
-    },
-    "Black Gauntlet of Bane": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Humanoid",
-            "SubType": "",
-            "ClassArchetype": "Cleric",
-            "MonsterArchetype": "Black Gauntlet of Bane",
-            "OriginalHealth": 106,
-            "HealthOverride": 200,
-            "ArmorClass": 18,
-            "Level": 12,
-            "SpellsToAdd": [
-                "Projectile_NegativeEnergyFlood",
-                "Shout_CircleOfPower",
-                "Target_FingerOfDeath",
-                "Target_CircleOfDeath"
-            ],
-            "PassivesToAdd": [
-                "ARP_SpellSlot_7_1"
-            ]
-        },
-        "MatchCombos": []
-    },
-    "Invoker of Bhaal": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Humanoid",
-            "SubType": "Human",
-            "ClassArchetype": "Wizard (Conjuration)",
-            "MonsterArchetype": "Invoker of Bhaal",
-            "OriginalHealth": 72,
-            "ArmorClass": 15,
-            "Level": 9,
-            "PassivesToAdd": [
-                "CX_Magic_Boost",
-                "Goon_AC_Buff_3",
-                "ARP_SpellSlot_1_1",
-                "ARP_SpellSlot_2_1",
-                "ARP_SpellSlot_3_1",
-                "ARP_SpellSlot_4_2",
-                "ARP_SpellSlot_5_1",
-                "Goon_Cold_Resistant",
-                "ALCH_Elixir_Bloodlust_Passive",
-                "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
-                "Goon_Damage_Cold_d8_SpellAttacks",
-                "Goon_Damage_Cold_d4_Spells"
-            ],
-            "SpellsToAdd": [
-                "Target_IceStorm",
-                "Target_HungerOfHadar",
-                "Target_ConjureElemental_Elemental_Water"
-            ]
-        },
-        "MatchCombos": []
-    },
-    "Manifestation of Tyranny": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Construct",
-            "SubType": "Manifestation of Tyranny",
-            "ClassArchetype": "",
-            "MonsterArchetype": "Manifestation of Tyranny",
-            "OriginalHealth": 10,
-            "HealthOverride": 40,
-            "ArmorClass": 11,
-            "Level": 9,
-            "PassivesToAdd": [
-                "Goon_Radiant_Immune",
-                "Goon_Necrotic_Immune"
-            ]
-        },
-        "MatchCombos": []
-    },
     "Mistress of Souls": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",
@@ -718,99 +587,8 @@
             }
         ]
     },
-    "Poltergeist": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Undead",
-            "SubType": "Ghost",
-            "ClassArchetype": "",
-            "MonsterArchetype": "Poltergeist",
-            "OriginalHealth": 52,
-            "HealthOverride": 150,
-            "ArmorClass": 14,
-            "Level": 2,
-            "PassivesToAdd": [
-                "Goon_AC_Buff_5",
-                "FiendishBlessing",
-                "Goon_AttackRoll_5",
-                "Goon_Increased_Movement_6",
-                "MAG_BansheeBless_Passive",
-                "ARP_ActionPoint",
-                "Goon_Immunity_Prone",
-                "Goon_Immunity_Restrained",
-                "Goon_Immunity_Paralyzed",
-                "Goon_Immunity_Stunned",
-                "Goon_Slashing_Resistant",
-                "Goon_Piercing_Resistant",
-                "Goon_Bludgeoning_Resistant",
-                "FiendishBlessing",
-                "Alert",
-                "MAG_Monk_Magic_Gloves_Passive",
-                "TavernBrawler_Bonuses",
-                "Ethereal"
-            ]
-        },
-        "MatchCombos": []
-    },
-    "Vengeful Soul": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Undead",
-            "SubType": "Ghost",
-            "ClassArchetype": "",
-            "MonsterArchetype": "Vengeful Soul",
-            "OriginalHealth": 76,
-            "HealthOverride": 250,
-            "ArmorClass": 14,
-            "Level": 8,
-            "PassivesToAdd": [
-                "Goon_AC_Buff_5",
-                "FiendishBlessing",
-                "Goon_AttackRoll_4",
-                "Goon_Increased_Movement_3",
-                "ARP_ActionPoint",
-                "MAG_FrightenedDisadvantage_Passive",
-                "MAG_SpellSaveDC_Enchantment_Passive"
-            ]
-        },
-        "MatchCombos": []
-    },
-    "Tormented Soul": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Undead",
-            "SubType": "Ghost",
-            "ClassArchetype": "",
-            "MonsterArchetype": "Tormented Soul",
-            "OriginalHealth": 62,
-            "HealthOverride": 200,
-            "ArmorClass": 14,
-            "Level": 8,
-            "PassivesToAdd": [
-                "Goon_AC_Buff_5",
-                "Goon_AttackRoll_4",
-                "FiendishBlessing",
-                "Goon_Increased_Movement_3",
-                "ARP_ActionPoint",
-                "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                "MAG_SpellSaveDC_Enchantment_Passive"
-            ]
-        },
-        "MatchCombos": []
-    },
     "Cursed Skull": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Undead",
@@ -845,76 +623,8 @@
             }
         ]
     },
-    "Night Blade": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Humanoid",
-            "SubType": "",
-            "ClassArchetype": "Rogue",
-            "MonsterArchetype": "Night Blade",
-            "HealthOverride": 90,
-            "OriginalHealth": 36,
-            "ArmorClass": 12,
-            "Level": 3,
-            "PassivesToAdd": [
-                "CX_Rogue_Boost",
-                "Goon_AttackRoll_5",
-                "Goon_AC_Buff_4"
-            ]
-        },
-        "MatchCombos": []
-    },
-    "Reaper of Bhaal": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Humanoid",
-            "SubType": "Human",
-            "ClassArchetype": "Rogue",
-            "MonsterArchetype": "Reaper of Bhaal",
-            "OriginalHealth": 58,
-            "ArmorClass": 15,
-            "Level": 5,
-            "PassivesToAdd": [
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_4",
-                "CX_Rogue_Boost",
-                "ALCH_Elixir_Bloodlust_Passive"
-            ]
-        },
-        "MatchCombos": []
-    },
-    "Spectator": {
-        "StopUpdates": false,
-        "ApplyStaticStats": {
-            "StopUpdates": false,
-            "OverrideStaticLock": false,
-            "SetStaticLock": true,
-            "Type": "Aberration",
-            "SubType": "Beholderkin",
-            "ClassArchetype": "",
-            "MonsterArchetype": "Spectator",
-            "OriginalHealth": 153,
-            "HealthOverride": 200,
-            "ArmorClass": 14,
-            "Level": 5,
-            "PassivesToAdd": [
-                "Goon_AC_Buff_4",
-                "Goon_AttackRoll_4",
-                "Goon_Immunity_Blinded"
-            ]
-        },
-        "MatchCombos": []
-    },
     "Winged Horror": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": false,
             "Type": "Undead",
@@ -944,9 +654,7 @@
         ]
     },
     "Githyanki Youth": {
-        "StopUpdates": false,
         "ApplyStaticStats": {
-            "StopUpdates": false,
             "OverrideStaticLock": false,
             "SetStaticLock": true,
             "Type": "Humanoid",

@@ -25,5 +25,8 @@
     "S_WYR_": "3",
     "S_LOW_": "3",
     "S_IRN_": "3",
-    "S_END_": "End"
+    "S_END_": "End",
+    "EO_Waukeen_": "1",
+    "EO_UND_": "1",
+    "EO_SCL_": "2"
 }

@@ -14,6 +14,7 @@ class MonsterStatBlock:
     # LockBlock) are NOT excluded - corpse blocks keep and report all four.
     CORPSE_EXCLUDED_FIELDS = {
         "ClassArchetype",
+        "SubclassArchetype",
         "ArmorClass",
         "HealthOverride",
         "OriginalHealth",
@@ -31,6 +32,7 @@ class MonsterStatBlock:
         type_=None,
         sub_type=None,
         classArchetype=None,
+        subclassArchetype=None,
         monsterArchetype=None,
         corpse=None,
         notes=None,
@@ -55,6 +57,7 @@ class MonsterStatBlock:
         self._type = type_
         self._sub_type = sub_type
         self._classArchetype = classArchetype
+        self._subclassArchetype = subclassArchetype
         self._monsterArchetype = monsterArchetype
         self._corpse = corpse
         # ── Information ──────────────────────────────────────────────────
@@ -132,6 +135,14 @@ class MonsterStatBlock:
     @classArchetype.setter
     def classArchetype(self, value):
         self._classArchetype = value
+
+    @property
+    def subclassArchetype(self):
+        return self._subclassArchetype
+
+    @subclassArchetype.setter
+    def subclassArchetype(self, value):
+        self._subclassArchetype = value
 
     @property
     def monsterArchetype(self):
@@ -283,6 +294,7 @@ class MonsterStatBlock:
             "Type": self._type,
             "SubType": self._sub_type,
             "ClassArchetype": self._classArchetype,
+            "SubclassArchetype": self._subclassArchetype,
             "MonsterArchetype": self._monsterArchetype,
             "Corpse": self._corpse,
             # Information
@@ -325,6 +337,7 @@ class MonsterStatBlock:
             type_=_or_default("Type", ""),
             sub_type=_or_default("SubType", ""),
             classArchetype=_or_default("ClassArchetype", ""),
+            subclassArchetype=_or_default("SubclassArchetype", ""),
             monsterArchetype=_or_default("MonsterArchetype", ""),
             corpse=_or_default("Corpse", False),
             notes=_or_default("Notes", ""),
@@ -349,6 +362,7 @@ class MonsterStatBlock:
             "Type",
             "SubType",
             "ClassArchetype",
+            "SubclassArchetype",
             "MonsterArchetype",
             "Corpse",
             "Notes",
@@ -511,6 +525,10 @@ class MonsterStatBlock:
                     existing.corpse = block.corpse
                 if _should_replace(existing.classArchetype, block.classArchetype):
                     existing._classArchetype = block._classArchetype
+                if _should_replace(
+                    existing.subclassArchetype, block.subclassArchetype
+                ):
+                    existing._subclassArchetype = block._subclassArchetype
                 if _should_replace(existing.monsterArchetype, block.monsterArchetype):
                     existing.monsterArchetype = block.monsterArchetype
                 if _should_replace(existing.subtype, block.subtype):
