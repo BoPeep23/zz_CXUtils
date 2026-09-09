@@ -1,0 +1,103 @@
+{
+    "dateApplied": "Thu 09/03/26 18:50",
+    "Gnoll Flesh Gnawer": {
+        "ApplyRandomStats": {
+            "OverrideRandomLock": false,
+            "SetRandomLock": true,
+            "RandomPassives": [
+                ""
+            ],
+            "RandomPassiveCount": 1,
+            "RandomSpells": [],
+            "RandomSpellCount": 0,
+            "HealthOverrideRange": [
+                38,
+                47
+            ]
+        },
+        "ApplyStaticStats": {
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Gnoll Flesh Gnawer"
+            }
+        ]
+    },
+    "Gnoll Hunter": {
+        "ApplyRandomStats": {
+            "OverrideRandomLock": false,
+            "SetRandomLock": true,
+            "RandomPassives": [
+                ""
+            ],
+            "RandomPassiveCount": 1,
+            "RandomSpells": [],
+            "RandomSpellCount": 0,
+            "HealthOverrideRange": [
+                30,
+                40
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Gnoll Hunter"
+            }
+        ]
+    },
+    "Gnoll Fang of Yeenoghu": {
+        "ApplyRandomStats": {
+            "OverrideRandomLock": false,
+            "SetRandomLock": true,
+            "RandomPassives": [
+                ""
+            ],
+            "RandomPassiveCount": 1,
+            "RandomSpells": [],
+            "RandomSpellCount": 0,
+            "HealthOverrideRange": [
+                30,
+                40
+            ]
+        },
+        "ApplyStaticStats": {
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Gnoll Fang of Yeenoghu"
+            }
+        ]
+    },
+    "Newborn Gnoll": {
+        "ApplyRandomStats": {
+            "OverrideRandomLock": false,
+            "SetRandomLock": true,
+            "RandomPassives": [
+                "BrutalBite",
+                "UND_ServantOfBoooal"
+            ],
+            "RandomPassiveCount": 1,
+            "RandomSpells": [],
+            "RandomSpellCount": 0,
+            "HealthOverrideRange": [
+                35,
+                42
+            ]
+        },
+        "ApplyStaticStats": {
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ]
+        },
+        "MatchCombos": [
+            {
+                "Handle": "Newborn Gnoll"
+            }
+        ]
+    }
+}

@@ -93,7 +93,13 @@
         "DisplayName": "Wood Woad",
         "Template": "S_HAG_WoodWoad_001_9bfff102-7858-47ad-a54d-ad7abae921f1"
     },
+    "S_HAG_MudMephit_01_8e6dad78-a443-4f8b-87ba-59d27ad05232": {
+        "DisplayName": "Ancient Mud Mephit"
+    },
     "S_HAG_MudMephit_02_066a27f7-4465-4b61-ba13-7b8d6358ad50": {
+        "DisplayName": "Ancient Mud Mephit"
+    },
+    "S_HAG_MudMephit_03_ea2709f4-3c23-4961-8cc9-e72d7727c1a4": {
         "DisplayName": "Ancient Mud Mephit"
     },
     "S_PLA_ConflictedFlind_Gnoll_FleshGnawer_New_01_3869c21a-de70-4527-93fb-e4add4adbcc0": {
@@ -1287,6 +1293,10 @@
     "EO_Shade_Leader_7022a5b3-dbe0-4fe5-aa02-366d493856cd": {
         "DisplayName": "Possessed Mason",
         "Template": "S_TWN_Basement_PossessedMason_51166135-c47d-4eb2-955f-d2da96fa70a0"
+    },
+    "EO_Spider_Giant_1_5abdd6c2-4997-4106-b01f-b11a82bfede5": {
+        "DisplayName": "Lost Hook Horror",
+        "Template": "S_UND_HookHorror_Hunter_001_3d5a8ed5-771a-491b-93eb-9a65eb2dcf30"
     },
     "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea": {
         "DisplayName": "Zealot Varsh",

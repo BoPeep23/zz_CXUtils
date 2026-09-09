@@ -76,6 +76,7 @@
     },
     "S_TUT_Misc_PodHuman_92b60869-b880-4f29-8cd3-bb2a8c771af1": {
         "Passives": [
+            "DevilsSight",
             "FeyTouched_Wisdom",
             "ShadowTouched_Intelligence"
         ]
@@ -83,7 +84,10 @@
     "S_TUT_TransformChamber_DrainVictim_000_5bc43df4-6274-4b73-baed-c7f5268b2fc7": {
         "HealthOverride": 20,
         "Passives": [
-            "Goon_AttackRoll_2"
+            "Goon_AttackRoll_2",
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "MageSlayer_BreakConcentration"
         ]
     },
     "S_TUT_TransformChamber_DrainVictim_001_dd1d4bcf-da0e-441a-b700-7273bad6579e": {
@@ -131,6 +135,11 @@
             "Sharpshooter_Bonuses"
         ]
     },
+    "S_GLO_Hirelings_Paladin_244e782b-a99c-444a-bd8d-d356c26c2902": {
+        "Passives": [
+            "CX_Paladin_Boost"
+        ]
+    },
     "S_GLO_Orin_bf24e0ec-a3a6-4905-bd2d-45dc8edf8101": {
         "Passives": [
             "ClarifiedMortality",
@@ -151,6 +160,9 @@
             "Goon_AttackRoll_5",
             "Goon_AC_Buff_3"
         ]
+    },
+    "S_Player_Wyll_c774d764-4a17-48dc-b470-32ace9ce447d": {
+        "HealthOverride": 1
     },
     "S_CRA_Escape_IntDevourer1_edd4c1c0-422f-82de-1b22-4a3d734da5c8": {
         "HealthOverride": 35,
@@ -195,19 +207,45 @@
         ]
     },
     "S_CHA_FL0_DeadSkeleton_Caster_01_7af3fa6c-7f7a-4920-acaf-f091e7c62373": {
-        "HealthOverride": 19
+        "HealthOverride": 19,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
     },
     "S_CHA_FL0_DeadSkeleton_Caster_02_1535feb9-7ff9-4132-be09-191ba3f8c2e1": {
-        "HealthOverride": 19
+        "HealthOverride": 19,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
     },
     "S_CHA_FL0_DeadSkeleton_Caster_03_462f0982-35c4-4a34-a3bf-399f37e686ee": {
-        "HealthOverride": 19
+        "HealthOverride": 19,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
     },
     "S_CHA_FL0_DeadSkeleton_Caster_04_cb4c2c8f-b6db-4c53-b7e3-395aef311a39": {
-        "HealthOverride": 19
+        "HealthOverride": 19,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "S_CHA_FL0_DeadSkeleton_Melee_01_ebf854f1-7971-4f81-a2b7-e4b79b550b85": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
     },
     "S_CHA_FL0_DeadSkeleton_Melee_03_ece224d0-ba7f-48e0-93ed-33b9410786cd": {
-        "HealthOverride": 50
+        "HealthOverride": 50,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
     },
     "S_CHA_FL1_BanditSanctum_01_fd5f646a-d5f6-4f19-904f-61dfc7e14d7e": {
         "Passives": [
@@ -227,8 +265,10 @@
     "S_DEN_AdventurerLeader_82d1b843-9e8c-48a5-9d87-caddea5c193c": {
         "HealthOverride": 50,
         "Passives": [
+            "ExtraAttack",
+            "FeyTouched_Wisdom",
             "Goon_AC_Buff_2",
-            "ExtraAttack"
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_DEN_Apprentice_7cabf226-e34b-4556-8903-a45d0fe26caf": {
@@ -245,8 +285,14 @@
             "Goon_Summon_Potion_Healing_Superior_x1"
         ]
     },
-    "S_DEN_BugbearNinja_4cb29070-a33c-4253-9f57-18d1c9a88523": {
+    "S_DEN_BugbearNinja_000_f52aa282-f8cf-4970-9cf8-9c1cd08b0c87": {
         "HealthOverride": 45
+    },
+    "S_DEN_BugbearNinja_001_9cba4b3d-7010-4d86-ae4b-b2c3c9799e03": {
+        "HealthOverride": 48
+    },
+    "S_DEN_BugbearNinja_4cb29070-a33c-4253-9f57-18d1c9a88523": {
+        "HealthOverride": 46
     },
     "S_DEN_CapturedGoblin_783d7572-a846-455f-b686-247a95263ebb": {
         "HealthOverride": 25
@@ -277,8 +323,10 @@
             "Target_HealingWord"
         ],
         "Passives": [
+            "FeyTouched_Wisdom",
             "Goon_AC_Buff_2",
-            "MAG_Druid_Wildshape_SpellResistance_Passive"
+            "MAG_Druid_Wildshape_SpellResistance_Passive",
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_DEN_GoblinRaider_Melee_01_6a03d0ff-a930-4347-bba2-9f3fd6bc317a": {
@@ -296,9 +344,30 @@
             "UNI_Bow_SpellslotRecharge_Passive"
         ]
     },
+    "S_DEN_RaidAdventurer_4faf77a0-b883-4f7b-acbf-4500973f446d": {
+        "HealthOverride": 38
+    },
     "S_DEN_Raider_SharpEye_01_6aec4799-3be2-46b7-896e-0075d2304d3d": {
         "Passives": [
             "UNI_Bow_SpellslotRecharge_Passive"
+        ]
+    },
+    "S_DEN_RobbedAdventurer_534bceaf-678c-40a0-8ca9-e1134f95ba0d": {
+        "HealthOverride": 40
+    },
+    "S_DEN_ShadowDruid_001_0cb92c37-fb4d-4547-8702-1fb1dd52d0b6": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_DEN_ShadowDruid_002_0820c093-f400-4efc-95b9-a6d08a58cac9": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_DEN_ShadowDruid_003_53b08334-9f79-4bb5-b580-2662355d54ad": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_DEN_Weaponsmith_e2ad06ec-8034-479a-9f69-b86faea6dc79": {
@@ -349,40 +418,54 @@
     "S_FOR_ThayG_Skeleton_002_171eb53b-f6a4-465a-9bb1-585a74a0efcc": {
         "HealthOverride": 45,
         "Passives": [
-            "GOB_PainPriest_Scourge_Passive"
+            "GOB_PainPriest_Scourge_Passive",
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
         ]
     },
     "S_FOR_ThayG_Skeleton_003_7be92b31-6fcd-4fef-8708-9bb927f89fd5": {
         "HealthOverride": 45,
         "Passives": [
-            "GOB_PainPriest_Scourge_Passive"
+            "GOB_PainPriest_Scourge_Passive",
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
         ]
     },
     "S_FOR_ThayG_Skeleton_004_d1f7d900-0e2d-4706-a141-20a026c003ed": {
         "Passives": [
-            "MAG_Shadow_Blinding_Bow_Passive"
+            "Goon_AC_Buff_1",
+            "MAG_Shadow_Blinding_Bow_Passive",
+            "Resilient_Strength"
         ]
     },
     "S_FOR_ThayG_Skeleton_005_43a9bace-50c0-4313-bc3b-824adecf0aad": {
         "Passives": [
-            "MAG_Shadow_Blinding_Bow_Passive"
+            "Goon_AC_Buff_1",
+            "MAG_Shadow_Blinding_Bow_Passive",
+            "Resilient_Strength"
         ]
     },
     "S_FOR_ThayG_Skeleton_006_fe72d606-8d37-4dfc-bbe2-2afda9e91c88": {
         "Passives": [
-            "GOB_PainPriest_Scourge_Passive"
+            "GOB_PainPriest_Scourge_Passive",
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
         ]
     },
     "S_FOR_ThayG_Skeleton_007_595edf1e-af70-4dec-a1a6-735f4966c42f": {
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "MAG_SarevokArmor_WitheringBarrier_Passive"
+            "MAG_SarevokArmor_WitheringBarrier_Passive",
+            "Resilient_Strength"
         ]
     },
     "S_FOR_ThayG_Skeleton_008_532d1b22-b493-4282-b366-a55dbd6cf8a4": {
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "MAG_SarevokArmor_WitheringBarrier_Passive"
+            "MAG_SarevokArmor_WitheringBarrier_Passive",
+            "Resilient_Strength"
         ]
     },
     "S_HAG_Hag_c457d064-83fb-4ec6-b74d-1f30dfafd12d": {
@@ -406,27 +489,48 @@
         ]
     },
     "S_HAG_Hag_MaskedVictim1_d2832662-4a12-4565-bfe2-094b93ae8af8": {
+        "HealthOverride": 55,
         "Passives": [
-            "CX_Barbarian_Boost",
-            "MAG_Illithid_Carapace_Gloves_Passive"
+            "CX_Druid_Boost",
+            "CX_Druid_Moon_Boost"
         ]
     },
     "S_HAG_Hag_MaskedVictim2_535f23bc-2d27-4c40-a1f3-1cf58bfd1698": {
+        "HealthOverride": 45,
         "Passives": [
-            "BardicInspiration_d8",
-            "BardicInspiration",
-            "CX_Cleric_Boost"
+            "CX_Cleric_Boost",
+            "MAG_Revivify_Gloves_Passive",
+            "ARP_SpellSlot_1_4",
+            "ARP_SpellSlot_2_3"
         ]
     },
     "S_HAG_Hag_MaskedVictim3_d7707fd3-301b-49a3-b7f1-2fb92cfa9805": {
+        "HealthOverride": 60,
         "Passives": [
-            "CX_Paladin_Boost"
+            "CX_Paladin_Boost",
+            "MAG_Psychic_MentalFatigue_Cape_Passive",
+            "ARP_SpellSlot_1_3"
         ]
     },
     "S_HAG_Hag_MaskedVictim4_74dcb337-e6d1-4329-ac2b-5a3723346159": {
+        "HealthOverride": 50,
         "Passives": [
-            "CX_Rogue_Boost",
-            "MAG_Psychic_MentalFatigue_Gloves_Passive"
+            "CX_Ranger_Boost",
+            "CX_Ranger_Hunter_Boost",
+            "ARP_SpellSlot_1_2",
+            "ARP_SpellSlot_2_2"
+        ]
+    },
+    "S_HAG_HagAmbush_Brother_001_767e2e80-b340-4e0f-9a6c-fd7df92d6e9e": {
+        "Passives": [
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "MageSlayer_BreakConcentration"
+        ]
+    },
+    "S_HAG_HagAmbush_Brother_002_24c7e849-2ad6-414e-bc38-6ea3f358a80b": {
+        "Passives": [
+            "Alert"
         ]
     },
     "S_HAG_MudMephit_01_8e6dad78-a443-4f8b-87ba-59d27ad05232": {
@@ -540,7 +644,10 @@
         ]
     },
     "S_GOB_PainPriest_cad1854b-8f41-4038-b640-156ee0272f81": {
-        "HealthOverride": 45
+        "HealthOverride": 45,
+        "Passives": [
+            "Alert"
+        ]
     },
     "S_GOB_PartyingGoblin_000_69ab2a7d-9035-4e4e-97e5-2d005c9662ee": {
         "Passives": [
@@ -596,6 +703,57 @@
         "Passives": [
             "UNI_Bow_SpellslotRecharge_Passive"
         ]
+    },
+    "S_PLA_ConflictedFlind_Gnoll_FangOfYeenoghu_01_f787a3c0-ecde-480d-a24b-5ec18f191f03": {
+        "HealthOverride": 30,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive"
+        ]
+    },
+    "S_PLA_ConflictedFlind_Gnoll_FleshGnawer_01_4929dbdd-bf47-4fb2-aa07-3814c7eac07c": {
+        "HealthOverride": 44,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive"
+        ]
+    },
+    "S_PLA_ConflictedFlind_Gnoll_FleshGnawer_New_01_3869c21a-de70-4527-93fb-e4add4adbcc0": {
+        "HealthOverride": 43,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive"
+        ]
+    },
+    "S_PLA_ConflictedFlind_Gnoll_Ranger_01_8c73365b-a23e-4aba-b556-fa7dedc8d33b": {
+        "HealthOverride": 39
+    },
+    "S_PLA_ConflictedFlind_Gnoll_Ranger_02_008ec55e-ce89-49f0-b50d-0fe705951a32": {
+        "HealthOverride": 34
+    },
+    "S_PLA_ConflictedFlind_Gnoll_Ranger_03_81b29ac1-ba32-466b-bca8-9bb555aa3a6d": {
+        "HealthOverride": 35
+    },
+    "S_PLA_DyingHyena_GnollPack_C_Fang_01_00fc2e9b-f93c-422d-8a17-7cdaa292f29c": {
+        "HealthOverride": 32,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive"
+        ]
+    },
+    "S_PLA_DyingHyena_GnollPack_C_Fang_New_001_d750156e-7d81-4ae4-b073-6ad009dd30e6": {
+        "HealthOverride": 34,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive"
+        ]
+    },
+    "S_PLA_DyingHyena_GnollPack_C_Gnawer_01_3348d3cd-745e-419e-a0a7-e4ae94cf496e": {
+        "HealthOverride": 43,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive"
+        ]
+    },
+    "S_PLA_DyingHyena_GnollPack_C_Ranger_01_e502091b-79a1-479b-9f5f-69937502a355": {
+        "HealthOverride": 34
+    },
+    "S_PLA_DyingHyena_GnollPack_C_Ranger_02_81c8cbc3-ac1c-4873-9b8e-0b234bf9ef74": {
+        "HealthOverride": 30
     },
     "S_PLA_FlamingFist1_646a4195-4091-4dc9-81e1-cff2604f3911": {
         "HealthOverride": 100
@@ -741,9 +899,92 @@
             "UnlockedWarlockSpellSlotLevel3"
         ]
     },
+    "S_UND_PetrifiedDrow_Spectator_39ff8241-fadd-4fbe-ab89-fc5a8b7638a0": {
+        "Passives": [
+            "Goon_AC_Debuff_2",
+            "Goon_Slashing_Vulnerable"
+        ]
+    },
+    "S_UND_PlantDuergar_000_96b1fc15-f658-4451-9dea-3692115da9a1": {
+        "Passives": [
+            "FeyTouched_Wisdom",
+            "ShadowTouched_Intelligence"
+        ]
+    },
+    "S_UND_PlantDuergar_001_be7b7b75-03fb-4040-9d8c-14e1e8d9882c": {
+        "Passives": [
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses"
+        ]
+    },
+    "S_UND_PlantDuergar_002_0028d0c1-1fb1-4c0f-baad-bf44eeae6dc1": {
+        "Passives": [
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "MageSlayer_BreakConcentration"
+        ]
+    },
+    "S_UND_PlantDuergar_003_6da6d51e-8cf6-4b49-a780-3f46971d5b33": {
+        "Passives": [
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "MageSlayer_BreakConcentration"
+        ]
+    },
+    "EO_Waukeen_GoblinRanged_1_3ccbf4a2-027d-407f-8313-14fc0edbecd9": {
+        "Passives": [
+            "UNI_Bow_SpellslotRecharge_Passive"
+        ]
+    },
     "AE_DefiledTemple_Gloomstalker_Ranger_6ebc6b87-eaeb-4d3b-afac-ddff545d3019": {
         "Passives": [
             "UNI_Bow_SpellslotRecharge_Passive"
+        ]
+    },
+    "BASE_Undead_Skeleton_Blood_000_5a301687-e675-4cf6-9fdc-65520343b166": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "BASE_Undead_Skeleton_Blood_001_ed489818-f6a4-4d65-b197-c4c71fc54682": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "BASE_Undead_Skeleton_Blood_002_c593d2c3-930c-4666-b585-a2a9f7ed992d": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "BASE_Undead_Skeleton_Blood_003_4ad769dd-26b4-4558-a57b-ebd709ab570f": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "BASE_Undead_Skeleton_Blood_004_9dfc3d26-6d98-459a-814f-ec48f3d04001": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "BASE_Undead_Skeleton_Blood_005_d46d663c-6bf3-45b2-a5fd-9ae067e5d18a": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "EO_DefiledTemple_Trickery_Cleric_fc83ce47-3ce0-4be5-b1bc-83501cb10251": {
+        "HealthOverride": 20
+    },
+    "LOW_Undead_Mummy_FatherCarrion_000_a47d1819-1fd7-4613-a5ba-953627406d7a": {
+        "Passives": [
+            "ARP_SpellSlot_6_1",
+            "Goon_AC_Buff_1"
         ]
     },
     "MMM_BUGBEARCHALLENGER_46545754-5089-4e85-b34d-81395e5ebb44": {
@@ -935,32 +1176,557 @@
     "S_CRE_CultistsUndead_Ghoul_000_88ac37a0-e51b-49e6-9b71-148a02dd5b70": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
         ]
     },
     "S_CRE_CultistsUndead_Ghoul_001_d216757b-b7aa-43c1-b2bb-729db5694fbd": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
         ]
     },
     "S_CRE_CultistsUndead_Ghoul_002_eb2b5dd7-578a-4724-ade5-a1f462dcf6da": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
         ]
     },
     "S_CRE_CultistsUndead_Ghoul_003_f8faf06b-f2af-4b33-a4fd-4aa1027e7545": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
         ]
     },
     "S_CRE_CultistsUndead_GiantSkeleton_000_09f52656-f262-48a2-bdbb-949264077dc4": {
-        "HealthOverride": 60
+        "HealthOverride": 60,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
     },
     "S_CRE_CultistsUndead_GiantSkeleton_001_d5aec90b-aa86-4c8a-b27d-53002d0f659e": {
-        "HealthOverride": 60
+        "HealthOverride": 60,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_CRE_CultistsUndead_GiantSkeleton_Revenant_New_001_1eaa5588-ab6a-4807-8f8b-fe880a598831": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_CrawlingClaw_000_d565aab4-ff0a-4308-b7e3-a5e5f154e7ce": {
+        "HealthOverride": 17,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_001_49a87b36-76fc-4232-aad8-dd4d0421ec10": {
+        "HealthOverride": 39,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_002_3a942fe3-a6d1-4792-af82-2fc062280e30": {
+        "HealthOverride": 16,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_003_936d0aec-0f0f-4c6d-b273-ff1f5eb121fd": {
+        "HealthOverride": 32,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_004_0af8daa0-0654-42be-a9f8-a33909d4a188": {
+        "HealthOverride": 40,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_005_dd3eca42-427e-4565-9db1-471a11ef82d6": {
+        "HealthOverride": 25,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_006_e79b17a6-6f64-45e4-a553-b59060790461": {
+        "HealthOverride": 19,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_007_e6455d59-6f13-4570-b834-4f4ab0918b24": {
+        "HealthOverride": 35,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_008_767ac3d2-cb9a-40bb-8769-4ccd92ca54ff": {
+        "HealthOverride": 19,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_009_85677d5f-d076-46fc-b006-9458c20d8d26": {
+        "HealthOverride": 22,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_010_22780b26-0e56-43d4-8e3e-3b70ef9cd106": {
+        "HealthOverride": 25,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_011_83cb9f05-b086-4ced-b77a-9b5d938ae960": {
+        "HealthOverride": 32,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_CrawlingClaw_012_467d4447-810d-49f9-be8a-48067b1852f1": {
+        "HealthOverride": 28,
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Goon_AC_Buff_4",
+            "Goon_AttackRoll_2",
+            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
+            "MAG_Vicious_Weapon_Passive",
+            "RemarkableAthlete_Jump",
+            "Resilient_Constitution"
+        ]
+    },
+    "S_HAV_FlyingGhoul_000_62dd0ebd-8325-4b76-ba41-99fbee98149a": {
+        "HealthOverride": 55,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_FlyingGhoul_001_48026cfd-acc4-42dd-a9e3-583cac5f7a34": {
+        "HealthOverride": 55,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_FlyingGhoul_002_c43490d5-4d8c-4986-8b1e-6bcf4325cb0d": {
+        "HealthOverride": 55,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_FlyingGhoul_003_317ba5c6-eda5-4e7a-a288-443c25fd2525": {
+        "HealthOverride": 55,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_FlyingGhoul_004_e63f73e4-2ea1-45cc-b54e-56355b700a9d": {
+        "HealthOverride": 55,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_FlyingGhoul_005_db61112a-dbc9-4f0e-9e6f-332a09f3b35a": {
+        "HealthOverride": 55,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_FlyingGhoul_Harbinger_0ba53cdd-0677-4cda-9cfd-d9575c5b17b7": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_FlyingGhoul_New_001_d2567919-b944-4ca2-8934-134341f71765": {
+        "HealthOverride": 55,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_FlyingGhoul_New_002_0f9db864-88f7-4d33-94f6-931aef98b2c3": {
+        "HealthOverride": 55,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Siege_Shadow_Greater_New_001_eca4d191-3874-4c15-8d2d-c3fe889c6aa7": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Siege_Shadow_Greater_New_002_639ccf41-6891-4c50-b0b3-21b74d8d871a": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Siege_Shadow_New_001_3673973b-edd9-48d2-a7ea-3c67f633701b": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Siege_Shadow_New_002_5a3800de-43f7-4f15-9ed8-6226824eab49": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_TaxiGhoul_3ebef8c7-2733-42aa-9757-84fdeadbe652": {
+        "HealthOverride": 55,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Raven_Dire_ShadowCursed_007_2ad074e8-a5a4-452e-bcfe-7a946887a539": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Raven_Dire_ShadowCursed_008_91b23b1d-0583-4118-81b6-a3f9c18e9fe8": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Raven_Dire_ShadowCursed_009_2edb73bb-9831-44d3-bc6f-76b829e5d898": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Raven_Dire_ShadowCursed_010_ddb92490-a75d-496e-9b8d-78dcf1f9fef3": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Raven_Dire_ShadowCursed_011_77f588f6-e792-4b41-a61c-09bfe44d0bdc": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Raven_Dire_ShadowCursed_012_1303ff46-5200-4986-9d73-d85ad7918ec5": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Raven_Dire_ShadowCursed_013_fc6da3fd-f4d7-4ebf-b125-7d77387a746f": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Raven_Dire_ShadowCursed_014_1e41607c-ed56-43bb-9bd2-98de3796d52a": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Shadow_007_7e722c07-0bd0-4091-aa5a-d7391404229a": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Shadow_008_01e7cde6-a4df-403c-87c3-d5377682a6eb": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Shadow_009_702751d5-1ac0-4399-b02e-972c7258e974": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_ShadowCursed_Warrior_Pilgrim_003_1a9b065b-d2cd-44c5-95e4-307d6bd82fe7": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_ShadowCursed_Warrior_Pilgrim_004_9f16d360-533a-43b2-8149-dc39632a4fed": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_ShadowCursed_Warrior_Pilgrim_005_be15abb7-2ea6-4cf8-bf56-bd8465b570e3": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_ShadowCursed_Warrior_Pilgrim_006_2c25ec5b-c162-4579-9f1e-435fbdcfd6e3": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_ShadowCursed_Warrior_Pilgrim_007_e0d36900-5a00-4f11-b19b-74512d1554c8": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_ShadowGreater_New_001_64d0f20b-9669-47f4-b3f9-ce45d96aba06": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_ShadowMastiff_New_001_a0255189-fb11-47c1-a1f8-07fd1941e2c6": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_ShadowMastiff_New_002_ef280585-c10f-4f6e-8fd1-2ca288dba621": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave0_Wraith_001_d51f412c-8b40-4141-a65f-057a81d549fb": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave1_ShadowCursed_Ranger_Harper_004_9430b751-a5f9-40bc-888d-e3e8abe4dcf3": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave1_ShadowCursed_Ranger_Harper_005_5e59d1af-a2b7-43b7-8d6c-5a6439a129f6": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave1_ShadowCursed_Ranger_Harper_006_1108b8a5-0d22-4a0e-8973-37b0442f2070": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave1_ShadowCursed_Ranger_Harper_007_2112e248-7cbc-4db6-a629-34dd87dc2386": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave1_ShadowCursed_Warrior_Zealot_003_4337f668-9c2d-47cc-8530-b620109de1b4": {
+        "Passives": [
+            "CX_Paladin_Boost",
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave1_ShadowCursed_Warrior_Zealot_004_f72a9c81-7fac-4bc2-a6ce-b775e3ea7721": {
+        "Passives": [
+            "CX_Paladin_Boost",
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave1_ShadowCursed_Warrior_Zealot_005_7c4c46d9-6d0d-4e8a-8473-476eb071bd49": {
+        "Passives": [
+            "CX_Paladin_Boost",
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave1_ShadowGreater_New_002_d818f13e-3881-4318-9c5c-939da71baca5": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave1_WraithGreater_New_001_024a5964-c4a1-41d7-b05b-22d3af9739fe": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave2_Shadow_001_61dfdf61-6860-464a-8e38-bce3458846a7": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave2_ShadowGreater_New_003_42c9e19f-7785-4c84-af28-7ef97d24b4eb": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave2_ShadowMastiff_New_003_62449e2d-7bce-4268-b6d4-fdb40c576337": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave2_ShadowMastiff_New_004_bc42a3e1-96ca-4150-a10a-d9dc7d30b4c7": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave2_Wraith_001_98dde2d9-06c1-4cfd-83b9-a9d2338b514d": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_Raven_Dire_ShadowCursed_New_001_68aeadcc-71bd-4dc6-973b-4d4559c59573": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_Raven_Dire_ShadowCursed_New_002_a71e5362-8474-4e0a-a054-2744469aa306": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_Raven_Dire_ShadowCursed_New_003_0f79f0df-b9b7-4303-b162-5a3baecae348": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_Raven_Dire_ShadowCursed_New_004_00b34b1e-0e51-4f38-a940-eb6e91d09c4c": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_Raven_Dire_ShadowCursed_New_005_f6d9bc04-70fb-435c-802a-1624f8953b63": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_Raven_Dire_ShadowCursed_New_006_10df8de0-879b-4034-9d0c-f79bae9defd6": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_ShadowCursed_Melee_FlamingFist_004_1ede9b50-0b85-4a48-8872-738ddd1fc4cd": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_ShadowCursed_Melee_FlamingFist_005_da1e6ca1-6c54-4b82-b94a-901745d64f2e": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_ShadowCursed_Melee_FlamingFist_006_e81fbbc9-a2ec-40e4-800e-fe02acc4fc69": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_ShadowCursed_Melee_FlamingFist_007_66deff82-b495-489b-872a-4b544bc941bc": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_ShadowCursed_Melee_FlamingFist_008_a410b3f0-f025-4fd1-8b90-d8c0d8fd21e6": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_ShadowCursed_Warrior_Githyanki_003_06fe050e-86f5-47f8-bda9-53d91b9f6fdf": {
+        "Passives": [
+            "FightingStyle_Dueling",
+            "FightingStyle_GreatWeaponFighting",
+            "FightingStyle_TwoWeaponFighting",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
+        ]
+    },
+    "S_HAV_Wave3_ShadowCursed_Warrior_Githyanki_004_3ef3995a-a195-4982-987d-4cdf22b98235": {
+        "Passives": [
+            "FightingStyle_Dueling",
+            "FightingStyle_GreatWeaponFighting",
+            "FightingStyle_TwoWeaponFighting",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
+        ]
+    },
+    "S_HAV_Wave3_ShadowCursed_Warrior_Githyanki_005_7052676a-7ba6-442b-8e63-b9670e4384a9": {
+        "Passives": [
+            "FightingStyle_Dueling",
+            "FightingStyle_GreatWeaponFighting",
+            "FightingStyle_TwoWeaponFighting",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
+        ]
+    },
+    "S_HAV_Wave3_WraithGreater_New_002_8b059990-fd65-4010-956c-76bbcc493166": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave3_WraithGreater_New_003_f2ed9a0e-d06f-43a4-91b5-3bb46102dca6": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave4_ShadowMastiff_003_06c47934-bc30-48f0-b297-4f99272d1241": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_HAV_Wave4_ShadowMastiff_004_06451f28-98fa-4ab9-9b6b-92edb5ceb9af": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
     },
     "S_MOO_Assault_PrisonDeathShepard_01_8f1f3be9-d6be-4348-be20-6c291213af78": {
         "HealthOverride": 60
@@ -1133,6 +1899,11 @@
             "MAG_Radiant_RadiatingOrb_Armor_Passive"
         ]
     },
+    "S_TWN_MorgueEntrance_ShadowCursed_02_4bc2c539-fd62-4391-bdc2-433b978b72d8": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
     "S_COL_TadpolingCentre_IntDev_001_ebae9a30-e165-4d91-ac5e-a28a4e8e4c62": {
         "HealthOverride": 37,
         "Passives": [
@@ -1176,6 +1947,66 @@
             "Thought_Shield_Psychic_Resistance",
             "MAG_Frightened_Immunity_Passive",
             "MAG_Githborn_Circlet_Passive"
+        ]
+    },
+    "EO_SCL_Goblin_Ranged_1_e8e0bc72-eff7-4330-a5b0-fef4562388f7": {
+        "Passives": [
+            "UNI_Bow_SpellslotRecharge_Passive"
+        ]
+    },
+    "EO_SCL_Goblin_Ranged_2_248924eb-7b72-4377-b0ae-8cb23c02b387": {
+        "Passives": [
+            "UNI_Bow_SpellslotRecharge_Passive"
+        ]
+    },
+    "EO_SCL_Harper_Devotion_Paladin_cf68832b-b84b-48dc-958c-4047fd2112b9": {
+        "Passives": [
+            "CX_Paladin_Boost"
+        ]
+    },
+    "EO_SCL_Wisp_1_eba71117-43a1-4539-8637-8f51792fbcde": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_SCL_Wisp_2_b79d34e8-f2ab-46fd-a64d-aa967050672c": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_SCL_Wisp_3_19f96518-0acd-4447-a746-e0ed42fbf128": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_SCL_Wisp_4_29bae2b0-99fb-4a12-a2fb-769163683719": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_SCL_Wisp_5_95efa922-9a23-43a5-b1bf-f2707de41d82": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_SCL_Zombie_1_77fd421b-2d70-4d89-a28d-029e88399f9c": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_SCL_Zombie_2_0068bbac-2a5c-4189-83f0-2d2dc9effab0": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_SCL_Zombie_3_7e82baec-026d-4f1d-8413-0a30db3daedf": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_BlightedAssassin_cfe53b47-7f03-4462-9814-ed47692040d8": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_INT_GithRoyalGuard01_2a57207b-ce9a-4472-aea2-bb94722a9c59": {
@@ -1244,19 +2075,22 @@
     "S_MOO_EntranceGhoul_001_c9b6a714-491a-40aa-b5b6-3fe608a4efb5": {
         "HealthOverride": 45,
         "Passives": [
-            "UndeadFortitude",
-            "MAG_Barbarian_Gloves_BoneSpike_Passive"
+            "Goon_AC_Buff_1",
+            "MAG_Barbarian_Gloves_BoneSpike_Passive",
+            "UndeadFortitude"
         ]
     },
     "S_MOO_EntranceGhoul_002_2e7447e5-35dd-4cdd-8426-43a6afe0edc7": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
         ]
     },
     "S_MOO_EntranceGhoul_003_019af169-5366-4a1f-8392-35df658b2e8e": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
         ]
     },
@@ -1419,9 +2253,200 @@
             "UNI_Bow_SpellslotRecharge_Passive"
         ]
     },
+    "S_SCL_FishermansHut_CursedKuoToa_01_506a0ac8-f9f5-4679-a94d-7d1ad6abd173": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_02_81cead3c-d55e-4a1c-bfdd-7758a532c9fd": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_03_61122493-13f4-49f8-8441-76260c8d57fa": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_04_ff24c261-fe97-4451-a79a-04cdf16bc016": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_05_767879dc-4e7a-4d1a-98f3-029ce28752e5": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_06_4a99ee81-35bd-4a20-bcd7-36dfb2bbbf80": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_07_80d5c307-054d-4240-8e08-f52ef24a799b": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_08_1f8eb891-48eb-4804-8ae2-e495c19ed8f8": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_09_83a1863c-2188-4c98-93be-c6437a532332": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_10_78978ec1-6e8b-436a-9df6-81e4fdf53f5c": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_11_1544060f-0538-4e22-8dfc-18147a067eae": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_12_cceac3bb-08ba-4226-ad6b-6bff72c96b36": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
     "S_SCL_FishermansHut_CursedKuoToa_Champion_03524330-c6ca-4078-8fbf-12ec4ffa389a": {
         "Passives": [
-            "CX_Paladin_Boost"
+            "CX_Paladin_Boost",
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_FishermansHut_CursedKuoToa_Champion_Hardcore_d3079efa-0477-4459-906d-48a7dbeefc2f": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_HarperShadow_000_20fe1b42-edc1-415c-9537-519702284390": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_HarperShadow_001_e667c348-1daa-4817-aade-2bbaa4a4e6fd": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_HarperShadow_002_cac7dc03-adcf-4cf1-9a3b-2e78c73e3a50": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_HarperShadow_003_f046eca6-145d-44fa-b50f-f94a1b389f62": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_HarperShadow_004_ac392bb8-d47f-4175-9dad-4148382bd0b7": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_HarperShadow_005_ea04d8d5-a8c5-4766-97ad-120aad20584a": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_OliversDiary_BetsyShadow_5842b508-82c8-430b-a302-9eddecee9974": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_OliversDiary_DadShadow_509470bc-6c99-40c6-8d50-9dbf78b71dcf": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_OliversDiary_MomShadow_18e81e1f-c904-4609-8237-b43fe12eeaaa": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_OliversDiary_OliverShadow_4f6e63a1-b143-46b1-ac0e-834494dfdc6a": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ProdigyFight_Shadow_000_2a6ee685-e36f-460f-a593-8aa5ceccbb03": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ProdigyFight_Shadow_001_acdfb716-78c5-4260-9709-6a7227e2068e": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird01_b3bad6c3-e220-45d7-be27-15f591e74d2d": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird02_519e0f51-bd61-4ada-be37-e47057c13973": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird03_08732480-5270-441b-8c86-ea73a05e00a7": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird04_9743aa16-f4c9-4230-8483-8d1671bfe0ea": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird05_0d53af5c-9564-4348-a60c-b54b9bac190a": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird06_a1b7ad7d-42f4-46cc-ad67-8a5182602d58": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird07_e2c5dfd4-4fd9-44b6-b604-4865304b85cd": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird08_e65b73cd-b447-4b3e-8880-4e5cd8d21723": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird09_a7c4e422-8a6e-4e83-9abc-60d7fc65544d": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird10_04ea7782-2b12-4501-941d-269812313664": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird11_c1e46322-6fda-4d49-8f28-bd5ee6007cdc": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowBirds_Bird12_7c1f5bc7-32ae-4748-b2de-f8017f46539e": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SCL_ShadowCurseAvatar_98233002-5962-46e7-afed-d262074555c8": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_SCL_ThanielEcho_0266c29d-bba7-408c-9253-3a08fea29a4a": {
@@ -1437,187 +2462,474 @@
     "S_SHA_Necromancer_Ghoul_000_b8584c3f-2ed8-44ff-9831-7d6fb2115516": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
         ]
     },
     "S_SHA_Necromancer_Ghoul_001_1ffb5583-7595-42d1-a985-903b2717be6a": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
         ]
     },
     "S_SHA_Necromancer_Ghoul_002_bad9126a-1674-4969-9fb5-7df8c69e76e4": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
+        ]
+    },
+    "S_SHA_Necromancer_NereZombie_7e0ee67a-d2a4-48d2-bca0-a9ae373f4f75": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Caster_001_b273e9ee-12b0-4b7a-904c-249c2d96cbcd": {
         "Passives": [
+            "ArmorOfAgathys_5",
             "CX_Spells_L3",
             "CX_Spells_L3C",
-            "ArmorOfAgathys_5",
-            "MAG_Cold_ChilledOnSpellDamage_Passive"
+            "Goon_AC_Buff_1",
+            "MAG_Cold_ChilledOnSpellDamage_Passive",
+            "Resilient_Strength"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Caster_002_568fe93a-bfb9-442d-ad0c-072b3647312c": {
         "Passives": [
+            "ArmorOfAgathys_5",
             "CX_Spells_L3",
             "CX_Spells_L3C",
-            "ArmorOfAgathys_5",
-            "MAG_Cold_ChilledOnSpellDamage_Passive"
+            "Goon_AC_Buff_1",
+            "MAG_Cold_ChilledOnSpellDamage_Passive",
+            "Resilient_Strength"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Caster_003_8cf15356-011f-43a0-b4e6-9bdbaa9ec00a": {
         "Passives": [
+            "ArmorOfAgathys_5",
             "CX_Spells_L3",
             "CX_Spells_L3C",
-            "ArmorOfAgathys_5",
-            "MAG_Cold_ChilledOnSpellDamage_Passive"
+            "Goon_AC_Buff_1",
+            "MAG_Cold_ChilledOnSpellDamage_Passive",
+            "Resilient_Strength"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Giant_001_53f672fa-0724-44cf-b536-19e1df33d4eb": {
         "HealthOverride": 60,
         "Passives": [
-            "CX_Paladin_Boost"
+            "CX_Paladin_Boost",
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Giant_002_2a747f03-f547-4043-ada5-7cd7311487a4": {
         "HealthOverride": 60,
         "Passives": [
-            "CX_Paladin_Boost"
+            "CX_Paladin_Boost",
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Giant_003_405c8ca9-02fb-46a9-b394-86adb963a6c0": {
         "HealthOverride": 60,
         "Passives": [
-            "CX_Paladin_Boost"
+            "CX_Paladin_Boost",
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Melee_001_c7dc19c7-d335-4c92-b7ec-eb83e55af583": {
         "Passives": [
-            "MAG_PhysicalDamageReduction_Passive",
-            "Scar_Eclipse_Gur",
+            "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "CX_Fighter_Boost"
+            "MAG_PhysicalDamageReduction_Passive",
+            "Resilient_Strength",
+            "Scar_Eclipse_Gur"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Melee_002_f9f5e14b-15f2-4cc2-8c11-89511fb6e048": {
         "Passives": [
-            "MAG_PhysicalDamageReduction_Passive",
-            "Scar_Eclipse_Gur",
+            "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "CX_Fighter_Boost"
+            "MAG_PhysicalDamageReduction_Passive",
+            "Resilient_Strength",
+            "Scar_Eclipse_Gur"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Melee_003_4a89535a-7bba-4389-bfea-e06f0e428c52": {
         "Passives": [
-            "MAG_PhysicalDamageReduction_Passive",
-            "Scar_Eclipse_Gur",
+            "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "CX_Fighter_Boost"
+            "MAG_PhysicalDamageReduction_Passive",
+            "Resilient_Strength",
+            "Scar_Eclipse_Gur"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Melee_004_ee76571d-62ca-41cd-b09a-b20c933d527c": {
         "Passives": [
-            "MAG_PhysicalDamageReduction_Passive",
-            "Scar_Eclipse_Gur",
+            "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "CX_Fighter_Boost"
+            "MAG_PhysicalDamageReduction_Passive",
+            "Resilient_Strength",
+            "Scar_Eclipse_Gur"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Melee_005_3289b74b-c010-4406-b380-2a5d521cf707": {
         "Passives": [
-            "MAG_PhysicalDamageReduction_Passive",
-            "Scar_Eclipse_Gur",
+            "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "CX_Fighter_Boost"
+            "MAG_PhysicalDamageReduction_Passive",
+            "Resilient_Strength",
+            "Scar_Eclipse_Gur"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Melee_006_c5fcc305-5505-4e17-9143-7397159952c7": {
         "Passives": [
-            "MAG_PhysicalDamageReduction_Passive",
-            "Scar_Eclipse_Gur",
+            "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "CX_Fighter_Boost"
+            "MAG_PhysicalDamageReduction_Passive",
+            "Resilient_Strength",
+            "Scar_Eclipse_Gur"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Melee_007_1f2ce750-bd4a-4ffc-b42b-3427e6253477": {
         "Passives": [
-            "MAG_PhysicalDamageReduction_Passive",
-            "Scar_Eclipse_Gur",
+            "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "CX_Fighter_Boost"
+            "MAG_PhysicalDamageReduction_Passive",
+            "Resilient_Strength",
+            "Scar_Eclipse_Gur"
         ]
     },
     "S_SHA_NightsongPrison_Skeleton_Melee_008_ebc74f77-af62-4952-9677-44bc33dc40a1": {
         "Passives": [
-            "MAG_PhysicalDamageReduction_Passive",
-            "Scar_Eclipse_Gur",
+            "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "MAG_DarkJusticiarGloves_Passive",
-            "CX_Fighter_Boost"
+            "MAG_PhysicalDamageReduction_Passive",
+            "Resilient_Strength",
+            "Scar_Eclipse_Gur"
+        ]
+    },
+    "S_SHA_NightsongPrison_Skeleton_Ranger_001_99b3bfee-594a-4e90-8bb7-41b77514b462": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "S_SHA_NightsongPrison_Skeleton_Ranger_002_8d9dde65-c868-4f88-a23d-8f62da9db6e9": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "S_SHA_NightsongPrison_Skeleton_Ranger_003_396f039e-7b50-4d13-abca-b0537986ea9d": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "S_SHA_NightsongPrison_Skeleton_Ranger_004_658542ef-f47e-40a2-a6a4-07e15ceb55de": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "S_SHA_NightsongPrison_Skeleton_Ranger_005_091d9b80-ed6b-49fc-a56f-4676324c684f": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "S_SHA_NightsongPrison_Skeleton_Ranger_006_75798310-e2c3-4f4c-9ba1-2e48ab594819": {
+        "Passives": [
+            "Goon_AC_Buff_1",
+            "Resilient_Strength"
+        ]
+    },
+    "S_SHA_SilentLibrary_Justiciar_Caster_01_79c0ecfe-930b-4d1e-9b50-9e8836c91c12": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SHA_SilentLibrary_Justiciar_Caster_02_ec125743-513c-4427-adab-d8bf96bba40b": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SHA_SilentLibrary_Justiciar_Caster_03_435289b8-97b5-4623-8cfb-a3b02e263841": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SHA_SilentLibrary_Justiciar_Melee_01_95f6757b-8c98-4256-8071-26d60c613e59": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SHA_SilentLibrary_Justiciar_Ranger_01_3df987bc-5c0f-4133-a87a-444352e86268": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_SHA_SilentLibrary_Justiciar_Ranger_02_f76831bc-3065-40e8-ac07-0e2d088e1e46": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_ArabellaPowers_Shadow_1_6f78bd45-cd89-499d-af09-de331e945ad4": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_ArabellaPowers_Shadow_2_92489d69-dae8-4aa2-9a93-2053e809c0d0": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Basement_AncientWraith_28f7257a-08c1-4022-8547-90f97fdadb3a": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_BasementWraith_001_238d6737-efc6-4ba9-9022-8d4b26828fc7": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_Shadow_01_810ebf58-3b08-4664-9a52-3915f0801a8a": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_Shadow_02_b33cd839-9bbf-441e-bbba-a21b9ff2a33c": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_Shadow_03_1caca0a2-f41d-4699-a10b-4b961f39d529": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_Shadow_New_001_f18ed1fb-8cc7-4824-96ff-8bbe26281995": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_Shadow_New_002_4490e917-9ed6-40ff-806f-0be7ac2c2a7b": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_ShadowCursed_01_b566eb96-bd49-4019-83f8-3769784fa12f": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_ShadowCursed_02_596ed5ad-ad80-45dd-9f8c-9263a70444b0": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_ShadowCursed_03_609fd646-31f3-47cd-acea-e9297fc7dad8": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_ShadowCursed_04_64b5c7f2-3635-4231-b72d-872307c9ff8d": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_CentralSquare_Shadows_ShadowCursed_New_001_ef96255e-45bd-4b08-ab1e-ca24b614681a": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Distillery_Brewer_Zombie_01_36fc4cbc-9723-40b2-b06a-d4c704cdc007": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Distillery_Brewer_Zombie_02_cf1bda85-2948-4dc2-8a2e-fdadb5ac7ff3": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Distillery_Brewer_Zombie_03_025180c7-4394-4118-8318-c0cf7169d0d6": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Distillery_Brewer_Zombie_04_d00c35ae-1e20-4006-b667-5fb4f8c8728d": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_TWN_Hospital_ZealousAssistant_000_2250bda0-cf27-4567-8a71-b1a066113eb7": {
         "Passives": [
-            "MAG_Psychic_MentalFatigue_Gloves_Passive",
-            "DEN_HellridersPride_Passive"
+            "DEN_HellridersPride_Passive",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
         ]
     },
     "S_TWN_Hospital_ZealousAssistant_001_e2c2a930-2eb5-419f-9020-c141a0fd0753": {
         "Passives": [
-            "MAG_Psychic_MentalFatigue_Gloves_Passive",
-            "DEN_HellridersPride_Passive"
+            "DEN_HellridersPride_Passive",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
         ]
     },
     "S_TWN_Hospital_ZealousAssistant_002_a9e86a16-f426-4772-a187-39256c4568a1": {
         "Passives": [
-            "MAG_Psychic_MentalFatigue_Gloves_Passive",
-            "DEN_HellridersPride_Passive"
+            "DEN_HellridersPride_Passive",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
         ]
     },
     "S_TWN_Hospital_ZealousAssistant_003_2be9d074-245f-4f4f-9385-260d08f4ea73": {
         "Passives": [
-            "MAG_Psychic_MentalFatigue_Gloves_Passive",
-            "DEN_HellridersPride_Passive"
+            "DEN_HellridersPride_Passive",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
         ]
     },
     "S_TWN_Hospital_ZealousAssistant_Extra_01_bb2dbd04-c191-4384-9627-19f3f0223a91": {
         "Passives": [
-            "MAG_Psychic_MentalFatigue_Gloves_Passive",
-            "DEN_HellridersPride_Passive"
+            "DEN_HellridersPride_Passive",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
         ]
     },
     "S_TWN_Hospital_ZealousAssistant_Extra_02_b6cec021-64ec-4397-8b7a-ebae15f2e829": {
         "Passives": [
-            "MAG_Psychic_MentalFatigue_Gloves_Passive",
-            "DEN_HellridersPride_Passive"
+            "DEN_HellridersPride_Passive",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
         ]
     },
     "S_TWN_Hospital_ZealousAssistant_Extra_03_721e3e66-4ea7-4891-833b-ccd875db3531": {
         "Passives": [
-            "MAG_Psychic_MentalFatigue_Gloves_Passive",
-            "DEN_HellridersPride_Passive"
+            "DEN_HellridersPride_Passive",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
         ]
     },
     "S_TWN_Hospital_ZealousAssistant_Extra_04_01bc32c9-ddd9-4333-aefe-a4aa9c4ef0fc": {
         "Passives": [
-            "MAG_Psychic_MentalFatigue_Gloves_Passive",
-            "DEN_HellridersPride_Passive"
+            "DEN_HellridersPride_Passive",
+            "Goon_AC_Buff_1",
+            "MAG_Psychic_MentalFatigue_Gloves_Passive"
+        ]
+    },
+    "S_TWN_MorgueEntrance_Shadow_01_72b6b53c-467b-451f-95f3-65578e6227ac": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_MorgueEntrance_Shadow_02_d34016c9-f03c-47d3-92a8-16c6c70ed591": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_MorgueEntrance_ShadowCursed_01_8f3e55bb-a16c-4727-924e-f6d94aa488e0": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_MorgueEntrance_ShadowCursed_03_33ed97d1-0461-421c-affc-26d2ab7a10bd": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_MorgueEntrance_ShadowGreater_01_f90273be-0c31-45bb-b3c7-63b2896956c2": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_MorgueEntrance_ShadowGreater_02_322ba9f8-c027-4714-8031-55458f8eb136": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_MorgueEntrance_ShadowMastiff_01_c473b3bc-7e6c-432d-93d5-7faed4457bf4": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_MorgueEntrance_ShadowMastiff_02_53689982-f182-44bb-ac37-d421779c4c30": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_MorgueEntrance_Wraith_04_e538b375-6da0-4496-b1b8-fdf5d647cf2d": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_MorgueZombie_01_fdba6b05-c6de-4079-97dc-6abfddc5a75b": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_TWN_MorgueZombie_02_88dafec7-53e1-421c-865c-f4ef51f54fd2": {
         "HealthOverride": 101,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
+        ]
+    },
+    "S_TWN_MorgueZombie_03_a76458a6-e964-48ba-8305-3bbae695ce35": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_TWN_MorgueZombie_05_57136905-ef79-4a05-a1bb-e26d221ffa2e": {
         "HealthOverride": 100,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
+        ]
+    },
+    "S_TWN_Tollhouse_Face_Cowardice_efea0b12-68eb-4329-8fd9-14078e983607": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Tollhouse_Face_Greed_46e0f41a-6603-43ee-8e99-5dd91e7e9bb9": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Tollhouse_Face_Guilt_2321affc-6302-4800-87dc-bcd220642920": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Tollhouse_Face_Heartlessness_f335ce62-1d8b-4f70-969d-ef75f0dd78b1": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Tollhouse_Face_Obedience_0e35df6f-31f8-4ebb-a44f-e472c2e6a9c9": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_TWN_Tollhouse_Face_Regret_f5206c52-e481-4c2c-b24b-f186904d768d": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_TWN_VlaakithAttack_Arcanist_001_4416dea6-db24-427e-9b6c-1bc296436d3a": {
@@ -1787,7 +3099,10 @@
         ]
     },
     "S_COL_NecromancerRoom_DeathShepherd_000_1627bff7-5674-45f6-9da5-582521ce9296": {
-        "HealthOverride": 60
+        "HealthOverride": 60,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
     },
     "S_COL_NecromancerRoom_Ghoul_Flying_000_c3a7c696-9f82-4c0d-aedf-734bd2595060": {
         "HealthOverride": 125,
@@ -1845,9 +3160,70 @@
             "UndeadFortitude"
         ]
     },
+    "S_COL_NecromancerRoom_TadpoledSkeleton_Caster_001_eedd14fd-3cd9-4adc-b31d-a4932c56e601": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_TadpoledSkeleton_Melee_001_bf5c1d26-2f4f-4b09-9e24-0252d9b19f68": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_TadpoledSkeleton_Melee_002_4f59c867-b2b6-4b2f-affa-15553f045177": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_TadpoledSkeleton_Ranger_001_ccd58ccd-b49b-4934-9e09-3705d2866f6f": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_Undead1_dbdabc8b-afe2-470c-aaf6-b4d8b20248fc": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_Undead2_7e522c85-8768-40c1-8cf4-71ac9bdf8ac0": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_Undead3_af7d7501-4054-4ef9-98d1-0f4c3c1e4a1e": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_Undead4_38db884e-3817-48bb-a7ae-c066cb6176f9": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_Undead5_28c8a569-740b-4963-9edb-b900e6af15ae": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_Undead6_746f16c5-59bd-4b88-b250-64448fc4c05f": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_Undead_AssaultCage1_d0ed1b4b-e97c-4759-b287-d01cc8e5050d": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_COL_NecromancerRoom_Undead_AssaultCage2_1dcec472-c7f0-49df-9a33-9c0d278ab4fa": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
     "S_COL_NecromancerRoom_Zombie_Greater_000_f0f1733e-e265-4922-9ca5-978e161f296f": {
         "HealthOverride": 116,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -1855,6 +3231,7 @@
     "S_COL_NecromancerRoom_Zombie_Greater_001_1b4bc2b2-deff-45ac-bcfe-b11994ed45c0": {
         "HealthOverride": 100,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -1862,6 +3239,7 @@
     "S_COL_NecromancerRoom_Zombie_Greater_002_436bd7da-b0e9-4661-bce9-f53b674c1a08": {
         "HealthOverride": 111,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -1869,6 +3247,7 @@
     "S_COL_NecromancerRoom_Zombie_Greater_003_783e0bd7-5e0e-47e6-b02b-7d06f4bc9f62": {
         "HealthOverride": 118,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -2009,6 +3388,16 @@
             "MAG_Psychic_MentalFatigue_Ring_Passive"
         ]
     },
+    "S_WYR_Circus_CrawlingClaw_001_b758a1e0-1b08-4052-86ec-969fa09cc56b": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "S_WYR_Circus_CrawlingClaw_002_ce15737b-ff82-4df0-8202-81389be58b64": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
     "S_WYR_Circus_FlamingFist_01_4caa11fb-d04d-45fd-bc11-e825833498c6": {
         "HealthOverride": 110,
         "Spells": [
@@ -2068,6 +3457,11 @@
         ],
         "Passives": [
             "ARP_SpellSlot_5_3"
+        ]
+    },
+    "S_WYR_Circus_GhoulSniffer_cda5ce1f-c0d1-4e15-b1c5-0d785fa935bf": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_WYR_Circus_RedcapCleaner_001_f76cc3eb-dacc-4a85-9b0f-d119d3292c74": {
@@ -2518,6 +3912,13 @@
             "Sharpshooter_Bonuses"
         ]
     },
+    "S_WYR_HornyStupidTeenagers_Human_77bec94d-c6ef-42c6-b0f0-9a5cb97321d0": {
+        "Passives": [
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses"
+        ]
+    },
     "S_WYR_KillDirectorGortash_AudienceHallBanite_001_42dbfa85-8b0a-4a8b-8908-56f9f2948e00": {
         "Passives": [
             "CX_Fighter_Boost",
@@ -2710,6 +4111,13 @@
             "ARP_SuperiorityDie_5",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_3"
+        ]
+    },
+    "S_WYR_PerformanceBooster_Human_d97b5c78-9f70-42b3-9553-af40fc4b73ae": {
+        "Passives": [
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "MageSlayer_BreakConcentration"
         ]
     },
     "S_WYR_Posthouse_Guard_001_9bed513a-8b15-478b-bd6d-05b8b1388121": {
@@ -3033,6 +4441,11 @@
             "UnarmoredMovement_DifficultTerrain",
             "WarCaster_Bonuses",
             "WarCaster_OpportunitySpell"
+        ]
+    },
+    "S_WYR_ShoppingDate_Human_41ae6cd6-5934-4a09-93ac-83d45a1365c0": {
+        "Passives": [
+            "DevilsSight"
         ]
     },
     "S_WYR_SkeletalDragon_67770922-5e0a-40c5-b3f0-67e8eb50493a": {
@@ -3391,6 +4804,13 @@
             "Goon_Radiant_Resistant"
         ]
     },
+    "S_WYR_SteelWatcherNerds_Human_ea910cbb-9a38-4066-ad09-1958f173dcdc": {
+        "Passives": [
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses"
+        ]
+    },
     "S_WYR_WyrmRock_ArmourySteelWatcher_001_8dfc3747-560a-4811-945a-44f898cf0ed9": {
         "Passives": [
             "Goon_AC_Buff_3",
@@ -3644,6 +5064,7 @@
             "ARP_SpellSlot_4_2",
             "ARP_SpellSlot_5_1",
             "CX_Magic_Boost",
+            "FeyTouched_Wisdom",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Damage_Cold_d4_Spells",
@@ -3651,7 +5072,8 @@
             "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
             "MageSlayer_Advantage",
             "MageSlayer_AttackCaster",
-            "MageSlayer_BreakConcentration"
+            "MageSlayer_BreakConcentration",
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_WYR_WyrmRock_Bhaalist_002_bf6223da-b9ad-4d68-b175-2940379a5e1b": {
@@ -3674,6 +5096,7 @@
         "Passives": [
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
+            "DevilsSight",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_4",
             "MageSlayer_Advantage",
@@ -4051,6 +5474,7 @@
         ],
         "Passives": [
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4058,6 +5482,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4073,6 +5498,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4080,6 +5506,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4095,6 +5522,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4102,6 +5530,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4117,6 +5546,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4124,6 +5554,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4138,6 +5569,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4145,6 +5577,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4159,6 +5592,7 @@
         ],
         "Passives": [
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4166,6 +5600,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4173,6 +5608,7 @@
         "HealthOverride": 200,
         "Passives": [
             "CX_Paladin_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4182,6 +5618,7 @@
             "Goon_Radiant_Immune",
             "MAG_DarkJusticiarGloves_Passive",
             "MAG_Radiant_RadiatingOrb_Gloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4196,6 +5633,7 @@
         ],
         "Passives": [
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4203,6 +5641,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4217,6 +5656,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4224,6 +5664,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4238,6 +5679,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4245,6 +5687,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4259,6 +5702,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4266,6 +5710,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4280,6 +5725,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4287,6 +5733,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4303,6 +5750,7 @@
         "Passives": [
             "ARP_SpellSlot_5_1",
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4314,6 +5762,7 @@
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
             "Poison_Malice_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4328,6 +5777,7 @@
         ],
         "Passives": [
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4336,6 +5786,7 @@
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
             "MagicArrow",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4354,6 +5805,7 @@
             "ARP_Reaction_2",
             "ARP_SpellSlot_5_1",
             "ARP_SpellSlot_8_1",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4365,6 +5817,7 @@
             "Goon_Target_MageArmor_Passive",
             "MAG_DarkJusticiarGloves_Passive",
             "MagicResistance",
+            "Resilient_Strength",
             "TurnResistance",
             "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
         ]
@@ -4382,6 +5835,7 @@
         "Passives": [
             "ARP_SpellSlot_5_1",
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4392,6 +5846,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "Toxin_PurpleWorm_Passive",
             "TurnResistance"
         ]
@@ -4409,6 +5864,7 @@
         "Passives": [
             "ARP_SpellSlot_5_1",
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4419,6 +5875,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "Toxin_PurpleWorm_Passive",
             "TurnResistance"
         ]
@@ -4434,6 +5891,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4441,6 +5899,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4457,6 +5916,7 @@
         "Passives": [
             "ARP_SpellSlot_5_1",
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4468,6 +5928,7 @@
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
             "Poison_Malice_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4482,6 +5943,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4489,6 +5951,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4501,6 +5964,7 @@
             "ALCH_Oil_Wizardsbane_Passive",
             "ARP_SpellSlot_5_1",
             "CX_Paladin_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4513,6 +5977,7 @@
             "Goon_Radiant_Immune",
             "MAG_DarkJusticiarGloves_Passive",
             "MAG_Radiant_RadiatingOrb_Gloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4527,6 +5992,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4534,6 +6000,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4550,6 +6017,7 @@
         "Passives": [
             "ARP_SpellSlot_4_2",
             "ARP_SpellSlot_5_1",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4561,6 +6029,7 @@
             "Goon_Target_MageArmor_Passive",
             "MAG_DarkJusticiarGloves_Passive",
             "Poison_Malice_Passive",
+            "Resilient_Strength",
             "TurnResistance",
             "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
         ]
@@ -4578,16 +6047,18 @@
         "Passives": [
             "ARP_SpellSlot_4_1",
             "ARP_SpellSlot_5_1",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
+            "Goon_Target_MageArmor_Passive",
             "MAG_DarkJusticiarGloves_Passive",
-            "TurnResistance",
-            "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive",
+            "Resilient_Strength",
             "TWN_ApplyWET",
-            "Goon_Target_MageArmor_Passive"
+            "TurnResistance",
+            "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
         ]
     },
     "S_WYR_Wyrmsway_FailSkeleton_024_aee318d3-62b8-4b9c-95f4-51b67f220888": {
@@ -4601,6 +6072,7 @@
         ],
         "Passives": [
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4608,6 +6080,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4622,6 +6095,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4629,6 +6103,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4643,6 +6118,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4650,6 +6126,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4664,6 +6141,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4671,6 +6149,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4678,6 +6157,7 @@
         "HealthOverride": 200,
         "Passives": [
             "CX_Paladin_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4687,6 +6167,7 @@
             "Goon_Radiant_Immune",
             "MAG_DarkJusticiarGloves_Passive",
             "MAG_Radiant_RadiatingOrb_Gloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4699,17 +6180,19 @@
             "Target_SummonBeholderkin"
         ],
         "Passives": [
+            "ARP_Bladesong_2",
             "ARP_SpellSlot_4_2",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
-            "MAG_DarkJusticiarGloves_Passive",
-            "TurnResistance",
-            "ARP_Bladesong_2",
             "Goon_Shout_Shillelagh_Passive",
-            "Goon_Target_MageArmor_Passive"
+            "Goon_Target_MageArmor_Passive",
+            "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
+            "TurnResistance"
         ]
     },
     "S_WYR_Wyrmsway_FailSkeleton_030_b8280b37-4132-4434-b842-2b04970ba19e": {
@@ -4723,6 +6206,7 @@
         ],
         "Passives": [
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4730,6 +6214,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4744,6 +6229,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4751,6 +6237,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4765,6 +6252,7 @@
         ],
         "Passives": [
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4772,6 +6260,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4786,6 +6275,7 @@
         "Passives": [
             "ARP_SuperiorityDie_3",
             "CX_Fighter_Boost",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_5",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
@@ -4793,6 +6283,7 @@
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4807,6 +6298,7 @@
         ],
         "Passives": [
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4814,6 +6306,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4830,6 +6323,7 @@
         "Passives": [
             "",
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4837,6 +6331,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4856,15 +6351,17 @@
             "Target_ShockingGrasp"
         ],
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
+            "Goon_Target_MageArmor_Passive",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance",
-            "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive",
-            "Goon_Target_MageArmor_Passive"
+            "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
         ]
     },
     "S_WYR_Wyrmsway_FailSkeleton_037_769660a4-2745-416b-990b-76f8e968a8bd": {
@@ -4878,6 +6375,7 @@
         ],
         "Passives": [
             "CX_Ranger_Boost",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
@@ -4885,6 +6383,7 @@
             "Goon_Piercing_Resistant",
             "Goon_Sanctuary_Auto_Cast_Start_Combat",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance"
         ]
     },
@@ -4898,15 +6397,17 @@
         ],
         "Passives": [
             "ARP_SpellSlot_5_2",
+            "Goon_AC_Buff_1",
             "Goon_Cold_Resistant",
             "Goon_Force_Resistant",
             "Goon_Increased_Movement_1",
             "Goon_Necrotic_Immune",
             "Goon_Piercing_Resistant",
+            "Goon_Target_MageArmor_Passive",
             "MAG_DarkJusticiarGloves_Passive",
+            "Resilient_Strength",
             "TurnResistance",
-            "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive",
-            "Goon_Target_MageArmor_Passive"
+            "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
         ]
     },
     "S_LOW_AllandraGrey_32d78583-07c6-4160-9ec7-3a24b15149c8": {
@@ -4927,6 +6428,7 @@
         "HealthOverride": 34,
         "Passives": [
             "ExtraAttack",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -4938,6 +6440,7 @@
     "S_LOW_AncientLair_CrawlingClaw_001_b174f4f8-7a3e-49d9-90c4-a254bbee9c41": {
         "HealthOverride": 32,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_Passive",
@@ -4951,6 +6454,7 @@
         "HealthOverride": 32,
         "Passives": [
             "ExtraAttack",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -4963,6 +6467,7 @@
         "HealthOverride": 32,
         "Passives": [
             "ExtraAttack",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -4975,6 +6480,7 @@
         "HealthOverride": 34,
         "Passives": [
             "ExtraAttack",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -4987,6 +6493,7 @@
         "HealthOverride": 36,
         "Passives": [
             "ExtraAttack",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -4999,6 +6506,7 @@
         "HealthOverride": 33,
         "Passives": [
             "ExtraAttack",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -5011,6 +6519,7 @@
         "HealthOverride": 34,
         "Passives": [
             "ExtraAttack",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -5023,6 +6532,7 @@
         "HealthOverride": 33,
         "Passives": [
             "ExtraAttack",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -5034,6 +6544,7 @@
     "S_LOW_AncientLair_GreaterZombie_000_bd8ab705-e59e-44b1-89fa-df0dc41cd563": {
         "HealthOverride": 115,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -5041,6 +6552,7 @@
     "S_LOW_AncientLair_GreaterZombie_001_64b89b9c-657a-40d3-8232-3931e6c72aaf": {
         "HealthOverride": 109,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -5048,6 +6560,7 @@
     "S_LOW_AncientLair_GreaterZombie_002_ba701b3d-20ec-4225-8a69-3a8be31b4c4f": {
         "HealthOverride": 110,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -5584,6 +7097,7 @@
         "HealthOverride": 90,
         "Passives": [
             "CX_Rogue_Boost",
+            "DevilsSight",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_5"
         ]
@@ -5592,6 +7106,7 @@
         "Passives": [
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
+            "FeyTouched_Wisdom",
             "Goon_AC_Buff_2",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
@@ -5600,7 +7115,8 @@
             "MAG_BarbMonk_Armor_Defensive_Passive",
             "MageSlayer_Advantage",
             "MageSlayer_AttackCaster",
-            "MageSlayer_BreakConcentration"
+            "MageSlayer_BreakConcentration",
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_LOW_BhaalTemple_Cultist_03_09b965d0-49f7-4b00-a8ab-20f19e4a563b": {
@@ -5625,9 +7141,31 @@
             "Goon_Damage_Cold_d4_Spells",
             "Goon_Damage_Cold_d8_SpellAttacks",
             "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "MageSlayer_BreakConcentration",
             "Mobile_CounterAttackOfOpportunity",
             "Mobile_DashAcrossDifficultTerrain",
             "Mobile_PassiveBonuses"
+        ]
+    },
+    "S_LOW_BhaalTemple_Cultist_04_92e27323-35e8-41ce-9644-76d668295c10": {
+        "Passives": [
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses"
+        ]
+    },
+    "S_LOW_BhaalTemple_Cultist_05_e20ee46e-ea8e-4781-95fd-5f1f72211703": {
+        "Passives": [
+            "FeyTouched_Wisdom",
+            "ShadowTouched_Intelligence"
+        ]
+    },
+    "S_LOW_BhaalTemple_Cultist_06_692c037a-b660-4461-abb5-7599b1d12702": {
+        "Passives": [
+            "MAG_OfSharpCaster_Hat_Passive",
+            "SavageAttacker"
         ]
     },
     "S_LOW_BhaalTemple_DeathsHead_01_dc5d659c-8703-4e41-bf3e-0eeae60d919b": {
@@ -5653,6 +7191,8 @@
             "Goon_Damage_Cold_d8_SpellAttacks",
             "MAG_ElementalGish_CantripBooster_Amulet_Passive",
             "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
+            "MAG_OfSharpCaster_Hat_Passive",
+            "SavageAttacker",
             "ShadowTouched_Intelligence"
         ]
     },
@@ -5672,6 +7212,7 @@
             "ARP_SpellSlot_4_2",
             "ARP_SpellSlot_5_1",
             "CX_Magic_Boost",
+            "DevilsSight",
             "Goon_AC_Buff_3",
             "Goon_AC_Buff_4",
             "Goon_Cold_Resistant",
@@ -5688,6 +7229,7 @@
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
             "DefensiveDuelist",
+            "FeyTouched_Wisdom",
             "Goon_AC_Buff_2",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
@@ -5695,19 +7237,34 @@
             "Goon_Increased_Movement_3",
             "Mobile_CounterAttackOfOpportunity",
             "Mobile_DashAcrossDifficultTerrain",
-            "Mobile_PassiveBonuses"
+            "Mobile_PassiveBonuses",
+            "ShadowTouched_Intelligence"
+        ]
+    },
+    "S_LOW_BhaalTemple_DeathsHead_04_db8e11fc-5f93-4dae-9abb-a8223317fa29": {
+        "Passives": [
+            "FeyTouched_Wisdom",
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_LOW_BhaalTemple_NightBlade_01_7a82cf11-57a2-4796-8b3a-d3409c0cbe9e": {
         "HealthOverride": 105,
         "Passives": [
+            "FeyTouched_Wisdom",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_2",
+            "Goon_Damage_Thunder_d8_Attacks",
+            "Resilient_Charisma",
             "Resilient_Dexterity",
             "Resilient_Intelligence",
-            "Resilient_Charisma",
-            "Goon_Damage_Thunder_d8_Attacks",
+            "ShadowTouched_Intelligence",
             "ThunderboltStrike"
+        ]
+    },
+    "S_LOW_BhaalTemple_OrinsVictim_02_c5c49334-6c87-4ed7-acce-b77935cca031": {
+        "Passives": [
+            "FeyTouched_Wisdom",
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_LOW_BhaalTemple_Reaper_01_72d472ba-5e32-4922-ab0b-b5a554c6dcab": {
@@ -5722,6 +7279,9 @@
             "Goon_Damage_Piercing_d12_Attacks",
             "Goon_Summon_Potion_Healing_Greater_x1",
             "MAG_OfSharpCaster_Hat_Passive",
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses",
             "Resilient_Charisma",
             "Resilient_Dexterity",
             "SavageAttacker"
@@ -5732,6 +7292,7 @@
         "Passives": [
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
+            "DevilsSight",
             "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_4",
@@ -5749,6 +7310,7 @@
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
             "DefensiveDuelist",
+            "DevilsSight",
             "Goon_AC_Buff_2",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
@@ -5764,6 +7326,7 @@
         "Passives": [
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
+            "DevilsSight",
             "Goon_AC_Buff_3",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_4",
@@ -5783,6 +7346,9 @@
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_4",
             "Goon_Summon_Potion_Healing_Greater_x1",
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "MageSlayer_BreakConcentration",
             "Mobile_CounterAttackOfOpportunity",
             "Mobile_DashAcrossDifficultTerrain",
             "Mobile_PassiveBonuses",
@@ -5795,6 +7361,7 @@
         "Passives": [
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
+            "DevilsSight",
             "Goon_AC_Buff_3",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
@@ -5804,16 +7371,27 @@
             "SavageAttacker"
         ]
     },
+    "S_LOW_BhaalTemple_RitualHelper_d3fed835-7758-48a8-9641-af8eae197203": {
+        "Passives": [
+            "MageSlayer_Advantage",
+            "MageSlayer_AttackCaster",
+            "MageSlayer_BreakConcentration"
+        ]
+    },
     "S_LOW_BhaalTemple_UnholyAssassin_01_d00763c7-cac6-47b8-86be-a13ddd346861": {
         "Passives": [
             "Goon_AC_Buff_3",
-            "Goon_AttackRoll_3"
+            "Goon_AttackRoll_3",
+            "MAG_OfSharpCaster_Hat_Passive",
+            "SavageAttacker"
         ]
     },
     "S_LOW_BhaalTemple_UnholyAssassin_02_cec194b2-0e8d-4d38-a136-0e9b1c38c684": {
         "Passives": [
+            "FeyTouched_Wisdom",
             "Goon_AC_Buff_3",
-            "Goon_AttackRoll_3"
+            "Goon_AttackRoll_3",
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_LOW_BlushingMermaid_DisguisedRedcap_01_efa9ccb1-4ba2-4467-82ef-b8ed63b867a4": {
@@ -6353,6 +7931,7 @@
             "ARP_SpellSlot_4_2",
             "ARP_SpellSlot_5_1",
             "CX_Magic_Boost",
+            "DevilsSight",
             "FeyTouched_Wisdom",
             "Goon_AC_Buff_2",
             "Goon_AC_Buff_3",
@@ -6373,10 +7952,12 @@
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "Goon_AttackRoll_4",
+            "MAG_OfSharpCaster_Hat_Passive",
             "MAG_TheHunters_Dagger_Passive",
             "Mobile_CounterAttackOfOpportunity",
             "Mobile_DashAcrossDifficultTerrain",
-            "Mobile_PassiveBonuses"
+            "Mobile_PassiveBonuses",
+            "SavageAttacker"
         ]
     },
     "S_LOW_CountingHouse_Cultist_04_725e41cf-6e8c-4b64-be4d-6932c07b3d7b": {
@@ -6405,6 +7986,9 @@
             "Goon_AttackRoll_2",
             "Goon_AttackRoll_4",
             "MAG_OfSharpCaster_Hat_Passive",
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses",
             "SavageAttacker"
         ]
     },
@@ -6412,6 +7996,7 @@
         "HealthOverride": 103,
         "Passives": [
             "ALCH_Elixir_Bloodlust_Passive",
+            "Alert",
             "CX_Rogue_Boost",
             "DevilsSight",
             "Goon_AC_Buff_3",
@@ -6429,6 +8014,7 @@
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
             "DevilsSight",
+            "FeyTouched_Wisdom",
             "GOB_PainPriest_Dagger_Passive",
             "Goon_AC_Buff_3",
             "Goon_AC_Buff_4",
@@ -6436,7 +8022,8 @@
             "Goon_AttackRoll_4",
             "Mobile_CounterAttackOfOpportunity",
             "Mobile_DashAcrossDifficultTerrain",
-            "Mobile_PassiveBonuses"
+            "Mobile_PassiveBonuses",
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_LOW_CountingHouse_Cultist_08_1011469c-7cf8-4aa2-9b1e-86f68ee9bdba": {
@@ -6445,6 +8032,7 @@
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
             "DevilsSight",
+            "FeyTouched_Wisdom",
             "Goon_AC_Buff_3",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
@@ -6452,7 +8040,8 @@
             "MAG_TheHunters_Dagger_Passive",
             "Mobile_CounterAttackOfOpportunity",
             "Mobile_DashAcrossDifficultTerrain",
-            "Mobile_PassiveBonuses"
+            "Mobile_PassiveBonuses",
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_LOW_CountingHouse_HeadBanker_f56697d0-7318-488c-852c-7c43ecdfde57": {
@@ -6752,6 +8341,7 @@
             "Shout_SpiritGuardians"
         ],
         "Passives": [
+            "CX_Paladin_Boost",
             "FightingStyle_Dueling",
             "FightingStyle_GreatWeaponFighting",
             "FightingStyle_TwoWeaponFighting",
@@ -6958,12 +8548,23 @@
             "MAG_TWN_Surgeon_ParalyzingCritical_Passive"
         ]
     },
+    "S_LOW_FatherCarrion_Ghoul_001_ea1e4956-140f-4dda-a0eb-211744ec3fd0": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
     "S_LOW_FatherCarrion_Ghoul_003_08bfd546-b2c2-461d-83e5-fc86160b3bfc": {
-        "HealthOverride": 85
+        "HealthOverride": 85,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
     },
     "S_LOW_FatherCarrion_Ghoul_004_bbc46971-3203-44b2-8582-b8822b1d5d70": {
         "Spells": [
             "Projectile_GreenSporeCloud"
+        ],
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     },
     "S_LOW_Figaro_3ff2b7ea-3de2-4bdc-a600-c973f290bc09": {
@@ -7388,6 +8989,11 @@
     "S_LOW_HagSurvivors_Adrielle_aa38af5c-9c75-4b2e-89e3-0cc1b995dbd6": {
         "Passives": [
             "CX_Cleric_Boost"
+        ]
+    },
+    "S_LOW_HagSurvivors_Bandit_Paladin_01_2eda24ed-9fca-4020-b514-4e041a1247f8": {
+        "Passives": [
+            "CX_Paladin_Boost"
         ]
     },
     "S_LOW_HagSurvivors_Crab_02_6509cc72-4648-44ec-a0c2-598a2b85b3e0": {
@@ -8004,13 +9610,22 @@
         ]
     },
     "S_LOW_KurwinCoffin_DogGhost_01_05fcc85e-ff22-4ba3-9fcf-71e08f50eb69": {
-        "HealthOverride": 125
+        "HealthOverride": 125,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
     },
     "S_LOW_KurwinCoffin_DogGhost_02_fd402b3e-4e95-4366-8e46-9b8e6f0b85b0": {
-        "HealthOverride": 115
+        "HealthOverride": 115,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
     },
     "S_LOW_KurwinCoffin_DogGhost_03_b40c5e21-4aba-4252-b8e6-219ac1764814": {
-        "HealthOverride": 125
+        "HealthOverride": 125,
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
     },
     "S_LOW_KurwinCoffin_Gravekeeper_865e5b54-e3d6-4fa3-80b4-d5f0b31873d5": {
         "HealthOverride": 50,
@@ -8082,6 +9697,7 @@
         ],
         "Passives": [
             "ARP_SwarmCharge_2",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_AttackRoll_3",
             "Goon_Cold_Resistant",
@@ -8098,6 +9714,7 @@
         ],
         "Passives": [
             "ARP_SwarmCharge_2",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_AttackRoll_3",
             "Goon_Cold_Resistant",
@@ -8138,6 +9755,7 @@
     "S_LOW_KurwinCoffin_W1_RisenZombie_000_ef33221b-8784-4ef5-8254-f5509bebf280": {
         "HealthOverride": 39,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_DamageReduction_2",
             "Goon_Necrotic_Ignore_Immune"
@@ -8146,6 +9764,7 @@
     "S_LOW_KurwinCoffin_W1_RisenZombie_001_33f12cb2-a215-4477-9b63-e808943e5622": {
         "HealthOverride": 40,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_DamageReduction_2",
             "Goon_Necrotic_Ignore_Immune"
@@ -8154,6 +9773,7 @@
     "S_LOW_KurwinCoffin_W1_RisenZombie_002_0d85e2c0-8bdd-4054-863e-9ae48d26d3e0": {
         "HealthOverride": 41,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Aura_of_Hate_Passive",
             "Goon_DamageReduction_2"
@@ -8162,6 +9782,7 @@
     "S_LOW_KurwinCoffin_W2_RisenGreaterZombie_000_f34c2984-6a8d-4be2-9194-41b58fd76b78": {
         "HealthOverride": 49,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_AttackRoll_3",
             "Goon_Cold_Resistant",
@@ -8215,6 +9836,7 @@
     "S_LOW_KurwinCoffin_W2_RisenZombie_000_32184af9-a79c-4441-8984-f88222c6beee": {
         "HealthOverride": 42,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Damage_Cold_d4_Attacks",
@@ -8230,6 +9852,7 @@
         ],
         "Passives": [
             "ARP_SwarmCharge_2",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_DamageReduction_2",
             "MightySwarm",
@@ -8239,6 +9862,7 @@
     "S_LOW_KurwinCoffin_W2_RisenZombie_002_b3d5ce26-a490-44cb-8d3b-c608dc970290": {
         "HealthOverride": 41,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Damage_Cold_d4_Attacks",
@@ -8249,6 +9873,7 @@
     "S_LOW_KurwinCoffin_W3_RisenGreaterZombie_000_db09a47c-c7ec-40e9-8d3d-d13b8a071106": {
         "HealthOverride": 113,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_AttackRoll_3",
             "Goon_Aura_of_Hate_Passive",
@@ -8302,6 +9927,7 @@
     "S_LOW_KurwinCoffin_W3_RisenZombie_000_efe97f82-580d-4b63-865f-153ef65d8ee9": {
         "HealthOverride": 35,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Magic_Allergy_Unlock",
             "Goon_Necrotic_Ignore_Immune",
@@ -8315,6 +9941,7 @@
         ],
         "Passives": [
             "ARP_SwarmCharge_2",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Damage_Cold_d4_Attacks",
@@ -8325,6 +9952,7 @@
     },
     "S_LOW_KurwinCoffin_W3_RisenZombie_002_fe7ca260-5c50-4280-8dad-60378f86f8a6": {
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_DamageReduction_2",
             "Goon_Necrotic_Ignore_Immune"
@@ -8466,6 +10094,8 @@
             "Goon_Damage_Cold_d8_SpellAttacks",
             "Goon_Target_MageArmor_Passive",
             "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
+            "MAG_OfSharpCaster_Hat_Passive",
+            "SavageAttacker",
             "TempestuousMagic"
         ]
     },
@@ -8755,6 +10385,8 @@
             "FeyTouched_Wisdom",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_4",
+            "MAG_OfSharpCaster_Hat_Passive",
+            "SavageAttacker",
             "ShadowTouched_Intelligence"
         ]
     },
@@ -9624,7 +11256,10 @@
             "Goon_AttackRoll_4",
             "MageSlayer_Advantage",
             "MageSlayer_AttackCaster",
-            "MageSlayer_BreakConcentration"
+            "MageSlayer_BreakConcentration",
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses"
         ]
     },
     "S_LOW_UndercityChasmEntrance_Cultist_001_4a7e35c3-27b3-4b58-9ef4-6330b907c2a1": {
@@ -9637,6 +11272,8 @@
             "Goon_AC_Buff_5",
             "Goon_AttackRoll_3",
             "Goon_AttackRoll_4",
+            "MAG_OfSharpCaster_Hat_Passive",
+            "SavageAttacker",
             "ShadowTouched_Intelligence"
         ]
     },
@@ -9646,10 +11283,12 @@
             "ALCH_Elixir_Bloodlust_Passive",
             "CX_Rogue_Boost",
             "DevilsSight",
+            "FeyTouched_Wisdom",
             "Goon_AC_Buff_4",
             "Goon_AC_Buff_5",
             "Goon_AttackRoll_3",
-            "Goon_AttackRoll_4"
+            "Goon_AttackRoll_4",
+            "ShadowTouched_Intelligence"
         ]
     },
     "S_LOW_UndercityPatrol1_Cultist_000_0d291d3e-bf25-49ab-a15e-ed7a8b115a13": {
@@ -9681,7 +11320,10 @@
             "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
             "MageSlayer_Advantage",
             "MageSlayer_AttackCaster",
-            "MageSlayer_BreakConcentration"
+            "MageSlayer_BreakConcentration",
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses"
         ]
     },
     "S_LOW_UndercityPatrol1_Cultist_001_470999a2-58be-49cd-a50e-415b6e5a15fb": {
@@ -9941,6 +11583,7 @@
         ],
         "Passives": [
             "ARP_SwarmCharge_2",
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_3",
             "Goon_Cold_Resistant",
             "Goon_Damage_Cold_d4_Attacks",
@@ -10148,7 +11791,10 @@
             "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
             "MageSlayer_Advantage",
             "MageSlayer_AttackCaster",
-            "MageSlayer_BreakConcentration"
+            "MageSlayer_BreakConcentration",
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses"
         ]
     },
     "S_END_BellTowerGhoul_f3170fbd-d421-4e76-b484-36e1551107a7": {
@@ -10265,6 +11911,7 @@
     "S_END_Gatekeeper_dc7085f4-a001-4fb9-9624-a6faeb41b538": {
         "Passives": [
             "CX_Magic_Boost",
+            "DevilsSight",
             "MageSlayer_Advantage",
             "MageSlayer_AttackCaster",
             "MageSlayer_BreakConcentration"
@@ -11481,201 +13128,11 @@
             "Goon_Summon_Potion_Healing_x2"
         ]
     },
-    "S_HAV_CrawlingClaw_000_d565aab4-ff0a-4308-b7e3-a5e5f154e7ce": {
-        "HealthOverride": 17,
+    "MMM_THIEFTRIO3_70a7129a-f413-4d07-b297-4cf540d0c6cc": {
         "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_001_49a87b36-76fc-4232-aad8-dd4d0421ec10": {
-        "HealthOverride": 39,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_002_3a942fe3-a6d1-4792-af82-2fc062280e30": {
-        "HealthOverride": 16,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_003_936d0aec-0f0f-4c6d-b273-ff1f5eb121fd": {
-        "HealthOverride": 32,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_004_0af8daa0-0654-42be-a9f8-a33909d4a188": {
-        "HealthOverride": 40,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_005_dd3eca42-427e-4565-9db1-471a11ef82d6": {
-        "HealthOverride": 25,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_006_e79b17a6-6f64-45e4-a553-b59060790461": {
-        "HealthOverride": 19,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_007_e6455d59-6f13-4570-b834-4f4ab0918b24": {
-        "HealthOverride": 35,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_008_767ac3d2-cb9a-40bb-8769-4ccd92ca54ff": {
-        "HealthOverride": 19,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_009_85677d5f-d076-46fc-b006-9458c20d8d26": {
-        "HealthOverride": 22,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_010_22780b26-0e56-43d4-8e3e-3b70ef9cd106": {
-        "HealthOverride": 25,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_011_83cb9f05-b086-4ced-b77a-9b5d938ae960": {
-        "HealthOverride": 32,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_CrawlingClaw_012_467d4447-810d-49f9-be8a-48067b1852f1": {
-        "HealthOverride": 28,
-        "Passives": [
-            "Goon_AC_Buff_4",
-            "Goon_AttackRoll_2",
-            "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
-            "MAG_Vicious_Weapon_Passive",
-            "RemarkableAthlete_Jump",
-            "Resilient_Constitution"
-        ]
-    },
-    "S_HAV_FlyingGhoul_000_62dd0ebd-8325-4b76-ba41-99fbee98149a": {
-        "HealthOverride": 55
-    },
-    "S_HAV_FlyingGhoul_001_48026cfd-acc4-42dd-a9e3-583cac5f7a34": {
-        "HealthOverride": 55
-    },
-    "S_HAV_FlyingGhoul_002_c43490d5-4d8c-4986-8b1e-6bcf4325cb0d": {
-        "HealthOverride": 55
-    },
-    "S_HAV_FlyingGhoul_003_317ba5c6-eda5-4e7a-a288-443c25fd2525": {
-        "HealthOverride": 55
-    },
-    "S_HAV_FlyingGhoul_004_e63f73e4-2ea1-45cc-b54e-56355b700a9d": {
-        "HealthOverride": 55
-    },
-    "S_HAV_FlyingGhoul_005_db61112a-dbc9-4f0e-9e6f-332a09f3b35a": {
-        "HealthOverride": 55
-    },
-    "S_HAV_FlyingGhoul_New_001_d2567919-b944-4ca2-8934-134341f71765": {
-        "HealthOverride": 55
-    },
-    "S_HAV_FlyingGhoul_New_002_0f9db864-88f7-4d33-94f6-931aef98b2c3": {
-        "HealthOverride": 55
-    },
-    "S_HAV_TaxiGhoul_3ebef8c7-2733-42aa-9757-84fdeadbe652": {
-        "HealthOverride": 55
-    },
-    "S_HAV_Wave3_ShadowCursed_Warrior_Githyanki_003_06fe050e-86f5-47f8-bda9-53d91b9f6fdf": {
-        "Passives": [
-            "FightingStyle_Dueling",
-            "FightingStyle_GreatWeaponFighting",
-            "FightingStyle_TwoWeaponFighting",
-            "Goon_AC_Buff_1",
-            "MAG_Psychic_MentalFatigue_Gloves_Passive"
-        ]
-    },
-    "S_HAV_Wave3_ShadowCursed_Warrior_Githyanki_004_3ef3995a-a195-4982-987d-4cdf22b98235": {
-        "Passives": [
-            "FightingStyle_Dueling",
-            "FightingStyle_GreatWeaponFighting",
-            "FightingStyle_TwoWeaponFighting",
-            "Goon_AC_Buff_1",
-            "MAG_Psychic_MentalFatigue_Gloves_Passive"
-        ]
-    },
-    "S_HAV_Wave3_ShadowCursed_Warrior_Githyanki_005_7052676a-7ba6-442b-8e63-b9670e4384a9": {
-        "Passives": [
-            "FightingStyle_Dueling",
-            "FightingStyle_GreatWeaponFighting",
-            "FightingStyle_TwoWeaponFighting",
-            "Goon_AC_Buff_1",
-            "MAG_Psychic_MentalFatigue_Gloves_Passive"
+            "Mobile_CounterAttackOfOpportunity",
+            "Mobile_DashAcrossDifficultTerrain",
+            "Mobile_PassiveBonuses"
         ]
     },
     "AE_Justiciar_DefiledTemple_1_8c816816-0be7-42b1-a0ff-1960b0172658": {
@@ -11687,6 +13144,7 @@
     "EO_CrawlingClaw_10_697deecf-e7c2-4669-875f-5b1b7d8000ca": {
         "HealthOverride": 28,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11698,6 +13156,7 @@
     "EO_CrawlingClaw_11_e1f8246c-27ef-4bbe-a243-4f04e93b1edb": {
         "HealthOverride": 20,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11709,6 +13168,7 @@
     "EO_CrawlingClaw_12_452dbbc6-686b-40c4-b330-e601b3cb2cca": {
         "HealthOverride": 21,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11720,6 +13180,7 @@
     "EO_CrawlingClaw_13_6a7d57e6-ce63-4c8e-8b62-6df0fef7b7a3": {
         "HealthOverride": 31,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11731,6 +13192,7 @@
     "EO_CrawlingClaw_14_e64caf8d-e2ab-4229-9c43-172718686eeb": {
         "HealthOverride": 32,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11742,6 +13204,7 @@
     "EO_CrawlingClaw_15_6cdb3fa9-c158-41fc-8d03-68dc16edcb70": {
         "HealthOverride": 25,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11753,6 +13216,7 @@
     "EO_CrawlingClaw_16_01a4be38-35ff-4cdb-b151-c204d2dc2e77": {
         "HealthOverride": 33,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11764,6 +13228,7 @@
     "EO_CrawlingClaw_1_acde8411-debb-4a59-a640-413c9f6df978": {
         "HealthOverride": 34,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11775,6 +13240,7 @@
     "EO_CrawlingClaw_2_580a6f8a-2b44-4ce0-a774-e9319edf8c08": {
         "HealthOverride": 29,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11786,6 +13252,7 @@
     "EO_CrawlingClaw_3_bc13be74-fc92-455d-9561-59af83e08818": {
         "HealthOverride": 18,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11797,6 +13264,7 @@
     "EO_CrawlingClaw_4_ea4cede2-8ae7-4756-a002-5bcb01020e67": {
         "HealthOverride": 16,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11808,6 +13276,7 @@
     "EO_CrawlingClaw_5_b890ddad-4490-498d-afab-75c4d60dd94a": {
         "HealthOverride": 23,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11819,6 +13288,7 @@
     "EO_CrawlingClaw_6_5498374e-514d-4931-803b-d93a37e87b17": {
         "HealthOverride": 23,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11830,6 +13300,7 @@
     "EO_CrawlingClaw_7_56828019-e811-4063-af11-87eb47550338": {
         "HealthOverride": 17,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11841,6 +13312,7 @@
     "EO_CrawlingClaw_8_52602b14-a40d-4a0e-aad0-c6a7930a5294": {
         "HealthOverride": 25,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11852,6 +13324,7 @@
     "EO_CrawlingClaw_9_5a0cdd37-99e6-4569-a8a0-46b9c90ac75b": {
         "HealthOverride": 27,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_2",
             "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -11860,18 +13333,59 @@
             "Resilient_Constitution"
         ]
     },
-    "EO_DefiledTemple_Trickery_Cleric_fc83ce47-3ce0-4be5-b1bc-83501cb10251": {
-        "HealthOverride": 20
+    "EO_CRE_Zombie_1_57dfbc33-d078-415e-88cf-6cf2de1049d5": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_CRE_Zombie_2_767e55ae-9360-4056-95de-b625d5f03463": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "EO_CRE_Zombie_3_7e54a437-d6bf-475b-ace1-f5a7cf35644e": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
     },
     "EO_GhoulRuins_584ffd8c-c3cd-43ea-86aa-a384bb1f43cb": {
         "HealthOverride": 45,
         "Passives": [
+            "Goon_AC_Buff_1",
             "MAG_Barbarian_Gloves_BoneSpike_Passive"
+        ]
+    },
+    "EO_GnollMelee_1_3a373420-dda8-40df-b867-de6f970011d4": {
+        "HealthOverride": 60,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive"
+        ]
+    },
+    "EO_GnollMelee_2_2725b80f-9cba-4b51-af19-4d8306a99be5": {
+        "HealthOverride": 80,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive"
+        ]
+    },
+    "EO_GnollRanged_1_d434124e-8ce0-487e-90a0-bea32486e322": {
+        "HealthOverride": 50
+    },
+    "EO_GnollRanged_2_40b7a766-8e3e-440e-b808-3cfc2dcbba82": {
+        "HealthOverride": 50,
+        "Passives": [
+            "Goon_AttackRoll_1"
+        ]
+    },
+    "EO_GnollRanged_3_d5099c55-e6f6-44a8-85c5-5a57bddaeb16": {
+        "HealthOverride": 50,
+        "Passives": [
+            "Goon_AttackRoll_1"
         ]
     },
     "EO_GreaterZombie_Melee_1_0bbdfb62-3642-4d8e-b96e-cad6333b1a98": {
         "HealthOverride": 101,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -11879,6 +13393,7 @@
     "EO_GreaterZombie_Melee_2_edbde934-6d4d-4ceb-a4dd-9380e52adf59": {
         "HealthOverride": 110,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -11886,6 +13401,7 @@
     "EO_GreaterZombie_Melee_3_8e6b5964-8617-4c42-a1c0-fc65fd75343f": {
         "HealthOverride": 104,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -11893,6 +13409,7 @@
     "EO_GreaterZombie_Melee_4_12dccc8d-d24f-4225-9146-49c18526c87d": {
         "HealthOverride": 114,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
         ]
@@ -11900,18 +13417,9 @@
     "EO_GreaterZombie_Melee_5_4520c079-b73e-4200-bd70-e7b488e9798a": {
         "HealthOverride": 115,
         "Passives": [
+            "Goon_AC_Buff_1",
             "Goon_AC_Buff_2",
             "Goon_AttackRoll_3"
-        ]
-    },
-    "EO_SCL_Goblin_Ranged_1_e8e0bc72-eff7-4330-a5b0-fef4562388f7": {
-        "Passives": [
-            "UNI_Bow_SpellslotRecharge_Passive"
-        ]
-    },
-    "EO_SCL_Goblin_Ranged_2_248924eb-7b72-4377-b0ae-8cb23c02b387": {
-        "Passives": [
-            "UNI_Bow_SpellslotRecharge_Passive"
         ]
     },
     "EO_Spectator_33b81965-7790-44dc-b51d-a02e17f77072": {
@@ -11922,9 +13430,11 @@
             "Goon_Immunity_Blinded"
         ]
     },
-    "EO_Waukeen_GoblinRanged_1_3ccbf4a2-027d-407f-8313-14fc0edbecd9": {
+    "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea": {
+        "HealthOverride": 75,
         "Passives": [
-            "UNI_Bow_SpellslotRecharge_Passive"
+            "Goon_AC_Buff_2",
+            "CX_Warlock_GreatOldOne_Boost"
         ]
     },
     "Humans_Female_Cultist_Bhaal_DeathsHead_920647a1-844c-d260-d7e6-f2a4e7dc737d": {
@@ -11993,6 +13503,15 @@
         "HealthOverride": 40,
         "Passives": [
             "MAG_Psychic_MentalFatigue_Ring_Passive"
+        ]
+    },
+    "MMM_CAVEBACKDOOR_31da9358-a6a4-4a98-a199-85e09dea5b0e": {
+        "HealthOverride": 34
+    },
+    "MMM_CAVEBACKDOOR_d743f4f3-2dae-47cb-bfb2-ec4332881937": {
+        "HealthOverride": 44,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive"
         ]
     },
     "MMM_FLAYERAMBUSH_75db3611-eca6-41b6-ac65-23a0efe7129c": {
@@ -12139,6 +13658,57 @@
             "FightingStyle_TwoWeaponFighting",
             "Goon_AC_Buff_1",
             "MAG_Psychic_MentalFatigue_Gloves_Passive"
+        ]
+    },
+    "MMM_WISPTREE_02165ff4-4106-4ee4-b0b0-8dea210e4854": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "MMM_WISPTREE_1a924fa7-857e-4a2d-8623-5a731fb99ad3": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "MMM_WISPTREE_67b9514a-d06a-413f-b5c6-8b47eeb07222": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "MMM_WISPTREE_777abf83-5e31-4a4f-a9e3-2206d3db2b4c": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "MMM_WISPTREE_ff395467-76a1-442e-8e49-0fe3d86637db": {
+        "Passives": [
+            "Goon_AC_Buff_1"
+        ]
+    },
+    "QUEST_GnollBorn_A_01a1aced-0d86-fa8e-da04-88e38d5a6556": {
+        "HealthOverride": 42,
+        "Passives": [
+            "BrutalBite",
+            "Goon_Target_Longstrider_Passive"
+        ]
+    },
+    "QUEST_GnollBorn_A_6139d9fb-a8de-04ae-8c2a-4038623aa33d": {
+        "HealthOverride": 41,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive",
+            "UND_ServantOfBoooal"
+        ]
+    },
+    "QUEST_GnollBorn_A_87803137-3114-16f8-8a5f-27b568554779": {
+        "HealthOverride": 39,
+        "Passives": [
+            "Goon_Target_Longstrider_Passive",
+            "UND_ServantOfBoooal"
+        ]
+    },
+    "QUEST_HAG_HusbandZombie_2b5454ed-c847-db71-a67a-00362bb7ff9d": {
+        "Passives": [
+            "Goon_AC_Buff_1"
         ]
     }
 }

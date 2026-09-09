@@ -657,6 +657,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
+                "DevilsSight",
                 "FeyTouched_Wisdom",
                 "ShadowTouched_Intelligence"
             ],
@@ -685,7 +686,10 @@
             "OriginalHealth": 20,
             "HealthOverride": 20,
             "PassivesToAdd": [
-                "Goon_AttackRoll_2"
+                "Goon_AttackRoll_2",
+                "MageSlayer_Advantage",
+                "MageSlayer_AttackCaster",
+                "MageSlayer_BreakConcentration"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Intellect Devourer",
@@ -2911,7 +2915,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "CX_Paladin_Boost"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -5405,7 +5411,10 @@
             "ArmorClass": 9,
             "OriginalHealth": 14,
             "HealthOverride": 19,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -5430,7 +5439,10 @@
             "ArmorClass": 9,
             "OriginalHealth": 14,
             "HealthOverride": 19,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -5455,7 +5467,10 @@
             "ArmorClass": 9,
             "OriginalHealth": 14,
             "HealthOverride": 19,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -5480,7 +5495,10 @@
             "ArmorClass": 9,
             "OriginalHealth": 14,
             "HealthOverride": 19,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -5505,7 +5523,10 @@
             "ArmorClass": 15,
             "OriginalHealth": 41,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -5530,7 +5551,10 @@
             "ArmorClass": 15,
             "OriginalHealth": 41,
             "HealthOverride": 50,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -5812,8 +5836,10 @@
             "OriginalHealth": 38,
             "HealthOverride": 50,
             "PassivesToAdd": [
+                "ExtraAttack",
+                "FeyTouched_Wisdom",
                 "Goon_AC_Buff_2",
-                "ExtraAttack"
+                "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -6420,8 +6446,10 @@
             "OriginalHealth": 40,
             "HealthOverride": 0,
             "PassivesToAdd": [
+                "FeyTouched_Wisdom",
                 "Goon_AC_Buff_2",
-                "MAG_Druid_Wildshape_SpellResistance_Passive"
+                "MAG_Druid_Wildshape_SpellResistance_Passive",
+                "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [
                 "Target_HealingWord"
@@ -7859,7 +7887,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -7884,7 +7914,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -7909,7 +7941,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Dorrina",
             "CloneTemplateGuid": "",
@@ -9996,7 +10030,9 @@
             "OriginalHealth": 35,
             "HealthOverride": 45,
             "PassivesToAdd": [
-                "GOB_PainPriest_Scourge_Passive"
+                "GOB_PainPriest_Scourge_Passive",
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Scribe Guardian",
@@ -10023,7 +10059,9 @@
             "OriginalHealth": 35,
             "HealthOverride": 45,
             "PassivesToAdd": [
-                "GOB_PainPriest_Scourge_Passive"
+                "GOB_PainPriest_Scourge_Passive",
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -10050,7 +10088,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Shadow_Blinding_Bow_Passive"
+                "Goon_AC_Buff_1",
+                "MAG_Shadow_Blinding_Bow_Passive",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -10077,7 +10117,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Shadow_Blinding_Bow_Passive"
+                "Goon_AC_Buff_1",
+                "MAG_Shadow_Blinding_Bow_Passive",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -10104,7 +10146,9 @@
             "OriginalHealth": 35,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "GOB_PainPriest_Scourge_Passive"
+                "GOB_PainPriest_Scourge_Passive",
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -10131,8 +10175,10 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "MAG_SarevokArmor_WitheringBarrier_Passive"
+                "MAG_SarevokArmor_WitheringBarrier_Passive",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -10159,8 +10205,10 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "MAG_SarevokArmor_WitheringBarrier_Passive"
+                "MAG_SarevokArmor_WitheringBarrier_Passive",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -10211,7 +10259,6 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -10372,13 +10419,13 @@
             "MonsterArchetype": "",
             "Corpse": false,
             "Notes": "",
-            "Level": 1,
-            "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "Level": 4,
+            "ArmorClass": 14,
+            "OriginalHealth": 31,
+            "HealthOverride": 55,
             "PassivesToAdd": [
-                "CX_Barbarian_Boost",
-                "MAG_Illithid_Carapace_Gloves_Passive"
+                "CX_Druid_Boost",
+                "CX_Druid_Moon_Boost"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -10394,20 +10441,21 @@
             "Act": "1",
             "Location": "HAG_MASKS",
             "Type": "Humanoid",
-            "SubType": "",
+            "SubType": "Tiefling",
             "ClassArchetype": "",
             "SubclassArchetype": "",
             "MonsterArchetype": "",
             "Corpse": false,
             "Notes": "",
-            "Level": 1,
-            "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "Level": 4,
+            "ArmorClass": 10,
+            "OriginalHealth": 23,
+            "HealthOverride": 45,
             "PassivesToAdd": [
-                "BardicInspiration_d8",
-                "BardicInspiration",
-                "CX_Cleric_Boost"
+                "CX_Cleric_Boost",
+                "MAG_Revivify_Gloves_Passive",
+                "ARP_SpellSlot_1_4",
+                "ARP_SpellSlot_2_3"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -10423,18 +10471,20 @@
             "Act": "1",
             "Location": "HAG_MASKS",
             "Type": "Humanoid",
-            "SubType": "",
+            "SubType": "Drow Half-Elf",
             "ClassArchetype": "",
             "SubclassArchetype": "",
             "MonsterArchetype": "",
             "Corpse": false,
             "Notes": "",
-            "Level": 1,
-            "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "Level": 4,
+            "ArmorClass": 12,
+            "OriginalHealth": 36,
+            "HealthOverride": 60,
             "PassivesToAdd": [
-                "CX_Paladin_Boost"
+                "CX_Paladin_Boost",
+                "MAG_Psychic_MentalFatigue_Cape_Passive",
+                "ARP_SpellSlot_1_3"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -10456,13 +10506,15 @@
             "MonsterArchetype": "",
             "Corpse": false,
             "Notes": "",
-            "Level": 1,
-            "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "Level": 4,
+            "ArmorClass": 15,
+            "OriginalHealth": 29,
+            "HealthOverride": 50,
             "PassivesToAdd": [
-                "CX_Rogue_Boost",
-                "MAG_Psychic_MentalFatigue_Gloves_Passive"
+                "CX_Ranger_Boost",
+                "CX_Ranger_Hunter_Boost",
+                "ARP_SpellSlot_1_2",
+                "ARP_SpellSlot_2_2"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Wood Woad",
@@ -10478,7 +10530,7 @@
             "Act": "1",
             "Location": "05_SWAMP_PATH_BROTHERS",
             "Type": "Humanoid",
-            "SubType": "",
+            "SubType": "Human",
             "ClassArchetype": "",
             "SubclassArchetype": "",
             "MonsterArchetype": "",
@@ -10488,7 +10540,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "MageSlayer_Advantage",
+                "MageSlayer_AttackCaster",
+                "MageSlayer_BreakConcentration"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -10503,7 +10559,7 @@
             "Act": "1",
             "Location": "05_SWAMP_PATH_BROTHERS",
             "Type": "Humanoid",
-            "SubType": "",
+            "SubType": "Human",
             "ClassArchetype": "",
             "SubclassArchetype": "",
             "MonsterArchetype": "",
@@ -10513,7 +10569,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Alert"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -10526,42 +10584,17 @@
             "Handle": "Auntie Ethel",
             "FullGuid": "S_HAG_HagAmbush_Hag_fb9cc235-398e-418d-a4a2-5da058fe7055",
             "Act": "1",
-            "Location": "05_SWAMP_PATH_BROTHERS",
-            "Type": "",
-            "SubType": "",
+            "Location": "05_SWAMP_ETHEL_TEAHOUSE",
+            "Type": "Fey",
+            "SubType": "Green Hag",
             "ClassArchetype": "",
             "SubclassArchetype": "",
             "MonsterArchetype": "",
             "Corpse": false,
             "Notes": "",
-            "Level": 1,
-            "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
-            "SpellsToAdd": [],
-            "CloneDisplayName": "",
-            "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
-            "LockInformation": false,
-            "LockBlock": false
-        },
-        {
-            "Handle": "Auntie Ethel",
-            "FullGuid": "S_HAG_HagLair_EntranceDouble_d6e7f76b-9922-43b2-a44d-d9f91f9d9fd6",
-            "Act": "1",
-            "Location": "",
-            "Type": "",
-            "SubType": "",
-            "ClassArchetype": "",
-            "SubclassArchetype": "",
-            "MonsterArchetype": "",
-            "Corpse": false,
-            "Notes": "",
-            "Level": 1,
-            "ArmorClass": 0,
-            "OriginalHealth": 0,
+            "Level": 5,
+            "ArmorClass": 17,
+            "OriginalHealth": 145,
             "HealthOverride": 0,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
@@ -10744,7 +10777,7 @@
                 "MAG_LC_Umberlee_Regeneration_Boots_Passive"
             ],
             "SpellsToAdd": [],
-            "CloneDisplayName": "",
+            "CloneDisplayName": "Ancient Mud Mephit",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
             "LockRandomModifications": false,
@@ -10794,7 +10827,7 @@
             "HealthOverride": 0,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
-            "CloneDisplayName": "",
+            "CloneDisplayName": "Ancient Mud Mephit",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
             "LockRandomModifications": false,
@@ -13228,7 +13261,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 45,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Alert"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -14635,14 +14670,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 30,
+            "HealthOverride": 30,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -14660,14 +14697,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 44,
+            "HealthOverride": 44,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -14685,14 +14724,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 43,
+            "HealthOverride": 43,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Gnoll Flesh Gnawer",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -14710,14 +14751,14 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "OriginalHealth": 39,
+            "HealthOverride": 39,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
             "CloneDisplayName": "Gnoll Hunter",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -14735,14 +14776,14 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "OriginalHealth": 34,
+            "HealthOverride": 34,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -14760,14 +14801,14 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "OriginalHealth": 35,
+            "HealthOverride": 35,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -15020,14 +15061,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 32,
+            "HealthOverride": 32,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Gnoll Fang of Yeenoghu",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -15045,14 +15088,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 34,
+            "HealthOverride": 34,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -15070,14 +15115,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 43,
+            "HealthOverride": 43,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -15095,14 +15142,14 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "OriginalHealth": 34,
+            "HealthOverride": 34,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -15120,14 +15167,14 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "OriginalHealth": 30,
+            "HealthOverride": 30,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -20545,7 +20592,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "LOW_BlushingMermaid_Redcap_Buff"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -21875,7 +21924,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Debuff_2",
+                "Goon_Slashing_Vulnerable",
+                "AJ_RM"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -21950,7 +22003,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -21975,7 +22032,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "MageSlayer_Advantage",
+                "MageSlayer_AttackCaster",
+                "MageSlayer_BreakConcentration"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -21994,7 +22055,7 @@
             "ClassArchetype": "",
             "SubclassArchetype": "",
             "MonsterArchetype": "",
-            "Corpse": false,
+            "Corpse": true,
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
@@ -22588,7 +22649,10 @@
             "ArmorClass": 10,
             "OriginalHealth": 19,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -22613,7 +22677,10 @@
             "ArmorClass": 10,
             "OriginalHealth": 19,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -22638,7 +22705,10 @@
             "ArmorClass": 10,
             "OriginalHealth": 19,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -22663,7 +22733,10 @@
             "ArmorClass": 10,
             "OriginalHealth": 19,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -22688,7 +22761,10 @@
             "ArmorClass": 10,
             "OriginalHealth": 19,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -22713,7 +22789,10 @@
             "ArmorClass": 10,
             "OriginalHealth": 19,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -23164,7 +23243,8 @@
             "OriginalHealth": 96,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "ARP_SpellSlot_6_1"
+                "ARP_SpellSlot_6_1",
+                "Goon_AC_Buff_1"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -25510,6 +25590,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -25537,6 +25618,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -25564,6 +25646,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -25591,6 +25674,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -25617,7 +25701,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 60,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -25642,7 +25728,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 60,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -25667,7 +25755,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -26393,6 +26483,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 17,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26425,6 +26516,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 39,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26457,6 +26549,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 16,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26489,6 +26582,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 32,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26521,6 +26615,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 40,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26553,6 +26648,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 25,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26585,6 +26681,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 19,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26617,6 +26714,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 35,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26649,6 +26747,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 19,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26681,6 +26780,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 22,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26713,6 +26813,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 25,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26745,6 +26846,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 32,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -26777,6 +26879,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 28,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -27025,7 +27128,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 55,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27050,7 +27155,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 55,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27075,7 +27182,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 55,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27100,7 +27209,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 55,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27125,7 +27236,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 55,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27150,7 +27263,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 55,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27175,7 +27290,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27200,7 +27317,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 55,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27225,7 +27344,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 55,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27750,7 +27871,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27775,7 +27898,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27800,7 +27925,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -27825,7 +27952,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28075,7 +28204,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 55,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28100,7 +28231,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28125,7 +28258,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28150,7 +28285,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28175,7 +28312,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28200,7 +28339,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28225,7 +28366,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28250,7 +28393,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28275,7 +28420,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28300,7 +28447,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28325,7 +28474,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28350,7 +28501,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28375,7 +28528,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28400,7 +28555,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28425,7 +28582,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28450,7 +28609,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28475,7 +28636,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28500,7 +28663,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28525,7 +28690,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28550,7 +28717,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28575,7 +28744,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28675,7 +28846,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28700,7 +28873,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28725,7 +28900,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28750,7 +28927,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28775,7 +28954,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "CX_Paladin_Boost",
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28800,7 +28982,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "CX_Paladin_Boost",
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28825,7 +29010,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "CX_Paladin_Boost",
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28850,7 +29038,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28875,7 +29065,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28900,7 +29092,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28925,7 +29119,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28950,7 +29146,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -28975,7 +29173,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29000,7 +29200,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29075,7 +29277,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29100,7 +29304,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29125,7 +29331,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29150,7 +29358,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29175,7 +29385,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29200,7 +29412,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29225,7 +29439,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29250,7 +29466,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29275,7 +29493,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29300,7 +29520,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29325,7 +29547,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29443,7 +29667,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29468,7 +29694,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29493,7 +29721,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -29518,7 +29748,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -30414,7 +30646,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -30939,7 +31173,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "CX_Paladin_Boost"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -31114,7 +31350,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -31139,7 +31377,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -31164,7 +31404,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -31189,7 +31431,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -31214,7 +31458,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -31239,7 +31485,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -31264,7 +31512,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -31289,7 +31539,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -31314,7 +31566,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -32435,8 +32689,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
-                "UndeadFortitude",
-                "MAG_Barbarian_Gloves_BoneSpike_Passive"
+                "Goon_AC_Buff_1",
+                "MAG_Barbarian_Gloves_BoneSpike_Passive",
+                "UndeadFortitude"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -32463,6 +32718,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -32490,6 +32746,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -34738,7 +34995,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Cursed Kuo-toa",
             "CloneTemplateGuid": "",
@@ -34763,7 +35022,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -34788,7 +35049,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -34813,7 +35076,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Cursed Kuo-toa",
             "CloneTemplateGuid": "",
@@ -34838,7 +35103,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Shadow-Cursed Harper",
             "CloneTemplateGuid": "S_SCL_BlightCombat2_ShadowCursed_01_291771df-35ef-4a27-866e-8ff7e84c2ecb",
@@ -34863,7 +35130,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Shadow-Cursed Harper",
             "CloneTemplateGuid": "S_SCL_BlightCombat2_ShadowCursed_01_291771df-35ef-4a27-866e-8ff7e84c2ecb",
@@ -34888,7 +35157,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Cursed Kuo-toa",
             "CloneTemplateGuid": "",
@@ -34913,7 +35184,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Cursed Kuo-toa",
             "CloneTemplateGuid": "",
@@ -34938,7 +35211,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -34963,7 +35238,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -34988,7 +35265,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35013,7 +35292,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35039,7 +35320,8 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "CX_Paladin_Boost"
+                "CX_Paladin_Boost",
+                "Goon_AC_Buff_1"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Shadow-Cursed Harper",
@@ -35065,7 +35347,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Cursed Kuo-Toa Chief",
             "CloneTemplateGuid": "",
@@ -35266,7 +35550,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35291,7 +35577,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35316,7 +35604,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35341,7 +35631,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35366,7 +35658,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35391,7 +35685,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35641,7 +35937,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35666,7 +35964,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35691,7 +35991,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35716,7 +36018,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35926,7 +36230,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -35951,7 +36257,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36001,7 +36309,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36026,7 +36336,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36051,7 +36363,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36076,7 +36390,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36101,7 +36417,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36126,7 +36444,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36151,7 +36471,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36176,7 +36498,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36201,7 +36525,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36226,7 +36552,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36251,7 +36579,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36276,7 +36606,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36318,7 +36650,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36800,6 +37134,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -36827,6 +37162,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -36854,6 +37190,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -36880,7 +37217,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -36981,10 +37320,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
+                "ArmorOfAgathys_5",
                 "CX_Spells_L3",
                 "CX_Spells_L3C",
-                "ArmorOfAgathys_5",
-                "MAG_Cold_ChilledOnSpellDamage_Passive"
+                "Goon_AC_Buff_1",
+                "MAG_Cold_ChilledOnSpellDamage_Passive",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37011,10 +37352,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
+                "ArmorOfAgathys_5",
                 "CX_Spells_L3",
                 "CX_Spells_L3C",
-                "ArmorOfAgathys_5",
-                "MAG_Cold_ChilledOnSpellDamage_Passive"
+                "Goon_AC_Buff_1",
+                "MAG_Cold_ChilledOnSpellDamage_Passive",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37041,10 +37384,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
+                "ArmorOfAgathys_5",
                 "CX_Spells_L3",
                 "CX_Spells_L3C",
-                "ArmorOfAgathys_5",
-                "MAG_Cold_ChilledOnSpellDamage_Passive"
+                "Goon_AC_Buff_1",
+                "MAG_Cold_ChilledOnSpellDamage_Passive",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37071,7 +37416,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 60,
             "PassivesToAdd": [
-                "CX_Paladin_Boost"
+                "CX_Paladin_Boost",
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37098,7 +37445,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 60,
             "PassivesToAdd": [
-                "CX_Paladin_Boost"
+                "CX_Paladin_Boost",
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37125,7 +37474,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 60,
             "PassivesToAdd": [
-                "CX_Paladin_Boost"
+                "CX_Paladin_Boost",
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37152,10 +37503,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_PhysicalDamageReduction_Passive",
-                "Scar_Eclipse_Gur",
+                "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "CX_Fighter_Boost"
+                "MAG_PhysicalDamageReduction_Passive",
+                "Resilient_Strength",
+                "Scar_Eclipse_Gur"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37182,10 +37535,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_PhysicalDamageReduction_Passive",
-                "Scar_Eclipse_Gur",
+                "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "CX_Fighter_Boost"
+                "MAG_PhysicalDamageReduction_Passive",
+                "Resilient_Strength",
+                "Scar_Eclipse_Gur"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37212,10 +37567,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_PhysicalDamageReduction_Passive",
-                "Scar_Eclipse_Gur",
+                "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "CX_Fighter_Boost"
+                "MAG_PhysicalDamageReduction_Passive",
+                "Resilient_Strength",
+                "Scar_Eclipse_Gur"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37242,10 +37599,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_PhysicalDamageReduction_Passive",
-                "Scar_Eclipse_Gur",
+                "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "CX_Fighter_Boost"
+                "MAG_PhysicalDamageReduction_Passive",
+                "Resilient_Strength",
+                "Scar_Eclipse_Gur"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37272,10 +37631,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_PhysicalDamageReduction_Passive",
-                "Scar_Eclipse_Gur",
+                "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "CX_Fighter_Boost"
+                "MAG_PhysicalDamageReduction_Passive",
+                "Resilient_Strength",
+                "Scar_Eclipse_Gur"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37302,10 +37663,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_PhysicalDamageReduction_Passive",
-                "Scar_Eclipse_Gur",
+                "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "CX_Fighter_Boost"
+                "MAG_PhysicalDamageReduction_Passive",
+                "Resilient_Strength",
+                "Scar_Eclipse_Gur"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37332,10 +37695,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_PhysicalDamageReduction_Passive",
-                "Scar_Eclipse_Gur",
+                "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "CX_Fighter_Boost"
+                "MAG_PhysicalDamageReduction_Passive",
+                "Resilient_Strength",
+                "Scar_Eclipse_Gur"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37362,10 +37727,12 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_PhysicalDamageReduction_Passive",
-                "Scar_Eclipse_Gur",
+                "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "MAG_DarkJusticiarGloves_Passive",
-                "CX_Fighter_Boost"
+                "MAG_PhysicalDamageReduction_Passive",
+                "Resilient_Strength",
+                "Scar_Eclipse_Gur"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -37391,7 +37758,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37416,7 +37786,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37441,7 +37814,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37466,7 +37842,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37491,7 +37870,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37516,7 +37898,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1",
+                "Resilient_Strength"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37541,7 +37926,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Justiciar Darkwind",
             "CloneTemplateGuid": "S_TWN_BasementWraith_001_238d6737-efc6-4ba9-9022-8d4b26828fc7",
@@ -37566,7 +37953,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Justiciar Darkwind",
             "CloneTemplateGuid": "S_TWN_BasementWraith_001_238d6737-efc6-4ba9-9022-8d4b26828fc7",
@@ -37591,7 +37980,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37616,7 +38007,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Justiciar Avenger",
             "CloneTemplateGuid": "",
@@ -37641,7 +38034,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37666,7 +38061,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Greater Shadow",
             "CloneTemplateGuid": "S_TWN_BasementShadows_005_6889f976-681d-4ce1-9af5-245717897eed",
@@ -37925,7 +38322,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37950,7 +38349,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -37975,7 +38376,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38150,7 +38553,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38175,7 +38580,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38200,7 +38607,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38225,7 +38634,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38250,7 +38661,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38275,7 +38688,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38300,7 +38715,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38325,7 +38742,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38350,7 +38769,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38375,7 +38796,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38400,7 +38823,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38450,7 +38875,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38475,7 +38902,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38500,7 +38929,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38525,7 +38956,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38660,8 +39093,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                "DEN_HellridersPride_Passive"
+                "DEN_HellridersPride_Passive",
+                "Goon_AC_Buff_1",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Animated Marksman",
@@ -38688,8 +39122,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                "DEN_HellridersPride_Passive"
+                "DEN_HellridersPride_Passive",
+                "Goon_AC_Buff_1",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Animated Arcanist",
@@ -38716,8 +39151,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                "DEN_HellridersPride_Passive"
+                "DEN_HellridersPride_Passive",
+                "Goon_AC_Buff_1",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Animated Duellist",
@@ -38744,8 +39180,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                "DEN_HellridersPride_Passive"
+                "DEN_HellridersPride_Passive",
+                "Goon_AC_Buff_1",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -38772,8 +39209,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                "DEN_HellridersPride_Passive"
+                "DEN_HellridersPride_Passive",
+                "Goon_AC_Buff_1",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Animated Marksman",
@@ -38800,8 +39238,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                "DEN_HellridersPride_Passive"
+                "DEN_HellridersPride_Passive",
+                "Goon_AC_Buff_1",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Animated Duellist",
@@ -38828,8 +39267,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                "DEN_HellridersPride_Passive"
+                "DEN_HellridersPride_Passive",
+                "Goon_AC_Buff_1",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Sister Delilah",
@@ -38856,8 +39296,9 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
-                "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                "DEN_HellridersPride_Passive"
+                "DEN_HellridersPride_Passive",
+                "Goon_AC_Buff_1",
+                "MAG_Psychic_MentalFatigue_Gloves_Passive"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Sister Beth",
@@ -38908,7 +39349,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38933,7 +39376,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38958,7 +39403,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -38983,7 +39430,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39008,7 +39457,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39033,7 +39484,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39058,7 +39511,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39083,7 +39538,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39108,7 +39565,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39133,7 +39592,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39159,6 +39620,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 101,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -39186,7 +39648,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39212,6 +39676,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 100,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -39239,7 +39704,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39264,7 +39731,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39289,7 +39758,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39314,7 +39785,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39339,7 +39812,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39364,7 +39839,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -39957,7 +40434,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 60,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -40118,7 +40597,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Reconstituted Arcanist",
             "CloneTemplateGuid": "S_COL_NecromancerRoom_TadpoledSkeleton_Caster_001_eedd14fd-3cd9-4adc-b31d-a4932c56e601",
@@ -40143,7 +40624,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Reconstituted Arcanist",
             "CloneTemplateGuid": "S_COL_NecromancerRoom_TadpoledSkeleton_Caster_001_eedd14fd-3cd9-4adc-b31d-a4932c56e601",
@@ -40168,7 +40651,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Reconstituted Arcanist",
             "CloneTemplateGuid": "S_COL_NecromancerRoom_TadpoledSkeleton_Caster_001_eedd14fd-3cd9-4adc-b31d-a4932c56e601",
@@ -40193,7 +40678,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -40218,7 +40705,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -40243,7 +40732,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -40268,7 +40759,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -40293,7 +40786,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Flesh Golem",
             "CloneTemplateGuid": "S_SHA_Necromancer_FleshGolem_5d25116f-4e25-4f9f-bb7a-1d1fdfa8fd4f",
@@ -40318,7 +40813,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -40343,7 +40840,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -40368,7 +40867,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -40393,7 +40894,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -40419,6 +40922,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 116,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -40447,6 +40951,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 100,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -40475,6 +40980,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 111,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -40503,6 +41009,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 118,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -41665,7 +42172,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -41690,7 +42199,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -42128,7 +42639,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -44817,7 +45330,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -47173,7 +47690,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "MageSlayer_Advantage",
+                "MageSlayer_AttackCaster",
+                "MageSlayer_BreakConcentration"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -49413,7 +49934,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "DevilsSight"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -50701,7 +51224,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -51521,6 +52048,7 @@
                 "ARP_SpellSlot_4_2",
                 "ARP_SpellSlot_5_1",
                 "CX_Magic_Boost",
+                "FeyTouched_Wisdom",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Damage_Cold_d4_Spells",
@@ -51528,7 +52056,8 @@
                 "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
                 "MageSlayer_Advantage",
                 "MageSlayer_AttackCaster",
-                "MageSlayer_BreakConcentration"
+                "MageSlayer_BreakConcentration",
+                "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [
                 "Target_ConjureElemental_Elemental_Water",
@@ -51598,6 +52127,7 @@
             "PassivesToAdd": [
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
+                "DevilsSight",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_4",
                 "MageSlayer_Advantage",
@@ -52781,6 +53311,7 @@
             "HealthOverride": 85,
             "PassivesToAdd": [
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -52788,6 +53319,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -52823,6 +53355,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -52830,6 +53363,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -52865,6 +53399,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -52872,6 +53407,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -52907,6 +53443,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -52914,6 +53451,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -52949,6 +53487,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -52956,6 +53495,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -52989,6 +53529,7 @@
             "HealthOverride": 85,
             "PassivesToAdd": [
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -52996,6 +53537,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53030,6 +53572,7 @@
             "HealthOverride": 200,
             "PassivesToAdd": [
                 "CX_Paladin_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -53039,6 +53582,7 @@
                 "Goon_Radiant_Immune",
                 "MAG_DarkJusticiarGloves_Passive",
                 "MAG_Radiant_RadiatingOrb_Gloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [],
@@ -53067,6 +53611,7 @@
             "HealthOverride": 85,
             "PassivesToAdd": [
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -53074,6 +53619,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53109,6 +53655,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53116,6 +53663,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53150,6 +53698,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53157,6 +53706,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53191,6 +53741,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53198,6 +53749,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53232,6 +53784,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53239,6 +53792,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53273,6 +53827,7 @@
             "PassivesToAdd": [
                 "ARP_SpellSlot_5_1",
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53284,6 +53839,7 @@
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
                 "Poison_Malice_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53319,6 +53875,7 @@
             "HealthOverride": 88,
             "PassivesToAdd": [
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -53327,6 +53884,7 @@
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
                 "MagicArrow",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53364,6 +53922,7 @@
                 "ARP_Reaction_2",
                 "ARP_SpellSlot_5_1",
                 "ARP_SpellSlot_8_1",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53375,6 +53934,7 @@
                 "Goon_Target_MageArmor_Passive",
                 "MAG_DarkJusticiarGloves_Passive",
                 "MagicResistance",
+                "Resilient_Strength",
                 "TurnResistance",
                 "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
             ],
@@ -53412,6 +53972,7 @@
             "PassivesToAdd": [
                 "ARP_SpellSlot_5_1",
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53422,6 +53983,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "Toxin_PurpleWorm_Passive",
                 "TurnResistance"
             ],
@@ -53459,6 +54021,7 @@
             "PassivesToAdd": [
                 "ARP_SpellSlot_5_1",
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53469,6 +54032,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "Toxin_PurpleWorm_Passive",
                 "TurnResistance"
             ],
@@ -53506,6 +54070,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53513,6 +54078,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53547,6 +54113,7 @@
             "PassivesToAdd": [
                 "ARP_SpellSlot_5_1",
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53558,6 +54125,7 @@
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
                 "Poison_Malice_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53594,6 +54162,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53601,6 +54170,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53636,6 +54206,7 @@
                 "ALCH_Oil_Wizardsbane_Passive",
                 "ARP_SpellSlot_5_1",
                 "CX_Paladin_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53648,6 +54219,7 @@
                 "Goon_Radiant_Immune",
                 "MAG_DarkJusticiarGloves_Passive",
                 "MAG_Radiant_RadiatingOrb_Gloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53679,6 +54251,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53686,6 +54259,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53720,6 +54294,7 @@
             "PassivesToAdd": [
                 "ARP_SpellSlot_4_2",
                 "ARP_SpellSlot_5_1",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53731,6 +54306,7 @@
                 "Goon_Target_MageArmor_Passive",
                 "MAG_DarkJusticiarGloves_Passive",
                 "Poison_Malice_Passive",
+                "Resilient_Strength",
                 "TurnResistance",
                 "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
             ],
@@ -53768,16 +54344,18 @@
             "PassivesToAdd": [
                 "ARP_SpellSlot_4_1",
                 "ARP_SpellSlot_5_1",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
+                "Goon_Target_MageArmor_Passive",
                 "MAG_DarkJusticiarGloves_Passive",
-                "TurnResistance",
-                "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive",
+                "Resilient_Strength",
                 "TWN_ApplyWET",
-                "Goon_Target_MageArmor_Passive"
+                "TurnResistance",
+                "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
             ],
             "SpellsToAdd": [
                 "Target_Maelstrom",
@@ -53812,6 +54390,7 @@
             "HealthOverride": 85,
             "PassivesToAdd": [
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -53819,6 +54398,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53854,6 +54434,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53861,6 +54442,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53895,6 +54477,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53902,6 +54485,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53936,6 +54520,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -53943,6 +54528,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -53976,6 +54562,7 @@
             "HealthOverride": 200,
             "PassivesToAdd": [
                 "CX_Paladin_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -53985,6 +54572,7 @@
                 "Goon_Radiant_Immune",
                 "MAG_DarkJusticiarGloves_Passive",
                 "MAG_Radiant_RadiatingOrb_Gloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [],
@@ -54012,17 +54600,19 @@
             "OriginalHealth": 0,
             "HealthOverride": 85,
             "PassivesToAdd": [
+                "ARP_Bladesong_2",
                 "ARP_SpellSlot_4_2",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
-                "MAG_DarkJusticiarGloves_Passive",
-                "TurnResistance",
-                "ARP_Bladesong_2",
                 "Goon_Shout_Shillelagh_Passive",
-                "Goon_Target_MageArmor_Passive"
+                "Goon_Target_MageArmor_Passive",
+                "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
+                "TurnResistance"
             ],
             "SpellsToAdd": [
                 "Shout_SpiritShroud",
@@ -54055,6 +54645,7 @@
             "HealthOverride": 85,
             "PassivesToAdd": [
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -54062,6 +54653,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -54097,6 +54689,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -54104,6 +54697,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -54137,6 +54731,7 @@
             "HealthOverride": 85,
             "PassivesToAdd": [
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -54144,6 +54739,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -54179,6 +54775,7 @@
             "PassivesToAdd": [
                 "ARP_SuperiorityDie_3",
                 "CX_Fighter_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_5",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
@@ -54186,6 +54783,7 @@
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -54219,6 +54817,7 @@
             "HealthOverride": 85,
             "PassivesToAdd": [
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -54226,6 +54825,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -54261,6 +54861,7 @@
             "PassivesToAdd": [
                 "",
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -54268,6 +54869,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -54302,15 +54904,17 @@
             "OriginalHealth": 0,
             "HealthOverride": 83,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
+                "Goon_Target_MageArmor_Passive",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance",
-                "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive",
-                "Goon_Target_MageArmor_Passive"
+                "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
             ],
             "SpellsToAdd": [
                 "Shout_Shield",
@@ -54350,6 +54954,7 @@
             "HealthOverride": 85,
             "PassivesToAdd": [
                 "CX_Ranger_Boost",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
@@ -54357,6 +54962,7 @@
                 "Goon_Piercing_Resistant",
                 "Goon_Sanctuary_Auto_Cast_Start_Combat",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance"
             ],
             "SpellsToAdd": [
@@ -54391,15 +54997,17 @@
             "HealthOverride": 85,
             "PassivesToAdd": [
                 "ARP_SpellSlot_5_2",
+                "Goon_AC_Buff_1",
                 "Goon_Cold_Resistant",
                 "Goon_Force_Resistant",
                 "Goon_Increased_Movement_1",
                 "Goon_Necrotic_Immune",
                 "Goon_Piercing_Resistant",
+                "Goon_Target_MageArmor_Passive",
                 "MAG_DarkJusticiarGloves_Passive",
+                "Resilient_Strength",
                 "TurnResistance",
-                "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive",
-                "Goon_Target_MageArmor_Passive"
+                "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive"
             ],
             "SpellsToAdd": [
                 "Target_DominatePerson",
@@ -54466,6 +55074,7 @@
             "HealthOverride": 34,
             "PassivesToAdd": [
                 "ExtraAttack",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -54498,6 +55107,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 32,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_Passive",
@@ -54532,6 +55142,7 @@
             "HealthOverride": 32,
             "PassivesToAdd": [
                 "ExtraAttack",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -54565,6 +55176,7 @@
             "HealthOverride": 32,
             "PassivesToAdd": [
                 "ExtraAttack",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -54598,6 +55210,7 @@
             "HealthOverride": 34,
             "PassivesToAdd": [
                 "ExtraAttack",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -54631,6 +55244,7 @@
             "HealthOverride": 36,
             "PassivesToAdd": [
                 "ExtraAttack",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -54664,6 +55278,7 @@
             "HealthOverride": 33,
             "PassivesToAdd": [
                 "ExtraAttack",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -54697,6 +55312,7 @@
             "HealthOverride": 34,
             "PassivesToAdd": [
                 "ExtraAttack",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -54730,6 +55346,7 @@
             "HealthOverride": 33,
             "PassivesToAdd": [
                 "ExtraAttack",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -54762,6 +55379,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 115,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -54790,6 +55408,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 109,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -54818,6 +55437,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 110,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -56810,6 +57430,7 @@
             "HealthOverride": 90,
             "PassivesToAdd": [
                 "CX_Rogue_Boost",
+                "DevilsSight",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_5"
             ],
@@ -56840,6 +57461,7 @@
             "PassivesToAdd": [
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
+                "FeyTouched_Wisdom",
                 "Goon_AC_Buff_2",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
@@ -56848,7 +57470,8 @@
                 "MAG_BarbMonk_Armor_Defensive_Passive",
                 "MageSlayer_Advantage",
                 "MageSlayer_AttackCaster",
-                "MageSlayer_BreakConcentration"
+                "MageSlayer_BreakConcentration",
+                "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -56888,6 +57511,9 @@
                 "Goon_Damage_Cold_d4_Spells",
                 "Goon_Damage_Cold_d8_SpellAttacks",
                 "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
+                "MageSlayer_Advantage",
+                "MageSlayer_AttackCaster",
+                "MageSlayer_BreakConcentration",
                 "Mobile_CounterAttackOfOpportunity",
                 "Mobile_DashAcrossDifficultTerrain",
                 "Mobile_PassiveBonuses"
@@ -56921,7 +57547,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -56946,7 +57576,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "FeyTouched_Wisdom",
+                "ShadowTouched_Intelligence"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -56971,7 +57604,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "MAG_OfSharpCaster_Hat_Passive",
+                "SavageAttacker"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -57029,6 +57665,8 @@
                 "Goon_Damage_Cold_d8_SpellAttacks",
                 "MAG_ElementalGish_CantripBooster_Amulet_Passive",
                 "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
+                "MAG_OfSharpCaster_Hat_Passive",
+                "SavageAttacker",
                 "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [
@@ -57067,6 +57705,7 @@
                 "ARP_SpellSlot_4_2",
                 "ARP_SpellSlot_5_1",
                 "CX_Magic_Boost",
+                "DevilsSight",
                 "Goon_AC_Buff_3",
                 "Goon_AC_Buff_4",
                 "Goon_Cold_Resistant",
@@ -57110,6 +57749,7 @@
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
                 "DefensiveDuelist",
+                "FeyTouched_Wisdom",
                 "Goon_AC_Buff_2",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
@@ -57117,7 +57757,8 @@
                 "Goon_Increased_Movement_3",
                 "Mobile_CounterAttackOfOpportunity",
                 "Mobile_DashAcrossDifficultTerrain",
-                "Mobile_PassiveBonuses"
+                "Mobile_PassiveBonuses",
+                "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -57143,7 +57784,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "FeyTouched_Wisdom",
+                "ShadowTouched_Intelligence"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -57169,12 +57813,14 @@
             "OriginalHealth": 0,
             "HealthOverride": 105,
             "PassivesToAdd": [
+                "FeyTouched_Wisdom",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_2",
+                "Goon_Damage_Thunder_d8_Attacks",
+                "Resilient_Charisma",
                 "Resilient_Dexterity",
                 "Resilient_Intelligence",
-                "Resilient_Charisma",
-                "Goon_Damage_Thunder_d8_Attacks",
+                "ShadowTouched_Intelligence",
                 "ThunderboltStrike"
             ],
             "SpellsToAdd": [],
@@ -57235,7 +57881,10 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "FeyTouched_Wisdom",
+                "ShadowTouched_Intelligence"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -57270,6 +57919,9 @@
                 "Goon_Damage_Piercing_d12_Attacks",
                 "Goon_Summon_Potion_Healing_Greater_x1",
                 "MAG_OfSharpCaster_Hat_Passive",
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses",
                 "Resilient_Charisma",
                 "Resilient_Dexterity",
                 "SavageAttacker"
@@ -57301,6 +57953,7 @@
             "PassivesToAdd": [
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
+                "DevilsSight",
                 "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_4",
@@ -57340,6 +57993,7 @@
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
                 "DefensiveDuelist",
+                "DevilsSight",
                 "Goon_AC_Buff_2",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
@@ -57376,6 +58030,7 @@
             "PassivesToAdd": [
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
+                "DevilsSight",
                 "Goon_AC_Buff_3",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_4",
@@ -57416,6 +58071,9 @@
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_4",
                 "Goon_Summon_Potion_Healing_Greater_x1",
+                "MageSlayer_Advantage",
+                "MageSlayer_AttackCaster",
+                "MageSlayer_BreakConcentration",
                 "Mobile_CounterAttackOfOpportunity",
                 "Mobile_DashAcrossDifficultTerrain",
                 "Mobile_PassiveBonuses",
@@ -57449,6 +58107,7 @@
             "PassivesToAdd": [
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
+                "DevilsSight",
                 "Goon_AC_Buff_3",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
@@ -57481,7 +58140,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "MageSlayer_Advantage",
+                "MageSlayer_AttackCaster",
+                "MageSlayer_BreakConcentration"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -57508,7 +58171,9 @@
             "HealthOverride": 0,
             "PassivesToAdd": [
                 "Goon_AC_Buff_3",
-                "Goon_AttackRoll_3"
+                "Goon_AttackRoll_3",
+                "MAG_OfSharpCaster_Hat_Passive",
+                "SavageAttacker"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -57535,8 +58200,10 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
+                "FeyTouched_Wisdom",
                 "Goon_AC_Buff_3",
-                "Goon_AttackRoll_3"
+                "Goon_AttackRoll_3",
+                "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -59793,6 +60460,7 @@
                 "ARP_SpellSlot_4_2",
                 "ARP_SpellSlot_5_1",
                 "CX_Magic_Boost",
+                "DevilsSight",
                 "FeyTouched_Wisdom",
                 "Goon_AC_Buff_2",
                 "Goon_AC_Buff_3",
@@ -59839,10 +60507,12 @@
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "Goon_AttackRoll_4",
+                "MAG_OfSharpCaster_Hat_Passive",
                 "MAG_TheHunters_Dagger_Passive",
                 "Mobile_CounterAttackOfOpportunity",
                 "Mobile_DashAcrossDifficultTerrain",
-                "Mobile_PassiveBonuses"
+                "Mobile_PassiveBonuses",
+                "SavageAttacker"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Revenant of Bhaal",
@@ -59912,6 +60582,9 @@
                 "Goon_AttackRoll_2",
                 "Goon_AttackRoll_4",
                 "MAG_OfSharpCaster_Hat_Passive",
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses",
                 "SavageAttacker"
             ],
             "SpellsToAdd": [],
@@ -59940,6 +60613,7 @@
             "HealthOverride": 103,
             "PassivesToAdd": [
                 "ALCH_Elixir_Bloodlust_Passive",
+                "Alert",
                 "CX_Rogue_Boost",
                 "DevilsSight",
                 "Goon_AC_Buff_3",
@@ -59978,6 +60652,7 @@
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
                 "DevilsSight",
+                "FeyTouched_Wisdom",
                 "GOB_PainPriest_Dagger_Passive",
                 "Goon_AC_Buff_3",
                 "Goon_AC_Buff_4",
@@ -59985,7 +60660,8 @@
                 "Goon_AttackRoll_4",
                 "Mobile_CounterAttackOfOpportunity",
                 "Mobile_DashAcrossDifficultTerrain",
-                "Mobile_PassiveBonuses"
+                "Mobile_PassiveBonuses",
+                "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -60015,6 +60691,7 @@
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
                 "DevilsSight",
+                "FeyTouched_Wisdom",
                 "Goon_AC_Buff_3",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
@@ -60022,7 +60699,8 @@
                 "MAG_TheHunters_Dagger_Passive",
                 "Mobile_CounterAttackOfOpportunity",
                 "Mobile_DashAcrossDifficultTerrain",
-                "Mobile_PassiveBonuses"
+                "Mobile_PassiveBonuses",
+                "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -61272,6 +61950,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 220,
             "PassivesToAdd": [
+                "CX_Paladin_Boost",
                 "FightingStyle_Dueling",
                 "FightingStyle_GreatWeaponFighting",
                 "FightingStyle_TwoWeaponFighting",
@@ -63179,7 +63858,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Harambe",
             "CloneTemplateGuid": "",
@@ -63204,7 +63885,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 85,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -63229,7 +63912,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [
                 "Projectile_GreenSporeCloud"
             ],
@@ -66322,7 +67007,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "CX_Paladin_Boost"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -69469,7 +70156,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 125,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -69494,7 +70183,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 115,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -69519,7 +70210,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 125,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -70042,6 +70735,7 @@
             "HealthOverride": 47,
             "PassivesToAdd": [
                 "ARP_SwarmCharge_2",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_AttackRoll_3",
                 "Goon_Cold_Resistant",
@@ -70078,6 +70772,7 @@
             "HealthOverride": 47,
             "PassivesToAdd": [
                 "ARP_SwarmCharge_2",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_AttackRoll_3",
                 "Goon_Cold_Resistant",
@@ -70181,6 +70876,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 39,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_DamageReduction_2",
                 "Goon_Necrotic_Ignore_Immune"
@@ -70210,6 +70906,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 40,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_DamageReduction_2",
                 "Goon_Necrotic_Ignore_Immune"
@@ -70239,6 +70936,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 41,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Aura_of_Hate_Passive",
                 "Goon_DamageReduction_2"
@@ -70268,6 +70966,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 49,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_AttackRoll_3",
                 "Goon_Cold_Resistant",
@@ -70402,6 +71101,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 42,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Damage_Cold_d4_Attacks",
@@ -70435,6 +71135,7 @@
             "HealthOverride": 39,
             "PassivesToAdd": [
                 "ARP_SwarmCharge_2",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_DamageReduction_2",
                 "MightySwarm",
@@ -70467,6 +71168,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 41,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Damage_Cold_d4_Attacks",
@@ -70498,6 +71200,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 113,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_AttackRoll_3",
                 "Goon_Aura_of_Hate_Passive",
@@ -70657,6 +71360,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 35,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Magic_Allergy_Unlock",
                 "Goon_Necrotic_Ignore_Immune",
@@ -70688,6 +71392,7 @@
             "HealthOverride": 38,
             "PassivesToAdd": [
                 "ARP_SwarmCharge_2",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Damage_Cold_d4_Attacks",
@@ -70722,6 +71427,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 0,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_DamageReduction_2",
                 "Goon_Necrotic_Ignore_Immune"
@@ -71201,6 +71907,8 @@
                 "Goon_Damage_Cold_d8_SpellAttacks",
                 "Goon_Target_MageArmor_Passive",
                 "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
+                "MAG_OfSharpCaster_Hat_Passive",
+                "SavageAttacker",
                 "TempestuousMagic"
             ],
             "SpellsToAdd": [
@@ -72139,6 +72847,8 @@
                 "FeyTouched_Wisdom",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_4",
+                "MAG_OfSharpCaster_Hat_Passive",
+                "SavageAttacker",
                 "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [],
@@ -75441,7 +76151,10 @@
                 "Goon_AttackRoll_4",
                 "MageSlayer_Advantage",
                 "MageSlayer_AttackCaster",
-                "MageSlayer_BreakConcentration"
+                "MageSlayer_BreakConcentration",
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -75475,6 +76188,8 @@
                 "Goon_AC_Buff_5",
                 "Goon_AttackRoll_3",
                 "Goon_AttackRoll_4",
+                "MAG_OfSharpCaster_Hat_Passive",
+                "SavageAttacker",
                 "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [],
@@ -75505,10 +76220,12 @@
                 "ALCH_Elixir_Bloodlust_Passive",
                 "CX_Rogue_Boost",
                 "DevilsSight",
+                "FeyTouched_Wisdom",
                 "Goon_AC_Buff_4",
                 "Goon_AC_Buff_5",
                 "Goon_AttackRoll_3",
-                "Goon_AttackRoll_4"
+                "Goon_AttackRoll_4",
+                "ShadowTouched_Intelligence"
             ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
@@ -75554,7 +76271,10 @@
                 "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
                 "MageSlayer_Advantage",
                 "MageSlayer_AttackCaster",
-                "MageSlayer_BreakConcentration"
+                "MageSlayer_BreakConcentration",
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses"
             ],
             "SpellsToAdd": [
                 "Target_ConjureElemental_Elemental_Water",
@@ -76689,6 +77409,7 @@
             "HealthOverride": 44,
             "PassivesToAdd": [
                 "ARP_SwarmCharge_2",
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_3",
                 "Goon_Cold_Resistant",
                 "Goon_Damage_Cold_d4_Attacks",
@@ -77387,7 +78108,10 @@
                 "MAG_Frost_GenerateFrostOnDamage_Gloves_Passive",
                 "MageSlayer_Advantage",
                 "MageSlayer_AttackCaster",
-                "MageSlayer_BreakConcentration"
+                "MageSlayer_BreakConcentration",
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses"
             ],
             "SpellsToAdd": [
                 "Target_ConjureElemental_Elemental_Water",
@@ -78393,6 +79117,7 @@
             "HealthOverride": 0,
             "PassivesToAdd": [
                 "CX_Magic_Boost",
+                "DevilsSight",
                 "MageSlayer_Advantage",
                 "MageSlayer_AttackCaster",
                 "MageSlayer_BreakConcentration"
@@ -82994,7 +83719,11 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Mobile_CounterAttackOfOpportunity",
+                "Mobile_DashAcrossDifficultTerrain",
+                "Mobile_PassiveBonuses"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -83856,6 +84585,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 28,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -83888,6 +84618,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 20,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -83920,6 +84651,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 21,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -83952,6 +84684,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 31,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -83984,6 +84717,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 32,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84016,6 +84750,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 25,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84048,6 +84783,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 33,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84080,6 +84816,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 34,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84112,6 +84849,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 29,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84144,6 +84882,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 18,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84176,6 +84915,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 16,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84208,6 +84948,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 23,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84240,6 +84981,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 23,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84272,6 +85014,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 17,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84304,6 +85047,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 25,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84336,6 +85080,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 27,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_4",
                 "Goon_AttackRoll_2",
                 "MAG_SarevokArmor_WitheringBarrier_PassiveImprovedCritical",
@@ -84442,7 +85187,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -84467,7 +85214,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -84492,7 +85241,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -84818,6 +85569,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 45,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "MAG_Barbarian_Gloves_BoneSpike_Passive"
             ],
             "SpellsToAdd": [],
@@ -85092,14 +85844,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 45,
+            "HealthOverride": 60,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -85117,14 +85871,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 45,
+            "HealthOverride": 80,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -85142,14 +85898,14 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "OriginalHealth": 36,
+            "HealthOverride": 50,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -85167,14 +85923,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 30,
+            "HealthOverride": 50,
+            "PassivesToAdd": [
+                "Goon_AttackRoll_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -85192,14 +85950,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 39,
+            "HealthOverride": 50,
+            "PassivesToAdd": [
+                "Goon_AttackRoll_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -85220,6 +85980,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 101,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -85248,6 +86009,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 110,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -85276,6 +86038,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 104,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -85304,6 +86067,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 114,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -85332,6 +86096,7 @@
             "OriginalHealth": 0,
             "HealthOverride": 115,
             "PassivesToAdd": [
+                "Goon_AC_Buff_1",
                 "Goon_AC_Buff_2",
                 "Goon_AttackRoll_3"
             ],
@@ -86565,8 +87330,8 @@
             "HealthOverride": 0,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
-            "CloneDisplayName": "",
-            "CloneTemplateGuid": "",
+            "CloneDisplayName": "Lost Hook Horror",
+            "CloneTemplateGuid": "S_UND_HookHorror_Hunter_001_3d5a8ed5-771a-491b-93eb-9a65eb2dcf30",
             "LockStaticModifications": false,
             "LockRandomModifications": false,
             "LockInformation": false,
@@ -86625,10 +87390,10 @@
         {
             "Handle": "Cultist Astryn",
             "FullGuid": "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea",
-            "Act": "Unknown",
+            "Act": "1",
             "Location": "07_RISEN_GNOLLS_WAYPOINT",
-            "Type": "",
-            "SubType": "",
+            "Type": "Humanoid",
+            "SubType": "Deep Gnome",
             "ClassArchetype": "Warlock",
             "SubclassArchetype": "",
             "MonsterArchetype": "",
@@ -86637,8 +87402,11 @@
             "Level": 1,
             "ArmorClass": 0,
             "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "HealthOverride": 75,
+            "PassivesToAdd": [
+                "Goon_AC_Buff_2",
+                "CX_Warlock_GreatOldOne_Boost"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "Zealot Varsh",
             "CloneTemplateGuid": "S_UND_GrymforgeExcavation_DrowAdept_001_8304b71a-0da8-40c3-b385-91e35e15903e",
@@ -88227,14 +88995,14 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
+            "OriginalHealth": 34,
+            "HealthOverride": 34,
             "PassivesToAdd": [],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
             "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -88277,14 +89045,16 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 44,
+            "HealthOverride": 44,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -93443,7 +94213,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -93468,7 +94240,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -93493,7 +94267,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -93518,7 +94294,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -93543,7 +94321,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
@@ -93958,14 +94738,17 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 42,
+            "HealthOverride": 42,
+            "PassivesToAdd": [
+                "BrutalBite",
+                "Goon_Target_Longstrider_Passive"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -93983,14 +94766,17 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 41,
+            "HealthOverride": 41,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive",
+                "UND_ServantOfBoooal"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -94008,14 +94794,17 @@
             "Notes": "",
             "Level": 1,
             "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "OriginalHealth": 39,
+            "HealthOverride": 39,
+            "PassivesToAdd": [
+                "Goon_Target_Longstrider_Passive",
+                "UND_ServantOfBoooal"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
+            "LockStaticModifications": true,
+            "LockRandomModifications": true,
             "LockInformation": false,
             "LockBlock": false
         },
@@ -94035,7 +94824,9 @@
             "ArmorClass": 0,
             "OriginalHealth": 0,
             "HealthOverride": 0,
-            "PassivesToAdd": [],
+            "PassivesToAdd": [
+                "Goon_AC_Buff_1"
+            ],
             "SpellsToAdd": [],
             "CloneDisplayName": "",
             "CloneTemplateGuid": "",

@@ -1,7 +1,11 @@
 {
     "Overrides": {
-        "EO_DefiledTemple_Trickery_Cleric_fc83ce47-3ce0-4be5-b1bc-83501cb10251": {
-            "HealthOverride": 20
+        "S_UND_PetrifiedDrow_Spectator_39ff8241-fadd-4fbe-ab89-fc5a8b7638a0": {
+            "Passives": [
+                "Goon_AC_Debuff_2",
+                "Goon_Slashing_Vulnerable",
+                "AJ_RM"
+            ]
         }
     }
 }

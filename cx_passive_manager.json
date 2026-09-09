@@ -20,7 +20,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "MAG_Myrkulites_CircletOfMyrkul_Circlet_Passive"
                 ],
                 "Spells": [
                     ""
@@ -33,7 +33,7 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    ""
+                    "LOW_SharGrotto_Mirror_ConstitutionBoon_Passive"
                 ],
                 "Spells": [
                     ""
@@ -94,7 +94,7 @@
                     "WeaponMaster"
                 ],
                 "Spells": [
-                    ""
+                    "Projectile_Jump"
                 ]
             },
             "2": {
@@ -380,12 +380,11 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    ""
+                    "ARP_ChannelDivinity_1"
                 ],
                 "Spells": [
                     "Projectile_Jump",
                     "Target_SacredFlame",
-                    "Projectile_GuidingBolt",
                     "Target_InflictWounds",
                     "Target_HealingWord",
                     "Shout_HealingWord_Mass",
@@ -415,13 +414,13 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ARP_ChannelDivinity_1",
                     "MAG_SpellSaveDC_Enchantment_Passive"
                 ],
                 "Spells": [
                     "Target_Sleep",
                     "Target_CalmEmotions",
-                    "Target_HypnoticPattern"
+                    "Target_HypnoticPattern",
+                    "Target_MindSpik"
                 ]
             },
             "2": {
@@ -447,7 +446,6 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ARP_ChannelDivinity_1",
                     "BlessedHealer",
                     "DiscipleOfLife"
                 ],
@@ -462,7 +460,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "UND_SocietyOfBrilliance_PullingRing_Passive"
                 ],
                 "Spells": [
                     ""
@@ -483,7 +481,6 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ARP_ChannelDivinity_1",
                     "WardingFlare"
                 ],
                 "Spells": [
@@ -518,7 +515,6 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ARP_ChannelDivinity_1",
                     "DampenElements"
                 ],
                 "Spells": [
@@ -552,15 +548,16 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ARP_ChannelDivinity_1",
-                    "Goon_Target_ShieldOfFaith_Passive"
+                    "Goon_Target_ShieldOfFaith_Passive",
+                    "MAG_Poison_PoisonExposure_Gloves_Passive"
                 ],
                 "Spells": [
                     "Target_InvokeDuplicity",
                     "Shout_CloakOfShadows",
                     "Target_PoisonSpray",
                     "Shout_MirrorImage",
-                    "Target_HoldPerson"
+                    "Target_HoldPerson",
+                    "Projectile_RayOfSickness"
                 ]
             },
             "2": {
@@ -587,7 +584,6 @@
             "1": {
                 "ExtraPassives": [
                     "WrathOfTheStorm_Thunder_NPC",
-                    "ARP_ChannelDivinity_1",
                     "WarCaster_OpportunitySpell",
                     "ElementalAdept_Lightning"
                 ],
@@ -622,7 +618,6 @@
             "1": {
                 "ExtraPassives": [
                     "ExtraAttack",
-                    "ARP_ChannelDivinity_1",
                     "WarGodsBlessing"
                 ],
                 "Spells": [
@@ -896,7 +891,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "EldritchStrike"
                 ],
                 "Spells": [
                     ""
@@ -919,7 +914,10 @@
                 "ExtraPassives": [
                     "Mobile_DashAcrossDifficultTerrain",
                     "Goon_Increased_Movement_2",
-                    "SecondStoryWork_Jumping"
+                    "FlurryOfBlowsUnlock",
+                    "MartialArts_UnarmedDamage",
+                    "MartialArts_BonusUnarmedStrike",
+                    "UnarmoredDefense_Monk"
                 ],
                 "Spells": [
                     "Projectile_Jump",
@@ -929,7 +927,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "DeflectMissiles",
+                    "SecondStoryWork_Jumping"
                 ],
                 "Spells": [
                     ""
@@ -950,7 +949,8 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    ""
+                    "MAG_BG_OfAges_Flail_Passive",
+                    "ARP_KiPoint_2"
                 ],
                 "Spells": [
                     ""
@@ -958,7 +958,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "MAG_Monk_Armor_WindStance_Passive"
                 ],
                 "Spells": [
                     ""
@@ -987,7 +987,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "MAG_Monk_Magic_ArmorEx_Passive",
+                    "MAG_Monk_Armor_MountainStance_Passive"
                 ],
                 "Spells": [
                     ""
@@ -995,7 +996,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "StunningStrike"
                 ],
                 "Spells": [
                     ""
@@ -1008,7 +1009,7 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    ""
+                    "ShadowArts_MinorIllusion"
                 ],
                 "Spells": [
                     ""
@@ -1016,7 +1017,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "MAG_Monk_Armor_MountainStance_Passive",
+                    "SCL_MastiffPoachers_Ring_Passive"
                 ],
                 "Spells": [
                     ""
@@ -1024,7 +1026,8 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "MAG_Monk_Martial_Lethality_Passive",
+                    "UND_Justiciar_ChainShirt_Magic_Passive"
                 ],
                 "Spells": [
                     ""
@@ -1044,7 +1047,8 @@
                 ],
                 "Spells": [
                     "Projectile_Jump",
-                    "Shout_DivineFavor"
+                    "Shout_DivineFavor",
+                    "Shout_Smite_"
                 ]
             },
             "2": {
@@ -1316,7 +1320,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "StalkersFlurry"
                 ],
                 "Spells": [
                     ""
@@ -1405,7 +1409,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "UND_ServantOfBoooal"
                 ],
                 "Spells": [
                     ""
@@ -1779,7 +1783,7 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "WarCaster_Bonuses"
+                    ""
                 ],
                 "Spells": [
                     "Projectile_AcidSplash",
@@ -1788,8 +1792,8 @@
                     "Target_MistyStep",
                     "Target_SpiritualWeapon",
                     "Target_Web",
-                    "Target_SummonShadowspawn",
-                    "Target_Summon_MudMephit"
+                    "Target_Summon_MudMephit",
+                    "Target_CreateWater"
                 ]
             },
             "2": {
@@ -1949,7 +1953,8 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "GrimHarvest"
+                    "GrimHarvest",
+                    "Reaper"
                 ],
                 "Spells": [
                     "Target_TollTheDead",
@@ -1984,7 +1989,8 @@
                 ],
                 "Spells": [
                     "Target_Haste",
-                    "Target_Slow"
+                    "Target_Slow",
+                    "Shout_FeatherFall"
                 ]
             },
             "2": {
