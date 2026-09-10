@@ -143,6 +143,26 @@
             "Guid": "BIRD_BlueJay_001_ce119f75-ca7a-48bf-b449-b0b68b0f820b"
         },
         {
+            "Handle": "Minotaur",
+            "Type": "Monstrosity",
+            "Guid": "BOCO_UND_Minotaur_Extra_001_7fba66ee-ddc0-4373-8cb9-24eaf0fbad41"
+        },
+        {
+            "Handle": "Azer Smith",
+            "Type": "Elemental",
+            "Guid": "Bipedal_Elemental_Azer_000_c36e86a4-7312-43e1-a5ee-49a2de04776a"
+        },
+        {
+            "Handle": "Azer Smith",
+            "Type": "Elemental",
+            "Guid": "Bipedal_Elemental_Azer_002_d0793a6d-6cb9-424c-a8bb-395f82191162"
+        },
+        {
+            "Handle": "Azer Smith",
+            "Type": "Elemental",
+            "Guid": "Bipedal_Elemental_Azer_003_ed7a5d7f-9e9d-407b-b50b-c4596aa9149f"
+        },
+        {
             "Handle": "Thorple",
             "Type": "",
             "Guid": "Bugbears_Male_c26bf9b9-9b47-3fdc-5779-c74d771c4f23"
@@ -405,6 +425,11 @@
         {
             "Handle": "Phase Spiderling",
             "Type": "",
+            "Guid": "FOR_PhaseSpider_Spawn_263144f2-6527-f67b-2e9a-34b8e2c27c54"
+        },
+        {
+            "Handle": "Phase Spiderling",
+            "Type": "",
             "Guid": "FOR_PhaseSpider_Spawn_554df1f9-73c1-b1b8-0b7e-bc5fd216de87"
         },
         {
@@ -441,6 +466,21 @@
             "Handle": "Mind Flayer",
             "Type": "Aberration",
             "Guid": "Helm_MindFlayer_Dead_02_8e467fbc-c0a4-4d82-a952-646e15d57028"
+        },
+        {
+            "Handle": "Lost Hook Horror",
+            "Type": "Monstrosity",
+            "Guid": "HookHorror_A_9fa36085-03da-3ed8-1a5b-11217f1e42c4"
+        },
+        {
+            "Handle": "Ancient Hook Horror",
+            "Type": "Monstrosity",
+            "Guid": "HookHorror_A_evil_000_b5f94e73-47a4-42eb-91fd-0dfd7aeff9b0"
+        },
+        {
+            "Handle": "Hook Horror",
+            "Type": "Monstrosity",
+            "Guid": "HookHorror_A_evil_79beb672-5f5f-bf12-53a0-445f3fa1a15d"
         },
         {
             "Handle": "Flaming Fist Healer",
@@ -1573,6 +1613,11 @@
             "Guid": "MMM_ZHENTSTORAGE_9e7cd46d-ef52-4575-8f08-ac1c262c8fc9"
         },
         {
+            "Handle": "Forged Fire",
+            "Type": "",
+            "Guid": "Myrmidon_Fire_000_412acd23-b0f7-4e76-90c0-36bd9626fb68"
+        },
+        {
             "Handle": "Water Myrmidon",
             "Type": "",
             "Guid": "Myrmidon_Water_c9e4c3d3-3cf3-169b-e49d-7b182eaf71d1"
@@ -1608,6 +1653,16 @@
             "Guid": "QUEST_FOR_QuasitSummon_45eff2a6-aff6-0be9-423a-f3982b54b87e"
         },
         {
+            "Handle": "True Soul Veera",
+            "Type": "Humanoid",
+            "Guid": "QUEST_MOO_Drow_Female_AbsoluteGuard_Melee_000_31e885fc-06b4-4181-99b2-099fc7edfa96"
+        },
+        {
+            "Handle": "Acolyte Drock",
+            "Type": "",
+            "Guid": "QUEST_MOO_Duergar_Male_AbsoluteGuard_Caster_Weak_000_86ca7ff6-8987-40b7-b76b-f3d787684b70"
+        },
+        {
             "Handle": "Rabbit",
             "Type": "",
             "Guid": "Rabbit_000_77b3226f-7a3d-4f17-9e40-6b6cd230bc9d"
@@ -1616,6 +1671,31 @@
             "Handle": "Rabbit",
             "Type": "",
             "Guid": "Rabbit_001_f7211fa1-ee36-4b95-9beb-f03c98c5cafb"
+        },
+        {
+            "Handle": "Redcap Captain",
+            "Type": "",
+            "Guid": "Redcap_Pirate_A_000_64561dac-5d80-43a3-864f-3525674811f3"
+        },
+        {
+            "Handle": "Redcap Mystic Cannoneer",
+            "Type": "",
+            "Guid": "Redcap_Pirate_Caster_000_f2ab89a8-3be1-4ded-ba00-5bc5ec4d2b7f"
+        },
+        {
+            "Handle": "Redcap Mystic Cannoneer",
+            "Type": "",
+            "Guid": "Redcap_Pirate_Caster_002_3bf73ca9-f8be-46f3-b0e8-2de2b140c828"
+        },
+        {
+            "Handle": "Redcap Boatswain",
+            "Type": "",
+            "Guid": "Redcap_Pirate_Melee_000_c7ad0db7-8f9b-43fe-9caf-4ba76717e3e3"
+        },
+        {
+            "Handle": "Redcap Boatswain",
+            "Type": "",
+            "Guid": "Redcap_Pirate_Melee_001_c0a6a711-ba2a-4167-8f5b-c9416a7ae5a8"
         },
         {
             "Handle": "Cravos",
@@ -4489,7 +4569,7 @@
         },
         {
             "Handle": "Shadowheart",
-            "Type": "Humanoid",
+            "Type": "Undead",
             "Guid": "S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679"
         },
         {
@@ -5343,6 +5423,16 @@
             "Guid": "S_UND_DuergarCamp_Rothe_03_2cd6c5c8-cf67-4114-a4c1-b72d6705646e"
         },
         {
+            "Handle": "Mind Master Canna",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalFocused_000_fd0fc79f-f4a6-49bd-8685-e144ecd1569f"
+        },
+        {
+            "Handle": "Ranger Vrar",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalNervous_000_2f718b5e-deb5-4224-9ee8-3b1e30acb439"
+        },
+        {
             "Handle": "Lur Xanta",
             "Type": "Humanoid",
             "Guid": "S_UND_DuergarLoyalPatroller_01_Spider_01_82f367a2-14c0-46cf-82d1-f070c87cf95a"
@@ -5368,6 +5458,11 @@
             "Guid": "S_UND_DuergarLoyalPatroller_01_a38319cb-c9ed-460a-bba2-1788d1cad20c"
         },
         {
+            "Handle": "Mind Master Grad",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalWry_000_209fa604-0c5b-4aa6-a74b-20b7ec95dff2"
+        },
+        {
             "Handle": "Stonemason Kith",
             "Type": "Humanoid",
             "Guid": "S_UND_DuergarRebelMason_01_d09aecce-fad1-4aa8-9c40-c370a0ac8835"
@@ -5376,6 +5471,16 @@
             "Handle": "Stonemason Gergerann",
             "Type": "Humanoid",
             "Guid": "S_UND_DuergarRebelMason_02_6b07558b-09ef-449c-8dd2-b0c2cbe809f1"
+        },
+        {
+            "Handle": "Alchemist Argram",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarSquadAlchemist_000_c70d73e3-8ea8-433d-90d4-8be65a42325d"
+        },
+        {
+            "Handle": "Ranger Hurk",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarSquadRatty_000_0370625e-f8fe-4998-98a7-f38efb93fb42"
         },
         {
             "Handle": "Skickpit",
@@ -6488,6 +6593,166 @@
             "Guid": "Skeleton_Armored_A_005_eb74ea2c-1ce1-4b8c-a151-31bba7e28689"
         },
         {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_000_29eea36f-6300-4baf-ac04-9a5a995aa4ca"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_001_108f6e71-c7bb-4d1b-b307-b6367c36f9b1"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_002_e0126c65-6b5f-4a57-a348-12090d839149"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_003_410c6c2f-f458-458f-a0be-1f9bbe5a0111"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_004_79adc853-7b70-4f49-a211-118b5fbe64a8"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_005_2657e3d1-39d2-4db5-b3ef-537a80527830"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_006_5289ac37-b18d-479a-a7de-98f80d046d38"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_007_5b278707-215d-41de-a958-7536507cb926"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_008_dd296441-26a5-4fe5-9115-ba34ca1c1d3d"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_009_559103ca-b957-4972-b389-3f307f9f81e5"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_010_6c5afefb-32bc-4c43-ac24-65e075de2871"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_011_44b84781-10fa-44be-8b30-ccb266bc9f53"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_012_e0b0a77e-ef00-4559-9884-ea8db5a1c589"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_013_abb666a9-0a96-40aa-ae3c-b22b27cb82e8"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_014_8c26bf25-bbeb-4b0a-b824-70de2b87b40e"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_015_a1e20b61-ec1c-42bd-ada7-47e7bbd68fff"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_016_acb0426b-fc89-4c83-b154-facceddacf99"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_017_1ad761ca-b5b8-4882-9e72-3d8139735634"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_018_08e3bb5d-8ed2-4ec5-9b90-460d19d3e8e7"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_019_3f195bf0-1bc6-46a9-9f7b-0eff4937ca07"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_020_3e3d95a5-7146-44e5-bd4d-01c435969b47"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_021_6739172b-dd1b-4de9-a808-d825aa6244ab"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_022_35b861ab-eadc-420f-8330-3c775f7d753d"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_023_b02ace3f-ae47-4ece-b416-4b08eccb8610"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_024_5f96c535-50a5-480a-8380-3b0d2e6d3b28"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_025_6b81a838-4c24-48ea-a7fb-b01be263fca6"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_026_572a39a6-70b7-483c-beb5-3d973ffcfed9"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_027_fa3f7485-e925-4828-b1af-1744dfdd4590"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_028_25b01460-2056-4d10-ad74-a22e76af045d"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_029_ff3df507-40de-40f8-9b9d-a0037cd3ee27"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_030_28f8fe19-012a-4a30-b359-b0989cc1ffb4"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Type": "",
+            "Guid": "Spider_Tiny_031_f34912cd-74e5-4c88-9847-1e1a064f5ec3"
+        },
+        {
             "Handle": "Squirrel",
             "Type": "",
             "Guid": "Squirrel_000_4879a609-0457-42a2-ac71-28b31ea83661"
@@ -6496,6 +6761,11 @@
             "Handle": "Squirrel",
             "Type": "",
             "Guid": "Squirrel_001_5412df50-bbed-4da5-a877-b0ce55c06c74"
+        },
+        {
+            "Handle": "Drop",
+            "Type": "",
+            "Guid": "WATER_GENASI_MALE_07572937-2bf8-87be-69a0-1f0a9225db19"
         },
         {
             "Handle": "Wildfire Spirit",
@@ -6546,6 +6816,11 @@
             "Handle": "Will o' Wisp",
             "Type": "",
             "Guid": "Wisp_DeadWillOWisp_710cfc52-0d3c-6af2-7b47-4c6651640b7a"
+        },
+        {
+            "Handle": "Dra'kar",
+            "Type": "",
+            "Guid": "YUANTI_PUREBLOOD_STRONG_MALE_f716474d-db41-a5f6-6492-fa2fc15a601c"
         }
     ],
     "PROLOGUE_NAUTILOID_HELM": [
@@ -9077,9 +9352,7 @@
             "Handle": "Johl",
             "Type": "Humanoid",
             "Guid": "S_HAG_HagAmbush_Brother_002_24c7e849-2ad6-414e-bc38-6ea3f358a80b"
-        }
-    ],
-    "05_SWAMP_ETHEL_TEAHOUSE": [
+        },
         {
             "Handle": "Auntie Ethel",
             "Type": "Fey",
@@ -10007,9 +10280,19 @@
             "Guid": "S_PLA_ZhentDungeon_Zhent03_8f63a70b-93e1-4841-8dea-b1f1542fd3c1"
         },
         {
+            "Handle": "Zhentarim Smuggler",
+            "Type": "",
+            "Guid": "S_PLA_ZhentDungeon_Zhent04_000_48707347-b430-4f8a-a360-bdc5c448e117"
+        },
+        {
             "Handle": "Garias",
             "Type": "",
             "Guid": "S_PLA_ZhentDungeon_Zhent04_50c17970-3683-4417-b4f3-bd1e117e3176"
+        },
+        {
+            "Handle": "Zhentarim Smuggler",
+            "Type": "",
+            "Guid": "S_PLA_ZhentDungeon_Zhent05_000_a0a27ee1-2d27-4edd-bb73-08b5406f226e"
         },
         {
             "Handle": "Bellar",
@@ -10022,9 +10305,19 @@
             "Guid": "S_PLA_ZhentDungeon_Zhent06_254e7fbc-4849-4b60-a98f-4ae3becab077"
         },
         {
+            "Handle": "Zhentarim Smuggler",
+            "Type": "",
+            "Guid": "S_PLA_ZhentDungeon_Zhent07_000_6ed9a9c2-60b1-432f-a9f1-950601f152b6"
+        },
+        {
             "Handle": "Vol",
             "Type": "",
             "Guid": "S_PLA_ZhentDungeon_Zhent07_32f7a4dc-d7a8-4e89-875c-3f3722879fbb"
+        },
+        {
+            "Handle": "Zhentarim Smuggler",
+            "Type": "",
+            "Guid": "S_PLA_ZhentDungeon_Zhent08_000_684c44ab-f828-4455-9434-4b67957cbc21"
         },
         {
             "Handle": "Karad",
@@ -10687,6 +10980,43 @@
             "Handle": "Bonesnappah",
             "Type": "Humanoid",
             "Guid": "MMM_BUGBEARCHALLENGER_46545754-5089-4e85-b34d-81395e5ebb44"
+        }
+    ],
+    "07_RISEN_GNOLLS_WAYPOINT": [
+        {
+            "Handle": "Gnoll Flesh Gnawer",
+            "Type": "Humanoid",
+            "Guid": "EO_GnollMelee_1_3a373420-dda8-40df-b867-de6f970011d4"
+        },
+        {
+            "Handle": "Gnoll Flesh Gnawer",
+            "Type": "Humanoid",
+            "Guid": "EO_GnollMelee_2_2725b80f-9cba-4b51-af19-4d8306a99be5"
+        },
+        {
+            "Handle": "Gnoll Hunter",
+            "Type": "Humanoid",
+            "Guid": "EO_GnollRanged_1_d434124e-8ce0-487e-90a0-bea32486e322"
+        },
+        {
+            "Handle": "Gnoll Hunter",
+            "Type": "Humanoid",
+            "Guid": "EO_GnollRanged_2_40b7a766-8e3e-440e-b808-3cfc2dcbba82"
+        },
+        {
+            "Handle": "Gnoll Hunter",
+            "Type": "Humanoid",
+            "Guid": "EO_GnollRanged_3_d5099c55-e6f6-44a8-85c5-5a57bddaeb16"
+        },
+        {
+            "Handle": "Moozag",
+            "Type": "Giant",
+            "Guid": "EO_Ogre_1_c7b7b805-08a7-4f86-980d-121fa00d1dac"
+        },
+        {
+            "Handle": "Cultist Astryn",
+            "Type": "Humanoid",
+            "Guid": "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea"
         }
     ],
     "04_FOREST_PATH_WOODWOADS": [
@@ -18265,43 +18595,6 @@
             "Guid": "EO_DisplacerBeast_b2db0a80-f13c-4cc9-9b8b-5caf2651c6b9"
         }
     ],
-    "07_RISEN_GNOLLS_WAYPOINT": [
-        {
-            "Handle": "Gnoll Flesh Gnawer",
-            "Type": "Humanoid",
-            "Guid": "EO_GnollMelee_1_3a373420-dda8-40df-b867-de6f970011d4"
-        },
-        {
-            "Handle": "Gnoll Flesh Gnawer",
-            "Type": "Humanoid",
-            "Guid": "EO_GnollMelee_2_2725b80f-9cba-4b51-af19-4d8306a99be5"
-        },
-        {
-            "Handle": "Gnoll Hunter",
-            "Type": "Humanoid",
-            "Guid": "EO_GnollRanged_1_d434124e-8ce0-487e-90a0-bea32486e322"
-        },
-        {
-            "Handle": "Gnoll Hunter",
-            "Type": "Humanoid",
-            "Guid": "EO_GnollRanged_2_40b7a766-8e3e-440e-b808-3cfc2dcbba82"
-        },
-        {
-            "Handle": "Gnoll Hunter",
-            "Type": "Humanoid",
-            "Guid": "EO_GnollRanged_3_d5099c55-e6f6-44a8-85c5-5a57bddaeb16"
-        },
-        {
-            "Handle": "Moozag",
-            "Type": "Giant",
-            "Guid": "EO_Ogre_1_c7b7b805-08a7-4f86-980d-121fa00d1dac"
-        },
-        {
-            "Handle": "Cultist Astryn",
-            "Type": "Humanoid",
-            "Guid": "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea"
-        }
-    ],
     "10_MOUNTAIN_LATHANDER_EAGLES": [
         {
             "Handle": "Harpy",
@@ -18618,6 +18911,13 @@
             "Handle": "Owlbear Mate",
             "Type": "Beast",
             "Guid": "Owlbear_Dad_546473f8-9b12-cffd-c494-e74b4f6c0b3b"
+        }
+    ],
+    "08_UNDERDARK_SELUNE_ELISTRAEE": [
+        {
+            "Handle": "Oathless Wretch",
+            "Type": "Aberration",
+            "Guid": "QUEST_END_Thrall_Paladin_001_cd680684-3d38-48f6-8c34-8e0c9428553f"
         }
     ]
 }

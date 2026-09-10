@@ -910,6 +910,11 @@
         {
             "Handle": "Phase Spiderling",
             "Location": "",
+            "Guid": "FOR_PhaseSpider_Spawn_263144f2-6527-f67b-2e9a-34b8e2c27c54"
+        },
+        {
+            "Handle": "Phase Spiderling",
+            "Location": "",
             "Guid": "FOR_PhaseSpider_Spawn_554df1f9-73c1-b1b8-0b7e-bc5fd216de87"
         },
         {
@@ -2228,6 +2233,11 @@
             "Guid": "MMM_ZHENTSTORAGE_9e7cd46d-ef52-4575-8f08-ac1c262c8fc9"
         },
         {
+            "Handle": "Forged Fire",
+            "Location": "",
+            "Guid": "Myrmidon_Fire_000_412acd23-b0f7-4e76-90c0-36bd9626fb68"
+        },
+        {
             "Handle": "Water Myrmidon",
             "Location": "",
             "Guid": "Myrmidon_Water_c9e4c3d3-3cf3-169b-e49d-7b182eaf71d1"
@@ -2278,6 +2288,11 @@
             "Guid": "QUEST_FOR_QuasitSummon_45eff2a6-aff6-0be9-423a-f3982b54b87e"
         },
         {
+            "Handle": "Acolyte Drock",
+            "Location": "",
+            "Guid": "QUEST_MOO_Duergar_Male_AbsoluteGuard_Caster_Weak_000_86ca7ff6-8987-40b7-b76b-f3d787684b70"
+        },
+        {
             "Handle": "Zealot of the Absolute",
             "Location": "SHAR_YURGIR",
             "Guid": "QUEST_MOO_Humans_Male_AbsoluteGuard_Melee_000_c70c104d-83aa-4f9d-8f14-74cfa55193a6"
@@ -2291,6 +2306,31 @@
             "Handle": "Rabbit",
             "Location": "",
             "Guid": "Rabbit_001_f7211fa1-ee36-4b95-9beb-f03c98c5cafb"
+        },
+        {
+            "Handle": "Redcap Captain",
+            "Location": "",
+            "Guid": "Redcap_Pirate_A_000_64561dac-5d80-43a3-864f-3525674811f3"
+        },
+        {
+            "Handle": "Redcap Mystic Cannoneer",
+            "Location": "",
+            "Guid": "Redcap_Pirate_Caster_000_f2ab89a8-3be1-4ded-ba00-5bc5ec4d2b7f"
+        },
+        {
+            "Handle": "Redcap Mystic Cannoneer",
+            "Location": "",
+            "Guid": "Redcap_Pirate_Caster_002_3bf73ca9-f8be-46f3-b0e8-2de2b140c828"
+        },
+        {
+            "Handle": "Redcap Boatswain",
+            "Location": "",
+            "Guid": "Redcap_Pirate_Melee_000_c7ad0db7-8f9b-43fe-9caf-4ba76717e3e3"
+        },
+        {
+            "Handle": "Redcap Boatswain",
+            "Location": "",
+            "Guid": "Redcap_Pirate_Melee_001_c0a6a711-ba2a-4167-8f5b-c9416a7ae5a8"
         },
         {
             "Handle": "Cravos",
@@ -7388,9 +7428,19 @@
             "Guid": "S_PLA_ZhentDungeon_Zhent03_8f63a70b-93e1-4841-8dea-b1f1542fd3c1"
         },
         {
+            "Handle": "Zhentarim Smuggler",
+            "Location": "07_RISEN_ZHENTARIM_CAVE",
+            "Guid": "S_PLA_ZhentDungeon_Zhent04_000_48707347-b430-4f8a-a360-bdc5c448e117"
+        },
+        {
             "Handle": "Garias",
             "Location": "07_RISEN_ZHENTARIM_CAVE",
             "Guid": "S_PLA_ZhentDungeon_Zhent04_50c17970-3683-4417-b4f3-bd1e117e3176"
+        },
+        {
+            "Handle": "Zhentarim Smuggler",
+            "Location": "07_RISEN_ZHENTARIM_CAVE",
+            "Guid": "S_PLA_ZhentDungeon_Zhent05_000_a0a27ee1-2d27-4edd-bb73-08b5406f226e"
         },
         {
             "Handle": "Bellar",
@@ -7403,9 +7453,19 @@
             "Guid": "S_PLA_ZhentDungeon_Zhent06_254e7fbc-4849-4b60-a98f-4ae3becab077"
         },
         {
+            "Handle": "Zhentarim Smuggler",
+            "Location": "07_RISEN_ZHENTARIM_CAVE",
+            "Guid": "S_PLA_ZhentDungeon_Zhent07_000_6ed9a9c2-60b1-432f-a9f1-950601f152b6"
+        },
+        {
             "Handle": "Vol",
             "Location": "07_RISEN_ZHENTARIM_CAVE",
             "Guid": "S_PLA_ZhentDungeon_Zhent07_32f7a4dc-d7a8-4e89-875c-3f3722879fbb"
+        },
+        {
+            "Handle": "Zhentarim Smuggler",
+            "Location": "07_RISEN_ZHENTARIM_CAVE",
+            "Guid": "S_PLA_ZhentDungeon_Zhent08_000_684c44ab-f828-4455-9434-4b67957cbc21"
         },
         {
             "Handle": "Karad",
@@ -9848,6 +9908,166 @@
             "Guid": "Skeleton_Armored_A_005_eb74ea2c-1ce1-4b8c-a151-31bba7e28689"
         },
         {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_000_29eea36f-6300-4baf-ac04-9a5a995aa4ca"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_001_108f6e71-c7bb-4d1b-b307-b6367c36f9b1"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_002_e0126c65-6b5f-4a57-a348-12090d839149"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_003_410c6c2f-f458-458f-a0be-1f9bbe5a0111"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_004_79adc853-7b70-4f49-a211-118b5fbe64a8"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_005_2657e3d1-39d2-4db5-b3ef-537a80527830"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_006_5289ac37-b18d-479a-a7de-98f80d046d38"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_007_5b278707-215d-41de-a958-7536507cb926"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_008_dd296441-26a5-4fe5-9115-ba34ca1c1d3d"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_009_559103ca-b957-4972-b389-3f307f9f81e5"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_010_6c5afefb-32bc-4c43-ac24-65e075de2871"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_011_44b84781-10fa-44be-8b30-ccb266bc9f53"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_012_e0b0a77e-ef00-4559-9884-ea8db5a1c589"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_013_abb666a9-0a96-40aa-ae3c-b22b27cb82e8"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_014_8c26bf25-bbeb-4b0a-b824-70de2b87b40e"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_015_a1e20b61-ec1c-42bd-ada7-47e7bbd68fff"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_016_acb0426b-fc89-4c83-b154-facceddacf99"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_017_1ad761ca-b5b8-4882-9e72-3d8139735634"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_018_08e3bb5d-8ed2-4ec5-9b90-460d19d3e8e7"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_019_3f195bf0-1bc6-46a9-9f7b-0eff4937ca07"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_020_3e3d95a5-7146-44e5-bd4d-01c435969b47"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_021_6739172b-dd1b-4de9-a808-d825aa6244ab"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_022_35b861ab-eadc-420f-8330-3c775f7d753d"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_023_b02ace3f-ae47-4ece-b416-4b08eccb8610"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_024_5f96c535-50a5-480a-8380-3b0d2e6d3b28"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_025_6b81a838-4c24-48ea-a7fb-b01be263fca6"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_026_572a39a6-70b7-483c-beb5-3d973ffcfed9"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_027_fa3f7485-e925-4828-b1af-1744dfdd4590"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_028_25b01460-2056-4d10-ad74-a22e76af045d"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_029_ff3df507-40de-40f8-9b9d-a0037cd3ee27"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_030_28f8fe19-012a-4a30-b359-b0989cc1ffb4"
+        },
+        {
+            "Handle": "Ethel's Little Surprise",
+            "Location": "",
+            "Guid": "Spider_Tiny_031_f34912cd-74e5-4c88-9847-1e1a064f5ec3"
+        },
+        {
             "Handle": "Squirrel",
             "Location": "",
             "Guid": "Squirrel_000_4879a609-0457-42a2-ac71-28b31ea83661"
@@ -9861,6 +10081,11 @@
             "Handle": "Murdered Refugee",
             "Location": "RIVINGTON_WELL",
             "Guid": "Tieflings_Female_Asmodeus_Civilian_Vignette_000_d6bedab4-4bf5-4828-965a-a2d970a97c22"
+        },
+        {
+            "Handle": "Drop",
+            "Location": "",
+            "Guid": "WATER_GENASI_MALE_07572937-2bf8-87be-69a0-1f0a9225db19"
         },
         {
             "Handle": "Citizen",
@@ -9926,6 +10151,11 @@
             "Handle": "Will o' Wisp",
             "Location": "",
             "Guid": "Wisp_DeadWillOWisp_710cfc52-0d3c-6af2-7b47-4c6651640b7a"
+        },
+        {
+            "Handle": "Dra'kar",
+            "Location": "",
+            "Guid": "YUANTI_PUREBLOOD_STRONG_MALE_f716474d-db41-a5f6-6492-fa2fc15a601c"
         }
     ],
     "Aberration": [
@@ -10063,6 +10293,11 @@
             "Handle": "Lost Intellect Devourer",
             "Location": "",
             "Guid": "MMM_LOSTINTELLECT_c518330d-cc41-46f5-a9c7-bddc8738f993"
+        },
+        {
+            "Handle": "Oathless Wretch",
+            "Location": "08_UNDERDARK_SELUNE_ELISTRAEE",
+            "Guid": "QUEST_END_Thrall_Paladin_001_cd680684-3d38-48f6-8c34-8e0c9428553f"
         },
         {
             "Handle": "Spectator",
@@ -10995,6 +11230,11 @@
             "Handle": "Newborn Gnoll",
             "Location": "RISEN_HYENAS",
             "Guid": "QUEST_GnollBorn_A_87803137-3114-16f8-8a5f-27b568554779"
+        },
+        {
+            "Handle": "True Soul Veera",
+            "Location": "",
+            "Guid": "QUEST_MOO_Drow_Female_AbsoluteGuard_Melee_000_31e885fc-06b4-4181-99b2-099fc7edfa96"
         },
         {
             "Handle": "Goblin Brawler",
@@ -13227,11 +13467,6 @@
             "Guid": "S_PLA_TollhouseGnoll_007_fd8fe54e-020b-416b-9866-db64e59b96e3"
         },
         {
-            "Handle": "Shadowheart",
-            "Location": "",
-            "Guid": "S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679"
-        },
-        {
             "Handle": "Brawler Vez",
             "Location": "SHADOW_KARNISS",
             "Guid": "S_SCL_DriderCaravan_GoblinMelee_000_c176d94a-eaa6-4869-a344-88e44b31e17d"
@@ -13417,6 +13652,11 @@
             "Guid": "S_UND_DuergarLoyalFallback_0160d049-e0b2-473b-a5c2-ff8b13719d84"
         },
         {
+            "Handle": "Mind Master Canna",
+            "Location": "",
+            "Guid": "S_UND_DuergarLoyalFocused_000_fd0fc79f-f4a6-49bd-8685-e144ecd1569f"
+        },
+        {
             "Handle": "Mind Master Fonmara",
             "Location": "GRYMFORGE_DRUEGAR",
             "Guid": "S_UND_DuergarLoyalFocused_ccf9ef29-3d8e-4751-a7ae-203bec7352c3"
@@ -13425,6 +13665,11 @@
             "Handle": "Dalthar",
             "Location": "GRYMFORGE_DRUEGAR",
             "Guid": "S_UND_DuergarLoyalGuard_02_cc942779-3d2d-4327-9704-c6c385c12c82"
+        },
+        {
+            "Handle": "Ranger Vrar",
+            "Location": "",
+            "Guid": "S_UND_DuergarLoyalNervous_000_2f718b5e-deb5-4224-9ee8-3b1e30acb439"
         },
         {
             "Handle": "Drar",
@@ -13460,6 +13705,11 @@
             "Handle": "Sergeant Thrinn",
             "Location": "GRYMFORGE_DRUEGAR",
             "Guid": "S_UND_DuergarLoyalSergeant_0aeb5411-5f13-4263-acb0-87f0689de2e5"
+        },
+        {
+            "Handle": "Mind Master Grad",
+            "Location": "",
+            "Guid": "S_UND_DuergarLoyalWry_000_209fa604-0c5b-4aa6-a74b-20b7ec95dff2"
         },
         {
             "Handle": "Mind Master Dunnol",
@@ -13515,6 +13765,16 @@
             "Handle": "Morghal",
             "Location": "GRYMFORGE_DRUEGAR",
             "Guid": "S_UND_DuergarRebel_AtPier_02_2dd2a840-35ff-4ed6-bf43-f9aae0e69c32"
+        },
+        {
+            "Handle": "Alchemist Argram",
+            "Location": "",
+            "Guid": "S_UND_DuergarSquadAlchemist_000_c70d73e3-8ea8-433d-90d4-8be65a42325d"
+        },
+        {
+            "Handle": "Ranger Hurk",
+            "Location": "",
+            "Guid": "S_UND_DuergarSquadRatty_000_0370625e-f8fe-4998-98a7-f38efb93fb42"
         },
         {
             "Handle": "Skickpit",
@@ -14694,208 +14954,6 @@
             "Handle": "Wildfire Spirit",
             "Location": "",
             "Guid": "WS_Cat_b67407cd-3f3a-8eb4-458c-66db995a54eb"
-        }
-    ],
-    "Elemental": [
-        {
-            "Handle": "Lava Elemental",
-            "Location": "09_GRYM_FORGE_ELEMENTALS",
-            "Guid": "MMM_LAVAELEMENTAL_bc37c6a1-ed92-4f31-92a4-7ce718ffc5b6"
-        },
-        {
-            "Handle": "Ancient Mud Mephit",
-            "Location": "05_SWAMP_WILLOW_MEPHITS",
-            "Guid": "S_HAG_MudMephit_01_8e6dad78-a443-4f8b-87ba-59d27ad05232"
-        },
-        {
-            "Handle": "Ancient Mud Mephit",
-            "Location": "05_SWAMP_WILLOW_MEPHITS",
-            "Guid": "S_HAG_MudMephit_02_066a27f7-4465-4b61-ba13-7b8d6358ad50"
-        },
-        {
-            "Handle": "Ancient Mud Mephit",
-            "Location": "05_SWAMP_WILLOW_MEPHITS",
-            "Guid": "S_HAG_MudMephit_03_ea2709f4-3c23-4961-8cc9-e72d7727c1a4"
-        },
-        {
-            "Handle": "Ancient Mud Mephit",
-            "Location": "05_SWAMP_WILLOW_MEPHITS",
-            "Guid": "S_HAG_MudMephit_04_2a99e33a-cb96-40a0-bb8e-4a118719e794"
-        },
-        {
-            "Handle": "Ancient Mud Mephit",
-            "Location": "05_SWAMP_WILLOW_MEPHITS",
-            "Guid": "S_HAG_MudMephit_New_001_bb587b49-5c30-4c5c-8882-f27d83c659e7"
-        },
-        {
-            "Handle": "Grease Elemental",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseElemental_001_f4e06895-6aa1-4fb0-9118-097e3e250cb2"
-        },
-        {
-            "Handle": "Grease Elemental",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseElemental_002_db2e11c6-0562-4f49-abaf-96283819ba68"
-        },
-        {
-            "Handle": "Grease Mephit",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseMephit_000_3b4e1f46-adef-4aed-81c4-345db1ee7668"
-        },
-        {
-            "Handle": "Grease Mephit",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseMephit_001_5c67fffb-3f0b-44c2-960e-9df6640c9407"
-        },
-        {
-            "Handle": "Grease Mephit",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseMephit_002_5dbf7fec-24aa-47de-b5fe-a00231d6f5a2"
-        },
-        {
-            "Handle": "Grease Mephit",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseMephit_003_69e8af86-77dd-4f37-962c-04b012c339dd"
-        },
-        {
-            "Handle": "Grease Mephit",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseMephit_004_917cd8d0-03ca-4104-b9e2-fd22432607bd"
-        },
-        {
-            "Handle": "Grease Mephit",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseMephit_005_e5b3b325-b891-41d0-9742-74ef4b8dec80"
-        },
-        {
-            "Handle": "Grease Mephit",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseMephit_006_e35cfdbd-fd1f-4a2e-90d5-fcefc7586ead"
-        },
-        {
-            "Handle": "Grease Mephit",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseMephit_007_f56d1b45-4cc0-4eef-b479-52f7e6d121a8"
-        },
-        {
-            "Handle": "Grease Mephit",
-            "Location": "UNDERCITY_MAINSEWER_GREASE",
-            "Guid": "S_LOW_GreaseMephit_008_1c4c8e46-9bce-4876-8b21-1ad6c96e0025"
-        },
-        {
-            "Handle": "Lava Elemental",
-            "Location": "CENTRALWALL_SUNDRIES_ATRIUM",
-            "Guid": "S_LOW_LavaElemental_1dea794e-2657-4c54-916b-edc639c4ff8c"
-        },
-        {
-            "Handle": "Water Elemental",
-            "Location": "CENTRALWALL_SUNDRIES_ATRIUM",
-            "Guid": "S_LOW_WaterElemental_4cb61416-f095-4fbb-aece-51f37b6bb4d6"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "",
-            "Guid": "S_ORI_Gale_DeathMephit_4b90d334-3646-43f8-94f4-e29b13ac75d4"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "09_GRYM_FORGE_ELEMENTALS",
-            "Guid": "S_UND_AdamantinteGolem_Mephit_001_c33491f2-17f1-48bd-ad4c-7df70049025e"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "09_GRYM_FORGE_ELEMENTALS",
-            "Guid": "S_UND_AdamantinteGolem_Mephit_002_e96e33ae-870c-4cc2-9742-201e61dbe162"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "09_GRYM_FORGE_ELEMENTALS",
-            "Guid": "S_UND_AdamantinteGolem_Mephit_003_2c07b751-f1d1-41f9-a3a6-1f9597171b32"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "09_GRYM_FORGE_ELEMENTALS",
-            "Guid": "S_UND_AdamantinteGolem_Mephit_004_8df15cf3-5880-4618-8c5d-b1522dff1bac"
-        },
-        {
-            "Handle": "Ancient Magma Mephit",
-            "Location": "09_GRYM_FORGE_ELEMENTALS",
-            "Guid": "S_UND_AdamantinteGolem_Mephit_Ancient_New_001_2506d59f-87e6-4496-bbc4-afa42bbb8cd5"
-        },
-        {
-            "Handle": "Ancient Magma Mephit",
-            "Location": "09_GRYM_FORGE_ELEMENTALS",
-            "Guid": "S_UND_AdamantinteGolem_Mephit_Ancient_New_002_4dde6f06-57f1-4d52-b728-c5eff57e4522"
-        },
-        {
-            "Handle": "Ancient Magma Mephit",
-            "Location": "09_GRYM_FORGE_ELEMENTALS",
-            "Guid": "S_UND_AdamantinteGolem_Mephit_Ancient_New_003_2d32dc1a-a474-4ce8-8f00-ab5b1fdd0ccd"
-        },
-        {
-            "Handle": "Lava Elemental",
-            "Location": "",
-            "Guid": "S_UND_KethericCity_LavaElemental_1c47b089-3e59-41ca-a300-47dfd941b5a0"
-        },
-        {
-            "Handle": "Ancient Magma Mephit",
-            "Location": "",
-            "Guid": "S_UND_MephitAmbush_AncientMephit_New_001_2f78d51b-67b5-4c19-8791-98b9d21a0e75"
-        },
-        {
-            "Handle": "Ancient Magma Mephit",
-            "Location": "",
-            "Guid": "S_UND_MephitAmbush_AncientMephit_New_002_92be53b6-e8a1-46ff-a0ff-377fc587bebc"
-        },
-        {
-            "Handle": "Ancient Magma Mephit",
-            "Location": "",
-            "Guid": "S_UND_MephitAmbush_AncientMephit_New_003_116839b0-3fa9-4ea9-89c9-cb76875b253a"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "GRYMFORGE_MEPHITS",
-            "Guid": "S_UND_MephitAmbush_Mephit_000_fd14c0a6-2f9c-4983-857d-c8f5f85a8087"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "GRYMFORGE_MEPHITS",
-            "Guid": "S_UND_MephitAmbush_Mephit_001_af183ce5-9a9b-44eb-814e-42fa3350b2c1"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "GRYMFORGE_MEPHITS",
-            "Guid": "S_UND_MephitAmbush_Mephit_002_184b9dcd-3b1f-430a-9a71-bb54d986fcff"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "GRYMFORGE_MEPHITS",
-            "Guid": "S_UND_MephitAmbush_Mephit_003_8f6d43d2-6c18-4d77-811c-cd44cb233a9f"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "GRYMFORGE_MEPHITS",
-            "Guid": "S_UND_MephitAmbush_Mephit_004_a58fe622-860e-45a1-902b-51cd71df2350"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "GRYMFORGE_MEPHITS",
-            "Guid": "S_UND_MephitAmbush_Mephit_005_be85453e-867a-4f08-a959-c6551869ee1d"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "GRYMFORGE_MEPHITS",
-            "Guid": "S_UND_MephitAmbush_Mephit_006_a5182eef-582d-44d2-ba5a-a2e0ace5af94"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "GRYMFORGE_MEPHITS",
-            "Guid": "S_UND_MephitAmbush_Mephit_007_63a4aa4d-0211-4d02-8666-2b95281790e1"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Location": "GRYMFORGE_MEPHITS",
-            "Guid": "S_UND_MephitAmbush_Mephit_008_83b9db14-ff7d-41c2-aa48-29e823468a97"
         }
     ],
     "Undead": [
@@ -16185,6 +16243,11 @@
             "Guid": "S_MOO_FlyingGhoul_002_90b8c61f-c7e8-445c-a1b1-9d9874457529"
         },
         {
+            "Handle": "Shadowheart",
+            "Location": "",
+            "Guid": "S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679"
+        },
+        {
             "Handle": "Cursed Kuo-Toa",
             "Location": "REITHWIN_KUOTOA",
             "Guid": "S_SCL_FishermansHut_CursedKuoToa_01_506a0ac8-f9f5-4679-a94d-7d1ad6abd173"
@@ -17005,7 +17068,229 @@
             "Guid": "S_WYR_Wyrmsway_FailSkeleton_038_104a7a2d-b546-4c4e-b1f5-76cf4702daf3"
         }
     ],
+    "Elemental": [
+        {
+            "Handle": "Azer Smith",
+            "Location": "",
+            "Guid": "Bipedal_Elemental_Azer_000_c36e86a4-7312-43e1-a5ee-49a2de04776a"
+        },
+        {
+            "Handle": "Azer Smith",
+            "Location": "",
+            "Guid": "Bipedal_Elemental_Azer_002_d0793a6d-6cb9-424c-a8bb-395f82191162"
+        },
+        {
+            "Handle": "Azer Smith",
+            "Location": "",
+            "Guid": "Bipedal_Elemental_Azer_003_ed7a5d7f-9e9d-407b-b50b-c4596aa9149f"
+        },
+        {
+            "Handle": "Lava Elemental",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
+            "Guid": "MMM_LAVAELEMENTAL_bc37c6a1-ed92-4f31-92a4-7ce718ffc5b6"
+        },
+        {
+            "Handle": "Ancient Mud Mephit",
+            "Location": "05_SWAMP_WILLOW_MEPHITS",
+            "Guid": "S_HAG_MudMephit_01_8e6dad78-a443-4f8b-87ba-59d27ad05232"
+        },
+        {
+            "Handle": "Ancient Mud Mephit",
+            "Location": "05_SWAMP_WILLOW_MEPHITS",
+            "Guid": "S_HAG_MudMephit_02_066a27f7-4465-4b61-ba13-7b8d6358ad50"
+        },
+        {
+            "Handle": "Ancient Mud Mephit",
+            "Location": "05_SWAMP_WILLOW_MEPHITS",
+            "Guid": "S_HAG_MudMephit_03_ea2709f4-3c23-4961-8cc9-e72d7727c1a4"
+        },
+        {
+            "Handle": "Ancient Mud Mephit",
+            "Location": "05_SWAMP_WILLOW_MEPHITS",
+            "Guid": "S_HAG_MudMephit_04_2a99e33a-cb96-40a0-bb8e-4a118719e794"
+        },
+        {
+            "Handle": "Ancient Mud Mephit",
+            "Location": "05_SWAMP_WILLOW_MEPHITS",
+            "Guid": "S_HAG_MudMephit_New_001_bb587b49-5c30-4c5c-8882-f27d83c659e7"
+        },
+        {
+            "Handle": "Grease Elemental",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseElemental_001_f4e06895-6aa1-4fb0-9118-097e3e250cb2"
+        },
+        {
+            "Handle": "Grease Elemental",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseElemental_002_db2e11c6-0562-4f49-abaf-96283819ba68"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseMephit_000_3b4e1f46-adef-4aed-81c4-345db1ee7668"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseMephit_001_5c67fffb-3f0b-44c2-960e-9df6640c9407"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseMephit_002_5dbf7fec-24aa-47de-b5fe-a00231d6f5a2"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseMephit_003_69e8af86-77dd-4f37-962c-04b012c339dd"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseMephit_004_917cd8d0-03ca-4104-b9e2-fd22432607bd"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseMephit_005_e5b3b325-b891-41d0-9742-74ef4b8dec80"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseMephit_006_e35cfdbd-fd1f-4a2e-90d5-fcefc7586ead"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseMephit_007_f56d1b45-4cc0-4eef-b479-52f7e6d121a8"
+        },
+        {
+            "Handle": "Grease Mephit",
+            "Location": "UNDERCITY_MAINSEWER_GREASE",
+            "Guid": "S_LOW_GreaseMephit_008_1c4c8e46-9bce-4876-8b21-1ad6c96e0025"
+        },
+        {
+            "Handle": "Lava Elemental",
+            "Location": "CENTRALWALL_SUNDRIES_ATRIUM",
+            "Guid": "S_LOW_LavaElemental_1dea794e-2657-4c54-916b-edc639c4ff8c"
+        },
+        {
+            "Handle": "Water Elemental",
+            "Location": "CENTRALWALL_SUNDRIES_ATRIUM",
+            "Guid": "S_LOW_WaterElemental_4cb61416-f095-4fbb-aece-51f37b6bb4d6"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "",
+            "Guid": "S_ORI_Gale_DeathMephit_4b90d334-3646-43f8-94f4-e29b13ac75d4"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
+            "Guid": "S_UND_AdamantinteGolem_Mephit_001_c33491f2-17f1-48bd-ad4c-7df70049025e"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
+            "Guid": "S_UND_AdamantinteGolem_Mephit_002_e96e33ae-870c-4cc2-9742-201e61dbe162"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
+            "Guid": "S_UND_AdamantinteGolem_Mephit_003_2c07b751-f1d1-41f9-a3a6-1f9597171b32"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
+            "Guid": "S_UND_AdamantinteGolem_Mephit_004_8df15cf3-5880-4618-8c5d-b1522dff1bac"
+        },
+        {
+            "Handle": "Ancient Magma Mephit",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
+            "Guid": "S_UND_AdamantinteGolem_Mephit_Ancient_New_001_2506d59f-87e6-4496-bbc4-afa42bbb8cd5"
+        },
+        {
+            "Handle": "Ancient Magma Mephit",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
+            "Guid": "S_UND_AdamantinteGolem_Mephit_Ancient_New_002_4dde6f06-57f1-4d52-b728-c5eff57e4522"
+        },
+        {
+            "Handle": "Ancient Magma Mephit",
+            "Location": "09_GRYM_FORGE_ELEMENTALS",
+            "Guid": "S_UND_AdamantinteGolem_Mephit_Ancient_New_003_2d32dc1a-a474-4ce8-8f00-ab5b1fdd0ccd"
+        },
+        {
+            "Handle": "Lava Elemental",
+            "Location": "",
+            "Guid": "S_UND_KethericCity_LavaElemental_1c47b089-3e59-41ca-a300-47dfd941b5a0"
+        },
+        {
+            "Handle": "Ancient Magma Mephit",
+            "Location": "",
+            "Guid": "S_UND_MephitAmbush_AncientMephit_New_001_2f78d51b-67b5-4c19-8791-98b9d21a0e75"
+        },
+        {
+            "Handle": "Ancient Magma Mephit",
+            "Location": "",
+            "Guid": "S_UND_MephitAmbush_AncientMephit_New_002_92be53b6-e8a1-46ff-a0ff-377fc587bebc"
+        },
+        {
+            "Handle": "Ancient Magma Mephit",
+            "Location": "",
+            "Guid": "S_UND_MephitAmbush_AncientMephit_New_003_116839b0-3fa9-4ea9-89c9-cb76875b253a"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "GRYMFORGE_MEPHITS",
+            "Guid": "S_UND_MephitAmbush_Mephit_000_fd14c0a6-2f9c-4983-857d-c8f5f85a8087"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "GRYMFORGE_MEPHITS",
+            "Guid": "S_UND_MephitAmbush_Mephit_001_af183ce5-9a9b-44eb-814e-42fa3350b2c1"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "GRYMFORGE_MEPHITS",
+            "Guid": "S_UND_MephitAmbush_Mephit_002_184b9dcd-3b1f-430a-9a71-bb54d986fcff"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "GRYMFORGE_MEPHITS",
+            "Guid": "S_UND_MephitAmbush_Mephit_003_8f6d43d2-6c18-4d77-811c-cd44cb233a9f"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "GRYMFORGE_MEPHITS",
+            "Guid": "S_UND_MephitAmbush_Mephit_004_a58fe622-860e-45a1-902b-51cd71df2350"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "GRYMFORGE_MEPHITS",
+            "Guid": "S_UND_MephitAmbush_Mephit_005_be85453e-867a-4f08-a959-c6551869ee1d"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "GRYMFORGE_MEPHITS",
+            "Guid": "S_UND_MephitAmbush_Mephit_006_a5182eef-582d-44d2-ba5a-a2e0ace5af94"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "GRYMFORGE_MEPHITS",
+            "Guid": "S_UND_MephitAmbush_Mephit_007_63a4aa4d-0211-4d02-8666-2b95281790e1"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Location": "GRYMFORGE_MEPHITS",
+            "Guid": "S_UND_MephitAmbush_Mephit_008_83b9db14-ff7d-41c2-aa48-29e823468a97"
+        }
+    ],
     "Monstrosity": [
+        {
+            "Handle": "Minotaur",
+            "Location": "",
+            "Guid": "BOCO_UND_Minotaur_Extra_001_7fba66ee-ddc0-4373-8cb9-24eaf0fbad41"
+        },
         {
             "Handle": "Lesser Bulette",
             "Location": "08_UNDERDARK_SUSSUR_BULETTE",
@@ -17035,6 +17320,21 @@
             "Handle": "Worg",
             "Location": "07_RISEN_WAUKEEN_BUGBEARS",
             "Guid": "EO_Waukeen_Worg_2_73101b69-f926-4c53-8419-524cdb22637d"
+        },
+        {
+            "Handle": "Lost Hook Horror",
+            "Location": "",
+            "Guid": "HookHorror_A_9fa36085-03da-3ed8-1a5b-11217f1e42c4"
+        },
+        {
+            "Handle": "Ancient Hook Horror",
+            "Location": "",
+            "Guid": "HookHorror_A_evil_000_b5f94e73-47a4-42eb-91fd-0dfd7aeff9b0"
+        },
+        {
+            "Handle": "Hook Horror",
+            "Location": "",
+            "Guid": "HookHorror_A_evil_79beb672-5f5f-bf12-53a0-445f3fa1a15d"
         },
         {
             "Handle": "Gremishka",
@@ -17285,7 +17585,7 @@
         },
         {
             "Handle": "Auntie Ethel",
-            "Location": "05_SWAMP_ETHEL_TEAHOUSE",
+            "Location": "05_SWAMP_PATH_BROTHERS",
             "Guid": "S_HAG_HagAmbush_Hag_fb9cc235-398e-418d-a4a2-5da058fe7055"
         },
         {

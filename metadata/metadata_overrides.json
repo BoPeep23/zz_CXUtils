@@ -818,6 +818,11 @@
             "MAG_Radiant_RadiatingOrb_Armor_Passive"
         ]
     },
+    "S_UND_KuoToaGod_BOOOAL_abede50d-0d73-412b-8912-c9a4b900493f": {
+        "Passives": [
+            "LOW_BlushingMermaid_Redcap_Buff"
+        ]
+    },
     "S_UND_MephitAmbush_Mephit_000_fd14c0a6-2f9c-4983-857d-c8f5f85a8087": {
         "Spells": [
             "Projectile_Fireball",
@@ -901,14 +906,9 @@
     },
     "S_UND_PetrifiedDrow_Spectator_39ff8241-fadd-4fbe-ab89-fc5a8b7638a0": {
         "Passives": [
+            "AJ_RM",
             "Goon_AC_Debuff_2",
             "Goon_Slashing_Vulnerable"
-        ]
-    },
-    "S_UND_PlantDuergar_000_96b1fc15-f658-4451-9dea-3692115da9a1": {
-        "Passives": [
-            "FeyTouched_Wisdom",
-            "ShadowTouched_Intelligence"
         ]
     },
     "S_UND_PlantDuergar_001_be7b7b75-03fb-4040-9d8c-14e1e8d9882c": {
@@ -919,13 +919,6 @@
         ]
     },
     "S_UND_PlantDuergar_002_0028d0c1-1fb1-4c0f-baad-bf44eeae6dc1": {
-        "Passives": [
-            "MageSlayer_Advantage",
-            "MageSlayer_AttackCaster",
-            "MageSlayer_BreakConcentration"
-        ]
-    },
-    "S_UND_PlantDuergar_003_6da6d51e-8cf6-4b49-a780-3f46971d5b33": {
         "Passives": [
             "MageSlayer_Advantage",
             "MageSlayer_AttackCaster",
@@ -980,6 +973,13 @@
     },
     "EO_DefiledTemple_Trickery_Cleric_fc83ce47-3ce0-4be5-b1bc-83501cb10251": {
         "HealthOverride": 20
+    },
+    "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea": {
+        "HealthOverride": 75,
+        "Passives": [
+            "Goon_AC_Buff_2",
+            "CX_Warlock_GreatOldOne_Boost"
+        ]
     },
     "LOW_Undead_Mummy_FatherCarrion_000_a47d1819-1fd7-4613-a5ba-953627406d7a": {
         "Passives": [
@@ -3813,10 +3813,10 @@
             "DualWielder_BonusAC",
             "DualWielder_PassiveBonuses",
             "Goon_AttackRoll_2",
+            "Goon_Increased_Movement_2",
             "Goon_Summon_Potion_Healing_Greater_x1",
             "GreatWeaponMaster_BonusAttack",
-            "GreatWeaponMaster_BonusDamage",
-            "Goon_Increased_Movement_2"
+            "GreatWeaponMaster_BonusDamage"
         ]
     },
     "S_WYR_GurCamp_Hunter_001_a4ef7429-bca0-4e2f-9aab-a4eff9ac95e9": {
@@ -3846,26 +3846,26 @@
             "DualWielder_BonusAC",
             "DualWielder_PassiveBonuses",
             "Goon_AttackRoll_2",
+            "Goon_Increased_Movement_2",
             "Goon_Summon_Potion_Healing_Greater_x1",
             "GreatWeaponMaster_BonusAttack",
-            "GreatWeaponMaster_BonusDamage",
-            "Goon_Increased_Movement_2"
+            "GreatWeaponMaster_BonusDamage"
         ]
     },
     "S_WYR_GurCamp_Hunter_003_8948bd61-52a0-41a0-99b8-bb6d4c301255": {
         "HealthOverride": 110,
         "Spells": [
-            "Target_GuardianOfFaith",
-            "Target_CureWounds_Mass",
-            "Target_BestowCurse",
             "Shout_RadianceOfTheDawn",
-            "Target_Fireball"
+            "Target_BestowCurse",
+            "Target_CureWounds_Mass",
+            "Target_Fireball",
+            "Target_GuardianOfFaith"
         ],
         "Passives": [
+            "DEN_HellridersPride_Passive",
             "Goon_AC_Buff_5",
-            "Goon_Damage_Radiant_d8_SpellAttacks",
             "Goon_Damage_Radiant_d4_Spells",
-            "DEN_HellridersPride_Passive"
+            "Goon_Damage_Radiant_d8_SpellAttacks"
         ]
     },
     "S_WYR_GurCamp_Hunter_004_eb08e3f6-9059-498a-8125-1d9af24ee67f": {
@@ -8446,13 +8446,13 @@
     },
     "S_LOW_FatherCarrion_b003409c-364f-4065-94bf-7436001d890e": {
         "Spells": [
-            "Target_CircleOfDeath",
+            "Projectile_FingerOfDeath_Apostle",
             "Projectile_NegativeEnergyFlood",
-            "Projectile_FingerOfDeath_Apostle"
+            "Target_CircleOfDeath"
         ],
         "Passives": [
-            "NecroticAttacks_DeathKnight",
-            "GraveMagic"
+            "GraveMagic",
+            "NecroticAttacks_DeathKnight"
         ]
     },
     "S_LOW_FatherCarrion_CoffinMummy_000_d03067ac-43a7-435b-be97-558065b1f7d1": {
@@ -13428,13 +13428,6 @@
             "Goon_AC_Buff_4",
             "Goon_AttackRoll_4",
             "Goon_Immunity_Blinded"
-        ]
-    },
-    "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea": {
-        "HealthOverride": 75,
-        "Passives": [
-            "Goon_AC_Buff_2",
-            "CX_Warlock_GreatOldOne_Boost"
         ]
     },
     "Humans_Female_Cultist_Bhaal_DeathsHead_920647a1-844c-d260-d7e6-f2a4e7dc737d": {

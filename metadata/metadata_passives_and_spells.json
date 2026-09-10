@@ -1,6 +1,7 @@
 {
     "Passives": [
         "",
+        "AJ_RM",
         "ALCH_Elixir_Bloodlust_Passive",
         "ALCH_Oil_Combustion_Condition_Passive",
         "ALCH_Oil_Combustion_Passive",
@@ -238,6 +239,7 @@
         "IronMind",
         "Ki",
         "LOW_BhaalAmulet_Passive",
+        "LOW_BlushingMermaid_Redcap_Buff",
         "LOW_Guildhall_ExtraAttack_DaggerSpecialist",
         "LOW_HoH_Hope_DeathWard",
         "LanceOfLethargy",

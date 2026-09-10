@@ -114,6 +114,10 @@
     "S_PLA_Refugee_002_97ae38c5-550d-4585-9f9e-a0494ecb863a": {
         "DisplayName": "Corrine"
     },
+    "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea": {
+        "DisplayName": "Zealot Varsh",
+        "Template": "S_UND_GrymforgeExcavation_DrowAdept_001_8304b71a-0da8-40c3-b385-91e35e15903e"
+    },
     "MMM_DANKKOBS_ae86b789-d58e-4b7d-8029-813085eda9ea": {
         "DisplayName": "Kobold"
     },
@@ -1297,10 +1301,6 @@
     "EO_Spider_Giant_1_5abdd6c2-4997-4106-b01f-b11a82bfede5": {
         "DisplayName": "Lost Hook Horror",
         "Template": "S_UND_HookHorror_Hunter_001_3d5a8ed5-771a-491b-93eb-9a65eb2dcf30"
-    },
-    "EO_WLD_GOO_Warlock_c61050c0-815e-4454-a6fa-bec8a4c1f3ea": {
-        "DisplayName": "Zealot Varsh",
-        "Template": "S_UND_GrymforgeExcavation_DrowAdept_001_8304b71a-0da8-40c3-b385-91e35e15903e"
     },
     "Humans_Female_Cultist_Bhaal_DeathsHead_920647a1-844c-d260-d7e6-f2a4e7dc737d": {
         "DisplayName": "Reaper of Bhaal Lasira",
