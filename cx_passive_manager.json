@@ -420,15 +420,17 @@
                     "Target_Sleep",
                     "Target_CalmEmotions",
                     "Target_HypnoticPattern",
-                    "Target_MindSpik"
+                    "Target_MindSpike"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "Doppelganger_ReadThoughts"
                 ],
                 "Spells": [
-                    ""
+                    "Target_Counterspell",
+                    "Target_Command",
+                    "Projectile_Solution_Oil_Bane_Destroy"
                 ]
             },
             "3": {
@@ -451,7 +453,6 @@
                 ],
                 "Spells": [
                     "Shout_BladeWard",
-                    "Target_Sanctuary",
                     "Target_CureWounds",
                     "Target_LesserRestoration",
                     "Shout_HealingWord_Mass",
@@ -460,10 +461,11 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "UND_SocietyOfBrilliance_PullingRing_Passive"
+                    "UND_SocietyOfBrilliance_PullingRing_Passive",
+                    "DEN_HellridersPride_Passive"
                 ],
                 "Spells": [
-                    ""
+                    "Target_Sanctuary"
                 ]
             },
             "3": {
@@ -487,17 +489,18 @@
                     "Shout_RadianceOfTheDawn",
                     "Projectile_FireBolt",
                     "Projectile_ChromaticOrb_Fire",
-                    "Target_FlamingSphere",
+                    "Target_FaerieFire",
                     "Projectile_Fireball",
                     "Projectile_Moonflare"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    "WardingFlare_Improved"
+                    "WardingFlare_Improved",
+                    "Divine_Strike_Life_Toggle"
                 ],
                 "Spells": [
-                    ""
+                    "Projectile_ScorchingRay"
                 ]
             },
             "3": {
@@ -522,12 +525,13 @@
                     "Target_SpikeGrowth",
                     "Target_Entangle",
                     "Target_ThornWhip",
-                    "Target_PlantGrowth"
+                    "Target_PlantGrowth",
+                    "Projectile_ChromaticOrb_Acid"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "Divine_Strike_Nature_Toggle"
                 ],
                 "Spells": [
                     ""
@@ -552,17 +556,17 @@
                     "MAG_Poison_PoisonExposure_Gloves_Passive"
                 ],
                 "Spells": [
-                    "Target_InvokeDuplicity",
                     "Shout_CloakOfShadows",
                     "Target_PoisonSpray",
                     "Shout_MirrorImage",
                     "Target_HoldPerson",
-                    "Projectile_RayOfSickness"
+                    "Projectile_ChromaticOrb_Poison",
+                    "Projectile_Potion_Destroy_Invisibility"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "Divine_Strike_Trickery_Toggle"
                 ],
                 "Spells": [
                     ""
@@ -584,8 +588,7 @@
             "1": {
                 "ExtraPassives": [
                     "WrathOfTheStorm_Thunder_NPC",
-                    "WarCaster_OpportunitySpell",
-                    "ElementalAdept_Lightning"
+                    "WarCaster_OpportunitySpell"
                 ],
                 "Spells": [
                     "DestructiveWrath",
@@ -596,18 +599,21 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "Divine_Strike_Tempest_Toggle"
                 ],
                 "Spells": [
-                    ""
+                    "Target_StormSphere",
+                    "Target_IceStorm"
                 ]
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "ElementalAdept_Lightning",
+                    "ElementalAdept_Thunder"
                 ],
                 "Spells": [
-                    ""
+                    "Zone_LightningBolt",
+                    "Shout_DestructiveWrath"
                 ]
             }
         }
@@ -629,7 +635,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "Divine_Strike_War_Toggle"
                 ],
                 "Spells": [
                     ""
@@ -758,15 +764,17 @@
                     "Target_WitherAndBloom",
                     "Projectile_RayOfSickness",
                     "Shout_SymbioticEntity",
-                    "Target_VampiricTouch"
+                    "Target_VampiricTouch",
+                    "Target_HaloOfSpores"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    "ShadowDruid_PoisonClaws"
+                    "ShadowDruid_PoisonClaws",
+                    "SpreadingSpores"
                 ],
                 "Spells": [
-                    ""
+                    "Target_FungalInfestation"
                 ]
             },
             "3": {
