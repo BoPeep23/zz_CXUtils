@@ -2384,5 +2384,215 @@ _Currently in manager_ - passives: `Goon_Target_Longstrider_Passive`; spells: `S
   <br>`SpellType=Target`  `SpellProperties=ApplyStatus(OWLS_WISDOM, 100, -1)`
 
 ---
+## MystraSpells & 5eSpells — new spell candidates (manual pass, not from norbyte_harvest)
+
+_Added 2026-09-12 by parsing the active `MystrasSpells.pak` and `5eSpells.pak` mods directly (not scraped from bg3.norbyte.dev - these two mods are user-installed content, not indexed there). Full cross-mod overlap/dedup analysis: `research/mystra_5espells_compat_report.md`._
+
+Full deduplicated new-spell catalog from both mods (173 spells - identical-ID collisions and cross-mod duplicates collapsed to a single entry), sorted by Level -> School -> Damage/Utility Type, same convention as the rest of this file. Not yet assigned to specific `CX_*_Boost` sections above - skim and cherry-pick like the rest of this document. **Slot column**: `No` = cantrip/ritual, action-point only - do not grant these through a spell-slot resource, they need an at-will/innate cast instead.
+
+
+### Cantrip
+
+- `Shout_SwordBurst` - **Sword Burst** | Conjuration / Force | Slot: No
+- `Target_Infestation` - **Infestation** | Conjuration / Poison | Slot: No
+- `Target_MindSliver` - **Mind Sliver** | Enchantment / Debuff/Control | Slot: No
+- `Target_Frostbite` - **Frostbite** | Evocation / Cold | Slot: No
+- `Target_GreenFlameBlade` - **Green-Flame Blade** | Evocation / Fire | Slot: No
+- `Target_LightningLure` - **Lightning Lure** | Evocation / Lightning | Slot: No
+- `Shout_HandOfRadiance` - **Hand of Radiance** | Evocation / Radiant | Slot: No
+- `Shout_WordOfRadiance` - **Word of Radiance** | Evocation / Radiant | Slot: No
+- `Target_BoomingBladeMove` - **Mystra's Booming Blade** | Evocation / Thunder | Slot: No
+- `Shout_Thunderclap` - **Thunderclap** | Evocation / Thunder | Slot: No
+- `Projectile_LarlochsMinorDrain` - **Larloch's Minor Drain** | Necromancy / Necrotic | Slot: No
+- `Projectile_SappingSting` - **Sapping Sting** | Necromancy / Necrotic | Slot: No
+- `Target_ControlFlames` - **Control Flames** | Transmutation / Buff/Utility | Slot: No
+- `Shout_Druidcraft` - **Druidcraft** | Transmutation / Buff/Utility | Slot: No
+- `Target_MagicStone` - **Magic Stone** | Transmutation / Buff/Utility | Slot: No
+- `Target_MoldEarth` - **Mold Earth** | Transmutation / Buff/Utility | Slot: No
+- `Target_Prestidigitation` - **Prestidigitation** | Transmutation / Buff/Utility | Slot: No
+- `Target_ShapeWater` - **Shape Water** | Transmutation / Buff/Utility | Slot: No
+- `Target_Gust` - **Gust** | Transmutation / Force | Slot: No
+- `Target_PrimalSavagery` - **Primal Savagery** | Transmutation / Poison | Slot: No
+- `Target_CreateBonfire` - **Create Bonfire** | Conjuration / Fire | Slot: No
+- `Projectile_Moonflare` - **Moonflare** | Evocation / Radiant | Slot: No
+- `Target_SpareTheDying` - **Spare the Dying** | ? / Buff/Utility | Slot: No
+
+### 1st Level
+
+- `Shout_AbsorbElements` - **Absorb Elements** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_Snare` - **Snare** | Abjuration / Debuff/Control | Slot: Yes
+- `Target_UnseenServant` - **Unseen Servant** | Conjuration / Buff/Utility | Slot: Yes
+- `Target_UnseenServant_Ritual` - **Unseen Servant: Ritual** | Conjuration / Buff/Utility | Slot: No
+- `Target_BeastBond` - **Beast Bond** | Divination / Buff/Utility | Slot: Yes
+- `Shout_DetectEvilAndGood` - **Detect Evil and Good** | Divination / Buff/Utility | Slot: Yes
+- `Shout_DetectMagic` - **Detect Magic** | Divination / Buff/Utility | Slot: Yes
+- `Shout_DetectMagic_Ritual` - **Detect Magic: Ritual** | Divination / Buff/Utility | Slot: No
+- `Target_GiftOfAlacrity` - **Gift of Alacrity** | Divination / Buff/Utility | Slot: Yes
+- `Target_SuddenAwakening` - **Sudden Awakening** | Enchantment / Buff/Utility | Slot: Yes
+- `Target_IdInsinuation` - **Id Insinuation** | Enchantment / Psychic | Slot: Yes
+- `Zone_AcidStream` - **Acid Stream** | Evocation / Acid | Slot: Yes
+- `Zone_CausticBrew` - **Tasha's Caustic Brew** | Evocation / Acid | Slot: Yes
+- `Shout_EarthTremor` - **Earth Tremor** | Evocation / Bludgeoning | Slot: Yes
+- `Target_Ceremony_Ritual` - **Ceremony: Ritual** | Evocation / Buff/Utility | Slot: No
+- `Target_ChaosBolt` - **Chaos Bolt** | Evocation / Buff/Utility | Slot: Yes
+- `Shout_MagicMissile_Jim` - **Jim's Magic Missile** | Evocation / Buff/Utility | Slot: Yes
+- `Zone_FrostFingers` - **Frost Fingers** | Evocation / Cold | Slot: Yes
+- `Target_Ceremony` - **Ceremony** | Evocation / Debuff/Control | Slot: Yes
+- `Target_CauseFear` - **Cause Fear** | Necromancy / Debuff/Control | Slot: Yes
+- `Shout_ZephyrStrike` - **Zephyr Strike** | Transmutation / Buff/Utility | Slot: Yes
+- `Throw_Catapult` - **Catapult** | Transmutation / Debuff/Control | Slot: Yes
+- `Target_MagnifyGravity` - **Magnify Gravity** | Transmutation / Force | Slot: Yes
+
+### 2nd Level
+
+- `Shout_MentalBarrier` - **Mental Barrier** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_SummonBeast` - **Summon Beast** | Conjuration / Acid | Slot: Yes
+- `Target_DustDevil` - **Dust Devil** | Conjuration / Buff/Utility | Slot: Yes
+- `Target_HealingElixir` - **Healing Elixir** | Conjuration / Buff/Utility | Slot: Yes
+- `Target_HealingSpirit` - **Healing Spirit** | Conjuration / Buff/Utility | Slot: Yes
+- `Zone_SprayOfCards` - **Spray of Cards** | Conjuration / Debuff/Control | Slot: Yes
+- `Target_VortexWarp` - **Vortex Warp** | Conjuration / Debuff/Control | Slot: Yes
+- `Target_FlockOfFamiliars` - **Flock of Familiars** | Conjuration / Psychic | Slot: Yes
+- `Shout_SummonMoonblade_Container` - **Summon Moonblade** | Conjuration / Summon | Slot: Yes
+- `Shout_BorrowedKnowledge` - **Borrowed Knowledge** | Divination / Buff/Utility | Slot: Yes
+- `Shout_FindTraps` - **Find Traps** | Divination / Buff/Utility | Slot: Yes
+- `Target_MindSpike` - **Mind Spike** | Divination / Psychic | Slot: Yes
+- `Target_SilveryBarbs` - **Silvery Barbs** | Enchantment / Buff/Utility | Slot: Yes
+- `Target_ZoneofTruth` - **Zone of Truth** | Enchantment / Buff/Utility | Slot: Yes
+- `Projectile_GlowingCoin_Jim` - **Jim's Glowing Coin** | Enchantment / Debuff/Control | Slot: Yes
+- `Target_MindWhip` - **Tasha's Mind Whip** | Enchantment / Psychic | Slot: Yes
+- `Target_ContinualFlame` - **Continual Flame** | Evocation / Buff/Utility | Slot: Yes
+- `Shout_WardingWind` - **Warding Wind** | Evocation / Buff/Utility | Slot: Yes
+- `Zone_RimesBindingIce` - **Rime's Binding Ice** | Evocation / Cold | Slot: Yes
+- `Target_SnillocsSnowballStorm` - **Snilloc's Snowball Storm** | Evocation / Debuff/Control | Slot: Yes
+- `Zone_AganazzarsScorcher` - **Aganazzar's Scorcher** | Evocation / Fire | Slot: Yes
+- `Shout_ShadowBlade_Spell` - **Mystra's Shadow Blade** | Illusion / Buff/Utility | Slot: Yes
+- `Target_NathairsMischief` - **Nathair's Mischief** | Illusion / Debuff/Control | Slot: Yes
+- `Target_GentleRepose` - **Gentle Repose** | Necromancy / Buff/Utility | Slot: Yes
+- `Target_WitherAndBloom` - **Wither and Bloom** | Necromancy / Necrotic | Slot: Yes
+- `Target_MaximiliansEarthenGrasp` - **Maximilian's Earthen Grasp** | Transmutation / Bludgeoning | Slot: Yes
+- `Shout_AlterSelf` - **Alter Self** | Transmutation / Buff/Utility | Slot: Yes
+- `Shout_BeastAspect` - **Bestial Growth** | Transmutation / Buff/Utility | Slot: Yes
+- `Target_DragonsBreath` - **Dragon's Breath** | Transmutation / Buff/Utility | Slot: Yes
+- `Target_ForceWeapon` - **Force Weapon** | Transmutation / Buff/Utility | Slot: Yes
+- `Shout_KineticJaunt` - **Kinetic Jaunt** | Transmutation / Buff/Utility | Slot: Yes
+- `Target_Earthbind` - **Earthbind** | Transmutation / Debuff/Control | Slot: Yes
+- `Target_Pyrotechnics` - **Pyrotechnics** | Transmutation / Debuff/Control | Slot: Yes
+- `Projectile_VolleyOfArrows` - **Volley of Arrows** | Transmutation / Piercing | Slot: Yes
+
+### 3rd Level
+
+- `Target_MagicCircle` - **Magic Circle** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_Nondetection` - **Nondetection** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_ConjureAnimals_Container` - **Conjure Animals** | Conjuration / Buff/Utility | Slot: Yes
+- `Target_CreateFoodAndWater` - **Create Food and Water** | Conjuration / Buff/Utility | Slot: Yes
+- `Teleportation_ThunderStep` - **Thunder Step** | Conjuration / Buff/Utility | Slot: Yes
+- `Target_FreedomOfTheWaves` - **Freedom of the Waves** | Conjuration / Debuff/Control | Slot: Yes
+- `Target_TidalWave` - **Tidal Wave** | Conjuration / Debuff/Control | Slot: Yes
+- `Target_SummonShadowspawn` - **Summon Shadowspawn** | Conjuration / Necrotic | Slot: Yes
+- `Target_SummonLesserDemons` - **Summon Lesser Demons** | Conjuration / Psychic | Slot: Yes
+- `Target_SummonFey_Container` - **Summon Fey** | Conjuration / Summon | Slot: Yes
+- `Shout_SenseVitals` - **Sense Vitals** | Divination / Buff/Utility | Slot: Yes
+- `Target_Catnap` - **Catnap** | Enchantment / Buff/Utility | Slot: Yes
+- `Target_EnemiesAbound` - **Enemies Abound** | Enchantment / Buff/Utility | Slot: Yes
+- `Target_IntellectFortress` - **Intellect Fortress** | Enchantment / Buff/Utility | Slot: Yes
+- `Target_MotivationalSpeech` - **Motivational Speech** | Enchantment / Buff/Utility | Slot: Yes
+- `Shout_InciteGreed` - **Incite Greed** | Enchantment / Debuff/Control | Slot: Yes
+- `Target_Antagonize` - **Antagonize** | Enchantment / Psychic | Slot: Yes
+- `Shout_BlindFaith` - **Blind Faith** | Evocation / Buff/Utility | Slot: Yes
+- `Projectile_MinuteMeteors` - **Minute Meteors** | Evocation / Buff/Utility | Slot: Yes
+- `Zone_PsionicBlast` - **Psionic Blast** | Evocation / Force | Slot: Yes
+- `Zone_PulseWave` - **Pulse Wave** | Evocation / Force | Slot: Yes
+- `Shout_DiscordantMelody` - **Discordant Melody** | Evocation / Thunder | Slot: Yes
+- `Shout_SpiritShroud` - **Spirit Shroud** | Necromancy / Debuff/Control | Slot: Yes
+- `Target_LifeTransference` - **Life Transference** | Necromancy / Healing | Slot: Yes
+- `Target_FlameArrows` - **Flame Arrows** | Transmutation / Buff/Utility | Slot: Yes
+- `Target_VenomousBarbs` - **Venomous Barbs** | Transmutation / Buff/Utility | Slot: Yes
+- `Target_WaterWalk` - **Water Walk** | Transmutation / Buff/Utility | Slot: Yes
+- `Shout_AshardalonsStride` - **Ashardalon's Stride** | Transmutation / Debuff/Control | Slot: Yes
+- `Target_EruptingEarth` - **Erupting Earth** | Transmutation / Debuff/Control | Slot: Yes
+
+### 4th Level
+
+- `Shout_AuraOfLife` - **Aura of Life** | Abjuration / Buff/Utility | Slot: Yes
+- `Shout_AuraOfPurity` - **Aura of Purity** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_SummonAberration` - **Summon Aberration** | Conjuration / Acid | Slot: Yes
+- `Target_SummonGreaterDemon` - **Summon Greater Demon** | Conjuration / Fire | Slot: Yes
+- `Target_SummonConstruct` - **Summon Construct** | Conjuration / Necrotic | Slot: Yes
+- `Target_SummonBeholderkin` - **Summon Aberration: Beholderkin** | Conjuration / Psychic | Slot: Yes
+- `Target_SummonElemental` - **Summon Elemental** | Conjuration / Summon | Slot: Yes
+- `Target_ArcaneEye` - **Arcane Eye** | Divination / Psychic | Slot: Yes
+- `Target_CharmMonster` - **Charm Monster** | Enchantment / Buff/Utility | Slot: Yes
+- `Target_EgoWhip` - **Ego Whip** | Enchantment / Debuff/Control | Slot: Yes
+- `Shout_MesmersLullaby` - **Mesmer's Lullaby** | Enchantment / Debuff/Control | Slot: Yes
+- `Target_DreamSleep` - **Dream** | Enchantment / Psychic | Slot: Yes
+- `Projectile_RaulothimsPsychicLance` - **Raulothim's Psychic Lance** | Enchantment / Psychic | Slot: Yes
+- `Projectile_VitriolicSphere` - **Vitriolic Sphere** | Evocation / Acid | Slot: Yes
+- `Target_StormSphere` - **Storm Sphere** | Evocation / Bludgeoning | Slot: Yes
+- `Projectile_WebOfFire` - **Web of Fire** | Evocation / Fire | Slot: Yes
+- `Target_GravitySinkhole` - **Gravity Sinkhole** | Evocation / Force | Slot: Yes
+- `Target_IllusoryWeapon` - **Illusory Weapon** | Illusion / Buff/Utility | Slot: Yes
+- `Shout_ShadowOfMoil` - **Shadow of Moil** | Necromancy / Buff/Utility | Slot: Yes
+- `Target_ControlWater_Container` - **Control Water** | Transmutation / Buff/Utility | Slot: Yes
+- `Shout_GuardianOfNature` - **Guardian of Nature** | Transmutation / Buff/Utility | Slot: Yes
+- `Target_StoneShape_Container` - **Stone Shape** | Transmutation / Buff/Utility | Slot: Yes
+- `Target_ElementalBane` - **Elemental Bane** | Transmutation / Debuff/Control | Slot: Yes
+
+### 5th Level
+
+- `Shout_AntilifeShell` - **Antilife Shell** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_AstralDisjunction` - **Astral Disjunction** | Abjuration / Buff/Utility | Slot: Yes
+- `Shout_CircleOfPower` - **Circle of Power** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_BigbyHand` - **Bigby's Hand** | Conjuration / Buff/Utility | Slot: Yes
+- `Target_FarStep` - **Far Step** | Conjuration / Buff/Utility | Slot: Yes
+- `Teleportation_TeleportationCircle` - **Teleportation Circle** | Conjuration / Buff/Utility | Slot: Yes
+- `ProjectileStrike_ConjureVolley` - **Conjure Volley** | Conjuration / Debuff/Control | Slot: Yes
+- `Target_InfernalCalling` - **Infernal Calling** | Conjuration / Fire | Slot: Yes
+- `Target_SummonDragon` - **Summon Draconic Spirit** | Conjuration / Fire | Slot: Yes
+- `Target_SteelWindStrike` - **Steel Wind Strike** | Conjuration / Force | Slot: Yes
+- `Shout_CommuneWithNature` - **Commune with Nature** | Divination / Buff/Utility | Slot: Yes
+- `Target_SynapticStatic` - **Synaptic Static** | Enchantment / Psychic | Slot: Yes
+- `Target_Maelstrom` - **Maelstrom** | Evocation / Bludgeoning | Slot: Yes
+- `Target_HolyWeapon` - **Holy Weapon** | Evocation / Buff/Utility | Slot: Yes
+- `Target_Immolation` - **Immolation** | Evocation / Fire | Slot: Yes
+- `Target_Dawn` - **Dawn** | Evocation / Radiant | Slot: Yes
+- `Target_Mislead` - **Mislead** | Illusion / Buff/Utility | Slot: Yes
+- `Target_RaiseDead` - **Raise Dead** | Necromancy / Buff/Utility | Slot: Yes
+- `Target_DanseMacabre_Container` - **Danse Macabre** | Necromancy / Necrotic | Slot: Yes
+- `Projectile_Enervation` - **Enervation** | Necromancy / Necrotic | Slot: Yes
+- `Target_MacabreExplosion` - **Macabre Explosion** | Necromancy / Necrotic | Slot: Yes
+- `Projectile_NegativeEnergyFlood` - **Negative Energy Flood** | Necromancy / Necrotic | Slot: Yes
+- `Target_SkillEmpowerment` - **Skill Empowerment** | Transmutation / Buff/Utility | Slot: Yes
+- `Shout_SwiftQuiver` - **Swift Quiver** | Transmutation / Buff/Utility | Slot: Yes
+
+### 6th Level
+
+- `Shout_PrimordialWard` - **Primordial Ward** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_ConjureFey` - **Conjure Fey** | Conjuration / Acid | Slot: Yes
+- `Target_PsychicCrush` - **Psychic Crush** | Enchantment / Psychic | Slot: Yes
+- `Zone_Fissure` - **Fissure** | Evocation / Force | Slot: Yes
+- `Shout_ElementalInvestiture` - **Elemental Investiture** | Transmutation / Buff/Utility | Slot: Yes
+- `Shout_TensersTransformation` - **Tenser's Transformation** | Transmutation / Buff/Utility | Slot: Yes
+- `Target_TrueSeeing` - **True Seeing** | Transmutation / Buff/Utility | Slot: Yes
+- `Target_LesserRegenerate` - **Lesser Regeneration** | Transmutation / Healing | Slot: Yes
+
+### 7th Level
+
+- `Target_FingerOfDeath` - **Finger of Death** | Necromancy / Necrotic | Slot: Yes
+- `Target_Regenerate` - **Regenerate** | Transmutation / Healing | Slot: Yes
+
+### 8th Level
+
+- `Shout_HolyAura` - **Holy Aura** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_MindBlank` - **Mind Blank** | Abjuration / Buff/Utility | Slot: Yes
+- `Target_Feeblemind` - **Feeblemind** | Enchantment / Buff/Utility | Slot: Yes
+- `Target_DominateMonster` - **Dominate Monster** | Enchantment / Debuff/Control | Slot: Yes
+
+### 9th Level
+
+- `Target_Foresight` - **Foresight** | Divination / Buff/Utility | Slot: Yes
+- `Target_PowerWordKill` - **Power Word: Kill** | Enchantment / Buff/Utility | Slot: Yes
+- `Target_PowerWordHeal` - **Power Word: Heal** | Evocation / Healing | Slot: Yes
+---
 
 _Done in 0s._

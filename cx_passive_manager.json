@@ -4,15 +4,15 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    ""
+                    "Indomitable_NPC"
                 ],
                 "Spells": [
-                    "AJ_Shout_ActionSurge_Emergency"
+                    "Shout_ActionSurge"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "Goon_DamageReduction_1"
                 ],
                 "Spells": [
                     ""
@@ -20,7 +20,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    "MAG_Myrkulites_CircletOfMyrkul_Circlet_Passive"
+                    "MagicResistance"
                 ],
                 "Spells": [
                     ""
@@ -33,7 +33,8 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "LOW_SharGrotto_Mirror_ConstitutionBoon_Passive"
+                    "LOW_SharGrotto_Mirror_ConstitutionBoon_Passive",
+                    "Indomitable_NPC"
                 ],
                 "Spells": [
                     ""
@@ -99,7 +100,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "ExtraAttack"
                 ],
                 "Spells": [
                     ""
@@ -120,7 +121,8 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "RageUnlock"
+                    "RageUnlock",
+                    "UnarmouredDefence_Barbarian"
                 ],
                 "Spells": [
                     "Projectile_Jump",
@@ -151,7 +153,8 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "RageFrenzyUnlock"
+                    "RageFrenzyUnlock",
+                    "GreatWeaponMaster_BonusAttack"
                 ],
                 "Spells": [
                     "Shout_Rage_Frenzy"
@@ -220,7 +223,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "RelentlessEndurance"
                 ],
                 "Spells": [
                     ""
@@ -435,7 +438,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "ALCH_Elixir_ArcaneAcuity_Passive"
                 ],
                 "Spells": [
                     ""
@@ -814,7 +817,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "ExtraAttack_2"
                 ],
                 "Spells": [
                     ""
@@ -829,7 +832,8 @@
                 "ExtraPassives": [
                     "Riposte",
                     "SweepingAttack",
-                    "MenacingAttack"
+                    "MenacingAttack",
+                    "Resilient_Wisdom"
                 ],
                 "Spells": [
                     ""
@@ -867,7 +871,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "RelentlessEndurance"
                 ],
                 "Spells": [
                     ""
@@ -894,12 +898,13 @@
                 "Spells": [
                     "Target_BoomingBlade",
                     "Shout_Shield_Wizard",
-                    "Target_HideousLaughter"
+                    "Shout_AbsorbElements"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    "EldritchStrike"
+                    "EldritchStrike",
+                    "MAG_Gish_ArcaneAcuity_Gloves_Passive"
                 ],
                 "Spells": [
                     ""
@@ -1055,13 +1060,12 @@
                 ],
                 "Spells": [
                     "Projectile_Jump",
-                    "Shout_DivineFavor",
-                    "Shout_Smite_"
+                    "Shout_DivineFavor"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "Resilient_Strength"
                 ],
                 "Spells": [
                     ""
@@ -1157,7 +1161,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "Goon_Aura_of_Protection_Passive"
+                    "Goon_Aura_of_Protection_Passive",
+                    "RelentlessAvenger"
                 ],
                 "Spells": [
                     ""
@@ -1347,8 +1352,7 @@
                 "Spells": [
                     "Projectile_Jump",
                     "Shout_Disengage_CunningAction",
-                    "Projectile_SneakAttack",
-                    "Target_SneakAttack"
+                    "Shout_Dash_CunningAction"
                 ]
             },
             "2": {
@@ -1758,14 +1762,14 @@
                 "ExtraPassives": [
                     "ArcaneWard",
                     "ArcaneWard_Damage",
-                    "ArcaneWard_Cast",
-                    "Divination_School_Abjuration"
+                    "ArcaneWard_Cast"
                 ],
                 "Spells": [
                     "Shout_BladeWard",
-                    "Shout_AbsorbElements",
                     "Shout_Shield_Wizard",
-                    "Target_IntellectFortress"
+                    "Target_IntellectFortress",
+                    "Target_DispelMagic",
+                    "Shout_BeaconOfHope"
                 ]
             },
             "2": {
@@ -1773,7 +1777,8 @@
                     ""
                 ],
                 "Spells": [
-                    ""
+                    "Target_Counterspell",
+                    "Shout_AbsorbElements"
                 ]
             },
             "3": {
@@ -1796,12 +1801,12 @@
                 "Spells": [
                     "Projectile_AcidSplash",
                     "Shout_SwordBurst",
-                    "Projectile_IceKnife",
                     "Target_MistyStep",
                     "Target_SpiritualWeapon",
                     "Target_Web",
                     "Target_Summon_MudMephit",
-                    "Target_CreateWater"
+                    "Target_CreateWater",
+                    "Zone_CausticBrew"
                 ]
             },
             "2": {
@@ -1817,7 +1822,7 @@
                     "FocusedConjuration"
                 ],
                 "Spells": [
-                    ""
+                    "Target_ConjureElemental_Myrmidon_Fire"
                 ]
             }
         }
@@ -1831,11 +1836,10 @@
                     "DevilsSight"
                 ],
                 "Spells": [
-                    "Shout_SeeInvisibility",
-                    "Target_ShockingGrasp",
                     "Target_TollTheDead",
                     "Target_FaerieFire",
-                    "Target_Darkness"
+                    "Target_Darkness",
+                    "Target_FogCloud"
                 ]
             },
             "2": {
@@ -1843,7 +1847,7 @@
                     ""
                 ],
                 "Spells": [
-                    ""
+                    "Target_TrueSeeing"
                 ]
             },
             "3": {
@@ -1861,8 +1865,7 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "MAG_Psychic_MentalFatigue_Gloves_Passive",
-                    "Divination_School_Enchantment"
+                    "MAG_Psychic_MentalFatigue_Gloves_Passive"
                 ],
                 "Spells": [
                     "Target_MindSliver",
@@ -1876,7 +1879,7 @@
                     ""
                 ],
                 "Spells": [
-                    ""
+                    "Target_Confusion"
                 ]
             },
             "3": {
@@ -1884,7 +1887,7 @@
                     ""
                 ],
                 "Spells": [
-                    ""
+                    "Target_DominatePerson"
                 ]
             }
         }
@@ -1898,16 +1901,17 @@
                     "PotentCantrip"
                 ],
                 "Spells": [
-                    "Shout_AbsorbElements",
-                    "Target_DragonsBreath",
                     "Projectile_FireBolt",
+                    "Projectile_RayOfFrost",
                     "Zone_BurningHands",
-                    "Zone_RimesBindingIce"
+                    "Zone_RimesBindingIce",
+                    "Target_ShockingGrasp"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "EmpoweredEvocation",
+                    "WarCaster_OpportunitySpell"
                 ],
                 "Spells": [
                     ""
@@ -1928,7 +1932,7 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    ""
+
                 ],
                 "Spells": [
                     "Target_ImprovedMinorIllusion",
@@ -1972,7 +1976,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "MAG_Necromancy_Evasion"
+                    "MAG_Necromancy_Evasion",
+                    "CTY_NecromancyOfThay_ForbiddenKnowledge_Passive"
                 ],
                 "Spells": [
                     ""
@@ -1993,17 +1998,19 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "Goon_Target_Longstrider_Passive"
+                    "Goon_Target_Longstrider_Passive",
+                    "Resilient_Constitution"
                 ],
                 "Spells": [
                     "Target_Haste",
                     "Target_Slow",
-                    "Shout_FeatherFall"
+                    "Shout_FeatherFall",
+                    "Target_EnlargeReduce"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "Shapechanger"
                 ],
                 "Spells": [
                     ""
