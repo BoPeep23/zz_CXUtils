@@ -318,11 +318,11 @@
                     "FightingStyle_Dueling"
                 ],
                 "Spells": [
-                    "Projectile_BladeFlourish_Slashing",
                     "Zone_BladeFlourish_Slashing",
                     "Target_BladeFlourish_Defensive",
                     "Target_ViciousMockery",
-                    "Shout_MirrorImage"
+                    "Shout_MirrorImage",
+                    "Shout_ZephyrStrike"
                 ]
             },
             "2": {
@@ -382,16 +382,14 @@
         "PassiveName": "CX_Cleric_Boost",
         "Act": {
             "1": {
-                "ExtraPassives": [
-                    "ARP_ChannelDivinity_1"
-                ],
+                "ExtraPassives": [],
                 "Spells": [
                     "Projectile_Jump",
                     "Target_SacredFlame",
                     "Target_InflictWounds",
                     "Target_HealingWord",
                     "Shout_HealingWord_Mass",
-                    "Projectile_Moonflare"
+                    "Shout_HandOfRadiance"
                 ]
             },
             "2": {
@@ -423,7 +421,8 @@
                     "Target_Sleep",
                     "Target_CalmEmotions",
                     "Target_HypnoticPattern",
-                    "Target_MindSpike"
+                    "Target_MindSpike",
+                    "Target_MindSliver"
                 ]
             },
             "2": {
@@ -494,13 +493,14 @@
                     "Projectile_ChromaticOrb_Fire",
                     "Target_FaerieFire",
                     "Projectile_Fireball",
-                    "Projectile_Moonflare"
+                    "Projectile_Moonflare",
+                    "Target_GreenFlameBlade"
                 ]
             },
             "2": {
                 "ExtraPassives": [
                     "WardingFlare_Improved",
-                    "Divine_Strike_Life_Toggle"
+                    "Divine_Strike_Light_Toggle"
                 ],
                 "Spells": [
                     "Projectile_ScorchingRay"
@@ -594,7 +594,7 @@
                     "WarCaster_OpportunitySpell"
                 ],
                 "Spells": [
-                    "DestructiveWrath",
+                    "",
                     "Zone_Thunderwave",
                     "Zone_RimesBindingIce",
                     "Target_CallLightning"
@@ -602,7 +602,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "Divine_Strike_Tempest_Toggle"
+                    "Divine_Strike_Tempest_Toggle",
+                    "DestructiveWrath"
                 ],
                 "Spells": [
                     "Target_StormSphere",
@@ -809,7 +810,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "Indomitable_NPC"
+                    "Indomitable_NPC",
+                    ""
                 ],
                 "Spells": [
                     ""
@@ -1065,7 +1067,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "Resilient_Strength"
+                    "Resilient_Strength",
+                    "Goon_Summon_Potion_Healing_Greater_x1"
                 ],
                 "Spells": [
                     ""
@@ -1086,7 +1089,6 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ARP_ChannelOath_1",
                     "DivineHealth"
                 ],
                 "Spells": [
@@ -1116,8 +1118,8 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ARP_ChannelOath_1",
-                    "DarkDevotion"
+                    "DarkDevotion",
+                    "MAG_LegendaryProtection_Passive"
                 ],
                 "Spells": [
                     "Target_Smite_Divine",
@@ -1149,7 +1151,6 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ARP_ChannelOath_1",
                     "Sentinel_Attack"
                 ],
                 "Spells": [
@@ -1183,7 +1184,6 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ARP_ChannelOath_1",
                     "TouchOfDeath",
                     "Mod_MAG_Sarevok_OfChaos_Greatsword_Leeching_Passive"
                 ],
@@ -1357,7 +1357,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "Evasion"
                 ],
                 "Spells": [
                     ""
@@ -1452,7 +1452,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "MAG_DexteritySavingThrow_Evasion"
                 ],
                 "Spells": [
                     ""

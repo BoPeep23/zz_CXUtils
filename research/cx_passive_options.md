@@ -11,6 +11,9 @@ _Generated 2026-09-10 17:49 - Norbyte search returns the first 30 hits only; ver
 ## Generic
 
 ### `CX_Boss_Boost`  -  _boss_
+***What I want***: High-level abilities that many bosses already have, but aren't overly powered or too noticeably similar across bosses. For example, a generic "Magic Resistance" works on high-level bosses, but a specific buff that Gortash uses in Act 3 probably isn't suitable for other bosses.
+***What I want***: 
+
 _Currently in manager_ - passives: `MAG_Myrkulites_CircletOfMyrkul_Circlet_Passive`; spells: `AJ_Shout_ActionSurge_Emergency`
 
 **Passive candidates** (24 found, showing 18)
@@ -66,6 +69,8 @@ _Currently in manager_ - passives: `MAG_Myrkulites_CircletOfMyrkul_Circlet_Passi
   <br>`SpellType=Target`  `SpellProperties=GROUND:IF(not CharacterLevelGreaterThan(4)):Summon(d642d398-f349-4eab-b98c-a82cbda19918,Permanent,,,'CombatSummonStack',UNSUMMON_ABLE,RANGERS_COMPANION_BEAR,SHADOWCURSE_SUMMON_CHEC…`
 
 ### `CX_MiniBoss_Boost`  -  _boss_
+***What I want***: My assumption is that this is going to be applied to single, powerful enemies that might otherwise be a pushover for a larger group. However, this one is a bit tricky for me right now since I haven't seen many enemies with it. I really think I would just want to focus on stats that would bring one of these characters in line to survive one round against a party of four, at least.
+
 _Currently in manager_ - passives: `LOW_SharGrotto_Mirror_ConstitutionBoon_Passive`
 
 **Passive candidates** (9 found)
@@ -101,6 +106,8 @@ _Currently in manager_ - passives: `LOW_SharGrotto_Mirror_ConstitutionBoon_Passi
 - `Shout_Dreadful_Aspect` - **Let your darkest emotions burst forth as a menacing pulse to Frighten nearby enemies.**
 
 ### `CX_Magic_Boost`  -  _caster_
+***What I want***: Only for abilities that ALL casters could/should have. This should be a very short list (or possibly none at all, depending), as it will be applied to all spellcasters.
+
 _Currently in manager_ - spells: `Projectile_Jump`
 
 **Passive candidates** (8 found)
@@ -145,6 +152,8 @@ _Currently in manager_ - spells: `Projectile_Jump`
 - `Projectile_WhiteSporeCloud` - **Haste Spores**
 
 ### `CX_Martial_Boost`  -  _martial_
+***What I want***: This gets applied to a LOT of creatures - almost everything with spells it seems. I haven't gone through the full game yet but it's very prominent. I included just WeaponMaster for now, mostly because anyone who is using a "martial" should be able to use all their equipped weapons.
+
 _Currently in manager_ - passives: `WeaponMaster`; spells: `Projectile_Jump`
 
 **Passive candidates** (27 found, showing 18)
@@ -209,6 +218,8 @@ _Currently in manager_ - passives: `WeaponMaster`; spells: `Projectile_Jump`
 ## Barbarian
 
 ### `CX_Barbarian_Boost`  -  _martial_
+***What I want***: Generic abilities from the main Barbarian class, or other passives that fit within the themes of barbarians, ragers, heavy weapons, Reckless Attack, and other barbarian features.
+
 _Currently in manager_ - passives: `RageUnlock`; spells: `Projectile_Jump`, `Target_RecklessAttack`, `Target_Shove`
 
 **Passive candidates** (7 found)
@@ -246,6 +257,8 @@ _Currently in manager_ - passives: `RageUnlock`; spells: `Projectile_Jump`, `Tar
   <br>`SpellType=Shout`  `SpellProperties=AI_IGNORE:TriggerRandomCast(1,0,WildMagicBarbarian);IF(ClassLevelHigherOrEqualThan(1,'Barbarian') and not ClassLevelHigherOrEqualThan(9,'Barbarian')):ApplyStatus(RAGE,100,10);IF(Cl…`
 
 ### `CX_Barbarian_Berserker_Boost`  -  _martial_
+***What I want***: 
+
 _Currently in manager_ - passives: `MindlessRage`, `RageFrenzyUnlock`; spells: `Shout_Rage_Frenzy`
 
 **Passive candidates** (9 found)
@@ -284,6 +297,8 @@ _Currently in manager_ - passives: `MindlessRage`, `RageFrenzyUnlock`; spells: `
   <br>`SpellType=Target`  `SpellProperties=SetStatusDuration(INTIMIDATING_PRESENCE,2);SetStatusDuration(SELF,INTIMIDATING_PRESENCE_OWNER,2)`
 
 ### `CX_Barbarian_WildMagic_Boost`  -  _hybrid_
+***What I want***: 
+
 _Currently in manager_ - passives: `RageGiantUnlock`, `WildMagic`, `WildMagicRage`; spells: `Shout_Rage_WildMagic`
 
 **Passive candidates** (2 found)
@@ -314,7 +329,8 @@ _Currently in manager_ - passives: `RageGiantUnlock`, `WildMagic`, `WildMagicRag
 - `Shout_Rage_Totem_Bear` - **Rage: Bear Heart**
 - `Shout_Rage_Totem_Eagle` - **Rage: Eagle Heart**
 
-### `CX_Barbarian_Wildheart_Boost`  -  _martial_
+### `CX_Barbarian_Wildheart_Boost`  -  _martial_***What I want***: 
+
 _Currently in manager_ - passives: `MAG_ChargingTiger_RestoreMovement_Passive`, `TotemSpirit_Bear`; spells: `Shout_Rage_Totem_Bear`
 
 **Passive candidates** (15 found)
@@ -375,7 +391,8 @@ _Currently in manager_ - passives: `MAG_ChargingTiger_RestoreMovement_Passive`, 
 
 ## Bard
 
-### `CX_Bard_Boost`  -  _caster_
+### `CX_Bard_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `ARP_BardicInspiration_3`, `BardSpellcasting`, `BardicInspiration`, `Goon_Summon_Potion_Healing_x1`; spells: `Goon_Target_Longstrider_Passive`, `Projectile_Jump`, `Shout_HealingWord_Mass`, `Target_HealingWord`, `Target_Shatter`, `Target_ViciousMockery`
 
 **Passive candidates** (14 found)
@@ -427,7 +444,8 @@ _Currently in manager_ - passives: `ARP_BardicInspiration_3`, `BardSpellcasting`
 - `Target_Sleep_MindFlayer`
   <br>`SpellType=Target`
 
-### `CX_Bard_Lore_Boost`  -  _caster_
+### `CX_Bard_Lore_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `Background_Entertainer`, `CuttingWords`; spells: `Target_DissonantWhispers`, `Target_MindSliver`, `Target_MindWhip`
 
 **Passive candidates** (3 found)
@@ -464,7 +482,8 @@ _Currently in manager_ - passives: `Background_Entertainer`, `CuttingWords`; spe
 - `Target_Counterspell_Success` - **Nullify another creature's spell as a reaction. The spell must be 3rd Level or lower. If it is higher, you must succeed a Check to nullify it, the difficulty of which is based on the spell's Level.**
   <br>`SpellType=Target`
 
-### `CX_Bard_Swords_Boost`  -  _hybrid_
+### `CX_Bard_Swords_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `FightingStyle_Dueling`, `FightingStyle_TwoWeaponFighting`, `MAG_ArcaneTrickster_Ring_Passive`; spells: `Projectile_BladeFlourish_Slashing`, `Shout_MirrorImage`, `Target_BladeFlourish_Defensive`, `Target_ViciousMockery`, `Zone_BladeFlourish_Slashing`
 
 **Passive candidates** (3 found)
@@ -488,7 +507,8 @@ _Currently in manager_ - passives: `FightingStyle_Dueling`, `FightingStyle_TwoWe
   <br>`SpellSuccess=ApplyStatus(<em>VICIOUSMOCKERY</em>,100,1);DealDamage(LevelMapValue(D4Cantrip),Psychic,Magical)`
 - `Zone_BladeFlourish_Slashing` _(already in manager)_ - **Slashing Flourish (Melee)**
 
-### `CX_Bard_Valor_Boost`  -  _hybrid_
+### `CX_Bard_Valor_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `DualWielder_BonusAC`, `FightingStyle_Dueling`, `FightingStyle_TwoWeaponFighting`, `ModeratelyArmored`; spells: `Shout_BladeWard`, `Shout_HealingWord_Mass`, `Shout_MirrorImage`, `Target_FaerieFire`
 
 **Passive candidates** (16 found)
@@ -527,7 +547,8 @@ _Currently in manager_ - passives: `DualWielder_BonusAC`, `FightingStyle_Dueling
 
 ## Cleric
 
-### `CX_Cleric_Boost`  -  _caster_
+### `CX_Cleric_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `ARP_ChannelDivinity_1`; spells: `Projectile_Jump`, `Projectile_Moonflare`, `Shout_HealingWord_Mass`, `Target_HealingWord`, `Target_InflictWounds`, `Target_SacredFlame`
 
 **Passive candidates** (9 found)
@@ -567,7 +588,8 @@ _Currently in manager_ - passives: `ARP_ChannelDivinity_1`; spells: `Projectile_
 - `Target_MainHandAttack_GuardianOfFaith` - **Strike of the Guardian** | Channel the power of your deity in your sword strike to protect the cleric that brought you into being.
   <br>`SpellType=Target`  `SpellSuccess=DealDamage(20,Radiant,Magical);AI_IGNORE:DealDamage(SELF,20,Radiant,Magical)`
 
-### `CX_Cleric_Knowledge_Boost`  -  _caster_
+### `CX_Cleric_Knowledge_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `MAG_SpellSaveDC_Enchantment_Passive`; spells: `Target_CalmEmotions`, `Target_HypnoticPattern`, `Target_MindSpik`, `Target_Sleep`
 
 **Passive candidates** (2 found)
@@ -601,7 +623,8 @@ _Currently in manager_ - passives: `MAG_SpellSaveDC_Enchantment_Passive`; spells
 - `Target_CounterSpell_Mindflayer`
   <br>`SpellType=Target`
 
-### `CX_Cleric_Life_Boost`  -  _caster_
+### `CX_Cleric_Life_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `BlessedHealer`, `DiscipleOfLife`, `UND_SocietyOfBrilliance_PullingRing_Passive`; spells: `Shout_BladeWard`, `Shout_HealingWord_Mass`, `Shout_PreserveLife`, `Target_CureWounds`, `Target_LesserRestoration`, `Target_Sanctuary`
 
 **Passive candidates** (2 found)
@@ -630,7 +653,8 @@ _Currently in manager_ - passives: `BlessedHealer`, `DiscipleOfLife`, `UND_Socie
   <br>`SpellType=Teleportation`
 - `Shout_CursedTome_Seelie_Wildshape`
 
-### `CX_Cleric_Light_Boost`  -  _caster_
+### `CX_Cleric_Light_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `WardingFlare`, `WardingFlare_Improved`; spells: `Projectile_ChromaticOrb_Fire`, `Projectile_FireBolt`, `Projectile_Fireball`, `Projectile_Moonflare`, `Shout_RadianceOfTheDawn`, `Target_FlamingSphere`
 
 **Passive candidates** (2 found)
@@ -661,7 +685,8 @@ _Currently in manager_ - passives: `WardingFlare`, `WardingFlare_Improved`; spel
 - `Shout_RadianceOfTheDawn` _(already in manager)_ - **Radiance of the Dawn** | The sun's divine power dispels any magical darkness.
   <br>`SpellType=Shout`  `SpellSuccess=DealDamage(2d10+Level,Radiant,Magical)`  `SpellProperties=GROUND:SurfaceChange(Daylight)`
 
-### `CX_Cleric_Nature_Boost`  -  _caster_
+### `CX_Cleric_Nature_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `DampenElements`; spells: `Target_DampenElements_Interrupt`, `Target_Entangle`, `Target_PlantGrowth`, `Target_SpikeGrowth`, `Target_ThornWhip`
 
 **Passive candidates** (8 found)
@@ -701,7 +726,8 @@ _Currently in manager_ - passives: `DampenElements`; spells: `Target_DampenEleme
 - `Target_SpikeGrowth` _(already in manager)_
   <br>`SpellProperties=GROUND:CreateSurface(6,100,<em>SpikeGrowth</em>,true)`
 
-### `CX_Cleric_Trickery_Boost`  -  _caster_
+### `CX_Cleric_Trickery_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `Goon_Target_ShieldOfFaith_Passive`, `MAG_Poison_PoisonExposure_Gloves_Passive`; spells: `Projectile_RayOfSickness`, `Shout_CloakOfShadows`, `Shout_MirrorImage`, `Target_HoldPerson`, `Target_InvokeDuplicity`, `Target_PoisonSpray`
 
 **Passive candidates** (5 found)
@@ -742,7 +768,8 @@ _Currently in manager_ - passives: `Goon_Target_ShieldOfFaith_Passive`, `MAG_Poi
 - `Shout_WildMagic_Blur` - **Wild Magic: Blur**
   <br>`SpellProperties=ApplyStatus(<em>BLUR</em>,100,3)`
 
-### `CX_Cleric_Tempest_Boost`  -  _caster_
+### `CX_Cleric_Tempest_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `ElementalAdept_Lightning`, `WarCaster_OpportunitySpell`, `WrathOfTheStorm_Thunder_NPC`; spells: `DestructiveWrath`, `Target_CallLightning`, `Zone_RimesBindingIce`, `Zone_Thunderwave`
 
 **Passive candidates** (3 found)
@@ -771,7 +798,8 @@ _Currently in manager_ - passives: `ElementalAdept_Lightning`, `WarCaster_Opport
   <br>`SpellType=Target`  `SpellSuccess=DealDamage(3d10,Lightning,Magical)`  `SpellProperties=GROUND:ApplyStatus(SELF,CALL_LIGHTNING_TECHNICAL,100,10);GROUND:SurfaceChange(Electrify)`
 - `Zone_Thunderwave` _(already in manager)_ - **Thunderwave**
 
-### `CX_Cleric_War_Boost`  -  _hybrid_
+### `CX_Cleric_War_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `ExtraAttack`, `WarGodsBlessing`; spells: `Shout_GuidedStrike`, `Target_GreenFlameBlade`, `Target_Smite_Searing`, `Target_SpiritualWeapon`
 
 **Passive candidates** (7 found)
@@ -823,7 +851,8 @@ _Currently in manager_ - passives: `ExtraAttack`, `WarGodsBlessing`; spells: `Sh
 
 ## Druid
 
-### `CX_Druid_Boost`  -  _caster_
+### `CX_Druid_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `DEN_FaithwardenStaff_Passive`, `Goon_Shout_Shillelagh_Passive`, `MAG_Druid_Nature_Regeneration_Passive`; spells: `Projectile_Jump`, `Target_HealingWord`
 
 **Passive candidates** (7 found)
@@ -869,7 +898,8 @@ _Currently in manager_ - passives: `DEN_FaithwardenStaff_Passive`, `Goon_Shout_S
 - `Shout_WildShape_Combat_Owlbear`
   <br>`SpellType=Shout`
 
-### `CX_Druid_Land_Boost`  -  _caster_
+### `CX_Druid_Land_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `ARP_SpellSlot_2_1`; spells: `Projectile_AcidArrow`, `Projectile_ProduceFlame`, `Target_CallLightning`, `Target_Entangle`, `Target_Frostbite`, `Target_MistyStep`, `Target_ThornWhip`, `Zone_Thunderwave`
 
 **Passive candidates** (4 found)
@@ -905,7 +935,8 @@ _Currently in manager_ - passives: `ARP_SpellSlot_2_1`; spells: `Projectile_Acid
   <br>`SpellType=Zone`  `SpellSuccess=DealDamage(8d6,Lightning,Magical)`
 - `Shout_Stench_Ghast`
 
-### `CX_Druid_Moon_Boost`  -  _hybrid_
+### `CX_Druid_Moon_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `CombatWildShape`, `MAG_Druid_Wildshape_SpellResistance_Passive`, `WildStrike`, `WildStrike_2`; spells: `Projectile_Moonflare`, `Shout_WildShape_Bear_Polar_NPC`, `Target_ConjureAnimals_Container`, `Target_Moonbeam`
 
 **Passive candidates** (2 found)
@@ -943,7 +974,8 @@ _Currently in manager_ - passives: `CombatWildShape`, `MAG_Druid_Wildshape_Spell
 - `Shout_WildShape_Combat_Raven`
   <br>`SpellType=Shout`
 
-### `CX_Druid_Spores_Boost`  -  _hybrid_
+### `CX_Druid_Spores_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `MAG_Druid_Spore_ExtraSpores_Passive`, `MAG_Druid_Spore_NecroticSpellcasting_Passive`, `ShadowDruid_PoisonClaws`; spells: `Projectile_RayOfSickness`, `Shout_SymbioticEntity`, `Target_ChillTouch`, `Target_InflictWounds`, `Target_VampiricTouch`, `Target_WitherAndBloom`
 
 **Passive candidates** (2 found)
@@ -973,7 +1005,8 @@ _Currently in manager_ - passives: `MAG_Druid_Spore_ExtraSpores_Passive`, `MAG_D
 
 ## Fighter
 
-### `CX_Fighter_Boost`  -  _martial_
+### `CX_Fighter_Boost`  -  _martial_***What I want***: 
+
 _Currently in manager_ - passives: `FightingStyle_Dueling`, `FightingStyle_GreatWeaponFighting`, `FightingStyle_Protection`, `FightingStyle_TwoWeaponFighting`, `Indomitable_NPC`; spells: `Projectile_Jump`, `Shout_ActionSurge`, `Shout_SecondWind`, `Target_Shove_Trip`
 
 **Passive candidates** (20 found, showing 18)
@@ -1009,7 +1042,8 @@ _Currently in manager_ - passives: `FightingStyle_Dueling`, `FightingStyle_Great
 - `Shout_SecondWind` _(already in manager)_ - **Second Wind** | Draw on your stamina to heal yourself.
   <br>`SpellType=Shout`  `SpellProperties=RegainHitPoints(1d10+ClassLevel(Fighter))`
 
-### `CX_Fighter_BattleMaster_Boost`  -  _martial_
+### `CX_Fighter_BattleMaster_Boost`  -  _martial_***What I want***: 
+
 _Currently in manager_ - passives: `ImprovedCombatSuperiority`, `MenacingAttack`, `Riposte`, `SweepingAttack`
 
 **Passive candidates** (14 found)
@@ -1066,7 +1100,8 @@ _Currently in manager_ - passives: `ImprovedCombatSuperiority`, `MenacingAttack`
 - `Zone_SweepingAttack` - **Sweeping Attack** | Swing your weapon in a rapid, sweeping arc to attack multiple enemies at once.
   <br>`SpellType=Zone`  `SpellSuccess=DealDamage(LevelMapValue(SuperiorityDie), MainWeaponDamageType);`  `SpellProperties=GROUND:ExecuteWeaponFunctors(MainHand);`
 
-### `CX_Fighter_Champion_Boost`  -  _martial_
+### `CX_Fighter_Champion_Boost`  -  _martial_***What I want***: 
+
 _Currently in manager_ - passives: `Goon_Impeded_Movement_2`, `MAG_Fighter_ActionSurge_AttackBonus_Gloves_Passive`
 
 **Passive candidates** (4 found)
@@ -1109,7 +1144,8 @@ _Currently in manager_ - passives: `Goon_Impeded_Movement_2`, `MAG_Fighter_Actio
 - `Rush_SpringAttack`
   <br>`SpellType=<em>Rush</em>`
 
-### `CX_Fighter_EldritchKnight_Boost`  -  _hybrid_
+### `CX_Fighter_EldritchKnight_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `EldritchStrike`, `FinishingStrike`, `Mod_UNI_Bow_SpellslotRecharge_Passive`; spells: `Shout_Shield_Wizard`, `Target_BoomingBlade`, `Target_HideousLaughter`
 
 **Passive candidates** (3 found)
@@ -1148,7 +1184,8 @@ _Currently in manager_ - passives: `EldritchStrike`, `FinishingStrike`, `Mod_UNI
 
 ## Monk
 
-### `CX_Monk_Boost`  -  _martial_
+### `CX_Monk_Boost`  -  _martial_***What I want***: 
+
 _Currently in manager_ - passives: `DeflectMissiles`, `FlurryOfBlowsUnlock`, `Goon_Increased_Movement_2`, `MartialArts_BonusUnarmedStrike`, `MartialArts_UnarmedDamage`, `Mobile_DashAcrossDifficultTerrain`, `SecondStoryWork_Jumping`, `UnarmoredDefense_Monk`; spells: `Projectile_Jump`, `Target_Shove_Trip`, `Target_UnarmedStrike_Monk`
 
 **Passive candidates** (9 found)
@@ -1179,7 +1216,8 @@ _Currently in manager_ - passives: `DeflectMissiles`, `FlurryOfBlowsUnlock`, `Go
 - `Target_StunningStrike_Unarmed` - **Stunning Strike (Unarmed)**
   <br>`SpellType=Target`  `SpellSuccess=IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(STUNNED,100,1);DealDamage(UnarmedDamage , Bludgeoning)`
 
-### `CX_Monk_FourElements_Boost`  -  _hybrid_
+### `CX_Monk_FourElements_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `ARP_KiPoint_2`, `MAG_BG_OfAges_Flail_Passive`, `MAG_Monk_Armor_WindStance_Passive`
 
 **Passive candidates** (0 found)
@@ -1205,7 +1243,8 @@ _Currently in manager_ - passives: `ARP_KiPoint_2`, `MAG_BG_OfAges_Flail_Passive
 - `Zone_BurningHands_Monk` - **Sweeping Cinder Strike** | Expel fire from your outstretched hands and ignite anything flammable.
   <br>`SpellType=Zone`  `SpellSuccess=DealDamage(LevelMapValue(BurningHands_Monk), Fire,Magical)`  `SpellProperties=GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt);TARGET:IF(Item()):ApplyStatus(BURNING,100,2);ApplyStatus(SELF,MARTIAL_ARTS_BONUS_UNARMED_STRIKE,100,1)`
 
-### `CX_Monk_OpenHand_Boost`  -  _martial_
+### `CX_Monk_OpenHand_Boost`  -  _martial_***What I want***: 
+
 _Currently in manager_ - passives: `MAG_Monk_Armor_MountainStance_Passive`, `MAG_Monk_Magic_ArmorEx_Passive`, `StunningStrike`
 
 **Passive candidates** (0 found)
@@ -1221,7 +1260,8 @@ _Currently in manager_ - passives: `MAG_Monk_Armor_MountainStance_Passive`, `MAG
 - `Target_OpenHandTechnique_Push` - **Flurry of Blows: Push** | Punch twice in quick succession and possibly push the target [1] away.
   <br>`SpellType=Target`  `SpellSuccess=DealDamage(UnarmedDamage , Bludgeoning);Cast2[DealDamage(UnarmedDamage , Bludgeoning);IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):Force(5)]`
 
-### `CX_Monk_Shadow_Boost`  -  _hybrid_
+### `CX_Monk_Shadow_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `MAG_Monk_Armor_MountainStance_Passive`, `MAG_Monk_Martial_Lethality_Passive`, `SCL_MastiffPoachers_Ring_Passive`, `ShadowArts_MinorIllusion`, `UND_Justiciar_ChainShirt_Magic_Passive`
 
 **Passive candidates** (1 found)
@@ -1257,7 +1297,8 @@ _Currently in manager_ - passives: `MAG_Monk_Armor_MountainStance_Passive`, `MAG
 
 ## Paladin
 
-### `CX_Paladin_Boost`  -  _hybrid_
+### `CX_Paladin_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `FightingStyle_Dueling`, `FightingStyle_GreatWeaponFighting`, `Goon_Summon_Potion_Healing_x1`, `Sentinel_OpportunityAdvantage`; spells: `Projectile_Jump`, `Shout_DivineFavor`, `Shout_Smite_`
 
 **Passive candidates** (1 found)
@@ -1290,7 +1331,8 @@ _Currently in manager_ - passives: `FightingStyle_Dueling`, `FightingStyle_Great
   <br>`SpellType=Target`  `SpellProperties=ApplyStatus(SHIELD_OF_FAITH,100,-1)`
 - `Target_VoiceOfCommand` - **Voice of Command** | Command an ally i
 
-### `CX_Paladin_Ancients_Boost`  -  _hybrid_
+### `CX_Paladin_Ancients_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `ARP_ChannelOath_1`, `DivineHealth`; spells: `Shout_HealingRadiance`
 
 **Passive candidates** (0 found)
@@ -1326,7 +1368,8 @@ _Currently in manager_ - passives: `ARP_ChannelOath_1`, `DivineHealth`; spells: 
 - `Target_MistyStep_Shadow_TEST`
   <br>`SpellType=Target`
 
-### `CX_Paladin_Devotion_Boost`  -  _hybrid_
+### `CX_Paladin_Devotion_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `ARP_ChannelOath_1`, `DarkDevotion`, `Goon_Aura_of_Devotion_Passive`; spells: `Shout_SacredWeapon`, `Target_Bless`, `Target_HolyRebuke`, `Target_Smite_Divine`
 
 **Passive candidates** (0 found)
@@ -1347,7 +1390,8 @@ _Currently in manager_ - passives: `ARP_ChannelOath_1`, `DarkDevotion`, `Goon_Au
 - `Shout_SacredWeapon` _(already in manager)_ - **Sacred Weapon** | Turn your weapon into a Sacred Weapon. It has a higher chance of hitting, and emits a bright light.
   <br>`SpellType=Shout`  `SpellProperties=ApplyEquipmentStatus(MainHand, SACRED_WEAPON,100, 10); AI_ONLY:ApplyStatus(AI_HELPER_BUFF_LARGE,100,10)`
 
-### `CX_Paladin_Vengeance_Boost`  -  _hybrid_
+### `CX_Paladin_Vengeance_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `ARP_ChannelOath_1`, `Goon_Aura_of_Protection_Passive`, `Sentinel_Attack`; spells: `Target_HoldPerson`, `Target_HuntersMark`, `Target_Smite_Wrathful`, `Target_VowOfEnmity`
 
 **Passive candidates** (1 found)
@@ -1382,7 +1426,8 @@ _Currently in manager_ - passives: `ARP_ChannelOath_1`, `Goon_Aura_of_Protection
 - `Target_MistyStep_Free`
   <br>`SpellType=Target`  `SpellProperties=GROUND:TeleportSource();GROUND:RemoveStatus(SELF,MISTY_ESCAPE_INVISIBLE)`
 
-### `CX_Paladin_Oathbreaker_Boost`  -  _hybrid_
+### `CX_Paladin_Oathbreaker_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `ARP_ChannelOath_1`, `Goon_Aura_of_Hate_Passive`, `Mod_MAG_Sarevok_OfChaos_Greatsword_Leeching_Passive`, `TouchOfDeath`; spells: `Shout_Dreadful_Aspect`, `Shout_HellishRebuke`, `Shout_SpiritShroud`, `Target_ControlUndead`, `Target_SummonShadowspawn`
 
 **Passive candidates** (1 found)
@@ -1422,7 +1467,8 @@ _Currently in manager_ - passives: `ARP_ChannelOath_1`, `Goon_Aura_of_Hate_Passi
 
 ## Ranger
 
-### `CX_Ranger_Boost`  -  _hybrid_
+### `CX_Ranger_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `CrossbowExpert_Wounding`, `FightingStyle_Archery`; spells: `Projectile_Jump`
 
 **Passive candidates** (24 found, showing 18)
@@ -1477,7 +1523,8 @@ _Currently in manager_ - passives: `CrossbowExpert_Wounding`, `FightingStyle_Arc
 - `Target_Volley` - **Volley**
 - `Zone_ConjureBarrage_Melee` - **Channel your weapon's essence into a destructive, widespread volley.**
 
-### `CX_Ranger_BeastMaster_Boost`  -  _hybrid_
+### `CX_Ranger_BeastMaster_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `CompanionsBond`, `NaturalExplorer_BeastTamer`; spells: `Shout_BladeWard`, `Shout_ZephyrStrike`, `Target_HealingWord`, `Target_RangersCompanion`, `Target_SummonBeast`
 
 **Passive candidates** (2 found)
@@ -1514,7 +1561,8 @@ _Currently in manager_ - passives: `CompanionsBond`, `NaturalExplorer_BeastTamer
 - `Target_FindFamiliar_Ritual`
   <br>`SpellType=Target`
 
-### `CX_Ranger_GloomStalker_Boost`  -  _hybrid_
+### `CX_Ranger_GloomStalker_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `DevilsSight`, `MAG_Shadow_Blinding_Bow_Passive`; spells: `Shout_AbsorbElements`, `Target_Darkness`, `Target_MistyStep`
 
 **Passive candidates** (3 found)
@@ -1546,7 +1594,8 @@ _Currently in manager_ - passives: `DevilsSight`, `MAG_Shadow_Blinding_Bow_Passi
 - `Shout_WildMagic_Fog`
   <br>`SpellProperties=GROUND:CreateSurface(6,3,<em>FogCloud</em>)`
 
-### `CX_Ranger_Hunter_Boost`  -  _hybrid_
+### `CX_Ranger_Hunter_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `HordeBreaker`, `MAG_BonusAttack_AgainstMarked_Passive`, `StalkersFlurry`; spells: `Projectile_HailOfThorns`, `Target_HuntersMark`, `Target_Web`
 
 **Passive candidates** (6 found)
@@ -1580,7 +1629,8 @@ _Currently in manager_ - passives: `HordeBreaker`, `MAG_BonusAttack_AgainstMarke
 
 ## Rogue
 
-### `CX_Rogue_Boost`  -  _martial_
+### `CX_Rogue_Boost`  -  _martial_***What I want***: 
+
 _Currently in manager_ - passives: `Assassinate_Initiative`, `SneakAttack_Unlock`; spells: `Projectile_Jump`, `Projectile_SneakAttack`, `Shout_Disengage_CunningAction`, `Target_SneakAttack`
 
 **Passive candidates** (10 found)
@@ -1629,7 +1679,8 @@ _Currently in manager_ - passives: `Assassinate_Initiative`, `SneakAttack_Unlock
 - `Shout_Hide_DreadAmbusher` - **Dread Ambusher: Hide**
   <br>`SpellType=Shout`
 
-### `CX_Rogue_ArcaneTrickster_Boost`  -  _hybrid_
+### `CX_Rogue_ArcaneTrickster_Boost`  -  _hybrid_***What I want***: 
+
 _Currently in manager_ - passives: `Goon_Target_Longstrider_Passive`, `MageHandLegerdemain`; spells: `Shout_Shield_Wizard`, `Target_BoomingBlade`, `Target_CloudOfDaggers`, `Target_HideousLaughter`, `Target_MageHand`
 
 **Passive candidates** (4 found)
@@ -1663,7 +1714,8 @@ _Currently in manager_ - passives: `Goon_Target_Longstrider_Passive`, `MageHandL
 - `Shout_SeeInvisibility` - **See Invisibility**
 - `Shout_SeeInvisibility_ThirdEye` - **Third Eye: See Invisibility**
 
-### `CX_Rogue_Assassin_Boost`  -  _martial_
+### `CX_Rogue_Assassin_Boost`  -  _martial_***What I want***: 
+
 _Currently in manager_ - passives: `Assassinate_Ambush`, `Assassinate_Resource`, `UND_ServantOfBoooal`
 
 **Passive candidates** (3 found)
@@ -1684,7 +1736,8 @@ _Currently in manager_ - passives: `Assassinate_Ambush`, `Assassinate_Resource`,
 - `Shout_HideInPlainSight` - **Hide in Plain Sight**
 - `Shout_Inkblot` - **Create a cloud of magical darkness and immediately attempt to Hide.**
 
-### `CX_Rogue_Thief_Boost`  -  _martial_
+### `CX_Rogue_Thief_Boost`  -  _martial_***What I want***: 
+
 _Currently in manager_ - passives: `FastHands`, `GOB_PainPriest_Dagger_Passive`, `MAG_BarbMonk_Dexterity_Passive`
 
 **Passive candidates** (4 found)
@@ -1725,7 +1778,8 @@ _Currently in manager_ - passives: `FastHands`, `GOB_PainPriest_Dagger_Passive`,
 
 ## Sorcerer
 
-### `CX_Sorcerer_Boost`  -  _caster_
+### `CX_Sorcerer_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `Goon_Target_MageArmor_Passive`; spells: `Projectile_Jump`
 
 **Passive candidates** (10 found)
@@ -1770,7 +1824,8 @@ _Currently in manager_ - passives: `Goon_Target_MageArmor_Passive`; spells: `Pro
 - `Projectile_MagicMissile_MindFlayer`
   <br>`SpellType=Projectile`
 
-### `CX_Sorcerer_DraconicBloodline_Boost`  -  _caster_
+### `CX_Sorcerer_DraconicBloodline_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `DraconicResilience`; spells: `Projectile_IceKnife`, `Projectile_RayOfSickness`, `Projectile_WitchBolt`, `Zone_BurningHands`, `Zone_CausticBrew`
 
 **Passive candidates** (19 found, showing 18)
@@ -1833,7 +1888,8 @@ _Currently in manager_ - passives: `DraconicResilience`; spells: `Projectile_Ice
 - `Projectile_Fly_DragonWings`
   <br>`SpellType=Projectile`
 
-### `CX_Sorcerer_WildMagic_Boost`  -  _caster_
+### `CX_Sorcerer_WildMagic_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `TidesOfChaos`, `WildMagic`; spells: `Target_ChaosBolt`
 
 **Passive candidates** (4 found)
@@ -1904,7 +1960,8 @@ _Currently in manager_ - passives: `TidesOfChaos`, `WildMagic`; spells: `Target_
 
 ## Warlock
 
-### `CX_Warlock_Boost`  -  _caster_
+### `CX_Warlock_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `AgonizingBlast`, `MAG_Zhentarim_Demonspirit_Gloves_Passive`; spells: `Projectile_EldritchBlast`, `Projectile_Jump`, `Target_Hex`, `Target_SummonShadowspawn`
 
 **Passive candidates** (14 found)
@@ -1963,7 +2020,8 @@ _Currently in manager_ - passives: `AgonizingBlast`, `MAG_Zhentarim_Demonspirit_
 - `Shout_PactOfTheBlade_Hexblade_Maul` - **Pact of the Blade: Maul** | Summon a maul.
   <br>`SpellType=Shout`  `SpellProperties=SummonInInventory(b92fcaf1-2895-4faa-b952-1d21bf94acba,Permanent,1,true,true,true,,,PactBlade,HEXBLADE_BIND);ApplyStatus(SELF,HEXBLADE_BIND_TECHNICAL,100,-1);`
 
-### `CX_Warlock_Archfey_Boost`  -  _caster_
+### `CX_Warlock_Archfey_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `BeguilingDefenses`, `EldritchSpear`, `FeyAncestry`, `FeyTouched_Charisma`, `MaddeningHex`, `MistyEscape`, `PactOfTheChain`; spells: `Goon_Target_Invisibility_Greater_Resource_1`, `Shout_Blink`, `Target_CalmEmotions`, `Target_Sleep`
 
 **Passive candidates** (3 found)
@@ -2001,7 +2059,8 @@ _Currently in manager_ - passives: `BeguilingDefenses`, `EldritchSpear`, `FeyAnc
 - `Target_MistyStep_Free`
   <br>`SpellType=Target`  `SpellProperties=GROUND:TeleportSource();GROUND:RemoveStatus(SELF,MISTY_ESCAPE_INVISIBLE)`
 
-### `CX_Warlock_Fiend_Boost`  -  _caster_
+### `CX_Warlock_Fiend_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `DarkOnesBlessing`, `DevilsSight`, `GraspOfHadar`, `NPC_SummonGildedHellsboar`; spells: `Projectile_Fireball`, `Projectile_ScorchingRay`, `Target_Confusion`, `Target_ORI_Wyll_SummonCambion`, `Zone_BurningHands`
 
 **Passive candidates** (3 found)
@@ -2034,7 +2093,8 @@ _Currently in manager_ - passives: `DarkOnesBlessing`, `DevilsSight`, `GraspOfHa
 - `Zone_BurningHands` _(already in manager)_ - **Burning Hands** | Each flammable target is hit with [1].
   <br>`SpellType=Zone`  `SpellSuccess=DealDamage(3d6, Fire,Magical)`  `SpellProperties=GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt);TARGET:IF(Item()):ApplyStatus(BURNING,100,2);`
 
-### `CX_Warlock_GreatOldOne_Boost`  -  _caster_
+### `CX_Warlock_GreatOldOne_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `BookOfAncientSecrets`, `ClarifiedMortality`, `EntropicWard`, `LanceOfLethargy`, `Thought_Shield_Psychic_Reflection`, `Thought_Shield_Psychic_Resistance`; spells: `Target_BestowCurse`, `Target_BlackTentacles`, `Target_DissonantWhispers`, `Target_DominatePerson`, `Target_HideousLaughter`
 
 **Passive candidates** (1 found)
@@ -2059,7 +2119,8 @@ _Currently in manager_ - passives: `BookOfAncientSecrets`, `ClarifiedMortality`,
 
 ## Wizard
 
-### `CX_Wizard_Boost`  -  _caster_
+### `CX_Wizard_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `Goon_Target_MageArmor_Passive`, `MagicResistance`; spells: `Projectile_ChromaticOrb`, `Projectile_Jump`
 
 **Passive candidates** (0 found)
@@ -2089,7 +2150,8 @@ _Currently in manager_ - passives: `Goon_Target_MageArmor_Passive`, `MagicResist
 - `Target_Counterspell_Failure` - **Failed Counterspell**
   <br>`SpellType=Target`
 
-### `CX_Wizard_Abjuration_Boost`  -  _caster_
+### `CX_Wizard_Abjuration_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `ArcaneWard`, `ArcaneWard_Cast`, `ArcaneWard_Damage`, `Divination_School_Abjuration`; spells: `Shout_AbsorbElements`, `Shout_BladeWard`, `Shout_Shield_Wizard`, `Target_IntellectFortress`
 
 **Passive candidates** (7 found)
@@ -2129,7 +2191,8 @@ _Currently in manager_ - passives: `ArcaneWard`, `ArcaneWard_Cast`, `ArcaneWard_
 - `Target_LesserRestoration` - **Lesser Restoration** | Cure a creature from disease, poison, paralysis or blindness.
   <br>`SpellType=Target`  `SpellProperties=RemoveStatus(SG_Poisoned);RemoveStatus(SG_Disease);RemoveStatus(SG_Paralyzed);RemoveStatus(SG_Blinded);RemoveStatus(ASTARION_WEAK)`
 
-### `CX_Wizard_Conjuration_Boost`  -  _caster_
+### `CX_Wizard_Conjuration_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `FocusedConjuration`; spells: `Projectile_AcidSplash`, `Projectile_IceKnife`, `Shout_SwordBurst`, `Target_CreateWater`, `Target_MistyStep`, `Target_SpiritualWeapon`, `Target_Summon_MudMephit`, `Target_Web`
 
 **Passive candidates** (1 found)
@@ -2166,7 +2229,8 @@ _Currently in manager_ - passives: `FocusedConjuration`; spells: `Projectile_Aci
 - `Target_MistyStep_Elemental_Fire`
   <br>`SpellType=Target`
 
-### `CX_Wizard_Divination_Boost`  -  _caster_
+### `CX_Wizard_Divination_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `CAMP_Volo_ErsatzEye`, `DevilsSight`; spells: `Shout_SeeInvisibility`, `Target_Darkness`, `Target_FaerieFire`, `Target_ShockingGrasp`, `Target_TollTheDead`
 
 **Passive candidates** (26 found, showing 18)
@@ -2214,7 +2278,8 @@ _Currently in manager_ - passives: `CAMP_Volo_ErsatzEye`, `DevilsSight`; spells:
 - `Zone_Fear` - **Fear**
 - `Shout_FrightfulPresence_Dragon_Skeletal` - **Exude terror, instilling Fear in your foes.**
 
-### `CX_Wizard_Enchantment_Boost`  -  _caster_
+### `CX_Wizard_Enchantment_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `Divination_School_Enchantment`, `MAG_Psychic_MentalFatigue_Gloves_Passive`; spells: `Target_HoldPerson`, `Target_MindSliver`, `Target_MindWhip`, `Target_ViciousMockery`
 
 **Passive candidates** (2 found)
@@ -2250,7 +2315,8 @@ _Currently in manager_ - passives: `Divination_School_Enchantment`, `MAG_Psychic
 - `Target_HoldPerson` _(already in manager)_ - **Hold Person** | Hold a humanoid enemy still. They can't move, act or react. Attacks from within [1] are always Critical Hits.
   <br>`SpellType=Target`  `SpellSuccess=ApplyStatus(HOLD_PERSON,100,10)`
 
-### `CX_Wizard_Evocation_Boost`  -  _caster_
+### `CX_Wizard_Evocation_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `PotentCantrip`, `WarCaster_OpportunitySpell`; spells: `Projectile_FireBolt`, `Shout_AbsorbElements`, `Target_DragonsBreath`, `Zone_BurningHands`, `Zone_RimesBindingIce`
 
 **Passive candidates** (4 found)
@@ -2277,7 +2343,8 @@ _Currently in manager_ - passives: `PotentCantrip`, `WarCaster_OpportunitySpell`
   <br>`SpellType=Zone`  `SpellSuccess=DealDamage(8d6,Lightning,Magical)`
 - `Zone_Thunderwave` - **Thunderwave**
 
-### `CX_Wizard_Illusion_Boost`  -  _caster_
+### `CX_Wizard_Illusion_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - spells: `Shout_Blur`, `Shout_MirrorImage`, `Shout_ShadowBlade`, `Target_ImprovedMinorIllusion`, `Target_Silence`
 
 **Passive candidates** (2 found)
@@ -2311,7 +2378,8 @@ _Currently in manager_ - spells: `Shout_Blur`, `Shout_MirrorImage`, `Shout_Shado
 - `Target_Invisibility`
   <br>`SpellProperties=AI_IGNORE:ApplyStatus(<em>INVISIBILITY</em>,100,10);AI_ONLY:ApplyStatus(<em>INVISIBILITY</em>,100,2)`
 
-### `CX_Wizard_Necromancy_Boost`  -  _caster_
+### `CX_Wizard_Necromancy_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `GrimHarvest`, `MAG_Necromancy_Evasion`, `Reaper`; spells: `Target_ChillTouch`, `Target_SappingSting`, `Target_TollTheDead`
 
 **Passive candidates** (2 found)
@@ -2349,7 +2417,8 @@ _Currently in manager_ - passives: `GrimHarvest`, `MAG_Necromancy_Evasion`, `Rea
 - `Target_Devour_Ghoul_AnimateDead` - **Devour** | Bite a knocked out, prone or sleeping target, and deal [1]. Heal that many hit points.
   <br>`SpellType=Target`  `SpellSuccess=DealDamage(max(1,3d10+UnarmedMeleeAbilityModifier),Slashing);RegainHitPoints(SELF,DamageDone,Undead)`
 
-### `CX_Wizard_Transmutation_Boost`  -  _caster_
+### `CX_Wizard_Transmutation_Boost`  -  _caster_***What I want***: 
+
 _Currently in manager_ - passives: `Goon_Target_Longstrider_Passive`; spells: `Shout_FeatherFall`, `Target_Haste`, `Target_Slow`
 
 **Passive candidates** (1 found)
