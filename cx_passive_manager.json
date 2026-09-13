@@ -1971,7 +1971,8 @@
                 "Spells": [
                     "Target_TollTheDead",
                     "Target_ChillTouch",
-                    "Target_SappingSting"
+                    "Target_SappingSting",
+                    "Projectile_LarlochsMinorDrain"
                 ]
             },
             "2": {
@@ -1980,7 +1981,7 @@
                     "CTY_NecromancyOfThay_ForbiddenKnowledge_Passive"
                 ],
                 "Spells": [
-                    ""
+                    "Target_AnimateDead"
                 ]
             },
             "3": {
