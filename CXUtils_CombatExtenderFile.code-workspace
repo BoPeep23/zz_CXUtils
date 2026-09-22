@@ -4,10 +4,15 @@
 			"path": "."
 		},
 		{
-			"path": "../../AppData/Local/Larian Studios/Baldur's Gate 3/Script Extender"
+			"path": "../../source/repos/bg3-mod-extraction-utils"
 		},
 		{
-			"path": "../../source/repos/bg3-mod-extraction-utils"
+			"name": "BG3 (Program Files Installation)",
+			"path": "../../../../Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3"
+		},
+		{
+			"name": "BG3 (AppData Installation)",
+			"path": "../../AppData/Local/Larian Studios/Baldur's Gate 3"
 		}
 	],
 	"settings": {
