@@ -1,11 +1,46 @@
 {
     "Overrides": {
-        "S_UND_PetrifiedDrow_Spectator_39ff8241-fadd-4fbe-ab89-fc5a8b7638a0": {
+        "EO_SabreTooth1_14a87b00-1b2a-4dfa-9062-8df3016fc7f7": {
             "Passives": [
-                "Goon_AC_Debuff_2",
-                "Goon_Slashing_Vulnerable",
-                "AJ_RM"
-            ]
+                "Goon_AC_Debuff_5"
+            ],
+            "HealthOverride": 1
+        },
+        "EO_SabreTooth2_3129e3bd-0ef3-4ea7-9bb6-577cf78fcde8": {
+            "Passives": [
+                "Goon_AC_Debuff_5"
+            ],
+            "HealthOverride": 1
+        },
+        "MMM_MOUNTAINGOBS_10a57eba-31b6-4d1c-b4cb-30a997f15408": {
+            "Passives": [
+                "Goon_AC_Debuff_5"
+            ],
+            "HealthOverride": 1
+        },
+        "MMM_MOUNTAINGOBS_567f86aa-33fe-4539-8f5e-27e991daafa8": {
+            "Passives": [
+                "Goon_AC_Debuff_5"
+            ],
+            "HealthOverride": 1
+        },
+        "MMM_MOUNTAINGOBS_5c6525c1-a91d-4d7c-90da-84350bff1a27": {
+            "Passives": [
+                "Goon_AC_Debuff_5"
+            ],
+            "HealthOverride": 1
+        },
+        "MMM_MOUNTAINGOBS_68304a4f-95ae-4a67-8626-5daf30725d5e": {
+            "Passives": [
+                "Goon_AC_Debuff_5"
+            ],
+            "HealthOverride": 1
+        },
+        "MMM_MOUNTAINGOBS_b0483404-6331-47a7-bdbf-6ce4cb4248f7": {
+            "Passives": [
+                "Goon_AC_Debuff_5"
+            ],
+            "HealthOverride": 1
         }
     }
 }

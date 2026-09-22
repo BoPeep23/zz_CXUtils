@@ -1,3 +1,8 @@
 {
-    "Clones": {}
+    "Clones": {
+        "EO_SabreTooth2_3129e3bd-0ef3-4ea7-9bb6-577cf78fcde8": {
+            "DisplayName": "Large Gremishka",
+            "Template": "S_CRE_Gremishka_Large_004_49a1a8bc-9578-4ab0-b9bf-9d2870e090f2"
+        }
+    }
 }
