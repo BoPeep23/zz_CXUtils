@@ -1,3 +1,5 @@
 archive/
 dryrun/*
 !dryrun/.gitkeep
+research/norbyte_harvest/cache
+research/norbyte_harvest/__pycache__
