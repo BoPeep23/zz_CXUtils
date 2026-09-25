@@ -31821,6 +31821,23 @@
             "LockBlock": false
         },
         {
+            "Handle": "Adept of the Absolute",
+            "FullGuid": "S_SCL_Entrance_DeadCultist_b53897a5-8e34-46f4-8810-577c15ecc2de",
+            "Act": "2",
+            "Location": "11_SHADOWLANDS_GRYMFORGE_DOOR",
+            "Type": "",
+            "SubType": "",
+            "MonsterArchetype": "",
+            "Corpse": true,
+            "Notes": "",
+            "CloneDisplayName": "",
+            "CloneTemplateGuid": "",
+            "LockStaticModifications": false,
+            "LockRandomModifications": false,
+            "LockInformation": false,
+            "LockBlock": false
+        },
+        {
             "Handle": "Raven",
             "FullGuid": "S_SCL_ServantOfTheRaven_Raven_3e4d4ec4-e687-42dd-8149-47cf10a42b39",
             "Act": "2",
