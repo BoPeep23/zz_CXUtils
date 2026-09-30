@@ -559,12 +559,10 @@
                     "MAG_Poison_PoisonExposure_Gloves_Passive"
                 ],
                 "Spells": [
-                    "Shout_CloakOfShadows",
                     "Target_PoisonSpray",
                     "Shout_MirrorImage",
                     "Target_HoldPerson",
-                    "Projectile_ChromaticOrb_Poison",
-                    "Projectile_Potion_Destroy_Invisibility"
+                    "Projectile_ChromaticOrb_Poison"
                 ]
             },
             "2": {
@@ -1061,8 +1059,7 @@
                     "Goon_Summon_Potion_Healing_x1"
                 ],
                 "Spells": [
-                    "Projectile_Jump",
-                    "Shout_DivineFavor"
+                    "Projectile_Jump"
                 ]
             },
             "2": {
@@ -1252,11 +1249,8 @@
                     "NaturalExplorer_BeastTamer"
                 ],
                 "Spells": [
-                    "Shout_BladeWard",
-                    "Target_SummonBeast",
                     "Target_HealingWord",
-                    "Target_RangersCompanion",
-                    "Shout_ZephyrStrike"
+                    "Target_HuntersMark"
                 ]
             },
             "2": {
