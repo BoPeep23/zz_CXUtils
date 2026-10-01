@@ -1,46 +1,13 @@
 {
     "Overrides": {
-        "EO_SabreTooth1_14a87b00-1b2a-4dfa-9062-8df3016fc7f7": {
-            "Passives": [
-                "Goon_AC_Debuff_5"
-            ],
-            "HealthOverride": 1
+        "PUZ_SHA_Shadowquake_Character_000_0781bbf9-e1cb-4487-a230-6b9a46f89a0b": {
+            "HealthOverride": 34
         },
-        "EO_SabreTooth2_3129e3bd-0ef3-4ea7-9bb6-577cf78fcde8": {
-            "Passives": [
-                "Goon_AC_Debuff_5"
-            ],
-            "HealthOverride": 1
+        "PUZ_SHA_Shadowquake_Character_001_5fff7616-cb74-41ab-a932-74f99cc1b654": {
+            "HealthOverride": 34
         },
-        "MMM_MOUNTAINGOBS_10a57eba-31b6-4d1c-b4cb-30a997f15408": {
-            "Passives": [
-                "Goon_AC_Debuff_5"
-            ],
-            "HealthOverride": 1
-        },
-        "MMM_MOUNTAINGOBS_567f86aa-33fe-4539-8f5e-27e991daafa8": {
-            "Passives": [
-                "Goon_AC_Debuff_5"
-            ],
-            "HealthOverride": 1
-        },
-        "MMM_MOUNTAINGOBS_5c6525c1-a91d-4d7c-90da-84350bff1a27": {
-            "Passives": [
-                "Goon_AC_Debuff_5"
-            ],
-            "HealthOverride": 1
-        },
-        "MMM_MOUNTAINGOBS_68304a4f-95ae-4a67-8626-5daf30725d5e": {
-            "Passives": [
-                "Goon_AC_Debuff_5"
-            ],
-            "HealthOverride": 1
-        },
-        "MMM_MOUNTAINGOBS_b0483404-6331-47a7-bdbf-6ce4cb4248f7": {
-            "Passives": [
-                "Goon_AC_Debuff_5"
-            ],
-            "HealthOverride": 1
+        "PUZ_SHA_Shadowquake_Boss_000_bf15303f-2ab5-4054-a67b-dc33c6daf2b9": {
+            "HealthOverride": 68
         }
     }
 }
