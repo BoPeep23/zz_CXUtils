@@ -143,11 +143,6 @@
             "Guid": "BIRD_BlueJay_001_ce119f75-ca7a-48bf-b449-b0b68b0f820b"
         },
         {
-            "Handle": "Minotaur",
-            "Type": "Monstrosity",
-            "Guid": "BOCO_UND_Minotaur_Extra_001_7fba66ee-ddc0-4373-8cb9-24eaf0fbad41"
-        },
-        {
             "Handle": "Azer Smith",
             "Type": "Elemental",
             "Guid": "Bipedal_Elemental_Azer_000_c36e86a4-7312-43e1-a5ee-49a2de04776a"
@@ -166,6 +161,11 @@
             "Handle": "Thorple",
             "Type": "",
             "Guid": "Bugbears_Male_c26bf9b9-9b47-3fdc-5779-c74d771c4f23"
+        },
+        {
+            "Handle": "Naellis",
+            "Type": "",
+            "Guid": "Deva_Male_PlanarAlly_Banite_001_a55901ba-9834-4dc0-867c-e816fc76ab7c"
         },
         {
             "Handle": "Flaming Fist Archer",
@@ -548,6 +548,26 @@
             "Guid": "Kuotoa_70fd1555-887c-4427-a0f6-1661f27010ab"
         },
         {
+            "Handle": "Ghost",
+            "Type": "",
+            "Guid": "LOW_Ghost_A_000_3d6945d6-96ba-47e7-b226-53d7eaf7a554"
+        },
+        {
+            "Handle": "Ghost",
+            "Type": "",
+            "Guid": "LOW_Ghost_A_001_5d02ca6b-7f1f-4177-949f-7e9161c95845"
+        },
+        {
+            "Handle": "Ghost",
+            "Type": "",
+            "Guid": "LOW_Ghost_A_002_e1e2ba8a-4145-4056-9320-630a19dac117"
+        },
+        {
+            "Handle": "Ghost",
+            "Type": "",
+            "Guid": "LOW_Ghost_A_003_731cead0-bb93-4b1d-a674-09b08897486f"
+        },
+        {
             "Handle": "Ancient Magma Mephit",
             "Type": "",
             "Guid": "MEPHIT_Magma_A_6551e421-6521-66f1-fda7-435dbea36277"
@@ -606,11 +626,6 @@
             "Handle": "Alpha Minotaur",
             "Type": "",
             "Guid": "MMM_AMINOTAUR_3cefad8c-5cad-4821-a7c7-77ec2201db48"
-        },
-        {
-            "Handle": "Necrofex",
-            "Type": "",
-            "Guid": "MMM_BALTHAZARSKELETON_45437558-8c7b-45b3-8a4f-4201643ebe9a"
         },
         {
             "Handle": "Edin Mesic",
@@ -903,16 +918,6 @@
             "Guid": "MMM_FLAYERAMBUSH_75db3611-eca6-41b6-ac65-23a0efe7129c"
         },
         {
-            "Handle": "Spirit of the Forge",
-            "Type": "",
-            "Guid": "MMM_FORGEGHOST_0eaeb8bc-fd5a-46bf-9c20-51d302c89f88"
-        },
-        {
-            "Handle": "Spirit of the Forge",
-            "Type": "",
-            "Guid": "MMM_FORGEGHOST_a075abe3-fc24-4887-a3ab-afbbc651f1ee"
-        },
-        {
             "Handle": "Ember Gish'ra Hel'dom",
             "Type": "",
             "Guid": "MMM_GISHRACRECHE_2a355838-6605-4087-b96c-a592b31eff2d"
@@ -1021,11 +1026,6 @@
             "Handle": "Grove Bandit",
             "Type": "",
             "Guid": "MMM_GROVEBANDIT_3081a4d4-4868-4398-ac50-cbf5f64db555"
-        },
-        {
-            "Handle": "Grym 2.0",
-            "Type": "",
-            "Guid": "MMM_GRYM2_a251f7c6-5a4e-49d9-984b-501c8a3aba65"
         },
         {
             "Handle": "Kuo-toa",
@@ -1188,11 +1188,6 @@
             "Guid": "MMM_MEAZELAMBUSH_b3ec2c95-7a2c-42b2-a696-c7a58acd6e92"
         },
         {
-            "Handle": "Mega Mimic",
-            "Type": "",
-            "Guid": "MMM_MIMICBOSS_533cfc38-9097-4b0d-b457-e78719463757"
-        },
-        {
             "Handle": "Harpy",
             "Type": "",
             "Guid": "MMM_MONESTARYHARPY_9f1dc8ea-9f21-41b7-8ba0-e0275fb0821c"
@@ -1206,36 +1201,6 @@
             "Handle": "Harpy",
             "Type": "",
             "Guid": "MMM_MONESTARYHARPY_ce4caab9-0d94-4839-bb6e-7c6c53594244"
-        },
-        {
-            "Handle": "Goblin Brawler",
-            "Type": "Humanoid",
-            "Guid": "MMM_MOUNTAINGOBS_10a57eba-31b6-4d1c-b4cb-30a997f15408"
-        },
-        {
-            "Handle": "Goblin Brawler",
-            "Type": "Humanoid",
-            "Guid": "MMM_MOUNTAINGOBS_567f86aa-33fe-4539-8f5e-27e991daafa8"
-        },
-        {
-            "Handle": "Goblin Tracker",
-            "Type": "",
-            "Guid": "MMM_MOUNTAINGOBS_5c6525c1-a91d-4d7c-90da-84350bff1a27"
-        },
-        {
-            "Handle": "Goblin Tracker",
-            "Type": "",
-            "Guid": "MMM_MOUNTAINGOBS_68304a4f-95ae-4a67-8626-5daf30725d5e"
-        },
-        {
-            "Handle": "Goblin Tracker",
-            "Type": "",
-            "Guid": "MMM_MOUNTAINGOBS_b0483404-6331-47a7-bdbf-6ce4cb4248f7"
-        },
-        {
-            "Handle": "Goblin Brawler",
-            "Type": "Humanoid",
-            "Guid": "MMM_MOUNTAINGOBS_bccba48e-7daa-4c97-a742-0c607a8ed33d"
         },
         {
             "Handle": "Oof",
@@ -1336,11 +1301,6 @@
             "Handle": "Shadow-Cursed Druid",
             "Type": "",
             "Guid": "MMM_SHADOWHARPERDRUID1_bcee554a-6c98-4215-bf95-6bf9221947e0"
-        },
-        {
-            "Handle": "Shadow-Cursed Githyanki Warrior",
-            "Type": "",
-            "Guid": "MMM_SHADOWSPAWNDOOR_c0f07a71-a404-43a8-9b61-b082fddefe05"
         },
         {
             "Handle": "Shadow-Cursed Toilet Guy",
@@ -1566,11 +1526,6 @@
             "Handle": "Trigger Point",
             "Type": "",
             "Guid": "MMM_TRIGGERPOINT_MOUNTAIN_4252845c-6c3c-4720-96ea-6984d5006d60"
-        },
-        {
-            "Handle": "Trigger Point",
-            "Type": "",
-            "Guid": "MMM_TRIGGERPOINT_MOUNTAIN_822f1c67-3d3c-48bd-b748-33dd907e502d"
         },
         {
             "Handle": "Trigger Point",
@@ -2476,11 +2431,6 @@
             "Handle": "Cave Bear",
             "Type": "",
             "Guid": "S_GLO_Halsin_7628bc0e-52b8-42a7-856a-13a6fd413323"
-        },
-        {
-            "Handle": "Philomeen",
-            "Type": "Humanoid",
-            "Guid": "S_GLO_HiddenGnome_6cacd488-c479-47a9-9a39-1cfb2bf6836e"
         },
         {
             "Handle": "Eldra Luthrinn",
@@ -4098,21 +4048,6 @@
             "Guid": "S_MOO_DeadTadpole_4410c5a1-9c3f-4fe5-8a73-8873240c2705"
         },
         {
-            "Handle": "Acolyte Marls",
-            "Type": "",
-            "Guid": "S_MOO_DockJumper_fd7e05e2-3d4a-4de9-baf5-2be25b21441f"
-        },
-        {
-            "Handle": "Zealot Arden",
-            "Type": "",
-            "Guid": "S_MOO_DockObserver_5d1de164-5969-4593-87b7-1fcb5b54f00f"
-        },
-        {
-            "Handle": "Adept Bel",
-            "Type": "",
-            "Guid": "S_MOO_DockPatroller_001_352693eb-0ef0-4949-86c5-ba78081d9fb4"
-        },
-        {
             "Handle": "Ghoul",
             "Type": "Undead",
             "Guid": "S_MOO_EntranceGhoul_001_c9b6a714-491a-40aa-b5b6-3fe608a4efb5"
@@ -5288,16 +5223,6 @@
             "Guid": "S_UND_CheckpointMyconid_004_530a07bf-56f7-467e-80a0-70a1ed800c96"
         },
         {
-            "Handle": "Viss",
-            "Type": "",
-            "Guid": "S_UND_CorpseDisposer_000_e63c75ba-8e0a-4292-a04a-a5d4c8a2816c"
-        },
-        {
-            "Handle": "Brathwen",
-            "Type": "",
-            "Guid": "S_UND_CorpseDisposer_Leader_5df19256-efcc-44c5-8fba-0add58492ccf"
-        },
-        {
             "Handle": "Executed Deep Gnome",
             "Type": "Humanoid",
             "Guid": "S_UND_CrookedWandOfFireballs_DeepGnome_483715a3-12e8-4cd7-87c1-6692b0a3703c"
@@ -5311,26 +5236,6 @@
             "Handle": "Dead Duergar",
             "Type": "",
             "Guid": "S_UND_CrookedWandOfFireballs_Duergar_001_614fbdae-73f2-41cc-b658-5906259819cc"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_DarkJusticiar_Dead_01_4c3ede9d-7c2f-44da-bc9a-892ca2c0b00b"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_DarkJusticiar_Dead_02_9c5c5c4a-68f5-4eb9-b601-85d791a78af1"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_DarkJusticiar_Dead_04_74dfd8c3-78eb-40d7-9377-a3c17bc1cb9c"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_DarkJusticiar_Dead_05_85683ca6-3a5c-4dfa-b758-690dd722dfa2"
         },
         {
             "Handle": "Lake Patroller",
@@ -5353,76 +5258,6 @@
             "Guid": "S_UND_DeadDeepGnome_02_cfc94aad-17e7-4c5c-a977-58d9a1afc5d3"
         },
         {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnomeCinematic_000_375692e9-48ba-47a7-9a94-0abdfb8bbd3b"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnomeCinematic_001_48d7c293-1cee-4823-8ec6-fcf0828a7237"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnomeCinematic_002_da429f13-abee-413e-b357-27dfbbe22bed"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnomeCinematic_003_e4687c8e-047a-46a6-9b37-59371d45071f"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_000_ba34f54d-c3b0-4a72-b936-c44984ef2b40"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_001_4d7453d5-46d8-4ebd-806b-c346b52e223d"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_002_2405be53-e275-42a8-ad7c-b61e692c882f"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_003_bd8002d9-dc85-4fe3-b07a-08c9892f5171"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_ToTheRiver_000_ad8fa893-c3b2-4259-993c-d069815b3702"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_ToTheRiver_001_9a4f3e82-c6fb-4a16-a1a1-d62d4ba9c8ef"
-        },
-        {
-            "Handle": "Dead Deep Gnome",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_TrinketOwner_142dadb4-96c1-474f-aa57-9acfecb5947c"
-        },
-        {
-            "Handle": "Deep Roth\u00c3\u00a9 Calf",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_Rothe_01_bc34c553-e236-4fd9-bd6f-2e18a56bcef0"
-        },
-        {
-            "Handle": "Elder Roth\u00c3\u00a9",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_Rothe_02_e8c50208-b414-42cc-b49a-48003b13c762"
-        },
-        {
-            "Handle": "Deep Roth\u00c3\u00a9",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarCamp_Rothe_03_2cd6c5c8-cf67-4114-a4c1-b72d6705646e"
-        },
-        {
             "Handle": "Mind Master Canna",
             "Type": "Humanoid",
             "Guid": "S_UND_DuergarLoyalFocused_000_fd0fc79f-f4a6-49bd-8685-e144ecd1569f"
@@ -5431,46 +5266,6 @@
             "Handle": "Ranger Vrar",
             "Type": "Humanoid",
             "Guid": "S_UND_DuergarLoyalNervous_000_2f718b5e-deb5-4224-9ee8-3b1e30acb439"
-        },
-        {
-            "Handle": "Lur Xanta",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarLoyalPatroller_01_Spider_01_82f367a2-14c0-46cf-82d1-f070c87cf95a"
-        },
-        {
-            "Handle": "Lur Jox",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarLoyalPatroller_01_Spider_02_14d465cd-4e32-415a-b321-282b797d5c53"
-        },
-        {
-            "Handle": "Lur Otan",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarLoyalPatroller_01_Spider_03_e082c0b9-3566-46cb-b89d-4a4224aa7778"
-        },
-        {
-            "Handle": "Lur Fu",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarLoyalPatroller_01_Spider_04_edb3513b-71e7-4115-bb37-e14de750f202"
-        },
-        {
-            "Handle": "Murmath",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarLoyalPatroller_01_a38319cb-c9ed-460a-bba2-1788d1cad20c"
-        },
-        {
-            "Handle": "Mind Master Grad",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarLoyalWry_000_209fa604-0c5b-4aa6-a74b-20b7ec95dff2"
-        },
-        {
-            "Handle": "Stonemason Kith",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebelMason_01_d09aecce-fad1-4aa8-9c40-c370a0ac8835"
-        },
-        {
-            "Handle": "Stonemason Gergerann",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebelMason_02_6b07558b-09ef-449c-8dd2-b0c2cbe809f1"
         },
         {
             "Handle": "Alchemist Argram",
@@ -5483,64 +5278,14 @@
             "Guid": "S_UND_DuergarSquadRatty_000_0370625e-f8fe-4998-98a7-f38efb93fb42"
         },
         {
-            "Handle": "Skickpit",
-            "Type": "Humanoid",
-            "Guid": "S_UND_ElevatorGnome_348c5bc8-c514-41d7-a997-c8e58814d765"
-        },
-        {
-            "Handle": "Ward Magmar",
-            "Type": "",
-            "Guid": "S_UND_ElevatorGuard_001_986cb3be-bb31-4aa8-85c0-1f9a315760af"
-        },
-        {
-            "Handle": "Ward Pistle",
-            "Type": "",
-            "Guid": "S_UND_ElevatorGuard_002_472eba90-f5e8-48cb-ad55-2397e0013a2d"
-        },
-        {
             "Handle": "Dead Drow",
             "Type": "",
             "Guid": "S_UND_FairyRings_DeadBody_29a25fdc-f809-49fc-8ec4-2c05148f15fa"
         },
         {
-            "Handle": "Herdmaster Skarjall",
-            "Type": "Beast",
-            "Guid": "S_UND_FearfulRothe_Guard_001_90780cde-9241-478f-83a8-58a4a7d151fe"
-        },
-        {
-            "Handle": "Grundril",
-            "Type": "Beast",
-            "Guid": "S_UND_FearfulRothe_Guard_002_debc6e8e-10c2-4f6f-866a-220f7e64c4b7"
-        },
-        {
-            "Handle": "Morgya",
-            "Type": "Beast",
-            "Guid": "S_UND_FearfulRothe_Guard_003_3d27ceb8-30b2-4ce2-ad73-8ebeea0a48bb"
-        },
-        {
-            "Handle": "Lasnura",
-            "Type": "Beast",
-            "Guid": "S_UND_FearfulRothe_Guard_New_001_c159d45d-6fdf-440c-8e56-d977b2a699ea"
-        },
-        {
-            "Handle": "Thymand",
-            "Type": "Beast",
-            "Guid": "S_UND_FearfulRothe_Guard_New_002_d4d4b2d1-a864-4066-824c-63009d4e827d"
-        },
-        {
             "Handle": "Alchemist Karrom",
             "Type": "Beast",
             "Guid": "S_UND_FearfulRothe_Guard_New_003_663f20c0-6950-4f7d-a756-4dc0d9c3c3c0"
-        },
-        {
-            "Handle": "Deep Roth\u00c3\u00a9",
-            "Type": "Beast",
-            "Guid": "S_UND_FearfulRothe_Rothe_001_d7536f2a-ef68-42af-8834-c6fd53a91962"
-        },
-        {
-            "Handle": "Deep Rothe",
-            "Type": "Beast",
-            "Guid": "S_UND_FearfulRothe_Rothe_002_697cc9bf-9f49-48f4-b270-6777882a2280"
         },
         {
             "Handle": "Pale Corpse",
@@ -5551,36 +5296,6 @@
             "Handle": "Half-Eaten Gnome",
             "Type": "Humanoid",
             "Guid": "S_UND_GnomeEatenCorpse_725e0b57-9573-43c8-a97e-13adabbc1579"
-        },
-        {
-            "Handle": "Executed Drow",
-            "Type": "Humanoid",
-            "Guid": "S_UND_HangedDrow_01_6c56e327-4b01-4640-9f7a-894e34961c59"
-        },
-        {
-            "Handle": "Executed Drow",
-            "Type": "Humanoid",
-            "Guid": "S_UND_HangedDrow_02_8a79ab3c-1b49-485c-8359-5d2b7f01ec6a"
-        },
-        {
-            "Handle": "Executed Drow",
-            "Type": "Humanoid",
-            "Guid": "S_UND_HangedDrow_03_9c406179-6f8c-421d-8eb1-d2d23b4fdd5c"
-        },
-        {
-            "Handle": "Ferocious Mimic",
-            "Type": "",
-            "Guid": "S_UND_HarperSpy_RealMimic_000_6cb8e7a4-5247-4f93-9781-1fa9712355e5"
-        },
-        {
-            "Handle": "Ferocious Mimic",
-            "Type": "",
-            "Guid": "S_UND_HarperSpy_RealMimic_001_23158926-5f3e-4997-a04e-bbebdd914e13"
-        },
-        {
-            "Handle": "Ferocious Mimic",
-            "Type": "",
-            "Guid": "S_UND_HarperSpy_RealMimic_002_f0e2d852-b374-4e51-ac9d-d429ffdaac33"
         },
         {
             "Handle": "Huge Hook Horror",
@@ -5598,106 +5313,6 @@
             "Guid": "S_UND_HookHorror_New_002_3ae5ed60-da42-4c99-9208-5fcf7f192b7a"
         },
         {
-            "Handle": "Grym",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_AdamantineGolem_2a5997fc-5f2a-4a13-b309-bed16da3b255"
-        },
-        {
-            "Handle": "Adamantine Animated Armour",
-            "Type": "Construct",
-            "Guid": "S_UND_KethericCity_AnimatedArmor_001_11172575-a7e4-43b1-85a3-162a99a7e10b"
-        },
-        {
-            "Handle": "Adamantine Animated Armour",
-            "Type": "Construct",
-            "Guid": "S_UND_KethericCity_AnimatedArmor_002_3c514e81-efa7-423f-be50-f0c4862c64e9"
-        },
-        {
-            "Handle": "Adamantine Animated Armour",
-            "Type": "Construct",
-            "Guid": "S_UND_KethericCity_AnimatedArmor_003_01b7d71a-78cd-46c3-ad3a-8910774f58d6"
-        },
-        {
-            "Handle": "Adamantine Animated Armour",
-            "Type": "Construct",
-            "Guid": "S_UND_KethericCity_AnimatedArmor_004_85f05bb9-0d02-40f2-9fa9-194f86b93a75"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_000_b08db52b-5760-4793-a1e0-fbfd2ee9e896"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_001_e566c174-a688-4327-a152-965969e89aeb"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_002_54df129f-7a19-43e4-9ff5-7246bf5a32d3"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_003_2c1c98fa-21c0-421d-9e92-3a936538f856"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_004_e40d9b2f-3aba-49db-87df-3f7ac54189e6"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_005_b1222c74-84a2-4403-be62-a64048652cd5"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_006_3231df47-59cd-44f4-ba2a-501a897fb868"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_007_66fdace2-0525-4750-8e73-4005af1e4f14"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_008_1b755641-562f-4139-b469-382f7ff7e197"
-        },
-        {
-            "Handle": "Skeleton",
-            "Type": "",
-            "Guid": "S_UND_KethericCity_DeadJusticiar_009_b7490f8a-a54f-4896-a7d2-ff881223ecd1"
-        },
-        {
-            "Handle": "Lava Elemental",
-            "Type": "Elemental",
-            "Guid": "S_UND_KethericCity_LavaElemental_1c47b089-3e59-41ca-a300-47dfd941b5a0"
-        },
-        {
-            "Handle": "Centurion",
-            "Type": "Fiend",
-            "Guid": "S_UND_KethericCity_LostMerregon_07e9b38f-624c-45db-b3fa-b45737314796"
-        },
-        {
-            "Handle": "Hellsboar",
-            "Type": "Fiend",
-            "Guid": "S_UND_KethericCity_LostMerregon_HellBoar_001_8599baf8-fba3-4a87-b7ae-49295ea92542"
-        },
-        {
-            "Handle": "Hellsboar",
-            "Type": "Fiend",
-            "Guid": "S_UND_KethericCity_LostMerregon_HellBoar_002_1df8b7dc-2475-4303-84a7-486982ea9bd1"
-        },
-        {
-            "Handle": "Hellsboar",
-            "Type": "Fiend",
-            "Guid": "S_UND_KethericCity_LostMerregon_HellBoar_003_955f8382-c8bb-4a54-8c58-1e50f8cb10f2"
-        },
-        {
             "Handle": "BOOOAL",
             "Type": "Fey",
             "Guid": "S_UND_KuoToaGod_BOOOAL_abede50d-0d73-412b-8912-c9a4b900493f"
@@ -5711,21 +5326,6 @@
             "Handle": "Dead Duergar",
             "Type": "",
             "Guid": "S_UND_LoneDuergar_DeadDuergar_6_b864d045-138d-4dd9-a7cd-de90fdbf91e9"
-        },
-        {
-            "Handle": "Ancient Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_AncientMephit_New_001_2f78d51b-67b5-4c19-8791-98b9d21a0e75"
-        },
-        {
-            "Handle": "Ancient Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_AncientMephit_New_002_92be53b6-e8a1-46ff-a0ff-377fc587bebc"
-        },
-        {
-            "Handle": "Ancient Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_AncientMephit_New_003_116839b0-3fa9-4ea9-89c9-cb76875b253a"
         },
         {
             "Handle": "Dead Myconid",
@@ -5861,11 +5461,6 @@
             "Handle": "Dead Duergar",
             "Type": "Plant",
             "Guid": "S_UND_PlantDuergar_003_6da6d51e-8cf6-4b49-a780-3f46971d5b33"
-        },
-        {
-            "Handle": "Scrying Eye",
-            "Type": "",
-            "Guid": "S_UND_ScryingEye_0bdd9214-953c-427a-87fa-7fdc25ef3b73"
         },
         {
             "Handle": "Skeleton",
@@ -6763,9 +6358,19 @@
             "Guid": "Squirrel_001_5412df50-bbed-4da5-a877-b0ce55c06c74"
         },
         {
-            "Handle": "Drop",
+            "Handle": "Skeletal Hound",
             "Type": "",
-            "Guid": "WATER_GENASI_MALE_07572937-2bf8-87be-69a0-1f0a9225db19"
+            "Guid": "Undead_Hound_A_000_9ea45a2f-a034-45a1-9700-cf9cfd00d736"
+        },
+        {
+            "Handle": "Skeletal Hound",
+            "Type": "",
+            "Guid": "Undead_Hound_A_002_c91e2d6f-cc41-4206-9b15-21bea7174743"
+        },
+        {
+            "Handle": "Skeletal Hound",
+            "Type": "",
+            "Guid": "Undead_Hound_A_003_aa0eb551-c2cf-4536-b774-cf5ab19342b8"
         },
         {
             "Handle": "Wildfire Spirit",
@@ -7310,99 +6915,9 @@
             "Guid": "S_UND_DuergarLoyalNervous_908f6096-360e-44dc-b2ff-63a7d32c015b"
         },
         {
-            "Handle": "Sergeant Thrinn",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarLoyalSergeant_0aeb5411-5f13-4263-acb0-87f0689de2e5"
-        },
-        {
-            "Handle": "Mind Master Dunnol",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarLoyalWry_dd93e23c-c62d-4927-9ea7-50e11621825e"
-        },
-        {
-            "Handle": "Stone Guard Kur",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebelBored_30fb7e6e-40d2-4e77-b5ea-887f8eb345c9"
-        },
-        {
-            "Handle": "Kirgrath",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebelFrantic_93529dbc-a5b5-4e77-a0b7-bcb8204173b2"
-        },
-        {
-            "Handle": "Elder Brithvar",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebelGreedy_379fd131-79ab-4588-a8f0-28cdb51546e3"
-        },
-        {
-            "Handle": "Thudd",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebelGuard_03_baac0ae3-7b2e-47e6-85e4-579f70d4b4fa"
-        },
-        {
-            "Handle": "Danna",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebelPatroller_01_0c7758f9-ed35-49cb-926c-8b24195ee978"
-        },
-        {
-            "Handle": "Mirthis",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebelPatroller_02_407307ff-6adb-488c-9576-534e2c158e29"
-        },
-        {
-            "Handle": "Stone Guard Orgarth",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebel_AtPier_01_5ff28d97-e070-4805-a856-3112df670e1f"
-        },
-        {
-            "Handle": "Morghal",
-            "Type": "Humanoid",
-            "Guid": "S_UND_DuergarRebel_AtPier_02_2dd2a840-35ff-4ed6-bf43-f9aae0e69c32"
-        },
-        {
-            "Handle": "Beldron",
-            "Type": "Humanoid",
-            "Guid": "S_UND_GnomeForeman_Trapped_42abeae0-3ccd-4b02-94d7-08175b343321"
-        },
-        {
-            "Handle": "Welso",
-            "Type": "Humanoid",
-            "Guid": "S_UND_GnomeWorkerLumpy_925df004-4815-4919-8545-d128b74043b1"
-        },
-        {
-            "Handle": "Wicky",
-            "Type": "Humanoid",
-            "Guid": "S_UND_GnomeWorkerQuiet_Trapped_56f89b9d-c9f7-45ff-9159-12e770cbb0a6"
-        },
-        {
-            "Handle": "Meerna",
-            "Type": "Humanoid",
-            "Guid": "S_UND_GnomeWorkerSerene_Trapped_0203c8b5-2a34-4bf2-b729-f0f240f26a4f"
-        },
-        {
-            "Handle": "Lunkbug",
-            "Type": "Humanoid",
-            "Guid": "S_UND_GnomeWorkerSilly_e63ee5da-32cc-4574-849b-e2b61ca9586e"
-        },
-        {
             "Handle": "Alchemist Horgus",
             "Type": "Humanoid",
             "Guid": "S_UND_GrymforgeExcavation_Alchemist_New_001_b777b59c-fcff-4a28-a432-a24cec2e096d"
-        },
-        {
-            "Handle": "Zealot Nyzmyr",
-            "Type": "Humanoid",
-            "Guid": "S_UND_GrymforgeExcavation_DrowAdept_001_8304b71a-0da8-40c3-b385-91e35e15903e"
-        },
-        {
-            "Handle": "Adept Seladan",
-            "Type": "Humanoid",
-            "Guid": "S_UND_GrymforgeExcavation_DrowAdept_002_fa5830cf-e03f-48bb-ae38-d118092e1e03"
-        },
-        {
-            "Handle": "Nere",
-            "Type": "Humanoid",
-            "Guid": "S_UND_TheDrowNere_06bf05c5-216b-4eaf-91f5-8f1dd3d57f30"
         }
     ],
     "WYRMS_GORTASH": [
@@ -7460,6 +6975,573 @@
             "Handle": "Reaper of Bhaal",
             "Type": "Humanoid",
             "Guid": "S_WYR_WyrmRock_Bhaalist_003_ec3733e7-5a97-4f6d-8c00-b8cf6beb1670"
+        }
+    ],
+    "09_GRYM_": [
+        {
+            "Handle": "Magma Mephit",
+            "Type": "",
+            "Guid": "MEPHIT_Magma_A_2604b0df-9280-9ab8-39d2-1d5911b596b6"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "",
+            "Guid": "MEPHIT_Magma_A_8c15f224-5411-3a7b-a62d-1a3f40cf30f5"
+        },
+        {
+            "Handle": "Spirit of the Forge",
+            "Type": "",
+            "Guid": "MMM_FORGEGHOST_0eaeb8bc-fd5a-46bf-9c20-51d302c89f88"
+        },
+        {
+            "Handle": "Spirit of the Forge",
+            "Type": "",
+            "Guid": "MMM_FORGEGHOST_a075abe3-fc24-4887-a3ab-afbbc651f1ee"
+        },
+        {
+            "Handle": "Grym 2.0",
+            "Type": "",
+            "Guid": "MMM_GRYM2_a251f7c6-5a4e-49d9-984b-501c8a3aba65"
+        },
+        {
+            "Handle": "Lava Elemental",
+            "Type": "Elemental",
+            "Guid": "MMM_LAVAELEMENTAL_bc37c6a1-ed92-4f31-92a4-7ce718ffc5b6"
+        },
+        {
+            "Handle": "Mega Mimic",
+            "Type": "",
+            "Guid": "MMM_MIMICBOSS_533cfc38-9097-4b0d-b457-e78719463757"
+        },
+        {
+            "Handle": "Ochre Jelly",
+            "Type": "",
+            "Guid": "Ooze_Jelly_Ochre_ef627a66-5b5a-4339-8901-27744a4fa05d"
+        },
+        {
+            "Handle": "Philomeen",
+            "Type": "Humanoid",
+            "Guid": "S_GLO_HiddenGnome_6cacd488-c479-47a9-9a39-1cfb2bf6836e"
+        },
+        {
+            "Handle": "Viss",
+            "Type": "",
+            "Guid": "S_UND_CorpseDisposer_000_e63c75ba-8e0a-4292-a04a-a5d4c8a2816c"
+        },
+        {
+            "Handle": "Brathwen",
+            "Type": "",
+            "Guid": "S_UND_CorpseDisposer_Leader_5df19256-efcc-44c5-8fba-0add58492ccf"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_DarkJusticiar_Dead_01_4c3ede9d-7c2f-44da-bc9a-892ca2c0b00b"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_DarkJusticiar_Dead_02_9c5c5c4a-68f5-4eb9-b601-85d791a78af1"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_DarkJusticiar_Dead_04_74dfd8c3-78eb-40d7-9377-a3c17bc1cb9c"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_DarkJusticiar_Dead_05_85683ca6-3a5c-4dfa-b758-690dd722dfa2"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnomeCinematic_000_375692e9-48ba-47a7-9a94-0abdfb8bbd3b"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnomeCinematic_001_48d7c293-1cee-4823-8ec6-fcf0828a7237"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnomeCinematic_002_da429f13-abee-413e-b357-27dfbbe22bed"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnomeCinematic_003_e4687c8e-047a-46a6-9b37-59371d45071f"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_000_ba34f54d-c3b0-4a72-b936-c44984ef2b40"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_001_4d7453d5-46d8-4ebd-806b-c346b52e223d"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_002_2405be53-e275-42a8-ad7c-b61e692c882f"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_003_bd8002d9-dc85-4fe3-b07a-08c9892f5171"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_ToTheRiver_000_ad8fa893-c3b2-4259-993c-d069815b3702"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_ToTheRiver_001_9a4f3e82-c6fb-4a16-a1a1-d62d4ba9c8ef"
+        },
+        {
+            "Handle": "Dead Deep Gnome",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarCamp_DeadDeepGnome_TrinketOwner_142dadb4-96c1-474f-aa57-9acfecb5947c"
+        },
+        {
+            "Handle": "Deep Roth\u00c3\u00a9 Calf",
+            "Type": "Beast",
+            "Guid": "S_UND_DuergarCamp_Rothe_01_bc34c553-e236-4fd9-bd6f-2e18a56bcef0"
+        },
+        {
+            "Handle": "Elder Rothe",
+            "Type": "Beast",
+            "Guid": "S_UND_DuergarCamp_Rothe_02_e8c50208-b414-42cc-b49a-48003b13c762"
+        },
+        {
+            "Handle": "Deep Rothe",
+            "Type": "Beast",
+            "Guid": "S_UND_DuergarCamp_Rothe_03_2cd6c5c8-cf67-4114-a4c1-b72d6705646e"
+        },
+        {
+            "Handle": "Lur Xanta",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalPatroller_01_Spider_01_82f367a2-14c0-46cf-82d1-f070c87cf95a"
+        },
+        {
+            "Handle": "Lur Jox",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalPatroller_01_Spider_02_14d465cd-4e32-415a-b321-282b797d5c53"
+        },
+        {
+            "Handle": "Lur Otan",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalPatroller_01_Spider_03_e082c0b9-3566-46cb-b89d-4a4224aa7778"
+        },
+        {
+            "Handle": "Lur Fu",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalPatroller_01_Spider_04_edb3513b-71e7-4115-bb37-e14de750f202"
+        },
+        {
+            "Handle": "Murmath",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalPatroller_01_a38319cb-c9ed-460a-bba2-1788d1cad20c"
+        },
+        {
+            "Handle": "Sergeant Thrinn",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalSergeant_0aeb5411-5f13-4263-acb0-87f0689de2e5"
+        },
+        {
+            "Handle": "Mind Master Dunnol",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalWry_dd93e23c-c62d-4927-9ea7-50e11621825e"
+        },
+        {
+            "Handle": "Corsair Greymon",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRaftCaptain_473ae3b0-d8e9-428d-9129-bbffe449b8ec"
+        },
+        {
+            "Handle": "Stone Guard Kur",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebelBored_30fb7e6e-40d2-4e77-b5ea-887f8eb345c9"
+        },
+        {
+            "Handle": "Kirgrath",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebelFrantic_93529dbc-a5b5-4e77-a0b7-bcb8204173b2"
+        },
+        {
+            "Handle": "Elder Brithvar",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebelGreedy_379fd131-79ab-4588-a8f0-28cdb51546e3"
+        },
+        {
+            "Handle": "Thudd",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebelGuard_03_baac0ae3-7b2e-47e6-85e4-579f70d4b4fa"
+        },
+        {
+            "Handle": "Stonemason Kith",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebelMason_01_d09aecce-fad1-4aa8-9c40-c370a0ac8835"
+        },
+        {
+            "Handle": "Stonemason Gergerann",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebelMason_02_6b07558b-09ef-449c-8dd2-b0c2cbe809f1"
+        },
+        {
+            "Handle": "Danna",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebelPatroller_01_0c7758f9-ed35-49cb-926c-8b24195ee978"
+        },
+        {
+            "Handle": "Mirthis",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebelPatroller_02_407307ff-6adb-488c-9576-534e2c158e29"
+        },
+        {
+            "Handle": "Stone Guard Orgarth",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebel_AtPier_01_5ff28d97-e070-4805-a856-3112df670e1f"
+        },
+        {
+            "Handle": "Morghal",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarRebel_AtPier_02_2dd2a840-35ff-4ed6-bf43-f9aae0e69c32"
+        },
+        {
+            "Handle": "Skickpit",
+            "Type": "Humanoid",
+            "Guid": "S_UND_ElevatorGnome_348c5bc8-c514-41d7-a997-c8e58814d765"
+        },
+        {
+            "Handle": "Ward Magmar",
+            "Type": "",
+            "Guid": "S_UND_ElevatorGuard_001_986cb3be-bb31-4aa8-85c0-1f9a315760af"
+        },
+        {
+            "Handle": "Ward Pistle",
+            "Type": "",
+            "Guid": "S_UND_ElevatorGuard_002_472eba90-f5e8-48cb-ad55-2397e0013a2d"
+        },
+        {
+            "Handle": "Herdmaster Skarjall",
+            "Type": "Beast",
+            "Guid": "S_UND_FearfulRothe_Guard_001_90780cde-9241-478f-83a8-58a4a7d151fe"
+        },
+        {
+            "Handle": "Grundril",
+            "Type": "Beast",
+            "Guid": "S_UND_FearfulRothe_Guard_002_debc6e8e-10c2-4f6f-866a-220f7e64c4b7"
+        },
+        {
+            "Handle": "Morgya",
+            "Type": "Beast",
+            "Guid": "S_UND_FearfulRothe_Guard_003_3d27ceb8-30b2-4ce2-ad73-8ebeea0a48bb"
+        },
+        {
+            "Handle": "Lasnura",
+            "Type": "Beast",
+            "Guid": "S_UND_FearfulRothe_Guard_New_001_c159d45d-6fdf-440c-8e56-d977b2a699ea"
+        },
+        {
+            "Handle": "Thymand",
+            "Type": "Beast",
+            "Guid": "S_UND_FearfulRothe_Guard_New_002_d4d4b2d1-a864-4066-824c-63009d4e827d"
+        },
+        {
+            "Handle": "Deep Roth\u00c3\u00a9",
+            "Type": "Beast",
+            "Guid": "S_UND_FearfulRothe_Rothe_001_d7536f2a-ef68-42af-8834-c6fd53a91962"
+        },
+        {
+            "Handle": "Deep Roth\u00c3\u00a9",
+            "Type": "Beast",
+            "Guid": "S_UND_FearfulRothe_Rothe_002_697cc9bf-9f49-48f4-b270-6777882a2280"
+        },
+        {
+            "Handle": "Beldron",
+            "Type": "Humanoid",
+            "Guid": "S_UND_GnomeForeman_Trapped_42abeae0-3ccd-4b02-94d7-08175b343321"
+        },
+        {
+            "Handle": "Welso",
+            "Type": "Humanoid",
+            "Guid": "S_UND_GnomeWorkerLumpy_925df004-4815-4919-8545-d128b74043b1"
+        },
+        {
+            "Handle": "Wicky",
+            "Type": "Humanoid",
+            "Guid": "S_UND_GnomeWorkerQuiet_Trapped_56f89b9d-c9f7-45ff-9159-12e770cbb0a6"
+        },
+        {
+            "Handle": "Meerna",
+            "Type": "Humanoid",
+            "Guid": "S_UND_GnomeWorkerSerene_Trapped_0203c8b5-2a34-4bf2-b729-f0f240f26a4f"
+        },
+        {
+            "Handle": "Lunkbug",
+            "Type": "Humanoid",
+            "Guid": "S_UND_GnomeWorkerSilly_e63ee5da-32cc-4574-849b-e2b61ca9586e"
+        },
+        {
+            "Handle": "Zealot Nyzmyr",
+            "Type": "Humanoid",
+            "Guid": "S_UND_GrymforgeExcavation_DrowAdept_001_8304b71a-0da8-40c3-b385-91e35e15903e"
+        },
+        {
+            "Handle": "Adept Seladan",
+            "Type": "Humanoid",
+            "Guid": "S_UND_GrymforgeExcavation_DrowAdept_002_fa5830cf-e03f-48bb-ae38-d118092e1e03"
+        },
+        {
+            "Handle": "Executed Drow",
+            "Type": "Humanoid",
+            "Guid": "S_UND_HangedDrow_01_6c56e327-4b01-4640-9f7a-894e34961c59"
+        },
+        {
+            "Handle": "Executed Drow",
+            "Type": "Humanoid",
+            "Guid": "S_UND_HangedDrow_02_8a79ab3c-1b49-485c-8359-5d2b7f01ec6a"
+        },
+        {
+            "Handle": "Executed Drow",
+            "Type": "Humanoid",
+            "Guid": "S_UND_HangedDrow_03_9c406179-6f8c-421d-8eb1-d2d23b4fdd5c"
+        },
+        {
+            "Handle": "Ferocious Mimic",
+            "Type": "",
+            "Guid": "S_UND_HarperSpy_RealMimic_000_6cb8e7a4-5247-4f93-9781-1fa9712355e5"
+        },
+        {
+            "Handle": "Ferocious Mimic",
+            "Type": "",
+            "Guid": "S_UND_HarperSpy_RealMimic_001_23158926-5f3e-4997-a04e-bbebdd914e13"
+        },
+        {
+            "Handle": "Ferocious Mimic",
+            "Type": "",
+            "Guid": "S_UND_HarperSpy_RealMimic_002_f0e2d852-b374-4e51-ac9d-d429ffdaac33"
+        },
+        {
+            "Handle": "Grym",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_AdamantineGolem_2a5997fc-5f2a-4a13-b309-bed16da3b255"
+        },
+        {
+            "Handle": "Adamantine Animated Armour",
+            "Type": "Construct",
+            "Guid": "S_UND_KethericCity_AnimatedArmor_001_11172575-a7e4-43b1-85a3-162a99a7e10b"
+        },
+        {
+            "Handle": "Adamantine Animated Armour",
+            "Type": "Construct",
+            "Guid": "S_UND_KethericCity_AnimatedArmor_002_3c514e81-efa7-423f-be50-f0c4862c64e9"
+        },
+        {
+            "Handle": "Adamantine Animated Armour",
+            "Type": "Construct",
+            "Guid": "S_UND_KethericCity_AnimatedArmor_003_01b7d71a-78cd-46c3-ad3a-8910774f58d6"
+        },
+        {
+            "Handle": "Adamantine Animated Armour",
+            "Type": "Construct",
+            "Guid": "S_UND_KethericCity_AnimatedArmor_004_85f05bb9-0d02-40f2-9fa9-194f86b93a75"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_000_b08db52b-5760-4793-a1e0-fbfd2ee9e896"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_001_e566c174-a688-4327-a152-965969e89aeb"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_002_54df129f-7a19-43e4-9ff5-7246bf5a32d3"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_003_2c1c98fa-21c0-421d-9e92-3a936538f856"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_004_e40d9b2f-3aba-49db-87df-3f7ac54189e6"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_005_b1222c74-84a2-4403-be62-a64048652cd5"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_006_3231df47-59cd-44f4-ba2a-501a897fb868"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_007_66fdace2-0525-4750-8e73-4005af1e4f14"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_008_1b755641-562f-4139-b469-382f7ff7e197"
+        },
+        {
+            "Handle": "Skeleton",
+            "Type": "",
+            "Guid": "S_UND_KethericCity_DeadJusticiar_009_b7490f8a-a54f-4896-a7d2-ff881223ecd1"
+        },
+        {
+            "Handle": "Lava Elemental",
+            "Type": "Elemental",
+            "Guid": "S_UND_KethericCity_LavaElemental_1c47b089-3e59-41ca-a300-47dfd941b5a0"
+        },
+        {
+            "Handle": "Centurion",
+            "Type": "Fiend",
+            "Guid": "S_UND_KethericCity_LostMerregon_07e9b38f-624c-45db-b3fa-b45737314796"
+        },
+        {
+            "Handle": "Hellsboar",
+            "Type": "Fiend",
+            "Guid": "S_UND_KethericCity_LostMerregon_HellBoar_001_8599baf8-fba3-4a87-b7ae-49295ea92542"
+        },
+        {
+            "Handle": "Hellsboar",
+            "Type": "Fiend",
+            "Guid": "S_UND_KethericCity_LostMerregon_HellBoar_002_1df8b7dc-2475-4303-84a7-486982ea9bd1"
+        },
+        {
+            "Handle": "Hellsboar",
+            "Type": "Fiend",
+            "Guid": "S_UND_KethericCity_LostMerregon_HellBoar_003_955f8382-c8bb-4a54-8c58-1e50f8cb10f2"
+        },
+        {
+            "Handle": "Ochre Jelly",
+            "Type": "Ooze",
+            "Guid": "S_UND_KethericCity_PanicRoomEnemy_001_ea7c2c48-da44-4d0b-99d8-c1e6574e9810"
+        },
+        {
+            "Handle": "Ochre Jelly",
+            "Type": "Ooze",
+            "Guid": "S_UND_KethericCity_PanicRoomEnemy_002_d736d483-64ee-4166-92f3-d6f544126b8a"
+        },
+        {
+            "Handle": "Ochre Jelly",
+            "Type": "Ooze",
+            "Guid": "S_UND_KethericCity_PanicRoomEnemy_003_b568549c-7b9d-451f-b862-ff26d2085bbe"
+        },
+        {
+            "Handle": "Ochre Jelly",
+            "Type": "Ooze",
+            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_001_63ab7bdb-4675-48f3-bab0-b3a52c869839"
+        },
+        {
+            "Handle": "Ochre Jelly",
+            "Type": "Ooze",
+            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_002_f1cf7847-0019-4757-af69-202329f07ed2"
+        },
+        {
+            "Handle": "Ochre Jelly",
+            "Type": "Ooze",
+            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_003_1a34e7bc-a45c-40e3-a783-5a0a8ddf270c"
+        },
+        {
+            "Handle": "Ochre Jelly",
+            "Type": "Ooze",
+            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_004_7ec49628-464e-4786-9a38-a4f7cc828a34"
+        },
+        {
+            "Handle": "Ochre Jelly",
+            "Type": "Ooze",
+            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_005_1be43fec-1a31-4548-9165-58e0cb454882"
+        },
+        {
+            "Handle": "Ancient Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_AncientMephit_New_001_2f78d51b-67b5-4c19-8791-98b9d21a0e75"
+        },
+        {
+            "Handle": "Ancient Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_AncientMephit_New_002_92be53b6-e8a1-46ff-a0ff-377fc587bebc"
+        },
+        {
+            "Handle": "Ancient Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_AncientMephit_New_003_116839b0-3fa9-4ea9-89c9-cb76875b253a"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_Mephit_000_fd14c0a6-2f9c-4983-857d-c8f5f85a8087"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_Mephit_001_af183ce5-9a9b-44eb-814e-42fa3350b2c1"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_Mephit_002_184b9dcd-3b1f-430a-9a71-bb54d986fcff"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_Mephit_003_8f6d43d2-6c18-4d77-811c-cd44cb233a9f"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_Mephit_004_a58fe622-860e-45a1-902b-51cd71df2350"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_Mephit_005_be85453e-867a-4f08-a959-c6551869ee1d"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_Mephit_006_a5182eef-582d-44d2-ba5a-a2e0ace5af94"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_Mephit_007_63a4aa4d-0211-4d02-8666-2b95281790e1"
+        },
+        {
+            "Handle": "Magma Mephit",
+            "Type": "Elemental",
+            "Guid": "S_UND_MephitAmbush_Mephit_008_83b9db14-ff7d-41c2-aa48-29e823468a97"
+        },
+        {
+            "Handle": "Scrying Eye",
+            "Type": "",
+            "Guid": "S_UND_ScryingEye_0bdd9214-953c-427a-87fa-7fdc25ef3b73"
+        },
+        {
+            "Handle": "Nere",
+            "Type": "Humanoid",
+            "Guid": "S_UND_TheDrowNere_06bf05c5-216b-4eaf-91f5-8f1dd3d57f30"
+        },
+        {
+            "Handle": "Drop",
+            "Type": "",
+            "Guid": "WATER_GENASI_MALE_07572937-2bf8-87be-69a0-1f0a9225db19"
         }
     ],
     "RIVINGTON_TEMPLE": [
@@ -7946,11 +8028,6 @@
         }
     ],
     "SHAR_YURGIR": [
-        {
-            "Handle": "Zealot of the Absolute",
-            "Type": "",
-            "Guid": "QUEST_MOO_Humans_Male_AbsoluteGuard_Melee_000_c70c104d-83aa-4f9d-8f14-74cfa55193a6"
-        },
         {
             "Handle": "Yurgir",
             "Type": "",
@@ -9963,16 +10040,6 @@
             "Guid": "S_MOO_Mimic_8571d22f-7e86-4f29-8a41-220c2ef3473f"
         },
         {
-            "Handle": "Balthazar's Apprentice",
-            "Type": "",
-            "Guid": "S_MOO_TrapRezTarget_001_12dece95-26d5-46d0-9834-e20b89624848"
-        },
-        {
-            "Handle": "Corpse",
-            "Type": "",
-            "Guid": "S_MOO_TrapRezTarget_002_918aec31-70d1-49ac-92b8-b83e4a06c53f"
-        },
-        {
             "Handle": "Scrying Eye",
             "Type": "",
             "Guid": "S_MOO_UpperEye_C_881081c0-8e1a-4033-9cb3-37532cd7f4ef"
@@ -10342,11 +10409,6 @@
             "Guid": "EO_ForgeLavaELemental_2_770cc178-fb9e-49e9-b6e0-2881a79421f5"
         },
         {
-            "Handle": "Lava Elemental",
-            "Type": "Elemental",
-            "Guid": "MMM_LAVAELEMENTAL_bc37c6a1-ed92-4f31-92a4-7ce718ffc5b6"
-        },
-        {
             "Handle": "Magma Mephit",
             "Type": "Elemental",
             "Guid": "S_UND_AdamantinteGolem_Mephit_001_c33491f2-17f1-48bd-ad4c-7df70049025e"
@@ -10513,6 +10575,55 @@
             "Guid": "S_UND_LoneDuergar_Squad_Ranged_New_001_7c031e44-2e30-4c6b-8d39-8344cc1e655e"
         }
     ],
+    "09_GRYM_EXCAVATION_DUERGAR": [
+        {
+            "Handle": "Mind Master Grad",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarLoyalWry_000_209fa604-0c5b-4aa6-a74b-20b7ec95dff2"
+        }
+    ],
+    "08_UNDERDARK_LAKE_BOAT": [
+        {
+            "Handle": "Ol' Gregg",
+            "Type": "",
+            "Guid": "MMM_OLGREGG_14541d9b-7fcc-4cd4-adde-2a36ea204163"
+        },
+        {
+            "Handle": "Alchemist Argram",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarSquadAlchemist_2243e892-f360-44cf-b2ef-90364059dd22"
+        },
+        {
+            "Handle": "Bonna",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarSquadDefiant_3cec487d-d5cf-42c9-a009-0124cb432341"
+        },
+        {
+            "Handle": "Grilgron",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarSquadDefiant_New_001_94a1ee70-12c2-4e9a-b6ae-278c94950edc"
+        },
+        {
+            "Handle": "Nalnys",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarSquadDilligent_New_001_30ad1097-a82f-4cd8-b1cc-5a4ef5177627"
+        },
+        {
+            "Handle": "Jerris",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarSquadDilligent_a7338653-4d88-440e-aee6-4d5b3e611a2d"
+        },
+        {
+            "Handle": "Hurk",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarSquadRatty_64e38ef0-9779-499c-9f0a-ea013ee81442"
+        },
+        {
+            "Handle": "Mind Master Kettel",
+            "Type": "Humanoid",
+            "Guid": "S_UND_DuergarSquadRude_b15669aa-831b-43d7-ac7b-efea2eb09018"
+        }
+    ],
     "UNDERDARK_SUSSUR": [
         {
             "Handle": "Hook Horror",
@@ -10538,48 +10649,6 @@
             "Handle": "Hook Horror",
             "Type": "Monstrosity",
             "Guid": "S_UND_HookHorror_Hunter_001_3d5a8ed5-771a-491b-93eb-9a65eb2dcf30"
-        }
-    ],
-    "GRYMFORGE_JELLIES": [
-        {
-            "Handle": "Ochre Jelly",
-            "Type": "Ooze",
-            "Guid": "S_UND_KethericCity_PanicRoomEnemy_001_ea7c2c48-da44-4d0b-99d8-c1e6574e9810"
-        },
-        {
-            "Handle": "Ochre Jelly",
-            "Type": "Ooze",
-            "Guid": "S_UND_KethericCity_PanicRoomEnemy_002_d736d483-64ee-4166-92f3-d6f544126b8a"
-        },
-        {
-            "Handle": "Ochre Jelly",
-            "Type": "Ooze",
-            "Guid": "S_UND_KethericCity_PanicRoomEnemy_003_b568549c-7b9d-451f-b862-ff26d2085bbe"
-        },
-        {
-            "Handle": "Ochre Jelly",
-            "Type": "Ooze",
-            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_001_63ab7bdb-4675-48f3-bab0-b3a52c869839"
-        },
-        {
-            "Handle": "Ochre Jelly",
-            "Type": "Ooze",
-            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_002_f1cf7847-0019-4757-af69-202329f07ed2"
-        },
-        {
-            "Handle": "Ochre Jelly",
-            "Type": "Ooze",
-            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_003_1a34e7bc-a45c-40e3-a783-5a0a8ddf270c"
-        },
-        {
-            "Handle": "Ochre Jelly",
-            "Type": "Ooze",
-            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_004_7ec49628-464e-4786-9a38-a4f7cc828a34"
-        },
-        {
-            "Handle": "Ochre Jelly",
-            "Type": "Ooze",
-            "Guid": "S_UND_KethericCity_PanicRoomEnemy_New_005_1be43fec-1a31-4548-9165-58e0cb454882"
         }
     ],
     "UNDERDARK_KUOTOA": [
@@ -10657,53 +10726,6 @@
             "Handle": "Kuo-Toa Skirmisher",
             "Type": "Humanoid",
             "Guid": "S_UND_Kuotoa_Sacrifice_f52a2d24-e75e-44e3-8209-268c66dad728"
-        }
-    ],
-    "GRYMFORGE_MEPHITS": [
-        {
-            "Handle": "Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_Mephit_000_fd14c0a6-2f9c-4983-857d-c8f5f85a8087"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_Mephit_001_af183ce5-9a9b-44eb-814e-42fa3350b2c1"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_Mephit_002_184b9dcd-3b1f-430a-9a71-bb54d986fcff"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_Mephit_003_8f6d43d2-6c18-4d77-811c-cd44cb233a9f"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_Mephit_004_a58fe622-860e-45a1-902b-51cd71df2350"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_Mephit_005_be85453e-867a-4f08-a959-c6551869ee1d"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_Mephit_006_a5182eef-582d-44d2-ba5a-a2e0ace5af94"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_Mephit_007_63a4aa4d-0211-4d02-8666-2b95281790e1"
-        },
-        {
-            "Handle": "Magma Mephit",
-            "Type": "Elemental",
-            "Guid": "S_UND_MephitAmbush_Mephit_008_83b9db14-ff7d-41c2-aa48-29e823468a97"
         }
     ],
     "UNDERDARK_MINOTAURS": [
@@ -10888,6 +10910,35 @@
             "Handle": "Ilyn Toth",
             "Type": "Undead",
             "Guid": "LOW_Undead_Mummy_FatherCarrion_000_a47d1819-1fd7-4613-a5ba-953627406d7a"
+        }
+    ],
+    "09_GRYM_FORGE_CLOAKER": [
+        {
+            "Handle": "Cloaker",
+            "Type": "Aberration",
+            "Guid": "BOCO_GRY_Cloaker_001_054547dc-3a22-4d17-954a-ced32ea40e1a"
+        }
+    ],
+    "09_GRYM_SHAR_DININGROOM": [
+        {
+            "Handle": "Sahuagin",
+            "Type": "Humanoid",
+            "Guid": "BOCO_GRY_Sahuagin_Melee_001_ae017469-661a-4c52-9b86-980a4e98089e"
+        },
+        {
+            "Handle": "Sahuagin",
+            "Type": "Humanoid",
+            "Guid": "BOCO_GRY_Sahuagin_Melee_002_cb86a949-334e-400e-84c9-edd4d09d535b"
+        },
+        {
+            "Handle": "Sahuagin Hunter",
+            "Type": "Humanoid",
+            "Guid": "BOCO_GRY_Sahuagin_Ranger_001_dc67fb6c-0616-4c2d-8ec5-8238559c67a4"
+        },
+        {
+            "Handle": "Sahuagin Hunter",
+            "Type": "Humanoid",
+            "Guid": "BOCO_GRY_Sahuagin_Ranger_002_af6e12f4-59e7-43fd-9f4c-5030dcff629a"
         }
     ],
     "08_UNDERDARK_WIZARD_ENTRANCE": [
@@ -11089,6 +11140,13 @@
             "Guid": "MMM_LOGBEAR_5daaafd1-d23c-41bf-b915-ae129e6c4cf9"
         }
     ],
+    "08_UNDERDARK_SELUNE_ELISTRAEE": [
+        {
+            "Handle": "Oathless Wretch",
+            "Type": "Aberration",
+            "Guid": "QUEST_END_Thrall_Paladin_001_cd680684-3d38-48f6-8c34-8e0c9428553f"
+        }
+    ],
     "Corpse": [
         {
             "Handle": "Headless Skeleton",
@@ -11241,11 +11299,65 @@
             "Guid": "EO_Lathanders_Image_e84d8eb3-89ab-4b65-b6e1-05b04afc2d1c"
         }
     ],
+    "10_MOUNTAIN_TRAIL_GOBLINS": [
+        {
+            "Handle": "Sabre-Toothed Tiger",
+            "Type": "Beast",
+            "Guid": "EO_SabreTooth1_14a87b00-1b2a-4dfa-9062-8df3016fc7f7"
+        },
+        {
+            "Handle": "Sabre-Toothed Tiger",
+            "Type": "Beast",
+            "Guid": "EO_SabreTooth2_3129e3bd-0ef3-4ea7-9bb6-577cf78fcde8"
+        },
+        {
+            "Handle": "Goblin Brawler",
+            "Type": "Humanoid",
+            "Guid": "MMM_MOUNTAINGOBS_10a57eba-31b6-4d1c-b4cb-30a997f15408"
+        },
+        {
+            "Handle": "Goblin Brawler",
+            "Type": "Humanoid",
+            "Guid": "MMM_MOUNTAINGOBS_567f86aa-33fe-4539-8f5e-27e991daafa8"
+        },
+        {
+            "Handle": "Goblin Tracker",
+            "Type": "Humanoid",
+            "Guid": "MMM_MOUNTAINGOBS_5c6525c1-a91d-4d7c-90da-84350bff1a27"
+        },
+        {
+            "Handle": "Goblin Tracker",
+            "Type": "Humanoid",
+            "Guid": "MMM_MOUNTAINGOBS_68304a4f-95ae-4a67-8626-5daf30725d5e"
+        },
+        {
+            "Handle": "Goblin Tracker",
+            "Type": "Humanoid",
+            "Guid": "MMM_MOUNTAINGOBS_b0483404-6331-47a7-bdbf-6ce4cb4248f7"
+        },
+        {
+            "Handle": "Goblin Brawler",
+            "Type": "Humanoid",
+            "Guid": "MMM_MOUNTAINGOBS_bccba48e-7daa-4c97-a742-0c607a8ed33d"
+        }
+    ],
     "CRECHE_BACK_LATHANDER": [
         {
             "Handle": "Spirit of Dawnmaster Vaseid",
             "Type": "",
             "Guid": "MMM_DAWNMASTER_e4c919df-5e52-4a68-ab65-4d550debfcdb"
+        }
+    ],
+    "10_MOUNTAIN_TRAIL_ACT2EXIT": [
+        {
+            "Handle": "Shadow-Cursed Githyanki Warrior",
+            "Type": "",
+            "Guid": "MMM_SHADOWSPAWNDOOR_c0f07a71-a404-43a8-9b61-b082fddefe05"
+        },
+        {
+            "Handle": "Trigger Point",
+            "Type": "",
+            "Guid": "MMM_TRIGGERPOINT_MOUNTAIN_822f1c67-3d3c-48bd-b748-33dd907e502d"
         }
     ],
     "MOONRISE_PRISON": [
@@ -11456,6 +11568,13 @@
             "Guid": "S_MOO_WarehouseGuard_002_8360ec17-f888-4745-8b22-351feadb86d1"
         }
     ],
+    "11_SHADOWLANDS_GRYMFORGE_DOOR": [
+        {
+            "Handle": "Adept of the Absolute",
+            "Type": "",
+            "Guid": "S_SCL_Entrance_DeadCultist_b53897a5-8e34-46f4-8810-577c15ecc2de"
+        }
+    ],
     "COLONY_TADPOLE": [
         {
             "Handle": "Intellect Devourer",
@@ -11643,6 +11762,45 @@
             "Guid": "EO_Windego_c1e59fd5-dfee-4f25-92e7-348500ffb861"
         }
     ],
+    "13_GAUNTLET_YURGIR_HIDDENROOM": [
+        {
+            "Handle": "Manifestation of Shar",
+            "Type": "Humanoid",
+            "Guid": "BASE_Humans_Female_SharStatue_000_6eb0d6b2-e258-4bd1-90b6-dc51de8ef704"
+        },
+        {
+            "Handle": "Deep Umbral Tremor",
+            "Type": "Undead",
+            "Guid": "PUZ_SHA_Shadowquake_Boss_000_bf15303f-2ab5-4054-a67b-dc33c6daf2b9"
+        },
+        {
+            "Handle": "Umbral Tremor",
+            "Type": "Undead",
+            "Guid": "PUZ_SHA_Shadowquake_Character_000_0781bbf9-e1cb-4487-a230-6b9a46f89a0b"
+        },
+        {
+            "Handle": "Umbral Tremor",
+            "Type": "Undead",
+            "Guid": "PUZ_SHA_Shadowquake_Character_001_5fff7616-cb74-41ab-a932-74f99cc1b654"
+        }
+    ],
+    "13_GAUNTLET_QUARTERS_KITCHEN": [
+        {
+            "Handle": "Ogre Father",
+            "Type": "Giant",
+            "Guid": "CINE_Army_Ogres_Male_A_000_81473577-40c6-4c0d-b02a-f881c5b504df"
+        },
+        {
+            "Handle": "Ogre Mother",
+            "Type": "Giant",
+            "Guid": "Ogres_Female_B_Scar_000_fa639ab4-2177-474c-abc5-04786bf995c3"
+        },
+        {
+            "Handle": "Ogre Child",
+            "Type": "Giant",
+            "Guid": "Ogres_Male_A_000_18a3acce-263b-4573-b85d-3ff5d65a5781"
+        }
+    ],
     "12_REITHWIN_WANING_BACKROOM": [
         {
             "Handle": "Blighted Assassin",
@@ -11658,6 +11816,13 @@
             "Handle": "Blighted Chemist",
             "Type": "Undead",
             "Guid": "EO_BlightedChemist_2_fe135c8e-d6d4-4765-b6ff-9be4c4387a5b"
+        }
+    ],
+    "13_GAUNTLET_YURGIR_BENEATH": [
+        {
+            "Handle": "Zealot of the Absolute",
+            "Type": "",
+            "Guid": "QUEST_MOO_Humans_Male_AbsoluteGuard_Melee_000_c70c104d-83aa-4f9d-8f14-74cfa55193a6"
         }
     ],
     "MOONRISE_ASSAULT": [
@@ -11717,11 +11882,38 @@
             "Guid": "S_MOO_GroundEye_B_e50cabc8-afb0-4e5b-a73c-166828488510"
         }
     ],
-    "MOONRISE_DOCKS": [
+    "14_MOONRISE_OUTSIDE_DOCKS": [
+        {
+            "Handle": "Acolyte Marls",
+            "Type": "",
+            "Guid": "S_MOO_DockJumper_fd7e05e2-3d4a-4de9-baf5-2be25b21441f"
+        },
+        {
+            "Handle": "Zealot Arden",
+            "Type": "Humanoid",
+            "Guid": "S_MOO_DockObserver_5d1de164-5969-4593-87b7-1fcb5b54f00f"
+        },
         {
             "Handle": "Zealot Renan",
-            "Type": "",
+            "Type": "Humanoid",
             "Guid": "S_MOO_DockPatroller_000_646fba8c-6972-4162-aa7a-f0df28bb1f51"
+        },
+        {
+            "Handle": "Adept Bel",
+            "Type": "Humanoid",
+            "Guid": "S_MOO_DockPatroller_001_352693eb-0ef0-4949-86c5-ba78081d9fb4"
+        }
+    ],
+    "MOONRISE_SECOND_BALTHAZAR": [
+        {
+            "Handle": "Balthazar's Apprentice",
+            "Type": "",
+            "Guid": "S_MOO_TrapRezTarget_001_12dece95-26d5-46d0-9834-e20b89624848"
+        },
+        {
+            "Handle": "Corpse",
+            "Type": "",
+            "Guid": "S_MOO_TrapRezTarget_002_918aec31-70d1-49ac-92b8-b83e4a06c53f"
         }
     ],
     "SHADOW_BLIGHTS": [
@@ -18515,18 +18707,6 @@
             "Guid": "WYR_SharessCaress_FakeCrowds_HumanMale002_c88fbe83-be3d-4ca1-b0fb-c22a12ba401a"
         }
     ],
-    "AE_SANCTUM_SHAR": [
-        {
-            "Handle": "Justiciar Crusader Nightmist",
-            "Type": "",
-            "Guid": "AE_Justiciar_DefiledTemple_1_8c816816-0be7-42b1-a0ff-1960b0172658"
-        },
-        {
-            "Handle": "Justiciar Crusader Nightmist",
-            "Type": "",
-            "Guid": "AE_Justiciar_DefiledTemple_2_0e473c58-f86f-4952-a8c8-73e8ffb348c6"
-        }
-    ],
     "RIVINGTON_WELL": [
         {
             "Handle": "Murdered Refugee",
@@ -18681,18 +18861,6 @@
             "Handle": "Young Red Dragon",
             "Type": "",
             "Guid": "EO_LesserDrakeRed_f3f0ad95-bc16-495e-b087-e678d514bdb5"
-        }
-    ],
-    "10_MOUNTAIN_TRAIL_GOBLINS": [
-        {
-            "Handle": "Sabre-Toothed Tiger",
-            "Type": "Beast",
-            "Guid": "EO_SabreTooth1_14a87b00-1b2a-4dfa-9062-8df3016fc7f7"
-        },
-        {
-            "Handle": "Sabre-Toothed Tiger",
-            "Type": "Beast",
-            "Guid": "EO_SabreTooth2_3129e3bd-0ef3-4ea7-9bb6-577cf78fcde8"
         }
     ],
     "EO_REITHWIN_SHADE": [
@@ -18911,13 +19079,6 @@
             "Handle": "Owlbear Mate",
             "Type": "Beast",
             "Guid": "Owlbear_Dad_546473f8-9b12-cffd-c494-e74b4f6c0b3b"
-        }
-    ],
-    "08_UNDERDARK_SELUNE_ELISTRAEE": [
-        {
-            "Handle": "Oathless Wretch",
-            "Type": "Aberration",
-            "Guid": "QUEST_END_Thrall_Paladin_001_cd680684-3d38-48f6-8c34-8e0c9428553f"
         }
     ]
 }

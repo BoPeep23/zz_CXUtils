@@ -26189,7 +26189,7 @@
             "SubclassArchetype": "",
             "MonsterArchetype": "Kobold Looter",
             "Corpse": false,
-            "Notes": "",
+            "Notes": "Green color; carries Ceremonial Mace",
             "Level": 5,
             "ArmorClass": 13,
             "OriginalHealth": 20,
@@ -30998,6 +30998,90 @@
             "LockRandomModifications": false,
             "LockInformation": false,
             "LockBlock": false
+        },
+        {
+            "Distance": 1.9101125409021489,
+            "Entity": "Entity (0200000100006eeb)",
+            "Guid": "a55901ba-9834-4dc0-867c-e816fc76ab7c",
+            "Handle": "Naellis",
+            "Name": "Deva_Male_PlanarAlly_Banite_001"
+        },
+        {
+            "Distance": 1.923698171476729,
+            "Entity": "Entity (0200000100006d10)",
+            "Guid": "aa0eb551-c2cf-4536-b774-cf5ab19342b8",
+            "Handle": "Skeletal Hound",
+            "Name": "Undead_Hound_A_003"
+        },
+        {
+            "Distance": 2.1616646515056814,
+            "Entity": "Entity (02000001000000e0)",
+            "Guid": "3ed74f06-3c60-42dc-83f6-f034cb47c679",
+            "Handle": "Shadowheart",
+            "Name": "S_Player_ShadowHeart"
+        },
+        {
+            "Distance": 3.169357670875698,
+            "Entity": "Entity (020000010000009e)",
+            "Guid": "ad9af97d-75da-406a-ae13-7071c563f604",
+            "Handle": "Gale",
+            "Name": "S_Player_Gale"
+        },
+        {
+            "Distance": 3.291561182749285,
+            "Entity": "Entity (0200000100006d0e)",
+            "Guid": "9ea45a2f-a034-45a1-9700-cf9cfd00d736",
+            "Handle": "Skeletal Hound",
+            "Name": "Undead_Hound_A_000"
+        },
+        {
+            "Distance": 3.701644758666395,
+            "Entity": "Entity (02000001000000e1)",
+            "Guid": "f716474d-db41-a5f6-6492-fa2fc15a601c",
+            "Handle": "Dra'kar",
+            "Name": "YUANTI_PUREBLOOD_STRONG_MALE"
+        },
+        {
+            "Distance": 4.000217948801873,
+            "Entity": "Entity (0200000100006d0f)",
+            "Guid": "c91e2d6f-cc41-4206-9b15-21bea7174743",
+            "Handle": "Skeletal Hound",
+            "Name": "Undead_Hound_A_002"
+        },
+        {
+            "Distance": 6.607577135013354,
+            "Entity": "Entity (0200000100006d7a)",
+            "Guid": "e1e2ba8a-4145-4056-9320-630a19dac117",
+            "Handle": "Ghost",
+            "Name": "LOW_Ghost_A_002"
+        },
+        {
+            "Distance": 7.450621311046961,
+            "Entity": "Entity (0200000100006d79)",
+            "Guid": "731cead0-bb93-4b1d-a674-09b08897486f",
+            "Handle": "Ghost",
+            "Name": "LOW_Ghost_A_003"
+        },
+        {
+            "Distance": 7.712528092027215,
+            "Entity": "Entity (0200000100006d77)",
+            "Guid": "3d6945d6-96ba-47e7-b226-53d7eaf7a554",
+            "Handle": "Ghost",
+            "Name": "LOW_Ghost_A_000"
+        },
+        {
+            "Distance": 8.992648676039012,
+            "Entity": "Entity (0200000100006d78)",
+            "Guid": "5d02ca6b-7f1f-4177-949f-7e9161c95845",
+            "Handle": "Ghost",
+            "Name": "LOW_Ghost_A_001"
+        },
+        {
+            "Distance": 14.59456457153794,
+            "Entity": "Entity (02000001000000d1)",
+            "Guid": "dcf597c0-36c5-4c81-957a-6fe9fca50a68",
+            "Handle": "Bex",
+            "Name": "S_GLO_YoungLover_02"
         },
         {
             "Handle": "Death Shepherd",
@@ -90035,31 +90119,6 @@
             "Type": "Humanoid",
             "SubType": "Hobgoblin",
             "ClassArchetype": "Barbarian",
-            "SubclassArchetype": "",
-            "MonsterArchetype": "",
-            "Corpse": false,
-            "Notes": "",
-            "Level": 1,
-            "ArmorClass": 0,
-            "OriginalHealth": 0,
-            "HealthOverride": 0,
-            "PassivesToAdd": [],
-            "SpellsToAdd": [],
-            "CloneDisplayName": "",
-            "CloneTemplateGuid": "",
-            "LockStaticModifications": false,
-            "LockRandomModifications": false,
-            "LockInformation": false,
-            "LockBlock": false
-        },
-        {
-            "Handle": "Necrofex",
-            "FullGuid": "MMM_BALTHAZARSKELETON_45437558-8c7b-45b3-8a4f-4201643ebe9a",
-            "Act": "Unknown",
-            "Location": "",
-            "Type": "",
-            "SubType": "",
-            "ClassArchetype": "",
             "SubclassArchetype": "",
             "MonsterArchetype": "",
             "Corpse": false,

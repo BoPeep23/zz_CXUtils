@@ -808,10 +808,13 @@
             "Goon_Immunity_Blinded"
         ]
     },
+    "S_UND_DuergarLoyalFocused_ccf9ef29-3d8e-4751-a7ae-203bec7352c3": {
+        "HealthOverride": 52
+    },
     "S_UND_GrymforgeExcavation_DrowAdept_002_fa5830cf-e03f-48bb-ae38-d118092e1e03": {
         "Spells": [
-            "Target_Moonbeam",
-            "Target_HolyWeapon"
+            "Target_HolyWeapon",
+            "Target_Moonbeam"
         ],
         "Passives": [
             "CX_Cleric_Boost",
@@ -826,9 +829,9 @@
     "S_UND_MephitAmbush_Mephit_000_fd14c0a6-2f9c-4983-857d-c8f5f85a8087": {
         "Spells": [
             "Projectile_Fireball",
+            "Projectile_ScorchingRay",
             "Target_Grease",
-            "Target_HeatMetal",
-            "Projectile_ScorchingRay"
+            "Target_HeatMetal"
         ],
         "Passives": [
             "UnlockedWarlockSpellSlotLevel3"
@@ -836,17 +839,17 @@
     },
     "S_UND_MephitAmbush_Mephit_001_af183ce5-9a9b-44eb-814e-42fa3350b2c1": {
         "Passives": [
-            "MAG_Heat_Fire_Robe_Passive",
             "MAG_Fire_ApplyBurningOnFireDamage_Passive",
+            "MAG_Heat_Fire_Robe_Passive",
             "MAG_Lesser_Infernal_Metal_Gloves_FireDamage_Passive"
         ]
     },
     "S_UND_MephitAmbush_Mephit_002_184b9dcd-3b1f-430a-9a71-bb54d986fcff": {
         "Spells": [
             "Projectile_Fireball",
+            "Projectile_ScorchingRay",
             "Target_Grease",
-            "Target_HeatMetal",
-            "Projectile_ScorchingRay"
+            "Target_HeatMetal"
         ],
         "Passives": [
             "UnlockedWarlockSpellSlotLevel3"
@@ -854,9 +857,9 @@
     },
     "S_UND_MephitAmbush_Mephit_003_8f6d43d2-6c18-4d77-811c-cd44cb233a9f": {
         "Spells": [
+            "Projectile_ScorchingRay",
             "Target_Grease",
-            "Target_HeatMetal",
-            "Projectile_ScorchingRay"
+            "Target_HeatMetal"
         ],
         "Passives": [
             "UnlockedWarlockSpellSlotLevel3"
@@ -864,16 +867,16 @@
     },
     "S_UND_MephitAmbush_Mephit_004_a58fe622-860e-45a1-902b-51cd71df2350": {
         "Passives": [
-            "MAG_Heat_Fire_Robe_Passive",
             "MAG_Fire_ApplyBurningOnFireDamage_Passive",
+            "MAG_Heat_Fire_Robe_Passive",
             "MAG_Lesser_Infernal_Metal_Gloves_FireDamage_Passive"
         ]
     },
     "S_UND_MephitAmbush_Mephit_005_be85453e-867a-4f08-a959-c6551869ee1d": {
         "Spells": [
+            "Projectile_ScorchingRay",
             "Target_Grease",
-            "Target_HeatMetal",
-            "Projectile_ScorchingRay"
+            "Target_HeatMetal"
         ],
         "Passives": [
             "UnlockedWarlockSpellSlotLevel3"
@@ -881,24 +884,24 @@
     },
     "S_UND_MephitAmbush_Mephit_006_a5182eef-582d-44d2-ba5a-a2e0ace5af94": {
         "Passives": [
-            "MAG_Heat_Fire_Robe_Passive",
             "MAG_Fire_ApplyBurningOnFireDamage_Passive",
+            "MAG_Heat_Fire_Robe_Passive",
             "MAG_Lesser_Infernal_Metal_Gloves_FireDamage_Passive"
         ]
     },
     "S_UND_MephitAmbush_Mephit_007_63a4aa4d-0211-4d02-8666-2b95281790e1": {
         "Passives": [
-            "MAG_Heat_Fire_Robe_Passive",
             "MAG_Fire_ApplyBurningOnFireDamage_Passive",
+            "MAG_Heat_Fire_Robe_Passive",
             "MAG_Lesser_Infernal_Metal_Gloves_FireDamage_Passive"
         ]
     },
     "S_UND_MephitAmbush_Mephit_008_83b9db14-ff7d-41c2-aa48-29e823468a97": {
         "Spells": [
             "Projectile_Fireball",
+            "Projectile_ScorchingRay",
             "Target_Grease",
-            "Target_HeatMetal",
-            "Projectile_ScorchingRay"
+            "Target_HeatMetal"
         ],
         "Passives": [
             "UnlockedWarlockSpellSlotLevel3"
@@ -1171,6 +1174,48 @@
             "Goon_Damage_Radiant_d6_SpellAttacks",
             "Goon_Damage_Radiant_d4_Attacks",
             "Goon_AttackRoll_2"
+        ]
+    },
+    "EO_SabreTooth1_14a87b00-1b2a-4dfa-9062-8df3016fc7f7": {
+        "HealthOverride": 1,
+        "Passives": [
+            "Goon_AC_Debuff_5"
+        ]
+    },
+    "EO_SabreTooth2_3129e3bd-0ef3-4ea7-9bb6-577cf78fcde8": {
+        "HealthOverride": 1,
+        "Passives": [
+            "Goon_AC_Debuff_5"
+        ]
+    },
+    "MMM_MOUNTAINGOBS_10a57eba-31b6-4d1c-b4cb-30a997f15408": {
+        "HealthOverride": 1,
+        "Passives": [
+            "Goon_AC_Debuff_5"
+        ]
+    },
+    "MMM_MOUNTAINGOBS_567f86aa-33fe-4539-8f5e-27e991daafa8": {
+        "HealthOverride": 1,
+        "Passives": [
+            "Goon_AC_Debuff_5"
+        ]
+    },
+    "MMM_MOUNTAINGOBS_5c6525c1-a91d-4d7c-90da-84350bff1a27": {
+        "HealthOverride": 1,
+        "Passives": [
+            "Goon_AC_Debuff_5"
+        ]
+    },
+    "MMM_MOUNTAINGOBS_68304a4f-95ae-4a67-8626-5daf30725d5e": {
+        "HealthOverride": 1,
+        "Passives": [
+            "Goon_AC_Debuff_5"
+        ]
+    },
+    "MMM_MOUNTAINGOBS_b0483404-6331-47a7-bdbf-6ce4cb4248f7": {
+        "HealthOverride": 1,
+        "Passives": [
+            "Goon_AC_Debuff_5"
         ]
     },
     "S_CRE_CultistsUndead_Ghoul_000_88ac37a0-e51b-49e6-9b71-148a02dd5b70": {
@@ -2008,6 +2053,15 @@
         "Passives": [
             "Goon_AC_Buff_1"
         ]
+    },
+    "PUZ_SHA_Shadowquake_Boss_000_bf15303f-2ab5-4054-a67b-dc33c6daf2b9": {
+        "HealthOverride": 68
+    },
+    "PUZ_SHA_Shadowquake_Character_000_0781bbf9-e1cb-4487-a230-6b9a46f89a0b": {
+        "HealthOverride": 34
+    },
+    "PUZ_SHA_Shadowquake_Character_001_5fff7616-cb74-41ab-a932-74f99cc1b654": {
+        "HealthOverride": 34
     },
     "S_INT_GithRoyalGuard01_2a57207b-ce9a-4472-aea2-bb94722a9c59": {
         "HealthOverride": 60
@@ -13135,12 +13189,6 @@
             "Mobile_PassiveBonuses"
         ]
     },
-    "AE_Justiciar_DefiledTemple_1_8c816816-0be7-42b1-a0ff-1960b0172658": {
-        "HealthOverride": 30
-    },
-    "AE_Justiciar_DefiledTemple_2_0e473c58-f86f-4952-a8c8-73e8ffb348c6": {
-        "HealthOverride": 30
-    },
     "EO_CrawlingClaw_10_697deecf-e7c2-4669-875f-5b1b7d8000ca": {
         "HealthOverride": 28,
         "Passives": [
@@ -13642,15 +13690,6 @@
             "MAG_Vicious_Weapon_Passive",
             "RemarkableAthlete_Jump",
             "Resilient_Constitution"
-        ]
-    },
-    "MMM_SHADOWSPAWNDOOR_c0f07a71-a404-43a8-9b61-b082fddefe05": {
-        "Passives": [
-            "FightingStyle_Dueling",
-            "FightingStyle_GreatWeaponFighting",
-            "FightingStyle_TwoWeaponFighting",
-            "Goon_AC_Buff_1",
-            "MAG_Psychic_MentalFatigue_Gloves_Passive"
         ]
     },
     "MMM_WISPTREE_02165ff4-4106-4ee4-b0b0-8dea210e4854": {
