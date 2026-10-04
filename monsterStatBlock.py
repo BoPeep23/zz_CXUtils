@@ -23,6 +23,15 @@ class MonsterStatBlock:
         "SpellsToAdd",
     }
 
+    # Block Controls. Written to the JSON only when True; a missing key reads
+    # back as False (see from_dict), so False is never written out.
+    LOCK_FIELDS = {
+        "LockStaticModifications",
+        "LockRandomModifications",
+        "LockInformation",
+        "LockBlock",
+    }
+
     def __init__(
         self,
         handle=None,
@@ -35,6 +44,7 @@ class MonsterStatBlock:
         subclassArchetype=None,
         monsterArchetype=None,
         corpse=None,
+        todo=None,
         notes=None,
         level=0,
         armor_class=0,
@@ -60,8 +70,12 @@ class MonsterStatBlock:
         self._subclassArchetype = subclassArchetype
         self._monsterArchetype = monsterArchetype
         self._corpse = corpse
-        # ── Information ──────────────────────────────────────────────────
+        # ── Claude Prompt ────────────────────────────────────────────────
+        # Read by Claude, in field order: TODO (direct tasks), then Notes
+        # (context that should drive the decisions those tasks call for).
+        self._todo = todo or []
         self._notes = notes
+        # ── Information ──────────────────────────────────────────────────
         self._level = level
         self._armor_class = armor_class
         self._original_health = original_health
@@ -160,6 +174,27 @@ class MonsterStatBlock:
     def corpse(self, value):
         self._corpse = value
 
+    # ── Properties: Claude Prompt ──────────────────────────────────────────
+    # Authored by hand (or by Claude) and read by Claude, never written by
+    # discoverFields or sanitizeFields. TODO holds direct tasks; Notes holds
+    # the context that should drive how those tasks are carried out.
+
+    @property
+    def todo(self):
+        return self._todo
+
+    @todo.setter
+    def todo(self, value):
+        self._todo = value
+
+    @property
+    def notes(self):
+        return self._notes
+
+    @notes.setter
+    def notes(self, value):
+        self._notes = value
+
     # ── Properties: Information ────────────────────────────────────────────
     # Current/planned info about the creature. Never updated by sanitizeFields
     # or by Combat Extender itself; gated by LockInformation for discoverFields.
@@ -187,14 +222,6 @@ class MonsterStatBlock:
     @level.setter
     def level(self, value):
         self._level = value
-
-    @property
-    def notes(self):
-        return self._notes
-
-    @notes.setter
-    def notes(self, value):
-        self._notes = value
 
     # ── Properties: Modifications ───────────────────────────────────────────
     # Always dynamic - gathered and transformed by generateCombatExtenderBlocks.py.
@@ -282,9 +309,11 @@ class MonsterStatBlock:
         changing even when the block is/becomes a corpse. for_json=True is
         for actual file output: on a Corpse=True block it omits
         CORPSE_EXCLUDED_FIELDS entirely instead of writing them as blank/zero,
-        since those fields are never meaningful for static scenery. Field
+        since those fields are never meaningful for static scenery. It also
+        omits any Lock* field that is False/unset - a missing Lock* reads back
+        as False, so only locks that are actually set get written. Field
         order here is the canonical output order: Identifiers, then
-        Information, then Modifications, then Block Controls."""
+        Claude Prompt, then Information, then Modifications, then Block Controls."""
         d = {
             # Identifiers
             "Handle": self._handle,
@@ -297,8 +326,10 @@ class MonsterStatBlock:
             "SubclassArchetype": self._subclassArchetype,
             "MonsterArchetype": self._monsterArchetype,
             "Corpse": self._corpse,
-            # Information
+            # Claude Prompt
+            "TODO": self._todo,
             "Notes": self._notes,
+            # Information
             "Level": self._level,
             "ArmorClass": self._armor_class,
             "OriginalHealth": self._original_health,
@@ -317,6 +348,10 @@ class MonsterStatBlock:
         if for_json and self._corpse:
             for field in self.CORPSE_EXCLUDED_FIELDS:
                 d.pop(field, None)
+        if for_json:
+            for field in self.LOCK_FIELDS:
+                if not d.get(field):
+                    d.pop(field, None)
         return d
 
     @classmethod
@@ -340,6 +375,7 @@ class MonsterStatBlock:
             subclassArchetype=_or_default("SubclassArchetype", ""),
             monsterArchetype=_or_default("MonsterArchetype", ""),
             corpse=_or_default("Corpse", False),
+            todo=_or_default("TODO", []),
             notes=_or_default("Notes", ""),
             level=_or_default("Level", 0),
             armor_class=_or_default("ArmorClass", 0),
@@ -365,6 +401,7 @@ class MonsterStatBlock:
             "SubclassArchetype",
             "MonsterArchetype",
             "Corpse",
+            "TODO",
             "Notes",
             "Level",
             "ArmorClass",
@@ -500,6 +537,10 @@ class MonsterStatBlock:
                 existing.passives_to_add = sorted(
                     set(existing.passives_to_add + block.passives_to_add)
                 )
+                # TODO tasks keep their authored order; duplicates are dropped.
+                existing.todo = existing.todo + [
+                    task for task in block.todo if task not in existing.todo
+                ]
                 if _should_replace(existing.handle, block.handle):
                     existing.handle = block.handle
                 if _should_replace(existing.act, block.act):

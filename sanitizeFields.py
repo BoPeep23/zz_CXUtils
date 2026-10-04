@@ -52,6 +52,20 @@ class sanitizeFields:
                 block.level = max_level
 
     @staticmethod
+    def normalize_todo_field(blocks):
+        """TODO is always a list of strings, blank as []. A missing/None/blank
+        value becomes [], a lone string becomes a one-item list, and blank
+        entries inside a list are dropped. Safe to re-run."""
+        for block in blocks:
+            value = block.todo
+            if value is None or value == "":
+                block.todo = []
+            elif isinstance(value, str):
+                block.todo = [value]
+            elif isinstance(value, list):
+                block.todo = [str(task) for task in value if str(task).strip()]
+
+    @staticmethod
     def strip_corpse_only_fields(blocks):
         """Corpse=True blocks are static scenery, not fighters - ClassArchetype,
         SubclassArchetype, ArmorClass, HealthOverride, OriginalHealth, Level,
@@ -115,17 +129,14 @@ class sanitizeFields:
         """Derives Type/SubType from phrases found anywhere in FullGuid, using
         maps/guid_to_type_subtype_map.json - a tiered, ordered list of
         key -> "Type" or "Type, SubType" entries (SubType is never applied
-        without a Type from the same entry). Every key is tested against
-        every block on every run - this is the definitive source for
-        Type/SubType, always re-applying on a match (like
-        populate_location_field). By default a match applies its Type/SubType
-        and the search keeps going through later keys, so a later, more
-        specific entry can override an earlier, broader one. A key ending in
-        '!' stops the search right there instead, locking in that entry's
-        Type/SubType so no later entry can override it for this block.
-        Matching is a case-sensitive substring check (not just a prefix),
-        consistent with how these key phrases are authored as literal
-        fragments of the game's FullGuid naming. Safe to re-run."""
+        without a Type from the same entry). Fill-only: a Type/SubType already
+        set on the block (by hand or by an earlier run) is never replaced -
+        the map only fills blank fields. Within a single run the search still
+        tiers: a later, more specific match overrides an earlier, broader one
+        for the same block, and a key ending in '!' stops the search right
+        there. Matching is a case-sensitive substring check (not just a
+        prefix), consistent with how these key phrases are authored as
+        literal fragments of the game's FullGuid naming. Safe to re-run."""
         base_dir = os.path.dirname(__file__)
         map_path = os.path.join(base_dir, "maps", "guid_to_type_subtype_map.json")
         with open(map_path, "r") as f:
@@ -134,6 +145,10 @@ class sanitizeFields:
         for block in blocks:
             if not block.full_guid:
                 continue
+            # Matches are gathered for the whole pass and written once at the
+            # end, so the fill-only check sees the block's pre-run values.
+            type_found = None
+            subtype_found = None
             for raw_key, value in guid_to_type_subtype_map.items():
                 stop = raw_key.endswith("!")
                 phrase = raw_key[:-1] if stop else raw_key
@@ -145,12 +160,17 @@ class sanitizeFields:
                 subtype_value = parts[1] if len(parts) > 1 and parts[1] else None
 
                 if type_value:
-                    block.type = type_value
+                    type_found = type_value
                     if subtype_value:
-                        block.subtype = subtype_value
+                        subtype_found = subtype_value
 
                 if stop:
                     break
+
+            if type_found and not block.type:
+                block.type = type_found
+            if subtype_found and not block.subtype:
+                block.subtype = subtype_found
 
     @staticmethod
     def populate_class_archetype_from_guid(blocks):
@@ -228,18 +248,17 @@ class sanitizeFields:
     @staticmethod
     def populate_location_field(blocks):
         """Derives Location from the FullGuid's prefix, using
-        maps/guid_to_location_map.json as the definitive source. Prefixes are
-        checked in file order, so a more specific key listed earlier wins over
-        a more generic key listed later. A block whose FullGuid doesn't match
-        any prefix keeps its existing Location untouched. Safe to re-run;
-        always re-applies the mapped value on a match."""
+        maps/guid_to_location_map.json. Prefixes are checked in file order, so
+        a more specific key listed earlier wins over a more generic key listed
+        later. Fill-only: a block that already has a Location keeps it, and a
+        block whose FullGuid doesn't match any prefix stays blank. Safe to re-run."""
         base_dir = os.path.dirname(__file__)
         map_path = os.path.join(base_dir, "maps", "guid_to_location_map.json")
         with open(map_path, "r") as f:
             guid_to_location_map = json.load(f)
 
         for block in blocks:
-            if not block.full_guid:
+            if not block.full_guid or block.location:
                 continue
             for prefix, location in guid_to_location_map.items():
                 if block.full_guid.startswith(prefix):
@@ -298,14 +317,15 @@ if __name__ == "__main__":
     sanitizeFields.populate_act_field(clean_blocks)
 
     # ── populate_location_field ──────────────────────────────────────────────
-    # Derives Location from FullGuid prefixes via maps/guid_to_location_map.json,
-    # the definitive source. Unmatched FullGuids keep their existing Location.
+    # Derives Location from FullGuid prefixes via maps/guid_to_location_map.json.
+    # Fill-only: a Location already on the block is kept.
     sanitizeFields.populate_location_field(clean_blocks)
 
     # ── populate_type_subtype_from_guid ──────────────────────────────────────
     # Derives Type/SubType from phrases anywhere in FullGuid via
-    # maps/guid_to_type_subtype_map.json, the definitive source. Always
-    # re-applies on a match; tiered so later entries catch edge cases.
+    # maps/guid_to_type_subtype_map.json. Fill-only: only blank Type/SubType
+    # are written, so a value set by hand is never overwritten. Tiered within
+    # a run so later entries catch edge cases.
     sanitizeFields.populate_type_subtype_from_guid(clean_blocks)
 
     # ── populate_class_archetype_from_guid ───────────────────────────────────
@@ -326,6 +346,10 @@ if __name__ == "__main__":
     # Level is 0-30 (0 = unknown); blocks without one already default to 0
     # on load. This clamps any value above 30 down to 30. Safe to re-run.
     sanitizeFields.clamp_level_field(clean_blocks)
+
+    # ── normalize_todo_field ─────────────────────────────────────────────────
+    # TODO (Claude Prompt) is always a list of strings, blank as []. Safe to re-run.
+    sanitizeFields.normalize_todo_field(clean_blocks)
 
     # ── strip_corpse_only_fields ─────────────────────────────────────────────
     # Corpse=True blocks never carry combat-relevant fields. Safe to re-run.

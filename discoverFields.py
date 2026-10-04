@@ -29,6 +29,7 @@ class discoverFields:
         "SubclassArchetype": "subclassArchetype",
         "MonsterArchetype": "monsterArchetype",
         "Corpse": "corpse",
+        "TODO": "todo",
         "Notes": "notes",
         "Level": "level",
         "ArmorClass": "armor_class",
@@ -56,8 +57,9 @@ class discoverFields:
 
     # Information fields: current/planned info about the creature. Only
     # monster_archetype_to_static_modifications_and_info() may write these,
-    # and only when the block isn't LockInformation'd.
-    INFORMATION_FIELDS = {"ArmorClass", "OriginalHealth", "Level", "Notes"}
+    # and only when the block isn't LockInformation'd. Notes/TODO are Claude
+    # Prompt fields, never written by discovery, so they are not listed here.
+    INFORMATION_FIELDS = {"ArmorClass", "OriginalHealth", "Level"}
 
     # ApplyStats fields that should be merged into the block's existing list
     # (deduplicated) instead of overwriting it outright.
@@ -436,7 +438,7 @@ class discoverFields:
         matching a MatchCombos entry. `map_data` is a discovery map already
         loaded from maps/discovery_maps/ (see apply_discovery_map) - this
         method itself never touches the filesystem. The only tier allowed to
-        write Information fields (ArmorClass/OriginalHealth/Level/Notes)
+        write Information fields (ArmorClass/OriginalHealth/Level)
         alongside Modification fields - Information sub-fields are
         additionally gated per-field by LockInformation, independent of the
         block-level LockStaticModifications gate. LockBlock is always

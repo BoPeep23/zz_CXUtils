@@ -68,10 +68,11 @@ Every GUID entry is represented as a `MonsterStatBlock` object. The JSON schema 
 | `CloneTemplateGuid` | `clone_template_guid` | Mutable | Source GUID to clone from, don't need if the source GUID is the same block |
 | `CloneDisplayName`  | `clone_display_name`  | Mutable | Display name for the clone |
 | `Corpse`            | `corpse`              | Boolean | True if this entry represents a corpse/dead variant (NOT Undead creatures) |
-| `Notes`             | `notes`               | Freeform | Human-readable notes; used by discoverFields for inference |
+| `TODO`              | `todo`                | Claude Prompt, list | Direct tasks for Claude, read first (defaults to `[]`). Never written by discoverFields |
+| `Notes`             | `notes`               | Claude Prompt, freeform | Context that should drive the decisions the TODO tasks call for, read after TODO. Never written by discoverFields; read by `extract_armor_class_from_notes` for AC |
 | `MapApplied`        | `map_applied`         | Boolean | True once `discoverFields.apply_handle_map` has applied an entry's fixed `ApplyStats` to this block; prevents future runs from overwriting them |
 | `RandomizationApplied` | `randomization_applied` | Boolean | True once `apply_handle_map` has applied an entry's `RandomPassives`/`RandomSpells`/`HealthOverrideRange` to this block. Independent of `MapApplied` — an entry with only randomization (no `ApplyStats`) sets this without setting `MapApplied` |
-| `LockBlock`         | `lock_block`          | Boolean | True freezes the block from ALL further mutation by `apply_handle_map` — both hard stats and randomization, unconditionally, even if the matching entry sets `OverrideStaticLock`/`OverrideRandomLock` |
+| `LockBlock`         | `lock_block`          | Boolean | Written only when True (absent = False). True freezes the block from ALL further mutation by `apply_handle_map` — both hard stats and randomization, unconditionally, even if the matching entry sets `OverrideStaticLock`/`OverrideRandomLock` |
 
 The master JSON file wraps all entries under a top-level `"Guids"` list:
 ```json
