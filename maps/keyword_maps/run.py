@@ -8,7 +8,7 @@ MANAGER = json.load(open(os.path.join(ZZ, "cx_passive_manager.json"), encoding="
 
 # name -> data lookup across all sources (BASE wins for vanilla lookups, then mods)
 LOOKUP = {}
-for code in ["BASE", "DTHM", "INVX", "RAN", "DEGR", "ENCO", "EXEP", "FEAT", "SWTE", "UTUT"]:
+for code in ["BASE", "DTHM", "INVX", "RAN", "DEGR", "ENCO", "EXEP", "FEAT", "SWTE", "UTUT", "FADE"]:
     for e in R.get(code, []):
         LOOKUP.setdefault(e["name"], e["data"])
 
@@ -17,7 +17,7 @@ drop_names = defaultdict(list)
 entries = []     # (name, code, tags)
 seen = set()
 
-for code in ["BASE", "DTHM", "INVX", "RAN", "DEGR", "ENCO", "EXEP", "FEAT", "SWTE", "UTUT"]:
+for code in ["BASE", "DTHM", "INVX", "RAN", "DEGR", "ENCO", "EXEP", "FEAT", "SWTE", "UTUT", "FADE"]:
     for e in R[code]:
         name = e["name"]
         key = (name, code)

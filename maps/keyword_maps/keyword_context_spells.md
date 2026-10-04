@@ -2,7 +2,7 @@
 
 Read this first. It is the full brief for a fresh chat that builds the spell keyword map. It assumes no prior conversation.
 
-**Status (2026-10-03):** First build done. [keyword_to_spells.json](keyword_to_spells.json) is populated (478 unique entries) and the audit log is written. Open decisions are listed under "Open decisions" below. The norbyte scraper was not used. Check [keyword_map_plan.md](keyword_map_plan.md) for the passives side.
+**Status (2026-10-03):** First build done. [keyword_to_spells.json](keyword_to_spells.json) is populated (612 unique entries; FADE added 2026-10-03, see the log) and the audit log is written. Open decisions are listed under "Open decisions" below. The norbyte scraper was not used. Check [keyword_map_plan.md](keyword_map_plan.md) for the passives side.
 
 ## Build state (read this before rebuilding)
 
@@ -72,6 +72,7 @@ The passive map (`keyword_to_passives.json`) has the same structure and is a sep
   - InvocationsExpanded = `INVX`
   - RangerSubclasses5eCombined = `RAN`
   - StormWardensTomeOfSpells = `SWTS`
+  - FADE (Fade's Equipment Distribution, 7 per-class packs) = `FADE`
 - **Collisions:** 59 spell IDs exist in both 5eSpells and MystraSpells. Index only the winner, using the Use5eSpellsWithMystraSpells rules. 5eSpells wins for its 7 patched IDs, and MystraSpells wins for the rest. Do not index the loser. Source: `bg3-mod-extraction-utils/mods/Use5eSpellsWithMystraSpells/` and [mystra-5espells-compat](../../research/mystra_5espells_compat_report.md).
 - **Homebrew is included:** StormWardensTomeOfSpells entries are indexed.
 - **Groups:** keep the existing keys. Add these groups:

@@ -19984,5 +19984,3142 @@
     "Properties": "IsHidden"
    }
   }
+ ],
+ "FADE": [
+  {
+   "name": "CC_CharismaticForce_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b009;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b010;1",
+    "DescriptionParams": "DealDamage(,Force);DealDamage(,Radiant);DealDamage(,Psychic)",
+    "Icon": "PassiveFeature_Generic_Magical",
+    "Properties": "OncePerTurn",
+    "BoostContext": "OnDamage",
+    "BoostConditions": "IsSpell()",
+    "Boosts": "IF(HasDamageDoneForType(DamageType.Force)):DamageBonus(CharismaModifier/2, Force);IF(HasDamageDoneForType(DamageType.Radiant)):DamageBonus(CharismaModifier/2, Radiant);IF(HasDamageDoneForType(DamageType.Psychic)):DamageBonus(CharismaModifier/2, Psychic)"
+   }
+  },
+  {
+   "name": "CC_AugmentedDefense_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b011;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b012;1",
+    "Icon": "PassiveFeature_ShieldMaster_Dodge",
+    "Properties": "Highlighted",
+    "BoostContext": "OnEquip;OnCreate",
+    "BoostConditions": "not WearingArmor(context.Source)",
+    "Boosts": "IF(ConditionResult(context.Source.Charisma == 14) or ConditionResult(context.Source.Charisma == 15)):AC(1);IF(ConditionResult(context.Source.Charisma  == 16) or ConditionResult(context.Source.Charisma  == 17)):AC(1);IF(ConditionResult(context.Source.Charisma  == 18) or ConditionResult(context.Source.Charisma  == 19)):AC(2);IF(ConditionResult(context.Source.Charisma  == 20) or ConditionResult(context.Source.Charisma  == 21)):AC(2);IF(ConditionResult(context.Source.Charisma  >= 22)):AC(3)"
+   }
+  },
+  {
+   "name": "CC_AugmentedRetaliation_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b015;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b016;1",
+    "DescriptionParams": "DealDamage(CharismaModifier/2,Force)",
+    "Icon": "Action_ShieldShove",
+    "Properties": "OncePerTurn",
+    "StatsFunctorContext": "OnDamaged",
+    "Conditions": "IsMeleeAttack() and not IsRedirectedDamage()",
+    "StatsFunctors": "DealDamage(SWAP,CharismaModifier/2,Force,Magical)"
+   }
+  },
+  {
+   "name": "CC_SorcFortification_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b013;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b014;1",
+    "Icon": "Skill_Sorcerer_Passive_Metamagic_HeightenedSpell",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "IsSpell() and HasUseCosts('SorceryPoint', true)",
+    "StatsFunctors": "ApplyStatus(SELF,CC_SORC_FORTIFICATION,100,2)"
+   }
+  },
+  {
+   "name": "CC_Subtle_Influence_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b017;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b018;1",
+    "DescriptionParams": "1",
+    "Boosts": "SpellSaveDC(1)"
+   }
+  },
+  {
+   "name": "CC_ArcaneAcceleration_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b019;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b020;1",
+    "DescriptionParams": "Distance(3)",
+    "Icon": "PassiveFeature_FastMovement",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "IsSpell() and not IsCantrip()",
+    "StatsFunctors": "ApplyStatus(SELF,CC_ARCANE_ACCELERATION,100,1)"
+   }
+  },
+  {
+   "name": "CC_LivingCurrent_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b021;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b022;1",
+    "Icon": "Spell_HarmonyOfFireAndWater",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "HasSpellFlag(SpellFlags.Spell) and not IsCantrip()",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,CC_RESTORING_CURRENT_ONE,100, 0);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,CC_RESTORING_CURRENT_TWO,100, 0);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,CC_RESTORING_CURRENT_THREE,100, 0);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,CC_RESTORING_CURRENT_FOUR,100, 0);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,CC_RESTORING_CURRENT_FIVE,100, 0);IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,CC_RESTORING_CURRENT_SIX,100, 0);IF(SpellPowerLevelEqualTo(7)):ApplyStatus(SELF,CC_RESTORING_CURRENT_SEVEN,100, 0);IF(SpellPowerLevelEqualTo(8)):ApplyStatus(SELF,CC_RESTORING_CURRENT_EIGHT,100, 0);IF(SpellPowerLevelEqualTo(9)):ApplyStatus(SELF,CC_RESTORING_CURRENT_NINE,100, 0)"
+   }
+  },
+  {
+   "name": "CC_Spellstorm_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b025;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b026;1",
+    "DescriptionParams": "DealDamage(1d4,Force)",
+    "Icon": "Action_Monster_ElementalAir_Blast",
+    "Properties": "Highlighted;OncePerCombat",
+    "StatsFunctorContext": "OnCombatStarted",
+    "Conditions": "not HasStatus('CC_SPELLSTORM')",
+    "StatsFunctors": "ApplyStatus(CC_SPELLSTORM, 100, 3)"
+   }
+  },
+  {
+   "name": "CC_SpellStorm_Damage_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b025;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b027;1",
+    "DescriptionParams": "DealDamage(1d4, Force)",
+    "Properties": "IsHidden;OncePerTurn",
+    "StatsFunctorContext": "OnDamaged",
+    "Conditions": "IsAttack() and not IsRedirectedDamage()",
+    "StatsFunctors": "DealDamage(SWAP, 1d4, Force,Magical)"
+   }
+  },
+  {
+   "name": "CC_ArcaneSymbiosis_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b028;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b029;1",
+    "Icon": "Action_RegainHP",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "IsSpell() and HasUseCosts('SorceryPoint', true) and not IsCantrip()",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,CC_ARCANE_SYMBIOSIS_ONE,100, 2);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,CC_ARCANE_SYMBIOSIS_TWO,100, 2);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,CC_ARCANE_SYMBIOSIS_THREE,100, 2);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,CC_ARCANE_SYMBIOSIS_FOUR,100, 2);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,CC_ARCANE_SYMBIOSIS_FIVE,100, 2);IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,CC_ARCANE_SYMBIOSIS_SIX,100, 2);IF(SpellPowerLevelEqualTo(7)):ApplyStatus(SELF,CC_ARCANE_SYMBIOSIS_SEVEN,100, 2);IF(SpellPowerLevelEqualTo(8)):ApplyStatus(SELF,CC_ARCANE_SYMBIOSIS_EIGHT,100, 2);IF(SpellPowerLevelEqualTo(9)):ApplyStatus(SELF,CC_ARCANE_SYMBIOSIS_NINE,100, 2)"
+   }
+  },
+  {
+   "name": "CC_KineticRedirection_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b030;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b031;1",
+    "DescriptionParams": "Distance(3)",
+    "Icon": "Action_Mag_GoadingBlast",
+    "Properties": "OncePerTurn",
+    "StatsFunctorContext": "OnDamaged",
+    "Conditions": "IsMeleeAttack() and not IsRedirectedDamage()",
+    "StatsFunctors": "ApplyStatus(SWAP,CC_KINETIC_REDIRECTION,100,0)"
+   }
+  },
+  {
+   "name": "CC_SorcerousWager_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b032;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b033;1",
+    "Icon": "Action_Mag_SpellSlotRestoration",
+    "Properties": "Highlighted;OncePerTurn",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "IsSpell() and HasUseCosts('SorceryPoint', true) and not IsCantrip()",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,CC_SORCEROUS_WAGER_ONE,100, 1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,CC_SORCEROUS_WAGER_TWO,100, 1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,CC_SORCEROUS_WAGER_THREE,100, 1);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,CC_SORCEROUS_WAGER_FOUR,100, 1);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,CC_SORCEROUS_WAGER_FIVE,100, 1);IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,CC_SORCEROUS_WAGER_SIX,100, 1);IF(SpellPowerLevelEqualTo(7)):ApplyStatus(SELF,CC_SORCEROUS_WAGER_SEVEN,100, 1);IF(SpellPowerLevelEqualTo(8)):ApplyStatus(SELF,CC_SORCEROUS_WAGER_EIGHT,100, 1);IF(SpellPowerLevelEqualTo(9)):ApplyStatus(SELF,CC_SORCEROUS_WAGER_NINE,100, 1)"
+   }
+  },
+  {
+   "name": "CC_SorcerousRestoration_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b039;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b040;1",
+    "Icon": "Skill_Sorcerer_CreateSorceryPoints_1",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "HasSpellFlag(SpellFlags.Spell) and HasUseCosts('SorceryPoint', true) and not IsCantrip()",
+    "StatsFunctors": "IF(RollDieAgainstDC(DiceType.d100,70)):ApplyStatus(SELF,CC_SORCEROUS_RESTORATION,100, 0)"
+   }
+  },
+  {
+   "name": "CC_SorcerousPotency_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b042",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b043;1",
+    "Icon": "PassiveFeature_BloodMerchant_ExplosiveBlood",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnActionResourcesChanged",
+    "StatsFunctors": "IF(not HasActionResource('SorceryPoint',1,0,false,true)):RemoveStatus(SELF,CC_SORCEROUS_POTENCY);IF(HasActionResource('SorceryPoint',1,0,false,true) and not HasStatus('CC_SORCEROUS_POTENCY')):ApplyStatus(CC_SORCEROUS_POTENCY,100,1);IF(HasActionResource('SorceryPoint',1,0,false,true) and not HasActionResource('SorceryPoint',2,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,1,ForceSet);IF(HasActionResource('SorceryPoint',2,0,false,true) and not HasActionResource('SorceryPoint',3,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,2,ForceSet);IF(HasActionResource('SorceryPoint',3,0,false,true) and not HasActionResource('SorceryPoint',4,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,3,ForceSet);IF(HasActionResource('SorceryPoint',4,0,false,true) and not HasActionResource('SorceryPoint',5,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,4,ForceSet);IF(HasActionResource('SorceryPoint',5,0,false,true) and not HasActionResource('SorceryPoint',6,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,5,ForceSet);IF(HasActionResource('SorceryPoint',6,0,false,true) and not HasActionResource('SorceryPoint',7,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,6,ForceSet);IF(HasActionResource('SorceryPoint',7,0,false,true) and not HasActionResource('SorceryPoint',8,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,7,ForceSet);IF(HasActionResource('SorceryPoint',8,0,false,true) and not HasActionResource('SorceryPoint',9,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,8,ForceSet);IF(HasActionResource('SorceryPoint',9,0,false,true) and not HasActionResource('SorceryPoint',10,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,9,ForceSet);IF(HasActionResource('SorceryPoint',10,0,false,true) and not HasActionResource('SorceryPoint',11,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,10,ForceSet);IF(HasActionResource('SorceryPoint',11,0,false,true) and not HasActionResource('SorceryPoint',12,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,11,ForceSet);IF(HasActionResource('SorceryPoint',12,0,false,true) and not HasActionResource('SorceryPoint',13,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,12,ForceSet);IF(HasActionResource('SorceryPoint',13,0,false,true) and not HasActionResource('SorceryPoint',14,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,13,ForceSet);IF(HasActionResource('SorceryPoint',14,0,false,true) and not HasActionResource('SorceryPoint',15,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,14,ForceSet);IF(HasActionResource('SorceryPoint',15,0,false,true) and not HasActionResource('SorceryPoint',16,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,15,ForceSet);IF(HasActionResource('SorceryPoint',16,0,false,true) and not HasActionResource('SorceryPoint',17,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,16,ForceSet);IF(HasActionResource('SorceryPoint',17,0,false,true) and not HasActionResource('SorceryPoint',18,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,17,ForceSet);IF(HasActionResource('SorceryPoint',18,0,false,true) and not HasActionResource('SorceryPoint',19,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,18,ForceSet);IF(HasActionResource('SorceryPoint',19,0,false,true) and not HasActionResource('SorceryPoint',20,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,19,ForceSet);IF(HasActionResource('SorceryPoint',20,0,false,true)):SetStatusDuration(SELF,CC_SORCEROUS_POTENCY,20,ForceSet);"
+   }
+  },
+  {
+   "name": "CC_EchoHeal_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b045;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b046;1",
+    "Icon": "Action_WildMagic_SorceryPoints",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "CCSpellPowerLevelEqualOrGreaterThan(3) and HasUseCosts('SorceryPoint', true) and not IsCantrip()",
+    "StatsFunctors": "RegainHitPoints(CharismaModifier)"
+   }
+  },
+  {
+   "name": "CC_ArcaneTranslocation_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b047;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b049;1",
+    "DescriptionParams": "Distance(3)",
+    "Icon": "Spell_Conjuration_MistyStep",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "IsSpell()",
+    "StatsFunctors": "ApplyStatus(SELF, CC_ARCANE_TRANSLOCATION, 100, 1)"
+   }
+  },
+  {
+   "name": "CC_PointOfReturn_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b052;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b053;1",
+    "Icon": "Skill_Sorcerer_CreateSorceryPoints_1",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "HasUseCosts('SorceryPoint', true) and not IsCantrip()",
+    "StatsFunctors": "IF(RollDieAgainstDC(DiceType.d100,85)):ApplyStatus(SELF,CC_POINT_OF_RETURN,100, 0)"
+   }
+  },
+  {
+   "name": "CC_TwistingWeave_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b054;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b055;1",
+    "Icon": "PassiveFeature_MagicalAmbush",
+    "Properties": "Highlighted;OncePerShortRest",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "CCSpellPowerLevelEqualOrGreaterThan(3) and not IsCantrip() and Combat()",
+    "StatsFunctors": "ApplyStatus(SELF, CC_TWISTING_WEAVE, 100, 3)"
+   }
+  },
+  {
+   "name": "CC_ArcaneExtension_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b057;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b058;1",
+    "Properties": "Highlighted",
+    "Boosts": "UnlockSpellVariant(CCDistantSpellCheck(), ModifyTargetRadius(Multiplicative,1.25))"
+   }
+  },
+  {
+   "name": "CC_WardingMagic_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b059;1",
+    "Description": "h379b9d9bgb1b2g40ddgb8bagae9ce243dcc3;3",
+    "Boosts": "IF(IsSpell()):Advantage(AllSavingThrows)"
+   }
+  },
+  {
+   "name": "CC_MightOfTheArcaneFont_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b065;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b067;1",
+    "DescriptionParams": "",
+    "Icon": "Action_WildMagic_TurnMagic",
+    "Properties": "Highlighted;OncePerCombat",
+    "StatsFunctorContext": "OnCombatStarted",
+    "Conditions": "not HasStatus('CC_MIGHT_ARCANE_FONT')",
+    "StatsFunctors": "ApplyStatus(CC_MIGHT_ARCANE_FONT, 100, -1)"
+   }
+  },
+  {
+   "name": "CC_MightOfTheArcaneFont_Tech_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b065;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b067;1",
+    "DescriptionParams": "",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsSpell()",
+    "StatsFunctors": "RemoveStatus(SELF,CC_MIGHT_ARCANE_FONT)"
+   }
+  },
+  {
+   "name": "CC_ChaoticHarmony_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b071;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b072;1",
+    "DescriptionParams": "Distance(9)",
+    "Icon": "PassiveFeature_MagicInitiateSorcerer",
+    "Properties": "Highlighted;ToggledDefaultAddToHotbar;IsToggled;ToggledDefaultOn;OncePerTurn",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "HasSpellFlag(SpellFlags.Spell)",
+    "StatsFunctors": "CreateExplosion(SELF,CC_Projectile_Chaotic_Harmony)"
+   }
+  },
+  {
+   "name": "CC_ResilientSoul_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b076;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b077;1",
+    "Icon": "Action_Monk_WholenessOfBody",
+    "Boosts": "RollBonus(SavingThrow, CharismaModifier, Constitution)"
+   }
+  },
+  {
+   "name": "CC_ForgottenPower_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b078;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b080;1",
+    "DescriptionParams": "1",
+    "Icon": "Action_AstralKnowledge",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsSpell() and not Self() and Character() and Enemy() and not Dead()",
+    "StatsFunctors": "IF(IsKillingBlow()):ApplyStatus(SELF, CC_FORGOTTEN_POWER, 100, 0)"
+   }
+  },
+  {
+   "name": "CC_FluxShield_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b084;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b085;1",
+    "DescriptionParams": "4;2",
+    "Icon": "Action_Monster_GortashMachine_ShieldCapacitor",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnActionResourcesChanged",
+    "StatsFunctors": "IF(not HasActionResource('SorceryPoint',4,0,false,true)):RemoveStatus(SELF,CC_FLUX_SHIELD);IF(HasActionResource('SorceryPoint',4,0,false,true) and not HasStatus('CC_FLUX_SHIELD')):ApplyStatus(CC_FLUX_SHIELD,100,-1)"
+   }
+  },
+  {
+   "name": "CC_HeartstoneParry_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b089;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b090;1",
+    "DescriptionParams": "2",
+    "Boosts": "SpellSaveDC(2);AC(2)"
+   }
+  },
+  {
+   "name": "CC_MaximizedOutput_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b091;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b092;1",
+    "Icon": "PassiveFeature_WildMagicSurge",
+    "Properties": "Highlighted",
+    "Boosts": "IF(IsSpell()):Reroll(Damage,20, false)"
+   }
+  },
+  {
+   "name": "CC_PhaseShift_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b093;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b095;1",
+    "DescriptionParams": "",
+    "Properties": "OncePerShortRest",
+    "Icon": "Spell_Transmutation_Blink_Activate",
+    "Boosts": "UnlockInterrupt(CC_Interrupt_PhaseShift);ActionResource(Interrupt_PhaseShift,1,0)"
+   }
+  },
+  {
+   "name": "CC_SpellMaster_Concentration_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b097;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b122;1",
+    "DescriptionParams": "2",
+    "Icon": "PassiveFeature_StillnessOfMind",
+    "Properties": "Highlighted",
+    "Boosts": "IF(IsConcentrating(context.Source)):RollBonus(SavingThrow,2,Constitution)"
+   }
+  },
+  {
+   "name": "CC_SpellMaster_Infusion_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b098;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b099;1",
+    "Icon": "Spell_Necromancy_Contagion_Seizure",
+    "Properties": "Highlighted;OncePerTurn",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsSpell() and not Item()",
+    "StatsFunctors": "ApplyStatus(CC_MASTER_INFUSION,100,0)"
+   }
+  },
+  {
+   "name": "CC_SorcerousSand_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b035;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b036;1",
+    "Icon": "Action_Monster_Bombardement_ProjectileStrike",
+    "Properties": "Highlighted;ToggledDefaultAddToHotbar;IsToggled;OncePerLongRest",
+    "EnabledConditions": "HasActionResource('SorceryPoint', 1, 0, false, false, context.Source) and (HasStatus('CC_METAMAGIC_CAREFUL',context.Source) or HasStatus('CC_METAMAGIC_DISTANT',context.Source) or HasStatus('CC_METAMAGIC_EXTENDED',context.Source) or HasStatus('CC_METAMAGIC_HEIGHTENED',context.Source) or HasStatus('CC_METAMAGIC_QUICKENED',context.Source) or HasStatus('CC_METAMAGIC_SUBTLE',context.Source) or HasStatus('CC_METAMAGIC_TWINNED',context.Source) or HasStatus('CC_METAMAGIC_SEEKING',context.Source) or HasStatus('METAMAGIC_EMPOWERED',context.Source) or HasStatus('METAMAGIC_TRANSMUTED_SPELL',context.Source)) and not HasStatus('CC_SORCERER_FREE_CAST_USED')",
+    "EnabledContext": "OnCastResolved;OnLongRest;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved",
+    "Conditions": "(IsSpell() or IsCantrip()) and (IsSpellOfSchool(SpellSchool.Abjuration) or IsSpellOfSchool(SpellSchool.Divination) or IsSpellOfSchool(SpellSchool.Necromancy) or IsSpellOfSchool(SpellSchool.Enchantment) or IsSpellOfSchool(SpellSchool.Illusion) or IsSpellOfSchool(SpellSchool.Transmutation) and HasStatus('CC_SORCERER_FREE_CAST',context.Source)) and (HasStatus('CC_METAMAGIC_CAREFUL',context.Source) or HasStatus('CC_METAMAGIC_DISTANT',context.Source) or HasStatus('CC_METAMAGIC_EXTENDED',context.Source) or HasStatus('CC_METAMAGIC_TWINNED',context.Source) or HasStatus('CC_METAMAGIC_HEIGHTENED',context.Source) or HasStatus('CC_METAMAGIC_QUICKENED',context.Source) or HasStatus('CC_METAMAGIC_SUBTLE',context.Source))",
+    "StatsFunctorContext": "",
+    "StatsFunctors": "",
+    "ToggleOnFunctors": "ApplyStatus(CC_SORCERER_FREE_CAST_TRACKER,100,-1);IF(HasStatus('CC_SORCERER_FREE_CAST_TECHNICAL', context.Source)):ApplyStatus(CC_SORCERER_FREE_CAST,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_SORCERER_FREE_CAST);RemoveStatus(CC_SORCERER_FREE_CAST_TRACKER)",
+    "ToggleOnEffect": "VFX_Spells_Cast_Sorcerer_Metamagic_Empowered_HeadFX_01:Dummy_HeadFX",
+    "ToggleOffContext": "OnCastResolved"
+   }
+  },
+  {
+   "name": "CC_EndlessWell_Passive",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b069;1",
+    "Description": "h27ad4a5fg8ebeg4b8egb71dg81a7d073b070;1",
+    "Icon": "Action_Monster_Bombardement_ProjectileStrike",
+    "Properties": "Highlighted;ToggledDefaultAddToHotbar;IsToggled;OncePerCombat",
+    "EnabledConditions": "HasActionResource('SorceryPoint', 1, 0, false, false, context.Source) and (HasStatus('CC_METAMAGIC_CAREFUL',context.Source) or HasStatus('CC_METAMAGIC_DISTANT',context.Source) or HasStatus('CC_METAMAGIC_EXTENDED',context.Source) or HasStatus('CC_METAMAGIC_HEIGHTENED',context.Source) or HasStatus('CC_METAMAGIC_QUICKENED',context.Source) or HasStatus('CC_METAMAGIC_SUBTLE',context.Source) or HasStatus('CC_METAMAGIC_TWINNED',context.Source) or HasStatus('CC_METAMAGIC_SEEKING',context.Source) or HasStatus('METAMAGIC_EMPOWERED',context.Source) or HasStatus('METAMAGIC_TRANSMUTED_SPELL',context.Source)) and not HasStatus('CC_SORCERER_ENDLESSWELL_USED')",
+    "EnabledContext": "OnCastResolved;OnActionResourcesChanged;OnStatusApplied;OnStatusRemoved",
+    "Conditions": "(IsSpell() or IsCantrip()) and (IsSpellOfSchool(SpellSchool.Abjuration) or IsSpellOfSchool(SpellSchool.Divination) or IsSpellOfSchool(SpellSchool.Necromancy) or IsSpellOfSchool(SpellSchool.Enchantment) or IsSpellOfSchool(SpellSchool.Illusion) or IsSpellOfSchool(SpellSchool.Transmutation) and HasStatus('CC_SORCERER_FREE_CAST',context.Source)) and (HasStatus('CC_METAMAGIC_CAREFUL',context.Source) or HasStatus('CC_METAMAGIC_DISTANT',context.Source) or HasStatus('CC_METAMAGIC_EXTENDED',context.Source) or HasStatus('CC_METAMAGIC_TWINNED',context.Source) or HasStatus('CC_METAMAGIC_HEIGHTENED',context.Source) or HasStatus('CC_METAMAGIC_QUICKENED',context.Source) or HasStatus('CC_METAMAGIC_SUBTLE',context.Source))",
+    "StatsFunctors": "",
+    "StatsFunctorContext": "",
+    "ToggleOnFunctors": "ApplyStatus(CC_SORCERER_ENDLESSWELL_TRACKER,100,-1);IF(HasStatus('CC_SORCERER_FREE_CAST_TECHNICAL', context.Source)):ApplyStatus(CC_SORCERER_FREE_CAST,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_SORCERER_FREE_CAST);RemoveStatus(CC_SORCERER_ENDLESSWELL_TRACKER)",
+    "ToggleOnEffect": "VFX_Spells_Cast_Sorcerer_Metamagic_Empowered_HeadFX_01:Dummy_HeadFX",
+    "ToggleOffContext": "OnCastResolved"
+   }
+  },
+  {
+   "name": "Metamagic_Careful",
+   "using": "Metamagic_Careful",
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "ToggleOnFunctors": "ApplyStatus(CC_METAMAGIC_CAREFUL,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_METAMAGIC_CAREFUL)"
+   }
+  },
+  {
+   "name": "Metamagic_Distant",
+   "using": "Metamagic_Distant",
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "ToggleOnFunctors": "ApplyStatus(CC_METAMAGIC_DISTANT,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_METAMAGIC_DISTANT)"
+   }
+  },
+  {
+   "name": "Metamagic_Extended",
+   "using": "Metamagic_Extended",
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "ToggleOnFunctors": "ApplyStatus(CC_METAMAGIC_EXTENDED,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_METAMAGIC_EXTENDED)"
+   }
+  },
+  {
+   "name": "Metamagic_Twinned",
+   "using": "Metamagic_Twinned",
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "ToggleOnFunctors": "ApplyStatus(CC_METAMAGIC_TWINNED,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_METAMAGIC_TWINNED)"
+   }
+  },
+  {
+   "name": "Metamagic_Heightened",
+   "using": "Metamagic_Heightened",
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "ToggleOnFunctors": "ApplyStatus(CC_METAMAGIC_HEIGHTENED,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_METAMAGIC_HEIGHTENED)"
+   }
+  },
+  {
+   "name": "Metamagic_Quickened",
+   "using": "Metamagic_Quickened",
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "ToggleOnFunctors": "ApplyStatus(CC_METAMAGIC_QUICKENED,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_METAMAGIC_QUICKENED)"
+   }
+  },
+  {
+   "name": "Metamagic_Subtle",
+   "using": "Metamagic_Subtle",
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "ToggleOnFunctors": "ApplyStatus(CC_METAMAGIC_SUBTLE,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_METAMAGIC_SUBTLE)"
+   }
+  },
+  {
+   "name": "Metamagic_Seeking",
+   "using": "Metamagic_Seeking",
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "ToggleOnFunctors": "ApplyStatus(CC_METAMAGIC_SEEKING,100,-1)",
+    "ToggleOffFunctors": "RemoveStatus(CC_METAMAGIC_SEEKING)"
+   }
+  },
+  {
+   "name": "CC_Meta_Careful",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "CC_Meta_Distant",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "CC_Meta_Extended",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "CC_Meta_Twinned",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "CC_Meta_Heightened",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "CC_Meta_Quickened",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "CC_Meta_Subtle",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "CC_Meta_Seeking",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "CC_Meta_Empowered",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "CC_Meta_Transmuted",
+   "using": null,
+   "file": "mods\\FADE_CC_Sorcerer_Equipment\\Public\\CC_Sorcerer_Equipment_8ead7f8f-6e3f-335d-754e-52eb849fe189\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden"
+   }
+  },
+  {
+   "name": "MAG_GroveTempHP_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "hadbcf1e2ga2cag4888g9246g4a0b7b4893d10;1",
+    "Description": "hadbcf1e2ga2cag4888g9246g4a0b7b4893d9;1",
+    "DescriptionParams": "GainTemporaryHitPoints(ClassLevel(Cleric))",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "Ally() and not Self()",
+    "StatsFunctors": "ApplyStatus(SELF,MAG_CLERIC_TEMP_HP,100,-1)"
+   }
+  },
+  {
+   "name": "MAG_MaximizedHealCleric_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "hadbcf1e2ga2cag4888g9246g4a0b7b4893d11;1",
+    "Description": "hadbcf1e2ga2cag4888g9246g4a0b7b4893d12;1",
+    "Icon": "Spell_Evocation_Heal",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "IsSpell()",
+    "StatsFunctors": "ApplyStatus(DESPERATE_MEND_HEALING,100,0)"
+   }
+  },
+  {
+   "name": "FF_Fortune",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h5f627f3fg53e6g465dga432g22f61eb1bbc8;1",
+    "Description": "h5f627f3fg53e6g465dga432g22f61eb1bbc9;1",
+    "Icon": "Action_Paladin_EternalDevotion",
+    "PriorityOrder": "1",
+    "Properties": "IsToggled;Highlighted;Temporary;OncePerLongRest",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "FF_DivineFortuneCheck() and HasStatus('MAG_DIVINE_FORTUNE_CAST', context.Source)",
+    "StatsFunctors": "RemoveStatus(MAG_DIVINE_FORTUNE_CAST)",
+    "ToggleOnFunctors": "ApplyStatus(MAG_DIVINE_FORTUNE_CAST, 100, -1)",
+    "ToggleOffFunctors": "RemoveStatus(MAG_DIVINE_FORTUNE_CAST)",
+    "ToggleOffContext": "OnCastResolved"
+   }
+  },
+  {
+   "name": "SoH_AoE_Heal",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "Properties": [
+     "Highlighted",
+     "OncePerAttack"
+    ],
+    "DisplayName": "h5f627f3fg53e6g465dga432g22f61eb1bbc4;1",
+    "Description": "h5f627f3fg53e6g465dga432g22f61eb1bbc3;1",
+    "DescriptionParams": "Distance(3);RegainHitPoints(1d4)",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,SYMBOL_HOPE_HEAL_1,100,0);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,SYMBOL_HOPE_HEAL_2,100,0);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,SYMBOL_HOPE_HEAL_3,100,0);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,SYMBOL_HOPE_HEAL_4,100,0);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,SYMBOL_HOPE_HEAL_5,100,0);IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,SYMBOL_HOPE_HEAL_6,100,0)"
+   }
+  },
+  {
+   "name": "MAG_Twilight_Damage_Passive",
+   "using": "MAG_ElementalGish_CantripBooster_Amulet_Passive",
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h5f627f3fg53e6g465dga432g22f61eb1bbc6;1",
+    "Description": "h5f627f3fg53e6g465dga432g22f61eb1bbc5;1",
+    "DescriptionParams": "1d4",
+    "Properties": "OncePerAttack;OncePerTurn",
+    "Boosts": "IF(IsSpell()):DamageBonus(1d4)"
+   }
+  },
+  {
+   "name": "UnshakeableFaithAdvantage",
+   "using": "DarkDevotion",
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h154deae1gb7aag4b5fgbb28g0286ae978da3;1",
+    "Description": "h154deae1gb7aag4b5fgbb28g0286ae978da2;2",
+    "Icon": "Spell_Abjuration_WardingBond"
+   }
+  },
+  {
+   "name": "MAG_Helm_of_the_Martyr_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h154deae1gb7aag4b5fgbb28g0286ae978da4;1",
+    "Description": "h154deae1gb7aag4b5fgbb28g0286ae978da5;1",
+    "DescriptionParams": "RegainHitPoints(WisdomModifier)"
+   }
+  },
+  {
+   "name": "Crusade_NonMagical_Resistance_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h154deae1gb7aag4b5fgbb28g0286ae978da9;1",
+    "Description": "h154deae1gb7aag4b5fgbb28g0286ae978da10;1",
+    "Properties": "Highlighted",
+    "Boosts": "Resistance(Bludgeoning, ResistantToNonMagical);Resistance(Piercing, ResistantToNonMagical);Resistance(Slashing, ResistantToNonMagical)"
+   }
+  },
+  {
+   "name": "MAG_ClericMovementHeal_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h154deae1gb7aag4b5fgbb28g0286ae978da16;1",
+    "Description": "h154deae1gb7aag4b5fgbb28g0286ae978da17;1",
+    "DescriptionParams": "Distance(2)",
+    "Icon": "Action_Monster_Djinni_MistyStep",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "Character() and not Enemy()",
+    "StatsFunctors": "CreateExplosion(Projectile_MAG_MovementMultiplier_Explosion)"
+   }
+  },
+  {
+   "name": "MAG_ClericPrayerExplosion_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h154deae1gb7aag4b5fgbb28g0286ae978da24;1",
+    "Description": "h154deae1gb7aag4b5fgbb28g0286ae978da25;1",
+    "DescriptionParams": "DealDamage(1d4,Radiant);Distance(3)",
+    "Properties": "OncePerTurn",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "Character() and not Enemy()",
+    "StatsFunctors": "PROJECTILE:CreateExplosion(Projectile_MAG_ClericPrayer_Explosion)"
+   }
+  },
+  {
+   "name": "MAG_HolyRetaliation_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h154deae1gb7aag4b5fgbb28g0286ae978da26;1",
+    "Description": "h154deae1gb7aag4b5fgbb28g0286ae978da27;1",
+    "DescriptionParams": "DealDamage(WisdomModifier,Radiant);Distance(3)",
+    "Icon": "Action_Bash",
+    "Boosts": "UnlockInterrupt(Interrupt_HolyRetaliation)"
+   }
+  },
+  {
+   "name": "MAG_AlignmentsWrath_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h154deae1gb7aag4b5fgbb28g0286ae978da31;1",
+    "Description": "h154deae1gb7aag4b5fgbb28g0286ae978da32;1",
+    "Icon": "PassiveFeature_MagicInitiateCleric",
+    "Properties": "Highlighted",
+    "DescriptionParams": "DealDamage(1d4,Radiant);DealDamage(1d4,Necrotic)",
+    "Boosts": "IF(Tagged('ALIGN_EVIL', context.Source)):CharacterWeaponDamage(1d4,Necrotic);IF(Tagged('ALIGN_GOOD', context.Source)):CharacterWeaponDamage(1d4, Radiant)"
+   }
+  },
+  {
+   "name": "MAG_SharedFortitude_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h154deae1gb7aag4b5fgbb28g0286ae978da33;1",
+    "Description": "h154deae1gb7aag4b5fgbb28g0286ae978da34;1",
+    "TooltipUseCosts": "ReactionActionPoint:1",
+    "Icon": "PassiveFeature_DampenElements",
+    "Boosts": "UnlockInterrupt(Interrupt_SharedFortitude)"
+   }
+  },
+  {
+   "name": "MAG_StarAura_Ring_Passive",
+   "using": null,
+   "file": "mods\\FADE_FF_Cleric_Equipment\\Public\\FF_Cleric_Equipment_b72a4134-b658-0c6f-0d45-d4c69e1d6d7a\\Stats\\Generated\\Data\\Passive_ClericAIO.txt",
+   "data": {
+    "DisplayName": "h154deae1gb7aag4b5fgbb28g0286ae978da35;1",
+    "Description": "h154deae1gb7aag4b5fgbb28g0286ae978da36;1",
+    "DescriptionParams": "DealDamage(max(1,WisdomModifier), MainMeleeWeaponDamageType);DamageReduction(All, Flat, Cause.WisdomModifier)",
+    "ExtraDescription": "hd81671ebg63a5g46b1gabadg070e4c768835;2",
+    "Icon": "Action_Legendary_Offensive",
+    "Properties": "IsToggled",
+    "ToggleOnFunctors": "ApplyStatus(AURA_OF_STAR, 100, -1)",
+    "ToggleOffFunctors": "RemoveStatus(AURA_OF_STAR)"
+   }
+  },
+  {
+   "name": "GG_Three_SpellSaveDC_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a35;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a36;1",
+    "DescriptionParams": "2",
+    "Boosts": "SpellSaveDC(2);RollBonus(MeleeSpellAttack,2);RollBonus(RangedSpellAttack,2)"
+   }
+  },
+  {
+   "name": "GG_Three_PoisonResist_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e23;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e24;1",
+    "DescriptionParams": "DealDamage(,Poison)",
+    "Icon": "Spell_Abjuration_ProtectionFromPoison",
+    "Properties": "Highlighted",
+    "Boosts": "Resistance(Poison, Resistant)"
+   }
+  },
+  {
+   "name": "GG_Three_PoisonAura",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e11;1"
+   }
+  },
+  {
+   "name": "GG_Three_Druid_ExtraWildShape_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e15;1",
+    "Description": "hbd9c0eeagdb2fg491fg9da2g73bc01ccfa82;3",
+    "DescriptionParams": "1",
+    "Icon": "GG_Three_BeastAspect_Icon",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "HasUseCosts('WildShape')",
+    "StatsFunctors": "ApplyStatus(SELF, GG_THREE_WILDSHAPE_TRACKER, 100, -1);ApplyEquipmentStatus(Breast, GG_THREE_WILDSHAPE_DEPLETED_TECHNICAL, 100, -1)"
+   }
+  },
+  {
+   "name": "GG_Three_Druid_ExtraWildShape_Cooldown_Passive",
+   "using": "MAG_ShieldOfDevotion_Cooldown_Passive",
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "StatsFunctors": "RemoveStatus(GG_THREE_WILDSHAPE_TRACKER);ApplyStatus(GG_THREE_WILDSHAPE_POINT, 100, -1)"
+   }
+  },
+  {
+   "name": "GG_Three_Druid_ExtraWildShape_Tracker_Passive",
+   "using": "GG_Three_Druid_ExtraWildShape_Cooldown_Passive",
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "StatsFunctors": "RemoveStatus(GG_THREE_WILDSHAPE_TRACKER)"
+   }
+  },
+  {
+   "name": "GG_Three_IncreasedElementalDamage_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e46;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e47;1",
+    "DescriptionParams": "DealDamage(,Lightning);DealDamage(,Thunder);DealDamage(,Cold);1d6",
+    "Icon": "GG_Three_WrathSky_Icon",
+    "Properties": "OncePerAttack;OncePerTurn",
+    "BoostContext": "OnDamage",
+    "BoostConditions": "IsSpell()",
+    "Boosts": "IF(HasDamageDoneForType(DamageType.Thunder)):DamageBonus(1d6, Thunder);IF(HasDamageDoneForType(DamageType.Lightning)):DamageBonus(1d6, Lightning);IF(HasDamageDoneForType(DamageType.Cold)):DamageBonus(1d6, Cold)"
+   }
+  },
+  {
+   "name": "GG_Three_PrimalFear",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e48;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e50;1",
+    "Icon": "PassiveFeature_FearOfWolves_Shadowheart",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape')):ApplyStatus(GG_THREE_PRIMAL_FEAR_TECHNICAL, 100, -1)",
+    "TooltipPermanentWarnings": "c3afc3ac-f53a-4969-bc95-09228b8604a4"
+   }
+  },
+  {
+   "name": "GG_Three_PrimalFear_Technical",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e48;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e49;1",
+    "Icon": "PassiveFeature_FearOfWolves_Shadowheart",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnAttack",
+    "Conditions": "IsCritical() and HasStatus('SG_Polymorph_BeastShape',context.Source)",
+    "StatsFunctors": "CreateExplosion(Projectile_PrimalFear)"
+   }
+  },
+  {
+   "name": "GG_Three_Shillelagh_DamageBoost",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e28;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e29;1",
+    "DescriptionParams": "DealDamage(6, Piercing)",
+    "Icon": "GG_Three_ThornsShillelagh_Icon",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnStatusApply",
+    "Conditions": "StatusId('SHILLELAGH')",
+    "StatsFunctors": "ApplyEquipmentStatus(SELF, MeleeMainHand, GG_THREE_SHILLELAGH_BUFF, 100, -1)"
+   }
+  },
+  {
+   "name": "GG_Three_Bleeding",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e30;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e31;1",
+    "Icon": "GG_Three_RottingRend_Icon",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') or StatusId('SYMBIOTIC_ENTITY')):ApplyStatus(GG_THREE_WILDSHAPE_BLEED_TECHNICAL, 100, -1)",
+    "TooltipPermanentWarnings": "c3afc3ac-f53a-4969-bc95-09228b8604a4"
+   }
+  },
+  {
+   "name": "GG_Three_Bleeding_Technical",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsUnarmedAttack() or IsMeleeWeaponAttack() and (HasStatus('SG_Polymorph_BeastShape',context.Source) or HasStatus('SYMBIOTIC_ENTITY',context.Source))",
+    "StatsFunctors": "IF(not SavingThrow(Ability.Dexterity, 15)):ApplyStatus(GG_THREE_LACERATION,100,1)"
+   }
+  },
+  {
+   "name": "GG_Three_Damage_Buff",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e40;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e41;1",
+    "DescriptionParams": "DealDamage(1d8,MainMeleeWeaponDamageType)",
+    "Icon": "GG_Three_WindsFurt_Icon",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') or StatusId('SYMBIOTIC_ENTITY')):ApplyStatus(GG_THREE_WILDSHAPE_DAMAGE_TECHNICAL, 100, -1)",
+    "TooltipPermanentWarnings": "f67789e6-374b-4b1f-b36e-d380acaf4b1c"
+   }
+  },
+  {
+   "name": "GG_Three_Damage_Technical",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "BoostContext": "OnAttack",
+    "Boosts": "IF(not IsMiss() and (HasStatus('SG_Polymorph_BeastShape',context.Source) or HasStatus('SYMBIOTIC_ENTITY',context.Source))):DamageBonus(1d8)"
+   }
+  },
+  {
+   "name": "GG_Three_Shield_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e42;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e43;1",
+    "DescriptionParams": "DealDamage(, Piercing)",
+    "Icon": "Spell_WallOfThorns",
+    "StatsFunctorContext": "OnDamaged",
+    "Conditions": "IsMeleeAttack() and (IsHit() or IsCritical()) and not IsMiss() and not IsCriticalMiss()",
+    "StatsFunctors": "IF(context.HasContextFlag(StatsFunctorContext.OnDamaged)):DealDamage(SWAP,ClassLevel(Druid),Piercing,Nonmagical,,0,,true,true)",
+    "Boosts": "Resistance(Bludgeoning,Resistant)"
+   }
+  },
+  {
+   "name": "GG_Three_Druid_Concentration_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "Highlighted",
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e44;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e45;1",
+    "Icon": "GG_Three_StormFocus_Icon",
+    "DescriptionParams": "",
+    "Boosts": "IF(ClassLevelHigherOrEqualThan(1,'Druid')):Advantage(Concentration)"
+   }
+  },
+  {
+   "name": "GG_Three_Bloodbath_Technical",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "Highlighted",
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e21;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e20;1",
+    "DescriptionParams": "RegainHitPoints((SELF,DamageDone)/4);DealDamage(LevelMapValue(GG_Three_Wildshape_Boost),MainMeleeWeaponDamageType)",
+    "Icon": "GG_Three_FrenziedRegeneration_Icon",
+    "Conditions": "IsRangedUnarmedAttack() or IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and HasStatus('SG_Polymorph_BeastShape',context.Source)",
+    "Boosts": "DamageBonus(LevelMapValue(GG_Three_Wildshape_Boost))",
+    "StatsFunctorContext": "OnDamage",
+    "StatsFunctors": "RegainHitPoints(SELF,(DamageDone)/4)"
+   }
+  },
+  {
+   "name": "GG_Three_Bloodbath_Passive_Text",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e18;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e25;1",
+    "Icon": "GG_Three_FrenziedBloodbath_Icon"
+   }
+  },
+  {
+   "name": "GG_Three_MistyGlade_Passive_Text",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "hff40c57bg4398g48afgb373gfa95d7f607e38;1",
+    "Description": "hff40c57bg4398g48afgb373gfa95d7f607e39;1",
+    "DescriptionParams": "RegainHitPoints(1d6)",
+    "Icon": "GG_Three_RootedRenewal_Icon"
+   }
+  },
+  {
+   "name": "GG_Two_Tempest_Staff_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d01;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d02;1",
+    "DescriptionParams": "DealDamage(1d4,Thunder)",
+    "Icon": "GG_Two_Gathering Tempest_Icon",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') or StatusId('WILDSHAPE_ACTIVE')):ApplyStatus(GG_TWO_TEMPEST_WILDSHAPE_STATUS, 100, -1)"
+   }
+  },
+  {
+   "name": "GG_Two_Tempest_Technical",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "Conditions": "IsRangedUnarmedAttack() or IsMeleeAttack() and (HasStatus('SG_Polymorph_BeastShape',context.Source) or HasStatus('WILDSHAPE_ACTIVE'))",
+    "Boosts": "DamageBonus(1d4,Thunder)"
+   }
+  },
+  {
+   "name": "MoonSickle_AddtionalHealing_Passive",
+   "using": "UND_SocietyOfBrilliance_PullingRing_Passive",
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d05;1",
+    "Description": "h2dc4fcbfg26e5g4366ga5b3g1b46644d9829;4",
+    "DescriptionParams": "RegainHitPoints(1d4)",
+    "Icon": "GG_Two_WaxingBoon_Icon",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "Character() and not Enemy()",
+    "StatsFunctors": "RegainHitPoints(1d4)"
+   }
+  },
+  {
+   "name": "MAG_MoonSickle_RollBonus_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d06;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d07;1",
+    "DescriptionParams": "2",
+    "Icon": "GG_Two_MoonsMight_Icon",
+    "Boosts": "RollBonus(SavingThrow,2)"
+   }
+  },
+  {
+   "name": "GG_Two_WildshapeAC",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d08;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d09;1",
+    "DescriptionParams": "1;Distance(3)",
+    "Icon": "GG_Two_EmeraldwoodWard_Icon",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') or StatusId('SYMBIOTIC_ENTITY') or StatusId('WILDSHAPE_ACTIVE')):ApplyStatus(GG_TWO_WILDSHAPE_AC_TECHNICAL,100, -1)",
+    "TooltipPermanentWarnings": "f67789e6-374b-4b1f-b36e-d380acaf4b1c"
+   }
+  },
+  {
+   "name": "GG_Two_WildshapeAC_Technical",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "Conditions": "HasStatus('SG_Polymorph_BeastShape',context.Source) or HasStatus('SYMBIOTIC_ENTITY',context.Source) or HasStatus('WILDSHAPE_ACTIVE')",
+    "Boosts": "IF(InReachWeaponRange() and IsSpell()):Advantage(AllSavingThrows);AC(1)"
+   }
+  },
+  {
+   "name": "GG_Two_Briarwood_Survival_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "Highlighted",
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d10;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d11;1",
+    "Icon": "GG_Two_BriarIntuition_Icon",
+    "Boosts": "Advantage(Skill,Survival)"
+   }
+  },
+  {
+   "name": "GG_Two_Wildshape_Briarwood_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d12;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d13;1",
+    "DescriptionParams": "DealDamage(WisdomModifier, Piercing);Distance(3)",
+    "Icon": "GG_Two_ThornsOfTheBeast_Icon",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') or StatusId('WILDSHAPE_ACTIVE')):ApplyStatus(GG_TWO_WILDSHAPE_BRIARWOOD_TECHNICAL,100, -1)",
+    "TooltipPermanentWarnings": "f67789e6-374b-4b1f-b36e-d380acaf4b1c"
+   }
+  },
+  {
+   "name": "GG_Two_Wildshape_Briarwood_Technical",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "DescriptionParams": "DealDamage(WisdomModifier, Piercing)",
+    "StatsFunctorContext": "OnAttacked",
+    "Conditions": "IsMeleeAttack() and (IsHit() or IsCritical()) and not IsMiss() and not IsCriticalMiss()",
+    "StatsFunctors": "DealDamage(SWAP,WisdomModifier,Piercing,Nonmagical,,0,,true,true)",
+    "Boosts": "ActionResource(Movement,3,0)"
+   }
+  },
+  {
+   "name": "GG_Two_Shillelagh_DamageBoost",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d14;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d15;1",
+    "DescriptionParams": "DealDamage(4, Piercing)",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnStatusApply",
+    "Conditions": "StatusId('SHILLELAGH')",
+    "StatsFunctors": "ApplyEquipmentStatus(SELF, MeleeMainHand, GG_TWO_SHILLELAGH_BUFF, 100, -1)"
+   }
+  },
+  {
+   "name": "GG_Two_DifficultTerrain",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d16;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d17;1",
+    "Icon": "PassiveFeature_LandsStride_PlantSurfaces",
+    "Properties": "Highlighted",
+    "Boosts": "StatusImmunity(SG_DifficultTerrain)"
+   }
+  },
+  {
+   "name": "GG_Two_VineGrowth_Boots_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d18;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d19;1",
+    "ExtraDescription": "hd81671ebg63a5g46b1gabadg070e4c768835;2",
+    "Icon": "Spell_Transmutation_PlantGrowth",
+    "Properties": "IsToggled",
+    "ToggleOnFunctors": "ApplyStatus(GG_TWO_VINEGROWTH_BOOTS, 100, -1)",
+    "ToggleOffFunctors": "RemoveStatus(GG_TWO_VINEGROWTH_BOOTS)"
+   }
+  },
+  {
+   "name": "GG_Two_Necro",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d21;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d22;1",
+    "DescriptionParams": "DealDamage(WisdomModifier, Necrotic)",
+    "Icon": "GG_Two_BlightwoodDecay_Icon",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') or StatusId('SYMBIOTIC_ENTITY')):ApplyStatus(GG_TWO_WILDSHAPE_NECRO_TECHNICAL, 100, -1)",
+    "TooltipPermanentWarnings": "f67789e6-374b-4b1f-b36e-d380acaf4b1c"
+   }
+  },
+  {
+   "name": "GG_Two_Necro_Technical",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "Conditions": "IsRangedUnarmedAttack() or IsMeleeAttack() and (HasStatus('SG_Polymorph_BeastShape',context.Source) or HasStatus('SYMBIOTIC_ENTITY',context.Source))",
+    "Boosts": "DamageBonus(WisdomModifier,Necrotic)",
+    "StatsFunctorContext": "OnDamage",
+    "StatsFunctors": "IF(not SavingThrow(Ability.Strength, 14, false, false, context.Target) and HasStatus('BLEEDING', context.Target)):ApplyStatus(GG_TWO_AGONY, 100, 1)"
+   }
+  },
+  {
+   "name": "GG_Two_Dex_Prof_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d29;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d30;1",
+    "Icon": "GG_Two_OakenAgility_Icon",
+    "Properties": "Highlighted;ForceShowInCC",
+    "Boosts": "ProficiencyBonus(SavingThrow,Dexterity)"
+   }
+  },
+  {
+   "name": "GG_Two_Wildshape_FirstTurn_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h904aabeega160g4ca4g8a76ge834b2888d31;1",
+    "Description": "h904aabeega160g4ca4g8a76ge834b2888d32;1",
+    "Icon": "GG_Two_OakheartSurge_Icon",
+    "Properties": "Highlighted;OncePerCombat",
+    "StatsFunctorContext": "OnTurn;OnActionResourcesChanged",
+    "Conditions": "Combat()",
+    "StatsFunctors": "IF(not HasStatus('SURPRISED')):ApplyStatus(GG_TWO_WILDSHAPE_FIRST_TURN_STATUS,100,1);IF(HasStatus('SURPRISED')):ApplyStatus(GG_TWO_WILDSHAPE_FIRST_TURN_STATUS,100,2)"
+   }
+  },
+  {
+   "name": "FeywildsKiss_DeathSavingThrow",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a4;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a5;1",
+    "Boosts": "IF(Player() and not Tagged('DOWNED_DISABLED')):DownedStatus(FeywildsKiss_DOWNED,1)"
+   }
+  },
+  {
+   "name": "GG_One_Wildshape_TempHP_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a6;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a7;1",
+    "DescriptionParams": "TemporaryHP(ClassLevel(Druid)*2);DamageReduction(All, Flat, 1)",
+    "TooltipPermanentWarnings": "8892b93b-721f-4b99-b9b4-05ac25aadb33",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') or StatusId('WILDSHAPE_STARRY_ARCHER_PLAYER') or StatusId('WILDSHAPE_STARRY_CHALICE_PLAYER') or StatusId('WILDSHAPE_STARRY_DRAGON_PLAYER')):ApplyStatus(GG_ONE_WILDSHAPE_TEMP_HP, 100, -1)"
+   }
+  },
+  {
+   "name": "GG_One_FearOnHit_Armor_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a9;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a10;1",
+    "DescriptionParams": "",
+    "StatsFunctorContext": "OnDamaged",
+    "Conditions": "not IsRedirectedDamage() and not HasStatus('PROTECTION_FROM_EVIL_AND_GOOD')",
+    "StatsFunctors": "IF((HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and Tagged('BEAST',context.Source)):ApplyStatus(SWAP, FRIGHTENED, 100, 2,,,,not SavingThrow(Ability.Constitution,13))"
+   }
+  },
+  {
+   "name": "GG_One_Spellguard_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a16;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a17;1",
+    "DescriptionParams": "1d4",
+    "Boosts": "IF(IsSpell()):RollBonus(SavingThrow,1d4)"
+   }
+  },
+  {
+   "name": "GG_One_FirstBloom_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a18;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a21;1",
+    "DescriptionParams": "Distance(3);RegainHitPoints(1d4)",
+    "TooltipPermanentWarnings": "d27c4787-ef33-4d77-a6be-8771a4be4483",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF((StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') or StatusId('WILDSHAPE_ACTIVE')) and Combat()):CreateExplosion(Projectile_FirstBloom_Heal)"
+   }
+  },
+  {
+   "name": "GG_One_WildShape_Obscured_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DescriptionParams": "1",
+    "StatsFunctorContext": "OnObscurityChanged;OnCreate",
+    "StatsFunctors": "IF(not HasObscuredState(ObscuredState.Clear)):ApplyStatus(GG_ONE_WILDSHAPE_OBSCURED, 100, -1);IF(HasObscuredState(ObscuredState.Clear)):RemoveStatus(GG_ONE_WILDSHAPE_OBSCURED)"
+   }
+  },
+  {
+   "name": "GG_One_WildShape_ApplyObscured_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape')):ApplyStatus(GG_ONE_WILDSHAPE_OBSCURED_TECHNICAL, 100, -1)"
+   }
+  },
+  {
+   "name": "GG_One_WildShape_ObscuredText_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "Highlighted",
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a13;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a14;1",
+    "DescriptionParams": "1",
+    "TooltipPermanentWarnings": "c3afc3ac-f53a-4969-bc95-09228b8604a4"
+   }
+  },
+  {
+   "name": "GG_One_SpellAttackBonus_Ranged_Passive",
+   "using": "MAG_ArcaneEnchantment_Passive",
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a27;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a28;1",
+    "DescriptionParams": "1;2",
+    "Boosts": "IF(ClassLevelHigherOrEqualThan(1,'Druid')):RollBonus(RangedSpellAttack,2);IF(not (ClassLevelHigherOrEqualThan(1,'Druid'))):RollBonus(RangedSpellAttack, 1)"
+   }
+  },
+  {
+   "name": "GG_One_SpellAttackBonus_Melee_Passive",
+   "using": "MAG_ArcaneEnchantment_Passive",
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a27;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a28;1",
+    "DescriptionParams": "1;2",
+    "Boosts": "IF(ClassLevelHigherOrEqualThan(1,'Druid')):RollBonus(MeleeSpellAttack,2);IF(not (ClassLevelHigherOrEqualThan(1,'Druid'))):RollBonus(MeleeSpellAttack, 1)"
+   }
+  },
+  {
+   "name": "GG_One_Shillelagh_DamageBoost",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a24;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a25;1",
+    "DescriptionParams": "DealDamage(2, Piercing)",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnStatusApply",
+    "Conditions": "StatusId('SHILLELAGH')",
+    "StatsFunctors": "ApplyEquipmentStatus(SELF, MeleeMainHand, GG_ONE_SHILLELAGH_BUFF, 100, -1)"
+   }
+  },
+  {
+   "name": "GG_One_Bleeding",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a29;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a30;1",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape')):ApplyStatus(GG_ONE_WILDSHAPE_BLEED_TECHNICAL, 100, -1)",
+    "TooltipPermanentWarnings": "c3afc3ac-f53a-4969-bc95-09228b8604a4"
+   }
+  },
+  {
+   "name": "GG_One_Bleeding_Technical",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsUnarmedAttack() or IsMeleeWeaponAttack() and HasStatus('SG_Polymorph_BeastShape',context.Source)",
+    "StatsFunctors": "IF(not SavingThrow(Ability.Dexterity, 15)):ApplyStatus(BLEEDING,100,2)"
+   }
+  },
+  {
+   "name": "GG_GroveInBottle_Passive",
+   "using": null,
+   "file": "mods\\FADE_GG_Druid_Equipment\\Public\\GG_Druid_Equipment_fdd8955f-00b1-ffb9-93b1-9e031002821d\\Stats\\Generated\\Data\\Passives_Druid_AIO.txt",
+   "data": {
+    "DisplayName": "h81fabb63g0e34g4497g891cgcc0c575648a39;1",
+    "Description": "h81fabb63g0e34g4497g891cgcc0c575648a40;1",
+    "DescriptionParams": "1;1",
+    "StatsFunctorContext": "OnStatusApplied",
+    "StatsFunctors": "IF(StatusHasStatusGroup(context.StatusId, 'SG_Polymorph_BeastShape') or StatusId('WILDSHAPE_STARRY_ARCHER_PLAYER') or StatusId('WILDSHAPE_STARRY_CHALICE_PLAYER') or StatusId('WILDSHAPE_STARRY_DRAGON_PLAYER') or StatusId('SYMBIOTIC_ENTITY')):ApplyStatus(GG_GROVE_IN_BOTTLE_BUFF, 100, -1)"
+   }
+  },
+  {
+   "name": "OO_DivineHerald_Command_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c091;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c092;1",
+    "Properties": "",
+    "Icon": "Spell_Enchantment_CommandHalt",
+    "Boosts": "UnlockSpell(OO_Target_Command_Container)"
+   }
+  },
+  {
+   "name": "OO_EmbraceRadiance_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c009;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c010;1",
+    "DescriptionParams": "RegainHitPoints(1d6)",
+    "Icon": "Action_Paladin_LayOnHands_SmallHeal",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "SpellId('Target_LayOnHands_SmallHeal') or SpellId('Target_LayOnHands_BigHeal')",
+    "StatsFunctors": "RegainHitPoints(1d6)"
+   }
+  },
+  {
+   "name": "OO_EmbraceRadiance_Chiz_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c009;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c010;1",
+    "DescriptionParams": "RegainHitPoints(1d6)",
+    "Icon": "Action_Paladin_LayOnHands_SmallHeal",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "IsChizLayOnHandsHeal()",
+    "StatsFunctors": "RegainHitPoints(1d6)"
+   }
+  },
+  {
+   "name": "OO_EchoingOath_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c011;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c012;1",
+    "DescriptionParams": "20",
+    "Icon": "Action_Paladin_EternalDevotion",
+    "Properties": "Highlighted;OncePerAttack",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "HasUseCosts('ChannelOath', true)",
+    "StatsFunctors": "IF(RollDieAgainstDC(DiceType.d100,80)):ApplyStatus(SELF,OO_RESTORE_OATH,100,0)"
+   }
+  },
+  {
+   "name": "OO_SmiteRadiance_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c013;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c016;1",
+    "DescriptionParams": "Distance(3);DealDamage(1d4,Radiant)",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "GenericIcon_DamageType_Radiant",
+    "Properties": "Highlighted;OncePerAttack",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsAttack() and OOIsSmite()",
+    "StatsFunctors": "CreateExplosion(OO_Projectile_SmiteRadiance)"
+   }
+  },
+  {
+   "name": "OO_DivineMomentum_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c017;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c018;1",
+    "DescriptionParams": "",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "Spell_Abjuration_FreedomOfMovement",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "IsAttack() and OOIsDivineSmite()",
+    "StatsFunctors": "ApplyStatus(SELF,OO_DIVINE_MOMENTUM,100,1)"
+   }
+  },
+  {
+   "name": "OO_DivineMomentum_Chiz_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c017;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c018;1",
+    "DescriptionParams": "",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "Spell_Abjuration_FreedomOfMovement",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "IsAttack() and PPHB2024_IsDivineSmite()",
+    "StatsFunctors": "ApplyStatus(SELF,OO_DIVINE_MOMENTUM,100,1)"
+   }
+  },
+  {
+   "name": "OO_SmiteShimmer_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c019;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c020;1",
+    "DescriptionParams": "1",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "Spell_Abjuration_ShieldOfFaith",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "IsAttack() and OOIsSmite()",
+    "StatsFunctors": "ApplyStatus(SELF,OO_SMITE_SHIMMER,100,2)"
+   }
+  },
+  {
+   "name": "OO_DiscomfortAura_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c021;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c022;1",
+    "DescriptionParams": "Distance(5);1",
+    "Icon": "Action_Paladin_DivineGuardian",
+    "Properties": "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar",
+    "ToggleOnFunctors": "ApplyStatus(OO_AURA_OF_DISCOMFORT_AURA, 100, -1);ApplyStatus(OO_DISCOMFORT_WEAPON_TOGGLE_DEADREVIVAL, 100, -1)",
+    "ToggleOffFunctors": "RemoveStatus(OO_AURA_OF_DISCOMFORT_AURA);RemoveStatus(OO_DISCOMFORT_WEAPON_TOGGLE_DEADREVIVAL)"
+   }
+  },
+  {
+   "name": "OO_SmiteChargeSteel_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c025;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c026;1",
+    "DescriptionParams": "DealDamage(1d6,Force)",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "Action_Charger_Attack",
+    "Properties": "Highlighted;OncePerCombat",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsAttack() and OOIsSmite()",
+    "StatsFunctors": "ApplyStatus(SELF,OO_SMITE_CHARGE_STEEL,100,3)"
+   }
+  },
+  {
+   "name": "OO_UnnaturalDefiance_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c028;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c029;1",
+    "DescriptionParams": "",
+    "StatsFunctorContext": "OnAttacked",
+    "Conditions": "not IsRedirectedDamage() and (HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and (Tagged('MONSTROSITY',context.Source) or Tagged('ABERRATION',context.Source))",
+    "StatsFunctors": "RegainHitPoints(context.Target.CharismaModifier)"
+   }
+  },
+  {
+   "name": "OO_EverVigilant_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c030;1",
+    "Description": "h4f0e59f3g37d5g4e71g8dd7g88db963c23d2;1",
+    "Icon": "PassiveFeature_Generic_Threat",
+    "Properties": "Highlighted",
+    "Boosts": "StatusImmunity(SURPRISED)"
+   }
+  },
+  {
+   "name": "OO_WatchmanSight_Passive",
+   "using": "Darkvision",
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c031;1"
+   }
+  },
+  {
+   "name": "OO_SmiteRebound_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c032;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c033;1",
+    "DescriptionParams": "",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "Action_Paladin_DivineSmite",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsAttack() and OOIsDivineSmite()",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_ONE,100, 0);IF(SpellPowerLevelEqualTo(2) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_TWO,100, 0);IF(SpellPowerLevelEqualTo(3) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_THREE,100, 0);IF(SpellPowerLevelEqualTo(4) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_FOUR,100, 0);IF(SpellPowerLevelEqualTo(5) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_FIVE,100, 0);IF(SpellPowerLevelEqualTo(6) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_SIX,100, 0);IF(SpellPowerLevelEqualTo(7) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_SEVEN,100, 0);IF(SpellPowerLevelEqualTo(8) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_EIGHT,100, 0);IF(SpellPowerLevelEqualTo(9) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_NINE,100, 0)"
+   }
+  },
+  {
+   "name": "OO_SmiteRebound_Chiz_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c032;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c033;1",
+    "DescriptionParams": "",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "Action_Paladin_DivineSmite",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsAttack() and PPHB2024_IsDivineSmite()",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_ONE,100, 0);IF(SpellPowerLevelEqualTo(2) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_TWO,100, 0);IF(SpellPowerLevelEqualTo(3) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_THREE,100, 0);IF(SpellPowerLevelEqualTo(4) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_FOUR,100, 0);IF(SpellPowerLevelEqualTo(5) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_FIVE,100, 0);IF(SpellPowerLevelEqualTo(6) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_SIX,100, 0);IF(SpellPowerLevelEqualTo(7) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_SEVEN,100, 0);IF(SpellPowerLevelEqualTo(8) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_EIGHT,100, 0);IF(SpellPowerLevelEqualTo(9) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(SELF,OO_REBOUND_SPELLSLOT_NINE,100, 0)"
+   }
+  },
+  {
+   "name": "OO_RadiantRestoration_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c035;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c036;1",
+    "DescriptionParams": "RegainHitPoints(10)",
+    "Icon": "Action_Paladin_LayOnHands_BigHeal",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "SpellId('Target_LayOnHands_SmallHeal') or SpellId('Target_LayOnHands_BigHeal')",
+    "StatsFunctors": "RegainHitPoints(10)"
+   }
+  },
+  {
+   "name": "OO_RadiantRestoration_Chiz_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c035;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c036;1",
+    "DescriptionParams": "RegainHitPoints(10)",
+    "Icon": "Action_Paladin_LayOnHands_BigHeal",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnHeal",
+    "Conditions": "IsChizLayOnHandsHeal()",
+    "StatsFunctors": "RegainHitPoints(10)"
+   }
+  },
+  {
+   "name": "OO_LayOnHands_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h83155e2dg064cg44ebgabdfgf5b71a5b76d5;1",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "HasUseCosts('LayOnHandsCharge')",
+    "StatsFunctors": "ApplyStatus(SELF, OO_LOH_TRACKER, 100, -1);ApplyEquipmentStatus(Ring, OO_LOH_DEPLETED_TECHNICAL, 100, -1)"
+   }
+  },
+  {
+   "name": "OO_LayOnHands_Cooldown_Passive",
+   "using": "MAG_ShieldOfDevotion_Cooldown_Passive",
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "StatsFunctors": "RemoveStatus(OO_LOH_TRACKER);ApplyStatus(OO_LOH_POINT, 100, -1)"
+   }
+  },
+  {
+   "name": "OO_LayOnHands_Tracker_Passive",
+   "using": "OO_LayOnHands_Cooldown_Passive",
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "StatsFunctors": "RemoveStatus(OO_LOH_TRACKER)"
+   }
+  },
+  {
+   "name": "OO_CelestialWard_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c039;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c040;1",
+    "Icon": "Action_Paladin_TurnTheFaithless",
+    "Boosts": "Disadvantage(AttackTarget, FIEND);Disadvantage(AttackTarget, UNDEAD);Disadvantage(AttackTarget, ABERRATION)"
+   }
+  },
+  {
+   "name": "OO_DivineResilience_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c041;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c042;1",
+    "DescriptionParams": "",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "PassiveFeature_DivineHealth",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "IsAttack() and OOIsDivineSmite()",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_ONE,100, 3);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_TWO,100, 3);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_THREE,100, 3);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_FOUR,100, 3);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_FIVE,100, 3);IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_SIX,100, 3);IF(SpellPowerLevelEqualTo(7)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_SEVEN,100, 3);IF(SpellPowerLevelEqualTo(8)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_EIGHT,100, 3);IF(SpellPowerLevelEqualTo(9)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_NINE,100, 3)"
+   }
+  },
+  {
+   "name": "OO_DivineResilience_Chiz_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c041;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c042;1",
+    "DescriptionParams": "",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "PassiveFeature_DivineHealth",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "IsAttack() and PPHB2024_IsDivineSmite()",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_ONE,100, 3);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_TWO,100, 3);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_THREE,100, 3);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_FOUR,100, 3);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_FIVE,100, 3);IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_SIX,100, 3);IF(SpellPowerLevelEqualTo(7)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_SEVEN,100, 3);IF(SpellPowerLevelEqualTo(8)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_EIGHT,100, 3);IF(SpellPowerLevelEqualTo(9)):ApplyStatus(SELF,OO_DIVINE_RESILIENCE_NINE,100, 3)"
+   }
+  },
+  {
+   "name": "OO_AvengerFury_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c043;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c044;1",
+    "DescriptionParams": "DealDamage(1d8,Radiant);DealDamage(2d8,Radiant)",
+    "Icon": "PassiveFeature_ImprovedDivineSmite",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "AttackedWithPassiveSourceWeapon()",
+    "StatsFunctors": "IF(not Tagged('FIEND',context.Target) and not Tagged('UNDEAD',context.Target)):DealDamage(1d8,Radiant,Magical,,0,,true,false);IF(Tagged('FIEND',context.Target) or Tagged('UNDEAD',context.Target)):DealDamage(2d8,Radiant,Magical,,0,,true,false)"
+   }
+  },
+  {
+   "name": "OO_BastionResolve_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c045;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c046;1",
+    "DescriptionParams": "3;Distance(4.5)",
+    "Icon": "Action_Paladin_GuardTheFaithful",
+    "Properties": "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar",
+    "ToggleOnFunctors": "ApplyStatus(OO_BASTION_RESOLVE, 100, -1)",
+    "ToggleOffFunctors": "RemoveStatus(OO_BASTION_RESOLVE)"
+   }
+  },
+  {
+   "name": "OO_CrushingRebuke_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c047;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c048;1",
+    "DescriptionParams": "",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "AttackedWithPassiveSourceWeapon()",
+    "StatsFunctors": "IF(not SavingThrow(Ability.Strength, 12)):ApplyStatus(OO_CRUSHING_REBUKE, 100, 1)"
+   }
+  },
+  {
+   "name": "OO_RadiantCondemnation_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c050;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c051;1",
+    "DescriptionParams": "DealDamage(,Radiant)",
+    "Icon": "Action_Paladin_HolyRebuke",
+    "Properties": "OncePerTurn",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsAttack() and (Tagged('UNDEAD') or Tagged('FIEND') or Tagged('MONSTROSITY') or Tagged('ABERRATION'))",
+    "StatsFunctors": "DealDamage(ClassLevel(Paladin), Radiant,Magical,,0,,true,false)"
+   }
+  },
+  {
+   "name": "OO_HolyRebuttal_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c052;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c053;1",
+    "DescriptionParams": "DealDamage(1d4,Radiant)",
+    "StatsFunctorContext": "OnDamaged",
+    "Conditions": "not IsRedirectedDamage()",
+    "StatsFunctors": "IF(((HasDamageEffectFlag(DamageFlags.Hit) or HasDamageEffectFlag(DamageFlags.Critical)) and (Tagged('UNDEAD',context.Source) or Tagged('FIEND',context.Source)))):DealDamage(SWAP,1d4,Radiant,Magical)"
+   }
+  },
+  {
+   "name": "OO_HeavenlyHaste_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c054;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c055;1",
+    "DescriptionParams": "2",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "Spell_Transmutation_Haste",
+    "Properties": "Highlighted;OncePerShortRest",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "IsAttack() and OOIsDivineSmite()",
+    "StatsFunctors": "ApplyStatus(SELF,OO_HEAVENLY_HASTE,100,2)"
+   }
+  },
+  {
+   "name": "OO_HeavenlyHaste_Chiz_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c054;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c055;1",
+    "DescriptionParams": "2",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "Spell_Transmutation_Haste",
+    "Properties": "IsHidden;OncePerCombat",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "IsAttack() and PPHB2024_IsDivineSmite()",
+    "StatsFunctors": "ApplyStatus(SELF,OO_HEAVENLY_HASTE,100,2)"
+   }
+  },
+  {
+   "name": "OO_EverlightAura_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c056;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c057;1",
+    "DescriptionParams": "Distance(15)",
+    "Icon": "Spell_Abjuration_BeaconOfHope",
+    "Properties": "ToggledDefaultOn;IsToggled;ToggledDefaultAddToHotbar",
+    "ToggleOnFunctors": "ApplyStatus(OO_EVERLIGHT_AURA, 100, -1)",
+    "ToggleOffFunctors": "RemoveStatus(OO_EVERLIGHT_AURA)"
+   }
+  },
+  {
+   "name": "OO_SunburstShock_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c058;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c059;1",
+    "DescriptionParams": "Distance(3)",
+    "Icon": "PassiveFeature_Generic_Light",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "SpellId('Target_LayOnHands_SmallHeal') or SpellId('Target_LayOnHands_BigHeal') or SpellId('Target_LayOnHands_Cure')",
+    "StatsFunctors": "CreateExplosion(OO_Projectile_SunburstShock)"
+   }
+  },
+  {
+   "name": "OO_SunburstShock_Chiz_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c058;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c059;1",
+    "DescriptionParams": "Distance(3)",
+    "Icon": "PassiveFeature_Generic_Light",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "IsChizLayOnHandsAny()",
+    "StatsFunctors": "CreateExplosion(OO_Projectile_SunburstShock)"
+   }
+  },
+  {
+   "name": "OO_RadiantSurge_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c060;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c061;1",
+    "DescriptionParams": "",
+    "Properties": "IsHidden;OncePerAttack",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsWeaponAttack()",
+    "StatsFunctors": "ApplyStatus(MAG_RADIANT_RADIATING_ORB, 100, 2);ApplyStatus(MAG_RADIANT_RADIATING_ORB_DURATION_TECHNICAL, 100, 1)"
+   }
+  },
+  {
+   "name": "OO_RadiantBurst_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c062;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c064;1",
+    "DescriptionParams": "DealDamage(,Radiant)",
+    "Icon": "Action_Paladin_InquisitorsMight",
+    "PriorityOrder": "2",
+    "Properties": "Highlighted",
+    "Boosts": "IF(HasStatus('MAG_RADIANT_RADIATING_ORB',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)):CharacterWeaponDamage(ClassLevel(Paladin)/2, Radiant)"
+   }
+  },
+  {
+   "name": "OO_EmboldenedSmite_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c067;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c068;1",
+    "DescriptionParams": "DealDamage(1d4,Radiant)",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Properties": "Highlighted;OncePerAttack",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsAttack() and OOIsDivineSmite()",
+    "StatsFunctors": "DealDamage(1d4,Radiant,Magical,,0,,true,true)"
+   }
+  },
+  {
+   "name": "OO_EmboldenedSmite_Chiz_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c067;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c068;1",
+    "DescriptionParams": "DealDamage(1d4,Radiant)",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Properties": "IsHidden;OncePerAttack",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsAttack() and PPHB2024_IsDivineSmite()",
+    "StatsFunctors": "DealDamage(1d4,Radiant,Magical,,0,,true,true)"
+   }
+  },
+  {
+   "name": "OO_SacredSustenance_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c069;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c070;1",
+    "DescriptionParams": "40",
+    "Icon": "Action_Paladin_EternalDevotion",
+    "Properties": "Highlighted;OncePerAttack",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "HasUseCosts('ChannelOath', true)",
+    "StatsFunctors": "IF(RollDieAgainstDC(DiceType.d100,60)):ApplyStatus(SELF,OO_RESTORE_OATH,100,0)"
+   }
+  },
+  {
+   "name": "OO_JudgementBlow_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c071;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c072;1",
+    "DescriptionParams": "DealDamage(1d10, Radiant)",
+    "Icon": "Spell_Evocation_StaggeringSmite",
+    "Properties": "Highlighted;OncePerShortRest",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "HasUseCosts('ChannelOath', true)",
+    "StatsFunctors": "ApplyStatus(SELF,OO_JUDGEMENT_BLOW,100,-1)"
+   }
+  },
+  {
+   "name": "OO_JudgementBlow_Checker_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c071;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c072;1",
+    "Icon": "Spell_Evocation_StaggeringSmite",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsMeleeWeaponAttack()",
+    "StatsFunctors": "ApplyStatus(OO_JUDGEMENT_ROLL,100,0)"
+   }
+  },
+  {
+   "name": "OO_IreReflection_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c073;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c074;1",
+    "DescriptionParams": "Distance(18);DealDamage(1d8,Radiant)",
+    "Properties": "OncePerTurn",
+    "Boosts": "UnlockInterrupt(OO_Interrupt_IreReflection)"
+   }
+  },
+  {
+   "name": "OO_SunDescent_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c076;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c080;1",
+    "DescriptionParams": "Distance(2);Distance(6);2",
+    "Icon": "Spell_Evocation_Moonbeam",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCombatStarted",
+    "Conditions": "not HasStatus('OO_SUN_DESCENT') or not HasStatus('OO_SUN_RADIANCE')",
+    "StatsFunctors": "ApplyStatus(OO_SUN_DESCENT, 100, 3);ApplyStatus(OO_SUN_RADIANCE, 100, 3)"
+   }
+  },
+  {
+   "name": "OO_SmitePerfection_Passive",
+   "using": null,
+   "file": "mods\\FADE_OO_Paladin_Equipment\\Public\\OO_Paladin_Equipment_78929dee-d6e8-f714-c3cb-c8bcea2d4091\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c086;1",
+    "Description": "h3732ac76g59ffg4bf0gb0e3gb69f06c6c087;1",
+    "TooltipPermanentWarnings": "7dc85386-daf9-431b-98a1-fec748865565",
+    "Icon": "PassiveFeature_FightingStyle_GreatWeaponFighting",
+    "Properties": "Highlighted",
+    "Boosts": "IF(OOIsSmite(context.Source)):Reroll(MeleeWeaponDamage,2,true)"
+   }
+  },
+  {
+   "name": "ARM_Nimble_Resilience_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h3cec0bf4g98a9g474eg886dga3d4b1a889d17;2",
+    "Description": "h3cec0bf4g98a9g474eg886dga3d4b1a889d18;2",
+    "DescriptionParams": "1",
+    "Boosts": "AC(1);RollBonus(SkillCheck, 1, Acrobatics)"
+   }
+  },
+  {
+   "name": "MAG_Marsh_Strider_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h3cec0bf4g98a9g474eg886dga3d4b1a889d19;1",
+    "Description": "h3cec0bf4g98a9g474eg886dga3d4b1a889d20;1",
+    "Icon": "Unarmoured_Movement",
+    "DescriptionParams": "Distance(1.5);Distance(3)",
+    "BoostContext": "OnEquip;OnCreate",
+    "BoostConditions": "not WearingArmor(context.Source)",
+    "Boosts": "JumpMaxDistanceBonus(1.5);ActionResource(Movement,3,0)"
+   }
+  },
+  {
+   "name": "MAG_Monk_Unarmed_Damage_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h3cec0bf4g98a9g474eg886dga3d4b1a889d15;2",
+    "Description": "h3cec0bf4g98a9g474eg886dga3d4b1a889d16;4",
+    "DescriptionParams": "1",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsAttackType(AttackType.MeleeUnarmedAttack)",
+    "StatsFunctors": "ApplyStatus(SELF,MAG_MONK_UNARMED_DAMAGE_INCREASE, 100, 1)"
+   }
+  },
+  {
+   "name": "MAG_CombatStart_ACboost",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h3cec0bf4g98a9g474eg886dga3d4b1a889d24;2",
+    "Description": "h3cec0bf4g98a9g474eg886dga3d4b1a889d25;2",
+    "DescriptionParams": "1;1d4",
+    "Icon": "Divine_Sense",
+    "Boosts": "RollBonus(SkillCheck, 1d4, Perception)",
+    "StatsFunctorContext": "OnCombatStarted",
+    "Conditions": "Self()",
+    "StatsFunctors": "ApplyStatus(SELF,MAG_AC_MONK,100,1)"
+   }
+  },
+  {
+   "name": "MAG_Acid_UnarmedAttack_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h3cec0bf4g98a9g474eg886dga3d4b1a889d21;2",
+    "Description": "h3cec0bf4g98a9g474eg886dga3d4b1a889d22;3",
+    "DescriptionParams": "DealDamage(1d4, Acid)",
+    "Boosts": "CharacterUnarmedDamage(1d4, Acid)"
+   }
+  },
+  {
+   "name": "Unyielding_Tree_Monk_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h3cec0bf4g98a9g474eg886dga3d4b1a889d29;3",
+    "Description": "h3cec0bf4g98a9g474eg886dga3d4b1a889d30;3",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "AttackedWithPassiveSourceWeapon() and not Self()",
+    "StatsFunctors": "IF(not SavingThrow(Ability.Strength, 12)):ApplyStatus(ENSNARING_STRIKE,100, 2)"
+   }
+  },
+  {
+   "name": "Unyielding_Tree_Monk_Passive_Roll",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h3cec0bf4g98a9g474eg886dga3d4b1a889d31;5",
+    "Description": "h3cec0bf4g98a9g474eg886dga3d4b1a889d32;11",
+    "DescriptionParams": "2",
+    "BoostContext": "OnCreate;OnEquip",
+    "BoostConditions": "not WearingArmor(context.Source)",
+    "Boosts": "Advantage(SavingThrow, Dexterity)"
+   }
+  },
+  {
+   "name": "MAG_UnarmedBuff_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "hdb60b3c5g1fe7g4eb4g8eacg8ef18f5592a14;1",
+    "Description": "hdb60b3c5g1fe7g4eb4g8eacg8ef18f5592a15;1",
+    "DescriptionParams": "1;1",
+    "Boosts": " IF(IsMeleeUnarmedAttack()):RollBonus(Attack, 1);CharacterUnarmedDamage(1)"
+   }
+  },
+  {
+   "name": "MAG_Mobility_MomentumOnCombatStart_Passive_Monk_Amulet",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb1;2",
+    "Description": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb2;3"
+   }
+  },
+  {
+   "name": "UnarmoredDefense_Monk_ShatteredSun",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb5;2",
+    "Description": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb6;5",
+    "Icon": "PassiveFeature_UnarmoredDefense",
+    "Properties": "Highlighted",
+    "BoostContext": "OnEquip;OnCreate",
+    "BoostConditions": "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)",
+    "Boosts": "ACOverrideFormula(11,true,Dexterity,Wisdom)"
+   }
+  },
+  {
+   "name": "MAG_ShatteredSun_Attack",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb7;2",
+    "Description": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb8;1",
+    "DescriptionParams": "DealDamage(1d4,Fire);DealDamage(1d4,Radiant);Distance(9)",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsMeleeAttack()",
+    "StatsFunctors": "IF(not SavingThrow(Ability.Constitution,14)):ApplyStatus(SHATTERED_SUN, 100, 2)"
+   }
+  },
+  {
+   "name": "MAG_Initiative_MonkBoots",
+   "using": "MAG_Initiative_MonkBoots",
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb12;2",
+    "Description": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb27;4",
+    "DescriptionParams": "1",
+    "Boosts": "Initiative(1)"
+   }
+  },
+  {
+   "name": "MAG_BloodSpear_TempHP_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb13;2",
+    "Description": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb14;4",
+    "DescriptionParams": "GainTemporaryHitPoints(2d6)",
+    "Properties": "OncePerShortRest",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsKillingBlow() and IsMeleeAttack()",
+    "StatsFunctors": "ApplyStatus(SELF, MAG_BLOOD_SPEAR_HP, 100, -1)"
+   }
+  },
+  {
+   "name": "MAG_BindingCrimson_Gloves_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h6f8990deg0f92g4203ga72fgdd35b5ce2bb28;6",
+    "Description": "ha86c8356g4917g4e47gb38cg4106372ee923;6",
+    "DescriptionParams": "1",
+    "Boosts": "RollBonus(MeleeSpellAttack, 1);RollBonus(RangedSpellAttack, 1)"
+   }
+  },
+  {
+   "name": "MAG_LesserKi_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a45;1",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a46;1",
+    "StatsFunctorContext": "OnCast;OnAttack",
+    "Conditions": "HasUseCosts('KiPoint')",
+    "StatsFunctors": "ApplyStatus(SELF, MAG_LESSER_KI_TRACKER, 100, -1);ApplyEquipmentStatus(Breast, MAG_LESSER_KI_DEPLETED_TECHNICAL, 100, -1)"
+   }
+  },
+  {
+   "name": "MAG_LesserKi_Cooldown_Passive",
+   "using": "MAG_ShieldOfDevotion_Cooldown_Passive",
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "StatsFunctors": "RemoveStatus(MAG_LESSER_KI_TRACKER);ApplyStatus(MAG_LESSER_KI_POINT, 100, -1)"
+   }
+  },
+  {
+   "name": "MAG_LesserKi_Tracker_Passive",
+   "using": "MAG_LesserKi_Cooldown_Passive",
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "StatsFunctors": "RemoveStatus(MAG_LESSER_KI_TRACKER)"
+   }
+  },
+  {
+   "name": "UU_Greater_Spell_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a48;1",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a47;1",
+    "DescriptionParams": "2",
+    "Boosts": "SpellSaveDC(2);RollBonus(MeleeSpellAttack,2)"
+   }
+  },
+  {
+   "name": "MAG_Initiative_MonkCrossbow",
+   "using": "MAG_InitiativeBonus_1_Passive",
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a01;2",
+    "DescriptionParams": "1",
+    "Boosts": "Initiative(1)"
+   }
+  },
+  {
+   "name": "MAG_WisdomMomentum_Boots_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a14;2",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a15;3",
+    "Properties": "OncePerCombat;Highlighted",
+    "StatsFunctorContext": "OnTurn",
+    "Conditions": "Combat()",
+    "StatsFunctors": "ApplyStatus(SELF,MAG_MOMENTUM,100,WisdomModifier)"
+   }
+  },
+  {
+   "name": "MAG_ChargingTiger_RestoreMovement_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a19;2",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a20;3",
+    "StatsFunctorContext": "OnDamage",
+    "StatsFunctors": "IF(IsKillingBlow()):RestoreResource(SELF, Movement, 15%, 0)"
+   }
+  },
+  {
+   "name": "MAG_MonkCloak_NoCrit_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a03;1",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a04;1",
+    "DescriptionParams": "2",
+    "Properties": "Highlighted",
+    "BoostContext": "OnEquip;OnCreate",
+    "BoostConditions": "not WearingArmor(context.Source)",
+    "Boosts": "CriticalHit(AttackTarget,Success,Never);AC(2)"
+   }
+  },
+  {
+   "name": "MAG_IronFist_UnarmedDamage_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a05;1",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a06;1",
+    "DescriptionParams": "DealDamage(1d10, Bludgeoning)",
+    "Properties": "OncePerAttack",
+    "Boosts": "CharacterUnarmedDamage(1d10, Bludgeoning)"
+   }
+  },
+  {
+   "name": "MAG_UnarmedDebuff_Reeling_Passive",
+   "using": "MAG_MeleeDebuff_AttackDebuff2_OnDamage_Passive",
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a07;3",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a08;3",
+    "ExtraDescription": ";3",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsAttackType(AttackType.MeleeUnarmedAttack) and Character()"
+   }
+  },
+  {
+   "name": "UnarmoredDefense_Monk_AscendedFist",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a09;2",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a10;5",
+    "Icon": "PassiveFeature_UnarmoredDefense",
+    "Properties": "Highlighted",
+    "BoostContext": "OnEquip;OnCreate",
+    "BoostConditions": "not WearingArmor(context.Source) and not HasShieldEquipped(context.Source)",
+    "Boosts": "ACOverrideFormula(12,true,Dexterity,Wisdom)"
+   }
+  },
+  {
+   "name": "MAG_Monk_StunningStrike_Reaction_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a11;2",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a12;3",
+    "TooltipUseCosts": "KiPoint:1",
+    "Icon": "Action_Monk_StunningStrike",
+    "Boosts": "UnlockInterrupt(Interrupt_MAG_Monk_StunningReaction)"
+   }
+  },
+  {
+   "name": "MAG_MonkVest_Leeching_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "hfbbf7b00g95ccg437dg8165geee81ae81bb4;2",
+    "Description": "h12d1fc66gaf35g42e1gb46bgece6f8930a1f;2",
+    "DescriptionParams": "RegainHitPoints(SELF,DamageDone)",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsUnarmedAttack() and not Item()",
+    "StatsFunctors": "RegainHitPoints(SELF,DamageDone/2)"
+   }
+  },
+  {
+   "name": "MAG_MonkMindMask_Description_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a21;2",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a22;2",
+    "Icon": "PassiveFeature_Resilient"
+   }
+  },
+  {
+   "name": "UU_One_Monk_Ring_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a33;1",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a34;1",
+    "DescriptionParams": "1d4",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "SpellId('Target_FlurryOfBlows') or SpellId('Target_OpenHandTechnique_Push') or SpellId('Target_OpenHandTechnique_Knock') or SpellId('Target_OpenHandTechnique_NoReactions') or SpellId('Target_FlurryOfBlows_5eE')",
+    "StatsFunctors": "ApplyStatus(SELF, UU_ONE_MONK_ACCURACY, 100, 1)"
+   }
+  },
+  {
+   "name": "UU_MonkCrossBow_ImprovedCritical",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h483bde24g1d76g4d93ga3eag71302e74d195;2",
+    "Description": "hcbd31498g27d5g4aceg94ddgc538db60be72;2",
+    "Icon": "PassiveFeature_ImprovedCritical",
+    "Properties": "Highlighted",
+    "Boosts": "ReduceCriticalAttackThreshold(1)"
+   }
+  },
+  {
+   "name": "UU_ManyFaces_Passive",
+   "using": null,
+   "file": "mods\\FADE_UU_Monk_Equipment\\Public\\UU_Monk_Equipment_00581072-8d71-fc79-b793-d4492cf7aa41\\Stats\\Generated\\Data\\Passive_Monk_AIO.txt",
+   "data": {
+    "DisplayName": "h030cfbceg6228g4604ga04dg17d9ad402a49;1",
+    "Description": "h030cfbceg6228g4604ga04dg17d9ad402a50;1",
+    "DescriptionParams": "2",
+    "Boosts": "RollBonus(SkillCheck, 2, Deception)"
+   }
+  },
+  {
+   "name": "VV_WhisperWind_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d009;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d010;1",
+    "DescriptionParams": "DealDamage(1d6,Psychic)",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "AttackedWithPassiveSourceWeapon()",
+    "StatsFunctors": "IF(RollDieAgainstDC(DiceType.d100,85)):DealDamage(1d6,Psychic,Magical,,0,,true,false)"
+   }
+  },
+  {
+   "name": "VV_ImprovedCritical_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h4656c3a2gca8ag4669ga84fg5d2623dacedf;1",
+    "Description": "h41dd65fcgfe51g4c4cg9b57g9a7371842f99;2",
+    "DescriptionParams": "1",
+    "Boosts": "ReduceCriticalAttackThreshold(1)"
+   }
+  },
+  {
+   "name": "VV_FateWeaver_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d017;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d018;1",
+    "DescriptionParams": "2",
+    "Properties": "OncePerCombat",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "AttackedWithPassiveSourceWeapon() and IsCritical()",
+    "StatsFunctors": "ApplyStatus(PARALYZED, 100, 2)"
+   }
+  },
+  {
+   "name": "VV_NineLives_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d019;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d020;1",
+    "DescriptionParams": "DealDamage(4d6, Necrotic)",
+    "Icon": "Action_Mag_Bloodfeeding_ScarletSaturation",
+    "Properties": "IsToggled;ToggledDefaultAddToHotbar;OncePerShortRest",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "AttackedWithPassiveSourceWeapon() and IsCritical()",
+    "StatsFunctors": "IF(not SavingThrow(Ability.Constitution,17)):DealDamage(4d6,Necrotic,Magical,,0,,true,false);RegainHitPoints(SELF,(DamageDone)/2)"
+   }
+  },
+  {
+   "name": "VV_BackstabBlade_Assassinate_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d021;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d023;1",
+    "DescriptionParams": "DealDamage(2d6,Psychic)",
+    "Properties": "OncePerTurn",
+    "Icon": "PassiveAction_OpportunityAttack",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "not FacingMe() and HasDamageEffectFlag(DamageFlags.Hit) and (SpellId('Target_SneakAttack') or SpellId('Target_SneakAttack_Rakish'))",
+    "StatsFunctors": "DealDamage(2d6, Psychic,Magical,,0,,true,false)"
+   }
+  },
+  {
+   "name": "VV_AssassinsEye_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d025;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d026;1",
+    "DescriptionParams": "DealDamage(1d6,MainMeleeWeaponDamageType)",
+    "Properties": "OncePerCombat",
+    "Icon": "PassiveAction_OpportunityAttack",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "not FacingMe() and HasDamageEffectFlag(DamageFlags.Hit) and IsMeleeWeaponAttack()",
+    "StatsFunctors": "DealDamage(1d6, MainMeleeWeaponDamageType,Magical,,0,,true,true)"
+   }
+  },
+  {
+   "name": "VV_Shadowskin_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d027;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d028;1",
+    "DescriptionParams": "1;1",
+    "StatsFunctorContext": "OnObscurityChanged;OnCreate",
+    "StatsFunctors": "IF(not HasObscuredState(ObscuredState.Clear)):ApplyStatus(VV_SHADOWSKIN_STEALTH, 100, -1);IF(HasObscuredState(ObscuredState.Clear)):RemoveStatus(VV_SHADOWSKIN_STEALTH)"
+   }
+  },
+  {
+   "name": "VV_QuickDraw_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d029;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d030;1",
+    "DescriptionParams": "2",
+    "Boosts": "Initiative(2)"
+   }
+  },
+  {
+   "name": "VV_Quicksilver_Movement_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d031;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d032;1",
+    "DescriptionParams": "Distance(3)",
+    "Icon": "Action_Dash",
+    "Boosts": "ActionResource(Movement,3,0)"
+   }
+  },
+  {
+   "name": "VV_Quicksilver_Heal_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d033;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d034;1",
+    "DescriptionParams": "RegainHitPoints(1d4)",
+    "Properties": "OncePerCombat",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "(SpellId('Shout_Dash_StepOfTheWind') or SpellId('Shout_Dash') or SpellId('Shout_Dash_CunningAction') or SpellId('Shout_Dash_BonusAction')) and Combat()",
+    "StatsFunctors": "ApplyStatus(SELF, VV_QUICKSILVER_HEAL, 100, 0)"
+   }
+  },
+  {
+   "name": "VV_Stealth_Bonus_1_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d035;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d037;1",
+    "DescriptionParams": "1",
+    "Boosts": "RollBonus(SkillCheck, 1, Stealth)"
+   }
+  },
+  {
+   "name": "VV_Stealth_Bonus_2_Passive",
+   "using": "VV_Stealth_Bonus_1_Passive",
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d036;1",
+    "DescriptionParams": "2",
+    "Boosts": "RollBonus(SkillCheck, 2, Stealth)"
+   }
+  },
+  {
+   "name": "VV_SteadyHand_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d038;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d039;1",
+    "DescriptionParams": "1",
+    "Icon": "",
+    "Properties": "Highlighted",
+    "Boosts": "RollBonus(MeleeWeaponAttack, 1)"
+   }
+  },
+  {
+   "name": "VV_AssassinsMark_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d040;1",
+    "Icon": "PassiveFeature_HuntersMark",
+    "Properties": "IsHidden",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsCritical() and HasStatus('VV_ASSASSINS_MARK')",
+    "StatsFunctors": "Kill()"
+   }
+  },
+  {
+   "name": "VV_CorneredRat_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d045;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d046;1",
+    "DescriptionParams": "1;1d4",
+    "Boosts": "IF(IsMeleeAttack() and IsWeaponAttack() and HasEnemyWithinRange('SG_Incapacitated', 3, nil, 2, context.Target, context.Source)):RollBonus(MeleeWeaponAttack, 1);IF(IsMeleeAttack() and IsWeaponAttack() and HasEnemyWithinRange('SG_Incapacitated', 3, nil, 2, context.Target, context.Source)):DamageBonus(1d4)"
+   }
+  },
+  {
+   "name": "VV_Trickster_Dex_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d050;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d051;1",
+    "DescriptionParams": "1",
+    "Boosts": "RollBonus(SavingThrow, 1, Dexterity);RollBonus(RawAbility, 1, Dexterity)"
+   }
+  },
+  {
+   "name": "VV_LuckyGloves_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d052;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d053;1",
+    "Boosts": "RollBonus(SkillCheck, DexterityModifier, SleightOfHand)"
+   }
+  },
+  {
+   "name": "VV_Arachnida_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d059;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d060;1",
+    "Icon": "Action_Spider_Giant_Web",
+    "Properties": "Highlighted",
+    "Boosts": "StatusImmunity(WEB)"
+   }
+  },
+  {
+   "name": "VV_Bloodletter_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d061;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d062;1",
+    "TooltipSave": "Constitution",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnAttack",
+    "Conditions": "IsWeaponAttack() and not IsMiss()",
+    "StatsFunctors": "IF(not SavingThrow(Ability.Constitution, 13)):ApplyStatus(BLEEDING,100,2);"
+   }
+  },
+  {
+   "name": "VV_PhantomMark_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d063;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d065;1",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsMeleeWeaponAttack() and not IsMiss()",
+    "StatsFunctors": "IF(RollDieAgainstDC(DiceType.d100,85)):ApplyStatus(VV_PHANTOM_CURSE,100,2)"
+   }
+  },
+  {
+   "name": "VV_OpeningGambit_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d073;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d076;1",
+    "DescriptionParams": "3",
+    "Icon": "PassiveFeature_Mobile_CounterAttackOfOpportunity",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCombatStarted",
+    "Conditions": "not HasStatus('VV_OPEN_GAMBIT')",
+    "StatsFunctors": "ApplyStatus(VV_OPEN_GAMBIT, 100, 3)"
+   }
+  },
+  {
+   "name": "VV_LightningReflexes_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d072;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d075;1",
+    "DescriptionParams": "DealDamage(ProficiencyBonus, Lightning)",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsMeleeWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)",
+    "StatsFunctors": "DealDamage(ProficiencyBonus, Lightning,Magical,,0,,true,false)"
+   }
+  },
+  {
+   "name": "VV_KillerRespite_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d070;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d078;1",
+    "Properties": "OncePerTurn",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "Enemy() and IsKillingBlow() and not Item()",
+    "StatsFunctors": "RegainHitPoints(SELF,Level/2)"
+   }
+  },
+  {
+   "name": "VV_Dagger_Specialist_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d082;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d084;1",
+    "DescriptionParams": "1d8",
+    "Properties": "Highlighted",
+    "Icon": "PassiveFeature_ReliableTalent",
+    "Boosts": "EntityThrowDamage(1d8)"
+   }
+  },
+  {
+   "name": "VV_EmbraceShadows_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d087;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d090;1",
+    "StatsFunctorContext": "OnObscurityChanged;OnCreate",
+    "StatsFunctors": "IF(not HasObscuredState(ObscuredState.Clear)):ApplyStatus(VV_EMBRACE_SHADOWS_STEALTH, 100, -1);IF(HasObscuredState(ObscuredState.Clear)):RemoveStatus(VV_EMBRACE_SHADOWS_STEALTH)"
+   }
+  },
+  {
+   "name": "VV_Nightwhisper_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d095;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d096;1",
+    "DescriptionParams": "DealDamage(2d4,Psychic)",
+    "Properties": "OncePerTurn",
+    "Icon": "PassiveAction_OpportunityAttack",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "not FacingMe() and IsMeleeWeaponAttack()",
+    "StatsFunctors": "IF(not SavingThrow(Ability.Wisdom, 15)):DealDamage(2d4, Psychic,Magical,,0,,true,false)"
+   }
+  },
+  {
+   "name": "VV_SubtleBlade_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d097;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d098;1",
+    "DescriptionParams": "DealDamage(1d6, Necrotic)",
+    "Icon": "PassiveFeature_EscapeTheHorde",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCombatStarted",
+    "Conditions": "not HasStatus('VV_SUBTLE_BLADE')",
+    "StatsFunctors": "ApplyStatus(VV_SUBTLE_BLADE, 100, 3)"
+   }
+  },
+  {
+   "name": "VV_Mastermind_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d100;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d101;1",
+    "Boosts": "Advantage(Skill, Deception);Advantage(Skill, Persuasion)"
+   }
+  },
+  {
+   "name": "VV_SubtleStep_Text_Passive",
+   "using": null,
+   "file": "mods\\FADE_VV_Rogue_Equipment\\Public\\VV_Rogue_Equipment_43a6a201-0bd5-3f0f-6f1f-280165719f89\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hc44613eaga609g44b7ga9b8g4c942a15d047;1",
+    "Description": "hc44613eaga609g44b7ga9b8g4c942a15d048;1",
+    "DescriptionParams": "Distance(3);6"
+   }
+  },
+  {
+   "name": "WW_Frostfire_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab11;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab12;1",
+    "DescriptionParams": "",
+    "Properties": "OncePerCombat",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsSpell() and (IsDamageTypeFire(context.Target) or IsDamageTypeCold(context.Target))",
+    "StatsFunctors": "ApplyStatus(SELF, WW_INT_TEMP_HP, 100, -1)"
+   }
+  },
+  {
+   "name": "WW_GainArcaneAcuityOnDamage_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab14;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab15;1",
+    "DescriptionParams": "2",
+    "Properties": "OncePerAttack",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "(IsMeleeSpellAttack() or WWMeleeSpellAttackCheck()) and Enemy() and TotalDamageDoneGreaterThan(0)",
+    "StatsFunctors": "ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY, 100, 2);ApplyStatus(SELF, MAG_GISH_ARCANE_ACUITY_DURATION_TECHNICAL, 100, 1)"
+   }
+  },
+  {
+   "name": "WW_Cinderbrand_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab16;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab17;1",
+    "DescriptionParams": "Distance(3);DealDamage(1d4,Fire)",
+    "Properties": "OncePerAttack",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsDamageTypeFire() and not Self()",
+    "StatsFunctors": "GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt);GROUND:CreateSurface(2,2,Fire)",
+    "Boosts": "IF(HasDamageDoneForType(DamageType.Fire) and not Self()):DamageBonus(1d4, Fire)"
+   }
+  },
+  {
+   "name": "WW_Frostwalker_IceImmune_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab18;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab19;1",
+    "Icon": "",
+    "Boosts": "StatusImmunity(PRONE_ICE)"
+   }
+  },
+  {
+   "name": "WW_Frostwalker_WaterToIce_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab20;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab21;1",
+    "Icon": ""
+   }
+  },
+  {
+   "name": "WW_CantripBooster_Arcana_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab24;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab25;1",
+    "Boosts": "IF(IsSpell() and IsCantrip()):DamageBonus(max(1,IntelligenceModifier)/2)"
+   }
+  },
+  {
+   "name": "WW_ArcanistCharge_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab28;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab29;1",
+    "Properties": "OncePerTurn",
+    "StatsFunctorContext": "OnDamage",
+    "StatsFunctors": "IF(IsSpell()):ApplyStatus(SELF,WW_ARCANE_CHARGE, 100, 1)"
+   }
+  },
+  {
+   "name": "WW_ElementalBane_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab30;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab31;1",
+    "Boosts": "IF(Tagged('ELEMENTAL', context.Target)):Advantage(AttackRoll)"
+   }
+  },
+  {
+   "name": "WW_SageCap_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab32;1",
+    "Description": "h3ad8fdb2g2266g416cgacebg1fad0c63c959;5",
+    "Icon": "",
+    "Properties": "Highlighted",
+    "Boosts": "Advantage(Concentration)"
+   }
+  },
+  {
+   "name": "WW_IntCaster_CantripBooster_Passive",
+   "using": "MAG_ElementalGish_CantripBooster_Amulet_Passive",
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab33;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab35;1",
+    "Boosts": "IF(IsCantrip()):DamageBonus(max(1,IntelligenceModifier))"
+   }
+  },
+  {
+   "name": "WW_IntCaster_TempHP_Passive",
+   "using": "MAG_PHB_Displacement_Cloak_Passive",
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab34;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab36;1"
+   }
+  },
+  {
+   "name": "WW_Forceweaver_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab38;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab39;1",
+    "DescriptionParams": "DealDamage(1d4,Force)",
+    "Boosts": "IF(IsSpell()):DamageBonus(1d4,Force)"
+   }
+  },
+  {
+   "name": "WW_ReapersHarvest_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab22;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab23;1",
+    "DescriptionParams": "1",
+    "Icon": "PassiveFeature_Generic_Tactical",
+    "Properties": "OncePerShortRestPerItem",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "not Self() and Character() and Enemy() and not Dead()",
+    "StatsFunctors": "IF(IsKillingBlow()):ApplyStatus(SELF, WW_FREE_CAST_SPELL_LEVEL_01, 100, -1)"
+   }
+  },
+  {
+   "name": "WW_Consume_ReapersHarvest_FreeCast_Passive",
+   "using": "MAG_FreeCast_Level3_Passive",
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab73;1",
+    "Properties": "IsToggled;ToggledDefaultAddToHotbar;Temporary",
+    "Boosts": "",
+    "StatsFunctorContext": "OnCastResolved",
+    "StatsFunctors": "IF(IsSpell() and IsSpellLevel(1)):RemoveStatus(WW_FREE_CAST_SPELL_LEVEL_01);IF(IsSpell() and IsSpellLevel(1)):RemoveStatus(WW_FREE_CAST_SPELL_LEVEL_01_ACTIVE)",
+    "ToggleOnFunctors": "ApplyStatus(WW_FREE_CAST_SPELL_LEVEL_01_ACTIVE, 100, -1)",
+    "ToggleOffFunctors": "RemoveStatus(WW_FREE_CAST_SPELL_LEVEL_01_ACTIVE)"
+   }
+  },
+  {
+   "name": "WW_ReapersHarvest_FreeCast_Passive",
+   "using": "MAG_FreeCast_Execution_Passive",
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab73;1",
+    "Description": "h59278dbbg7027g4c5fg93b2g359511cf3650;4",
+    "DescriptionParams": "1",
+    "Boosts": "UnlockSpellVariant(FreeCastSpellLevel1(),ModifyIconGlow(),ModifyTooltipDescription(), ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup))",
+    "StatsFunctorContext": "",
+    "Conditions": "",
+    "StatsFunctors": ""
+   }
+  },
+  {
+   "name": "WW_ShadowWeave_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab40;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab23;1",
+    "DescriptionParams": "3",
+    "Icon": "PassiveFeature_Generic_Tactical",
+    "Properties": "OncePerShortRestPerItem",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "not Self() and Character() and Enemy() and not Dead()",
+    "StatsFunctors": "IF(IsKillingBlow()):ApplyStatus(SELF, WW_FREE_CAST_SPELL_LEVEL_03, 100, -1)"
+   }
+  },
+  {
+   "name": "WW_Consume_ShadowWeave_FreeCast_Passive",
+   "using": "WW_ShadowWeave_FreeCast_Level_3_Passive",
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab40;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab74;1",
+    "DescriptionParams": "3",
+    "Icon": "PassiveFeature_Generic_Tactical",
+    "Properties": "IsToggled;ToggledDefaultAddToHotbar;Temporary",
+    "Boosts": "",
+    "StatsFunctorContext": "OnCastResolved",
+    "StatsFunctors": "IF(IsSpell() and IsSpellLevel(1) or IsSpellLevel(2) or IsSpellLevel(3)):RemoveStatus(WW_FREE_CAST_SPELL_LEVEL_03);IF(IsSpell() and IsSpellLevel(1) or IsSpellLevel(2) or IsSpellLevel(3)):RemoveStatus(WW_FREE_CAST_SPELL_LEVEL_03_ACTIVE)",
+    "ToggleOnFunctors": "ApplyStatus(WW_FREE_CAST_SPELL_LEVEL_03_ACTIVE, 100, -1)",
+    "ToggleOffFunctors": "RemoveStatus(WW_FREE_CAST_SPELL_LEVEL_03_ACTIVE)"
+   }
+  },
+  {
+   "name": "WW_ShadowWeave_FreeCast_Level_3_Passive",
+   "using": "MAG_FreeCast_Execution_Passive",
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab40;1",
+    "Description": "h59278dbbg7027g4c5fg93b2g359511cf3650;4",
+    "DescriptionParams": "3",
+    "Boosts": "UnlockSpellVariant(FreeCastSpellLevel3OrLower(),ModifyIconGlow(),ModifyTooltipDescription(), ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup))",
+    "StatsFunctorContext": "",
+    "Conditions": "",
+    "StatsFunctors": ""
+   }
+  },
+  {
+   "name": "WW_Netherese_Staff_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab43;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab44;1",
+    "Icon": "PassiveFeature_Generic_Magical",
+    "Properties": "Highlighted;OncePerTurn",
+    "StatsFunctorContext": "OnCast",
+    "Conditions": "HasSpellFlag(SpellFlags.Spell) and Combat() and not IsCantrip() and not WWMultiTargetSpellCheck()",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1) and RollDieAgainstDC(DiceType.d100,76)):ApplyStatus(SELF,WW_STAFF_RESTORE_SPELLSLOT_ONE,100, 0);IF(SpellPowerLevelEqualTo(2) and RollDieAgainstDC(DiceType.d100,80)):ApplyStatus(SELF,WW_STAFF_RESTORE_SPELLSLOT_TWO,100, 0);IF(SpellPowerLevelEqualTo(3) and RollDieAgainstDC(DiceType.d100,84)):ApplyStatus(SELF,WW_STAFF_RESTORE_SPELLSLOT_THREE,100, 0);IF(SpellPowerLevelEqualTo(4) and RollDieAgainstDC(DiceType.d100,88)):ApplyStatus(SELF,WW_STAFF_RESTORE_SPELLSLOT_FOUR,100, 0);IF(SpellPowerLevelEqualTo(5) and RollDieAgainstDC(DiceType.d100,92)):ApplyStatus(SELF,WW_STAFF_RESTORE_SPELLSLOT_FIVE,100, 0)"
+   }
+  },
+  {
+   "name": "WW_ArcRepeater_SpellAttkBonus_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab50;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab51;1",
+    "DescriptionParams": "1",
+    "Boosts": "RollBonus(MeleeSpellAttack, 1);RollBonus(RangedSpellAttack,1)"
+   }
+  },
+  {
+   "name": "WW_ArcRepeater_Crit_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab46;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab47;1",
+    "DescriptionParams": "DealDamage(1d8,Force);GainTemporaryHitPoints(1d8)",
+    "StatsFunctorContext": "OnDamage",
+    "Conditions": "IsSpell() and IsCritical()",
+    "StatsFunctors": "DealDamage(1d8, Force,Magical,,0,,true,false);ApplyStatus(SELF, WW_ARC_REPEATER_CRIT, 100, -1)"
+   }
+  },
+  {
+   "name": "WW_Mystra_SpellAttkBonus_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab52;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab60;1",
+    "Boosts": "RollBonus(MeleeSpellAttack, ClassLevel(Wizard)/2);RollBonus(RangedSpellAttack,ClassLevel(Wizard)/2)"
+   }
+  },
+  {
+   "name": "WW_Mystra_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab53;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab54;1",
+    "Icon": "PassiveFeature_Generic_Magical",
+    "Properties": "Highlighted;OncePerTurn",
+    "StatsFunctorContext": "OnDamaged",
+    "Conditions": "HasSpellFlag(SpellFlags.Spell) and Combat() and HasLastAttackTriggered() and not IsCantrip() and not NumberOfTargetsGreaterThan(1) and not WWMultiTargetSpellCheck()",
+    "StatsFunctors": "IF(SpellPowerLevelEqualTo(1) and RollDieAgainstDC(DiceType.d100,70)):ApplyStatus(WW_RESTORE_SPELLSLOT_ONE,100,0,context.Source);IF(SpellPowerLevelEqualTo(2) and RollDieAgainstDC(DiceType.d100,75)):ApplyStatus(WW_RESTORE_SPELLSLOT_TWO,100,0,context.Source);IF(SpellPowerLevelEqualTo(3) and RollDieAgainstDC(DiceType.d100,80)):ApplyStatus(WW_RESTORE_SPELLSLOT_THREE,100,0,context.Source);IF(SpellPowerLevelEqualTo(4) and RollDieAgainstDC(DiceType.d100,85)):ApplyStatus(WW_RESTORE_SPELLSLOT_FOUR,100,0,context.Source);IF(SpellPowerLevelEqualTo(5) and RollDieAgainstDC(DiceType.d100,90)):ApplyStatus(WW_RESTORE_SPELLSLOT_FIVE,100,0,context.Source)"
+   }
+  },
+  {
+   "name": "WW_PhoenixEmbrace_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab49;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab48;1",
+    "Icon": "Action_Monster_GiantEagle_StrongWind",
+    "Properties": "Highlighted",
+    "Boosts": "Resistance(Fire, Resistant)"
+   }
+  },
+  {
+   "name": "WW_ShiftingElements",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab57;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab58;1",
+    "Properties": "Highlighted;OncePerTurn",
+    "StatsFunctorContext": "OnAttack",
+    "Conditions": "TotalAttackDamageDoneGreaterThan(0) and (IsSpell() or IsCantrip())",
+    "StatsFunctors": "IF(HasAttackDamageDoneForType(DamageType.Acid)):ApplyStatus(SWAP,WW_ACIDIC_FORM,100,1);IF(HasAttackDamageDoneForType(DamageType.Thunder)):ApplyStatus(SWAP,BLUR,100,1);IF(HasAttackDamageDoneForType(DamageType.Necrotic)):ApplyStatus(SWAP,FALSE_LIFE,100,1);IF(HasAttackDamageDoneForType(DamageType.Fire)):ApplyStatus(SWAP,MAG_FIRE_HEAT,100,3);IF(HasAttackDamageDoneForType(DamageType.Lightning)):ApplyStatus(SWAP,MAG_CHARGED_LIGHTNING,100,1);IF(HasAttackDamageDoneForType(DamageType.Cold)):ApplyStatus(SWAP,WW_ARMOR_OF_AGATHYS,100,1);IF(HasAttackDamageDoneForType(DamageType.Psychic)):ApplyStatus(SWAP,MIRROR_IMAGE_1,100,1);IF(HasAttackDamageDoneForType(DamageType.Poison)):ApplyStatus(SWAP,WW_ENVENOMED_VITALITY,100,1);IF(HasAttackDamageDoneForType(DamageType.Radiant)):ApplyStatus(SWAP,SHIELD_OF_FAITH,100,1);IF(HasAttackDamageDoneForType(DamageType.Force)):CreateExplosion(WW_Projectile_Force_Boots)"
+   }
+  },
+  {
+   "name": "WW_Arc_Vitality_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab63;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab64;1",
+    "DescriptionParams": "RegainHitPoints(1d6)",
+    "StatsFunctorContext": "OnAttack",
+    "Conditions": "Enemy() and IsSpell() and not Self() and not IsMiss() and not IsLastConditionRollSuccess(ConditionRollType.ConditionSavingThrow) and (HasSavingThrowWithAbility(Ability.Intelligence))",
+    "StatsFunctors": "RegainHitPoints(SELF, 1d6)"
+   }
+  },
+  {
+   "name": "WW_Ascendant_Spellcaster_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab65;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab66;1",
+    "DescriptionParams": "2",
+    "Boosts": "RollBonus(MeleeSpellAttack, 2);RollBonus(RangedSpellAttack,2);SpellSaveDC(2)"
+   }
+  },
+  {
+   "name": "WW_ArcaneSurge_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab67;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab68;1",
+    "Icon": "",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnCombatStarted",
+    "Conditions": "not HasStatus('WW_ARCANE_CHARGE')",
+    "StatsFunctors": "ApplyStatus(WW_ARCANE_CHARGE,100,3)"
+   }
+  },
+  {
+   "name": "WW_ArcaneRecovery_Amulet_Passive",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "h941a2a1agcc5ag4161gb947g4797cc56ab69;1",
+    "Description": "h941a2a1agcc5ag4161gb947g4797cc56ab70;1",
+    "DescriptionParams": "1",
+    "StatsFunctorContext": "OnCast;OnAttack;OnCastResolved",
+    "Conditions": "HasUseCosts('ArcaneRecoveryPoint', true)",
+    "StatsFunctors": "ApplyStatus(SELF, WW_ARCANE_RECOVERY_TRACKER, 100, -1);ApplyEquipmentStatus(Amulet, WW_ARCANE_RECOVERY_DEPLETED_TECHNICAL, 100, -1)"
+   }
+  },
+  {
+   "name": "WW_ArcaneRecovery_Amulet_Cooldown_Passive",
+   "using": "MAG_ShieldOfDevotion_Cooldown_Passive",
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "Properties": "IsHidden",
+    "StatsFunctors": "RemoveStatus(WW_ARCANE_RECOVERY_TRACKER);ApplyStatus(WW_ARCANE_RECOVERY_POINT, 100, -1)"
+   }
+  },
+  {
+   "name": "WW_ArcaneRecovery_Amulet_Tracker_Passive",
+   "using": "MAG_OfGreaterSorcery_Amulet_Cooldown_Passive",
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "StatsFunctors": "RemoveStatus(WW_ARCANE_RECOVERY_TRACKER)"
+   }
+  },
+  {
+   "name": "WW_ArmorOfAgathys",
+   "using": null,
+   "file": "mods\\FADE_WW_Wizard_Equipment\\Public\\WW_Wizard_Equipment_d66abcbf-b16e-da04-6f4c-73be042935e7\\Stats\\Generated\\Data\\Passives.txt",
+   "data": {
+    "DisplayName": "hd0d5c5b6g213bg4a73g984egfeabf5d8f1f4;1",
+    "Description": "h0749c679gda4bg4fc7gaf23g66fdae9ca70c;2",
+    "DescriptionParams": "DealDamage(4,Cold)",
+    "Icon": "PassiveFeature_ArmorOfAgathys",
+    "PriorityOrder": "2",
+    "Properties": "Highlighted",
+    "StatsFunctorContext": "OnAttacked",
+    "Conditions": "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)",
+    "StatsFunctors": "ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,4,Cold,Magical)"
+   }
+  }
  ]
 }

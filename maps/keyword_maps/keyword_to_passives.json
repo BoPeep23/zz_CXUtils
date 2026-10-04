@@ -11,17 +11,22 @@
             "HAV_Phasm_ParalizingAttacks [BASE]",
             "MAG_Acid_AcidDamageOnWeaponAttack_Ring_Passive [BASE]",
             "MAG_Acid_AcidMeleeCounter_Cloak_Passive [BASE]",
+            "MAG_Acid_UnarmedAttack_Passive [FADE]",
             "MAG_ElementalGish_CantripBooster_Amulet_Passive [BASE]",
             "Planar_Warrior_Pseudo_Force [RAN]",
             "Reactive_Resistance [FEAT]",
             "SWTE_CorrodingCirclet_PotentAcid [SWTE]",
-            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]"
+            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]",
+            "WW_ShiftingElements [FADE]"
         ],
         "Bludgeoning": [
+            "Crusade_NonMagical_Resistance_Passive [FADE]",
             "Crusher_Crit [FEAT]",
+            "GG_Three_Shield_Passive [FADE]",
             "MAG_Barbarian_Gloves_BoneSpike_Passive [BASE]",
             "MAG_CrushingBlow_Passive [BASE]",
             "MAG_IgnoreBludgeoningResistance_Passive [BASE]",
+            "MAG_IronFist_UnarmedDamage_Passive [FADE]",
             "MAG_PhysicalDamageReduction_Passive [BASE]",
             "MAG_Tyr_OfJustice_WarHammer_Passive [BASE]",
             "Planar_Warrior_Pseudo_Force [RAN]",
@@ -30,6 +35,7 @@
         "Cold": [
             "CX_Sorcerer_Boost [CXCX]",
             "Fury_of_the_Frost_Giant_BornofIce [FEAT]",
+            "GG_Three_IncreasedElementalDamage_Passive [FADE]",
             "MAG_Cold_IncreaseColdDamageOnCast_Passive [BASE]",
             "MAG_Cold_UnarmedAttack_Passive [BASE]",
             "MAG_ElementalGish_CantripBooster_Amulet_Passive [BASE]",
@@ -43,7 +49,9 @@
             "UCL_ArmorOfAgathys_8 [UTUT]",
             "UCL_ArmorOfAgathys_9 [UTUT]",
             "UCL_BloodcurseOfTheMarked [UTUT]",
-            "UCL_OceanicSoul [UTUT]"
+            "UCL_OceanicSoul [UTUT]",
+            "WW_ArmorOfAgathys [FADE]",
+            "WW_ShiftingElements [FADE]"
         ],
         "Fire": [
             "AJ_SHG [DEGR]",
@@ -72,10 +80,16 @@
             "UCL_ColdBlooded [UTUT]",
             "UCL_Firedancer [UTUT]",
             "UND_DuergarRaft_PestKillerAxe_Passive [BASE]",
-            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]"
+            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]",
+            "WW_Cinderbrand_Passive [FADE]",
+            "WW_PhoenixEmbrace_Passive [FADE]",
+            "WW_ShiftingElements [FADE]"
         ],
         "Force": [
             "AgonizingBlast_VlaakithKillers_Technical [BASE]",
+            "CC_AugmentedRetaliation_Passive [FADE]",
+            "CC_CharismaticForce_Passive [FADE]",
+            "CC_SpellStorm_Damage_Passive [FADE]",
             "CX_Warlock_Fiend_Boost [CXCX]",
             "DeathMarch_GithyankiWarlock_AgonizingBlast [DTHM]",
             "GraspOfHadar [INVX]",
@@ -100,10 +114,14 @@
             "TMP_DamageReduction_LesserDragon [ENCO]",
             "TMP_DamageReduction_LesserDragon_Tactician [ENCO]",
             "TomThumbDamageOnHit [DTHM]",
-            "UCL_AgonizingBlast [UTUT]"
+            "UCL_AgonizingBlast [UTUT]",
+            "WW_ArcRepeater_Crit_Passive [FADE]",
+            "WW_Forceweaver_Passive [FADE]",
+            "WW_ShiftingElements [FADE]"
         ],
         "Lightning": [
             "CX_Sorcerer_Boost [CXCX]",
+            "GG_Three_IncreasedElementalDamage_Passive [FADE]",
             "MAG_ChargedLightning_ExtraDamage_Ring_Passive [BASE]",
             "MAG_ChargedLightning_ExtraDamageSpell_Passive [BASE]",
             "MAG_ChargedLightning_LightningBlast_Passive [BASE]",
@@ -117,7 +135,9 @@
             "TWN_KuoToa_LightningDamage [BASE]",
             "UCL_BloodcurseOfTheMarked [UTUT]",
             "UCL_Overdrived_Bonus [UTUT]",
-            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]"
+            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]",
+            "VV_LightningReflexes_Passive [FADE]",
+            "WW_ShiftingElements [FADE]"
         ],
         "Necrotic": [
             "Blessing_Vlaa [EXEP]",
@@ -126,10 +146,12 @@
             "DeathMarch_FlamingFistSpy_NecroticDamageBonus [DTHM]",
             "DEN_Apprentice_DaggerOfShar_Passive [BASE]",
             "DEN_CapturedGoblin_MurderDagger_Passive [BASE]",
+            "GG_Two_Necro_Technical [FADE]",
             "Lifedrinker [BASE]",
             "Lifedrinker [INVX]",
             "LOW_Astarion_VampireAscendant [BASE]",
             "LOW_HouseOfGrief_Cultists_Melee [BASE]",
+            "MAG_AlignmentsWrath_Passive [FADE]",
             "MAG_Ambushing_Attack_Passive [BASE]",
             "MAG_Barbarian_Hide_Helmet_Bloodthirsty_Passive [BASE]",
             "MAG_DarkJusticiar_Armor_Protection_Passive [BASE]",
@@ -146,9 +168,14 @@
             "UCL_InescapableDestruction [UTUT]",
             "UCL_ShadowAmbush [UTUT]",
             "UND_Justiciar_ChainShirt_Magic_Passive [BASE]",
-            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]"
+            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]",
+            "VV_NineLives_Passive [FADE]",
+            "WW_ShiftingElements [FADE]"
         ],
         "Piercing": [
+            "Crusade_NonMagical_Resistance_Passive [FADE]",
+            "GG_Three_Shield_Passive [FADE]",
+            "GG_Two_Wildshape_Briarwood_Technical [FADE]",
             "GOB_PainPriest_Axe_Passive [BASE]",
             "LOW_Raphael_Cambions_ExtraDamage [BASE]",
             "MAG_Barbarian_Armor_BoneSpike_Passive [BASE]",
@@ -173,13 +200,16 @@
             "Advantage_Savingthrow_Poison [FEAT]",
             "EO_SickeningCuts [ENCO]",
             "FOR_SpiderQueen_Robe_Passive [BASE]",
+            "GG_Three_PoisonResist_Passive [FADE]",
             "MAG_Drowelf_PoisonAgainstEnsnared_Passive [BASE]",
             "Planar_Warrior_Pseudo_Force [RAN]",
             "Poisoner_Feat [FEAT]",
             "Reactive_Resistance [FEAT]",
-            "ResistancePoison [FEAT]"
+            "ResistancePoison [FEAT]",
+            "WW_ShiftingElements [FADE]"
         ],
         "Psychic": [
+            "CC_CharismaticForce_Passive [FADE]",
             "DeathMarch_DrowAdept_PsychicUnarmedDamageBonus [DTHM]",
             "DeathMarch_MeenlockNightmare_PsychicDamageOnSavingThrow [DTHM]",
             "DEN_HalsinBlade_Passive [BASE]",
@@ -204,18 +234,32 @@
             "PsychicStrikes_Githyanki [DTHM]",
             "QUEST_CRA_IntDev_Weakened [DEGR]",
             "TAD_Displace_FallDamage [BASE]",
-            "UND_Nere_ShieldOfScreams [BASE]"
+            "UND_Nere_ShieldOfScreams [BASE]",
+            "VV_BackstabBlade_Assassinate_Passive [FADE]",
+            "VV_Nightwhisper_Passive [FADE]",
+            "VV_WhisperWind_Passive [FADE]",
+            "WW_ShiftingElements [FADE]"
         ],
         "Radiant": [
+            "CC_CharismaticForce_Passive [FADE]",
             "FOR_OwlbearCubs_Armor_Passive [BASE]",
             "LOW_HouseOfHope_RaphaelsBlessing [BASE]",
+            "MAG_AlignmentsWrath_Passive [FADE]",
             "MAG_Radiant_DamageBonusOnIlluminatedTarget_Ring_Passive [BASE]",
             "MAG_Radiant_UnarmedAttack_Passive [BASE]",
             "MAG_Selunite_LunarProtection_Passive [BASE]",
+            "OO_AvengerFury_Passive [FADE]",
+            "OO_EmboldenedSmite_Chiz_Passive [FADE]",
+            "OO_EmboldenedSmite_Passive [FADE]",
+            "OO_HolyRebuttal_Passive [FADE]",
+            "OO_RadiantBurst_Passive [FADE]",
+            "OO_RadiantCondemnation_Passive [FADE]",
             "Planar_Warrior_Pseudo_Force [RAN]",
-            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]"
+            "UND_SocietyOfBrilliance_ResonanceStaff_Passive [BASE]",
+            "WW_ShiftingElements [FADE]"
         ],
         "Slashing": [
+            "Crusade_NonMagical_Resistance_Passive [FADE]",
             "HW_Test_Boost2 [RAN]",
             "LOW_BlushingMermaid_Redcap_Buff [BASE]",
             "MAG_Barbarian_Gloves_BoneSpike_Passive [BASE]",
@@ -231,13 +275,16 @@
         ],
         "Thunder": [
             "CX_Sorcerer_Boost [CXCX]",
+            "GG_Three_IncreasedElementalDamage_Passive [FADE]",
+            "GG_Two_Tempest_Technical [FADE]",
             "MAG_ElementalGish_CantripBooster_Amulet_Passive [BASE]",
             "MAG_SingingSword_Bane_ThunderDamage_Passive [BASE]",
             "MAG_SingingSword_Bane_ThunderDamage_Passive [DTHM]",
             "MAG_Thunder_Reverberation [BASE]",
             "MAG_Thunder_UnarmedAttack_Passive [BASE]",
             "Planar_Warrior_Pseudo_Force [RAN]",
-            "UND_AbsoluteRing_Passive [BASE]"
+            "UND_AbsoluteRing_Passive [BASE]",
+            "WW_ShiftingElements [FADE]"
         ]
     },
     "SpellSchools": {
@@ -339,6 +386,9 @@
             "CX_Cleric_Tempest_Boost [CXCX]",
             "CX_Cleric_Trickery_Boost [CXCX]",
             "CX_Cleric_War_Boost [CXCX]",
+            "MAG_ClericMovementHeal_Passive [FADE]",
+            "MAG_ClericPrayerExplosion_Passive [FADE]",
+            "MAG_MaximizedHealCleric_Passive [FADE]",
             "UCL_IsDeathClericLevel_1 [UTUT]",
             "UCL_IsDeathClericLevel_10 [UTUT]",
             "UCL_IsDeathClericLevel_11 [UTUT]",
@@ -366,6 +416,10 @@
             "CX_Druid_Moon_Boost [CXCX]",
             "CX_Druid_Spores_Boost [CXCX]",
             "EO_MAG_Druid_Spore_ExtraSpores_Passive [ENCO]",
+            "GG_Three_Druid_Concentration_Passive [FADE]",
+            "GG_Three_Druid_ExtraWildShape_Cooldown_Passive [FADE]",
+            "GG_Three_Druid_ExtraWildShape_Passive [FADE]",
+            "GG_Three_Druid_ExtraWildShape_Tracker_Passive [FADE]",
             "MAG_Druid_ExtraWildShape_Cooldown_Passive [BASE]",
             "MAG_Druid_ExtraWildShape_Passive [BASE]",
             "MAG_Druid_ExtraWildShape_Tracker_Passive [BASE]",
@@ -414,6 +468,9 @@
             "MAG_BarbMonk_Armor_Offensive_Passive [BASE]",
             "MAG_BarbMonk_Dexterity_Passive [BASE]",
             "MAG_BarbMonk_Strength_Passive [BASE]",
+            "MAG_Initiative_MonkBoots [FADE]",
+            "MAG_Initiative_MonkCrossbow [FADE]",
+            "MAG_Mobility_MomentumOnCombatStart_Passive_Monk_Amulet [FADE]",
             "MAG_Monk_Armor_MountainStance_Passive [BASE]",
             "MAG_Monk_Armor_WindStance_Passive [BASE]",
             "MAG_Monk_Healed_TempHP_Passive [BASE]",
@@ -424,8 +481,19 @@
             "MAG_Monk_Magic_Hat_Passive [BASE]",
             "MAG_Monk_Martial_Lethality_Passive [BASE]",
             "MAG_Monk_SoulRejunevation_Passive [BASE]",
+            "MAG_Monk_StunningStrike_Reaction_Passive [FADE]",
+            "MAG_Monk_Unarmed_Damage_Passive [FADE]",
             "MAG_MonkAmulet_WisdomDebuff_2_Passive [BASE]",
-            "MAG_MonkAmulet_WisdomDebuff_Passive [BASE]"
+            "MAG_MonkAmulet_WisdomDebuff_Passive [BASE]",
+            "MAG_MonkCloak_NoCrit_Passive [FADE]",
+            "MAG_MonkMindMask_Description_Passive [FADE]",
+            "MAG_MonkVest_Leeching_Passive [FADE]",
+            "UnarmoredDefense_Monk_AscendedFist [FADE]",
+            "UnarmoredDefense_Monk_ShatteredSun [FADE]",
+            "Unyielding_Tree_Monk_Passive [FADE]",
+            "Unyielding_Tree_Monk_Passive_Roll [FADE]",
+            "UU_MonkCrossBow_ImprovedCritical [FADE]",
+            "UU_One_Monk_Ring_Passive [FADE]"
         ],
         "Ranger": [
             "CX_Ranger_BeastMaster_Boost [CXCX]",
@@ -621,7 +689,9 @@
             "UCL_Divine_Strike_Trickery_Toggle [UTUT]"
         ],
         "Tempest": [
-            "CX_Cleric_Tempest_Boost [CXCX]"
+            "CX_Cleric_Tempest_Boost [CXCX]",
+            "GG_Two_Tempest_Staff_Passive [FADE]",
+            "GG_Two_Tempest_Technical [FADE]"
         ],
         "War": [
             "Background_BloodWarVeteran [BASE]",
@@ -634,7 +704,9 @@
             "CX_Druid_Land_Boost [CXCX]"
         ],
         "Moon": [
-            "CX_Druid_Moon_Boost [CXCX]"
+            "CX_Druid_Moon_Boost [CXCX]",
+            "MAG_MoonSickle_RollBonus_Passive [FADE]",
+            "MoonSickle_AddtionalHealing_Passive [FADE]"
         ],
         "Spores": [
             "CX_Druid_Spores_Boost [CXCX]",
@@ -690,7 +762,10 @@
             "TWN_AasimarSurvivor_SpawnShadow [BASE]",
             "UCL_Doomsept_ShadowAmbush [UTUT]",
             "UCL_ShadowAmbush [UTUT]",
-            "UNI_HealInShadow [BASE]"
+            "UNI_HealInShadow [BASE]",
+            "WW_Consume_ShadowWeave_FreeCast_Passive [FADE]",
+            "WW_ShadowWeave_FreeCast_Level_3_Passive [FADE]",
+            "WW_ShadowWeave_Passive [FADE]"
         ],
         "BeastMaster": [
             "CX_Ranger_BeastMaster_Boost [CXCX]"
@@ -808,6 +883,7 @@
             "AspectOfTheBeast_Stallion_Bedi [DTHM]",
             "CX_Ranger_BeastMaster_Boost [CXCX]",
             "FOR_OwlbearCubs_Armor_Passive [BASE]",
+            "GG_One_FearOnHit_Armor_Passive [FADE]",
             "TWN_RatCatcher_Passive [BASE]",
             "UCL_AspectOfTheBeast_Elk [UTUT]",
             "UCL_IsBeastMasterLevel_11 [UTUT]",
@@ -816,7 +892,9 @@
             "UCL_IsBeastMasterLevel_7 [UTUT]",
             "UCL_IsBeastMasterLevel_8 [UTUT]"
         ],
-        "Celestial": [],
+        "Celestial": [
+            "OO_CelestialWard_Passive [FADE]"
+        ],
         "Construct": [
             "MAG_Enforcer_NonLethalFright_Club_Passive [BASE]",
             "UND_Tower_AutomatonHalberd_Passive [BASE]"
@@ -849,6 +927,7 @@
             "DefaultStatus_ElementalWeaponLightning [DTHM]",
             "DefaultStatus_ElementalWeaponThunder [DTHM]",
             "EO_ElementalAffinity_White_Ebonbone_Scepter_Passive [ENCO]",
+            "GG_Three_IncreasedElementalDamage_Passive [FADE]",
             "LOW_GreaseWizard_ElementalAffinity [BASE]",
             "LOW_RamazithsTower_ElementalRebuke [BASE]",
             "LOW_RamazithsTower_ElementalSiphon [BASE]",
@@ -861,7 +940,8 @@
             "UCL_ElementalAffinity_Damage_Blue_NoFreeSpell [UTUT]",
             "UCL_ElementalAffinity_Damage_Red_NoFreeSpell [UTUT]",
             "UCL_ElementalAffinity_Damage_White_NoFreeSpell [UTUT]",
-            "UCL_ElementalAffinity_Resistance_Check_NoFreeSpell [UTUT]"
+            "UCL_ElementalAffinity_Resistance_Check_NoFreeSpell [UTUT]",
+            "WW_ElementalBane_Passive [FADE]"
         ],
         "Fey": [
             "FeyReinforcementsAltCast [RAN]",
@@ -875,7 +955,9 @@
         "Fiend": [
             "CX_Warlock_Fiend_Boost [CXCX]",
             "MAG_Tyr_OfJustice_WarHammer_Passive [BASE]",
-            "MAG_WYRM_UndeadBane_GreatAxe_Passive [BASE]"
+            "MAG_WYRM_UndeadBane_GreatAxe_Passive [BASE]",
+            "OO_AvengerFury_Passive [FADE]",
+            "OO_HolyRebuttal_Passive [FADE]"
         ],
         "Giant": [
             "DefaultStatus_Elixir_HillGiant [DTHM]",
@@ -906,6 +988,8 @@
             "MAG_WeaponAction_UndeadTurning_Ammunition_Passive [BASE]",
             "MAG_WYRM_UndeadBane_GreatAxe_Passive [BASE]",
             "MAG_WYRM_UndeadProtector_Robe_Passive [BASE]",
+            "OO_AvengerFury_Passive [FADE]",
+            "OO_HolyRebuttal_Passive [FADE]",
             "ShadowCurseUndead_ExtraAttack [DTHM]",
             "UCL_UndeadThrall_ExtraSummon [UTUT]",
             "UCL_UndeadThrall_FreeSpell [UTUT]",
@@ -930,6 +1014,7 @@
             "MAG_Gish_ArcaneSynergy_Circlet_Passive [BASE]",
             "MAG_Githborn_Circlet_Passive [BASE]",
             "MAG_HaHaHat_Passive [BASE]",
+            "MAG_Helm_of_the_Martyr_Passive [FADE]",
             "MAG_HelmOfBalduran_MaxHP_Passive [BASE]",
             "MAG_HelmOfBalduran_Protection_Passive [BASE]",
             "MAG_Illithid_Regen_Circlet_Passive [BASE]",
@@ -957,6 +1042,7 @@
             "MAG_Fire_BurningOnDamaged_Cloak_Passive [BASE]",
             "MAG_LC_Nymph_Cloak_Passive [BASE]",
             "MAG_LC_Umberlee_Protection_Cape_Passive [BASE]",
+            "MAG_MonkCloak_NoCrit_Passive [FADE]",
             "MAG_PHB_Displacement_Cloak_Passive [BASE]",
             "MAG_Poison_InflictPoisonHealSelf_Cloak_Passive [BASE]",
             "MAG_Psychic_MentalFatigue_Cape_Passive [BASE]",
@@ -968,6 +1054,7 @@
             "DefaultStatus_MageArmor [DTHM]",
             "FOR_OwlbearCubs_Armor_Passive [BASE]",
             "FOR_SpiderQueen_Robe_Passive [BASE]",
+            "GG_One_FearOnHit_Armor_Passive [FADE]",
             "MAG_ArmorOfAuthority_Passive [BASE]",
             "MAG_Barbarian_Armor_BoneSpike_Passive [BASE]",
             "MAG_Barbarian_Armor_MeatShield_Passive [BASE]",
@@ -1029,13 +1116,15 @@
             "UCL_CanArmorOfAgathys_7 [UTUT]",
             "UCL_CanArmorOfAgathys_8 [UTUT]",
             "UCL_CanArmorOfAgathys_9 [UTUT]",
-            "UCL_MageArmor [UTUT]"
+            "UCL_MageArmor [UTUT]",
+            "WW_ArmorOfAgathys [FADE]"
         ],
         "Gloves": [
             "DEN_RaidingParty_GoblinCaptain_Gloves_Passive [BASE]",
             "MAG_Acid_NoxiousFumes_Gloves_Passive [BASE]",
             "MAG_Arcanist_Gloves_Passive [BASE]",
             "MAG_Barbarian_Gloves_BoneSpike_Passive [BASE]",
+            "MAG_BindingCrimson_Gloves_Passive [FADE]",
             "MAG_ChargedLightning_Pull_Glove_Passive [BASE]",
             "MAG_CQCaster_CloseRangedSpellMastery_Gloves_Passive [BASE]",
             "MAG_DarkJusticiarGloves_Passive [BASE]",
@@ -1067,10 +1156,12 @@
             "MAG_WondrousGloves_Tracker_Passive [BASE]",
             "MAG_Zhentarim_Demonspirit_Gloves_Passive [BASE]",
             "MAG_ZOC_AdvantageOnMeleeAttackWhileSurounded_Gloves_Passive [BASE]",
-            "UND_Myco_Alchemist_HealerGloves_Passive [BASE]"
+            "UND_Myco_Alchemist_HealerGloves_Passive [BASE]",
+            "VV_LuckyGloves_Passive [FADE]"
         ],
         "Boots": [
             "CRE_HatcheryBoots_Passive [BASE]",
+            "GG_Two_VineGrowth_Boots_Passive [FADE]",
             "MAG_Barbarian_Boots_BoneSpike_Defense_Passive [BASE]",
             "MAG_ChargedLightning_Dash_Boots_Passive [BASE]",
             "MAG_ChargedLightning_ElectricSurface_Boots_Passive [BASE]",
@@ -1084,12 +1175,14 @@
             "MAG_Gish_TempHPWhileConcentrating_Boots_Passive [BASE]",
             "MAG_Githborn_PsionicMovement_Boots_Passive [BASE]",
             "MAG_Infernal_Metal_Boots_AntiDisplacement_Passive [BASE]",
+            "MAG_Initiative_MonkBoots [FADE]",
             "MAG_LC_Umberlee_Regeneration_Boots_Passive [BASE]",
             "MAG_Monk_Magic_Boots_Passive [BASE]",
             "MAG_Paladin_MomentumOnConcentration_Boots_Passive [BASE]",
             "MAG_Paladin_MomentumOnConcentration_Boots_Technical_Passive [BASE]",
             "MAG_Projectile_Shoes_Passive [BASE]",
             "MAG_Thunder_ReverberationOnStatusApply_Boots_Passive [BASE]",
+            "MAG_WisdomMomentum_Boots_Passive [FADE]",
             "MAG_ZOC_ForceConduitWhileSurounded_Boots_Passive [BASE]",
             "Quest_DEN_ARM_LuckyBoots_Passive [BASE]",
             "UCL_BootsOfTheWindingPath_Infusion [UTUT]"
@@ -1109,6 +1202,7 @@
             "MAG_LC_TheAmplifier_Amulet_Cooldown_Passive [BASE]",
             "MAG_LC_TheAmplifier_Amulet_Passive [BASE]",
             "MAG_LC_TheAmplifier_Amulet_Tracker_Passive [BASE]",
+            "MAG_Mobility_MomentumOnCombatStart_Passive_Monk_Amulet [FADE]",
             "MAG_MonkAmulet_WisdomDebuff_2_Passive [BASE]",
             "MAG_MonkAmulet_WisdomDebuff_Passive [BASE]",
             "MAG_OfGreaterSorcery_Amulet_Cooldown_Passive [BASE]",
@@ -1125,7 +1219,10 @@
             "MAG_ZOC_RampartAura_Amulet_Passive [BASE]",
             "UCL_Replicate_Infusion_AmuletOfHealth [UTUT]",
             "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive [BASE]",
-            "UNI_MartyrAmulet_Passive [BASE]"
+            "UNI_MartyrAmulet_Passive [BASE]",
+            "WW_ArcaneRecovery_Amulet_Cooldown_Passive [FADE]",
+            "WW_ArcaneRecovery_Amulet_Passive [FADE]",
+            "WW_ArcaneRecovery_Amulet_Tracker_Passive [FADE]"
         ],
         "Ring": [
             "EO_DamageReduction_DragonCoil_Ring_Passive [ENCO]",
@@ -1146,6 +1243,7 @@
             "MAG_Radiant_DamageBonusOnIlluminatedTarget_Ring_Passive [BASE]",
             "MAG_Radiant_RadiatingOrb_Ring_Passive [BASE]",
             "MAG_Shadow_BlindImmunity_Ring_Passive [BASE]",
+            "MAG_StarAura_Ring_Passive [FADE]",
             "MAG_Thunder_InflictDazeOnThunderDamage_Ring_Passive [BASE]",
             "MAG_WYRM_OfTruthTelling_Ring_Passive [BASE]",
             "SCL_MastiffPoachers_Ring_Passive [BASE]",
@@ -1155,7 +1253,8 @@
             "UND_SocietyOfBrilliance_DarkvisionRing_Passive [BASE]",
             "UND_SocietyOfBrilliance_PullingRing_Passive [BASE]",
             "UNI_MassHealRing_Passive [BASE]",
-            "UNI_UND_RingOfMindShielding_Passive [BASE]"
+            "UNI_UND_RingOfMindShielding_Passive [BASE]",
+            "UU_One_Monk_Ring_Passive [FADE]"
         ],
         "Martial Weapon": [
             "CX_Martial_Boost [CXCX]",
@@ -1168,6 +1267,7 @@
             "CrossbowExpert_ExtraAttack [FEAT]",
             "CrossbowExpert_PointBlankSpells [FEAT]",
             "CrossbowExpert_PointBlankWeapon [FEAT]",
+            "GG_One_SpellAttackBonus_Ranged_Passive [FADE]",
             "MAG_BG_Harold_HeavyCrossbow_Passive [BASE]",
             "MAG_ClosQuarterRangedSpell_Passive [BASE]",
             "MAG_CQCaster_CloseRangedSpellMastery_Gloves_Passive [BASE]",
@@ -1175,6 +1275,7 @@
             "MAG_DoubleProficiencyBonusToRangedAttack_Passive [BASE]",
             "MAG_Githborn_Gish_Stormbolts_Crossbow_Passive [DTHM]",
             "MAG_Githborn_Raider_CriticalSuperiority_Crossbow_Passive [DTHM]",
+            "MAG_Initiative_MonkCrossbow [FADE]",
             "MAG_LowHP_IncreaseDamagePsychic_Ranged_Passive [BASE]",
             "MAG_OfArchery_Gloves_Passive [BASE]",
             "MAG_Orthon_Hellfire_Crossbow_Passive [BASE]",
@@ -1192,9 +1293,12 @@
             "Skulker_Feat_Ranged [FEAT]",
             "Slayers_Prey [RAN]",
             "TavernBrawler [BASE]",
-            "UNI_Bow_SpellslotRecharge_Passive [BASE]"
+            "UNI_Bow_SpellslotRecharge_Passive [BASE]",
+            "UU_MonkCrossBow_ImprovedCritical [FADE]"
         ],
         "Shield": [
+            "CC_FluxShield_Passive [FADE]",
+            "GG_Three_Shield_Passive [FADE]",
             "GOB_Priest_Shield_Passive [BASE]",
             "MAG_AbsoluteProtector_Shield_Passive [BASE]",
             "MAG_Barbarian_Armor_MeatShield_Passive [BASE]",
@@ -1225,8 +1329,10 @@
     },
     "Type": {
         "SpellDamage_Single": [
+            "CC_CharismaticForce_Passive [FADE]",
             "CX_Sorcerer_Boost [CXCX]",
             "FOR_SpiderQueen_Robe_Passive [BASE]",
+            "GG_Three_IncreasedElementalDamage_Passive [FADE]",
             "MAG_AbsoluteProtector_Shield_Passive [BASE]",
             "MAG_Arcanist_Gloves_Passive [BASE]",
             "MAG_ChargedLightning_ExtraDamageSpell_Passive [BASE]",
@@ -1236,7 +1342,12 @@
             "MAG_ElementalGish_CantripBooster_Amulet_Passive [BASE]",
             "MAG_Githborn_Arcanist_ForceConduit_Quarterstaff_Passive [DTHM]",
             "MAG_Heat_Fire_Robe_Passive [BASE]",
-            "MAG_LowHP_IncreasedSpellDamage_Passive [BASE]"
+            "MAG_LowHP_IncreasedSpellDamage_Passive [BASE]",
+            "MAG_Twilight_Damage_Passive [FADE]",
+            "WW_ArcRepeater_Crit_Passive [FADE]",
+            "WW_CantripBooster_Arcana_Passive [FADE]",
+            "WW_Forceweaver_Passive [FADE]",
+            "WW_IntCaster_CantripBooster_Passive [FADE]"
         ],
         "SpellDamage_AOE_Small": [],
         "SpellDamage_AOE_Large": [],
@@ -1247,6 +1358,9 @@
             "FOR_OwlBearCubs_EasilyFrighten_Passive [BASE]",
             "FormOfDread_Alioramus [EXEP]",
             "FormOfDread_Arbiter [EXEP]",
+            "GG_One_FearOnHit_Armor_Passive [FADE]",
+            "GG_Three_PrimalFear [FADE]",
+            "GG_Three_PrimalFear_Technical [FADE]",
             "GOB_LostBalance_Passive [BASE]",
             "GoblinWarlock_TormentedDelusion [DTHM]",
             "HAV_Phasm_ParalizingAttacks [BASE]",
@@ -1283,13 +1397,16 @@
             "UCL_MenacingStrikes_FrightenedAdv [UTUT]",
             "UND_Tower_AutomatonHalberd_Passive [BASE]",
             "UNI_UND_RingOfMindShielding_Passive [BASE]",
+            "VV_FateWeaver_Passive [FADE]",
+            "WW_Frostwalker_IceImmune_Passive [FADE]",
             "WYR_PotentDrink_Sunblind_Passive [BASE]"
         ],
         "Control_AOE_Small": [
             "LOW_Guildhall_IsolatedPrey [BASE]",
             "LOW_Guildhall_SneakyRiposte [BASE]",
             "MAG_MartialBravery_Passive [BASE]",
-            "MAG_ZOC_AdvantageOnMeleeAttackWhileSurounded_Gloves_Passive [BASE]"
+            "MAG_ZOC_AdvantageOnMeleeAttackWhileSurounded_Gloves_Passive [BASE]",
+            "VV_CorneredRat_Passive [FADE]"
         ],
         "Control_AOE_Large": [],
         "Defense_HitPoints": [
@@ -1309,12 +1426,17 @@
             "AJ_RGG [DEGR]",
             "AJ_RM [DEGR]",
             "AJ_SHG [DEGR]",
+            "ARM_Nimble_Resilience_Passive [FADE]",
+            "CC_AugmentedDefense_Passive [FADE]",
+            "CC_HeartstoneParry_Passive [FADE]",
             "CX_Druid_Moon_Boost [CXCX]",
+            "GG_Two_WildshapeAC_Technical [FADE]",
             "Githyanki_Supreme_PsionicDeflection [DTHM]",
             "MAG_Barbarian_Boots_BoneSpike_Defense_Passive [BASE]",
             "MAG_Druid_Wildshape_SpellResistance_Passive [BASE]",
             "MAG_FlamingFist_BlazingRetaliation_Passive [BASE]",
             "MAG_HelmOfBalduran_Protection_Passive [BASE]",
+            "MAG_MonkCloak_NoCrit_Passive [FADE]",
             "MAG_OfDefense_Gloves_Passive [BASE]",
             "MAG_WondrousGloves_Passive [BASE]",
             "MAG_WYRM_Farlin_Dagger_Passive [BASE]",
@@ -1326,12 +1448,17 @@
             "AJ_RGG [DEGR]",
             "AJ_RM [DEGR]",
             "AJ_SHG [DEGR]",
+            "CC_ResilientSoul_Passive [FADE]",
+            "CC_SpellMaster_Concentration_Passive [FADE]",
+            "CC_WardingMagic_Passive [FADE]",
             "CRE_MAG_Githborn_Amulet_Passive [BASE]",
             "CTY_NecromancyOfThay_ForbiddenKnowledge_Passive [BASE]",
             "CX_Druid_Moon_Boost [CXCX]",
             "CX_Rogue_Thief_Boost [CXCX]",
             "CX_Wizard_Necromancy_Boost [CXCX]",
             "DeathMarch_Automaton_CommandCore [DTHM]",
+            "GG_One_Spellguard_Passive [FADE]",
+            "GG_Two_WildshapeAC_Technical [FADE]",
             "Giant_Creature [DTHM]",
             "Githyanki_Supreme_PsionicDeflection [DTHM]",
             "GOB_Priest_Amulet_Passive [BASE]",
@@ -1354,6 +1481,7 @@
             "MAG_Lesser_MagicalDurability_Passive [BASE]",
             "MAG_LesserFlamingDispersion_Passive [BASE]",
             "MAG_MagicalDurability_Passive [BASE]",
+            "MAG_MoonSickle_RollBonus_Passive [FADE]",
             "MAG_PHB_ElvenChain_AddedEffect_Armor_Passive [BASE]",
             "MAG_PHB_ScarabOfProtection_Amulet_Passive [BASE]",
             "MAG_SpellResistance_Passive [BASE]",
@@ -1373,16 +1501,21 @@
             "UCL_MightOfTheMaster_4 [UTUT]",
             "UCL_MightOfTheMaster_5 [UTUT]",
             "UND_Justiciar_Helmet_Magic_Passive [BASE]",
-            "UNI_RepeatStaff_Passive [BASE]"
+            "UNI_RepeatStaff_Passive [BASE]",
+            "Unyielding_Tree_Monk_Passive_Roll [FADE]",
+            "VV_Trickster_Dex_Passive [FADE]"
         ],
         "Defense_DamageResistance": [
             "Acid_Dragon_Passive [EXEP]",
             "AJ_SHG [DEGR]",
             "CRE_HatcheryBoots_Passive [BASE]",
+            "Crusade_NonMagical_Resistance_Passive [FADE]",
             "DamageReduction_Alioramus [EXEP]",
             "Ember_of_the_Fire_Giant_Resistance [FEAT]",
             "EO_DamageReduction_LesserDragon_Tactician [ENCO]",
             "Fury_of_the_Frost_Giant_BornofIce [FEAT]",
+            "GG_Three_PoisonResist_Passive [FADE]",
+            "GG_Three_Shield_Passive [FADE]",
             "HW_Test_Boost [RAN]",
             "HW_Test_Boost2 [RAN]",
             "MAG_AbsoluteProtector_Shield_Passive [BASE]",
@@ -1411,7 +1544,8 @@
             "UCL_Firedancer [UTUT]",
             "UCL_InescapableDestruction [UTUT]",
             "UCL_OceanicSoul [UTUT]",
-            "UCL_ThickFeet [UTUT]"
+            "UCL_ThickFeet [UTUT]",
+            "WW_PhoenixEmbrace_Passive [FADE]"
         ],
         "Defense_ConditionImmunity": [
             "Acid_Dragon_Passive [EXEP]",
@@ -1422,6 +1556,7 @@
             "EO_UnwaveringKi [ENCO]",
             "FOR_NightWalkers_WebImmunity [BASE]",
             "FOR_WebStaff_Passive [BASE]",
+            "GG_Two_DifficultTerrain [FADE]",
             "LOW_Cazador_SpawnBuff_004_Passive [BASE]",
             "LOW_HouseOfGrief_Cultists_Sight [BASE]",
             "MAG_ChargedLightning_Resistance_Ring_Passive [BASE]",
@@ -1438,6 +1573,7 @@
             "MAG_StunnImmunity_Passive [BASE]",
             "MAG_TerrainWalker_Passive [BASE]",
             "MAG_Watcher_Helmet_Darkvision_Passive [BASE]",
+            "OO_EverVigilant_Passive [FADE]",
             "ORI_Karlach_SecondUpgrade [BASE]",
             "ORI_Karlach_SweatImmune [BASE]",
             "SCE_ExhaustionImmunity [BASE]",
@@ -1448,6 +1584,8 @@
             "UCL_Lava_Immune [UTUT]",
             "UCL_TurnImmunity [UTUT]",
             "VileOblivion [DTHM]",
+            "VV_Arachnida_Passive [FADE]",
+            "WW_Frostwalker_IceImmune_Passive [FADE]",
             "WYR_MerchantsHouse_ThugsNonLethal_Passive [BASE]"
         ],
         "Defense_Special": [
@@ -1456,6 +1594,7 @@
         ],
         "Healing_Single": [
             "FOR_Owlbear_Daddy_Rage_Passive [BASE]",
+            "GG_One_FirstBloom_Passive [FADE]",
             "GotMD_Healing [FEAT]",
             "Healer_HealersProcedure [FEAT]",
             "MAG_PHB_PeriaptofWoundClosure_Amulet_Maximize_Passive [BASE]",
@@ -1465,6 +1604,7 @@
         "Buff_Single": [
             "Advantage_Savingthrow_Poison [FEAT]",
             "AgonizingBlast_VlaakithKillers_Technical [BASE]",
+            "ARM_Nimble_Resilience_Passive [FADE]",
             "Background_AstralZealot [BASE]",
             "Background_BladeOfFrontiers [BASE]",
             "Background_BloodWarVeteran [BASE]",
@@ -1478,6 +1618,14 @@
             "Background_WaterdavianMagus [BASE]",
             "Barghest_NoEscape [DTHM]",
             "BeguilingTwist [RAN]",
+            "CC_AugmentedDefense_Passive [FADE]",
+            "CC_CharismaticForce_Passive [FADE]",
+            "CC_FluxShield_Passive [FADE]",
+            "CC_HeartstoneParry_Passive [FADE]",
+            "CC_PhaseShift_Passive [FADE]",
+            "CC_SorcerousPotency_Passive [FADE]",
+            "CC_SpellMaster_Concentration_Passive [FADE]",
+            "CC_WardingMagic_Passive [FADE]",
             "CTY_NecromancyOfThay_ForbiddenKnowledge_Passive [BASE]",
             "CX_Boss_Boost [CXCX]",
             "CX_Druid_Moon_Boost [CXCX]",
@@ -1495,6 +1643,20 @@
             "Frigid_Retaliation_CON [FEAT]",
             "Frigid_Retaliation_STR [FEAT]",
             "Frigid_Retaliation_WIS [FEAT]",
+            "GG_One_SpellAttackBonus_Melee_Passive [FADE]",
+            "GG_One_SpellAttackBonus_Ranged_Passive [FADE]",
+            "GG_One_Spellguard_Passive [FADE]",
+            "GG_Three_Bloodbath_Technical [FADE]",
+            "GG_Three_Damage_Technical [FADE]",
+            "GG_Three_Druid_Concentration_Passive [FADE]",
+            "GG_Three_IncreasedElementalDamage_Passive [FADE]",
+            "GG_Three_SpellSaveDC_Passive [FADE]",
+            "GG_Two_Briarwood_Survival_Passive [FADE]",
+            "GG_Two_Dex_Prof_Passive [FADE]",
+            "GG_Two_Necro_Technical [FADE]",
+            "GG_Two_Tempest_Technical [FADE]",
+            "GG_Two_Wildshape_Briarwood_Technical [FADE]",
+            "GG_Two_WildshapeAC_Technical [FADE]",
             "Giant_Creature [DTHM]",
             "Githyanki_Supreme_PsionicDeflection [DTHM]",
             "GOB_Priest_Amulet_Passive [BASE]",
@@ -1555,6 +1717,8 @@
             "MAG_Heat_Fire_Robe_Passive [BASE]",
             "MAG_HelmOfBalduran_Protection_Passive [BASE]",
             "MAG_Illithid_CarapaceArmor_Passive [BASE]",
+            "MAG_Initiative_MonkBoots [FADE]",
+            "MAG_Initiative_MonkCrossbow [FADE]",
             "MAG_InitiativeBonus_1_Passive [BASE]",
             "MAG_InitiativeBonus_2_Passive [BASE]",
             "MAG_InitiativeWeapon_Passive [BASE]",
@@ -1566,7 +1730,10 @@
             "MAG_Lesser_MagicalDurability_Passive [BASE]",
             "MAG_LowHP_IncreaseSpeed_Passive [BASE]",
             "MAG_MagicalDurability_Passive [BASE]",
+            "MAG_Marsh_Strider_Passive [FADE]",
             "MAG_Monk_Martial_Lethality_Passive [BASE]",
+            "MAG_MonkCloak_NoCrit_Passive [FADE]",
+            "MAG_MoonSickle_RollBonus_Passive [FADE]",
             "MAG_Multitasking_Passive [BASE]",
             "MAG_OfDefense_Gloves_Passive [BASE]",
             "MAG_Orin_ShapeshifterProwess_Passive [BASE]",
@@ -1580,6 +1747,7 @@
             "MAG_StrengthBonusToWeaponDamage_Passive [BASE]",
             "MAG_TheDueller_ImprovedDuelist_Passive [BASE]",
             "MAG_TheThorns_VeilOfTheWind_Passive [BASE]",
+            "MAG_Twilight_Damage_Passive [FADE]",
             "MAG_Tyr_OfJustice_WarHammer_Passive [BASE]",
             "MAG_Vicious_Weapon_Passive [BASE]",
             "MAG_WondrousGloves_Passive [BASE]",
@@ -1647,14 +1815,29 @@
             "UND_AbsoluteRing_Passive [BASE]",
             "UND_BlessingOfBOOOAL [BASE]",
             "UND_Justiciar_Helmet_Magic_Passive [BASE]",
-            "VOTGH_IronStomach [FEAT]"
+            "Unyielding_Tree_Monk_Passive_Roll [FADE]",
+            "UU_Greater_Spell_Passive [FADE]",
+            "VOTGH_IronStomach [FEAT]",
+            "VV_LightningReflexes_Passive [FADE]",
+            "VV_Mastermind_Passive [FADE]",
+            "VV_QuickDraw_Passive [FADE]",
+            "VV_Quicksilver_Movement_Passive [FADE]",
+            "WW_ArcRepeater_SpellAttkBonus_Passive [FADE]",
+            "WW_Ascendant_Spellcaster_Passive [FADE]",
+            "WW_CantripBooster_Arcana_Passive [FADE]",
+            "WW_Cinderbrand_Passive [FADE]",
+            "WW_ElementalBane_Passive [FADE]",
+            "WW_Forceweaver_Passive [FADE]",
+            "WW_IntCaster_CantripBooster_Passive [FADE]",
+            "WW_SageCap_Passive [FADE]"
         ],
         "Buff_Multiple": [
             "CX_Sorcerer_DraconicBloodline_Boost [CXCX]",
             "LOW_Guildhall_IsolatedPrey [BASE]",
             "MAG_MartialBravery_Passive [BASE]",
             "MAG_ZOC_AdvantageOnMeleeAttackWhileSurounded_Gloves_Passive [BASE]",
-            "SWTE_CorrodingCirclet_PotentAcid [SWTE]"
+            "SWTE_CorrodingCirclet_PotentAcid [SWTE]",
+            "VV_CorneredRat_Passive [FADE]"
         ],
         "Debuff_Single": [
             "AJ_RGG [DEGR]",
@@ -1677,6 +1860,7 @@
             "MAG_WYRM_UndeadProtector_Robe_Passive [BASE]",
             "Metamagic_Heightened_KoboldDragonMage [DTHM]",
             "MOO_KethericArmor [BASE]",
+            "OO_CelestialWard_Passive [FADE]",
             "QUEST_CRA_IntDev_Weakened [DEGR]",
             "QUEST_HAG_HagEyed [BASE]",
             "SOTG_CloudStrike_Target_Passive [FEAT]"
@@ -1692,6 +1876,7 @@
             "HarpyBoneScimitar_Passive [DTHM]",
             "MAG_BarbMonk_Dexterity_Passive [BASE]",
             "MAG_JumpBoost_Passive [BASE]",
+            "MAG_Marsh_Strider_Passive [FADE]",
             "MAG_Mobility_ExplosionOnJump_Passive [BASE]",
             "MAG_Mobility_JumpOnDash_Passive [BASE]",
             "MAG_RavenCharm_Passive [BASE]",

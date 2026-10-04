@@ -12,6 +12,11 @@ SRC = {
     "FEAT": [os.path.join(ROOT, "mods", "featsextra")],
     "SWTE": [os.path.join(ROOT, "mods", "StormWardensTomeOfEncounters")],
     "UTUT": [os.path.join(ROOT, "mods", "UtutsCoreLibrary")],
+    # FADE: Fade's Equipment Distribution per-class packs (7 of 10 folders; Ranger/Bard/Warlock excluded)
+    "FADE": [os.path.join(ROOT, "mods", f) for f in [
+        "FADE_CC_Sorcerer_Equipment", "FADE_FF_Cleric_Equipment", "FADE_GG_Druid_Equipment",
+        "FADE_OO_Paladin_Equipment", "FADE_UU_Monk_Equipment", "FADE_VV_Rogue_Equipment",
+        "FADE_WW_Wizard_Equipment"]],
 }
 ENTRY = re.compile(r'^new entry "([^"]+)"', re.M)
 DATA = re.compile(r'^data "([^"]+)" "(.*)"\s*$', re.M)

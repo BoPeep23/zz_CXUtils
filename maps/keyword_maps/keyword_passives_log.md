@@ -57,3 +57,12 @@ About 25 of 30 were correct. Misses:
 - keyword_to_spells.json
 - guid_mapper_master.json
 - cx_passive_manager.json
+
+## FADE pass (2026-10-03)
+
+- **Source:** 7 of 10 FADE_ equipment packs, all coded `FADE`: Sorcerer (CC), Cleric (FF), Druid (GG), Paladin (OO), Monk (UU), Rogue (VV), Wizard (WW). Ranger (BB), Bard (SS), and Warlock (PP) are excluded by Tyler's choice. Source path: `bg3-mod-extraction-utils/mods/FADE_*/`.
+- **Result:** 249 raw PassiveData blocks, 108 unique indexed passives, 184 new memberships. Existing entries are unchanged, except for the one manual removal below.
+- **Drops:** visual/FX-only went 241 to 261 (+20 FADE). Legendary (85) and same-source duplicates (18) are unchanged.
+- **Load order:** six packs (CC, FF, GG, OO, UU, VV) are in the live `modsettings.lsx`. **WW (Wizard) is not enabled in the live load order.** Its pak sits in `Mods/`. Kept per Tyler's instruction. Its passives are not active in-game until the pack is enabled.
+- **Classification:** name tokens and mechanics, as for the other sources. The packs' class prefixes (CC_, WW_, etc.) make Sorcerer, Wizard, and similar tags land correctly. Paladin lands under Subclass.
+- **Manual edit preserved:** `DefaultStatus_BediTheBarbarian_AspectOfTheStallion [DTHM]` was removed from `Class:Barbarian` in the saved file, but the scripts still produce it. The rebuild reapplies that removal, so the map keeps it removed. Decide whether the script should carry the same exclusion.

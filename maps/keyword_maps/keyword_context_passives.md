@@ -27,6 +27,7 @@ Spells use the same structure in [keyword_to_spells.json](keyword_to_spells.json
   - StormWardensTomeOfEncounters = `SWTE`
   - UtutsCoreLibrary = `UTUT`
   - CombatExtender (CX_* passives) = `CXCX`
+  - FADE (Fade's Equipment Distribution, 7 per-class packs; Ranger/Bard/Warlock excluded) = `FADE`
 - **Homebrew is included:** CX_* passives and StormWardensTomeOfEncounters entries are indexed.
 - **Groups:** keep the existing keys. Add these groups:
   - **Subclass**: Paladin, Oathbreaker, and other subclass or archetype keywords, alongside the existing base Class list.
@@ -83,7 +84,7 @@ Use best judgment. When the case is unclear, include the entry and note it in th
 ## Handoff (state as of 2026-10-03)
 
 ### What exists
-- [keyword_to_passives.json](keyword_to_passives.json): built. Groups in order: DamageTypes, SpellSchools, Class, Subclass, Races, EnemyType, MagicItemType, Type. 1,441 memberships across 953 unique passives. Per-code: BASE 780, UTUT 214, FEAT 111, DTHM 79, RAN 31, DEGR 25, EXEP 23, ENCO 20, SWTE 15, INVX 10, CXCX 133.
+- [keyword_to_passives.json](keyword_to_passives.json): built. Groups in order: DamageTypes, SpellSchools, Class, Subclass, Races, EnemyType, MagicItemType, Type. 1,624 memberships across 1,056 unique passive names. Per-code: BASE 780, UTUT 214, FEAT 111, DTHM 78, RAN 31, DEGR 25, EXEP 23, ENCO 20, SWTE 15, INVX 10, CXCX 133, FADE 184. FADE added 2026-10-03; see the FADE section of the log.
 - [keyword_passives_log.md](keyword_passives_log.md): the judgment calls, exclusions, and gaps. Read it before changing anything.
 - `keyword_to_spells.json`: untouched. Separate chat.
 

@@ -64,3 +64,12 @@ Class Bard, Wizard, Sorcerer, Cleric, Warlock. Subclass College of Lore, Archfey
 ## Not done
 - Two kept entries have no bucket hit and are not written: `Shout_CloakOfFlies_Dismiss`, `Target_Maddening_Hex`.
 - `keyword_to_passives.json` and the two `guid_mapper`/`cx_passive` files were not touched.
+
+## FADE pass (2026-10-03)
+
+- **Source:** the same 7 FADE packs as the passive map (Ranger, Bard, and Warlock excluded). Code `FADE`. 152 raw SpellData blocks; 134 unique IDs indexed, 379 memberships (keyed by class or subclass).
+- **No collisions.** No FADE ID matched an existing ID in another source, so no existing entry changed.
+- **Scope rule 4:** FADE is exempt from the "no list membership means drop" rule, the same as INVX. FADE spells are item-granted, and the packs ship no SpellLists, so the rule would have dropped every one. Judgment call.
+- **Class:** from the pack folder, since each pack is one class (CC = Sorcerer, FF = Cleric, GG = Druid, OO = Paladin subclass, UU = Monk, VV = Rogue, WW = Wizard). All 134 get a class or subclass bucket. An ID-prefix rule was tried first and left 51 spells unclassified; the pack rule replaced it.
+- **Load order:** WW (Wizard) is not enabled in the live `modsettings.lsx`. Its spells are indexed but not active in-game until the pack is enabled.
+- **Verified:** rebuilt from the same builder on the same Shared.pak extract. The pre-FADE baseline reproduced byte-identical (478 spells, zero bucket diffs) before any change. After the change, no existing label was removed or altered.

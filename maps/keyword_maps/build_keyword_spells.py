@@ -4,7 +4,7 @@ ROOT = 'C:/Users/Tyler/source/repos/bg3-mod-extraction-utils'
 OUT = 'C:/Users/Tyler/GitHub/zz_CXUtils/maps/keyword_maps'
 
 # Load order from modsettings.lsx (later overrides earlier for non-collision duplicates)
-LO = ['BASE', '5ESP', 'MYST', 'U5E', 'SWTS', 'INVX', 'RAN', 'DTHM']
+LO = ['BASE', '5ESP', 'MYST', 'U5E', 'SWTS', 'INVX', 'RAN', 'DTHM', 'FADE']
 SOURCES = {
     'BASE': [f'{ROOT}/scratch_vanilla_extract/allstats_hunt/Public/GustavDev',
              f'{ROOT}/scratch_vanilla_extract/allstats_hunt/Public/Gustav',
@@ -18,9 +18,14 @@ SOURCES = {
     'INVX': [f'{ROOT}/mods/InvocationsExpanded'],
     'RAN': [f'{ROOT}/mods/RangerSubclasses5eCombined'],
     'DTHM': [f'{ROOT}/mods/DeathMarch'],
+    # FADE: Fade's Equipment Distribution per-class packs (7 of 10 folders; Ranger/Bard/Warlock excluded)
+    'FADE': [f'{ROOT}/mods/{m}' for m in ['FADE_CC_Sorcerer_Equipment', 'FADE_FF_Cleric_Equipment',
+                                         'FADE_GG_Druid_Equipment', 'FADE_OO_Paladin_Equipment',
+                                         'FADE_UU_Monk_Equipment', 'FADE_VV_Rogue_Equipment',
+                                         'FADE_WW_Wizard_Equipment']],
 }
 CODES = {'BASE': 'BASE', '5ESP': '5ESP', 'MYST': 'MYST', 'SWTS': 'SWTS',
-         'INVX': 'INVX', 'RAN': 'RAN', 'DTHM': 'DTHM'}
+         'INVX': 'INVX', 'RAN': 'RAN', 'DTHM': 'DTHM', 'FADE': 'FADE'}
 
 # Use5eSpellsWithMystraSpells rules (see research/mystra_5espells_compat_report.md)
 PATCHED_5E = {'Shout_BorrowedKnowledge', 'Target_DragonsBreath', 'Target_FlockOfFamiliars',
@@ -241,6 +246,18 @@ missing_from_pools = sorted(i for i in list_hits if i not in defs)
 print('list-referenced ids:', len(list_hits), 'missing from all loaded stat pools:', len(missing_from_pools))
 print('missing sample:', missing_from_pools[:40])
 
+# FADE packs ship no SpellLists. Each pack is one class, so its spells take that class from the pack folder.
+# Paladin is a subclass, not a base class.
+FADE_PACK = {'FADE_CC_Sorcerer_Equipment': ('class', 'Sorcerer'), 'FADE_FF_Cleric_Equipment': ('class', 'Cleric'),
+             'FADE_GG_Druid_Equipment': ('class', 'Druid'), 'FADE_OO_Paladin_Equipment': ('sub', 'Paladin'),
+             'FADE_UU_Monk_Equipment': ('class', 'Monk'), 'FADE_VV_Rogue_Equipment': ('class', 'Rogue'),
+             'FADE_WW_Wizard_Equipment': ('class', 'Wizard')}
+for root in SOURCES['FADE']:
+    kind, val = FADE_PACK[os.path.basename(root)]
+    for eid in load_source([root]):
+        if eid in winners and winners[eid][0] == 'FADE':
+            membership[eid][kind].add(val)
+
 # ---- scope filters ----
 excl = collections.Counter()
 excl_ids = collections.defaultdict(list)
@@ -262,7 +279,7 @@ for eid, (code, data) in winners.items():
         excl['visual_fx_or_no_effect_unlisted'] += 1
         excl_ids['visual_fx'].append(eid)
         continue
-    if not listed and code in ('BASE', '5ESP', 'MYST', 'DTHM', 'RAN', 'U5E'):
+    if not listed and code in ('BASE', '5ESP', 'MYST', 'DTHM', 'RAN', 'U5E'):  # FADE and INVX exempt: item-granted
         excl['not_on_any_class_list_monster_specific'] += 1
         excl_ids['monster'].append(eid)
         continue
