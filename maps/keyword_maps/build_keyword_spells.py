@@ -460,9 +460,10 @@ ORDER_KEYS = ['DamageTypes', 'SpellSchools', 'Class', 'EnemyType', 'Type', 'Subc
 result = {}
 for g in ORDER_KEYS:
     result[g] = {k: sorted(v) for k, v in buckets[g].items()}
-with open(f'{OUT}/keyword_to_spells.json', 'w', encoding='utf-8') as f:
-    json.dump(result, f, indent=4, ensure_ascii=False)
-    f.write('\n')
+# Merge, never replace: existing keys and entries in the live file are kept.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from keyword_io import merge_keyword_map
+merge_keyword_map(f'{OUT}/keyword_to_spells.json', result, sort_key=lambda s: s)
 
 # ---- diagnostics for log ----
 src_counts = collections.Counter(code for (code, _) in final.values())

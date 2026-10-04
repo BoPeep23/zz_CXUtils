@@ -4047,15 +4047,84 @@
         ]
     },
     "MagicItemType": {
-        "Headwear": [],
-        "Cloak": [],
-        "Armor/Clothing": [],
-        "Gloves": [],
-        "Boots": [],
-        "Necklace": [],
-        "Ring": [],
-        "Martial Weapon": [],
-        "Ranged Weapon": [],
-        "Shield": []
+        "Headwear": [
+            "CC_Shout_FontSurge [FADE]",
+            "Projectile_AcidArrow [BASE]",
+            "Shout_CelestialSpark [FADE]",
+            "Shout_DisguiseSelf_CowlOfManyFaces [FADE]",
+            "Shout_DivineRetribution [FADE]",
+            "Shout_GG_Three_PoisonAura [FADE]",
+            "Shout_Shield_Monk [FADE]",
+            "UU_Shout_Unarmed_Range [FADE]",
+            "VV_Target_FogCloud [FADE]"
+        ],
+        "Cloak": [
+            "VV_Shout_VanishingMist [FADE]",
+            "VV_Target_LargeWeb [FADE]",
+            "VV_Target_VaporousForm [FADE]",
+            "Wall_WallOfPeaks [FADE]"
+        ],
+        "Armor/Clothing": [
+            "CC_Shout_ArcaneShroud [FADE]",
+            "FF_Shout_ClericCrusade_Halfplate [FADE]",
+            "Shout_Ascended_Fist_DamageBuff [FADE]",
+            "Shout_SwampEyes [FADE]",
+            "Target_Lifespark [FADE]",
+            "VV_Shout_CrimsonShroud [FADE]",
+            "VV_Shout_MirrorImage [FADE]"
+        ],
+        "Gloves": [
+            "FF_Shout_BlessingOfLife [FADE]",
+            "OO_Target_SacrificialGift [FADE]",
+            "Target_GG_Two_GraspingVine [FADE]",
+            "Target_MAG_Binding_Crimson [FADE]",
+            "VV_Throw_FlyingDagger [FADE]"
+        ],
+        "Boots": [
+            "CC_Target_SpatialSwap [FADE]",
+            "Target_Fly_Cleric_Boots [FADE]",
+            "Target_Fly_Monk_Boots [FADE]",
+            "Target_GG_Three_MistyStep [FADE]",
+            "VV_LivingShadow [FADE]",
+            "VV_Target_ShadowMeld [FADE]"
+        ],
+        "Necklace": [
+            "Shout_MAG_Monk_Restore_Ki_Lowest [FADE]",
+            "Shout_MAG_Monk_Restore_Ki_NewAnimation [FADE]",
+            "Target_CureWounds_DivineDuality [FADE]",
+            "Target_GG_Two_Stoneskin [FADE]",
+            "Target_Smite_Branding_DivineDuality [FADE]",
+            "Target_UnderstandingAmulet [FADE]",
+            "VV_Shout_DetectThoughts [FADE]",
+            "VV_Skeleton_Key_Unlock [FADE]"
+        ],
+        "Ring": [
+            "CC_Projectile_Chaosball [FADE]",
+            "OO_Shout_BanishUnholy [FADE]",
+            "OO_Shout_RadiantSurge [FADE]",
+            "OO_Shout_SunderHeretical [FADE]",
+            "Projectile_FireBolt_Monk [FADE]",
+            "Projectile_Fireball_Ring [FADE]",
+            "Shout_GG_Two_SpeakWithAnimals [FADE]",
+            "Shout_MAG_Restore_WildShape_Grove [FADE]",
+            "Target_ClericRingBless [FADE]",
+            "Target_ClericRingHealingWord [FADE]",
+            "Target_GG_Two_AnimalFriendship [FADE]",
+            "Target_ViciousMockery [BASE]",
+            "VV_AssassinMark [FADE]"
+        ],
+        "Martial Weapon": [
+            "Target_GG_One_WeaversEdge [FADE]",
+            "Target_GG_Three_SpiritualWeapon [FADE]",
+            "Target_Terror_Flail [FADE]",
+            "VV_Target_Venom_Shortsword [FADE]"
+        ],
+        "Ranged Weapon": [
+            "Projectile_LifeWeaver_Heal [FADE]",
+            "Zone_MAG_Monk_BowShot [FADE]"
+        ],
+        "Shield": [
+            "Target_GG_Two_ShieldOfInvulnerability [FADE]"
+        ]
     }
 }

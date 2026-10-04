@@ -13,6 +13,12 @@
 		{
 			"name": "BG3 (AppData Installation)",
 			"path": "../../AppData/Local/Larian Studios/Baldur's Gate 3"
+		},
+		{
+			"path": "../../source/repos/combat-extender"
+		},
+		{
+			"path": "../../source/repos/bg3se"
 		}
 	],
 	"settings": {

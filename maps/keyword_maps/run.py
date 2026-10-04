@@ -79,8 +79,9 @@ for g in out:
         out[g][k] = sorted(set(out[g][k]), key=lambda s: s.lower())
 
 # write JSON (4-space indent, existing style)
-json.dump(out, open(OUT_JSON, "w", encoding="utf-8"), indent=4, ensure_ascii=False)
-open(OUT_JSON, "a", encoding="utf-8").write("\n")
+# Merge, never replace: existing keys and entries in the live file are kept.
+from keyword_io import merge_keyword_map
+merge_keyword_map(OUT_JSON, out)
 
 # stats
 print("entries classified:", len(entries), "no-tag kept out:", kept_no_tag)

@@ -73,3 +73,25 @@ Class Bard, Wizard, Sorcerer, Cleric, Warlock. Subclass College of Lore, Archfey
 - **Class:** from the pack folder, since each pack is one class (CC = Sorcerer, FF = Cleric, GG = Druid, OO = Paladin subclass, UU = Monk, VV = Rogue, WW = Wizard). All 134 get a class or subclass bucket. An ID-prefix rule was tried first and left 51 spells unclassified; the pack rule replaced it.
 - **Load order:** WW (Wizard) is not enabled in the live `modsettings.lsx`. Its spells are indexed but not active in-game until the pack is enabled.
 - **Verified:** rebuilt from the same builder on the same Shared.pak extract. The pre-FADE baseline reproduced byte-identical (478 spells, zero bucket diffs) before any change. After the change, no existing label was removed or altered.
+
+
+## Dump pass (2026-10-04, spells side)
+
+Source: SE stat dump in `bg3-mod-extraction-utils/resources/se_stat_dump/` (Armor, Weapon, Character, Object). Script: `apply_dump_keywords.py`.
+
+**Rules (structured fields only).** Item Slot gives MagicItemType (Helmet=Headwear, Breast=Armor/Clothing, Gloves, Boots, Amulet=Necklace, Ring, Cloak). Armor Proficiency `Shields` gives Shield. Weapon Group `Martial*` gives Martial Weapon. Ranged Main Weapon slot or `*RangedWeapon` group gives Ranged Weapon. Non-physical Weapon Damage Type gives DamageTypes; Bludgeoning, Piercing and Slashing are skipped because every weapon has one. A creature Class gives Class. Objects have no profile and are skipped.
+
+**Propagation.** A passive or spell inherits the profile of each item that references it: PassivesOnEquip, PassivesMainHand and PassivesOffHand for passives, and UnlockSpell(...) in Boosts, DefaultBoosts or BoostsOnEquip* for spells. A creature's Passives inherit its Class. Additive only. Existing entries are kept.
+
+**Result.**
+- Passives: 195 entries gained keywords, 222 new memberships. By bucket: MagicItemType:Martial Weapon 68, MagicItemType:Armor/Clothing 39, MagicItemType:Gloves 23, MagicItemType:Headwear 20, MagicItemType:Ring 16, MagicItemType:Boots 14, MagicItemType:Necklace 14, MagicItemType:Ranged Weapon 12, MagicItemType:Cloak 6, MagicItemType:Shield 3, Class:Cleric 3, DamageTypes:Psychic 1, Class:Monk 1, Class:Ranger 1, Class:Barbarian 1.
+- Spells: 59 entries gained keywords, 59 new memberships. By bucket: MagicItemType:Ring 13, MagicItemType:Headwear 9, MagicItemType:Necklace 8, MagicItemType:Armor/Clothing 7, MagicItemType:Boots 6, MagicItemType:Gloves 5, MagicItemType:Martial Weapon 4, MagicItemType:Cloak 4, MagicItemType:Ranged Weapon 2, MagicItemType:Shield 1.
+- No existing entry was removed.
+
+**Verification.** Spot-checked 12 random new memberships against the dump. Each traced to a real item record. Where a first-match check looked wrong, a full trace showed another record with the same passive (for example, a Helmet-slot hat carries MAG_ArcaneEnchantment_Lesser_Passive, which explains its Headwear tag).
+
+**Gaps (not added).** Names referenced by dump items that are not indexed: 300 passives and 269 spells. They have no source code or mechanics here, so they are not added. Full list in `dump_pass_stats.json`. Most are vanilla passives and spells that the local extract does not cover (the known gap in the handoff).
+
+**Consequence to know.** A passive shared by a staff and a boots item gets both buckets. That is intended under multi-bucket, but it means a bucket can be broader than the passive's effect.
+
+**Rebuild order.** `run.py` and `build_keyword_spells.py` rewrite the JSON from scratch and drop these additions. After any rebuild, run `python apply_dump_keywords.py` again. It is idempotent.

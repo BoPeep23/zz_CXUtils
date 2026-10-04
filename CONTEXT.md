@@ -159,6 +159,58 @@ These scripts read from `guid_mapper_master.json` and write a modified output fi
 
 ---
 
+## Combat Extender Reference Source (v1.1.8, reference-only)
+
+Local copy of the live Combat Extender GitHub repo: `c:\Users\Tyler\source\repos\combat-extender`. **Reference only: nothing here is wired to the live `CombatExtender.json` in AppData.** Use it to understand how CX reads config and what the author's defaults are; do not treat it as the live config.
+
+### Where the numbers live
+- `Source/CombatExtender.json` — shipped default config. Its numeric blocks match the MCM defaults in `CombatExtender/Mods/CombatExtender/MCM_blueprint.json` exactly.
+- `Source/ConfigurationExplained.json` — commented schema doc, **not** loadable. It has a `Level`/`Clones`/`Overrides` block the shipped default lacks, and its Ranger Act 2 uses `Target_Silence` where the shipped default uses `Target_MistyStep`. Treat it as documentation, not as the default.
+- `CombatExtender/Mods/CombatExtender/ScriptExtender/Lua/BootstrapServer.lua` — all formulas. Line ~51 embeds a fallback default config used when no JSON exists.
+- `Use_MCM_Settings` defaults to **false**, so the JSON is the live source by default. When it is true, `saveConfigTable()` writes MCM values back over `CombatExtender.json`.
+- `Use_Level_Scaling` defaults to **false**: level scaling is off by default, so the `Level` block only applies when a user turns it on.
+
+### Formulas (verified in BootstrapServer.lua)
+- **Tiered boosts** (AC, SpellSaveDC, AbilityPoints fallback, Rolls, Damage): `total = StaticX + PerIncrement * math.floor(level / LevelIncrement - 0.1)`. The `- 0.1` means each step lands one level **after** a multiple: with LevelIncrement 4, the step happens at level 5, 9, 13, not at 4, 8, 12. The explained file's level-5 example is consistent with this.
+- **Health**: baseline = `math.floor(Vitality * 1.3)` (Lua line ~778; this is the 1.3 static factor). When `HealthMultiplier` is 0, the multiplier is `1 + StaticBoost + HealthPerLevel * partyLevel`. Note it uses **party** level, not the target's level. Default Enemies = `1 + 0.1 + 0.01*L`, Bosses = `1 + 0.1 + 0.02*L`. A nonzero `HealthMultiplier` is a flat multiplier instead (the `1.08` seen in logs comes from a live config like this, not from the repo default).
+- `Overrides[guid].HealthOverride` replaces the Vitality base before the multiplier is applied.
+- **Level scaling**: `desired = partyLevel + Offset`, capped at `MaxLevel`. It only ever raises a level (`if desiredLevel > currentLevel`).
+- **Movement / ExtraAction**: Movement is a flat `StaticBoost` (meters). ExtraAction `Additional` is flat.
+
+### What this does NOT answer
+The repo gives the mechanics and the author's chosen defaults, not an empirical "best" value. Tuning requires session logs run through `damage-analysis.md` (the BG3 damage analysis web app), which is outside this repo.
+
+---
+
+## Script Extender Reference (bg3se, Norbyte's source)
+
+Local clone: `c:\Users\Tyler\source\repos\bg3se`. Reference only, not wired to anything in this workspace. What it is useful for, in order:
+
+### What it does NOT contain
+- **No game data.** No stat `.txt`, no templates, no localisation. Base-game data still comes from `.pak` extraction (`scratch_vanilla_extract/`, `Divine.exe -a extract-package`) or from a live game session. The guid_mapper and norbyte scraper are the two data paths; the bg3se repo adds neither.
+- **No external query API.** The only listening socket is the Osiris debugger (`DebugInterface.cpp`, gated by `EnableDebugger`). Nothing takes HTTP or JSON requests. "Calling the API from outside" means: a script running inside the game writes a file with `Ext.IO.SaveFile`, and you read that file offline.
+
+### Version
+- Source is SE major **33** (`BG3Extender/resource.h`), with `Docs/ReleaseNotes.md` topping out at v32 and `Docs/API.md` at v30. Treat this as an in-progress dev build, not a tagged release.
+- Installed game: `Data/` has `Patch8_HotFix10.pak` / `Patch8_HotFix9.pak` (Patch 8 line; ProductVersion `4.1.1.7631656`).
+- Installed `bin/DWrite.dll` (the SE loader) reports FileVersion `5.0.0.0`, which is not the SE version scheme, so the installed SE build cannot be confirmed from file metadata. `bin/ScriptExtenderSettings.json` keys (`CreateConsole`, `InsanityCheck`, `LogRuntime`) all exist in this source, so it is the same family.
+
+### Useful, and not yet used by us
+- **Level-scaled stat reads:** `Ext.Stats.Get(name, level)` returns stat values at a given level (`-1` = the level in the stat entry). Not used anywhere in the workspace yet. Could give us evaluated item/weapon values that the raw `.txt` does not show.
+- **Full root templates:** `Ext.Template.GetRootTemplate(id)` and `Ext.Template.GetAllRootTemplates()`. The `ItemTemplate` struct (`GameDefinitions/RootTemplates.h:433`) lists the fields an item carries (`Stats`, `Icon`, `DisplayName`, `ItemList`, `StatusList`, `Owner`, `Amount`, `Equipment`, `Tooltip`, ...). That is the set of fields a guid_mapper row could mirror.
+- **Live component state:** `Ext.Entity.Get(guid):GetComponent(...)` gives runtime values (e.g. `BaseHp.Vitality`, `Health.MaxHp`, `BoostsContainer`). CX's own Lua reads these, so they are the way to check the CX HP formula against a live creature.
+- **Enumerations:** `GameDefinitions/Enumerations/*.inl` and `ExternalEnumerations/GUI.inl` hold the integer-to-name tables for `DamageType`, `AbilityId`, `SkillId`, `StatusType`, `SpellSchoolId`, `ItemSlot`, `ProgressionType`, `SurfaceType` and about 230 others. Use these to decode numeric fields in extracts.
+
+### Gaps and caveats
+- Stat attribute names are not in the repo. Each stat type's attribute list comes from `Public/Shared/Stats/Generated/Structure/Modifiers.txt`, which is **not** extracted yet. Without it, a full runtime dump of stat entries has to guess attribute names. `Ext.DumpExport` may return nothing for stat entries, since `Object` shows no `__pairs`.
+- `console_scripts/probe_se_stats.lua` (bg3-mod-extraction-utils) is the first in-game test. It checks the stat type counts, a level-scaled read on `WPN_Battleaxe`, template count, and whether `DumpExport` on a stat entry gives anything. **Not yet run.** Its output decides whether a full dump is worth building.
+
+### Other SE references
+- `Docs/API.md` (v30) has the full Lua API. `Docs/Debugger.md` covers the Lua/Osiris debuggers.
+- `BG3Extender/GameDefinitions/Components/*.h` hold the ECS component layouts used by `Ext.Entity`. `Boosts.h` covers the boost container CX depends on.
+
+---
+
 ## Key Conventions
 
 - `guid_mapper_master.json` is the single source of truth. All scripts read from it; outputs go to separate files.
