@@ -6,6 +6,13 @@ from monsterStatBlock import MonsterStatBlock
 from organizeBlocks import organizeBlocks
 
 
+# Storm Warden's Tome (SWTE_) creatures are fully statted in their own Stats
+# entries, so these three override fields are never set on them. Flip to False
+# to let SWTE_ blocks carry them again.
+STRIP_SWTE_OVERRIDE_FIELDS = True
+SWTE_PREFIX = "SWTE_"
+
+
 class sanitizeFields:
 
     @staticmethod
@@ -66,6 +73,20 @@ class sanitizeFields:
             block.spells_to_add = []
             block.lock_static_modifications = False
             block.lock_random_modifications = False
+
+    @staticmethod
+    def strip_swte_override_fields(blocks):
+        """SWTE_ FullGuids (Storm Warden's Tome creatures) get HealthOverride,
+        PassivesToAdd and SpellsToAdd reset to blank/zero, whatever they hold.
+        Gated by STRIP_SWTE_OVERRIDE_FIELDS. Safe to re-run."""
+        if not STRIP_SWTE_OVERRIDE_FIELDS:
+            return
+        for block in blocks:
+            if not (block.full_guid or "").startswith(SWTE_PREFIX):
+                continue
+            block.health_override = 0
+            block.passives_to_add = []
+            block.spells_to_add = []
 
     @staticmethod
     def populate_act_field(blocks):
@@ -309,6 +330,12 @@ if __name__ == "__main__":
     # ── strip_corpse_only_fields ─────────────────────────────────────────────
     # Corpse=True blocks never carry combat-relevant fields. Safe to re-run.
     sanitizeFields.strip_corpse_only_fields(clean_blocks)
+
+    # ── strip_swte_override_fields ───────────────────────────────────────────
+    # SWTE_ creatures are statted in their own Stats entries, so HealthOverride,
+    # PassivesToAdd and SpellsToAdd are reset on them. Toggle with
+    # STRIP_SWTE_OVERRIDE_FIELDS at the top of this file.
+    sanitizeFields.strip_swte_override_fields(clean_blocks)
 
     # ── remove_fields ───────────────────────────────────────────────────────
     # Removes obsolete fields that no longer belong in the schema.
