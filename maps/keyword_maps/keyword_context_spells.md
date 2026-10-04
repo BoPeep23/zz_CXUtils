@@ -2,7 +2,56 @@
 
 Read this first. It is the full brief for a fresh chat that builds the spell keyword map. It assumes no prior conversation.
 
-**Status:** Draft. Revisit after the norbyte scraper findings. The scraper is term-driven and capped at 30 hits per query, so the inventory approach below may need small changes. Check [keyword_map_plan.md](keyword_map_plan.md) for the latest.
+**Status (2026-10-03):** First build done. [keyword_to_spells.json](keyword_to_spells.json) is populated (478 unique entries) and the audit log is written. Open decisions are listed under "Open decisions" below. The norbyte scraper was not used. Check [keyword_map_plan.md](keyword_map_plan.md) for the passives side.
+
+## Build state (read this before rebuilding)
+
+**Files in this folder**
+- [keyword_to_spells.json](keyword_to_spells.json): the output. Valid JSON, 4-space indent, existing keys in original order, then Subclass, Races, MagicItemType appended.
+- [keyword_spells_log.md](keyword_spells_log.md): judgment calls, exclusions with counts, collision resolution, coverage gaps, spot-check results, per-bucket counts.
+- [build_keyword_spells.py](build_keyword_spells.py): the full builder. Rerun with `SCR=<scratch dir>` set. The scratch dir must contain `shared_pak/`, produced by the extract command below. Output is written to this folder. The script also writes `diag.json` to `SCR`.
+
+**Rebuild needs Shared.pak extracted**
+- Divine: `xport-tool/Packed/Tools/Divine.exe` in bg3-mod-extraction-utils.
+- Command: `Divine.exe -g bg3 -a extract-package -s "<BG3 Data>/Shared.pak" -d "<SCR>/shared_pak"`. Use `-d` with a directory. `list-package` prints to stdout, not to `-d`.
+- Gustav.pak is 13 GB and was NOT extracted. Its spell stats are the same 22 files already in `allstats_hunt`.
+
+**Corrections to the assumptions above**
+- `SpellSet.txt` does not exist in the vanilla extract. Vanilla class membership comes from `Public/Shared/Lists/SpellLists.lsx` inside Shared.pak (126 SpellList nodes), plus the GustavX copy in `scratch_vanilla_extract/gustavx_check`.
+- `allstats_hunt` alone is incomplete. Shared.pak also has Spell_* stats in `Public/Shared` and `Public/SharedDev`. Without them, 271 list-referenced IDs were undefined. With them, 37 remain undefined.
+- StormWardensTomeOfSpells contributes 0 entries. Its 347 SpellData entries are all pins for IDs that MystraSpells or 5eSpells already define.
+- InvocationsExpanded does define spells (147 SpellData entries). 44 are kept after the UNUSED and variant filters.
+- All spell-source mods are in the modsettings load order, so no load-order drops were needed.
+
+**Decisions made in the build** (all are in the log)
+- Entry format is the internal ID, e.g. `Target_Fireball [BASE]`. This deviates from the brief's `Fireball [BASE]` example, because vanilla localization is not local and internal IDs match the passive map.
+- Collisions: 59 IDs. 7 go to 5ESP (Use5e patched set). The other 52 go to MYST, including `Target_TrueSeeing`, which is also vanilla.
+- Non-collision duplicates: last in load order wins. Load order used: 5ESP < MYST < U5E < SWTS < INVX < RAN < DTHM.
+- Use5e list-dedup losers (22 IDs) are excluded.
+- Scope rule 4 is implemented as "no class, subclass, or race list membership". INVX is exempt. This dropped about 7,400 raw definitions.
+- Upcast, ritual, default, sneak-attack, and interrupt variants are merged into their base entry.
+- Races come from list names (Drow, Tiefling, Forest Gnome, Githyanki) plus ID tokens. EnemyType comes from summon keywords in the ID. MagicItemType is empty by design.
+- DamageType counts only when a `DealDamage` term exists.
+
+**Known weaknesses**
+- Defense_* buckets are under-counted, because status files are not parsed. SavingThrows has 0 entries, and ConditionImmunity has 0.
+- Type and Control buckets come from name patterns and radius heuristics.
+- College of Lore is 201 entries, because the TCoE Lore Bard lists are broad.
+- Some inherited damage types are wrong (e.g. Target_Goodberry shows Cold).
+- Unparsed lists: 5eSpellsLists, SecretScrolls5eSpells, Book of Druids and Sorcerers, SpellListSorter, SpellListCombiner. These could add class memberships.
+- 37 list-referenced IDs are undefined in the extracts (e.g. `Projectile_ArcaneShot_*`, `Target_DirtyTrick_*`, `Shout_Wildshape_Star_*`).
+
+## Open decisions (ask Tyler before changing)
+1. **StormWardensTomeOfSpells pins.** The Tome's header pins `Target_GreenFlameBlade`, `Target_Frostbite`, and `Projectile_VitriolicSphere` to 5eSpells. The brief's rule puts them under MYST. The Tome loads last, so its pins are what is live in game. Which should win?
+2. **Scope rule 4.** Is "no list membership means drop" the rule Tyler wants? Passive-granted spells on no list are lost.
+3. **Gustav.pak extraction.** Should the 37 undefined IDs be recovered by extracting Gustav.pak in full (13 GB)?
+
+## Next steps for a future chat
+- Get answers to the three decisions above, apply any changes, and rebuild.
+- Parse the unparsed list files listed above.
+- If Tyler wants Defense_* accurate, parse the status files so Boosts and status effects can be classified.
+- Trim the large buckets when Tyler asks. The log lists the candidates.
+- Do not change `keyword_to_passives.json`, `guid_mapper_master.json`, or `cx_passive_manager.json` from this chat.
 
 ## Goal
 
@@ -72,8 +121,8 @@ Use best judgment. When the case is unclear, include the entry and note it in th
 - Do not change `keyword_to_passives.json`.
 - Do not edit `guid_mapper_master.json` or `cx_passive_manager.json`.
 
-## Open items
+## Resolved since the first draft
 
-- Whether `modsettings` is needed for the load-order check (currently assumed yes).
-- Whether the scraper findings change the inventory method.
-- Whether InvocationsExpanded defines any spells at all.
+- `modsettings` was checked. All spell-source mods are in the load order, so no load-order drops were needed.
+- The scraper was not used. Inventory came from the local Stats files, and norbyte was not needed.
+- InvocationsExpanded does define spells (147 SpellData entries, 44 kept).
