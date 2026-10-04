@@ -71,7 +71,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "WarCaster_OpportunitySpell"
                 ],
                 "Spells": [
                     ""
@@ -79,7 +79,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "SpellSniper_Critical"
                 ],
                 "Spells": [
                     ""
@@ -92,7 +92,8 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "WeaponMaster"
+                    "WeaponMaster",
+                    "FightingStyle_Dueling"
                 ],
                 "Spells": [
                     "Projectile_Jump"
@@ -108,7 +109,8 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "FightingStyle_Archery",
+                    "FightingStyle_TwoWeaponFighting"
                 ],
                 "Spells": [
                     ""
@@ -135,7 +137,8 @@
                 "ExtraPassives": [
                     "ARP_Rage_1",
                     "DangerSense",
-                    "AspectOfTheBeast_Eagle"
+                    "AspectOfTheBeast_Eagle",
+                    "SWTE_MinimumWisdom_15"
                 ],
                 "Spells": [
                     ""
@@ -567,7 +570,8 @@
             "2": {
                 "ExtraPassives": [
                     "Divine_Strike_Nature_Toggle",
-                    "Target_ConjureAnimals_Container"
+                    "Target_ConjureAnimals_Container",
+                    "Ajax_Wisdomous_Pew_Pew"
                 ],
                 "Spells": [
                     ""
@@ -601,7 +605,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "Divine_Strike_Trickery_Toggle"
+                    "Divine_Strike_Trickery_Toggle",
+                    "Ajax_Wisdomous_Pew_Pew"
                 ],
                 "Spells": [
                     ""
@@ -680,7 +685,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "NPC_AllyDeva"
                 ],
                 "Spells": [
                     ""
@@ -751,7 +756,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "NPC_AllyDjinni"
                 ],
                 "Spells": [
                     ""
@@ -850,7 +855,7 @@
                     "Indomitable_NPC",
                     "DualWielder_PassiveBonuses",
                     "ExtraAttack",
-                    "GreatWeaponMaster_"
+                    "SWTE_MinimumIntelligence_15"
                 ],
                 "Spells": [
                     ""
@@ -936,7 +941,8 @@
             "1": {
                 "ExtraPassives": [
                     "Mod_UNI_Bow_SpellslotRecharge_Passive",
-                    "FinishingStrike"
+                    "FinishingStrike",
+                    "SWTE_MinimumIntelligence_17"
                 ],
                 "Spells": [
                     "Target_BoomingBlade",
@@ -984,7 +990,8 @@
             "2": {
                 "ExtraPassives": [
                     "DeflectMissiles",
-                    "SecondStoryWork_Jumping"
+                    "SecondStoryWork_Jumping",
+                    "SWTE_MinimumWisdom_17"
                 ],
                 "Spells": [
                     "Shout_Disengage_StepOfTheWind"
@@ -1016,8 +1023,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "BOCO_POTION_OF_RESISTANCE_COLD",
-                    "BOCO_POTION_OF_RESISTANCE_ACID",
+                    "SWTE_POTION_OF_RESISTANCE_COLD",
+                    "SWTE_POTION_OF_RESISTANCE_ACID",
                     "POTION_OF_RESISTANCE_LIGHTNING",
                     "POTION_OF_RESISTANCE_THUNDER",
                     "POTION_OF_RESISTANCE_FIRE"
@@ -1119,7 +1126,8 @@
                     "Resilient_Strength",
                     "Goon_Summon_Potion_Healing_Greater_x1",
                     "MAG_Paladin_LayOnHandsSupport_Gloves_Passive",
-                    "POTION_OF_RESISTANCE_NECROTIC"
+                    "POTION_OF_RESISTANCE_NECROTIC",
+                    "SWTE_MinimumCharisma_15"
                 ],
                 "Spells": [
                     ""
@@ -1242,8 +1250,7 @@
             "1": {
                 "ExtraPassives": [
                     "TouchOfDeath",
-                    "Mod_MAG_Sarevok_OfChaos_Greatsword_Leeching_Passive",
-                    "ArmorOfAgathys"
+                    "Mod_MAG_Sarevok_OfChaos_Greatsword_Leeching_Passive"
                 ],
                 "Spells": [
                     "Target_ControlUndead",
@@ -1256,7 +1263,7 @@
             "2": {
                 "ExtraPassives": [
                     "Goon_Aura_of_Hate_Passive",
-                    "ArmorOfAgathys_2"
+                    "SWTE_PreArmourOfAgathys_10"
                 ],
                 "Spells": [
                     "Zone_Fear",
@@ -1265,7 +1272,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    "ArmorOfAgathys_3"
+                    ""
                 ],
                 "Spells": [
                     ""
@@ -1288,7 +1295,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "SWTE_MinimumWisdom_15"
                 ],
                 "Spells": [
                     ""
@@ -1417,7 +1424,8 @@
             "2": {
                 "ExtraPassives": [
                     "Evasion",
-                    "Mobile_PassiveBonuses"
+                    "Mobile_PassiveBonuses",
+                    "SWTE_MinimumIntelligence_15"
                 ],
                 "Spells": [
                     ""
@@ -1439,7 +1447,8 @@
             "1": {
                 "ExtraPassives": [
                     "Goon_Target_Longstrider_Passive",
-                    "MageHandLegerdemain"
+                    "MageHandLegerdemain",
+                    "SWTE_MinimumIntelligence_17"
                 ],
                 "Spells": [
                     "Shout_Shield_Wizard",
@@ -1576,7 +1585,7 @@
                 "ExtraPassives": [
                     "ElementalAffinity_Resistance_Acid",
                     "ElementalAffinity_Damage",
-                    "BOCO_CorrodingCirclet_PotentAcid",
+                    "SWTE_CorrodingCirclet_PotentAcid",
                     "POTION_OF_RESISTANCE_ACID"
                 ],
                 "Spells": [
@@ -1613,7 +1622,7 @@
             "2": {
                 "ExtraPassives": [
                     "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive",
-                    "BOCO_POTION_OF_RESISTANCE_FORCE"
+                    "SWTE_POTION_OF_RESISTANCE_FORCE"
                 ],
                 "Spells": [
                     "Target_NathairsMischief",
@@ -1671,8 +1680,7 @@
             "1": {
                 "ExtraPassives": [
                     "AgonizingBlast",
-                    "MAG_Zhentarim_Demonspirit_Gloves_Passive",
-                    "ArmorOfAgathys"
+                    "MAG_Zhentarim_Demonspirit_Gloves_Passive"
                 ],
                 "Spells": [
                     "Projectile_EldritchBlast",
@@ -1683,7 +1691,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "ArmorOfAgathys_3"
+                    "SWTE_PreArmourOfAgathys_10"
                 ],
                 "Spells": [
                     ""
@@ -1691,7 +1699,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    "ArmorOfAgathys_5"
+                    ""
                 ],
                 "Spells": [
                     "Shout_SpiritShourd"
@@ -1763,7 +1771,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "NPC_AllyCambion"
                 ],
                 "Spells": [
                     "Target_ORI_Wyll_SummonCambion"
@@ -1819,7 +1827,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "SWTE_MinimumIntelligence_17"
                 ],
                 "Spells": [
                     "Shout_MAG_HarpersAmulet_Shield"
@@ -1855,7 +1863,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "ArmorOfAgathys_2"
+                    ""
                 ],
                 "Spells": [
                     "Target_Counterspell",
@@ -1864,7 +1872,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    "ArmorOfAgathys_3"
+                    ""
                 ],
                 "Spells": [
                     ""
@@ -1999,8 +2007,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "EmpoweredEvocation",
-                    "WarCaster_OpportunitySpell"
+                    "SculptSpells"
                 ],
                 "Spells": [
                     "Projectile_AcidArrow"
@@ -2008,7 +2015,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "EmpoweredEvocation"
                 ],
                 "Spells": [
                     ""

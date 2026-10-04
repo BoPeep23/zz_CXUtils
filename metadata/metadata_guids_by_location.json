@@ -10916,29 +10916,29 @@
         {
             "Handle": "Cloaker",
             "Type": "Aberration",
-            "Guid": "BOCO_GRY_Cloaker_001_054547dc-3a22-4d17-954a-ced32ea40e1a"
+            "Guid": "SWTE_GRY_Cloaker_001_4545dc44-3b1a-5c1f-ad80-32bcac226750"
         }
     ],
     "09_GRYM_SHAR_DININGROOM": [
         {
             "Handle": "Sahuagin",
             "Type": "Humanoid",
-            "Guid": "BOCO_GRY_Sahuagin_Melee_001_ae017469-661a-4c52-9b86-980a4e98089e"
+            "Guid": "SWTE_GRY_Sahuagin_Melee_001_477c0998-b091-574a-b9e0-18f5b49bec94"
         },
         {
             "Handle": "Sahuagin",
             "Type": "Humanoid",
-            "Guid": "BOCO_GRY_Sahuagin_Melee_002_cb86a949-334e-400e-84c9-edd4d09d535b"
+            "Guid": "SWTE_GRY_Sahuagin_Melee_002_f610b86a-e96c-5356-83ed-da6cde9f5701"
         },
         {
             "Handle": "Sahuagin Hunter",
             "Type": "Humanoid",
-            "Guid": "BOCO_GRY_Sahuagin_Ranger_001_dc67fb6c-0616-4c2d-8ec5-8238559c67a4"
+            "Guid": "SWTE_GRY_Sahuagin_Ranger_001_9de2372d-427c-5c6b-b7c9-6ec9cfa97a25"
         },
         {
             "Handle": "Sahuagin Hunter",
             "Type": "Humanoid",
-            "Guid": "BOCO_GRY_Sahuagin_Ranger_002_af6e12f4-59e7-43fd-9f4c-5030dcff629a"
+            "Guid": "SWTE_GRY_Sahuagin_Ranger_002_3412b4b6-b0c9-54ec-8621-6aad3d5ef97e"
         }
     ],
     "08_UNDERDARK_WIZARD_ENTRANCE": [
