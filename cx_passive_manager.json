@@ -1553,10 +1553,7 @@
                 "ExtraPassives": [
                     "MAG_ElementalGish_CantripBooster_Amulet_Passive"
                 ],
-                "Spells": [
-                    "Projectile_PoisonSpray",
-                    ""
-                ]
+                "Spells": []
             },
             "3": {
                 "ExtraPassives": [

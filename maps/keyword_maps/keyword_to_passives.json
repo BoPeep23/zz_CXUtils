@@ -5,8 +5,6 @@
             "AcidMeleeCounter_Dragon [EXEP]",
             "AJ_SHG [DEGR]",
             "CRE_HatcheryBoots_Passive [BASE]",
-            "CX_Sorcerer_Boost [CXCX]",
-            "CX_Sorcerer_DraconicBloodline_Boost [CXCX]",
             "HAV_Phasm_AcidPool [BASE]",
             "HAV_Phasm_ParalizingAttacks [BASE]",
             "MAG_Acid_AcidDamageOnWeaponAttack_Ring_Passive [BASE]",
@@ -33,7 +31,6 @@
             "UCL_Petrified_Crunchy [UTUT]"
         ],
         "Cold": [
-            "CX_Sorcerer_Boost [CXCX]",
             "Fury_of_the_Frost_Giant_BornofIce [FEAT]",
             "GG_Three_IncreasedElementalDamage_Passive [FADE]",
             "MAG_Cold_IncreaseColdDamageOnCast_Passive [BASE]",
@@ -55,7 +52,6 @@
         ],
         "Fire": [
             "AJ_SHG [DEGR]",
-            "CX_Sorcerer_Boost [CXCX]",
             "DeathMarch_LostMerregon_FireWeaponDamageBonus [DTHM]",
             "Ember_of_the_Fire_Giant_Resistance [FEAT]",
             "Fire_Aura [FEAT]",
@@ -90,7 +86,6 @@
             "CC_AugmentedRetaliation_Passive [FADE]",
             "CC_CharismaticForce_Passive [FADE]",
             "CC_SpellStorm_Damage_Passive [FADE]",
-            "CX_Warlock_Fiend_Boost [CXCX]",
             "DeathMarch_GithyankiWarlock_AgonizingBlast [DTHM]",
             "GraspOfHadar [INVX]",
             "HW_Test_Boost [RAN]",
@@ -120,7 +115,6 @@
             "WW_ShiftingElements [FADE]"
         ],
         "Lightning": [
-            "CX_Sorcerer_Boost [CXCX]",
             "GG_Three_IncreasedElementalDamage_Passive [FADE]",
             "MAG_ChargedLightning_ExtraDamage_Ring_Passive [BASE]",
             "MAG_ChargedLightning_ExtraDamageSpell_Passive [BASE]",
@@ -141,8 +135,6 @@
         ],
         "Necrotic": [
             "Blessing_Vlaa [EXEP]",
-            "CX_Druid_Spores_Boost [CXCX]",
-            "CX_Monk_Shadow_Boost [CXCX]",
             "DeathMarch_FlamingFistSpy_NecroticDamageBonus [DTHM]",
             "DEN_Apprentice_DaggerOfShar_Passive [BASE]",
             "DEN_CapturedGoblin_MurderDagger_Passive [BASE]",
@@ -275,7 +267,6 @@
             "Slasher_Reduce_Speed [FEAT]"
         ],
         "Thunder": [
-            "CX_Sorcerer_Boost [CXCX]",
             "GG_Three_IncreasedElementalDamage_Passive [FADE]",
             "GG_Two_Tempest_Technical [FADE]",
             "MAG_ElementalGish_CantripBooster_Amulet_Passive [BASE]",
@@ -289,18 +280,11 @@
         ]
     },
     "SpellSchools": {
-        "Abjuration": [
-            "CX_Wizard_Abjuration_Boost [CXCX]"
-        ],
+        "Abjuration": [],
         "Chronurgy": [],
-        "Conjuration": [
-            "CX_Wizard_Conjuration_Boost [CXCX]"
-        ],
-        "Divination": [
-            "CX_Wizard_Divination_Boost [CXCX]"
-        ],
+        "Conjuration": [],
+        "Divination": [],
         "Enchantment": [
-            "CX_Wizard_Enchantment_Boost [CXCX]",
             "MAG_ArcaneEnchantment_Lesser_Passive [BASE]",
             "MAG_ArcaneEnchantment_Passive [BASE]",
             "MAG_Legendary_ArcaneEnchantment_Passive [BASE]",
@@ -309,12 +293,9 @@
             "MAG_UnarmedEnchantment_1_Passive [BASE]",
             "MAG_UnarmedEnchantment_2_Passive [BASE]"
         ],
-        "Evocation": [
-            "CX_Wizard_Evocation_Boost [CXCX]"
-        ],
+        "Evocation": [],
         "Graviturgy": [],
         "Illusion": [
-            "CX_Wizard_Illusion_Boost [CXCX]",
             "MAG_IllusionBlade_Passive [BASE]",
             "UCL_Illusion_10 [UTUT]",
             "UCL_Illusion_11 [UTUT]",
@@ -335,7 +316,6 @@
         ],
         "Necromancy": [
             "CTY_NecromancyOfThay_ForbiddenKnowledge_Passive [BASE]",
-            "CX_Wizard_Necromancy_Boost [CXCX]",
             "MAG_GreaterNecromancyStaff_CosumeLifeEssence_Passive [BASE]",
             "MAG_GreaterNecromancyStaff_LifeEssenceHarvest_Passive [BASE]",
             "MAG_Heightened_Necromancy_Passive [BASE]",
@@ -343,9 +323,7 @@
             "SWTE_Staff_CherishedNecromancy_LifeEssenceHarvest_1PerRest [SWTE]",
             "SWTE_Staff_CherishedNecromancy_ReaperCompat [SWTE]"
         ],
-        "Transmutation": [
-            "CX_Wizard_Transmutation_Boost [CXCX]"
-        ]
+        "Transmutation": []
     },
     "Class": {
         "Artificer": [
@@ -359,10 +337,6 @@
             "UCL_ArtificerInfusion_4 [UTUT]"
         ],
         "Barbarian": [
-            "CX_Barbarian_Berserker_Boost [CXCX]",
-            "CX_Barbarian_Boost [CXCX]",
-            "CX_Barbarian_Wildheart_Boost [CXCX]",
-            "CX_Barbarian_WildMagic_Boost [CXCX]",
             "DefaultStatus_BediTheBarbarian_AspectOfTheStallion [DTHM]",
             "MAG_Barbarian_Armor_BoneSpike_Passive [BASE]",
             "MAG_Barbarian_Armor_MeatShield_Passive [BASE]",
@@ -374,21 +348,8 @@
             "MAG_Barbarian_Hide_Helmet_Bloodthirsty_Passive [BASE]",
             "ORI_Karlach_SweatImmune [BASE]"
         ],
-        "Bard": [
-            "CX_Bard_Boost [CXCX]",
-            "CX_Bard_Lore_Boost [CXCX]",
-            "CX_Bard_Swords_Boost [CXCX]",
-            "CX_Bard_Valor_Boost [CXCX]"
-        ],
+        "Bard": [],
         "Cleric": [
-            "CX_Cleric_Boost [CXCX]",
-            "CX_Cleric_Knowledge_Boost [CXCX]",
-            "CX_Cleric_Life_Boost [CXCX]",
-            "CX_Cleric_Light_Boost [CXCX]",
-            "CX_Cleric_Nature_Boost [CXCX]",
-            "CX_Cleric_Tempest_Boost [CXCX]",
-            "CX_Cleric_Trickery_Boost [CXCX]",
-            "CX_Cleric_War_Boost [CXCX]",
             "MAG_ClericMovementHeal_Passive [FADE]",
             "MAG_ClericPrayerExplosion_Passive [FADE]",
             "MAG_MaximizedHealCleric_Passive [FADE]",
@@ -417,10 +378,6 @@
             "UCL_IsDeathClericLevel_9 [UTUT]"
         ],
         "Druid": [
-            "CX_Druid_Boost [CXCX]",
-            "CX_Druid_Land_Boost [CXCX]",
-            "CX_Druid_Moon_Boost [CXCX]",
-            "CX_Druid_Spores_Boost [CXCX]",
             "EO_MAG_Druid_Spore_ExtraSpores_Passive [ENCO]",
             "GG_Three_Druid_Concentration_Passive [FADE]",
             "GG_Three_Druid_ExtraWildShape_Cooldown_Passive [FADE]",
@@ -459,17 +416,9 @@
             "UCL_IsSporeDruidLevel_9 [UTUT]"
         ],
         "Fighter": [
-            "CX_Fighter_BattleMaster_Boost [CXCX]",
-            "CX_Fighter_Boost [CXCX]",
-            "CX_Fighter_Champion_Boost [CXCX]",
-            "CX_Fighter_EldritchKnight_Boost [CXCX]",
             "MAG_Fighter_ActionSurge_AttackBonus_Gloves_Passive [BASE]"
         ],
         "Monk": [
-            "CX_Monk_Boost [CXCX]",
-            "CX_Monk_FourElements_Boost [CXCX]",
-            "CX_Monk_OpenHand_Boost [CXCX]",
-            "CX_Monk_Shadow_Boost [CXCX]",
             "LOW_BhaalAmulet_Passive [BASE]",
             "MAG_BarbMonk_Armor_Defensive_Passive [BASE]",
             "MAG_BarbMonk_Armor_Offensive_Passive [BASE]",
@@ -502,32 +451,14 @@
             "UU_MonkCrossBow_ImprovedCritical [FADE]",
             "UU_One_Monk_Ring_Passive [FADE]"
         ],
-        "Ranger": [
-            "CX_Martial_Boost [CXCX]",
-            "CX_Ranger_BeastMaster_Boost [CXCX]",
-            "CX_Ranger_Boost [CXCX]",
-            "CX_Ranger_GloomStalker_Boost [CXCX]",
-            "CX_Ranger_Hunter_Boost [CXCX]"
-        ],
+        "Ranger": [],
         "Rogue": [
-            "AJ_RogueSize [DEGR]",
-            "CX_Rogue_ArcaneTrickster_Boost [CXCX]",
-            "CX_Rogue_Assassin_Boost [CXCX]",
-            "CX_Rogue_Boost [CXCX]",
-            "CX_Rogue_Thief_Boost [CXCX]"
+            "AJ_RogueSize [DEGR]"
         ],
         "Sorcerer": [
-            "CX_Sorcerer_Boost [CXCX]",
-            "CX_Sorcerer_DraconicBloodline_Boost [CXCX]",
-            "CX_Sorcerer_StormSorcery_Boost [CXCX]",
-            "CX_Sorcerer_WildMagic_Boost [CXCX]",
             "MAG_Sorcerer_MM_SeekingSpell [BASE]"
         ],
         "Warlock": [
-            "CX_Warlock_Archfey_Boost [CXCX]",
-            "CX_Warlock_Boost [CXCX]",
-            "CX_Warlock_Fiend_Boost [CXCX]",
-            "CX_Warlock_GreatOldOne_Boost [CXCX]",
             "DeathMarch_GithyankiWarlock_AgonizingBlast [DTHM]",
             "DeathMarch_GithyankiWarlock_LanceOfLethargy [DTHM]",
             "DeathMarch_GithyankiWarlock_RepellingBlast [DTHM]",
@@ -560,15 +491,6 @@
             "UCL_UnlockedWarlockSpellSlotLevel9 [UTUT]"
         ],
         "Wizard": [
-            "CX_Wizard_Abjuration_Boost [CXCX]",
-            "CX_Wizard_Boost [CXCX]",
-            "CX_Wizard_Conjuration_Boost [CXCX]",
-            "CX_Wizard_Divination_Boost [CXCX]",
-            "CX_Wizard_Enchantment_Boost [CXCX]",
-            "CX_Wizard_Evocation_Boost [CXCX]",
-            "CX_Wizard_Illusion_Boost [CXCX]",
-            "CX_Wizard_Necromancy_Boost [CXCX]",
-            "CX_Wizard_Transmutation_Boost [CXCX]",
             "LOW_GreaseWizard_ElementalAffinity [BASE]",
             "MAG_Wizard_PointyHat_Passive [BASE]",
             "UCL_WizardBane_OnCombatStart [UTUT]"
@@ -889,7 +811,6 @@
         ],
         "Beast": [
             "AspectOfTheBeast_Stallion_Bedi [DTHM]",
-            "CX_Ranger_BeastMaster_Boost [CXCX]",
             "FOR_OwlbearCubs_Armor_Passive [BASE]",
             "GG_One_FearOnHit_Armor_Passive [FADE]",
             "TWN_RatCatcher_Passive [BASE]",
@@ -961,7 +882,6 @@
             "MAG_FeyWildSpark_WildMagic_Passive [BASE]"
         ],
         "Fiend": [
-            "CX_Warlock_Fiend_Boost [CXCX]",
             "MAG_Tyr_OfJustice_WarHammer_Passive [BASE]",
             "MAG_WYRM_UndeadBane_GreatAxe_Passive [BASE]",
             "OO_AvengerFury_Passive [FADE]",
@@ -1397,7 +1317,6 @@
             "VV_Nightwhisper_Passive [FADE]"
         ],
         "Martial Weapon": [
-            "CX_Martial_Boost [CXCX]",
             "EO_Blindside_Shortsword_Passive [ENCO]",
             "HarpyBoneScimitar_Passive [DTHM]",
             "MAG_AdvantageOnReactionAttack_Passive [BASE]",
@@ -1553,7 +1472,6 @@
     "Type": {
         "SpellDamage_Single": [
             "CC_CharismaticForce_Passive [FADE]",
-            "CX_Sorcerer_Boost [CXCX]",
             "FOR_SpiderQueen_Robe_Passive [BASE]",
             "GG_Three_IncreasedElementalDamage_Passive [FADE]",
             "MAG_AbsoluteProtector_Shield_Passive [BASE]",
@@ -1652,7 +1570,6 @@
             "ARM_Nimble_Resilience_Passive [FADE]",
             "CC_AugmentedDefense_Passive [FADE]",
             "CC_HeartstoneParry_Passive [FADE]",
-            "CX_Druid_Moon_Boost [CXCX]",
             "GG_Two_WildshapeAC_Technical [FADE]",
             "Githyanki_Supreme_PsionicDeflection [DTHM]",
             "MAG_Barbarian_Boots_BoneSpike_Defense_Passive [BASE]",
@@ -1676,9 +1593,6 @@
             "CC_WardingMagic_Passive [FADE]",
             "CRE_MAG_Githborn_Amulet_Passive [BASE]",
             "CTY_NecromancyOfThay_ForbiddenKnowledge_Passive [BASE]",
-            "CX_Druid_Moon_Boost [CXCX]",
-            "CX_Rogue_Thief_Boost [CXCX]",
-            "CX_Wizard_Necromancy_Boost [CXCX]",
             "DeathMarch_Automaton_CommandCore [DTHM]",
             "GG_One_Spellguard_Passive [FADE]",
             "GG_Two_WildshapeAC_Technical [FADE]",
@@ -1774,7 +1688,6 @@
             "Acid_Dragon_Passive [EXEP]",
             "CRE_HatcheryBoots_Passive [BASE]",
             "CrossbowExpert_ExtraAttack [FEAT]",
-            "CX_Druid_Boost [CXCX]",
             "DEN_FaithwardenStaff_Passive [BASE]",
             "EO_UnwaveringKi [ENCO]",
             "FOR_NightWalkers_WebImmunity [BASE]",
@@ -1850,14 +1763,6 @@
             "CC_SpellMaster_Concentration_Passive [FADE]",
             "CC_WardingMagic_Passive [FADE]",
             "CTY_NecromancyOfThay_ForbiddenKnowledge_Passive [BASE]",
-            "CX_Boss_Boost [CXCX]",
-            "CX_Druid_Moon_Boost [CXCX]",
-            "CX_Druid_Spores_Boost [CXCX]",
-            "CX_Fighter_Boost [CXCX]",
-            "CX_MiniBoss_Boost [CXCX]",
-            "CX_Monk_Shadow_Boost [CXCX]",
-            "CX_Sorcerer_Boost [CXCX]",
-            "CX_Wizard_Necromancy_Boost [CXCX]",
             "DeathMarch_Automaton_CommandCore [DTHM]",
             "DeathMarch_GithyankiWarlock_AgonizingBlast [DTHM]",
             "EldritchMind [INVX]",
@@ -2055,7 +1960,6 @@
             "WW_SageCap_Passive [FADE]"
         ],
         "Buff_Multiple": [
-            "CX_Sorcerer_DraconicBloodline_Boost [CXCX]",
             "LOW_Guildhall_IsolatedPrey [BASE]",
             "MAG_MartialBravery_Passive [BASE]",
             "MAG_ZOC_AdvantageOnMeleeAttackWhileSurounded_Gloves_Passive [BASE]",
@@ -2092,8 +1996,6 @@
             "LOW_Guildhall_SneakyRiposte [BASE]"
         ],
         "Teleportation": [
-            "CX_Barbarian_Wildheart_Boost [CXCX]",
-            "CX_Rogue_Thief_Boost [CXCX]",
             "DeathMarch_Automaton_GravityCore [DTHM]",
             "Distant_Strike_Teleport [RAN]",
             "HarpyBoneScimitar_Passive [DTHM]",

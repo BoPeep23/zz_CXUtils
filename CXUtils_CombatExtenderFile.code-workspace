@@ -23,6 +23,7 @@
 	],
 	"settings": {
 		"bg3ModHelper.rootModPath": "c:\\Users\\Tyler\\GitHub\\zz_CXUtils",
-		"bg3ModHelper.packingPriority": 0
+		"bg3ModHelper.packingPriority": 0,
+		"powershell.cwd": "bg3-mod-extraction-utils"
 	}
 }
