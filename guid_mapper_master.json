@@ -28837,6 +28837,28 @@
             "CloneTemplateGuid": ""
         },
         {
+            "Handle": "Merregon",
+            "FullGuid": "S_SHA_Merregon_003_ee9eb6d6-0f76-40ba-b6e2-fc85f4bbccab",
+            "Act": "2",
+            "Location": "",
+            "Type": "Fiend",
+            "SubType": "Merregon",
+            "ClassArchetype": "",
+            "SubclassArchetype": "",
+            "MonsterArchetype": "",
+            "Corpse": false,
+            "TODO": [],
+            "Notes": "",
+            "Level": 0,
+            "ArmorClass": 0,
+            "OriginalHealth": 0,
+            "HealthOverride": 0,
+            "PassivesToAdd": [],
+            "SpellsToAdd": [],
+            "CloneDisplayName": "",
+            "CloneTemplateGuid": ""
+        },
+        {
             "Handle": "Shadow-Cursed Human",
             "FullGuid": "S_TWN_MorgueEntrance_ShadowCursed_02_4bc2c539-fd62-4391-bdc2-433b978b72d8",
             "Act": "2",
