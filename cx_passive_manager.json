@@ -497,9 +497,7 @@
                 ],
                 "Spells": [
                     "Target_Sanctuary",
-                    "Projectile_GuidingBolt",
-                    "Target_CureWounds_Mass",
-                    "DEN_HellridersPride_Passive"
+                    "Projectile_GuidingBolt"
                 ]
             },
             "3": {
@@ -609,7 +607,8 @@
                     "Ajax_Wisdomous_Pew_Pew"
                 ],
                 "Spells": [
-                    ""
+                    "Target_StinkingCloud",
+                    "Target_CloudOfDaggers"
                 ]
             },
             "3": {
@@ -617,7 +616,7 @@
                     ""
                 ],
                 "Spells": [
-                    ""
+                    "Target_Cloudkill"
                 ]
             }
         }
@@ -680,7 +679,8 @@
                     "Divine_Strike_War_Toggle"
                 ],
                 "Spells": [
-                    "Target_Smite_Branding_Container"
+                    "Target_Smite_Branding_Container",
+                    "Shout_SpiritGuardians"
                 ]
             },
             "3": {
@@ -889,7 +889,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "PushingAttack",
+                    "ImprovedCombatSuperiority"
                 ],
                 "Spells": [
                     ""
@@ -911,7 +912,7 @@
             "1": {
                 "ExtraPassives": [
                     "MAG_Fighter_ActionSurge_AttackBonus_Gloves_Passive",
-                    "Goon_Impeded_Movement_2"
+                    "Goon_Increased_Movement_2"
                 ],
                 "Spells": [
                     ""
@@ -941,7 +942,6 @@
             "1": {
                 "ExtraPassives": [
                     "Mod_UNI_Bow_SpellslotRecharge_Passive",
-                    "FinishingStrike",
                     "SWTE_MinimumIntelligence_17"
                 ],
                 "Spells": [
@@ -956,7 +956,8 @@
                     "MAG_Gish_ArcaneAcuity_Gloves_Passive"
                 ],
                 "Spells": [
-                    ""
+                    "Target_MistyStep",
+                    "Shout_MirrorImage"
                 ]
             },
             "3": {
