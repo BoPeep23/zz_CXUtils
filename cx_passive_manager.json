@@ -272,7 +272,7 @@
             "2": {
                 "ExtraPassives": [
                     "JackOfAllTrades",
-                    "POTION_OF_RESISTANCE_PSYCHIC"
+                    "SWTE_Passive_PsychicResistance"
                 ],
                 "Spells": [
                     "Target_Blindness",
@@ -424,7 +424,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "POTION_OF_RESISTANCE_RADIANT"
+                    "SWTE_Passive_RadiantResistance"
                 ],
                 "Spells": [
                     "Target_LesserRestoration"
@@ -1015,23 +1015,25 @@
                 "ExtraPassives": [
                     "MAG_BG_OfAges_Flail_Passive",
                     "ARP_KiPoint_2",
-                    "MAG_Monk_Armor_WindStance_Passive",
-                    "Goon_"
+                    "MAG_Monk_Armor_WindStance_Passive"
                 ],
                 "Spells": [
-                    ""
+                    "Target_WaterBullet"
                 ]
             },
             "2": {
                 "ExtraPassives": [
-                    "SWTE_POTION_OF_RESISTANCE_COLD",
-                    "SWTE_POTION_OF_RESISTANCE_ACID",
-                    "POTION_OF_RESISTANCE_LIGHTNING",
-                    "POTION_OF_RESISTANCE_THUNDER",
-                    "POTION_OF_RESISTANCE_FIRE"
+                    "SWTE_Passive_ColdResistance",
+                    "SWTE_Passive_AcidResistance",
+                    "SWTE_Passive_LightningResistance",
+                    "SWTE_Passive_ThunderResistance",
+                    "SWTE_Passive_FireResistance"
                 ],
                 "Spells": [
-                    ""
+                    "Target_WaterWhip",
+                    "Projectile_FangsOfTheFireSnake",
+                    "Zone_Thunderwave_Monk",
+                    "Target_FistOfUnbrokenAir"
                 ]
             },
             "3": {
@@ -1085,7 +1087,7 @@
                     "ShadowArts_MinorIllusion"
                 ],
                 "Spells": [
-                    "Target_TollTheDead"
+                    ""
                 ]
             },
             "2": {
@@ -1127,7 +1129,7 @@
                     "Resilient_Strength",
                     "Goon_Summon_Potion_Healing_Greater_x1",
                     "MAG_Paladin_LayOnHandsSupport_Gloves_Passive",
-                    "POTION_OF_RESISTANCE_NECROTIC",
+                    "SWTE_Passive_NecroticResistance",
                     "SWTE_MinimumCharisma_15"
                 ],
                 "Spells": [
@@ -1584,7 +1586,7 @@
                     "ElementalAffinity_Resistance_Acid",
                     "ElementalAffinity_Damage",
                     "SWTE_CorrodingCirclet_PotentAcid",
-                    "POTION_OF_RESISTANCE_ACID"
+                    "SWTE_Passive_AcidResistance"
                 ],
                 "Spells": [
                     "Target_HungerOfHadar",
@@ -1620,7 +1622,7 @@
             "2": {
                 "ExtraPassives": [
                     "UND_SocietyOfBrilliance_MagicMissileNecklace_Passive",
-                    "SWTE_POTION_OF_RESISTANCE_FORCE"
+                    "SWTE_Passive_ForceResistance"
                 ],
                 "Spells": [
                     "Target_NathairsMischief",
@@ -1725,7 +1727,7 @@
                 "ExtraPassives": [
                     "BeguilingDefenses",
                     "MistyEscape",
-                    "POTION_OF_RESISTANCE_PSYCHIC"
+                    "SWTE_Passive_PsychicResistance"
                 ],
                 "Spells": [
                     "Shout_Blink",
