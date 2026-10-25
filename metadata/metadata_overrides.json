@@ -2054,14 +2054,10 @@
             "Goon_AC_Buff_1"
         ]
     },
-    "PUZ_SHA_Shadowquake_Boss_000_bf15303f-2ab5-4054-a67b-dc33c6daf2b9": {
-        "HealthOverride": 68
-    },
-    "PUZ_SHA_Shadowquake_Character_000_0781bbf9-e1cb-4487-a230-6b9a46f89a0b": {
-        "HealthOverride": 34
-    },
-    "PUZ_SHA_Shadowquake_Character_001_5fff7616-cb74-41ab-a932-74f99cc1b654": {
-        "HealthOverride": 34
+    "SWTE_SCL_JusticiarDarkwind_001_73c5085e-1134-48d4-a49e-e289a74ae96a": {
+        "Passives": [
+            "SWTE_SharranRebuke_JusticiarDarkwind"
+        ]
     },
     "S_INT_GithRoyalGuard01_2a57207b-ce9a-4472-aea2-bb94722a9c59": {
         "HealthOverride": 60
@@ -3857,7 +3853,6 @@
         ]
     },
     "S_WYR_GurCamp_GurLeader_5e52cf9c-b673-45b7-888c-2c105eb4d890": {
-        "HealthOverride": 140,
         "Spells": [
             "Target_MenacingAttack",
             "Target_Riposte"
@@ -3874,7 +3869,6 @@
         ]
     },
     "S_WYR_GurCamp_Hunter_001_a4ef7429-bca0-4e2f-9aab-a4eff9ac95e9": {
-        "HealthOverride": 120,
         "Spells": [
             "Target_MenacingAttack",
             "Target_Riposte"
@@ -3890,7 +3884,6 @@
         ]
     },
     "S_WYR_GurCamp_Hunter_002_630d63de-ae45-4649-8cbd-563b6d3055ae": {
-        "HealthOverride": 110,
         "Spells": [
             "Target_MenacingAttack",
             "Target_Riposte"
@@ -3907,7 +3900,6 @@
         ]
     },
     "S_WYR_GurCamp_Hunter_003_8948bd61-52a0-41a0-99b8-bb6d4c301255": {
-        "HealthOverride": 110,
         "Spells": [
             "Shout_RadianceOfTheDawn",
             "Target_BestowCurse",
@@ -3939,7 +3931,6 @@
         ]
     },
     "S_WYR_GurCamp_Hunter_005_afbb70d4-5cc4-444f-90b6-0d243b6418c3": {
-        "HealthOverride": 90,
         "Spells": [
             "Target_PlantGrowth",
             "Zone_ConjureBarrage_Ranged"
@@ -3953,7 +3944,6 @@
         ]
     },
     "S_WYR_GurCamp_Hunter_006_4c42f14a-c99a-4ba0-891c-136bf7ed38bb": {
-        "HealthOverride": 85,
         "Spells": [
             "Target_PlantGrowth",
             "Zone_ConjureBarrage_Ranged"

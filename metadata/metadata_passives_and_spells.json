@@ -376,6 +376,7 @@
         "Resilient_Intelligence",
         "Resilient_Strength",
         "Riposte",
+        "SWTE_SharranRebuke_JusticiarDarkwind",
         "SavageAttacker",
         "Scar_Eclipse_Gur",
         "Sentinel_Attack",
@@ -424,8 +425,6 @@
         "extraattack_3"
     ],
     "Spells": [
-        "",
-        " Target_MindWhip",
         "MAG_Frightened_Immunity_Passive",
         "MAG_Githborn_Circlet_Passive",
         "Projectile_AcidArrow",

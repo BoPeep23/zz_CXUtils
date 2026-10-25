@@ -842,7 +842,8 @@
                     "FightingStyle_GreatWeaponFighting",
                     "FightingStyle_TwoWeaponFighting",
                     "FightingStyle_Dueling",
-                    "FightingStyle_Protection"
+                    "FightingStyle_Protection",
+                    "SWTE_SecondWind_PB2"
                 ],
                 "Spells": [
                     "Projectile_Jump",
@@ -855,7 +856,8 @@
                     "Indomitable_NPC",
                     "DualWielder_PassiveBonuses",
                     "ExtraAttack",
-                    "SWTE_MinimumIntelligence_15"
+                    "SWTE_MinimumIntelligence_15",
+                    "SWTE_SecondWind_PB3"
                 ],
                 "Spells": [
                     ""
@@ -865,7 +867,8 @@
                 "ExtraPassives": [
                     "ExtraAttack_2",
                     "DualWielder_BonusAC",
-                    "GreatWeaponMaster_BonusAttack"
+                    "GreatWeaponMaster_BonusAttack",
+                    "SWTE_SecondWind_PB4"
                 ],
                 "Spells": [
                     ""
@@ -1000,7 +1003,8 @@
             },
             "3": {
                 "ExtraPassives": [
-                    "MAG_EndGame_Boots_Passive"
+                    "MAG_EndGame_Boots_Passive",
+                    "MAG_Shadow_BlindImmunity_Ring_Passive"
                 ],
                 "Spells": [
                     ""
@@ -1084,19 +1088,23 @@
         "Act": {
             "1": {
                 "ExtraPassives": [
-                    "ShadowArts_MinorIllusion"
+                    "ShadowArts_MinorIllusion",
+                    "Darkvision"
                 ],
                 "Spells": [
-                    ""
+                    "Shout_Hide_ShadowArts",
+                    "Target_Darkness_Monk",
+                    "Target_Silence_Monk"
                 ]
             },
             "2": {
                 "ExtraPassives": [
                     "MAG_Monk_Armor_MountainStance_Passive",
-                    "SCL_MastiffPoachers_Ring_Passive"
+                    "SCL_MastiffPoachers_Ring_Passive",
+                    "UND_Justiciar_Helmet_Magic_Passive"
                 ],
                 "Spells": [
-                    ""
+                    "Target_LOW_HouseOfGrief_ShadowStep"
                 ]
             },
             "3": {
@@ -1105,7 +1113,8 @@
                     "UND_Justiciar_ChainShirt_Magic_Passive"
                 ],
                 "Spells": [
-                    ""
+                    "Target_ShadowStrike_Instant",
+                    "Target_ShadowStrike_Instant_Unarmed"
                 ]
             }
         }
@@ -1266,7 +1275,8 @@
             "2": {
                 "ExtraPassives": [
                     "Goon_Aura_of_Hate_Passive",
-                    "SWTE_PreArmourOfAgathys_10"
+                    "SWTE_PreArmourOfAgathys_10",
+                    "UND_Justiciar_ChainShirt_Magic_Passive"
                 ],
                 "Spells": [
                     "Zone_Fear",
@@ -1298,7 +1308,7 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "SWTE_MinimumWisdom_15"
+                    "SWTE_MinimumWisdom_17"
                 ],
                 "Spells": [
                     ""
@@ -1329,10 +1339,12 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "ExceptionalTraining",
+                    "BestialFury"
                 ],
                 "Spells": [
-                    ""
+                    "Target_RangersCompanion_Raven",
+                    "Target_RangersCompanion_Wolf"
                 ]
             },
             "3": {
@@ -1362,7 +1374,9 @@
             },
             "2": {
                 "ExtraPassives": [
-                    ""
+                    "MAG_Shadow_Blinding_Bow_Passive",
+                    "MAG_Shadow_SpellDCBonusWhileObscured_Circlet_Passive",
+                    "UND_Justiciar_Helmet_Magic_Passive"
                 ],
                 "Spells": [
                     "Projectile_EnsnaringStrike_Container"
@@ -1370,7 +1384,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "MAG_Shadow_CriticalBoostWhileObscured_Helmet_Passive"
                 ],
                 "Spells": [
                     ""
@@ -1436,7 +1450,7 @@
             },
             "3": {
                 "ExtraPassives": [
-                    ""
+                    "SWTE_MinimumCharisma_15"
                 ],
                 "Spells": [
                     ""
@@ -1467,12 +1481,14 @@
                     "DualWielder_PassiveBonuses"
                 ],
                 "Spells": [
-                    "Target_BoomingBlade"
+                    "Target_BoomingBlade",
+                    "Shout_ShadowBlade"
                 ]
             },
             "3": {
                 "ExtraPassives": [
-                    "DualWielder_BonusAC"
+                    "DualWielder_BonusAC",
+                    "SWTE_MinimumIntelligence_19"
                 ],
                 "Spells": [
                     ""
@@ -1494,7 +1510,8 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "UND_ServantOfBoooal"
+                    "UND_ServantOfBoooal",
+                    "Assassinate_Initiative"
                 ],
                 "Spells": [
                     ""
@@ -1525,7 +1542,9 @@
             },
             "2": {
                 "ExtraPassives": [
-                    "MAG_DexteritySavingThrow_Evasion"
+                    "MAG_DexteritySavingThrow_Evasion",
+                    "CrossbowExpert_Wounding",
+                    "FightingStyle_TwoWeaponFighting"
                 ],
                 "Spells": [
                     ""
