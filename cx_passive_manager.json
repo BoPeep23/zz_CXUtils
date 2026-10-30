@@ -842,13 +842,13 @@
                     "FightingStyle_GreatWeaponFighting",
                     "FightingStyle_TwoWeaponFighting",
                     "FightingStyle_Dueling",
-                    "FightingStyle_Protection",
-                    "SWTE_SecondWind_PB2"
+                    "FightingStyle_Protection"
                 ],
                 "Spells": [
                     "Projectile_Jump",
                     "Shout_ActionSurge",
-                    "Target_Shove_Trip"
+                    "Target_Shove_Trip",
+                    "SWTE_Shout_SecondWind_PB2"
                 ]
             },
             "2": {
@@ -856,22 +856,20 @@
                     "Indomitable_NPC",
                     "DualWielder_PassiveBonuses",
                     "ExtraAttack",
-                    "SWTE_MinimumIntelligence_15",
-                    "SWTE_SecondWind_PB3"
+                    "SWTE_MinimumIntelligence_15"
                 ],
                 "Spells": [
-                    ""
+                    "SWTE_Shout_SecondWind_PB3"
                 ]
             },
             "3": {
                 "ExtraPassives": [
                     "ExtraAttack_2",
                     "DualWielder_BonusAC",
-                    "GreatWeaponMaster_BonusAttack",
-                    "SWTE_SecondWind_PB4"
+                    "GreatWeaponMaster_BonusAttack"
                 ],
                 "Spells": [
-                    ""
+                    "SWTE_Shout_SecondWind_PB4"
                 ]
             }
         }
